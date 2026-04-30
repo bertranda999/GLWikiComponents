@@ -1,0 +1,339 @@
+[
+    {
+        "name": "Aerlen",
+        "images": [
+            "gl2-aerlen4.png",
+            "gl2-aerlen5.png",
+            "gl2-aerlen6.png",
+            "gl2-aerlen7.png",
+            "gl2-aerlen7.png",
+            "gl2-aerlen8.png",
+            "gl2-aerlen9.png",
+            "gl2-aerlen10.png",
+            "gl2-aerlen12.png",
+            "gl2-aerlen11.png"
+        ],
+        "bonus": "30% extra ship defense",
+        "playerEffects": [
+            {
+                "type": "Increase Defense",
+                "value": "30%"
+            }
+        ],
+        "lore": "Aerlen prefer anonymity and try to avoid conflict. Aerlen ships are very agile and difficult to target.",
+        "oldImg": "aerlen.png"
+    },
+    {
+        "name": "Human",
+        "images": [
+            "nnhuman5.png",
+            "nnhuman6.png",
+            "gl2-human3.png",
+            "gl2-human6.png",
+            "gl2-human11.png",
+            "gl2-human12.png",
+            "nnhuman1.png",
+            "nnhuman2.png",
+            "nnhuman3.png",
+            "gl2-human1.png",
+            "nnhuman4.png"
+        ],
+        "bonus": "10% bonus to experience gains",
+        "playerEffects": [
+            {
+                "type": "Increase Experience",
+                "value": "10%"
+            }
+        ],
+        "oldImg": "human.png",
+        "lore": "Humans adapt quickly to their surroundings, and fit a wide variety of roles."
+    },
+    {
+        "name": "Inergon",
+        "playerEffects": [
+            {
+                "effectType": "Increase Energy",
+                "value": "10%"
+            }
+        ],
+        "images": [
+            "ninergon1.png",
+            "ninergon2.png",
+            "ninergon4.png",
+            "ninergon5.png",
+            "ninergon6.png"
+        ],
+        "bonus": "10% extra max energy",
+        "lore": "Inergon are beings capable of absorbing energy from everything around them.",
+        "oldImg": "inergon.png"
+    },
+    {
+        "name": "Konqul",
+        "images": [
+            "nnkonqul1.png",
+            "nnkonqul2.png",
+            "nnkonqul3.png",
+            "nnkonqul4.png",
+            "nnkonqul5.png",
+            "nnkonqul6.png"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Attack",
+                "value": "20%"
+            }
+        ],
+        "bonus": "20% extra ship attack",
+        "lore": "The Konqul are a race of rigidly organized and aggressive soldiers.",
+        "oldImg": "konqul.png"
+    },
+    {
+        "name": "Sillixx",
+        "images": [
+            "gl2-n-sillixx1.png",
+            "gl2-n-sillixx2.png",
+            "gl2-n-sillixx3.png",
+            "gl2-n-sillixx4.png",
+            "gl2-n-sillixx5.png",
+            "gl2-n-sillixx6.png",
+            "gl2-n-sillixx7.png",
+            "nsillixx1.png",
+            "nsillixx2.png"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Ship Size",
+                "value": "10%"
+            }
+        ],
+        "bonus": "10% extra ship size",
+        "lore": "Sillixx are well known as proficient traders. Their ships are larger than all other races.",
+        "oldImg": "sillixx.png"
+    },
+    {
+        "name": "Vygoid",
+        "images": [
+            "nvygoid2.png",
+            "nvygoid3.png",
+            "nvygoid4.png",
+            "nvygoid1.png"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Research",
+                "value": "20%"
+            }
+        ],
+        "bonus": "20% bonus to research",
+        "lore": "The Vygoid replaced most of their original physiology with technology. They have an affinity for all scientific pursuits.",
+        "oldImg": "vygoid.png"
+    },
+    {
+        "name": "Drannik",
+        "images": [
+            "gl2-drannik3.png",
+            "gl2-drannik4.png",
+            "gl2-drannik5.png",
+            "gl2-drannik6.png",
+            "gl2-drannik7.png"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase NPC Attack",
+                "value": "40%"
+            }
+        ],
+        "lore": "The Drannik are clever machinists that know how to exploit the weaknesses of their enemies.",
+        "oldImg": "drannik.png",
+        "bonus": "40% extra ship attack against non-player enemies"
+    },
+    {
+        "name": "Zolazin",
+        "images": [
+            "nzolazin1.png",
+            "nzolazin2.png",
+            "nzolazin3.png",
+            "nzolazin5.png"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Cloak",
+                "value": "40%"
+            }
+        ],
+        "bonus": "40% bonus to cloaking",
+        "lore": "The Zolazin are advanced cyborgs that use their superior stealth to pursue their agenda.",
+        "oldImg": "zolazin.png"
+    },
+    {
+        "name": "Lazuli",
+        "images": [
+            "nlazuli1.png",
+            "nlazuli2.png",
+            "nlazuli3.png"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "50%"
+            }
+        ],
+        "bonus": "50% bonus to hull strength",
+        "lore": "The Lazuli are master ship builders, taking their skills from their former Syndicate rulers.",
+        "oldImg": "lazuli.png"
+    },
+    {
+        "name": "Genetarr",
+        "images": [
+            "gl2-genetarr3.png",
+            "gl2-genetarr4.png",
+            "gl2-genetarr5.png",
+            "gl2-genetarr6.png",
+            "gl2-genetarr7.png",
+            "gl2-genetarr8.png",
+            "gl2-genetarr9.png",
+            "gl2-genetarr13.png",
+            "gl2-genetarr14.png"
+        ],
+        "ability": {
+            "name": "Mind Influence"
+        },
+        "bonus": "Mind Influence (lowers non-player enemy attack)",
+        "lore": "The Genetarr have strong psionic abilities.",
+        "oldImg": "genetarr.png"
+    },
+    {
+        "name": "Taltherian",
+        "images": [
+            "gl2-n-taltherian2.png",
+            "gl2-n-taltherian3.png",
+            "gl2-n-taltherian4.png",
+            "gl2-n-taltherian5.png",
+            "gl2-n-taltherian6.png",
+            "gl2-n-taltherian7.png"
+        ],
+        "ability": {
+            "name": "Urbanize"
+        },
+        "bonus": "Urbanize (increases planetary artifact production)",
+        "lore": "The Taltherians have a complex history building amazing cities.",
+        "oldImg": "taltherian.png"
+    },
+    {
+        "name": "Mylarai",
+        "images": [
+            "nmylarai1.png",
+            "nmylarai2.png",
+            "nmylarai3.png",
+            "gl2-mylarai3.png",
+            "gl2-mylarai4.png",
+            "gl2-mylarai5.png",
+            "gl2-mylarai6.png",
+            "gl2-mylarai7.png",
+            "gl2-mylarai8.png"
+        ],
+        "ability": {
+            "name": "Enrich"
+        },
+        "bonus": "Enrich (increases planetary mining production)",
+        "lore": "The Mylarai are the wealthiest and most reckless miners in the galaxy.",
+        "oldImg": "mylarai.png"
+    },
+    {
+        "name": "Kronyn",
+        "images": [
+            "nkronyn1.png",
+            "nkronyn2.png",
+            "nkronyn3.png",
+            "nkronyn4.png",
+            "gl2-n-kronyn6.png",
+            "gl2-n-kronyn7.png"
+        ],
+        "ability": {
+            "name": "Erudition"
+        },
+        "bonus": "Erudition (increases planetary research production)",
+        "lore": "The Kronyn are a technocracy of brilliant scientists and engineers.",
+        "oldImg": "kronyn.png"
+    },
+    {
+        "name": "Xecti",
+        "images": [
+            "nxecti3.png",
+            "nxecti4.png",
+            "nxecti2.png",
+            "nxecti1.png",
+            "gl2-xecti1.png"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Attack When Attacked",
+                "value": "40%"
+            },
+            {
+                "type": "Increase Defense When Attacked",
+                "value": "40%"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Increase Attack When Attacked",
+                "value": "40%"
+            },
+            {
+                "type": "Increase Defense When Attacked",
+                "value": "40%"
+            }
+        ],
+        "bonus": "40% bonus to ship attack and defense while being attacked, and 40% bonus to all attack and defense on your planet colonies.",
+        "lore": "The Xecti easily react and adapt to all forms of incoming aggression.",
+        "oldImg": "xecti.png"
+    },
+    {
+        "name": "Litheor",
+        "images": [
+            "gl2-litheor9.png",
+            "gl2-litheor10.png",
+            "gl2-litheor11.png",
+            "nlitheor1.png",
+            "nlitheor2.png",
+            "nlitheor3.png"
+        ],
+        "ability": {
+            "name": "Deep-Phase Probe"
+        },
+        "bonus": "Deep-Phase Probe (builds a special structure on one of your planets)",
+        "lore": "The Litheor are a long-living race that survive underground.",
+        "oldImg": "litheor.png"
+    },
+    {
+        "name": "Uldrinan",
+        "images": [
+            "nuldrinan1.png",
+            "nuldrinan2.png",
+            "nuldrinan3.png",
+            "nuldrinan4.png",
+            "nuldrinan5.png"
+        ],
+        "ability": {
+            "name": "Uldrinan Quota"
+        },
+        "bonus": "Uldrinan Quota (provides special currency for items)",
+        "lore": "The Uldrinan hold unique territory ideal for trade and technology.",
+        "oldImg": "uldrinan.png"
+    },
+    {
+        "name": "Bahreen",
+        "images": [
+            "gl2-bahreen2.png",
+            "gl2-bahreen4.png",
+            "gl2-bahreen6.png"
+        ],
+        "ability": {
+            "name": "Luminate"
+        },
+        "lore": "The Bahreen have a special connection to Prismodne energy.",
+        "oldImg": "bahreen.png",
+        "bonus": "Luminate (transforms common planets)"
+    }
+]

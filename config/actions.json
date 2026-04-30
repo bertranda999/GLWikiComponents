@@ -1,0 +1,581 @@
+[
+    {
+        "name": "Purchase 20 GP",
+        "playerEffects": [
+            {
+                "type": "Grant GP",
+                "value": "20"
+            }
+        ]
+    },
+    {
+        "name": "Purchase 40 GP",
+        "playerEffects": [
+            {
+                "type": "Grant GP",
+                "value": "40"
+            }
+        ]
+    },
+    {
+        "name": "Purchase 90 GP",
+        "playerEffects": [
+            {
+                "type": "Grant GP",
+                "value": "90"
+            }
+        ]
+    },
+    {
+        "name": "Purchase 200 GP",
+        "playerEffects": [
+            {
+                "type": "Grant GP",
+                "value": "200"
+            }
+        ]
+    },
+    {
+        "name": "Purchase 550 GP",
+        "playerEffects": [
+            {
+                "type": "Grant GP",
+                "value": "550"
+            }
+        ]
+    },
+    {
+        "name": "Fully Recharge All Energy",
+        "cost": {
+            "gp": "10"
+        },
+        "playerEffects": [
+            {
+                "type": "Refill Energy"
+            }
+        ]
+    },
+    {
+        "name": "Fully Repair Hull",
+        "cost": {
+            "gp": "3"
+        },
+        "playerEffects": [
+            {
+                "type": "Fully Repair Hull"
+            }
+        ]
+    },
+    {
+        "name": "Fully Recharge Shields",
+        "cost": {
+            "gp": "3"
+        },
+        "playerEffects": [
+            {
+                "type": "Fully Recharge Shields"
+            }
+        ]
+    },
+    {
+        "name": "Get 5 Random Artifacts",
+        "cost": {
+            "gp": "3"
+        }
+    },
+    {
+        "name": "Spin the Galaxy Wheel",
+        "cost": {
+            "gp": "10"
+        }
+    },
+    {
+        "name": "Change your Race & Profession",
+        "cost": {
+            "gp": "20"
+        },
+        "playerEffects": [
+            {
+                "type": "Change your Race & Profession"
+            }
+        ]
+    },
+    {
+        "name": "Cast Votes",
+        "conditionalCost": [
+            {
+                "condition": "1 Vote",
+                "Influence": "200"
+            },
+            {
+                "condition": "2 Votes",
+                "Influence": "1,100"
+            },
+            {
+                "condition": "3 Votes",
+                "Influence": "4,200"
+            },
+            {
+                "condition": "4 Votes",
+                "Influence": "14,000"
+            },
+            {
+                "condition": "5 Votes",
+                "Influence": "32,000"
+            }
+        ]
+    },
+    {
+        "name": "Grow Genes",
+        "rewards": [
+            {
+                "reward": "Genes",
+                "min": "4",
+                "max": "10"
+            }
+        ]
+    },
+    {
+        "name": "Collect Daily Reward",
+        "rewardsRandom": [
+            {
+                "reward": "Tri-Emblem Matrix"
+            },
+            {
+                "reward": "Research",
+                "value": "4 hours production"
+            },
+            {
+                "reward": "Mining",
+                "value": "4 hours production"
+            },
+            {
+                "reward": "Energy Cube"
+            },
+            {
+                "reward": "Geolifter",
+                "count": "4"
+            }
+        ]
+    },
+    {
+        "name": "Collect Supporter Bonus",
+        "rewardsRandom": [
+            {
+                "reward": "Aeon Chronoprism"
+            },
+            {
+                "reward": "Caretaker's Villa"
+            },
+            {
+                "reward": "Concordant Catalyst"
+            },
+            {
+                "reward": "Conductor's Villa"
+            },
+            {
+                "reward": "Custodian's Villa"
+            },
+            {
+                "reward": "Diplomat's Villa"
+            },
+            {
+                "reward": "Exarch's Proclamation"
+            },
+            {
+                "reward": "Guardian's Vaill"
+            },
+            {
+                "reward": "Overseer's Villa"
+            },
+            {
+                "reward": "Steward's Villa"
+            },
+            {
+                "reward": "Xeno-Genesis Catalyst"
+            },
+            {
+                "reward": "Star Chart Purger",
+                "count": "11"
+            },
+            {
+                "reward": "Star Chart Purger",
+                "count": "22"
+            },
+            {
+                "reward": "Star Chart Purger",
+                "count": "42"
+            },
+            {
+                "reward": "Terraforming Device"
+            }
+        ]
+    },
+    {
+        "name": "Complete Evolution"
+    },
+    {
+        "name": "Expand Decks",
+        "playerEffects": [
+            {
+                "type": "Increase Ship Size",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "name": "Expand Cargo Holds",
+        "playerEffects": [
+            {
+                "type": "Increase Cargo Space",
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "name": "Recruit Engineers",
+        "playerEffects": [
+            {
+                "type": "Increase Engineers",
+                "count": "2"
+            }
+        ]
+    },
+    {
+        "name": "Recruit Tactical Officers",
+        "playerEffects": [
+            {
+                "type": "Increase Tactical Officers",
+                "count": "2"
+            }
+        ]
+    },
+    {
+        "name": "Recruit Helmsmen",
+        "playerEffects": [
+            {
+                "type": "Increase Helmsmen",
+                "count": "2"
+            }
+        ]
+    },
+    {
+        "name": "Recruit Scientists",
+        "playerEffects": [
+            {
+                "type": "Increase Scientists",
+                "count": "3"
+            }
+        ]
+    },
+    {
+        "name": "Use Player Artifacts"
+    },
+    {
+        "name": "Set Ship Repair Setting"
+    },
+    {
+        "name": "Set Alerts Settings"
+    },
+    {
+        "name": "Set Button Styles Setting"
+    },
+    {
+        "name": "Set Race Images Setting"
+    },
+    {
+        "name": "Restart Tutorial"
+    },
+    {
+        "name": "Perform Specific Tutorial"
+    },
+    {
+        "name": "Set Ship Title"
+    },
+    {
+        "name": "Set Ship Design"
+    },
+    {
+        "name": "Set Shield Flair"
+    },
+    {
+        "name": "Set Name Frame Flair"
+    },
+    {
+        "name": "Set Ship Effect Flair"
+    },
+    {
+        "name": "Set Name Effect Flair"
+    },
+    {
+        "name": "Colonize Planet",
+        "cost": {
+            "Credits": "1k * (Planets Occupied ^ 3)"
+        },
+        "note": "The cost is based on the Planets Occupied stat, not your actual planet count, which differs due to a bug."
+    },
+    {
+        "name": "Attack Planet",
+        "cost": {
+            "Credits": "2k * (Planets Occupied ^ 3)"
+        },
+        "note": "The cost is based on the Planets Occupied stat, not your actual planet count, which differs due to a bug."
+    },
+    {
+        "name": "Invade Planet"
+    },
+    {
+        "name": "Build New Structure"
+    },
+    {
+        "name": "Alert Planet"
+    },
+    {
+        "name": "Use Your Planet Artifact"
+    },
+    {
+        "name": "Use Unoccupied Planet Artifact"
+    },
+    {
+        "name": "Use Enemy Planet Artifact"
+    },
+    {
+        "name": "Abandon Colony",
+        "cost": {
+            "GP": "5"
+        }
+    },
+    {
+        "name": "Flag Planet"
+    },
+    {
+        "name": "Use Planet-Based Ability"
+    },
+    {
+        "name": "Use Structure Ability"
+    },
+    {
+        "name": "Use Ability"
+    },
+    {
+        "name": "Scan Planet"
+    },
+    {
+        "name": "Promote Legion Member"
+    },
+    {
+        "name": "Demote Legion Member"
+    },
+    {
+        "name": "Kick Legion Member"
+    },
+    {
+        "name": "Set Legion Symbol"
+    },
+    {
+        "name": "Set Legion Symbol Color"
+    },
+    {
+        "name": "Set Legion Description"
+    },
+    {
+        "name": "Accept Treaty Request"
+    },
+    {
+        "name": "Decline Treaty Request"
+    },
+    {
+        "name": "Break Treaty"
+    },
+    {
+        "name": "Create New Recruitment Posting"
+    },
+    {
+        "name": "Share Legion Invite"
+    },
+    {
+        "name": "Claim Training Reward"
+    },
+    {
+        "name": "Change Training Settings"
+    },
+    {
+        "name": "Repair Base"
+    },
+    {
+        "name": "Increase Base Mining"
+    },
+    {
+        "name": "Increase Base Research"
+    },
+    {
+        "name": "Increase Base Artifact"
+    },
+    {
+        "name": "Build New Base Module"
+    },
+    {
+        "name": "Sell Base Module"
+    },
+    {
+        "name": "Contribute Energy to Base"
+    },
+    {
+        "name": "Contribute CTP to Base"
+    },
+    {
+        "name": "Contribute EM to Base"
+    },
+    {
+        "name": "Deposit Credits Into Base"
+    },
+    {
+        "name": "Use Base Artifacts"
+    },
+    {
+        "name": "Use Base Abilities"
+    },
+    {
+        "name": "Use Base Module"
+    },
+    {
+        "name": "Change Base Name"
+    },
+    {
+        "name": "Change Base Design"
+    },
+    {
+        "name": "Reallocate Base Prooduction Points",
+        "cost": {
+            "GP": "25"
+        }
+    },
+    {
+        "name": "Join Legion"
+    },
+    {
+        "name": "Progress Mission"
+    },
+    {
+        "name": "Join LM Task"
+    },
+    {
+        "name": "Skip Daily Challenge",
+        "cost": {
+            "GP": "6"
+        }
+    },
+    {
+        "name": "Purchase from Markets"
+    },
+    {
+        "name": "Alert NPC"
+    },
+    {
+        "name": "Attack NPC"
+    },
+    {
+        "name": "Use NPC Artifact"
+    },
+    {
+        "name": "Use NPC-Based Ability"
+    },
+    {
+        "name": "Attack Player"
+    },
+    {
+        "name": "Hack Player"
+    },
+    {
+        "name": "Raid Player"
+    },
+    {
+        "name": "Use Enemy Player Artifact"
+    },
+    {
+        "name": "Attack Base"
+    },
+    {
+        "name": "Use Enemy Base Artifact"
+    },
+    {
+        "name": "Receive Minerals"
+    },
+    {
+        "name": "Receive Artifact"
+    },
+    {
+        "name": "Stack All Artifacts"
+    },
+    {
+        "name": "Sell Minerals"
+    },
+    {
+        "name": "Give Minerals"
+    },
+    {
+        "name": "Sell All Minerals"
+    },
+    {
+        "name": "Scrap Artifacts"
+    },
+    {
+        "name": "Send Artifacts"
+    },
+    {
+        "name": "Edit Artifact Loadouts"
+    },
+    {
+        "name": "Unlock Loadout Slot",
+        "conditionalCost": [
+            {
+                "GP": "19"
+            }
+        ]
+    },
+    {
+        "name": "Purge Materials"
+    },
+    {
+        "name": "Give Materials"
+    },
+    {
+        "name": "Bid"
+    },
+    {
+        "name": "Auction Artifacts"
+    },
+    {
+        "name": "Auction Materials"
+    },
+    {
+        "name": "Research Topic",
+        "cost": {
+            "Research": "Up to the amount needed to finish the topic"
+        }
+    },
+    {
+        "name": "Perform Research Contract",
+        "cost": {
+            "Research": "All"
+        }
+    },
+    {
+        "name": "Influence Zone"
+    },
+    {
+        "name": "Convene Council"
+    },
+    {
+        "name": "Link Google"
+    },
+    {
+        "name": "Link Discord"
+    },
+    {
+        "name": "Link Facebook"
+    },
+    {
+        "name": "Connect GL: Apotheosis"
+    }
+]

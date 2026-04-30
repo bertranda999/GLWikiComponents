@@ -1,0 +1,760 @@
+[
+    {
+        "name": "The Chuhn (2025)",
+        "seasonalEventType": "Chuhn",
+        "img": "logos/chuhn-banner-2025.png",
+        "lore": "A group of intergalactic merchants called the Chuhn have entered the galaxy to explore and trade. Their visit is temporary, and ships are encouraged to take advantage of new trading opportunities while they are passing through. The Chuhn visited once, long ago, and seem to know a few details about the galaxy's ancient history.<br><br>During The Chuhn visit, the following effects apply to the entire Galaxy:<br>Scrapping artifacts for Complex Tech Parts will yield additional parts.<br>All tariffs and auction charges have doubled.<br>Merchants that complete Daily Missions will earn bonus 'Star Chart Purger' artifacts.<br>When scanning for planets, you have a chance of receiving Complex Tech Parts based on your rank, or discovering a 'Market Interchange Beacon'.<br>Colonizing 'Average' or smaller planets will sometimes attract a 'Chuhn Orbital Freeport'.The 'Chuhn Ingress' Zone is available to influence.",
+        "start": "August 27th, 2025",
+        "end": "September 28th, 2025",
+        "effects": [
+            {
+                "effectType": "Increase CTP Scrap Yields",
+                "value": "25%"
+            },
+            {
+                "effectType": "Change Tariffs",
+                "value": "+100%"
+            },
+            {
+                "effectType": "Scanning Drop",
+                "drops": [
+                    {
+                        "drop": "Complex Tech Parts"
+                    },
+                    {
+                        "drop": "Market Interchange Beacon"
+                    }
+                ]
+            }
+        ],
+        "newMedals": [
+            "A Chuhn Immersion",
+            "Scrapyard Reverie",
+            "Extragalactic Connections",
+            "Merchants Guild Agreements",
+            "A Bazaar Obsession",
+            "A Scrap of Profit",
+            "High-Yield Salvage",
+            "Mercantile Claim",
+            "Private Shipping"
+        ],
+        "npcs": [
+            "Chuhn Merchant",
+            "Chuhn Trade Liner"
+        ],
+        "planetaryEvents": [
+            "Chuhn Orbital Freeport"
+        ],
+        "artifactMarket": [
+            {
+                "item": "Chuhn Salvage Arm V10 Upgrade",
+                "cost": "151"
+            },
+            {
+                "item": "Chuhn InterMarket Caster",
+                "cost": "21"
+            },
+            {
+                "item": "Chuhn Translink X7 Omni-Gridlink",
+                "cost": "79"
+            },
+            {
+                "item": "Chuhn Trading MegaHub Upgrade",
+                "cost": "19"
+            },
+            {
+                "item": "Chuhn Trading Forum",
+                "cost": "22"
+            },
+            {
+                "item": "Chuhn Scrapyard Upgrade",
+                "cost": "24"
+            },
+            {
+                "item": "Chuhn Exo-Logistics Center",
+                "cost": "36"
+            },
+            {
+                "item": "Chuhn Scrapyard",
+                "cost": "36"
+            },
+            {
+                "item": "Chuhn Salvage Arm",
+                "cost": "74"
+            },
+            {
+                "item": "Chuhn Transgalactic Comm",
+                "cost": "115"
+            },
+            {
+                "item": "Chuhn Trading Post Upgrade",
+                "cost": "19"
+            },
+            {
+                "item": "Xondrite Fuse-Sync",
+                "cost": "131"
+            },
+            {
+                "item": "Xondrite Matrixes",
+                "cost": "131"
+            },
+            {
+                "item": "Chuhn Salvage Arm V8 Upgrade",
+                "cost": "139"
+            },
+            {
+                "item": "Chuhn Exo-Logistics Gridport Upgrade",
+                "cost": "29"
+            },
+            {
+                "item": "Chuhn Xondrite Adapter",
+                "cost": "152"
+            },
+            {
+                "item": "Chuhn Salvage Arm V9 Upgrade",
+                "cost": "153"
+            },
+            {
+                "item": "Chuhn Salvage Arm V3 Upgrade",
+                "cost": "66"
+            },
+            {
+                "item": "Chuhn Salvage Arm V4 Upgrade",
+                "cost": "71"
+            },
+            {
+                "item": "Chuhn Salvage Arm V5 Upgrade",
+                "cost": "75"
+            },
+            {
+                "item": "Chuhn Salvage Arm V10 Upgrade",
+                "cost": "151"
+            },
+            {
+                "item": "Chuhn Salvage Arm V6 Upgrade",
+                "cost": "99"
+            },
+            {
+                "item": "Chuhn Salvage Arm V7 Upgrade",
+                "cost": "123"
+            },
+            {
+                "item": "Chuhn Salvage Arm V2 Upgrade",
+                "cost": "61"
+            },
+            {
+                "item": "Chuhn Salvage Arm Upgrade",
+                "cost": "55"
+            },
+            {
+                "item": "Chuhn Translink X6 Omni-Merger",
+                "cost": "79"
+            },
+            {
+                "item": "Chuhn Translink X5 Merger",
+                "cost": "79"
+            },
+            {
+                "item": "Chuhn Translink X4 Connector",
+                "cost": "79"
+            },
+            {
+                "item": "Chuhn Translink X3 Connector",
+                "cost": "79"
+            },
+            {
+                "item": "Chuhn Translink X2 Connector",
+                "cost": "79"
+            },
+            {
+                "item": "Chuhn Translink Connector",
+                "cost": "79"
+            }
+        ]
+    },
+    {
+        "name": "Divergent Escapes (2026)",
+        "seasonalEventType": "Synesthetic,Q-Pedd,Lepus",
+        "img": "",
+        "summary": "",
+        "start": "Feb 20 2026",
+        "end": "Feb 28 2026",
+        "lore": "The chaotic and converging movements of Synthetic and Bio-Mechanical species greatly increases tensions and conflict in the area.",
+        "newMedals": [
+            "The Synesthetic Convergence",
+            "Divergent Migrations",
+            "Fusion of Identities"
+        ],
+        "scanDiscoveries": [
+            "Divergent Entity"
+        ],
+        "additionalEffectDescription": "Synesthetic medals become available during the seasonal overlap period."
+    },
+    {
+        "name": "The Streveldan Exodus",
+        "seasonalEventType": "Q-Pedd",
+        "lore": "Scientists experimenting with robotic A.I. 'companions' made an unfortunate error in the bots' affection algorithms, causing these 'Q-Pedds' to rebel and flee in nearby science transport ships. The Q-Pedds took much of the related equipment with them.<br><br>Q-Pedd synthetic variants, calling themselves the 'Streveldans', are seeking to escape the region from their creators.",
+        "start": "Jan 23 2026",
+        "end": "Feb 28 2026",
+        "newMissions": [
+            "Streveldan Sovereignty"
+        ],
+        "npcs": [
+            "Q-Pedd Escapee",
+            "QPP1-L05, Q-Pedd Prototype",
+            "Q-Pedd 1_0V3 Probe"
+        ],
+        "scanDiscoveries": [
+            "Hyperluminal Readings",
+            "Streveldan Probe Bay"
+        ],
+        "planetEvents": [
+            "Streveldan Landing Site"
+        ],
+        "influenceZone": [
+            "Streveldan Refuge (2026)"
+        ],
+        "dailyReward": {
+            "remove": [
+                "Research",
+                "Mining"
+            ],
+            "add": [
+                "Double Research",
+                "Double Mining"
+            ]
+        },
+        "markets": [
+            "Artifact Market",
+            "Battle Market"
+        ],
+        "serviceTerminal": [
+            "Aura of Affection"
+        ],
+        "petitionerSuite": [
+            "Distributed Consensus"
+        ],
+        "medals": [
+            "Tunnels of Love",
+            "Challenging Connections",
+            "Love Endures",
+            "Exodus Accession",
+            "Research Guild Agreements",
+            "Heartfelt Reclamation",
+            "Patching Friendships",
+            "Merging Onward",
+            "Autoform Resonance",
+            "The Streveldan Colonies"
+        ],
+        "dailyChallenges": [
+            "Amorous Infrastructure",
+            "Bonding Ritual",
+            "Synthetic Overrides"
+        ],
+        "additionalEffectDescription": "A variety of Q-Pedd artifacts will now appear in standard artifact shipments<br>Colonizing planets will sometimes attract Streveldan Colonists looking for a place to land",
+        "commonArtifacts": [
+            {
+                "name": "Q-Pedd Abettor",
+                "cost": "2,000"
+            },
+            {
+                "name": "Q-Pedd Informant",
+                "cost": "1,500"
+            },
+            {
+                "name": "Q-Pedd Largesse",
+                "cost": "1,500"
+            },
+            {
+                "name": "Q-Pedd Operative",
+                "cost": "2,000"
+            },
+            {
+                "name": "Streveldan Bond-Key",
+                "cost": "4,400"
+            },
+            {
+                "name": "Streveldan Connector",
+                "cost": "5,400"
+            },
+            {
+                "name": "Streveldan Inhibitor",
+                "cost": "5,400"
+            },
+            {
+                "name": "Streveldan Schematics",
+                "cost": "2,400"
+            }
+        ],
+        "artifactMarket": [
+            {
+                "item": "Emotion Simulator 12.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "FR13-ND, Q-Pedd Companion",
+                "cost": "130"
+            },
+            {
+                "item": "Q-Pedd Field Generator 14.0 Upgrade",
+                "cost": "72"
+            },
+            {
+                "item": "Q-Pedd Station Extension (2026)",
+                "cost": "4"
+            },
+            {
+                "item": "Q-Pedd Science Station 15.0",
+                "cost": "49"
+            },
+            {
+                "item": "Streveldan Auto-Drones 2.0 Upgrade",
+                "cost": "49"
+            },
+            {
+                "item": "Q-Pedd Ansible 11.0 Upgrade",
+                "cost": "67"
+            },
+            {
+                "item": "Q-Pedd Affinity Tunnel",
+                "cost": "21"
+            },
+            {
+                "item": "Streveldan Convocation Nexus",
+                "cost": "42"
+            },
+            {
+                "item": "Streveldan Auto-Drones",
+                "cost": "79"
+            },
+            {
+                "item": "Emotion Simulator 8.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 5.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 9.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 6.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 10.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 7.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 11.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 4.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 3.0 Upgrade",
+                "cost": "77"
+            },
+            {
+                "item": "Emotion Simulator 2.0 Upgrade",
+                "cost": "72"
+            },
+            {
+                "item": "Emotion Simulator Upgrade",
+                "cost": "66"
+            },
+            {
+                "item": "Q-Pedd Field Generator 13.0 Upgrade",
+                "cost": "70"
+            },
+            {
+                "item": "Q-Pedd Emotion Simulator",
+                "cost": "56"
+            },
+            {
+                "item": "Q-Pedd Field Generator 12.0 Upgrade",
+                "cost": "70"
+            },
+            {
+                "item": "Q-Pedd Field Generator 11.0 Upgrade",
+                "cost": "70"
+            },
+            {
+                "item": "Q-Pedd Field Generator 10.0 Upgrade",
+                "cost": "68"
+            },
+            {
+                "item": "Q-Pedd Field Generator 9.0 Upgrade",
+                "cost": "66"
+            },
+            {
+                "item": "Q-Pedd Field Generator 8.0 Upgrade",
+                "cost": "65"
+            },
+            {
+                "item": "Q-Pedd Field Generator 7.0 Upgrade",
+                "cost": "63"
+            },
+            {
+                "item": "Q-Pedd Field Generator 6.0 Upgrade",
+                "cost": "62"
+            },
+            {
+                "item": "Q-Pedd Field Generator 5.0 Upgrade",
+                "cost": "60"
+            },
+            {
+                "item": "Q-Pedd Field Generator 4.0 Upgrade",
+                "cost": "58"
+            },
+            {
+                "item": "Q-Pedd Field Generator 3.0 Upgrade",
+                "cost": "56"
+            },
+            {
+                "item": "Q-Pedd Field Generator 2.0 Upgrade",
+                "cost": "52"
+            },
+            {
+                "item": "Q-Pedd Field Generator",
+                "cost": "68"
+            },
+            {
+                "item": "Q-Pedd Ansible 10.0 Upgrade",
+                "cost": "66"
+            },
+            {
+                "item": "Q-Pedd Ansible 9.0 Upgrade",
+                "cost": "64"
+            },
+            {
+                "item": "Q-Pedd Ansible 8.0 Upgrade",
+                "cost": "64"
+            },
+            {
+                "item": "Q-Pedd Ansible 7.0 Upgrade",
+                "cost": "63"
+            },
+            {
+                "item": "Q-Pedd Ansible 6.0 Upgrade",
+                "cost": "62"
+            },
+            {
+                "item": "Q-Pedd Ansible 5.0 Upgrade",
+                "cost": "62"
+            },
+            {
+                "item": "Q-Pedd Ansible 4.0 Upgrade",
+                "cost": "61"
+            },
+            {
+                "item": "Q-Pedd Ansible 3.0 Upgrade",
+                "cost": "60"
+            },
+            {
+                "item": "Q-Pedd Ansible 2.0 Upgrade",
+                "cost": "58"
+            },
+            {
+                "item": "Q-Pedd Ansible Upgrade",
+                "cost": "50"
+            },
+            {
+                "item": "Q-Pedd Ansible",
+                "cost": "58"
+            }
+        ],
+        "battleMarket": [
+            {
+                "item": "Streveldan CogNode",
+                "blues": "264",
+                "mp": "4,400"
+            }
+        ]
+    },
+    {
+        "name": "The Lepus Cluster",
+        "seasonalEventType": "Lepus",
+        "start": "20 Feb 2026",
+        "end": "11 Apr 2026",
+        "lore": "Colonies near the Lepus Cluster have reported sightings of strange Bio-Mechanical entities, along with a message from their creators.",
+        "npcs": [
+            "Bio-Con Alpha, Lepus Elite",
+            "Bio-Con Minor, Lepus Elite",
+            "Bio-Con Prime, Lepus Base",
+            "Bio-Con X32, Lepus Elite",
+            "C-34 Hypersync, Lepus Base",
+            "Chromathis, Lepus Agent"
+        ],
+        "scanDiscoveries": [
+            "Lepus Bio-Nest",
+            "Auric Lepus Bio-Nest",
+            "Supel Sensor Readings"
+        ],
+        "influenceZone": [
+            "Lepus Cluster"
+        ],
+        "dailyReward": {
+            "add": [
+                "Chromatic Lepus Egg 15.0"
+            ]
+        },
+        "serviceTerminal": [
+            "Chromatic Coating"
+        ],
+        "petitionerSuite": [
+            "Bio-Mechanics Accord"
+        ],
+        "newMedals": [
+            "Biomech Containment",
+            "Challenging Awakenings",
+            "Idealized Bio-Mechanization",
+            "Interphased Accession",
+            "Chromatic Boundaries",
+            "Interphase Transit",
+            "Biomech Reclamation",
+            "Auric Certainty",
+            "Parasitic Proliferation",
+            "A Golden Introduction"
+        ],
+        "dailyChallenges": [
+            "Parasitic Quandary",
+            "Biomech Infrastructure",
+            "Sensoral Linking"
+        ],
+        "aeonMarket": [
+            {
+                "item": "Supel Incubator",
+                "cost": "7",
+                "mp": "5500"
+            }
+        ],
+        "artifactMarket": [
+            {
+                "item": "Cuniculus Systems Upgrade XII",
+                "cost": "74"
+            },
+            {
+                "item": "Chromatic Cannon 14.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromavault Exolock (2026)",
+                "cost": "12"
+            },
+            {
+                "item": "Supel Biomech Hangar",
+                "cost": "22"
+            },
+            {
+                "item": "Chromatic Lepus Egg 16.0",
+                "cost": "42"
+            },
+            {
+                "item": "Supel Interphase Portal",
+                "cost": "42"
+            },
+            {
+                "item": "Supel ChromaVault",
+                "cost": "39"
+            },
+            {
+                "item": "Cuniculus, Lepus Adjutant",
+                "cost": "126"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade XI",
+                "cost": "74"
+            },
+            {
+                "item": "Chromatic Teleporter",
+                "cost": "76"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade X",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade IX",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade VIII",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade VII",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade VI",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade V",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade IV",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade III",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade II",
+                "cost": "66"
+            },
+            {
+                "item": "Cuniculus Systems Upgrade",
+                "cost": "66"
+            },
+            {
+                "item": "Chromatic Cannon 13.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 12.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 11.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 10.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 9.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 8.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 7.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 6.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 5.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 4.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 3.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon 2.0 Upgrade",
+                "cost": "39"
+            },
+            {
+                "item": "Chromatic Cannon",
+                "cost": "58"
+            }
+        ]
+    },
+    {
+        "name": "Cycle of Fools (2026)",
+        "seasonalEventType": "Fools",
+        "start": "1 Apr 2026",
+        "end": "2 Apr 2026",
+        "lore": "During this part of the cycle, many ships deploy mischievous holographic disguises as they venture through the galaxy...",
+        "dailyReward": {
+            "add": [
+                "Space Object Holo-Disguise"
+            ],
+            "remove": [
+                "All"
+            ]
+        }
+    },
+    {
+        "name": "Galactic Civicordium (2026)",
+        "seasonalEventType": "Galactic Civicordium",
+        "start": "12 Apr 2026",
+        "end": "12 May 2026",
+        "lore": "The Civicordium is an interstellar organization that provides a forum for governments to coordinate, establish agreements, and maintain diplomatic relations.<br><br>During these cycles, special envoys are dispatched to expand participation and bring forward new matters for assembly.",
+        "additionalEffectDescription": "Influence costs for Galactic Voting reduced by 20%.<br>Influence costs to Convene the Galactic Council reduced by 9%.<br>Energy costs to influence Zones reduced by 30%.",
+        "newMissions": [
+            "Civicordium Potentials"
+        ],
+        "artifactMarket": [
+            {
+                "name": "Valtheon, Civicordium Envoy",
+                "cost": "119"
+            },
+            {
+                "name": "Diplomatic Transponder",
+                "cost": "68"
+            },
+            {
+                "name": "Empyreal Citadel Upgrade",
+                "cost": "18"
+            },
+            {
+                "name": "Antigrav Citadel",
+                "cost": "19"
+            }
+        ],
+        "newMedals": [
+            "Challenging Mediation",
+            "Political Potential",
+            "Distributed Delegation",
+            "Diplomatic Claim",
+            "Council of Seven",
+            "Sky Metropolis",
+            "Political Reclamation",
+            "Empyreal Biospheres",
+            "Interspecies Communique",
+            "Envoy's Favor"
+        ],
+        "playerEffects": [
+            {
+                "type": "Reduce Voting Cost",
+                "value": "20%"
+            },
+            {
+                "type": "Reduce Council Cost",
+                "value": "9%"
+            },
+            {
+                "type": "Reduce Zone Energy Cost",
+                "value": "30%"
+            }
+        ],
+        "influenceZone": "Civicordium Summit",
+        "supporterBonus": {
+            "add": [
+                "Consensus of Fire"
+            ]
+        },
+        "petitionerSuite": [
+            "Special Session Directive"
+        ],
+        "commonArtifacts": [
+            {
+                "name": "Political Endorsement",
+                "cost": "6,900"
+            }
+        ]
+    }
+]

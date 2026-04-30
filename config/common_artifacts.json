@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Alarm Sentry",
+        "cost": "1,000"
+    },
+    {
+        "name": "Alien Data Disc",
+        "cost": "700"
+    },
+    {
+        "name": "Ancient Crystal Foci",
+        "cost": "400"
+    },
+    {
+        "name": "Android Helmsman",
+        "cost": "2,000"
+    },
+    {
+        "name": "Android Scientist",
+        "cost": "1,800"
+    },
+    {
+        "name": "Calming Amplifier",
+        "cost": "900"
+    },
+    {
+        "name": "Cloning Pods",
+        "cost": "400"
+    },
+    {
+        "name": "Containment Cage",
+        "cost": "600"
+    },
+    {
+        "name": "Containment Missile",
+        "cost": "850"
+    },
+    {
+        "name": "Continuum Beacon",
+        "cost": "5,000"
+    },
+    {
+        "name": "Crimson Obelisk",
+        "cost": "900"
+    },
+    {
+        "name": "Dark Pyramid",
+        "cost": "350"
+    },
+    {
+        "name": "Disarming Bomb",
+        "cost": "900"
+    },
+    {
+        "name": "Drannik Saboteur",
+        "cost": "1,600"
+    },
+    {
+        "name": "Durtanium Brackets",
+        "cost": "1,800"
+    },
+    {
+        "name": "EMP Sphere",
+        "cost": "900"
+    },
+    {
+        "name": "Engineered Virus",
+        "cost": "500"
+    },
+    {
+        "name": "Flux Probe",
+        "cost": "250"
+    },
+    {
+        "name": "Grav-Whip Trap",
+        "cost": "1,500"
+    },
+    {
+        "name": "Grid Console",
+        "cost": "700"
+    },
+    {
+        "name": "Halcyon Trap",
+        "cost": "1,500"
+    },
+    {
+        "name": "Ion Repulsor Charge",
+        "cost": "900"
+    },
+    {
+        "name": "Ion Storm Charge",
+        "cost": "900"
+    },
+    {
+        "name": "Krionus Virus Trap",
+        "cost": "1,000"
+    },
+    {
+        "name": "Longevity Serum",
+        "cost": "1,000"
+    },
+    {
+        "name": "Mass Storage Pod",
+        "cost": "20,000"
+    },
+    {
+        "name": "Nanite Swarm Capsules",
+        "cost": "750"
+    },
+    {
+        "name": "Neural Interface",
+        "cost": "3,500"
+    },
+    {
+        "name": "Null Fuse",
+        "cost": "2,000"
+    },
+    {
+        "name": "Omicron Mine Trap",
+        "cost": "1,000"
+    },
+    {
+        "name": "Phase Cutter Chassis",
+        "cost": "1,000"
+    },
+    {
+        "name": "Planetary Time Vortex",
+        "cost": "550"
+    },
+    {
+        "name": "Planet Vortex Deflector",
+        "cost": "900"
+    },
+    {
+        "name": "Positron Clouder",
+        "cost": "400"
+    },
+    {
+        "name": "Processing Core Chassis",
+        "cost": "2,000"
+    },
+    {
+        "name": "Quantum Firewall Trap",
+        "cost": "1,200"
+    },
+    {
+        "name": "Quantum Flare",
+        "cost": "500"
+    },
+    {
+        "name": "Refining Lab Chassis",
+        "cost": "2,000"
+    },
+    {
+        "name": "Relay Tower Chassis",
+        "cost": "2,000"
+    },
+    {
+        "name": "Repair Nanodrones",
+        "cost": "300"
+    },
+    {
+        "name": "Rescued Prisoners",
+        "cost": "4,000"
+    },
+    {
+        "name": "Sentry Guards",
+        "cost": "1,000"
+    },
+    {
+        "name": "Shield Amplifier",
+        "cost": "1,200"
+    },
+    {
+        "name": "Shield Restorer",
+        "cost": "350"
+    },
+    {
+        "name": "Shield Sentries",
+        "cost": "1,200"
+    },
+    {
+        "name": "Ship-Bot",
+        "cost": "3,000"
+    },
+    {
+        "name": "Space Elevator Chassis",
+        "cost": "1,000"
+    },
+    {
+        "name": "Spy Probe - Defenses",
+        "cost": "250"
+    },
+    {
+        "name": "Spy Probe - Resources",
+        "cost": "600"
+    },
+    {
+        "name": "Spy Probe - Weapons",
+        "cost": "250"
+    },
+    {
+        "name": "Spy Uplink Chassis",
+        "cost": "1,000"
+    },
+    {
+        "name": "Star Chart Purger",
+        "cost": "1,000"
+    },
+    {
+        "name": "Subspace Seeker",
+        "cost": "2,000"
+    },
+    {
+        "name": "Tachyon Cylinder",
+        "cost": "700"
+    },
+    {
+        "name": "Tesseract Container",
+        "cost": "1,750"
+    },
+    {
+        "name": "Time Manipulator",
+        "cost": "750"
+    },
+    {
+        "name": "Unstable Wormhole Emitter",
+        "cost": "2,100"
+    },
+    {
+        "name": "Void Shell",
+        "cost": "550"
+    },
+    {
+        "name": "Warp Gate Chassis",
+        "cost": "4,000"
+    },
+    {
+        "name": "XCharge Cells",
+        "cost": "1,800"
+    }
+]

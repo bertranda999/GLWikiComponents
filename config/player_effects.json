@@ -1,0 +1,34 @@
+{
+    "Player Effects": [
+        {
+            "type": "Player Effect",
+            "name": "Boost Research Storage",
+            "desc": "Boosts research storage",
+            "params": {
+                "duration": "How long it lasts; this can also specify non-time based periods, like \"While this race with that evolution\"",
+                "amount": "The amount increase",
+                "notes": ""
+            }
+        },
+        {
+            "type": "Player Effect",
+            "name": "Grants",
+            "desc": "Grants something",
+            "params": {
+                "items": "Array of what it grants and the min and max amounts"
+            }
+        },
+        {
+            "type": "Player Effect",
+            "name": "Grants (Random)",
+            "desc": "",
+            "params": {
+                "items": "Array of options, min and max amount, and the chance"
+            }
+        },
+        {
+            "type": "Player Effect",
+            "name": "Reset Grow Genes Timer"
+        }
+    ]
+}

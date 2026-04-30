@@ -1,0 +1,190 @@
+[
+    {
+        "name": "Chromatic Cannon 10.0",
+        "summary": "Attack +1225",
+        "desc": "None",
+        "section": "Weapons",
+        "upkeep": "230 M",
+        "size": "15",
+        "energy": "0",
+        "shield": "0",
+        "attack": "1225",
+        "defense": "0",
+        "scan": "0",
+        "cloak": "0",
+        "limit": "2",
+        "ability": {
+            "Cooldown": "12 hours",
+            "desc": "Amplifies your attack against enemy bases by 24%.<br>This effect is immune to removal from other artifacts.<br>Lasts 4 hours.",
+            "Duration": "4 hours",
+            "type": "Increase Base Attack",
+            "Value": "24%",
+            "Button Text": "Use"
+        }
+    },
+    {
+        "name": "Chromatic Cannon 11.0",
+        "summary": "Attack +1475",
+        "desc": "None",
+        "section": "Weapons",
+        "upkeep": "230 M",
+        "size": "15",
+        "energy": "0",
+        "shield": "0",
+        "attack": "1475",
+        "defense": "0",
+        "scan": "0",
+        "cloak": "0",
+        "limit": "2",
+        "ability": {
+            "Cooldown": "12 hours",
+            "desc": "Amplifies your attack against enemy bases by 26%.<br>This effect is immune to removal from other artifacts.<br>Lasts 4 hours.",
+            "Duration": "4 hours",
+            "type": "Increase Base Attack",
+            "Value": "26%",
+            "Button Text": "Use"
+        }
+    },
+    {
+        "name": "Chromatic Cannon 12.0",
+        "summary": "Attack +1750",
+        "desc": "None",
+        "section": "Weapons",
+        "upkeep": "230 M",
+        "size": "15",
+        "energy": "0",
+        "shield": "0",
+        "attack": "1750",
+        "defense": "0",
+        "scan": "0",
+        "cloak": "0",
+        "limit": "2",
+        "ability": {
+            "Cooldown": "11 hours",
+            "desc": "Amplifies your attack against enemy bases by 28%.<br>This effect is immune to removal from other artifacts.<br>Lasts 4 hours.",
+            "Duration": "4 hours",
+            "type": "Increase Base Attack",
+            "Value": "28%",
+            "Button Text": "Use"
+        }
+    },
+    {
+        "name": "Chromatic Cannon 13.0",
+        "summary": "Attack +2100",
+        "desc": "None",
+        "section": "Weapons",
+        "upkeep": "230 M",
+        "size": "15",
+        "energy": "0",
+        "shield": "0",
+        "attack": "2100",
+        "defense": "0",
+        "scan": "0",
+        "cloak": "0",
+        "limit": "2",
+        "ability": {
+            "Cooldown": "10 hours",
+            "desc": "Amplifies your attack against enemy bases by 30%.<br>This effect is immune to removal from other artifacts.<br>Lasts 4 hours.",
+            "Duration": "4 hours",
+            "type": "Increase Base Attack",
+            "Value": "30%",
+            "Button Text": "Use"
+        }
+    },
+    {
+        "name": "Chromatic Cannon 14.0",
+        "summary": "Special",
+        "desc": "Attack:2500, Increases Enemy Base damage cap by 3%",
+        "section": "Weapons",
+        "upkeep": "230 M",
+        "size": "15",
+        "energy": "0",
+        "shield": "0",
+        "attack": "2500",
+        "defense": "0",
+        "scan": "0",
+        "cloak": "0",
+        "limit": "2",
+        "playerEffects": [
+            {
+                "type": "Increase Base Damage Cap",
+                "Value": "3%"
+            }
+        ],
+        "ability": {
+            "Cooldown": "9 hours",
+            "desc": "Amplifies your attack against enemy bases by 33%.<br>This effect is immune to removal from other artifacts.<br>Lasts 5 hours.",
+            "Duration": "5 hours",
+            "type": "Increase Base Attack",
+            "Value": "33%",
+            "Button Text": "Use"
+        }
+    },
+    {
+        "type": "Module",
+        "name": "Chuhn Salvage Arm V10",
+        "summary": "Special",
+        "desc": "Passive Bonuses: <u>Main</u>: Increases scrap rewards by 72%<br> <u>Glean</u>: scrap rewards are sometimes increased by 720% instead of the main bonus</h3>",
+        "section": "Hull",
+        "upkeep": "213.7 M",
+        "size": "22",
+        "energy": "0",
+        "shield": "0",
+        "attack": "0",
+        "defense": "0",
+        "scan": "0",
+        "cloak": "0",
+        "limit": "2",
+        "playerEffectsRandom": [
+            {
+                "type": "Increase Scrap Yield",
+                "Value": "72%"
+            },
+            {
+                "type": "Increase Scrap Yield",
+                "Value": "720%"
+            }
+        ]
+    },
+    {
+        "name": "Dark Smuggler Chassis",
+        "playerEffects": [
+            {
+                "type": "Apply Design",
+                "design": "Dark Smuggler"
+            }
+        ]
+    },
+    {
+        "name": "Quantum Projector",
+        "summary": "Special",
+        "desc": "Reduces your ship upkeep by 11%.",
+        "section": "Devices",
+        "upkeep": "5M",
+        "size": "440",
+        "limit": "1",
+        "playerEffects": [
+            {
+                "type": "Reduce Upkeep",
+                "Value": "11%"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Quantum Projector",
+                "desc": "Reduces timers for your Daily Award and Supporter Bonus by 11 hours each.<br>Costs 3 Prismodyne Energy",
+                "cost": {
+                    "Prismodyne Energy": "3"
+                },
+                "Cooldown": "2 days, 22 hours",
+                "Button Text": "Use",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Daily Reward and Supporter Bonus Timer",
+                        "Value": "11 hours"
+                    }
+                ]
+            }
+        ]
+    }
+]

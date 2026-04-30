@@ -1,0 +1,814 @@
+Domain:General
+
+	Section:Alert Planets
+		Show and Tell
+		Reveal and Revel
+		
+	Section:Anniversary
+		Back in my day...
+		A long road to get here
+		Nostalgic Voyage
+		Ardent Adventurer
+		Path of the Devoted
+		Furthering your Legacy
+		Destiny Discovered
+		The Transcendent Few
+		Wisdom of the Ages
+		Crossing the Infinite
+		Imprint of Creation
+		The Duodecix Alignment
+		The Rites of the Luminous
+		
+	Section:Apotheosis
+		The Timeline Interfold
+		Reach of Tomorrows
+		Channels of Apotheosis
+		
+	Section:Ascendancy
+		Ascendant Tiers
+		Tiers in Rain
+		
+	Section:Complete Evolutions
+		Evolutionary Dynamics
+		Evolutionary Diversity
+		Evolutionary Mastery
+		Evolutionary Universalist
+		Trees of Life
+		Branches of Adaptation
+		
+	Section:Convene Council
+		Council of Seven
+		Council of Unity
+		
+	Section:Corruption
+		Dark Visions
+		Dark Influence
+		Look Deeper into the Eye...
+
+	Section:Daily Challenges
+		A Challenger Approaches
+		The Challenger's Guide
+		Trials of the Challenger
+		Challenging Determination
+		Ritual of the Challenger
+		
+	Section:Disable Players
+		First Contact
+		Warming up the cannons
+		Nothing personal
+		Menace to the Galaxy
+		Obliteration Protocol
+		Reaper of the Stars
+		
+	Section:Disable NPCs
+		Gaining some notoriety
+		Revenge of the captured
+		Our former oppressors
+		Seeing Red
+		Hacker vs Hacker
+		If you want something done right...
+		
+	Section:Disable Special NPC
+		Larva. Why'd it have to be Larva?
+		The Elusive Smuggler
+		Dark Exchanges
+		
+	Section:Finish Chain
+		Empty, the opposite of full
+		There's been an incident...
+		Thanks for all the fish
+		It's a Trap!
+		The Transcendence
+		I'll be back...
+		The Neverending Saga
+		Wrinkles in Time
+		The Resemblance is Uncanny
+		Taken Alive...
+		Welcome to the Team
+		The Derelict
+		The Expanse
+		Did You Hear Something?
+		The Cost of War
+		The Lutuma
+		The Uninvited
+		Fateful Games
+		
+	Section:Hack
+		Neophyte
+		Another Rootkit
+		Black Hat
+		Unrivaled Elite
+		Digital Shadows
+		Omni-Decryption Mastery
+		
+	Section:Influence Zone
+		Regional Advisory
+		Suzerain Authority
+		Galactic Proconsul
+		Farselle Dominus
+		Burgeoning Partnerships
+		
+	Section:Invincible Planets (GP)
+		Exotic Transformation
+		Dyson Transformer
+		Rift Transformer
+		
+	Section:Legion Missions
+		Close Encounters
+		Close Encounters of the Other Kind
+		Champion of Darmos
+		Coils of Time
+		Cerulean Diplomacy
+		TitanCore Re-Emergence
+		The Ace Strategist
+		Shared Adventures
+		A Worthy Participant
+		The MVP
+		
+	Section:New Planet Types
+		Shattered Horizons
+		Reliquary of Ages
+		
+	Section:Planetary Event Ability
+		Conquered Mandate
+		Event Horizons
+		Novel Creations
+		Sites of Tranquility
+		Vexira's Sight
+		Micro-Gravity Occurrences
+		Rulers of the Vaults
+		
+	Section:Prismatic
+		Prismatic Dawn
+		Prismatic Eclipse
+		Prismatic Twilight
+		Bridge to Prismoda
+		
+	Section:Races
+		Daily Perspectives
+		Can't get you out of my mind
+		Silent but deadly
+		Mind Over Matter
+		The Enriched
+		The Erudite
+		Under Pressure
+		The Urbane
+		
+	Section:Radiant Teachings
+		Radiant Teachings - Volume I
+		Radiant Teachings - Volume 2
+		Radiant Teachings - Volume 3
+		Radiant Teachings - Volume 4
+		
+	Section:Raid Ships
+		Equal Opportunity
+		Boarding Party
+		Intruder Alert
+		The Cleaning Crew
+		My Cargo Runneth Over
+		Freight Expectations
+		Haul of Fame
+		
+	Section:Rank
+		Welcome, Cadet
+		Of course, Commander.
+		View from up high
+		The Pinnacle
+		
+	Section:Recruit
+		Exo-Galactic Recruitment
+		Squad Goals
+		The Entourage
+		Recruitment Drive
+		
+	Section:Research
+		Eureka!
+		Lab Assistant
+		Knowledge is Power
+		Hypothetically Speaking...
+		She Blinded Me With Research
+		In Your Infinite Wisdom
+		Deepest Thought
+		
+	Section:Scan
+		Frontier Explorer
+		Deep Explorer
+		Galactic Traveler
+		Eye of the Universe
+		The Omniscient
+		Sensor Awakenings
+		Sensor Sensibility
+
+	Section:Ship Size
+		David doesn't stand a chance
+		It's Huge!
+		Spire of Command
+		Apex Authority
+	
+	Section:Suzerain
+		Zonal Pressure
+		Zonal Dominance
+		Galactic Supremacy
+		Ruler of Farselle
+
+	Section:Vote
+		Civic Engagement
+		Civic Alignment
+		Civic Authority
+		Voting Bloc
+
+	Section:Other GP
+		Watching the Clock
+		New Opportunities
+		Daddy Issues
+		Come at me, bro.
+		Villas of Prestige
+		Neo-Horizons
+
+	Section:Other
+		Firewall? What Firewall?
+		Exo-Galactic Trading
+		Back on your feet, Soldier
+		Structured Isolation
+		Sure Plays a Mean Pinball
+		Clear Skies
+		Restraining Order
+		Deep Meditation
+		Worker's Comp
+		Choices, choices.
+		Illicit Activities
+		Warez my backup?
+		Now you see them...
+		Rebellious Recapture
+		Playing Dead
+		Radiant Beings
+		Prismatic Connection
+		Timeline Pertubations
+		Cognizant Frontier
+		Barrier-Schematic Mastery
+		Argent Heists
+		Citadels of the Elements
+		The Great Link
+		Leaving your mark on the world
+		Pervasive Mandate
+		Uplifting Appraisals
+		King of the Hill
+		King of the Hill 2.0
+		Ascendant Awakening
+		The Lone Conqueror
+		Reality Stitching
+		Reality Vetting
+		Community Ambassador
+
+Domain:Q-Pedd
+
+	Section:Ansible / Field Generator (GP)
+		Be Mine
+		Be All Mine
+		Be Forever Mine
+		True Love
+		True Romance
+		Heart to Heart
+		A True Connection
+		Merging Together
+		Merging Forever
+		Inseparable Feelings
+		Merging Onward
+		
+	Section:Autoform
+		Autoform Consensus
+		Autoform Resonance
+		
+	Section:Calm
+		A Star of Calm
+		A Galaxy of Calm
+		A Galaxy of Peace		
+		
+	Section:Daily Challenges
+		Challenging Connections
+		
+	Section:Influence Zone
+		Exodus Claim
+		Exodus Accession
+	
+	Section:NPC Under Effects
+		A Valentine Gift
+		Love Hurts
+		Love Forgives
+		Love Thrives
+		Love Endures
+		
+	Section:Receive Artifact
+		Best of Friends
+		Best of Collaborators
+		Best of Cohorts
+		Best of Allies
+		Best of Colleagues
+		Best of Companions
+		Best of Confidants
+		
+	Section:Repair Legion Member
+		Mending Hearts
+		Mending the Creators
+		
+	Section:Science Station
+		Science Guild Agreements
+		Research Guild Agreements		
+		
+	Section:Scrap
+		Heartfelt Reclamation
+
+	Section:Other GP
+		Colony Guild Agreements
+		Patching Friendships
+		Tunnels of Love
+
+	Section:Other
+		Love was once a gas
+		Q-Pedd Obsession
+		Lovers Quarrel
+		Spreading Threatening Data
+		Disseminating Hope
+		Versions of Love
+		The Streveldan Colonies
+
+Domain:Lepus
+		
+	Section:Bio-Mechanization (GP)
+		Complete Bio-Mechanization
+		Advanced Bio-Mechanization
+		Hyper Bio-Mechanization
+		Evolved Bio-Mechanization
+		Optimized Bio-Mechanization
+		Synthesized Bio-Mechanization
+		Idealized Bio-Mechanization
+		
+	Section:Chromatic (GP)
+		Chromatic Coverage
+		Chromatic Dominion
+		Chromatic Dawn
+		Chromatic Boundaries
+		
+
+	Section:Daily Challenges
+		Challenging Awakenings
+
+	Section:Disable Auric Drone
+		A Golden Hunt
+		A Golden Quest
+		A Golden Adventure
+		A Golden Pursuit
+		A Golden Legacy
+		A Golden Triumph
+		A Golden Destiny
+		A Golden Revelation
+		A Golden Emergence
+		A Golden Awakening
+		A Golden Arrival
+		A Golden Meeting
+		A Golden Reunion
+		A Golden Introduction
+
+	Section:Influence Zone
+		Interphased Claim
+		Interphased Accession
+		
+	Section:Lepus Messenger
+		Hidden Hands
+		Mark of the Creators
+		The Messenger Conduit
+
+	Section:Open Eggs
+		Auric Assurances
+		Auric Guarantees
+		Auric Promises
+		Auric Trust
+		Auric Credit
+		Auric Openings
+		Auric Revelry
+		Auric Immersion
+		Auric Certainty
+
+	Section:Receive Artifact
+		Sensory Excitation
+		Sensory Determination
+
+	Section:Remove Parasite
+		One for the Team
+		Parasitic Embrace
+		Parasitic Proliferation
+		
+	Section:Scan
+		Nesting Instinct
+		Nesting Season
+		Auric Touch
+
+	Section:Scrap
+		Biomech Reclamation
+
+	Section:Other GP
+		Biomech Containment
+		Adaptive Behavior
+		Spacing Guild Agreements
+		Interphase Transit
+		
+	Section:Other
+		Breaking the Shell
+		Fecund Signals
+		Lepus Disruption
+		Lepus Clustered
+		A Kernel of Truth
+		Hexatic Coalescence
+		Chromatic Replication
+		Curious Arrivals
+		Microhaven Tethering
+
+Domain:Civicordium
+
+	Section:Daily Challenges
+		Challenging Mediation
+
+	Section:Influence Zone
+		Diplomatic Claim
+		
+	Section:Scrap
+		Political Reclamation
+
+	Section:Other GP
+		Empyreal Biospheres
+		Envoy's Favor
+		Interspecies Communique
+		Sky Metropolis
+
+	Section:Other
+		Council of Seven
+		Diplomatic Claim
+		Political Potential
+		
+Domain:Genoform
+
+	Section:Influence Zone
+		Genoform Claim
+	
+	Section:Scan:
+		Growing Potential
+	
+	Section:Other GP
+		Phylogenetic Alignments
+		Cloning Guild Agreements
+		
+	Section:Other
+		Lifeform Patterning
+		Biospheric Diversity
+		
+Domain:Elios
+		
+	Section:Cyclopean Lens / Warp Ring
+		Getting Hot in Here
+		Here Comes the Sun
+		Hottest Tech
+		Hottest Upgrades
+		Fire Within
+		Radiant Collection
+		Illuminating Collection
+		
+	Section:Elios Migration
+		The Elios Migration
+		The Elios Diaspora
+		
+	Section:Influence Zone
+		Migratory Claim
+		
+	Section:Infrastructure
+		Sparks Connected
+		The Deep Dig
+		Grid of Power
+		Skyward Developments
+		Sparks Resisted
+		Heated Infrastructure
+		Fervent Infrastructure
+		Heliothermic Adaptation
+		
+	Section:Legion Missions
+		Bright Opportunist
+		Cunning Opportunist
+		Siladon Whispers
+		Siladon Pressures
+		
+	Section:Scan
+		Can't take the heat
+		Arc of the Sun
+		
+	Section:Sparkrunner Static
+		Sparks Fly
+		Sparks Ignite
+		Sparking Interference
+		Sparking Dissent
+		
+	Section:Other GP
+		Seeing the Light
+		Flares of Insight
+		
+	Section:Other
+		Fully Charged
+		From the Ashes
+		Rising Temperatures
+		Thermal Uplift
+		Heliosyne Distribution
+		Power Guild Agreements
+		The Elios Factions
+		Solar Compressions
+		
+Domain:Chuhn
+	
+	Section:Bazaar
+		How Bazaar
+		How Bazaar, How Bazaar
+		A Very Bazaar Experience
+		The Most Bazaar Collection
+		An Extremely Bazaar Assortment
+		An Amazingly Bazaar Selection
+		A Bazaar Reality
+		A Bazaar Transformation
+		A Bazaar Revelation
+		A Bazaar Possession
+		A Bazaar Compulsion
+		A Bazaar Obsession
+		
+	Section:Influence Zone
+		Mercantile Claim
+		
+	Section:Menagerie
+		Museums of War
+		
+	Section:Re-negotiate
+		Market Forces
+		Market Dominance
+		Market Primacy
+		
+	Section:Recycle (GP)
+		A Scrap of Hope
+		A Scrap of Profit
+		
+	Section:Salvage Arm / Translink (GP)
+		Chuhn Connections
+		Chuhn Networking
+		Extragalactic Routing
+		Extragalactic Tuning
+		Extragalactic Fusion
+		Extragalactic Connections
+		
+	Section:Scrap
+		Scrapyard Reverie
+		High-Yield Salvage
+		High-Energy Salvage
+		Windfall Reclamation
+		
+	Section:The Chuhn
+		Fair Trade
+		
+	Section:Other GP
+		The Chuhn Deal
+		Do you Recycle?
+		A Chuhn Paradise
+		A Chuhn Epiphany
+		A Chuhn Enlightenment
+		Merchants Guild Agreements
+		A Chuhn Immersion
+		
+	Section:Other
+		Bizian Revelations
+		Goridian Hangover
+		Galactic Interchange
+		The Spice Must Flow
+		Greater Disturbances
+		Wells of the Block
+		Temporal Resonations
+		Private Shipping
+		
+Domain:Bane
+
+	Section:Disable Standard Bane
+		Trick or Treat
+		
+	Section:Hypershroud / Turret
+		Higher Terror
+		Something Wicked
+		This Way Comes...
+		Evil Entities
+		Haunting Revelations
+		Ominous Epiphanies
+		
+	Section:Influence Zone
+		Infernal Claim
+		
+	Section:Invade
+		Dark Takeover
+		Divisive Takeover
+		Coveted Takeover
+		5-Alarm Incursion
+		Vile Encounters
+		Fire and Brimstone
+		Living Nightmare
+		Toil and Trouble
+		Heated Aftermath
+		Unending Horrors
+		Dark Descendants
+		Heated Dominance
+		Dark Offspring
+		Heated Despair
+		Nocturne Depths
+		Infinite Nightmares
+		Terrors of Oblivion
+		
+	Section:Scrap
+		Pyres of Evil
+		
+	Section:Traps Tripped
+		A Bag of Heads
+		A Bag of Tricks
+		
+	Section:Other GP
+		Enveloping Villainy
+		Shattered Darkness
+		Apparitious' Aspect
+		Vile Agreements
+		Darkening Echoes
+		
+	Section:Other
+		Phage Development
+		Evil Transformation
+		Dark Whispers
+		As the Krow Flies
+		Unfathomable Destruction
+		Infernal Containment
+		The Final Seal
+
+Domain:Harvest
+
+	Section:Colonize
+		Planetary Harvest
+		Habitable Harvest
+		Hostile Harvest
+		Evolving Harvest
+		Planetary Collection
+		Planetary Gravitation
+		Full Harvest
+		Planetary Isolation
+		Planetary Solitude
+		Protected Harvest
+		Enigmatic Harvest
+		
+	Section:Era of Harvest
+		The Era of Harvest
+		The Harvest Ritual
+		The Harvest Obsession
+		The Harvest Fixation
+		The Harvest Compulsion
+		The Harvest Principle
+		The Harvest Patterning
+		
+	Section:Harvest Aegis / Shield
+		Bountiful Harvest
+		Prime Shielding
+		Reaping the Harvest
+		Pushing the Boundaries
+		Expanding the Circle
+		Expanding the Grid
+		Shields of the Verdant
+		Shields of the Protector
+		
+	Section:HyperNexus Power Shunt
+		Nature's Protection
+		Nature's Wrath
+		
+	Section:Influence Zone
+		Outsider's Accession
+		Outsider's Claim
+		
+	Section:Ravyn
+		Sileena's Fate
+		Archotage Colonization
+		Deep Cover
+		Archotage Triangulation
+		Quoth the Ravyn
+		Hidden Outposts
+		Sileena's Sacrifice
+		Form of the Ravyn
+		
+	Section:Scan
+		Harvested Potential
+		Neutronium Terraforming
+		
+	Section:Scrap
+		Habitat Reclamation
+		
+	Section:Universal Omni-Harvester
+		Urban Paradise
+		Sarkonis Paradise
+		
+	Section:Other GP
+		Mining Guild Agreements
+		Territorial Clustering
+		Harvesting Guild Agreements
+		Nature's Diversity
+		
+	Section:Other
+		Terran Nature
+		Colonial Agreements
+		Universal Colonization
+		Quests of the Harvest
+		Biodome Synchrony
+		
+Domain:Scruuge
+	
+	Section:Bastion / Hypernode
+		Scruuge Favorite Things
+		Scruuge Very Favorite Things
+		Scruuge Most Favorite Things
+		Scruuge Ultimate Favorite Things
+		Scruuge Coveted Favorite Things
+		Scruuge Fantastic Things
+		Scruuge Wonderous Things
+		Scruuge Towering Things
+		Scruuge Envied Favorite Things
+		Scruuge Boundless Favorite Things
+		
+	Section:Disable Scruuge Ships
+		Naughty or Nice?
+		
+	Section:Hoarding Vaults (GP)
+		Collector's Guild Agreements
+		Curator's Guild Agreements
+		
+	Section:Influence Zone
+		Coveted Claim
+		Coveted Accession
+		
+	Section:Raid Base
+		Hullbuster Sale
+		Ultimate Heist
+		Fifth-Order Heist
+		NetherReaver Nights
+		
+	Section:Raid Players
+		Doorbuster Sale
+		Ravenous Pillaging
+		Naughty Marauding
+		Naughty Heists
+		Heist Duality
+		Heist Totality
+		
+	Section:Scan
+		Search for the Keystone
+		Keystone Mysteries
+		The Keystone Network
+		The Keystone Bridge
+		The Keystone Tunnels
+		The Keystone Pinnacle
+		The Keystone Summit
+		Snares of Density
+		
+	Section:Scrap
+		Gifted Reclamation
+		
+	Section:Thraccti
+		Loyal Piracy
+		Defector's Loyalty
+		Defector's Hideaway
+		
+	Section:Use Gifts
+		Seasonal Variety
+		Seasonal Complexity
+		Seasonal Veracity
+		Seasonal Versatility
+		
+	Section:Other GP
+		Piracy Guild Agreements
+		Taking a Toll
+		
+	Section:Other
+		Moon Reflections
+		Menacing Hijack
+		Presents and Future
+		Otherworldly Gifts
+		The Scruuge Consensus
+		Scruuge Solitude
+
+Domain:Synesthetic
+
+	Section:Complete Activities
+		The Synesthetic Crossing
+		The Synesthetic Merging
+		The Synesthetic Aligning
+		The Synesthetic Bridging
+		The Synesthetic Melding
+		The Synesthetic Convergence
+
+	Section:Other
+		Fusion of Identities
+
+Domain:Divergent Escapes
+
+	Section:Scan
+		Divergent Migrations

@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Artifacts",
+        "img": "icons/special/artifact.png",
+        "desc": "When receiving an artifact shipment, you will get a single artifact. The more points you have accumulated, the higher the chance of receiving a rarer and more powerful artifact",
+        "explanation": "Receive a shipment of random artifacts. These artifacts provide a variety of bonuses and permanent boosts.",
+        "capacity": "1k * Planets Occupied stat (which may not match your actual owned planets)",
+        "storageStat": "aps",
+        "relatedStats": [
+            "ap",
+            "bap"
+        ]
+    },
+    {
+        "name": "Influence",
+        "img": "icons/influence.png",
+        "desc": "Influence can be increased by building influence structures on eligible planets, and increasing planetary availability with Charters.",
+        "explanation": "Influence does not appear naturally on planets. Further, it requires special planning to build planets with significant Influence. Spend it on Zones, convening the Council, Voting, and other actions.",
+        "capacity": "22 * Planets Occupied stat (which may not match your actual owned planets)",
+        "storageStat": "ips",
+        "relatedStats": [
+            "ip",
+            "bip"
+        ],
+        "usageTable": true
+    },
+    {
+        "name": "Minerals",
+        "img": "icons/mineral1.png",
+        "desc": "When receiving a shipment of minerals, the current number of units will be converted into actual minerals and put directly in your cargo",
+        "explanation": "Receive a shipment of Minerals. Structures and Modules can require these Minerals for construction, or you can sell these minerals for Credits.",
+        "capacity": "500 * Planets Occupied stat (which may not match your actual owned planets)",
+        "storageStat": "mps",
+        "relatedStats": [
+            "mp",
+            "bmp"
+        ]
+    },
+    {
+        "name": "Research",
+        "img": "icons/research.png",
+        "desc": "Research can be increased by hiring more scientists, building research structures on your planets, or redeeming Galaxy Points.",
+        "explanation": "Spend Research on research topics to unlock various items. Some missions also require Research, and eventually you can sell Research in Research Contracts.",
+        "capacity": "150 * Rank",
+        "storageStat": "rps",
+        "relatedStats": [
+            "rp",
+            "brp"
+        ],
+        "usageTable": true
+    },
+    {
+        "name": "Research Studies",
+        "img": "icons/studies3.png",
+        "desc": "Generated hourly during planetary research production.<br><br>Used for advanced missions and Legion Ascendancy (coming soon). Each planet that produces research has a chance of generating a study each hour. Higher production increases the chance. More research planets = more chances to generate studies.",
+        "explanation": "Research studies are granted by each planet individually, based on that planet's Research production. Your overall player production isn't relevant, just the production on each planet. Moreover, the chance for a planet to produce a Study isn't linear: increasing the Research on a planet gives diminishing returns. Thus, creating pure-Research planets isn't particularly effective. The exact calculation seems to be along the lines of: log(Research * 2.8 / 1000) / (10 * log(2.8)). Short version: spread out your Optimizers and make sure to construct structures that have a side of Research. A planet producing around 1k Research (maybe 1.1k, hard to ascertain for certain) will have a .1 chance of producing a study; bump this to 2.8k for a .2 chance, and about 8k for a .3 chance.",
+        "capacity": "Based on Rank. Higher Rank gives more capacity, but with diminishing returns. Specifically, 49.912 * Rank ^ .4632. This is close to 50 times the square root of your rank.",
+        "relatedStats": [
+            "rp",
+            "brp"
+        ]
+    }
+]

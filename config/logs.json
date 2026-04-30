@@ -1,0 +1,70 @@
+[
+    {
+        "message": "[Legion Member / Friend] used a [Artifact] on your ship.",
+        "filter": "Other Messages"
+    },
+    {
+        "message": "Reward Claimed [Reward Message]",
+        "filter": "Other Messages"
+    },
+    {
+        "message": "You've been promoted to Rank [Rank]",
+        "filter": "Other Messages"
+    },
+    {
+        "message": "Bonus Claimed [Bonus Message]",
+        "filter": "Other Messages"
+    },
+    {
+        "message": "Message Posted on your Comm: [Message]",
+        "filter": "Other Messages"
+    },
+    {
+        "message": "[Player] sent you an alert for the Planet: [Planet] with message: [Message]",
+        "filter": "Planetary Logs"
+    },
+    {
+        "message": "[Planet] has been conquered by [Player]!",
+        "filter": "Planetary Logs"
+    },
+    {
+        "message": "[Planet] is under attack!",
+        "filter": "Planetary Logs"
+    },
+    {
+        "message": "[Planetary Event Message]",
+        "filter": "Planetary Logs"
+    },
+    {
+        "message": "[Player] asks for your assistance with the following enemy: [NPC]",
+        "filter": "Non-Player Enemy Logs"
+    },
+    {
+        "message": "[Player] has disabled [NPC]! > Tell Your Friends [Disable Log]",
+        "filter": "Battle Logs"
+    },
+    {
+        "message": "[Player] activated the 'Bio-Con Parasite' from your ship",
+        "filter": "Battle Logs"
+    },
+    {
+        "message": "New Daily Challenge: [Daily Challenge]",
+        "filter": "Battle Logs"
+    },
+    {
+        "message": "[RP] Research Points were hacked and stolen from your database by [Player]",
+        "filter": "Battle Logs"
+    },
+    {
+        "message": "[???Raid Message]",
+        "filter": "Battle Logs"
+    },
+    {
+        "message": "[???Enemy Artifact]",
+        "filter": "Battle Logs"
+    },
+    {
+        "message": "Your ship has been disabled by [Player]!",
+        "filter": "Battle Logs"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "News Tab",
+        "desc": "News tab description.",
+        "actions": [
+            "Claim Daily Reward",
+            "Claim Supporter Bonus"
+        ],
+        "accessibleElements": [
+            "Artifact Market Window",
+            "GP Purchase Window",
+            "Seasonal Events Schedule Winow",
+            "Game Updates Window"
+        ],
+        "displays": [
+            "Seasonal Accordion",
+            "Latest Updates",
+            "Legion Announcement",
+            "Ship's Log"
+        ]
+    }
+]

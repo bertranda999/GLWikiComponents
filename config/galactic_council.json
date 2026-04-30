@@ -1,0 +1,279 @@
+[
+    {
+        "influence": "2,222",
+        "councilors": [
+            {
+                "name": "Research Scholar",
+                "desc": "A Vygoid scholar offering valuable insights from their vast knowledge base.",
+                "img": "aliens/nvygoid2.png",
+                "race": "Vygoid",
+                "reward": "Data-Lab Archives",
+                "rarity": "Common",
+                "shortName": "Scholar"
+            },
+            {
+                "name": "Mineralogist",
+                "desc": "A Litheor mineralogist sharing mining location records collected from council expeditions.",
+                "img": "aliens/nlitheor1.png",
+                "race": "Litheor",
+                "reward": "Mineral Archives",
+                "rarity": "Common",
+                "shortName": "Miner"
+            },
+            {
+                "name": "Star Chart Analyst",
+                "desc": "A Human intelligence officer sharing Star Chart data.",
+                "img": "aliens/nnhuman6.png",
+                "race": "Human",
+                "reward": "Star Chart Purger",
+                "min": "8",
+                "max": "20",
+                "rarity": "Common",
+                "shortName": "Star Charts"
+            }
+        ]
+    },
+    {
+        "influence": "3,300",
+        "councilors": [
+            {
+                "name": "Relic Archivist",
+                "desc": "A Genetarr elder sharing access to artifact records and archives shared by the council.",
+                "img": "aliens/gl2-genetarr13.png",
+                "race": "Genetarr",
+                "reward": "Relic Archives",
+                "rarity": "Uncommon",
+                "shortName": "Relics"
+            }
+        ]
+    },
+    {
+        "influence": "4,200",
+        "councilors": [
+            {
+                "name": "Gene Archivist",
+                "desc": "An Aerlen geneticist sharing valuable records from council archives.",
+                "img": "aliens/gl2-aerlen12.png",
+                "race": "Aerlen",
+                "reward": "Gene Archives",
+                "rarity": "Common",
+                "shortName": "Geneticist"
+            }
+        ]
+    },
+    {
+        "influence": "7,200",
+        "councilors": [
+            {
+                "name": "Sensor Specialist",
+                "desc": "A Konqul sensor specialist sharing observatory data.",
+                "img": "aliens/nnkonqul5.png",
+                "race": "Konqul",
+                "reward": "Observatory Archives",
+                "rarity": "Uncommon",
+                "shortName": "Sensors"
+            }
+        ]
+    },
+    {
+        "influence": "11,000",
+        "councilors": [
+            {
+                "name": "Seismic Analyst",
+                "desc": "A Litheor seismic analyst sharing valuable geological data from council surveys.",
+                "img": "aliens/vlitheor1.png",
+                "race": "Litheor",
+                "reward": "Consensus of Fire",
+                "rarity": "Uncommon",
+                "seasonal": "Civicordium",
+                "shortName": "Seismic"
+            },
+            {
+                "name": "Political Attache",
+                "desc": "A Kronyn political attaché offering influence from council allies.",
+                "img": "aliens/nkronyn3.png",
+                "race": "Kronyn",
+                "reward": "Civicordium Platform",
+                "rarity": "Uncommon",
+                "seasonal": "Civicordium",
+                "shortName": "Attache"
+            },
+            {
+                "name": "Power Warden",
+                "desc": "An Inergon warden sharing access to emergency energy reserves.",
+                "img": "aliens/ninergon4.png",
+                "race": "Inergon",
+                "reward": "Energy Cube",
+                "rarity": "Uncommon",
+                "shortName": "Warden"
+            }
+        ]
+    },
+    {
+        "influence": "20,880",
+        "remove": [
+            "Star Chart Analyst"
+        ]
+    },
+    {
+        "influence": "22,000",
+        "councilors": [
+            {
+                "name": "Chronomaster",
+                "desc": "A Tenebrisian overseer granting access to time-manipulation technology and knowledge.",
+                "img": "aliens/tenebrisian.png",
+                "race": "Tenebrisian",
+                "reward": "Aeon Chronoprism",
+                "min": "1",
+                "max": "3",
+                "rarity": "Uncommon",
+                "shortName": "Chrono"
+            },
+            {
+                "name": "Master of Keys",
+                "desc": "An Uldrinan consul offering access to mysterious locations and challenges known to the council.",
+                "img": "aliens/nuldrinan5.png",
+                "race": "Uldrinan",
+                "reward": "Labyrinth Sigil",
+                "rarity": "Uncommon",
+                "shortName": "Keymaster"
+            },
+            {
+                "name": "Uplift Specialist",
+                "desc": "A Taltherian specialist overseeing planetary terraforming and uplift projects.",
+                "img": "aliens/gl2-n-taltherian6.png",
+                "race": "Taltherian",
+                "reward": "Terraforming Device",
+                "rarity": "Rare",
+                "shortName": "Uplift"
+            },
+            {
+                "name": "Civicordium Minister",
+                "desc": "A Sillixx minister sharing privileged information from Civicordium sources.",
+                "img": "aliens/nsillixx2.png",
+                "race": "Sillixx",
+                "reward": "Civicordium Charter",
+                "rarity": "Uncommon",
+                "seasonal": "Civicordium",
+                "shortName": "Minister"
+            }
+        ]
+    },
+    {
+        "influence": "24,176",
+        "remove": [
+            "Mineralogist"
+        ]
+    },
+    {
+        "influence": "26,000",
+        "councilors": [
+            {
+                "name": "Diplomatic Envoy",
+                "desc": "A Drannik envoy providing access to key diplomatic locations.",
+                "img": "aliens/gl2-drannik3.png",
+                "race": "Drannik",
+                "reward": "Hall of Delegates",
+                "rarity": "Rare",
+                "shortName": "Envoy"
+            }
+        ]
+    },
+    {
+        "influence": "27,473",
+        "remove": [
+            "Research Scholar"
+        ]
+    },
+    {
+        "influence": "28,000",
+        "councilors": [
+            {
+                "name": "Mining Specialist",
+                "desc": "A Mylarai Miner offering potent tools from council mining operations.",
+                "img": "aliens/nmylarai1.png",
+                "race": "Mylarai",
+                "reward": "Toxic Purifier",
+                "min": "2",
+                "max": "5",
+                "rarity": "Uncommon",
+                "shortName": "Mining"
+            }
+        ]
+    },
+    {
+        "influence": "29,000",
+        "councilors": [
+            {
+                "name": "Records Archivist",
+                "desc": "A Zolazin curator providing access to council archive infrastructure.",
+                "img": "aliens/nzolazin5.png",
+                "race": "Zolazin",
+                "reward": "Gallery of Records",
+                "rarity": "Rare",
+                "shortName": "Archivist"
+            },
+            {
+                "name": "Consular Advisor",
+                "desc": "A skilled Aerlen advisor sharing insights from council deliberations.",
+                "img": "aliens/gl2-aerlen9.png",
+                "race": "Aerlen",
+                "reward": "Consular Sigil",
+                "rarity": "Rare",
+                "shortName": "Advisor"
+            }
+        ]
+    },
+    {
+        "influence": "32,000",
+        "councilors": [
+            {
+                "name": "Chancery Expansionist",
+                "desc": "A Human expansionist sharing colonial expansion plans and resources.",
+                "img": "aliens/nhuman2.png",
+                "race": "Human",
+                "reward": "Chancery Quarter",
+                "rarity": "Rare",
+                "shortName": "Chancery"
+            },
+            {
+                "name": "Forum Senator",
+                "desc": "A Lazuli senator approving generous council grants and forum access.",
+                "img": "aliens/nlazuli3.png",
+                "race": "Lazuli",
+                "reward": "Forum of Realms",
+                "rarity": "Rare",
+                "shortName": "Senator"
+            }
+        ]
+    },
+    {
+        "influence": "32,967",
+        "remove": [
+            "Relic Archivist"
+        ]
+    },
+    {
+        "influence": "42,000",
+        "councilors": [
+            {
+                "name": "Spacial Theorist",
+                "desc": "A Bahreen theorist sharing advanced spatial research and technology.",
+                "race": "Bahreen",
+                "reward": "Quasi-Spacial Isolator",
+                "rarity": "Mythical",
+                "shortName": "Theorist",
+                "img": "aliens/gl2-bahreen6.png"
+            },
+            {
+                "name": "Court Magistrate",
+                "desc": "Court of Eternity",
+                "race": "Xecti",
+                "reward": "Court of Eternity",
+                "rarity": "Rare",
+                "shortName": "Magistrate",
+                "img": "aliens/nxecti2.png"
+            }
+        ]
+    }
+]

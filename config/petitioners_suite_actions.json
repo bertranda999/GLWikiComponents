@@ -1,7 +1,21 @@
-{
-	"Action":[
-		{
-			"name":"Supply Dispersion Initiative"
-		}
-	]
-}
+[
+	{
+		"name": "Bio-Mechanics Accord",
+		"cost": {
+			"ctp": "600",
+			"influence": "11,000"
+		},
+		"desc": "Influences allies to pool bio-mechanical data and resources.<br>Increases mining storage by 6% for 20 hours, and refreshes your timer to grow Evolution Genes",
+		"img": "petition-lepus1.png",
+		"playerEffects": [
+			{
+				"type": "Reset Grow Genes Cooldown"
+			},
+			{
+				"type": "Increase Mining Storage",
+				"value": "6%",
+				"duration": "20 hours"
+			}
+		]
+	}
+]

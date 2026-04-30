@@ -1,0 +1,18 @@
+[
+    {
+        "type": "Planet Effect",
+        "name": "Add Planet-Based Ability",
+        "parameters": [
+            "abilityName",
+            "duration"
+        ]
+    },
+    {
+        "type": "Planet Effect",
+        "name": "Boost All Production",
+        "parameters": [
+            "amount",
+            "duration"
+        ]
+    }
+]

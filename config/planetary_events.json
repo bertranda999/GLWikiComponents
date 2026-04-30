@@ -1,0 +1,606 @@
+[
+    {
+        "type": "Planetary Event",
+        "name": "Akulan Entity",
+        "effects": [
+            {
+                "effectType": "Blockade",
+                "npc": "Akulan Entity",
+                "duration": "No Duration"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/alert.png"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Ancient Relics",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/ruins1.jpg",
+        "desc": "[Planet] reports that Ancient Relics have been discovered on the planet. Artifact production on the planet will increase by 10% for 1 week.",
+        "effects": [
+            {
+                "effectType": "Increase Artifact Production",
+                "value": "10%",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Archotage Power Grid",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/missions/archotage.jpg",
+        "desc": "[Planet] reports that an Archotage Power Grid was being used on the planet by the Terran Outsiders!",
+        "effects": [
+            {
+                "effectName": "Archotage Power Grid",
+                "effectType": "Increase All Production",
+                "value": "1%",
+                "duration": "Permanent"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Bane Coercion",
+        "desc": "[Planet] reports that the captured populace is under the terrifying fear of the Bane threat. Productivity has increased, and the planet will produce 10% more resources for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/banecoerce.jpg",
+        "duration": "1 week",
+        "effects": [
+            {
+                "effectName": "Bane Coercion",
+                "effectType": "Increase All Production",
+                "value": "10%"
+            }
+        ]
+    },
+    {
+        "name": "Black Market",
+        "desc": "[Planet] has developed an underground secretive Black Market. Artifact production on the planet will increase by 15% for 1 week.",
+        "img": "planets/effects/bmarket1.gif",
+        "duration": "1 week",
+        "effects": [
+            {
+                "effectType": "Increase Artifact Production",
+                "value": "15%"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Chuhn Orbital Freeport",
+        "desc": "[Planet] report that the Chuhn have established an Orbital Freeport above the new colony. A new ability is available on the planet for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/freeport1.gif",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Chuhn Orbital Freeport",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Cognisphere Librarium",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Cognisphere Librarium",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Convocation of Peace",
+        "desc": "[Planet] has been designated as a site for the revered Convocation of Peace ceremony. A new ability is available on the planet for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/convoke1.gif",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Convocation of Peace",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Dark Ritual Site",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Dark Ritual Site",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/darkritual1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Devastated Landscape",
+        "desc": "[Planet] has taken significant surface damage from the recent invasion. Building costs have doubled on this planet for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/destroyed.jpg",
+        "effects": [
+            {
+                "effectType": "Increase Building Costs",
+                "value": "100%",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Devastating Floods",
+        "desc": "[Planet] has reported devastating floods triggered by the recent invasion. All production is reduced 90% for 20 days.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/dflood1.jpg",
+        "effects": [
+            {
+                "effectType": "Decrease All Production",
+                "value": "90%",
+                "duration": "20 days"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Diplomatic Summit",
+        "desc": "[Planet] has been designated as a site to host a large Diplomatic Summit. All influence on the planet will increase by 20% for 1 week.",
+        "effects": [
+            {
+                "effectType": "Increase Influence Production",
+                "value": "20%",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/dsummit1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Emergent Sentarch",
+        "desc": "[Planet] reports that a benevolent Emergent Sentarch has gained sentience. A new ability is available on the planet for 1 week.",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Emergent Sentarch",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/sentarch1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Enigmatic Aperture (Event)",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Enigmatic Aperture (Ability)",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/eportal1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Fractal Anomaly",
+        "desc": "[Planet] reports that a strange Fractal Anomaly has appeared on the surface. A new ability is available on the planet for 1 week.",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Fractal Anomaly (Ability)",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/fractal1.gif"
+    },
+    {
+        "name": "Gaia Sporewell",
+        "desc": "[Planet] scientists report discovery of a rare Gaia Sporewell on the lush surface. A new ability is available on the planet for 1 week.",
+        "duration": "1 week",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Gaia Sporewell",
+                "duration": "1 week"
+            }
+        ],
+        "img": "planets/effects/sporewell1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Ignean Furnace",
+        "desc": "[Planet] reports that they have developed around a natural Ignean Furnace that has risen from the crust. A new ability is available on the planet for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/ifurnace1.gif",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Ignean Furnace",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Influential Traveler",
+        "desc": "[Planet] reports that a powerful and Influential Traveler has arrived on the planet, and seeks an audience regarding an urgent and timely matter...",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Influential Traveler",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/scion1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Kulgox Entity",
+        "desc": "[Planet] reports that a Kulgox Entity has entered orbit and is blockading the planet!",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/alert.png",
+        "effects": [
+            {
+                "effectType": "Blockade",
+                "npc": "Kulgox Entity",
+                "duration": "No Duration"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Lost Cryo-Foundry",
+        "desc": "[Planet] reports that an ancient Lost Cryo-Foundry has been discovered below the icy surface. A new ability is available on the planet for 1 week.",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Lost Cryo-Foundry",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/frozen1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Lost Undersea Archive",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/underwater.jpg",
+        "effects": [
+            {
+                "effectType": "Increase Research Production",
+                "value": "30%",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Lush Biosphere",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/lush.jpg",
+        "effects": [
+            {
+                "effectType": "Increase Population",
+                "value": "200%",
+                "duration": "Permanent"
+            }
+        ],
+        "restrictions": {
+            "Planet Types": [
+                "Gaia",
+                "Terra"
+            ]
+        }
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Mysterious Orb",
+        "desc": "[Planet] scouts report that a Mysterious Orb has appeared, floating above the surface. A new ability is available on the planet for 1 week.",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Mysterious Orb",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/morb1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Neo-Fecund Specimen",
+        "desc": "[Planet] reports that novel Neo-Fecund Specimen have been discovered on the surface. A new ability is available on the planet for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/biolab1.gif",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Neo-Fecund Specimen",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Noospheric Emergence",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/noospheric1.gif",
+        "desc": "[Planet] reports that a Noospheric Emergence has manifested among the calm populace. A new ability is available on the planet for 1 week.",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Noospheric Emergence",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Path of Terraforming",
+        "image": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/quest2.gif",
+        "desc": "[Planet] has begun a Path of Terraforming, and its populace is eager to quickly transform the surface",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Path of Terraforming",
+                "duration": "4 days"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Path to Metropolis",
+        "image": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/quest3.gif",
+        "desc": "[Planet] has begun a Path to Metropolis, and its populace is eager to quickly grow its infrastructure",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Path to Metropolis",
+                "duration": "4 days"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Path to Obscurity",
+        "image": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/quest1.gif",
+        "desc": "[Planet] has begun a Path to Obscurity, and its populace is eager to quickly grow its innate cloaking power",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Path to Obscurity",
+                "duration": "4 days"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Planetary Analysis",
+        "desc": "[Planet] reports strange readings coming from the planet... It may be time to analyze the planet to discover more.",
+        "img": "None",
+        "effects": [
+            {
+                "name": "Make Analysis Available"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Pure Deposits",
+        "desc": "[Planet] reports that Pure Deposits have been discovered on the planet. Mining production on the planet will increase by 10% for 1 week.",
+        "effects": [
+            {
+                "effectType": "Increase Mining Production",
+                "value": "10%",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/dcore.jpg"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Radiolytic Bloom",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/toxicbloom1.gif",
+        "effects": [
+            {
+                "effectType": "Boost All Production",
+                "amount": "20%",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Reactive Barrier",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/pshield3.png",
+        "effects": [
+            {
+                "effectType": "Enemy Artifact/Ability Immunity",
+                "duration": "Permanent"
+            }
+        ],
+        "restrictions": {
+            "planetType": [
+                "Ecumenopolis",
+                "Machine"
+            ]
+        }
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Saturated Maelstrom",
+        "desc": "[Planet] reports that a high-pressure Saturated Maelstrom has been detected on the planet. All production on the planet will increase by 15% for 1 week.",
+        "effects": [
+            {
+                "effectType": "Boost All Production",
+                "amount": "15%",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/gclouds1.gif"
+    },
+    {
+        "name": "Sintered Abyss",
+        "desc": "[Planet] miners have uncovered a deep Sintered Abyss on the surface. A new ability is available on the planet for 1 week.",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Sintered Abyss"
+            }
+        ],
+        "img": "planets/effects/sabyss1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Stealth Screen",
+        "desc": "[Planet] reports that a Stealth Screen has been discovered around the planet! Cloaking has increased by 30%",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/pshield4.png",
+        "effects": [
+            {
+                "effectType": "Increase Cloak",
+                "amount": "30%",
+                "duration": "Permanent"
+            }
+        ]
+    },
+    {
+        "name": "Streveldan Landing Site",
+        "desc": "[Planet] reports that a Streveldan Colony Ship has also arrived, willing to land and join your new colony",
+        "img": "planets/effects/streveldan1.webp",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Streveldan Landing Site",
+                "duration": "4 days"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Structure Destruction",
+        "notes": "* This is a player-created name, as this event does not have an official name",
+        "desc": "[Planet] reports that a [Structure] was destroyed during the invasion.",
+        "effects": [
+            {
+                "effectType": "Destroy Structure",
+                "limitations": "None"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Subterranean Caverns",
+        "desc": "[Planet] reports that Subterranean Caverns have been discovered on the planet. Defenses have increased by 30%",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/caverns.jpg",
+        "effects": [
+            {
+                "effectType": "Increase Defense",
+                "amount": "30%",
+                "duration": "Permanent"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "T.O. HyperSeeker",
+        "desc": "[Planet] reports that a T.O. HyperSeeker has warped into orbit and is blockading the planet!",
+        "effects": [
+            {
+                "effectType": "Blockade",
+                "npc": "T.O. HyperSeeker",
+                "duration": "No Duration"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/alert.png"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Trading Hub",
+        "desc": "[Planet] has been designated as a major galactic Trading Hub. All production on the planet will increase by 10% for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/tradehub.jpg",
+        "effects": [
+            {
+                "effectType": "Increase All Production",
+                "value": "10%",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Treatylight Festival",
+        "desc": "[Planet] has been designated as a site to celebrate the regional Treatylight Festival. All influence on the planet will increase by 10% for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/xfestival3.gif",
+        "effects": [
+            {
+                "effectType": "Increase Influence Production",
+                "amount": "10%",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Ultra-Pure Deposits",
+        "desc": "[Planet] reports that Ultra-Pure Deposits have been discovered on the planet. Mining production on the planet will increase by 20% for 1 week.",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/udcore.jpg",
+        "effects": [
+            {
+                "effectType": "Increase Mining Production",
+                "amount": "20%",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Unique Lifeforms",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/lifeform.jpg",
+        "desc": "[Planet] reports that new Unique Lifeforms have been discovered on the planet. Research Production on the planet will increase by 10% for 1 week.",
+        "effects": [
+            {
+                "effectType": "Increase Research Production",
+                "amount": "10%",
+                "duration": "1 week"
+            }
+        ]
+    },
+    {
+        "name": "Valcaron, Harvest Colonizer",
+        "effects": [
+            {
+                "effectType": "Blockade",
+                "npc": "Valcaron, Harvest Colonizer"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Vassal Allegiance",
+        "desc": "[Planet] reports that the captured populace and their extraplanetary allies have sworn allegiance to our culture. A new ability is available on the planet for 1 week.",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Vassal Allegiance",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/vassal1.gif"
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Will of the Dark Psion",
+        "desc": "[Planet] reports that a powerful Dark Psionic presence has loomed over the planet...",
+        "duration": "1 day",
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/darkpsion1.webp",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Will of the Dark Psion",
+                "duration": "1 day"
+            }
+        ]
+    },
+    {
+        "type": "Planetary Event",
+        "name": "Xenotypic Mutation (Event)",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Xenotypic Mutation (Ability)",
+                "duration": "1 week"
+            }
+        ],
+        "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/mutation1.gif"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Qpulse",
+        "img": "flairs/qpulse.webp",
+        "type": "Shield"
+    },
+    {
+        "name": "Civgrid",
+        "img": "flairs/civgrid.webp",
+        "type": "Shield"
+    },
+    {
+        "name": "Chromsole",
+        "img": "flairs/chromsole.png",
+        "type": "Name Frame",
+        "style": "\"position:absolute; left: -25px; top: -15px; width:calc(100% + 50px); height:47; z-index:-1; pointer-events:none; object-fit:fill;\"",
+        "preview": "<img id=\"preview-Chromsole\" width=\"120\" src=\"https://galaxylegion1-1faae.kxcdn.com/images/flairs/chromsole.png\" style=\"filter:hue-rotate(180deg)\">"
+    },
+    {
+        "name": "Ripple",
+        "type": "Name Effect",
+        "preview": "<span id=\"ripple-preview\" class=\"title-ripple\" style=\"font-weight:bold;\"><span class=\"title-ripple-char\" style=\"animation-delay:0s\">P</span><span class=\"title-ripple-char\" style=\"animation-delay:0.08s\">l</span><span class=\"title-ripple-char\" style=\"animation-delay:0.16s\">a</span><span class=\"title-ripple-char\" style=\"animation-delay:0.24s\">y</span><span class=\"title-ripple-char\" style=\"animation-delay:0.32s\">e</span><span class=\"title-ripple-char\" style=\"animation-delay:0.4s\">r</span> <span class=\"title-ripple-char\" style=\"animation-delay:0.56s\">N</span><span class=\"title-ripple-char\" style=\"animation-delay:0.64s\">a</span><span class=\"title-ripple-char\" style=\"animation-delay:0.72s\">m</span><span class=\"title-ripple-char\" style=\"animation-delay:0.8s\">e</span></span>"
+    },
+    {
+        "name": "Auric Shimmer",
+        "type": "Ship Effect",
+        "preview": "<style>@keyframes efp-ec474304 {0% { background-position: -200% 0; } 20% { background-position: 100% 0; } 100% { background-position: 100% 0; } }</style><div style=\"position:relative;display:inline-block;width:90px;height:60px;\"><img id=\"auric-shimmer-img\" width=\"90\" height=\"60\" src=\"https://galaxylegion1-1faae.kxcdn.com/images/ships/abyssiod-right.png\"><div id=\"auric-shimmer-preview\" style=\"position: absolute; top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(115deg, transparent 35%, rgba(255,215,0,0.3) 45%, rgba(255,255,200,0.5) 50%, rgba(255,215,0,0.3) 55%, transparent 65%);background-size:300% 100%;pointer-events:none;animation:efp-ec474304 11s linear infinite;-webkit-mask-image:url(https://galaxylegion1-1faae.kxcdn.com/images/ships/abyssiod-right.png);mask-image:url(https://galaxylegion1-1faae.kxcdn.com/images/ships/abyssiod-right.png);-webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;\"></div></div>"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "type": "Player Ability",
+        "name": "Hornulox Symbiont",
+        "desc": "Places a random Hornulox Symbiont on a planet. Symbionts are vastly inferior if placed on planets larger than Average. Costs 2 Aeon Badges",
+        "cooldown": "1 day 16 hours",
+        "target": "Your Planet",
+        "cost": {
+            "Aeon Badge": "2"
+        },
+        "buttonText": "",
+        "planetEffectsRandom": [
+            {
+                "type": "Place Structure",
+                "structure": "Hornulox Symbiont (1)"
+            },
+            {
+                "type": "Place Structure",
+                "structure": "Hornulox Symbiont (2)"
+            }
+        ]
+    },
+    {
+        "name": "Interphase Transit",
+        "desc": "When completing a Daily <i>Challenge</i>, you will earn a Supel Microhaven",
+        "trigger": "Daily Challenge Completion",
+        "playerEffects": [
+            {
+                "type": "Grants",
+                "artifact": "Supel Microhaven"
+            }
+        ]
+    }
+]

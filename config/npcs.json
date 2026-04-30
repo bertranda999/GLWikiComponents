@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Crimson Flamehawk",
+        "rank": "400",
+        "class": "Raider",
+        "rarity": "Common",
+        "attackCost": "5",
+        "shields": "3,200",
+        "hull": "3,000",
+        "type": "Standard",
+        "expiration": "8 hours",
+        "description": "The Crimson Blades are a guild of common thieves, and operate throughout the galaxy. Flamehawks are powerful versions of existing hawk vessels.",
+        "faction": "The Crimson Blades",
+        "attack": "2,000",
+        "defense": "2,800",
+        "rewards": [
+            {
+                "xp": "30"
+            },
+            {
+                "Crimson Obelisk": "1",
+                "xp": "30"
+            }
+        ],
+        "shieldImg": "",
+        "img": ""
+    },
+    {
+        "name": "Dark Trainer",
+        "rank": "1",
+        "class": "Smuggler",
+        "rarity": "Special",
+        "attackCost": "5",
+        "hull": "20",
+        "type": "Standard",
+        "description": "A training ship used by the Dark Smugglers Guild recruits. It appears to be lost.",
+        "faction": "Dark Smugglers Guild",
+        "attack": "3",
+        "defense": "5",
+        "reward": [
+            {
+                "xp": "10"
+            }
+        ],
+        "img": "trainspeed.png"
+    }
+]

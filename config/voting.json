@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Chancellor Election",
+        "desc": "Allied Governments once again wish to elect a Galactic Chancellor to represent their shared interests, and advance the goals of the greater regions",
+        "start": "12 Apr 2026",
+        "end": "20 Apr 2026",
+        "effectDuration": "14 days",
+        "voteCooldown": "24 hours",
+        "votesRequired": "111",
+        "options": [
+            {
+                "name": "Senator Marcus Dale",
+                "effectDesc": "Decreases colonization costs by 30%, but increases invasion costs by 11%",
+                "race": "Human",
+                "charDesc": "A centrist politician from the Sol Protectorate, Dale has a long decorated career, especially known for successfully ratifying treaties with other factions and governments over territory sharing and border control",
+                "img": "aliens/vhuman1.png"
+            },
+            {
+                "name": "Scion Gessella",
+                "effectDesc": "Increases all production by 1% for academy professions<br>Bonus Restricted to: Governor, Diplomat, Merchant, Biologist, Physicist",
+                "race": "Genetarr",
+                "charDesc": "A powerful teacher of The Sight, Gessella is chair of the High Council of Scions. Leading the 'Galardieh Academy' on Genetarris, a renowned center of study for science and politics, she aims to advance these schools and their professions to new heights.",
+                "img": "aliens/vgenetarr1.png"
+            },
+            {
+                "name": "Viceroy Krynn",
+                "effectDesc": "Decreases ship upkeep by 18%, but also reduces cargo space by 9%",
+                "race": "Sillixx",
+                "charDesc": "Krynn rose to power leading the largest fixers guild on Sill, expanding the network to several Zones. He now assists in the rule of the entirety of Prispis, known to have connections everywhere.",
+                "img": "aliens/vsillixx1.png"
+            },
+            {
+                "name": "Pod-Leader Salune",
+                "effectDesc": "Increases Research Production by 6%, but reduces scrapping yields by 11%",
+                "race": "Kronyn",
+                "charDesc": "Technocrat Salune leads the largest research pod congomerate across Krastis, advancing studies in cybernetics and augmentation devices. A technological preservationist, Salune believes in maintaining the history of the Galaxy's innovations.",
+                "img": "aliens/vkronyn1.png"
+            }
+        ],
+        "winner": "Viceroy Krynn"
+    },
+    {
+        "name": "Galactic Survey Expansion",
+        "desc": "The Galactic Council wishes to commission a new collective survey project, expanding the number of known worlds across the Galaxy.",
+        "start": "12 Apr 2026",
+        "end": "26 Apr 2026",
+        "effectDuration": "Permanent",
+        "options": [
+            {
+                "name": "Approve",
+                "effectDesc": "Increase number of planets in the Galaxy by 20%"
+            },
+            {
+                "name": "Reject",
+                "effectDesc": "Keep the number of planets in the galaxy the same."
+            }
+        ],
+        "voteCooldown": "40 hours",
+        "winner": "Approve"
+    },
+    {
+        "name": "Haelon Piracy",
+        "desc": "Piracy has grown significantly along major trading lanes, especially across the Haelon Corridor, a large region outside the Galakis Perimeter. The Empyreal Core wishes to raise tariffs considerably to fund more defensive escorts, but the trading guilds are pushing back, arguing that the core should bear most of the cost for securing the regions outside of the Perimeter.",
+        "start": "21 Apr 2026",
+        "end": "28 Apr 2026",
+        "effectDuration": "14 days",
+        "options": [
+            {
+                "name": "Raise Galakis Tariffs",
+                "effectDesc": "(raise npc damage cap a little, double tariffs"
+            },
+            {
+                "name": "Increase Empyreal Funding",
+                "effectDesc": "increases damage cap against non-player enemies by 15% (for races near the core)<br>Bonus Restricted to: Taltherian, Litheor, Mylarai, Sillixx"
+            }
+        ],
+        "failure": "Reduces all production by 2%",
+        "votesRequired": "1,500",
+        "voteCooldown": "24 hours",
+        "winner": "Increase Empyreal Funding"
+    },
+    {
+        "name": "Darmos Galactic Host",
+        "desc": "Darmos is seeking new hosts for the upcoming Darmos Galactic, a seasonal series of Games that brings together participants from across the Galaxy, and is trying to determine which quadrant would be the ideal choice",
+        "start": "28 Apr 2026",
+        "end": "4 May 2026",
+        "effectDuration": "12 days",
+        "options": [
+            {
+                "name": "Tross Quadrant",
+                "effectDesc": "Increases production by 2% for races in the Tross Quadrant<br>Bonus Restricted to: Taltherian, Uldrinan, Inergon, Konqul"
+            },
+            {
+                "name": "Pract Quadrant",
+                "effectDesc": "Increases production by 2% for races in the Pract Quadrant<br>Bonus Restricted to: Vygoid, Litheor, Kronyn, Aerlen, Genetarr"
+            },
+            {
+                "name": "Aether Quadrant",
+                "effectDesc": "Increases production by 2% for races in the Aether Quadrant<br>Bonus Restricted to: Human, Sillixx, Drannik, Lazuli"
+            },
+            {
+                "name": "Drahj Quadrant",
+                "effectDesc": "Increases production by 2% for races in the Drahj Quadrant<br>Bonus Restricted to: Mylarai, Zolazin, Bahreen, Xecti"
+            }
+        ],
+        "votesRequired": "2,000",
+        "voteCooldown": "24 hours"
+    }
+]

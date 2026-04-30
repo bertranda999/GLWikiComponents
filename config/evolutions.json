@@ -1,0 +1,32 @@
+[
+    {
+        "type": "Evolution",
+        "name": "Adaptive Mnemonics",
+        "desc": "Increases Experience gain bonus by 3%",
+        "requiredEvo": "None",
+        "effects": [
+            {
+                "effectType": "Increase Experience Gain",
+                "value": "3%",
+                "duration": "Permanent"
+            }
+        ]
+    },
+    {
+        "type": "Evolution",
+        "name": "Hornulox Symbiosis",
+        "desc": "Unlocks an active ability that allows the Drannik to deploy a Hornulox Symbiont on Average or smaller worlds",
+        "cost": {
+            "genes": "112",
+            "aeons": "11"
+        },
+        "requiredEvo": "Hornulox Gene-Splicing",
+        "medalPoints": "2,900",
+        "effects": [
+            {
+                "effectType": "Add Active Ability",
+                "abilityName": "Hornulox Symbiont"
+            }
+        ]
+    }
+]

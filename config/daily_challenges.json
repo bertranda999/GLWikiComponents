@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Amorous Infrastrastructure",
+        "img": "qpeddm4.jpg",
+        "season": "Q-Pedd",
+        "desc": "Build 6 different Q-Pedd planet structures (via artifacts) on various planets",
+        "duration": "2 days",
+        "reward": "3",
+        "strategy": "Hyperluminal, Probe, CogNode, Emotion, Autoform, Disseminator",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "effectType": "Construct Structure",
+                "tags": [
+                    "Q-Pedd"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bonding Ritual",
+        "img": "qpeddm7.jpg",
+        "season": "Q-Pedd",
+        "desc": "Use a 'Streveldan Bond-Key' on friends or legion members, on those of 10 different races",
+        "duration": "2 days",
+        "reward": "5",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Streveldan Bond-Key",
+                "count": "10"
+            }
+        ]
+    },
+    {
+        "name": "Synthetic Overrides",
+        "img": "qpeddhack1.jpg",
+        "season": "Q-Pedd",
+        "desc": "Hack research from members of the following Cybernetic-Proficient species, that each have a 'Streveldan Schematics' active on their ship<br>Vygoid, Zolazin, Drannik",
+        "duration": "2 days",
+        "reward": "3"
+    },
+    {
+        "name": "Sensoral Linking",
+        "img": "supeln10.jpg",
+        "season": "Lepus",
+        "desc": "Use a Supel Sensor Readings on players of 5 different races, while you also have a Supel Sensor Readings active on your ship as well",
+        "duration": "2 days",
+        "reward": "3"
+    },
+    {
+        "name": "Biomech Infrastructure",
+        "img": "supeln8.jpg",
+        "season": "Lepus",
+        "desc": "Build 6 different Lepus planet structures (via artifacts) on various planets",
+        "duration": "2 days",
+        "reward": "3"
+    },
+    {
+        "name": "Signature Forgery",
+        "img": "civhack1.png",
+        "season": "Civicordium",
+        "desc": "Hack research from members of 6 different races, that each have a 'Political Endorsement' active on their ship",
+        "duration": "2 days",
+        "reward": "3"
+    },
+    {
+        "name": "Diplomatic Infrastructure",
+        "img": "civic6.jpg",
+        "season": "Civicordium",
+        "desc": "Build planet structures that provide both Influence & Research, on 6 different planet types",
+        "duration": "2 days",
+        "reward": "4"
+    },
+    {
+        "name": "Influential Positions",
+        "img": "civic4.jpg",
+        "season": "Civicordium",
+        "desc": "Influence various Zones with 1500+ Points",
+        "duration": "4 days",
+        "reward": "4"
+    }
+]

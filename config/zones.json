@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Lepus Cluster (2026)",
+        "type": "Interphase Zone",
+        "influenceCost": "222",
+        "energy": "",
+        "desc": "The Supel have established a stable, temporary Interphase Transit Hub within the cluster, allowing their ships and equipment to enter the region with fewer malfunctions",
+        "influenceThreshold": "",
+        "bonusName": "Interphase Transit",
+        "bonusDesc": "Interphase Transit: When completing a Daily <i>Challenge</i>, you will earn a Supel Microhaven",
+        "playerEffects": [
+            {
+                "effectType": "Add Passive Ability",
+                "ability": "Interphase Transit"
+            }
+        ]
+    },
+    {
+        "name": "Civicordium Summit",
+        "type": "Political Headquarters",
+        "influenceCost": "555",
+        "energy": "",
+        "desc": "Situated at their headquarters near the Empyreal Core, the Galactic Civicordium Summit houses representatives from all key political factions and governments, coming together to ratify important matters affecting all species.",
+        "influenceThreshold": "2222",
+        "bonusName": "Civic Honor",
+        "bonusDesc": "When casting Votes (Galactic Voting), you will earn a Civicordium Platform",
+        "playerEffects": [
+            {
+                "effectType": "Add Ability",
+                "ability": "Civic Honor"
+            }
+        ]
+    }
+]

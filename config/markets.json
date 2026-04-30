@@ -1,0 +1,370 @@
+[
+    {
+        "name": "Artifact Market",
+        "resource": "Galaxy Points",
+        "artifacts": [
+            {
+                "name": "Library of Celestial Registry",
+                "cost": "30"
+            },
+            {
+                "name": "Council Chamber",
+                "cost": "16"
+            },
+            {
+                "name": "Court of Oracles",
+                "cost": "28"
+            },
+            {
+                "name": "Sillixx Starport Hub",
+                "cost": "28"
+            },
+            {
+                "name": "Omni-Weather Controller",
+                "cost": "28"
+            },
+            {
+                "name": "Human Tactical Barracks",
+                "cost": "28"
+            },
+            {
+                "name": "F.A.T.H.E.R.",
+                "cost": "40"
+            },
+            {
+                "name": "Trinity-Core Drive",
+                "cost": "52"
+            },
+            {
+                "name": "Reality Transfuser",
+                "cost": "64"
+            },
+            {
+                "name": "Base Comm Interlink",
+                "cost": "80"
+            },
+            {
+                "name": "Warp Arch",
+                "cost": "72"
+            },
+            {
+                "name": "Command Beacon",
+                "cost": "88"
+            },
+            {
+                "name": "Tactical Base Extender",
+                "cost": "40"
+            },
+            {
+                "name": "Structural Extender",
+                "cost": "80"
+            },
+            {
+                "name": "Radiant Surge Cannon",
+                "cost": "48"
+            },
+            {
+                "name": "Flux Probe",
+                "cost": "2",
+                "count": "20"
+            },
+            {
+                "name": "Spy Probe - Defenses",
+                "cost": "2",
+                "count": "20"
+            },
+            {
+                "name": "Spy Probe - Weapons",
+                "cost": "2",
+                "count": "20"
+            },
+            {
+                "name": "Dark Pyramid",
+                "cost": "2",
+                "count": "15"
+            },
+            {
+                "name": "Cloning Pods",
+                "cost": "3",
+                "count": "20"
+            },
+            {
+                "name": "Positron Clouder",
+                "cost": "3",
+                "count": "20"
+            },
+            {
+                "name": "Ancient Crystal Foci",
+                "cost": "3",
+                "count": "20"
+            },
+            {
+                "name": "Engineered Virus",
+                "cost": "4",
+                "count": "20"
+            },
+            {
+                "name": "Quantum Flare",
+                "cost": "4",
+                "count": "20"
+            },
+            {
+                "name": "Planetary Time Vortex",
+                "cost": "4",
+                "count": "20"
+            },
+            {
+                "name": "Void Shell",
+                "cost": "4",
+                "count": "20"
+            },
+            {
+                "name": "Containment Cage",
+                "cost": "5",
+                "count": "20"
+            },
+            {
+                "name": "Spy Probe - Resources",
+                "cost": "5",
+                "count": "20"
+            },
+            {
+                "name": "Tachyon Cylinder",
+                "cost": "6",
+                "count": "20"
+            },
+            {
+                "name": "Grid Console",
+                "cost": "6",
+                "count": "20"
+            },
+            {
+                "name": "Nanite Swarm Capsules",
+                "cost": "6",
+                "count": "20"
+            },
+            {
+                "name": "Containment Missile",
+                "cost": "7",
+                "count": "20"
+            },
+            {
+                "name": "EMP Sphere",
+                "cost": "7",
+                "count": "20"
+            },
+            {
+                "name": "Crimson Obelisk",
+                "cost": "7",
+                "count": "20"
+            },
+            {
+                "name": "Calming Amplifier",
+                "cost": "7",
+                "count": "20"
+            },
+            {
+                "name": "Ion Storm Charge",
+                "cost": "7",
+                "count": "20"
+            },
+            {
+                "name": "Planet Vortex Deflector",
+                "cost": "7",
+                "count": "20"
+            },
+            {
+                "name": "Disarming Bomb",
+                "cost": "7",
+                "count": "20"
+            },
+            {
+                "name": "Ion Repulsor Charge",
+                "cost": "7",
+                "count": "20"
+            },
+            {
+                "name": "Longevity Serum",
+                "cost": "8",
+                "count": "20"
+            },
+            {
+                "name": "Sentry Guards",
+                "cost": "8",
+                "count": "20"
+            },
+            {
+                "name": "Phase Cutter Chassis",
+                "cost": "8",
+                "count": "20"
+            },
+            {
+                "name": "Space Elevator Chassis",
+                "cost": "8",
+                "count": "20"
+            },
+            {
+                "name": "Omicron Mine Trap",
+                "cost": "8",
+                "count": "20"
+            },
+            {
+                "name": "Spy Uplink Chassis",
+                "cost": "8",
+                "count": "20"
+            },
+            {
+                "name": "Krionus Virus Trap",
+                "cost": "8",
+                "count": "20"
+            },
+            {
+                "name": "Star Chart Purger",
+                "cost": "8",
+                "count": "20"
+            },
+            {
+                "name": "Shield Amplifier",
+                "cost": "9",
+                "count": "20"
+            },
+            {
+                "name": "Shield Sentries",
+                "cost": "9",
+                "count": "20"
+            },
+            {
+                "name": "Quantum Firewall Trap",
+                "cost": "9",
+                "count": "20"
+            },
+            {
+                "name": "Halcyon Trap",
+                "cost": "9",
+                "count": "20"
+            },
+            {
+                "name": "Grav-Whip Trap",
+                "cost": "9",
+                "count": "20"
+            },
+            {
+                "name": "Drannik Saboteur",
+                "cost": "9",
+                "count": "20"
+            },
+            {
+                "name": "Tesseract Container",
+                "cost": "14",
+                "count": "20"
+            },
+            {
+                "name": "Android Scientist",
+                "cost": "14",
+                "count": "20"
+            },
+            {
+                "name": "XCharge Cells",
+                "cost": "14",
+                "count": "20"
+            },
+            {
+                "name": "Durtanium Brackets",
+                "cost": "14",
+                "count": "20"
+            },
+            {
+                "name": "Alarm Sentry",
+                "cost": "9",
+                "count": "20"
+            },
+            {
+                "name": "Null Fuse",
+                "cost": "15",
+                "count": "20"
+            },
+            {
+                "name": "Android Helmsman",
+                "cost": "16",
+                "count": "20"
+            },
+            {
+                "name": "Subspace Seeker",
+                "cost": "15",
+                "count": "20"
+            },
+            {
+                "name": "Processing Core Chassis",
+                "cost": "16",
+                "count": "10"
+            },
+            {
+                "name": "Relay Tower Chassis",
+                "cost": "16",
+                "count": "10"
+            },
+            {
+                "name": "Refining Lab Chassis",
+                "cost": "16",
+                "count": "10"
+            },
+            {
+                "name": "Mineral Storage Tower",
+                "cost": "16"
+            },
+            {
+                "name": "Artifact Warehouse",
+                "cost": "16"
+            },
+            {
+                "name": "Research Data Archive",
+                "cost": "16"
+            },
+            {
+                "name": "Planet Name Contract",
+                "cost": "16"
+            },
+            {
+                "name": "Unstable Wormhole Emitter",
+                "cost": "17",
+                "count": "20"
+            },
+            {
+                "name": "Ship-Bot",
+                "cost": "24",
+                "count": "20"
+            },
+            {
+                "name": "Re-Identification Contract",
+                "cost": "26"
+            },
+            {
+                "name": "Neural Interface",
+                "cost": "25",
+                "count": "20"
+            },
+            {
+                "name": "Warp Gate Chassis",
+                "cost": "29",
+                "count": "10"
+            },
+            {
+                "name": "Terraforming Device",
+                "cost": "36"
+            },
+            {
+                "name": "Planet Flux",
+                "cost": "40"
+            },
+            {
+                "name": "Continuum Beacon",
+                "cost": "32",
+                "count": "20"
+            },
+            {
+                "name": "Quasi-Spacial Expander",
+                "cost": "50"
+            }
+        ]
+    }
+]

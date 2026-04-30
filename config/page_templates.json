@@ -1,0 +1,9 @@
+{
+    "Page Templates": [
+        {
+            "name": "Artifact",
+            "type": "Artifact",
+            "template": "<a>Artifact.name</a><img src=\"artifact.img\">"
+        }
+    ]
+}

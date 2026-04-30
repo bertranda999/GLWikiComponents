@@ -1,0 +1,49 @@
+[
+    {
+        "Type": "Trigger",
+        "Name": "Always Active"
+    },
+    {
+        "Type": "Trigger",
+        "Name": "Collect Daily Reward"
+    },
+    {
+        "Type": "Trigger",
+        "Name": "Complete Daily Mission"
+    },
+    {
+        "Type": "Trigger",
+        "Name": "Complete Daily Challenge"
+    },
+    {
+        "Type": "Trigger",
+        "Name": "Disable NPC",
+        "Details": {
+            "rarity": [
+                "Rare NPC",
+                "Extremely Rare NPC",
+                "Special NPC"
+            ]
+        }
+    },
+    {
+        "Type": "Trigger",
+        "Name": "Hack",
+        "Details": {
+            "Success Type": [
+                "Success",
+                "Failed",
+                "Critical Success",
+                "Critical Fail"
+            ],
+            "Rank Range": [
+                "In Range",
+                "Not In Range"
+            ],
+            "Recency": [
+                "Same Player less than 12 hours ago",
+                "Same Player more than 12 hours ago"
+            ]
+        }
+    }
+]

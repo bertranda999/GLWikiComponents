@@ -1,0 +1,265 @@
+[
+    {
+        "name": "Advanced Weapons",
+        "desc": "The study of new weapon designs, delivery systems, and miniaturization of weapons for use in space",
+        "section": "Advanced Weapons",
+        "cost": "200",
+        "levels": [
+            {
+                "module": "Heavy Autocannon"
+            }
+        ]
+    },
+    {
+        "name": "Linear Induction",
+        "desc": "Advanced study of magnetic propulsion of matter. This allows for the design of weapons that can launch projectiles at incredibly high velocities.",
+        "section": "Advanced Weapons",
+        "cost": "600",
+        "levels": [
+            {
+                "module": "Light Mass Driver"
+            },
+            {
+                "module": "Mass Driver",
+                "baseModules": "Rail Turret"
+            },
+            {
+                "module": "Heavy Mass Driver"
+            }
+        ]
+    },
+    {
+        "name": "Laser Focusing",
+        "desc": "Study of channeling laser energy into powerful beams",
+        "section": "Advanced Weapons",
+        "cost": "1,000",
+        "levels": [
+            {
+                "module": "Light Laser Cannon"
+            },
+            {
+                "module": "Laser Cannon"
+            },
+            {
+                "module": "Heavy Laser Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Ion Channeling",
+        "desc": "Study of the alignment and enrichment of ionized gases",
+        "section": "Advanced Weapons",
+        "cost": "3,000",
+        "levels": [
+            {
+                "structure": "Ion Minefield",
+                "module": "Light Ion Cannon",
+                "baseModules": "Ion Turret"
+            },
+            {
+                "module": "Ion Cannon"
+            },
+            {
+                "module": "Heavy Ion Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Plasma Filtering",
+        "desc": "Harnessing the potential of chaotic plasma into cohesive blasts",
+        "section": "Advanced Weapons",
+        "cost": "5,000",
+        "levels": [
+            {
+                "structure": "Plasma Minefield",
+                "module": "Light Plasma Cannon"
+            },
+            {
+                "module": "Plasma Cannon"
+            },
+            {
+                "module": "Heavy Plasma Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Phased Energy",
+        "desc": "Harnessing phase-modulation of various wave energies",
+        "section": "Advanced Weapons",
+        "cost": "9,000",
+        "levels": [
+            {
+                "structure": "Phase Minefield",
+                "module": "Light Phase Cannon",
+                "baseModules": "Phase Turret"
+            },
+            {
+                "module": "Phase Cannon"
+            },
+            {
+                "module": "Heavy Phase Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Graviton Shearing",
+        "desc": "The study of using high energy graviton beams to create powerful shearing forces on the target",
+        "section": "Advanced Weapons",
+        "cost": "15,000",
+        "levels": [
+            {
+                "structure": "Graviton Minefield",
+                "module": "Light Graviton Shearer"
+            },
+            {
+                "module": "Graviton Shearer"
+            },
+            {
+                "module": "Heavy Graviton Shearer"
+            }
+        ]
+    },
+    {
+        "name": "Matter Disruption",
+        "desc": "The use of high energy chaotic pulses to disrupt the subatomic structure of matter",
+        "section": "Advanced Weapons",
+        "cost": "20,000",
+        "levels": [
+            {
+                "structure": "Disruption Minefield",
+                "module": "Light Disruptor Cannon",
+                "baseModules": "Disruptor Turret"
+            },
+            {
+                "module": "Disruptor Cannon"
+            },
+            {
+                "module": "Heavy Disruptor Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Quantum Disassembly",
+        "desc": "A focused study dealing with a more advanced form of matter disruption at the quantum level.",
+        "section": "Advanced Weapons",
+        "cost": "30,000",
+        "levels": [
+            {
+                "structure": "Quantum Minefield",
+                "module": "Light Quantum Devastator"
+            },
+            {
+                "module": "Quantum Devastator"
+            },
+            {
+                "module": "Heavy Quantum Devastator"
+            }
+        ]
+    },
+    {
+        "name": "Micro Singularities",
+        "desc": "The study of safely creating and launching microsingularities for use as a weapon projectile",
+        "section": "Advanced Weapons",
+        "cost": "70,000",
+        "levels": [
+            {
+                "structure": "Singularity Minefield",
+                "module": "Light Singularity Launcher",
+                "baseModules": "Singularity Turret"
+            },
+            {
+                "module": "Singularity Launcher"
+            },
+            {
+                "module": "Heavy Singularity Launcher"
+            }
+        ]
+    },
+    {
+        "name": "Antimatter Streams",
+        "desc": "The study of focusing and containing antiprotons into cohesive streams that can be used as a powerful beam weapon. The research includes safeguards for close range combat.",
+        "section": "Advanced Weapons",
+        "cost": "140,000",
+        "levels": [
+            {
+                "structure": "Antimatter Minefield",
+                "module": "Light Antiproton Cannon"
+            },
+            {
+                "module": "Antiproton Cannon"
+            },
+            {
+                "module": "Heavy Antiproton Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Null Rays",
+        "desc": "Technology that allows weaponizing the immense forces of spacial fatigue, erasing subatomic matter through a focused projection of dimensional microrifts",
+        "section": "Advanced Weapons",
+        "cost": "300,000",
+        "levels": [
+            {
+                "structure": "Null Minefield",
+                "module": "Light Null Ray",
+                "baseModules": "Null Turret"
+            },
+            {
+                "module": "Null Ray"
+            },
+            {
+                "module": "Heavy Null Ray"
+            }
+        ]
+    },
+    {
+        "name": "Thetacron Radiation",
+        "desc": "Study into the artificial creation of thetacron radiation, a normally rare and dangerous subspace phenomenon. Thetacron emissions create violent tears in subspace, and can sometimes cause permanent spacial rifts.",
+        "section": "Advanced Weapons",
+        "cost": "600,000",
+        "levels": [
+            {
+                "structure": "Thetacron Rift Field",
+                "module": "Light Thetacron Cannon"
+            },
+            {
+                "module": "Thetacron Cannon"
+            },
+            {
+                "module": "Heavy Thetacron Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Quasi-Chaotic Force",
+        "desc": "A much more powerful type of spacial fatigue technology that relies on Quasi-Chaotic forces, a superposition of all known standard forces and their anti-forces. Complex Quasi-Chaotic pulses can be tuned to seek out almost any other energy signature.",
+        "section": "Advanced Weapons",
+        "cost": "1,000,000",
+        "levels": [
+            {
+                "structure": "Quasi-Chaos Minefield",
+                "module": "Light Quasi-Chaotic Blaster",
+                "baseModules": "Quasi-Chaos Turret"
+            },
+            {
+                "module": "Quasi-Chaotic Blaster"
+            },
+            {
+                "module": "Heavy Quasi-Chaotic Blaster"
+            }
+        ]
+    },
+    {},
+    {
+        "name": "Galactic Coalition Syntax",
+        "desc": "Breakthrough in decoding cross-species diplomatic frameworks and symbolic lexicons, enabling seamless high-level negotiation and interstellar political cohesion.",
+        "section": "Advanced Logistics",
+        "cost": "420,000,000",
+        "tiers": [
+            {
+                "baseModules": "Petitioners Suite",
+                "passiveAbilities": "Access Petitioners Suite"
+            }
+        ]
+    }
+]

@@ -1,0 +1,9456 @@
+[
+    {
+        "name": "Surface Mine",
+        "size": 4,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 1
+    },
+    {
+        "name": "Extraction Drones",
+        "size": 7,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 2
+    },
+    {
+        "name": "Nanite Disassemblers",
+        "size": 9,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 3
+    },
+    {
+        "name": "Deep Core Mine",
+        "size": 11,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 4
+    },
+    {
+        "name": "Mesh Extractor",
+        "size": 13,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 5
+    },
+    {
+        "name": "Quantum Reassembler",
+        "size": 15,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 6
+    },
+    {
+        "name": "Gravitonic Teleporter",
+        "size": 16,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 8
+    },
+    {
+        "name": "Stellar Converter",
+        "size": 17,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 10
+    },
+    {
+        "name": "Star Lifter",
+        "size": 18,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 12
+    },
+    {
+        "name": "Proto-Matter Extractor",
+        "size": 19,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "mp": 16
+    },
+    {
+        "name": "Surface Scanner",
+        "size": 4,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 1
+    },
+    {
+        "name": "Analyzer Drones",
+        "size": 7,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 2
+    },
+    {
+        "name": "Subterranean Probes",
+        "size": 9,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 3
+    },
+    {
+        "name": "Deep Scan Harmonizer",
+        "size": 11,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 4
+    },
+    {
+        "name": "Mesh Probes",
+        "size": 13,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 5
+    },
+    {
+        "name": "Quantum Analyzer Engine",
+        "size": 15,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 6
+    },
+    {
+        "name": "Gravitonic Revealer",
+        "size": 16,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 8
+    },
+    {
+        "name": "Stellar Replicator",
+        "size": 17,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 10
+    },
+    {
+        "name": "Hyperforge Fabricator",
+        "size": 18,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 12
+    },
+    {
+        "name": "Proto-Matter Synthesizer",
+        "size": 19,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "ap": 16
+    },
+    {
+        "name": "Research Station",
+        "size": 4,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 1
+    },
+    {
+        "name": "Robotics Lab",
+        "size": 7,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 2
+    },
+    {
+        "name": "Nanite Lab",
+        "size": 9,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 3
+    },
+    {
+        "name": "Theory Engine",
+        "size": 11,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 4
+    },
+    {
+        "name": "AI Network",
+        "size": 13,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 5
+    },
+    {
+        "name": "Quantum Computer Grid",
+        "size": 15,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 6
+    },
+    {
+        "name": "Gravshell Brain",
+        "size": 16,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 8
+    },
+    {
+        "name": "Matrioshka Brain",
+        "size": 17,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 10
+    },
+    {
+        "name": "Hypernode Brain",
+        "size": 18,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 12
+    },
+    {
+        "name": "Proto-Matter Cognitor",
+        "size": 19,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "rp": 16
+    },
+    {
+        "name": "Surface Bunkers",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 25
+    },
+    {
+        "name": "Structural Shield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 50
+    },
+    {
+        "name": "City Shield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 100
+    },
+    {
+        "name": "Regional Shield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 200
+    },
+    {
+        "name": "Mass Shield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 450
+    },
+    {
+        "name": "Structural Shield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 750
+    },
+    {
+        "name": "Obviation Barrier",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 1200
+    },
+    {
+        "name": "Orbital Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 25
+    },
+    {
+        "name": "Ion Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 50
+    },
+    {
+        "name": "Plasma Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 75
+    },
+    {
+        "name": "Graviton Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 150
+    },
+    {
+        "name": "Disruption Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 200
+    },
+    {
+        "name": "Quantum Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 300
+    },
+    {
+        "name": "Singularity Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 450
+    },
+    {
+        "name": "Antimatter Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 600
+    },
+    {
+        "name": "Null Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 750
+    },
+    {
+        "name": "Thetacron Rift Field",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 1000
+    },
+    {
+        "name": "Quasi-Chaos Minefield",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "at": 1200
+    },
+    {
+        "name": "Jammer Satellites",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "c": 25
+    },
+    {
+        "name": "Shroud Satellites",
+        "size": 3,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "c": 75
+    },
+    {
+        "name": "Stealth Satellites",
+        "size": 4,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "c": 150
+    },
+    {
+        "name": "Cloaking Satellites",
+        "size": 5,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "c": 250
+    },
+    {
+        "name": "Anti-Tachyon Satellites",
+        "size": 6,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "c": 500
+    },
+    {
+        "name": "Inverse-Flux Satellites",
+        "size": 7,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "c": 800
+    },
+    {
+        "name": "Habitation Modules",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "p": 20
+    },
+    {
+        "name": "Arcology",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "p": 75
+    },
+    {
+        "name": "Hypersphere Habitat",
+        "size": 3,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "p": 200
+    },
+    {
+        "name": "Astrocore Habitat",
+        "size": 4,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "p": 400
+    },
+    {
+        "name": "Trans-Hub Habitat",
+        "size": 5,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "p": 650
+    },
+    {
+        "name": "Topopolis",
+        "size": 6,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "p": 1000
+    },
+    {
+        "name": "Sulcation Portal",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "p": 200
+    },
+    {
+        "name": "Exotic Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 1
+    },
+    {
+        "name": "Exotic Barrier",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "d": 250
+    },
+    {
+        "name": "Exotic Turret",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "at": 250
+    },
+    {
+        "name": "Prejoran Slave Barrier",
+        "size": 20,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 6000
+    },
+    {
+        "name": "Anti-Resistance Base",
+        "size": 3,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 200,
+        "c": 100
+    },
+    {
+        "name": "Exo-Pulse Disruptor",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bat": 22,
+        "c": 1222
+    },
+    {
+        "name": "Exo-Wave Generator",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "bmp": 2,
+        "ap": 2,
+        "bap": 2,
+        "rp": 4,
+        "brp": 2,
+        "bip": 2
+    },
+    {
+        "name": "Exo-Rift Membrane Blueprint",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "bd": 33,
+        "bc": 12
+    },
+    {
+        "name": "Entropy Repulsor Pylon",
+        "size": 2,
+        "limit": -1,
+        "limited": false,
+        "extract": false,
+        "bmp": 4,
+        "ap": 3,
+        "c": 800,
+        "es": 250
+    },
+    {
+        "name": "Council Base",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "p": 100,
+        "id": 500
+    },
+    {
+        "name": "Soldier Outpost",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "id": 300
+    },
+    {
+        "name": "Phase Cutter",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "at": 100
+    },
+    {
+        "name": "Processing Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1
+    },
+    {
+        "name": "Refining Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "rp": 1
+    },
+    {
+        "name": "Relay Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Space Elevator",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "p": 50
+    },
+    {
+        "name": "Spy Uplink",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "c": 40
+    },
+    {
+        "name": "Warp Gate",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Omnibase",
+        "size": 5,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 3,
+        "ap": 3,
+        "rp": 3,
+        "at": 1000,
+        "d": 1000
+    },
+    {
+        "name": "M.O.T.H.E.R.",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "p": 250
+    },
+    {
+        "name": "M.O.T.H.E.R. 2.0",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "d": 200,
+        "p": 400
+    },
+    {
+        "name": "Caretaker's Villa",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 1,
+        "ap": 1,
+        "bap": 1,
+        "rp": 1,
+        "brp": 1,
+        "bip": 1
+    },
+    {
+        "name": "Conductor's Villa",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "rp": 2
+    },
+    {
+        "name": "Custodian's Villa",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 3,
+        "bap": 3,
+        "brp": 3,
+        "bip": 3
+    },
+    {
+        "name": "Diplomat's Villa",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 2,
+        "ip": 1,
+        "bip": 2
+    },
+    {
+        "name": "Guardian's Villa",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "bc": 22
+    },
+    {
+        "name": "Overseer's Villa",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "rp": 3,
+        "bd": 30
+    },
+    {
+        "name": "Steward's Villa",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 2
+    },
+    {
+        "name": "Litheor Deep-Phase Sanctuary",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "p": 900,
+        "c": 150
+    },
+    {
+        "name": "Ring of Ascendance",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 3,
+        "ap": 1,
+        "bap": 3,
+        "rp": 3,
+        "brp": 3,
+        "bip": 3,
+        "bat": 30,
+        "bd": 30,
+        "p": 3000
+    },
+    {
+        "name": "Bainar A-Node - Basic",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1
+    },
+    {
+        "name": "Bainar A-Node - Advanced",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2
+    },
+    {
+        "name": "Bainar A-Node - Prime",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3
+    },
+    {
+        "name": "Bainar M-Node - Basic",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1
+    },
+    {
+        "name": "Bainar M-Node - Advanced",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2
+    },
+    {
+        "name": "Bainar M-Node - Prime",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3
+    },
+    {
+        "name": "Bainar R-Node - Basic",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 1
+    },
+    {
+        "name": "Bainar R-Node - Advanced",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 2
+    },
+    {
+        "name": "Bainar R-Node - Prime",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 3
+    },
+    {
+        "name": "Bainar X-Node",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Galaxy Overseers",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "mp": 1
+    },
+    {
+        "name": "Galaxy Elitists",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "ap": 1
+    },
+    {
+        "name": "Galaxy Technocrats",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "rp": 1
+    },
+    {
+        "name": "Galaxy Inquisitors",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "c": 100
+    },
+    {
+        "name": "Tranquil Monolith 5%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 5
+    },
+    {
+        "name": "Tranquil Monolith 10%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 10
+    },
+    {
+        "name": "Tranquil Monolith 15%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 15
+    },
+    {
+        "name": "Tranquil Monolith 20%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 20
+    },
+    {
+        "name": "Tranquil Monolith 25%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 25
+    },
+    {
+        "name": "Tranquil Monolith 30%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 30
+    },
+    {
+        "name": "Tranquil Monolith 35%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 35
+    },
+    {
+        "name": "Tranquil Monolith 40%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 40
+    },
+    {
+        "name": "Tranquil Monolith 45%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 45
+    },
+    {
+        "name": "Tranquil Monolith 50%",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 50
+    },
+    {
+        "name": "Bahreen Duodecix (1)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 6,
+        "rp": 1
+    },
+    {
+        "name": "Bahreen Duodecix (2)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 5,
+        "rp": 2
+    },
+    {
+        "name": "Bahreen Duodecix (3)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 4,
+        "rp": 2
+    },
+    {
+        "name": "Bahreen Duodecix (4)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 3,
+        "rp": 2
+    },
+    {
+        "name": "Bahreen Duodecix (5)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "rp": 4
+    },
+    {
+        "name": "Bahreen Duodecix (6)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "rp": 3
+    },
+    {
+        "name": "Bahreen Duodecix (7)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2
+    },
+    {
+        "name": "Bralkir Altar",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "id": 2500
+    },
+    {
+        "name": "Shrine of B'elna",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bap": 2,
+        "c": 300
+    },
+    {
+        "name": "Xephius Portal",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "c": 404,
+        "bc": 6
+    },
+    {
+        "name": "Thavix Reactor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 2,
+        "rp": 4
+    },
+    {
+        "name": "Caustic Pit-Spire",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 3,
+        "mps": 360,
+        "ip": 1
+    },
+    {
+        "name": "Uldri Spacial Mega-Folder",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 3,
+        "c": 600
+    },
+    {
+        "name": "Uldri Spacial Mega-Crystal Field",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 7,
+        "bap": 7,
+        "brp": 7,
+        "bip": 7,
+        "d": 1000
+    },
+    {
+        "name": "Uldri Power Mega-Node",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bap": 7,
+        "rp": 2
+    },
+    {
+        "name": "Ancestral Gene-Bank",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "rps": 2200,
+        "ip": 1
+    },
+    {
+        "name": "Ancestral Gene-Bank v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "rps": 3200,
+        "ip": 1,
+        "ips": 150
+    },
+    {
+        "name": "Ancestral Gene-Bank v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 2,
+        "rps": 4200,
+        "ip": 2,
+        "ips": 150
+    },
+    {
+        "name": "Ancestral Gene-Bank v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "rp": 2,
+        "rps": 5200,
+        "ip": 3,
+        "ips": 300
+    },
+    {
+        "name": "Prejor Beacon Jammer",
+        "size": 1,
+        "limit": 3,
+        "limited": true,
+        "extract": true,
+        "c": 75
+    },
+    {
+        "name": "Intraphasic Hoveroid",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "bmp": 5,
+        "bap": 5,
+        "brp": 5,
+        "bip": 5
+    },
+    {
+        "name": "Trellith Comm Relay",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 2
+    },
+    {
+        "name": "Symbiont Test Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "rp": 2,
+        "bp": 20
+    },
+    {
+        "name": "Crimson Phase Launcher",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "at": 250
+    },
+    {
+        "name": "Captured Crimson Base",
+        "size": 5,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "at": 250,
+        "d": 250
+    },
+    {
+        "name": "Void Barrier",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "c": 110
+    },
+    {
+        "name": "Void-Field Enclave (VM+)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 3,
+        "c": 808
+    },
+    {
+        "name": "Void-Field Enclave (L-M)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 6,
+        "c": 1616
+    },
+    {
+        "name": "Void-Field Enclave (VT-Av)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "rp": 9,
+        "c": 2424
+    },
+    {
+        "name": "T.O. Grid Barrier",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "d": 400
+    },
+    {
+        "name": "Bioship Landing Platform",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "p": 200
+    },
+    {
+        "name": "Bioship Gene Lab (AR)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "ap": 1,
+        "rp": 2,
+        "p": 200
+    },
+    {
+        "name": "Bioship Gene Lab (R)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "rp": 2,
+        "p": 200
+    },
+    {
+        "name": "Voliir Transgenic Lock",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "rp": 2
+    },
+    {
+        "name": "Stryll Bioresearch Bay",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "bp": 25
+    },
+    {
+        "name": "Stryll Bioresearch Bay (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 4,
+        "rp": 4,
+        "bp": 25
+    },
+    {
+        "name": "XC1 Transport Probe",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "ap": 2
+    },
+    {
+        "name": "Terran-Stryll Interrogation Cell",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 1,
+        "brp": 6
+    },
+    {
+        "name": "Terran-Stryll Interrogation Cell (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "brp": 12
+    },
+    {
+        "name": "Strazi Genolink Probe",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "bmp": 5,
+        "ap": 1
+    },
+    {
+        "name": "Strazi Link Anchor (1)",
+        "size": 0,
+        "limit": 0,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "c": 110
+    },
+    {
+        "name": "Strazi Link Anchor (2)",
+        "size": 0,
+        "limit": 0,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Strazi Link Anchor (3)",
+        "size": 0,
+        "limit": 0,
+        "limited": true,
+        "extract": false,
+        "mp": 1,
+        "ap": 1
+    },
+    {
+        "name": "Vvarix Flux Conduit",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 2
+    },
+    {
+        "name": "Vvarix Flux Conduit (4,400)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 2
+    },
+    {
+        "name": "Vvarix Flux Conduit (4,695)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 3
+    },
+    {
+        "name": "Vvarix Flux Conduit (5,000)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4
+    },
+    {
+        "name": "Vvarix Flux Conduit (5,700)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "c": 300
+    },
+    {
+        "name": "Vvarix Flux Conduit (6,200)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "c": 600
+    },
+    {
+        "name": "Vvarix Flux Conduit (6,500)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "brp": 2,
+        "c": 600
+    },
+    {
+        "name": "Vvarix Flux Conduit (7,099)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "brp": 4,
+        "c": 600
+    },
+    {
+        "name": "Vvarix Flux Conduit (8,002)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "brp": 8,
+        "rps": 500,
+        "c": 600
+    },
+    {
+        "name": "Vvarix Flux Conduit (8,500)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "brp": 8,
+        "rps": 1000,
+        "c": 600
+    },
+    {
+        "name": "Vvarix Flux Conduit (9,000)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "brp": 8,
+        "rps": 2000,
+        "c": 600
+    },
+    {
+        "name": "Alarri Comm Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 1,
+        "c": 100
+    },
+    {
+        "name": "Alarri Comm Tower - Mark II",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "c": 200
+    },
+    {
+        "name": "Alarri Comm Tower - Mark III",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "c": 350
+    },
+    {
+        "name": "Alarri Compound Turret",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "bat": 15
+    },
+    {
+        "name": "Alarri Signaling Drone",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 1,
+        "ap": 1
+    },
+    {
+        "name": "XTS-10 Injector",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 3,
+        "p": -150
+    },
+    {
+        "name": "RSL Data Uplink",
+        "size": 3,
+        "limit": -1,
+        "limited": true,
+        "extract": true,
+        "rp": 3,
+        "d": 50,
+        "c": 100
+    },
+    {
+        "name": "Sha'jha Uplink",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "rp": 2,
+        "c": 120
+    },
+    {
+        "name": "Raix Bunker",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Raix Bunker II",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 2
+    },
+    {
+        "name": "Tejiar Ally HQ",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 1
+    },
+    {
+        "name": "Tejiar Ally HQ II",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 5
+    },
+    {
+        "name": "Raix Refinery",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "c": 300
+    },
+    {
+        "name": "Raix Refinery (Specialized)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "c": 300
+    },
+    {
+        "name": "Raix Refinery II",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "c": 400
+    },
+    {
+        "name": "Raix Refinery II (Specialized)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "c": 400
+    },
+    {
+        "name": "Tej-Brask Refueling Depot",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "d": 500
+    },
+    {
+        "name": "Tej-Brask Refueling Depot II",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 6,
+        "ap": 1,
+        "d": 1000
+    },
+    {
+        "name": "Meta-Tuned Jammer (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "rp": 2,
+        "bc": 25
+    },
+    {
+        "name": "Meta-Tuned Jammer (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "rp": 4,
+        "bc": 10
+    },
+    {
+        "name": "Rikthar's War Forge (1)",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "bat": 30
+    },
+    {
+        "name": "Rikthar's War Forge (2)",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 1,
+        "ap": 3,
+        "bat": 10
+    },
+    {
+        "name": "NSX Tracking Matrix (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2,
+        "d": 3000
+    },
+    {
+        "name": "NSX Tracking Matrix (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 3,
+        "d": 6000
+    },
+    {
+        "name": "NSX Tracking Matrix (3)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 3,
+        "rp": 4,
+        "d": 9000
+    },
+    {
+        "name": "Sub-Tachyonic Axis",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "c": 200
+    },
+    {
+        "name": "Sub-Tachyonic Axis (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "c": 300
+    },
+    {
+        "name": "Oruas Eye Chamber",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "aps": 1000,
+        "rp": 2,
+        "bd": 25
+    },
+    {
+        "name": "Lutuma Command Module",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "d": 8000
+    },
+    {
+        "name": "Oruas Predictive Disjector",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bat": 20,
+        "c": 400
+    },
+    {
+        "name": "Oruas Corrupted Disjector",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bat": 40,
+        "c": 800
+    },
+    {
+        "name": "Tri-Ocular Inhibitor",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "ap": 1,
+        "bc": 10
+    },
+    {
+        "name": "Zolazin Analyzer",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Zolazin Void Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "c": 100
+    },
+    {
+        "name": "Ergosphere Filter",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "c": 150,
+        "bc": 20
+    },
+    {
+        "name": "Quantum Hydro-Meliorator",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "ap": 1,
+        "p": 100
+    },
+    {
+        "name": "Quantum Hydro-Meliorator (Pop Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "ap": 1,
+        "p": 200
+    },
+    {
+        "name": "Quantum Hydro-Meliorator (Pop Tripled)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "ap": 1,
+        "p": 300
+    },
+    {
+        "name": "Mylarai Stripcore Mine",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "ap": -2
+    },
+    {
+        "name": "Modified Grid-Pylon",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "rp": 2,
+        "d": 200,
+        "c": 150
+    },
+    {
+        "name": "Convoy Heat Seeker",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 1,
+        "p": 75
+    },
+    {
+        "name": "Volcanic Heat Seeker",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 2,
+        "p": 150
+    },
+    {
+        "name": "Adaptive Spire (M)",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "mp": 2
+    },
+    {
+        "name": "Adaptive Spire (A)",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "ap": 2
+    },
+    {
+        "name": "Adaptive Spire (R)",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "rp": 2
+    },
+    {
+        "name": "Adaptive Spire (X)",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Xectiphage Tower",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "d": 300
+    },
+    {
+        "name": "Xecti Signal Repeater",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "brp": 10
+    },
+    {
+        "name": "Extracted Lithovoric Stem",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "bmp": 10
+    },
+    {
+        "name": "Orbital Stabilizer",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "bmp": 7,
+        "ap": 1
+    },
+    {
+        "name": "Orbital Stabilizer (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "bmp": 14,
+        "ap": 2
+    },
+    {
+        "name": "Vaash Holomatrix",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "rp": 2,
+        "c": 100
+    },
+    {
+        "name": "Vaash Holomatrix (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "rp": 2,
+        "brp": 7,
+        "c": 100
+    },
+    {
+        "name": "Litheor Core-Tunnel (Size 1)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "bc": 15
+    },
+    {
+        "name": "Litheor Core-Tunnel (Size 2)",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "bc": 23
+    },
+    {
+        "name": "Litheor Transmutative Locator (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "bap": 6,
+        "bd": 10
+    },
+    {
+        "name": "Litheor Transmutative Locator (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "bap": 5,
+        "bd": 20
+    },
+    {
+        "name": "Litheor Transmutative Locator (3)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "bap": 4,
+        "bd": 30
+    },
+    {
+        "name": "Uldri Spacial Marker",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "d": 300
+    },
+    {
+        "name": "Uldri Spacial Marker II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "d": 600
+    },
+    {
+        "name": "Uldri Spacial Marker III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "d": 1200
+    },
+    {
+        "name": "Uldri Anomaly Crystal",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Uldri Anomaly Crystal (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 1,
+        "brp": 5,
+        "c": 200
+    },
+    {
+        "name": "Ventar Field Collapser",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "bc": 10
+    },
+    {
+        "name": "Uldri Recovery Capsule (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "rp": 1,
+        "p": 500
+    },
+    {
+        "name": "Uldri Recovery Capsule (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 1,
+        "p": 1500
+    },
+    {
+        "name": "Uldri Recovery Capsule (3)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2,
+        "p": 2500
+    },
+    {
+        "name": "Uldri Recovery Capsule (4)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "p": 3500
+    },
+    {
+        "name": "Drannik Databank",
+        "size": 5,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "ap": 2,
+        "rp": 3,
+        "at": 100,
+        "d": 100
+    },
+    {
+        "name": "Cloning Center",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "p": 275
+    },
+    {
+        "name": "X-Pulse Tower",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "at": 350,
+        "d": 350
+    },
+    {
+        "name": "Antimatter Drill",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "at": 400
+    },
+    {
+        "name": "Archaic Stasis Cells",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "p": 200,
+        "id": 500
+    },
+    {
+        "name": "Taltherian Archives",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": false,
+        "rp": 1,
+        "rps": 1000
+    },
+    {
+        "name": "Chron Shifter",
+        "size": 1,
+        "limit": 2,
+        "limited": true,
+        "extract": true,
+        "c": 300
+    },
+    {
+        "name": "Statue of the Magnus",
+        "size": 2,
+        "limit": 3,
+        "limited": true,
+        "extract": true,
+        "id": 1000
+    },
+    {
+        "name": "Guarded Memorial",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "rp": 1,
+        "d": 250
+    },
+    {
+        "name": "Neutron-Lift Processor",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 6,
+        "mps": 4200
+    },
+    {
+        "name": "Hyperluminal Satellite",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "rp": 3,
+        "c": 200
+    },
+    {
+        "name": "Hyperluminal Sat-Grid",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 3,
+        "rp": 9,
+        "ip": 1,
+        "c": 600
+    },
+    {
+        "name": "Hyperluminal Sat-Grid Mesh",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 4,
+        "rp": 12,
+        "ip": 1,
+        "c": 800
+    },
+    {
+        "name": "Lepus Hatchery",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "bd": 10,
+        "p": 250
+    },
+    {
+        "name": "Lepus Growth Hatchery",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "bd": 20,
+        "p": 500
+    },
+    {
+        "name": "Supel Comm Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "rp": 4,
+        "c": 420
+    },
+    {
+        "name": "Elios Solar Drill",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1
+    },
+    {
+        "name": "Elios Solar Drill (Heliacal)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2
+    },
+    {
+        "name": "Elios Solar Drill (Inverter)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2
+    },
+    {
+        "name": "Elios Solar Drill (Inverter + Heliacal)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 3
+    },
+    {
+        "name": "Elios Corethune Shell",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 2,
+        "ip": 1,
+        "bd": 20,
+        "c": 620,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Corethune Shell v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Average"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Elios Corethune Shell v2",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 3,
+        "ip": 2,
+        "bd": 30,
+        "c": 920,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Corethune Shell v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Average"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Elios Corethune Shell v3",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 4,
+        "ip": 3,
+        "bd": 40,
+        "c": 1220,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Corethune Shell v4"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Average"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Elios Corethune Shell v4",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 6,
+        "ip": 5,
+        "bd": 60,
+        "c": 1620
+    },
+    {
+        "name": "Vaash Cron-Stabilizer",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "brp": 4,
+        "rps": 420
+    },
+    {
+        "name": "Chuhn Trading Post",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "p": 2000
+    },
+    {
+        "name": "Chuhn Trading Post (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "p": 4000
+    },
+    {
+        "name": "Bane Psybeacon",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 2
+    },
+    {
+        "name": "Bane Psybeacon - Mark II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 2,
+        "rp": 2,
+        "id": 1000
+    },
+    {
+        "name": "Bane Psybeacon - Mark III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "rp": 3,
+        "id": 1000
+    },
+    {
+        "name": "Bane Psybeacon - Mark IV",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "rp": 3,
+        "id": 3000
+    },
+    {
+        "name": "Bane Psybeacon - Mark V",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 4,
+        "rp": 3,
+        "id": 5000
+    },
+    {
+        "name": "Bane Psybeacon - Mark VI",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 5,
+        "rp": 4,
+        "id": 6666
+    },
+    {
+        "name": "Bane Nether-Seal (1)",
+        "size": 10,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 6,
+        "rp": 6,
+        "c": 666
+    },
+    {
+        "name": "Bane Nether-Seal (2)",
+        "size": 8,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 6,
+        "rp": 6,
+        "c": 666
+    },
+    {
+        "name": "Bane Nether-Seal (3)",
+        "size": 6,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 6,
+        "rp": 6,
+        "c": 666
+    },
+    {
+        "name": "Bane Nether-Seal (4)",
+        "size": 4,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 6,
+        "rp": 6,
+        "c": 666
+    },
+    {
+        "name": "Bane Nether-Seal (5)",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 6,
+        "rp": 6,
+        "c": 666
+    },
+    {
+        "name": "Bane Nether-Seal (6)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 6,
+        "rp": 6,
+        "c": 666
+    },
+    {
+        "name": "Perimeter Station",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "d": 200,
+        "p": 100
+    },
+    {
+        "name": "Perimeter Station - Upgraded",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 1,
+        "d": 1000,
+        "p": 1000
+    },
+    {
+        "name": "Scruuge Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 2,
+        "at": 300
+    },
+    {
+        "name": "Permafrost Sub-Network",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "rp": 1,
+        "p": 50,
+        "c": 50
+    },
+    {
+        "name": "Permafrost Sub-Network (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "rp": 2,
+        "p": 100,
+        "c": 100
+    },
+    {
+        "name": "Ardyne Hypergate",
+        "size": 3,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 5,
+        "ap": 5,
+        "ip": 1
+    },
+    {
+        "name": "Ardyne Hypergate (Upgraded)",
+        "size": 3,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 5,
+        "bmp": 3,
+        "ap": 5,
+        "bap": 3,
+        "brp": 3,
+        "ip": 2,
+        "bip": 3
+    },
+    {
+        "name": "Seat of the Exarch",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 3,
+        "ip": 2
+    },
+    {
+        "name": "Seat of the Exarch (Upgraded)",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 3,
+        "ip": 2,
+        "ips": 111
+    },
+    {
+        "name": "Vygos Aquaseeker",
+        "size": 3,
+        "limit": 2,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "ap": 4,
+        "ip": 1,
+        "bp": 22
+    },
+    {
+        "name": "Temple of Radiance",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 3,
+        "rp": 3,
+        "bip": 7,
+        "c": 777
+    },
+    {
+        "name": "Cognitor Forum",
+        "size": 3,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 3,
+        "rp": 6,
+        "brp": 8,
+        "ip": 2
+    },
+    {
+        "name": "Sirocco Sandspire",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "bap": 3,
+        "rp": 3,
+        "ip": 1
+    },
+    {
+        "name": "Cryonic Xynapse",
+        "size": 3,
+        "limit": 2,
+        "limited": true,
+        "extract": false,
+        "rp": 8,
+        "ip": 2,
+        "ic": 2
+    },
+    {
+        "name": "Litheor Deep-Ember Keep",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "bmp": 5,
+        "ip": 1
+    },
+    {
+        "name": "Litheor Deep-Ember Keep v2",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 6,
+        "bmp": 6,
+        "ip": 2
+    },
+    {
+        "name": "Litheor Deep-Ember Keep v3",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 8,
+        "bmp": 7,
+        "ip": 3
+    },
+    {
+        "name": "Atrium of Secrets",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "rp": 2,
+        "ip": 1,
+        "c": 1100,
+        "bc": 11
+    },
+    {
+        "name": "Xecti Brood-Nest",
+        "size": 2,
+        "limit": 2,
+        "limited": true,
+        "extract": false,
+        "mp": 6,
+        "ip": 1,
+        "bat": 30,
+        "ic": 2
+    },
+    {
+        "name": "War Foundry Plant",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "at": 500,
+        "bat": 20
+    },
+    {
+        "name": "Galakis Transport",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "mps": 400,
+        "ap": 1,
+        "aps": 400,
+        "rp": 1,
+        "rps": 400
+    },
+    {
+        "name": "Galakis Entry Port",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 2,
+        "bd": 10,
+        "p": 1000
+    },
+    {
+        "name": "T.O. Omnispanner",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 2,
+        "bd": 10,
+        "c": 100
+    },
+    {
+        "name": "Siladon Suppressor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 2,
+        "d": 1500,
+        "c": 200
+    },
+    {
+        "name": "Xathe Inhibitor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "rp": 2,
+        "bc": 15
+    },
+    {
+        "name": "Vorean Habitat",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "p": 2000
+    },
+    {
+        "name": "Vorean Habitat (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "p": 2000
+    },
+    {
+        "name": "Vorean Biostasis Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "rp": 1,
+        "bp": 50
+    },
+    {
+        "name": "Vorean Biostasis Lab (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 2,
+        "rp": 2,
+        "bp": 50
+    },
+    {
+        "name": "Ryelis Analyzer",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 2,
+        "rp": 2,
+        "bc": 5
+    },
+    {
+        "name": "Anti-Grav Repulsor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "bd": 15,
+        "bc": 15
+    },
+    {
+        "name": "Genome Modifier Tubes",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "id": 2000
+    },
+    {
+        "name": "Ardyne Transfer Conduit",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 1,
+        "c": 200
+    },
+    {
+        "name": "Ardyne Transfer Conduit (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "rp": 2,
+        "c": 400
+    },
+    {
+        "name": "Roathir Listening Post",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 4,
+        "bc": 5
+    },
+    {
+        "name": "Cerulean Flow Converter",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 1,
+        "bd": 25
+    },
+    {
+        "name": "Cerulean Hyperstation",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "bp": 60
+    },
+    {
+        "name": "Aerlen Rescue Transport",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "p": 3000
+    },
+    {
+        "name": "Aerlen Rescue Transport (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "p": 6000
+    },
+    {
+        "name": "Dormant Tenebris Relic",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "rp": 2
+    },
+    {
+        "name": "Active Tenebris Relic",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 2,
+        "rp": 2,
+        "c": 200
+    },
+    {
+        "name": "B'elna's Altar",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "c": 250
+    },
+    {
+        "name": "B'elna's Altar (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 3,
+        "c": 500
+    },
+    {
+        "name": "Darmos Nerve Turret",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2,
+        "at": 30
+    },
+    {
+        "name": "Vearon Casino",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 1,
+        "p": 2000
+    },
+    {
+        "name": "Morphogenic Inhibitor",
+        "size": 1,
+        "limit": 4,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "c": 300
+    },
+    {
+        "name": "Silthion Gas Vesicle II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "c": 300
+    },
+    {
+        "name": "Silthion T-Plasma Vesicle II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 6,
+        "c": 600
+    },
+    {
+        "name": "Sentiox Uplink",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4
+    },
+    {
+        "name": "Sentiox Trilink Node",
+        "size": 1,
+        "limit": 3,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 2,
+        "rp": 3
+    },
+    {
+        "name": "Stryll Ghost-Uplink",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 3,
+        "ip": 1,
+        "c": 1100,
+        "bc": 11
+    },
+    {
+        "name": "Scruuge Calibration Plant",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "c": 400
+    },
+    {
+        "name": "Scruuge Calibration Plant (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "c": 800
+    },
+    {
+        "name": "Scruuge Cargo Launcher",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "d": 2000,
+        "bd": 15
+    },
+    {
+        "name": "Scruuge Cargo Launcher",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 3,
+        "d": 4000,
+        "bd": 15
+    },
+    {
+        "name": "Scruuge Frost Tribunal",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "aps": 300,
+        "ip": 1
+    },
+    {
+        "name": "Scruuge Growth Replivats",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "p": 5000,
+        "bp": 15
+    },
+    {
+        "name": "Scruuge Growth Replivats (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 6,
+        "p": 10000,
+        "bp": 15
+    },
+    {
+        "name": "Scruuge Refinery-Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 4,
+        "at": 600
+    },
+    {
+        "name": "Streveldan Autoform Habitat A",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 1,
+        "p": 5000,
+        "c": 350
+    },
+    {
+        "name": "Streveldan Autoform Habitat B",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 6,
+        "p": 5000,
+        "c": 350
+    },
+    {
+        "name": "Streveldan Autoform Habitat C",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "p": 2500,
+        "c": 200
+    },
+    {
+        "name": "Streveldan Autoform Habitat D",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "ip": 1,
+        "p": 2500,
+        "c": 200
+    },
+    {
+        "name": "Supel Microhaven (Av+)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2,
+        "p": 2000,
+        "bp": 5
+    },
+    {
+        "name": "Supel Microhaven (S)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 3,
+        "p": 3000,
+        "bp": 7
+    },
+    {
+        "name": "Supel Microhaven (VS)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 3,
+        "ip": 1,
+        "p": 4000,
+        "bp": 9
+    },
+    {
+        "name": "Supel Microhaven (T)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 3,
+        "ip": 2,
+        "p": 5000,
+        "bp": 12
+    },
+    {
+        "name": "Supel Microhaven (VT)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "rp": 3,
+        "ip": 2,
+        "p": 6000,
+        "bp": 15
+    },
+    {
+        "name": "Arx Genetica",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "rps": 321,
+        "ip": 1,
+        "bc": 11
+    },
+    {
+        "name": "Elios Pulse-Compressor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "ip": 1,
+        "ips": 88
+    },
+    {
+        "name": "NSX Crate: Diamond",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2,
+        "bd": 10
+    },
+    {
+        "name": "Lepus Bio-Nest (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "p": 1000
+    },
+    {
+        "name": "Lepus Bio-Nest (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "p": 2000
+    },
+    {
+        "name": "Lepus Bio-Nest (3)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "p": 3000
+    },
+    {
+        "name": "Lepus Bio-Nest (4)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "p": 4000
+    },
+    {
+        "name": "Lepus Bio-Nest (5)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "p": 5000
+    },
+    {
+        "name": "Lepus Bio-Nest (6)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "p": 6000
+    },
+    {
+        "name": "Lepus Bio-Nest (7)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 1000
+    },
+    {
+        "name": "Lepus Bio-Nest (8)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 2000
+    },
+    {
+        "name": "Lepus Bio-Nest (9)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 3000
+    },
+    {
+        "name": "Lepus Bio-Nest (10)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 4000
+    },
+    {
+        "name": "Lepus Bio-Nest (11)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 5000
+    },
+    {
+        "name": "Lepus Bio-Nest (12)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 6000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 2000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 3000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (3)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 4000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (4)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 5000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (5)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 6000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (6)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 7000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (7)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 8000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (8)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 9000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (9)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 10000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (10)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 2000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (11)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 3000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (12)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 4000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (13)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 5000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (14)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 6000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (15)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 7000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (16)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 8000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (17)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 9000
+    },
+    {
+        "name": "Auric Lepus Bio-Nest (18)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "p": 10000
+    },
+    {
+        "name": "Elios Orbital Conduit",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 5,
+        "brp": 10
+    },
+    {
+        "name": "Elios Core Mine",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "bmp": 10,
+        "ap": 2
+    },
+    {
+        "name": "Elios Core Mine (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "bmp": 15,
+        "ap": 2
+    },
+    {
+        "name": "Bane Psyshade Arsenal",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "at": 3000
+    },
+    {
+        "name": "Bane Psyshade Arsenal II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "at": 6000
+    },
+    {
+        "name": "Bane Psyshade Arsenal III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 3,
+        "at": 12000
+    },
+    {
+        "name": "Bane Psyshade Arsenal IV",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 4,
+        "at": 24000
+    },
+    {
+        "name": "Bane Psyshade Arsenal V",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 5,
+        "at": 42000
+    },
+    {
+        "name": "Scruuge Keystone",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "bat": 10
+    },
+    {
+        "name": "Scruuge Keystone II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "bat": 20
+    },
+    {
+        "name": "Scruuge Keystone III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 6,
+        "bat": 30
+    },
+    {
+        "name": "Scruuge Keystone IV",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 3,
+        "rp": 8,
+        "bat": 40
+    },
+    {
+        "name": "Scruuge Keystone V",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 4,
+        "rp": 10,
+        "bat": 50
+    },
+    {
+        "name": "Scruuge Keystone VI",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 8,
+        "ap": 5,
+        "rp": 12,
+        "bat": 60
+    },
+    {
+        "name": "Scruuge Keystone VII",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 10,
+        "ap": 6,
+        "rp": 14,
+        "bat": 70
+    },
+    {
+        "name": "Gene-Root Pavilion",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "ip": 1,
+        "c": 770
+    },
+    {
+        "name": "T.O. Capitol Dome",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 2,
+        "ip": 2,
+        "bd": 20
+    },
+    {
+        "name": "T.O. Capitol Dome - Upgraded",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "ip": 3,
+        "bd": 30
+    },
+    {
+        "name": "Tri-Phase Cutter",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "mp": 3,
+        "at": 300
+    },
+    {
+        "name": "Adumbrate Station",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 1,
+        "c": 200
+    },
+    {
+        "name": "Adumbrate Station (Upgrade)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "c": 400
+    },
+    {
+        "name": "Adumbrate Junction",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "bc": 18
+    },
+    {
+        "name": "Farselle Paravault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 200,
+        "bap": 2,
+        "aps": 200,
+        "rps": 200
+    },
+    {
+        "name": "Uldri Spacial Folder",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 2,
+        "c": 300
+    },
+    {
+        "name": "Uldri Crystal Field",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 5,
+        "bap": 5,
+        "brp": 5,
+        "bip": 5,
+        "d": 1000
+    },
+    {
+        "name": "Uldri Power Node",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bap": 5,
+        "rp": 1
+    },
+    {
+        "name": "Uldri Prism Haven",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "brp": 7,
+        "rps": 7
+    },
+    {
+        "name": "Raix Stasis Hold",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "mps": 1400,
+        "ap": 1,
+        "aps": 1400,
+        "bc": 11
+    },
+    {
+        "name": "Raix Stasis Hold II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "mps": 1900,
+        "ap": 2,
+        "aps": 1900,
+        "bc": 16
+    },
+    {
+        "name": "Raix Stasis Hold III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "mps": 2400,
+        "ap": 2,
+        "aps": 2400,
+        "bc": 21
+    },
+    {
+        "name": "Corrupted Edifice",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "aps": 2000,
+        "bc": 20
+    },
+    {
+        "name": "Corrupted Portal",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "aps": 600,
+        "c": 400
+    },
+    {
+        "name": "Corrupted Portal II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 3,
+        "aps": 1200,
+        "c": 800
+    },
+    {
+        "name": "Corrupted Portal III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 4,
+        "aps": 1800,
+        "c": 1200
+    },
+    {
+        "name": "Corrupted Portal IV",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 5,
+        "aps": 2400,
+        "c": 1600
+    },
+    {
+        "name": "Corrupted Portal V",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 7,
+        "ap": 6,
+        "aps": 3000,
+        "c": 2000
+    },
+    {
+        "name": "Cognizant Omniforge",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "bmp": 5,
+        "ap": 1,
+        "bap": 5,
+        "rp": 1,
+        "brp": 5,
+        "bip": 5
+    },
+    {
+        "name": "Cognizant Omniforge Grid",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 7,
+        "ap": 2,
+        "bap": 7,
+        "rp": 2,
+        "brp": 7,
+        "bip": 7
+    },
+    {
+        "name": "Hall of Law",
+        "size": 3,
+        "limit": 5,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "ip": 1
+    },
+    {
+        "name": "Cognizant Omni-Bank",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "mps": 2222,
+        "ap": 2,
+        "aps": 2222
+    },
+    {
+        "name": "Cognizant Omni-Plant",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 4
+    },
+    {
+        "name": "Aeon Tower",
+        "size": 3,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 6,
+        "ip": 2,
+        "c": 550,
+        "bc": 16
+    },
+    {
+        "name": "Aeon Relay Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 2,
+        "rp": 2,
+        "ip": 1
+    },
+    {
+        "name": "Aeon Processor Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 1,
+        "ip": 1
+    },
+    {
+        "name": "Galaxy Interrogators",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "rps": 500,
+        "c": 200
+    },
+    {
+        "name": "Galaxy Pedants",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "rp": 2
+    },
+    {
+        "name": "Galaxy Administrators",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "mp": 2
+    },
+    {
+        "name": "Galaxy Aristocrats",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "ap": 2
+    },
+    {
+        "name": "Galaxy Surrogates",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Galaxy Celestials",
+        "size": 0,
+        "limit": 8,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "c": 400
+    },
+    {
+        "name": "Counter-Intelligence Nexus",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 2,
+        "c": 150
+    },
+    {
+        "name": "Nexus Command Center",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "c": 300
+    },
+    {
+        "name": "Nexus Spy Fortress",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 8,
+        "c": 600
+    },
+    {
+        "name": "Nexus Recon Spy-Hub",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 12,
+        "c": 1200
+    },
+    {
+        "name": "OmniVote Terminal",
+        "size": 5,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "ip": 2
+    },
+    {
+        "name": "OmniVote Nexus",
+        "size": 5,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 16,
+        "ip": 8
+    },
+    {
+        "name": "Heist Dispatch Center",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "at": 150
+    },
+    {
+        "name": "Heist Dispatch Station",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "at": 300,
+        "bat": 10
+    },
+    {
+        "name": "Propaganda Plex",
+        "size": 6,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 7,
+        "ip": 3,
+        "bp": 20
+    },
+    {
+        "name": "Propaganda Plex v2",
+        "size": 6,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 9,
+        "ip": 4,
+        "bp": 30
+    },
+    {
+        "name": "Propaganda Plex v3",
+        "size": 6,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 11,
+        "ip": 5,
+        "bp": 40
+    },
+    {
+        "name": "Assimilation Locus",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "p": 100
+    },
+    {
+        "name": "Assimilation Locus 50%",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 3,
+        "p": 150
+    },
+    {
+        "name": "Assimilation Locus 100%",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 4,
+        "p": 300
+    },
+    {
+        "name": "Assimilation Locus (Doubled)",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 4,
+        "p": 300
+    },
+    {
+        "name": "Assimilation Locus (Doubled) 50%",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 6,
+        "p": 450
+    },
+    {
+        "name": "Assimilation Locus (Doubled) 100%",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 8,
+        "p": 600
+    },
+    {
+        "name": "Luring Cynosure 1",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bat": 20
+    },
+    {
+        "name": "Luring Cynosure 2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "bat": 40
+    },
+    {
+        "name": "Forgestone Prison Colony",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 3,
+        "mps": 404,
+        "ap": 1
+    },
+    {
+        "name": "Forgestone Prison Colony v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "bmp": 5,
+        "mps": 606,
+        "ap": 2
+    },
+    {
+        "name": "Forgestone Prison Colony v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 7,
+        "bmp": 7,
+        "mps": 808,
+        "ap": 3
+    },
+    {
+        "name": "Forgestone Prison Colony v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 9,
+        "bmp": 9,
+        "mps": 1010,
+        "ap": 4
+    },
+    {
+        "name": "Paralyxis Diffuser",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 3,
+        "rp": 2,
+        "bd": 33,
+        "ic": 3
+    },
+    {
+        "name": "Barrier Nexus",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "d": 300,
+        "bd": 20
+    },
+    {
+        "name": "Barrier HyperNexus",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "d": 600,
+        "bd": 30
+    },
+    {
+        "name": "Orbisbarrier HyperNexus",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "d": 1200,
+        "bd": 40
+    },
+    {
+        "name": "Arcobarrier PulseNexus",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 1,
+        "d": 2400,
+        "bd": 50
+    },
+    {
+        "name": "Argent Consulate",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "bp": 40
+    },
+    {
+        "name": "Argent Sector-Embassy",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "rp": 4,
+        "bp": 60
+    },
+    {
+        "name": "Argent Galactic-Embassy",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "rp": 6,
+        "bp": 80
+    },
+    {
+        "name": "Quantum Accelerator (M)",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "c": 150
+    },
+    {
+        "name": "Quantum Accelerator (M) 50%",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "c": 225
+    },
+    {
+        "name": "Quantum Accelerator (M) 100%",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "c": 300
+    },
+    {
+        "name": "Quantum Accelerator (A)",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 2,
+        "c": 150
+    },
+    {
+        "name": "Quantum Accelerator (A) 50%",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "c": 225
+    },
+    {
+        "name": "Quantum Accelerator (A) 100%",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "c": 300
+    },
+    {
+        "name": "Quantum Accelerator (R)",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 2,
+        "c": 150
+    },
+    {
+        "name": "Quantum Accelerator (R) 50%",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 3,
+        "c": 225
+    },
+    {
+        "name": "Quantum Accelerator (R) 100%",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "c": 300
+    },
+    {
+        "name": "Dark Supercollider",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 4,
+        "bap": 4,
+        "brp": 4,
+        "bip": 4,
+        "c": 800
+    },
+    {
+        "name": "Dark Supercollider (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 6,
+        "bap": 6,
+        "brp": 6,
+        "bip": 6,
+        "c": 1200
+    },
+    {
+        "name": "Dark Mega-Strider",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bat": 22
+    },
+    {
+        "name": "Dark Mega-Strider v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 3,
+        "bat": 44
+    },
+    {
+        "name": "Dark Mega-Strider v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 4,
+        "bat": 66
+    },
+    {
+        "name": "Dark Mega-Strider v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 8,
+        "ap": 5,
+        "bat": 88
+    },
+    {
+        "name": "Mineral Storage Tower",
+        "size": 2,
+        "limit": 5,
+        "limited": false,
+        "extract": true,
+        "mps": 2000
+    },
+    {
+        "name": "Artifact Warehouse",
+        "size": 2,
+        "limit": 5,
+        "limited": false,
+        "extract": true,
+        "aps": 4000
+    },
+    {
+        "name": "Research Data Archive",
+        "size": 2,
+        "limit": 5,
+        "limited": false,
+        "extract": true,
+        "rps": 2000
+    },
+    {
+        "name": "Weather Controller",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 2,
+        "p": 200
+    },
+    {
+        "name": "Omni-Weather Controller",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 5,
+        "d": 3333,
+        "bc": 33
+    },
+    {
+        "name": "Sillixx Starport",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "p": 300
+    },
+    {
+        "name": "Sillixx Starport Hub",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "p": 3333,
+        "bp": 33
+    },
+    {
+        "name": "Human Training Barracks",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "at": 250,
+        "d": 250,
+        "p": 500
+    },
+    {
+        "name": "Human Tactical Barracks",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rps": 1111,
+        "bat": 33,
+        "bd": 33,
+        "p": 5000
+    },
+    {
+        "name": "Library of Celestial Registry",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "rp": 4,
+        "rps": 1001,
+        "ip": 2,
+        "ips": 101
+    },
+    {
+        "name": "Council Chamber",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "ip": 1
+    },
+    {
+        "name": "Court of Oracles",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ip": 3
+    },
+    {
+        "name": "Q-Pedd Science Station",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 3,
+        "rps": 2000
+    },
+    {
+        "name": "Q-Pedd Science Station 2.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 3,
+        "rps": 3000
+    },
+    {
+        "name": "Q-Pedd Science Station 3.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 3,
+        "rps": 4000
+    },
+    {
+        "name": "Q-Pedd Science Station 4.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "rps": 5000
+    },
+    {
+        "name": "Q-Pedd Science Station 5.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "rps": 6000
+    },
+    {
+        "name": "Q-Pedd Science Station 6.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 5,
+        "rps": 7000
+    },
+    {
+        "name": "Q-Pedd Science Station 7.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 6,
+        "rps": 8000
+    },
+    {
+        "name": "Q-Pedd Science Station 8.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 7,
+        "rps": 9000
+    },
+    {
+        "name": "Q-Pedd Science Station 9.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 8,
+        "rps": 10000
+    },
+    {
+        "name": "Q-Pedd Science Station 10.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 9,
+        "rps": 11000
+    },
+    {
+        "name": "Q-Pedd Science Station 11.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 10,
+        "rps": 12000
+    },
+    {
+        "name": "Q-Pedd Science Station 12.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 11,
+        "rps": 13000
+    },
+    {
+        "name": "Q-Pedd Science Station 13.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 12,
+        "rps": 14000
+    },
+    {
+        "name": "Q-Pedd Science Station 14.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 14,
+        "rps": 15000,
+        "c": 1200
+    },
+    {
+        "name": "Q-Pedd Science Station 15.0",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 15,
+        "rps": 16000,
+        "c": 1400
+    },
+    {
+        "name": "Streveldan Convocation Nexus",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "rp": 6,
+        "ip": 3,
+        "ips": 202,
+        "c": 800
+    },
+    {
+        "name": "Lepus Drone",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "at": 100,
+        "d": 100
+    },
+    {
+        "name": "Lepus Drone 2.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 2,
+        "at": 200,
+        "d": 200
+    },
+    {
+        "name": "Lepus Drone 3.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 2,
+        "at": 500,
+        "d": 500
+    },
+    {
+        "name": "Lepus Drone 4.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 2,
+        "rp": 1,
+        "at": 1000,
+        "d": 1000
+    },
+    {
+        "name": "Lepus Drone 5.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 2,
+        "rp": 2,
+        "at": 2000,
+        "d": 2000
+    },
+    {
+        "name": "Lepus Drone 6.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "at": 3000,
+        "d": 3000
+    },
+    {
+        "name": "Lepus Drone 7.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 3,
+        "rp": 2,
+        "at": 4000,
+        "d": 4000
+    },
+    {
+        "name": "Lepus Drone 8.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 3,
+        "rp": 3,
+        "at": 5000,
+        "d": 5000
+    },
+    {
+        "name": "Lepus Drone 9.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "rp": 3,
+        "at": 6000,
+        "d": 6000
+    },
+    {
+        "name": "Lepus Drone 10.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 4,
+        "rp": 3,
+        "at": 7000,
+        "d": 7000
+    },
+    {
+        "name": "Lepus Drone 11.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 4,
+        "rp": 4,
+        "at": 8000,
+        "d": 8000
+    },
+    {
+        "name": "Lepus Drone 12.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 4,
+        "rp": 4,
+        "at": 9000,
+        "d": 9000
+    },
+    {
+        "name": "Lepus Drone 13.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 5,
+        "rp": 4,
+        "at": 10000,
+        "d": 10000
+    },
+    {
+        "name": "Lepus Drone 14.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 5,
+        "rp": 5,
+        "at": 11000,
+        "d": 11000
+    },
+    {
+        "name": "Lepus Drone 15.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 5,
+        "rp": 5,
+        "at": 12000,
+        "d": 12000,
+        "c": 200
+    },
+    {
+        "name": "Lepus Drone 16.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 6,
+        "rp": 5,
+        "at": 13000,
+        "d": 13000,
+        "c": 200
+    },
+    {
+        "name": "Auric Lepus Drone",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 2,
+        "at": 250,
+        "d": 250
+    },
+    {
+        "name": "Auric Lepus Drone 2.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 3,
+        "at": 400,
+        "d": 400
+    },
+    {
+        "name": "Auric Lepus Drone 3.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 3,
+        "rp": 1,
+        "at": 1500,
+        "d": 1500
+    },
+    {
+        "name": "Auric Lepus Drone 4.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 3,
+        "rp": 2,
+        "at": 3000,
+        "d": 3000
+    },
+    {
+        "name": "Auric Lepus Drone 5.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 3,
+        "rp": 2,
+        "at": 5000,
+        "d": 5000
+    },
+    {
+        "name": "Auric Lepus Drone 6.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "rp": 3,
+        "at": 7000,
+        "d": 7000
+    },
+    {
+        "name": "Auric Lepus Drone 7.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 4,
+        "rp": 3,
+        "at": 10000,
+        "d": 10000
+    },
+    {
+        "name": "Auric Lepus Drone 8.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 4,
+        "rp": 4,
+        "at": 14000,
+        "d": 14000
+    },
+    {
+        "name": "Auric Lepus Drone 9.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 4,
+        "rp": 4,
+        "at": 18000,
+        "d": 18000
+    },
+    {
+        "name": "Auric Lepus Drone 10.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 5,
+        "rp": 4,
+        "at": 22000,
+        "d": 22000
+    },
+    {
+        "name": "Auric Lepus Drone 11.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 5,
+        "rp": 5,
+        "at": 26000,
+        "d": 26000
+    },
+    {
+        "name": "Auric Lepus Drone 12.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 5,
+        "rp": 5,
+        "at": 28000,
+        "d": 28000
+    },
+    {
+        "name": "Auric Lepus Drone 13.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 6,
+        "rp": 5,
+        "at": 30000,
+        "d": 30000
+    },
+    {
+        "name": "Auric Lepus Drone 14.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 6,
+        "rp": 6,
+        "at": 32000,
+        "d": 32000
+    },
+    {
+        "name": "Auric Lepus Drone 15.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 6,
+        "rp": 6,
+        "at": 34000,
+        "d": 34000,
+        "c": 400
+    },
+    {
+        "name": "Auric Lepus Drone 16.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 7,
+        "rp": 6,
+        "at": 36000,
+        "d": 36000,
+        "c": 400
+    },
+    {
+        "name": "Supel Interphase Portal",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "rp": 6,
+        "ip": 3,
+        "ips": 202,
+        "c": 800
+    },
+    {
+        "name": "Supel Chromavault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 5,
+        "mps": 7700,
+        "bap": 5,
+        "aps": 7700,
+        "brp": 5,
+        "rps": 7700,
+        "bip": 5
+    },
+    {
+        "name": "Supel Chromavault 2.0",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 6,
+        "mps": 8400,
+        "bap": 6,
+        "aps": 8400,
+        "brp": 6,
+        "rps": 8400,
+        "bip": 6,
+        "c": 700
+    },
+    {
+        "name": "Supel Chromavault 3.0",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 7,
+        "mps": 9100,
+        "bap": 7,
+        "aps": 9100,
+        "brp": 7,
+        "rps": 9100,
+        "bip": 7,
+        "c": 1400
+    },
+    {
+        "name": "Genoform Reservoir",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rps": 3500,
+        "ip": 1
+    },
+    {
+        "name": "Phylogenetic Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "brp": 8,
+        "ip": 1
+    },
+    {
+        "name": "Elios Heliacal Plant",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 1
+    },
+    {
+        "name": "Elios Heliacal Plant (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 2
+    },
+    {
+        "name": "Elios Ignis Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 3,
+        "bc": 22
+    },
+    {
+        "name": "Chuhn Exo-Logistics Center",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4
+    },
+    {
+        "name": "Chuhn Exo-Logistics Gridport",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 6
+    },
+    {
+        "name": "Chuhn Scrapyard",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2
+    },
+    {
+        "name": "Chuhn Scrap Depot",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 3
+    },
+    {
+        "name": "Chuhn Trading Hub",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 1,
+        "p": 7000
+    },
+    {
+        "name": "Chuhn Trading Hub (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "rp": 2,
+        "p": 9000
+    },
+    {
+        "name": "Chuhn Trading MegaHub",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "rp": 2,
+        "ip": 1,
+        "p": 12000
+    },
+    {
+        "name": "Chuhn Trading MegaHub (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 4,
+        "rp": 3,
+        "p": 14000
+    },
+    {
+        "name": "Chuhn InterMarket Caster",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Chuhn InterMarket Caster v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 1,
+        "rp": 3
+    },
+    {
+        "name": "Chuhn InterMarket Caster v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "bap": 2,
+        "rp": 3
+    },
+    {
+        "name": "Chuhn InterMarket Caster v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "bap": 3,
+        "rp": 5
+    },
+    {
+        "name": "Bane Generator",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 3,
+        "ap": 2,
+        "at": 500
+    },
+    {
+        "name": "Bane Generator II",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 3,
+        "ap": 3,
+        "at": 800
+    },
+    {
+        "name": "Bane Generator III",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 4,
+        "ap": 3,
+        "at": 1200
+    },
+    {
+        "name": "Bane Generator IV",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 5,
+        "ap": 3,
+        "at": 1600
+    },
+    {
+        "name": "Bane Generator V",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 6,
+        "ap": 3,
+        "at": 3000
+    },
+    {
+        "name": "Bane Generator VI",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 7,
+        "ap": 4,
+        "at": 6000
+    },
+    {
+        "name": "Bane Generator VII",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 8,
+        "ap": 4,
+        "at": 12000
+    },
+    {
+        "name": "Bane Generator VIII",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 9,
+        "ap": 4,
+        "at": 20000
+    },
+    {
+        "name": "Bane Generator IX",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 10,
+        "ap": 5,
+        "at": 30000
+    },
+    {
+        "name": "Bane Generator X",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 12,
+        "ap": 5,
+        "at": 42000
+    },
+    {
+        "name": "Bane Generator XI",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 13,
+        "ap": 6,
+        "at": 55000
+    },
+    {
+        "name": "Bane Generator XII",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 15,
+        "ap": 6,
+        "at": 70000
+    },
+    {
+        "name": "Bane Generator XIII",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 16,
+        "ap": 7,
+        "at": 88000
+    },
+    {
+        "name": "Bane Generator XIV",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 18,
+        "ap": 7,
+        "at": 100000,
+        "c": 1800
+    },
+    {
+        "name": "Bane Generator XV",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 19,
+        "ap": 8,
+        "at": 120000,
+        "c": 2200
+    },
+    {
+        "name": "Bane Dark-Kiln",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "c": 666
+    },
+    {
+        "name": "HyperNexus Power Shunt",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 6,
+        "bap": 6,
+        "brp": 6,
+        "bip": 6,
+        "bd": 20
+    },
+    {
+        "name": "T.O. Harvest Vault",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "mps": 2000
+    },
+    {
+        "name": "T.O. Harvest Vault - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 2500
+    },
+    {
+        "name": "T.O. Harvest Vault II",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "mps": 3000
+    },
+    {
+        "name": "T.O. Harvest Vault II - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 3500
+    },
+    {
+        "name": "T.O. Harvest Vault III",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "mps": 4000
+    },
+    {
+        "name": "T.O. Harvest Vault III - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 4500
+    },
+    {
+        "name": "T.O. Harvest Vault IV",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 5000
+    },
+    {
+        "name": "T.O. Harvest Vault IV - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "mps": 5500
+    },
+    {
+        "name": "T.O. Harvest Vault V",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "mps": 6000
+    },
+    {
+        "name": "T.O. Harvest Vault V - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 7,
+        "mps": 6500
+    },
+    {
+        "name": "T.O. Harvest Vault VI",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 8,
+        "mps": 7000
+    },
+    {
+        "name": "T.O. Harvest Vault VI - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 9,
+        "mps": 7500
+    },
+    {
+        "name": "T.O. Harvest Vault VII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 10,
+        "mps": 8000
+    },
+    {
+        "name": "T.O. Harvest Vault VII - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 11,
+        "mps": 8500
+    },
+    {
+        "name": "T.O. Harvest Vault VIII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 12,
+        "mps": 9000
+    },
+    {
+        "name": "T.O. Harvest Vault VIII - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 13,
+        "mps": 9500
+    },
+    {
+        "name": "T.O. Harvest Vault IX",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 13,
+        "mps": 10000
+    },
+    {
+        "name": "T.O. Harvest Vault IX - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 14,
+        "mps": 10500
+    },
+    {
+        "name": "T.O. Harvest Vault X",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 16,
+        "mps": 11000
+    },
+    {
+        "name": "T.O. Harvest Vault X - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 17,
+        "mps": 11500
+    },
+    {
+        "name": "T.O. Harvest Vault XI",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 18,
+        "mps": 12000
+    },
+    {
+        "name": "T.O. Harvest Vault XI - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 19,
+        "mps": 12500
+    },
+    {
+        "name": "T.O. Harvest Vault XII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 20,
+        "mps": 13000
+    },
+    {
+        "name": "T.O. Harvest Vault XII - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 21,
+        "mps": 13500
+    },
+    {
+        "name": "T.O. Harvest Vault XIII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 22,
+        "mps": 14000
+    },
+    {
+        "name": "T.O. Harvest Vault XIII - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 23,
+        "mps": 14500
+    },
+    {
+        "name": "T.O. Harvest Vault XIII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 22,
+        "mps": 14000
+    },
+    {
+        "name": "T.O. Harvest Vault XIII - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 23,
+        "mps": 14500
+    },
+    {
+        "name": "T.O. Harvest Vault XIV",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 24,
+        "mps": 15000,
+        "c": 1100
+    },
+    {
+        "name": "T.O. Harvest Vault XV",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 26,
+        "mps": 16000,
+        "bp": 20,
+        "c": 1500
+    },
+    {
+        "name": "T.O. Harvest Vault XV - Upgraded",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 27,
+        "mps": 16500,
+        "bp": 24,
+        "c": 1700
+    },
+    {
+        "name": "Scruuge Hoarding Vault",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 3,
+        "aps": 4000
+    },
+    {
+        "name": "Scruuge Hoarding Vault II",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 3,
+        "aps": 5000
+    },
+    {
+        "name": "Scruuge Hoarding Vault III",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 3,
+        "aps": 6000
+    },
+    {
+        "name": "Scruuge Hoarding Vault IV",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 3,
+        "aps": 7000
+    },
+    {
+        "name": "Scruuge Hoarding Vault IV",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 3,
+        "aps": 7000
+    },
+    {
+        "name": "Scruuge Hoarding Vault V",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "ap": 3,
+        "aps": 8000
+    },
+    {
+        "name": "Scruuge Hoarding Vault VI",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "aps": 9000
+    },
+    {
+        "name": "Scruuge Hoarding Vault VII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "aps": 10000
+    },
+    {
+        "name": "Scruuge Hoarding Vault VIII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "aps": 11000
+    },
+    {
+        "name": "Scruuge Hoarding Vault IX",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "aps": 12000
+    },
+    {
+        "name": "Scruuge Hoarding Vault X",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 5,
+        "aps": 13000
+    },
+    {
+        "name": "Scruuge Hoarding Vault XI",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 5,
+        "aps": 14000
+    },
+    {
+        "name": "Scruuge Hoarding Vault XII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "aps": 15000
+    },
+    {
+        "name": "Scruuge Hoarding Vault XIII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "aps": 16000
+    },
+    {
+        "name": "Scruuge Hoarding Vault XIII",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "aps": 16000
+    },
+    {
+        "name": "Scruuge Hoarding Vault XIV",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 7,
+        "aps": 17000,
+        "c": 1100
+    },
+    {
+        "name": "Scruuge Hoarding Vault XV",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 7,
+        "aps": 18000,
+        "c": 1300
+    },
+    {
+        "name": "Scruuge Plunderhaven",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "ip": 1,
+        "bc": 22
+    },
+    {
+        "name": "Scruuge Toll-Station",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 1,
+        "bap": 1,
+        "brp": 1,
+        "ip": 1,
+        "bip": 1
+    },
+    {
+        "name": "Scruuge Toll-Station v2",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 1,
+        "ap": 2,
+        "bap": 1,
+        "brp": 1,
+        "ip": 1,
+        "bip": 1
+    },
+    {
+        "name": "Scruuge Toll-Station v3",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 2,
+        "ap": 2,
+        "bap": 2,
+        "brp": 2,
+        "ip": 1,
+        "bip": 2
+    },
+    {
+        "name": "Scruuge Toll-Station v4",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 2,
+        "ap": 2,
+        "bap": 2,
+        "brp": 2,
+        "ip": 2,
+        "bip": 2
+    },
+    {
+        "name": "Mineral Storage Silo-Tower",
+        "size": 2,
+        "limit": 5,
+        "limited": false,
+        "extract": false,
+        "mps": 2300,
+        "c": 200
+    },
+    {
+        "name": "Artifact Relic-Warehouse",
+        "size": 2,
+        "limit": 5,
+        "limited": false,
+        "extract": false,
+        "aps": 4300,
+        "c": 200
+    },
+    {
+        "name": "Polychoron RelicVault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 1000,
+        "aps": 2000,
+        "rps": 1000
+    },
+    {
+        "name": "Polychoron DataVault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 1000,
+        "aps": 1000,
+        "rps": 2000
+    },
+    {
+        "name": "Dais of Deceit",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 2,
+        "bap": 2,
+        "brp": 2,
+        "ip": 1,
+        "bip": 2,
+        "c": 900
+    },
+    {
+        "name": "Micro-Raix Cyclotron",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 2,
+        "bap": 2,
+        "brp": 2,
+        "rps": 2000,
+        "bip": 2,
+        "ips": 200
+    },
+    {
+        "name": "Micro-Raix Cyclotron 2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 2,
+        "bap": 2,
+        "brp": 2,
+        "rps": 2600,
+        "bip": 2,
+        "ips": 260
+    },
+    {
+        "name": "Micro-Raix Cyclotron 3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 3,
+        "bap": 3,
+        "brp": 3,
+        "rps": 2600,
+        "bip": 3,
+        "ips": 260
+    },
+    {
+        "name": "Bio-Luminous Orb",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 3,
+        "bap": 3,
+        "brp": 3,
+        "ip": 1,
+        "bip": 3,
+        "bc": 22
+    },
+    {
+        "name": "Spire of Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ip": 4,
+        "ips": 400
+    },
+    {
+        "name": "Spire of High Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ip": 6,
+        "ips": 600
+    },
+    {
+        "name": "Spire of Scruuge Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 4,
+        "aps": 1500,
+        "ip": 4
+    },
+    {
+        "name": "Spire of Cybernetic Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "rp": 8,
+        "ip": 4,
+        "ips": 500,
+        "c": 800
+    },
+    {
+        "name": "Spire of Supel Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 8,
+        "ip": 5,
+        "ips": 500
+    },
+    {
+        "name": "Exalted DarkForge",
+        "size": 3,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 8,
+        "ap": 6,
+        "ip": 3,
+        "bc": 22
+    },
+    {
+        "name": "Xenoform Drone",
+        "size": 0,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "bmp": 1,
+        "bap": 1,
+        "brp": 1,
+        "bip": 1
+    },
+    {
+        "name": "Xenoform Drone (Tripled)",
+        "size": 0,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "bmp": 3,
+        "bap": 3,
+        "brp": 3,
+        "bip": 3
+    },
+    {
+        "name": "Vault of Terra",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mps": 2000,
+        "aps": 2000,
+        "rps": 2000
+    },
+    {
+        "name": "Vault of Terra (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mps": 4000,
+        "aps": 4000,
+        "rps": 4000
+    },
+    {
+        "name": "Species Evolution Lab",
+        "size": 3,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 5,
+        "rp": 8,
+        "ip": 3,
+        "bp": 42
+    },
+    {
+        "name": "Q-Pedd Docking Station",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "rp": 2
+    },
+    {
+        "name": "Omnistream Gateway",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 3,
+        "ap": 3,
+        "rp": 3
+    },
+    {
+        "name": "Throne of the Revered",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "bmp": 4,
+        "ap": 4,
+        "bap": 4,
+        "rp": 4,
+        "brp": 4,
+        "bip": 4
+    },
+    {
+        "name": "Throne of the Revered - Mark 2",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 5,
+        "bmp": 8,
+        "ap": 5,
+        "bap": 8,
+        "rp": 5,
+        "brp": 8,
+        "bip": 8
+    },
+    {
+        "name": "Throne of the Revered - Mark 3",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 7,
+        "bmp": 16,
+        "ap": 7,
+        "bap": 16,
+        "rp": 7,
+        "brp": 16,
+        "bip": 16
+    },
+    {
+        "name": "Throne of the Revered - Mark 4",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 9,
+        "bmp": 30,
+        "ap": 9,
+        "bap": 30,
+        "rp": 9,
+        "brp": 30,
+        "bip": 30
+    },
+    {
+        "name": "XTS-9 Silo",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "mp": 5,
+        "mps": 1000,
+        "p": -400
+    },
+    {
+        "name": "Astrometrics Orrery",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 1,
+        "rp": 3
+    },
+    {
+        "name": "Astrometrics Orrery v2",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 2,
+        "rp": 5,
+        "rps": 500
+    },
+    {
+        "name": "Astrometrics Orrery v3",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 3,
+        "rp": 7,
+        "rps": 1100
+    },
+    {
+        "name": "Astrometrics Orrery v4",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 4,
+        "rp": 9,
+        "rps": 1800
+    },
+    {
+        "name": "Astrometrics Orrery v5",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 6,
+        "rp": 11,
+        "rps": 2600
+    },
+    {
+        "name": "Miser's Gift-Bunker",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 4400,
+        "ap": 4,
+        "aps": 4400,
+        "c": 1100,
+        "bc": 22
+    },
+    {
+        "name": "Elios Flare Probe II",
+        "size": 0,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "bmp": 2,
+        "ap": 2,
+        "ip": 1,
+        "ips": 101
+    },
+    {
+        "name": "Xiphos Heist Outpost (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "rp": 1
+    },
+    {
+        "name": "Xiphos Heist Outpost (5,785)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2
+    },
+    {
+        "name": "Xiphos Heist Outpost (7,022)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "rp": 2
+    },
+    {
+        "name": "Xiphos Heist Outpost (9,000)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "mps": 303,
+        "ap": 1,
+        "rp": 2,
+        "c": 303
+    },
+    {
+        "name": "Xiphos Heist Outpost (10,000)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "mps": 303,
+        "ap": 2,
+        "rp": 2,
+        "rps": 303,
+        "c": 303
+    },
+    {
+        "name": "Xiphos Heist Outpost (20,000)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 303,
+        "ap": 2,
+        "aps": 303,
+        "rp": 2,
+        "rps": 303,
+        "c": 303
+    },
+    {
+        "name": "Crimson Rift Aperture",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "at": 400,
+        "c": 200
+    },
+    {
+        "name": "Crimson Rift Aperture (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 2,
+        "at": 800,
+        "c": 400
+    },
+    {
+        "name": "Dark Pylon Shifter",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "d": 400,
+        "c": 90
+    },
+    {
+        "name": "Dark Anti-Beacon",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "d": 500,
+        "c": 150
+    },
+    {
+        "name": "Dark Null Beacon",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "d": 1000,
+        "bd": 10,
+        "c": 300
+    },
+    {
+        "name": "Dark Void Beacon",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 1,
+        "d": 2000,
+        "bd": 20,
+        "c": 600
+    },
+    {
+        "name": "Dark Smugglers Vault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 3300,
+        "aps": 3300
+    },
+    {
+        "name": "Lazuli Pylon",
+        "size": 1,
+        "limit": 3,
+        "limited": false,
+        "extract": true,
+        "id": 600
+    },
+    {
+        "name": "Lazuli Darkmines",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "at": 600,
+        "bat": 25
+    },
+    {
+        "name": "Lazuli Darkmine Cluster",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "at": 1200,
+        "bat": 30
+    },
+    {
+        "name": "Lazuli Shipyard",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "bd": 20
+    },
+    {
+        "name": "Obscura Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "c": 420
+    },
+    {
+        "name": "Obscura Lab v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "c": 840
+    },
+    {
+        "name": "Obscura Lab v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 6,
+        "c": 1260
+    },
+    {
+        "name": "Obscura Lab v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 7,
+        "rps": 420,
+        "c": 1260
+    },
+    {
+        "name": "Sha'din Grid Network",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 2
+    },
+    {
+        "name": "Sha'din Hypergrid Network",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 2,
+        "d": 200
+    },
+    {
+        "name": "Sha'din Hyperport Network",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 3,
+        "d": 400
+    },
+    {
+        "name": "Interrogation Center",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 2,
+        "d": 200
+    },
+    {
+        "name": "Interrogation Stronghold",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 2,
+        "d": 300
+    },
+    {
+        "name": "Silthion Gas Vesicle",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 2,
+        "c": 150
+    },
+    {
+        "name": "Silthion T-Plasma Vesicle",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "rp": 3,
+        "c": 300
+    },
+    {
+        "name": "Assembly of Tri-Unity",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "ip": 1
+    },
+    {
+        "name": "Empyreal Fire-Citadel",
+        "size": 5,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 3,
+        "rp": 1,
+        "ip": 3
+    },
+    {
+        "name": "Empyreal Fire-Citadel II",
+        "size": 5,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 3,
+        "rp": 1,
+        "ip": 5,
+        "ips": 200
+    },
+    {
+        "name": "Empyreal Garden-Citadel",
+        "size": 5,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 5,
+        "ip": 3
+    },
+    {
+        "name": "Empyreal Garden-Citadel II",
+        "size": 5,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 5,
+        "ip": 5,
+        "ips": 200
+    },
+    {
+        "name": "Empyreal Ice-Citadel",
+        "size": 5,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 3,
+        "rp": 5,
+        "ip": 3
+    },
+    {
+        "name": "Empyreal Ice-Citadel II",
+        "size": 5,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 3,
+        "rp": 5,
+        "ip": 5,
+        "ips": 200
+    },
+    {
+        "name": "Elios Power Junction",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 5,
+        "ap": 1
+    },
+    {
+        "name": "Elios Powervault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "mps": 1000,
+        "ap": 1
+    },
+    {
+        "name": "Elios Phoenix Powervault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "mps": 2000,
+        "ap": 2
+    },
+    {
+        "name": "Elios Flare Probe",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 1,
+        "ap": 1
+    },
+    {
+        "name": "Aurelios Star-Plant",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "bap": 2
+    },
+    {
+        "name": "Aurelios Star-Plant II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "bap": 3
+    },
+    {
+        "name": "Aurelios Voltarium",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "bmp": 3,
+        "mps": 1500,
+        "ap": 1
+    },
+    {
+        "name": "Aurelios Voltarium II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "bmp": 5,
+        "mps": 1700,
+        "ap": 2
+    },
+    {
+        "name": "Elios Micro-Star Cradle",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "bmp": 2,
+        "bap": 2,
+        "brp": 2,
+        "bip": 2
+    },
+    {
+        "name": "Fornax Jewel",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 5
+    },
+    {
+        "name": "Fornax Jewel (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "bmp": 10
+    },
+    {
+        "name": "Orion Menagerie",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 5000
+    },
+    {
+        "name": "Triangulum Sparkmatter (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1
+    },
+    {
+        "name": "Triangulum Sparkmatter (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2
+    },
+    {
+        "name": "Triangulum Sparkmatter (3)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 1
+    },
+    {
+        "name": "Triangulum Sparkmatter (4)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 2
+    },
+    {
+        "name": "Quadrigulum Sparkmatter (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "rp": 1
+    },
+    {
+        "name": "Quadrigulum Sparkmatter (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 1
+    },
+    {
+        "name": "Quadrigulum Sparkmatter (3)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "rp": 3
+    },
+    {
+        "name": "Pentragulum Sparkmatter (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "rp": 2
+    },
+    {
+        "name": "Pentragulum Sparkmatter (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "rp": 1
+    },
+    {
+        "name": "Bane Krow Probe - Type 1",
+        "size": 0,
+        "limit": 5,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bd": -5
+    },
+    {
+        "name": "Bane Krow Probe - Type 2",
+        "size": 0,
+        "limit": 5,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "rp": 1,
+        "bd": -10
+    },
+    {
+        "name": "Bane Krow Probe - Type 3",
+        "size": 0,
+        "limit": 5,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "bd": -15
+    },
+    {
+        "name": "Hall of Torment",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "bat": 25,
+        "p": -200,
+        "id": 1000
+    },
+    {
+        "name": "Hall of Extreme Torment",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "bat": 30,
+        "p": -500,
+        "id": 2000
+    },
+    {
+        "name": "Hall of Unrelenting Torment",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "bat": 40,
+        "p": -1000,
+        "id": 4000
+    },
+    {
+        "name": "Hall of Unfathomable Torment",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "bat": 60,
+        "p": -9000
+    },
+    {
+        "name": "Bane Quad-Phase Inhibitor",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "ic": 4,
+        "id": 4000
+    },
+    {
+        "name": "Bane Dark-Infernum",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "bd": 42
+    },
+    {
+        "name": "Bane Dark-Infernum (Upgraded)",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 5,
+        "bd": 42
+    },
+    {
+        "name": "Bane Doom Silo (1)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 2,
+        "aps": 666,
+        "rp": 1,
+        "c": 666
+    },
+    {
+        "name": "Bane Doom Silo (2)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 4,
+        "rps": 666,
+        "c": 666
+    },
+    {
+        "name": "Bane Doom Silo (3)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 666,
+        "ap": 1,
+        "c": 666
+    },
+    {
+        "name": "Lepus Gateway",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "rp": 1,
+        "bp": 20
+    },
+    {
+        "name": "Lepus Chromatic Gateway",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "bp": 30
+    },
+    {
+        "name": "Lepus Bio-Mech Gateway",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2,
+        "bp": 40
+    },
+    {
+        "name": "Lepus Bio-Mech Hypergate",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "rp": 3,
+        "bp": 60
+    },
+    {
+        "name": "Lepus C-34 Gateway",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 1,
+        "rp": 4,
+        "bp": 80
+    },
+    {
+        "name": "Lepus C-34 Hypergate",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 2,
+        "rp": 5,
+        "bp": 90
+    },
+    {
+        "name": "Lepus C-34 Fluxgate",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 3,
+        "rp": 6,
+        "bp": 100
+    },
+    {
+        "name": "Lepus C-34 Chromatic Fluxgate",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 7,
+        "ap": 4,
+        "rp": 7,
+        "bp": 120
+    },
+    {
+        "name": "Farselle Psi-Drone",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "mps": 200,
+        "ap": 1,
+        "aps": 200,
+        "rp": 1,
+        "rps": 200
+    },
+    {
+        "name": "Lepus Clone-Program Tank",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 3,
+        "bap": 3,
+        "brp": 3,
+        "bip": 3,
+        "bp": 50
+    },
+    {
+        "name": "Auric Lepus Clone-Program Tank",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 6,
+        "bap": 6,
+        "brp": 6,
+        "bip": 6,
+        "bp": 100
+    },
+    {
+        "name": "Affection Disseminator",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "d": 200,
+        "p": 200
+    },
+    {
+        "name": "Affection Disseminator 2.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 250,
+        "p": 250
+    },
+    {
+        "name": "Affection Disseminator 3.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 500,
+        "p": 500
+    },
+    {
+        "name": "Affection Disseminator 4.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 800,
+        "p": 800
+    },
+    {
+        "name": "Affection Disseminator 5.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 1200,
+        "p": 1200
+    },
+    {
+        "name": "Affection Disseminator 6.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 1600,
+        "p": 1600
+    },
+    {
+        "name": "Affection Disseminator 7.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 2500,
+        "p": 2500
+    },
+    {
+        "name": "Affection Disseminator 8.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 3700,
+        "p": 3700
+    },
+    {
+        "name": "Affection Disseminator 9.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 5000,
+        "p": 5000
+    },
+    {
+        "name": "Affection Disseminator 10.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 6500,
+        "p": 6500
+    },
+    {
+        "name": "Affection Disseminator 11.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 8500,
+        "p": 8500
+    },
+    {
+        "name": "Affection Disseminator 12.0",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "d": 10000,
+        "p": 10000
+    },
+    {
+        "name": "Dissemination Ultracore",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 2,
+        "d": 20000,
+        "p": 20000
+    },
+    {
+        "name": "Dissemination Megacore",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "d": 30000,
+        "p": 30000
+    },
+    {
+        "name": "Q-Pedd Probe",
+        "size": 0,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 1,
+        "brp": 1
+    },
+    {
+        "name": "Streveldan Probe-Bay",
+        "size": 0,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "brp": 2
+    },
+    {
+        "name": "A.I. Emotion Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "rp": 2,
+        "at": 500
+    },
+    {
+        "name": "A.I. Emotion Bi-Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 3,
+        "at": 500
+    },
+    {
+        "name": "Scruuge Calibration Chamber",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "c": 200
+    },
+    {
+        "name": "Scruuge Calibration Chamber (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "c": 400
+    },
+    {
+        "name": "Scruuge Hovertank",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bat": 15,
+        "bd": 15
+    },
+    {
+        "name": "T.O. TerraFounder",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 5,
+        "bap": 5,
+        "brp": 5,
+        "bip": 5,
+        "p": 3000
+    },
+    {
+        "name": "T.O. TerraFounder - Upgraded",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 5,
+        "ap": 1,
+        "bap": 5,
+        "rp": 1,
+        "brp": 5,
+        "bip": 5,
+        "p": 6000
+    },
+    {
+        "name": "Archotage Transmitter",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bp": 40,
+        "c": 200
+    },
+    {
+        "name": "Archotage Transmitter - Upgraded",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "bp": 50,
+        "c": 400
+    },
+    {
+        "name": "Sarkonis Hardshell",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 5,
+        "bd": 5
+    },
+    {
+        "name": "Sarkonis Hardshell - Upgraded",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 8,
+        "bd": 8
+    },
+    {
+        "name": "Sarkonis Headquarters",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "bd": 10,
+        "p": 500
+    },
+    {
+        "name": "Sarkonis Headquarters - Upgraded",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 2,
+        "bd": 15,
+        "p": 1000
+    },
+    {
+        "name": "Sarkonis Omnipod",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 1,
+        "bat": 10
+    },
+    {
+        "name": "Sarkonis Omnipod - Upgraded",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 1,
+        "bat": 20
+    },
+    {
+        "name": "Cygnusis AI-Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "brp": 3,
+        "d": 4444
+    },
+    {
+        "name": "Cygnusis AI-Core (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 6,
+        "brp": 6,
+        "d": 8888
+    },
+    {
+        "name": "Captured T.O. Harvester",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 1,
+        "p": 160
+    },
+    {
+        "name": "Captured T.O. Harvester II",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 1,
+        "p": 300
+    },
+    {
+        "name": "Captured T.O. Harvester III",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 1,
+        "p": 600
+    },
+    {
+        "name": "Captured T.O. Harvester IV",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 1,
+        "p": 1000
+    },
+    {
+        "name": "Captured T.O. Harvester V",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 1,
+        "p": 2000
+    },
+    {
+        "name": "Captured T.O. Harvester VI",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 1,
+        "p": 3500
+    },
+    {
+        "name": "Captured T.O. Harvester VII",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 3,
+        "ap": 1,
+        "p": 5000
+    },
+    {
+        "name": "Captured T.O. Harvester VIII",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 3,
+        "ap": 1,
+        "p": 8000
+    },
+    {
+        "name": "Captured T.O. Harvester IX",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 1,
+        "p": 12000
+    },
+    {
+        "name": "Captured T.O. Harvester X",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 1,
+        "p": 16000
+    },
+    {
+        "name": "Captured T.O. Harvester XI",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 1,
+        "p": 20000
+    },
+    {
+        "name": "Captured T.O. Harvester XII",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 7,
+        "ap": 1,
+        "p": 24000
+    },
+    {
+        "name": "Captured T.O. Harvester XIII",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 8,
+        "ap": 1,
+        "p": 26000
+    },
+    {
+        "name": "Captured T.O. Harvester XIV",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 9,
+        "ap": 1,
+        "p": 32000
+    },
+    {
+        "name": "Captured T.O. Harvester XV",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 10,
+        "ap": 1,
+        "p": 36000
+    },
+    {
+        "name": "Captured T.O. Harvester XVI",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 11,
+        "ap": 1,
+        "p": 40000
+    },
+    {
+        "name": "Captured T.O. Harvester XVI - Upgraded",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 11,
+        "ap": 1,
+        "p": 80000
+    },
+    {
+        "name": "T.O. Manufacturing Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2
+    },
+    {
+        "name": "T.O. Fortisphere",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "ip": 1,
+        "bd": 22,
+        "bc": 9
+    },
+    {
+        "name": "Valcaron-Cygnusis AI-Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 6,
+        "brp": 3,
+        "ip": 1,
+        "d": 4444
+    },
+    {
+        "name": "Valcaron-Cygnusis AI-Core (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 9,
+        "brp": 6,
+        "ip": 1,
+        "d": 8888
+    },
+    {
+        "name": "Akulan Gas Ingestor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": -2,
+        "rp": 3
+    },
+    {
+        "name": "Gauss Chain",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "rp": 2,
+        "d": 300
+    },
+    {
+        "name": "Gauss Chain II",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "rp": 4,
+        "d": 600
+    },
+    {
+        "name": "ArcRift Tower",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "bap": 6
+    },
+    {
+        "name": "Scruuge Cargo Pad",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "d": 2000
+    },
+    {
+        "name": "Scruuge Cargo Pad (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "d": 4000
+    },
+    {
+        "name": "Scruuge Growth Vats",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "p": 5000
+    },
+    {
+        "name": "Scruuge Growth Vats (Doubled)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "p": 10000
+    },
+    {
+        "name": "DM79 Datacenter",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 4
+    },
+    {
+        "name": "DM79 Datacenter (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 6
+    },
+    {
+        "name": "Domain Walker",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "at": 600,
+        "d": 600
+    },
+    {
+        "name": "HyperSensor Satellite",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 2,
+        "rp": 2
+    },
+    {
+        "name": "Hypergate",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2
+    },
+    {
+        "name": "Polychoron Vault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mps": 1000,
+        "aps": 1000,
+        "rps": 1000
+    },
+    {
+        "name": "Resonance Inhibitor",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "c": 250,
+        "id": 500
+    },
+    {
+        "name": "Astrobiology Ward",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "p": 500,
+        "bp": 50
+    },
+    {
+        "name": "Galactic Concord Station",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "bd": 10
+    },
+    {
+        "name": "Galactic Concord Station II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "bd": 20
+    },
+    {
+        "name": "Isolation Bureau",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "c": 200
+    },
+    {
+        "name": "Isolation Bureau",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "c": 400
+    },
+    {
+        "name": "Toxic Processing Plant",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 3,
+        "ap": 2,
+        "bat": 30
+    },
+    {
+        "name": "Toxic Processing Plant (Mining)",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 5,
+        "bat": 30
+    },
+    {
+        "name": "Polaron Emitter",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "c": 100,
+        "bc": 15
+    },
+    {
+        "name": "Polaron Emitter (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "c": 100,
+        "bc": 15
+    },
+    {
+        "name": "Perpetual HyperTurbine",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 1
+    },
+    {
+        "name": "Perpetual HyperTurbine II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 2
+    },
+    {
+        "name": "Perpetual HyperTurbine III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 3
+    },
+    {
+        "name": "Perpetual HyperTurbine IV",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 4
+    },
+    {
+        "name": "Perpetual HyperTurbine V",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 5
+    },
+    {
+        "name": "Seismic Shattermine",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 2,
+        "ap": 1,
+        "bat": 6
+    },
+    {
+        "name": "Seismic Shattermine (Quadrupled)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 8,
+        "bmp": 8,
+        "ap": 4,
+        "bat": 24
+    },
+    {
+        "name": "Aethercron Hold",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bap": 6,
+        "rp": 3,
+        "bd": 22
+    },
+    {
+        "name": "Adumbrate Starport",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 2,
+        "ap": 2,
+        "bap": 2,
+        "rp": 2,
+        "brp": 2,
+        "bip": 2,
+        "c": 222
+    },
+    {
+        "name": "SubVoid Darkdrone A",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 22
+    },
+    {
+        "name": "SubVoid Darkdrone B",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 3,
+        "bc": 11
+    },
+    {
+        "name": "SubVoid Darkdrone C",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 1,
+        "bc": 33
+    },
+    {
+        "name": "SubVoid Darkdrone D",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "c": 1111,
+        "bc": 6
+    },
+    {
+        "name": "SubVoid Darkdrone E",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 3,
+        "c": 2222
+    },
+    {
+        "name": "SubVoid Darkdrone F",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 5,
+        "c": 555
+    },
+    {
+        "name": "SubVoid Darkdrone G",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "c": 111
+    },
+    {
+        "name": "Nova-Stasis Unit",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "mps": 2222,
+        "ap": 1,
+        "aps": 1111
+    },
+    {
+        "name": "Morphogenic Shift-Gate",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "ip": 1,
+        "c": 900
+    },
+    {
+        "name": "Morphogenic Shift-Gate (2)",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "ip": 2,
+        "c": 1200
+    },
+    {
+        "name": "Morphogenic Shift-Gate (3)",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "ip": 2,
+        "c": 1200
+    },
+    {
+        "name": "Krionite Absorption Net",
+        "size": 2,
+        "limit": 4,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "c": 550,
+        "es": 150
+    },
+    {
+        "name": "Monolith of Miracles",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "rp": 3,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Monolith of Miracles v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Large"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Monolith of Miracles v2",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 2,
+        "ap": 2,
+        "bap": 2,
+        "rp": 3,
+        "brp": 2,
+        "ip": 1,
+        "bip": 2,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Monolith of Miracles v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Average"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Monolith of Miracles v3",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 4,
+        "ap": 2,
+        "bap": 4,
+        "rp": 3,
+        "brp": 4,
+        "ip": 2,
+        "bip": 4,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Monolith of Miracles v4"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Small"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Monolith of Miracles v4",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 7,
+        "ap": 2,
+        "bap": 7,
+        "rp": 3,
+        "brp": 7,
+        "ip": 3,
+        "bip": 7
+    },
+    {
+        "name": "Cryo-Foundry Ice Drill",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 2
+    },
+    {
+        "name": "Cryo-Foundry Ice Drill (Doubled)",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 4
+    },
+    {
+        "name": "Xenotypic Mutants",
+        "size": 0,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2
+    },
+    {
+        "name": "Cryo-Foundry Battery",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bap": 1
+    },
+    {
+        "name": "Cryo-Foundry Battery (Doubled)",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bap": 2
+    },
+    {
+        "name": "Visage of the Dark One",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 2,
+        "bap": 2,
+        "brp": 2,
+        "bip": 2,
+        "bp": -80
+    },
+    {
+        "name": "Chuhn Shipyard",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bat": 33
+    },
+    {
+        "name": "Galakis Monument",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ip": 1,
+        "bp": 9
+    },
+    {
+        "name": "Galakis Monument Doubled)",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ip": 2,
+        "bp": 18
+    },
+    {
+        "name": "Kaen MicroVault",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 404,
+        "aps": 404,
+        "rps": 404
+    },
+    {
+        "name": "Kaen MicroVault (Doubled)",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 808,
+        "aps": 808,
+        "rps": 808
+    },
+    {
+        "name": "T.O. Genesis Loom",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "bp": 33,
+        "c": 411
+    },
+    {
+        "name": "T.O. Colony Ark",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bap": 2,
+        "ip": 1,
+        "p": 4400
+    },
+    {
+        "name": "T.O. Colony Ark v2",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 2,
+        "bap": 2,
+        "ip": 1,
+        "p": 4400
+    },
+    {
+        "name": "T.O. Colony Ark v3",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 3,
+        "bap": 2,
+        "ip": 2,
+        "p": 8800
+    },
+    {
+        "name": "T.O. Colony Ark v4",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 4,
+        "bap": 2,
+        "ip": 2,
+        "bip": 2,
+        "p": 8800
+    },
+    {
+        "name": "Verdant Estate",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "ip": 1
+    },
+    {
+        "name": "Verdant Estate v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "rp": 2,
+        "ip": 1
+    },
+    {
+        "name": "Verdant Estate v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 5,
+        "rp": 2,
+        "ip": 2
+    },
+    {
+        "name": "Verdant Estate v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "aps": 1800,
+        "rp": 2,
+        "ip": 2
+    },
+    {
+        "name": "T.O. Frontier Habidome",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "ip": 1,
+        "bp": 42
+    },
+    {
+        "name": "T.O. Seed-Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 5,
+        "brp": 3,
+        "rps": 1800
+    },
+    {
+        "name": "Vault of Gaia",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mps": 7000,
+        "aps": 7000,
+        "rps": 7000,
+        "ips": 700,
+        "c": 700
+    },
+    {
+        "name": "Vault of Gaia (Doubled)",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mps": 14000,
+        "aps": 14000,
+        "rps": 14000,
+        "ips": 1400,
+        "c": 1400
+    },
+    {
+        "name": "Spire of Edenic Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "mp": 3,
+        "ap": 3,
+        "rp": 3,
+        "ip": 4,
+        "ips": 500,
+        "bp": 55
+    },
+    {
+        "name": "Biosphere Gyre",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1
+    },
+    {
+        "name": "Biosphere Gyre v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "mps": 4400,
+        "ap": 1
+    },
+    {
+        "name": "Biosphere Gyre v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "mps": 4400,
+        "ap": 2,
+        "aps": 4400
+    },
+    {
+        "name": "Biosphere Gyre v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 6600,
+        "ap": 2,
+        "aps": 4400,
+        "c": 440
+    },
+    {
+        "name": "Biosphere Gyre v5",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 6600,
+        "ap": 2,
+        "aps": 6600,
+        "c": 660
+    },
+    {
+        "name": "Chuhn Star-Emporium",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "ip": 1,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Chuhn Star-Emporium v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Average"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Chuhn Star-Emporium v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "rp": 3,
+        "ip": 1,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Chuhn Star-Emporium v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Average"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Chuhn Star-Emporium v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 3,
+        "rp": 3,
+        "ip": 1,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Chuhn Star-Emporium v4"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Average"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Chuhn Star-Emporium v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 4,
+        "rp": 3,
+        "ip": 2,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Chuhn Star-Emporium v5"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Size",
+                    "max": "Average"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Chuhn Star-Emporium v5",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 6,
+        "rp": 3,
+        "ip": 2
+    },
+    {
+        "name": "Scruuge Resupply Depot",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 5,
+        "ap": 1
+    },
+    {
+        "name": "Scruuge Resupply Depot II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 7,
+        "ap": 1
+    },
+    {
+        "name": "Scruuge Resupply Depot III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "bmp": 10,
+        "ap": 2
+    },
+    {
+        "name": "Scruuge Thavix-Snare",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bd": 33
+    },
+    {
+        "name": "Sentarch Seeker-Drones",
+        "size": 0,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2
+    },
+    {
+        "name": "Sentarch Mind-Drones",
+        "size": 0,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "rp": 2,
+        "ip": 1
+    },
+    {
+        "name": "Divergent Entity",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "bip": 2
+    },
+    {
+        "name": "Dark Temple of Woe",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "ip": 1,
+        "ic": 2
+    },
+    {
+        "name": "Dark Temple of Woe v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 3,
+        "ip": 1,
+        "ic": 4
+    },
+    {
+        "name": "Dark Temple of Woe v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 4,
+        "ip": 2,
+        "ic": 6
+    },
+    {
+        "name": "Dark Temple of Woe v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 4,
+        "ip": 3,
+        "ic": 9
+    },
+    {
+        "name": "Supel Biomech Hangar",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "bap": 2
+    },
+    {
+        "name": "Supel Biomech Hangar v2",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 1,
+        "bap": 2,
+        "bip": 1
+    },
+    {
+        "name": "Supel Biomech Hangar v3",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 3,
+        "bap": 2,
+        "bip": 1
+    },
+    {
+        "name": "Supel Biomech Hangar v4",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 3,
+        "bap": 3,
+        "bip": 1
+    },
+    {
+        "name": "Supel Dark-Warren",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2,
+        "ip": 1,
+        "bc": 16
+    },
+    {
+        "name": "Q-Pedd Affinity Tunnel",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "brp": 3,
+        "ip": 1
+    },
+    {
+        "name": "Q-Pedd Affinity Tunnel v2",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 4,
+        "brp": 5,
+        "ip": 1
+    },
+    {
+        "name": "Q-Pedd Affinity Tunnel v3",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "brp": 6,
+        "ip": 2
+    },
+    {
+        "name": "Q-Pedd Affinity Tunnel v4",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "brp": 7,
+        "ip": 3
+    },
+    {
+        "name": "Q-Pedd Ballroom",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "ip": 1,
+        "ips": 202,
+        "es": 50
+    },
+    {
+        "name": "Streveldan CogNode",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 4,
+        "bd": 22,
+        "c": 404,
+        "bc": 14
+    },
+    {
+        "name": "Strevelan Cohesion Pit",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 1001,
+        "rps": 1001,
+        "bat": 33
+    },
+    {
+        "name": "Supel Incubator",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 5,
+        "ip": 1,
+        "p": 11000
+    },
+    {
+        "name": "Veon Singularium",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "c": 404
+    },
+    {
+        "name": "Veon Singularium v4",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 3,
+        "rp": 4,
+        "c": 808
+    },
+    {
+        "name": "Synesthetic Fuse",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "bmp": 2,
+        "bap": 2,
+        "brp": 2,
+        "bip": 2
+    },
+    {
+        "name": "Synesthetic Fuse v2",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "bmp": 3,
+        "bap": 3,
+        "brp": 3,
+        "bip": 3
+    },
+    {
+        "name": "Synesthetic Fuse v3",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "bmp": 4,
+        "bap": 4,
+        "brp": 4,
+        "bip": 4
+    },
+    {
+        "name": "Synesthetic Fuse v4",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "bmp": 5,
+        "bap": 5,
+        "brp": 5,
+        "bip": 5
+    },
+    {
+        "name": "Font of Vitalis",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "ap": 8,
+        "ip": 4,
+        "bip": 6
+    },
+    {
+        "name": "Thavix Geneworks",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 7,
+        "rps": 5200
+    },
+    {
+        "name": "Thavix Geneworks v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 7,
+        "brp": 2,
+        "rps": 5200
+    },
+    {
+        "name": "Thavix Geneworks v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 8,
+        "brp": 2,
+        "rps": 5200,
+        "ips": 250
+    },
+    {
+        "name": "Thavix Geneworks v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 2,
+        "rp": 8,
+        "brp": 2,
+        "rps": 5200,
+        "ips": 400
+    },
+    {
+        "name": "Covert Legation",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "rp": 4,
+        "c": 850
+    },
+    {
+        "name": "Covert Legation (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "rp": 6,
+        "ip": 1,
+        "c": 850,
+        "es": 42
+    },
+    {
+        "name": "Antigrav Citadel",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 1,
+        "ip": 1,
+        "bc": 11
+    },
+    {
+        "name": "Antigrav Citadel v2",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 2,
+        "ip": 1,
+        "ips": 111,
+        "bc": 22
+    },
+    {
+        "name": "Antigrav Citadel v3",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "ip": 2,
+        "ips": 111,
+        "bc": 22
+    },
+    {
+        "name": "Antigrav Citadel v4",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "ip": 2,
+        "ips": 222,
+        "bc": 33
+    },
+    {
+        "name": "Hall of Delegates",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 1
+    },
+    {
+        "name": "Hall of Delegates (Upgraded)",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 1,
+        "ip": 2
+    },
+    {
+        "name": "Gallery of Records",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "aps": 1800,
+        "ip": 1,
+        "ips": 180
+    },
+    {
+        "name": "Forum of Realms",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 2,
+        "ap": 2,
+        "bap": 2,
+        "rp": 2,
+        "brp": 2,
+        "ip": 1,
+        "bip": 2
+    },
+    {
+        "name": "Court of Eternity",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 5,
+        "bap": 5,
+        "brp": 5,
+        "ip": 2,
+        "bip": 5
+    },
+    {
+        "name": "Civicordium Platform",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ip": 1,
+        "bip": 2
+    },
+    {
+        "name": "Civicordium Platform v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "ip": 1,
+        "bip": 3
+    },
+    {
+        "name": "Civicordium Platform v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "ip": 2,
+        "bip": 3
+    },
+    {
+        "name": "Civicordium Platform v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "ip": 2,
+        "bip": 4
+    },
+    {
+        "name": "Spire of Civicordium Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "ap": 3,
+        "rp": 3,
+        "ip": 4,
+        "bip": 4,
+        "ips": 550
+    }
+]

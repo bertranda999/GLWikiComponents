@@ -1,0 +1,387 @@
+[
+    {
+        "name": "Firestalker",
+        "raceDefault": "No",
+        "img": "ships/firestalker-right.png"
+    },
+    {
+        "name": "Chuhn",
+        "raceDefault": "No",
+        "img": "ships/chuhn-right.png"
+    },
+    {
+        "name": "Bane",
+        "raceDefault": "No",
+        "img": "ships/bane-right.png"
+    },
+    {
+        "name": "Vulture",
+        "raceDefault": "No",
+        "img": "ships/vulture-right.png"
+    },
+    {
+        "name": "Scruuge",
+        "raceDefault": "No",
+        "img": "ships/scruuge-right.png"
+    },
+    {
+        "name": "Archon",
+        "raceDefault": "No",
+        "img": "ships/archon-right.png"
+    },
+    {
+        "name": "Qpedd",
+        "raceDefault": "No",
+        "img": "ships/qpedd-right.png"
+    },
+    {
+        "name": "Qprobe",
+        "raceDefault": "No",
+        "img": "ships/qprobe-right.png"
+    },
+    {
+        "name": "Xiphos",
+        "raceDefault": "No",
+        "img": "ships/xiphos-right.png"
+    },
+    {
+        "name": "Lepus",
+        "raceDefault": "No",
+        "img": "ships/lepus-right.png"
+    },
+    {
+        "name": "Lepusbase",
+        "raceDefault": "No",
+        "img": "ships/lepusbase-right.png"
+    },
+    {
+        "name": "Atlas",
+        "raceDefault": "No",
+        "img": "ships/atlas-right.png"
+    },
+    {
+        "name": "Intruder",
+        "raceDefault": "No",
+        "img": "ships/intruder-right.png"
+    },
+    {
+        "name": "Empyrean",
+        "raceDefault": "No",
+        "img": "ships/empyrean-right.png"
+    },
+    {
+        "name": "Phoenix",
+        "raceDefault": "No",
+        "img": "ships/phoenix-right.png"
+    },
+    {
+        "name": "Sparkrunner",
+        "raceDefault": "No",
+        "img": "ships/sparkrunner-right.png"
+    },
+    {
+        "name": "Nephthys",
+        "raceDefault": "No",
+        "img": "ships/nephthys-right.png"
+    },
+    {
+        "name": "Kraken",
+        "raceDefault": "No",
+        "img": "ships/kraken-right.png"
+    },
+    {
+        "name": "Krow",
+        "raceDefault": "No",
+        "img": "ships/krow-right.png"
+    },
+    {
+        "name": "Gaius",
+        "raceDefault": "No",
+        "img": "ships/gaius-right.png"
+    },
+    {
+        "name": "Sarkonis",
+        "raceDefault": "No",
+        "img": "ships/sarkonis-right.png"
+    },
+    {
+        "name": "Reimus",
+        "raceDefault": "No",
+        "img": "ships/reimus-right.png"
+    },
+    {
+        "name": "Ceritus",
+        "raceDefault": "No",
+        "img": "ships/ceritus-right.png"
+    },
+    {
+        "name": "Hyperworm",
+        "raceDefault": "No",
+        "img": "ships/hyperworm-right.png"
+    },
+    {
+        "name": "Strazi",
+        "raceDefault": "No",
+        "img": "ships/strazi-right.png"
+    },
+    {
+        "name": "Fluxdrone",
+        "raceDefault": "No",
+        "img": "ships/fluxdrone-right.png"
+    },
+    {
+        "name": "Cerulean",
+        "raceDefault": "No",
+        "img": "ships/cerulean-right.png"
+    },
+    {
+        "name": "Enyalius",
+        "raceDefault": "No",
+        "img": "ships/enyalius-right.gif"
+    },
+    {
+        "name": "Avenger",
+        "raceDefault": "No",
+        "img": "ships/avenger-right.png"
+    },
+    {
+        "name": "Farsellian",
+        "raceDefault": "No",
+        "img": "ships/farsellian-right.png"
+    },
+    {
+        "name": "Incubus",
+        "raceDefault": "No",
+        "img": "ships/incubus-right.png"
+    },
+    {
+        "name": "Streveldan",
+        "raceDefault": "No",
+        "img": "ships/streveldan-right.png"
+    },
+    {
+        "name": "Supel",
+        "raceDefault": "No",
+        "img": "ships/supel-right.png"
+    },
+    {
+        "name": "Chrona",
+        "raceDefault": "No",
+        "img": "ships/chrona-right.png"
+    },
+    {
+        "name": "Solarius",
+        "raceDefault": "No",
+        "img": "ships/solarius-right.png"
+    },
+    {
+        "name": "Oblique",
+        "raceDefault": "No",
+        "img": "ships/oblique-right.png"
+    },
+    {
+        "name": "Tenebrisian",
+        "raceDefault": "No",
+        "img": "ships/tenebrisian-right.png"
+    },
+    {
+        "name": "Apparitious",
+        "raceDefault": "No",
+        "img": "ships/apparitious-right.png"
+    },
+    {
+        "name": "Ravyn",
+        "raceDefault": "No",
+        "img": "ships/ravyn-right.png"
+    },
+    {
+        "name": "Metachroma",
+        "raceDefault": "No",
+        "img": "ships/metachroma-right.png"
+    },
+    {
+        "name": "Trinaria",
+        "raceDefault": "No",
+        "img": "ships/trinaria-right.png"
+    },
+    {
+        "name": "Aurelios",
+        "raceDefault": "No",
+        "img": "ships/aurelios-right.png"
+    },
+    {
+        "name": "Abyssiod",
+        "raceDefault": "No",
+        "img": "ships/abyssiod-right.png"
+    },
+    {
+        "name": "Empyrealis",
+        "raceDefault": "No",
+        "img": "ships/empyrealis-right.png"
+    },
+    {
+        "name": "Biosyntheris",
+        "raceDefault": "No",
+        "img": "ships/biosyntheris-right.png"
+    },
+    {
+        "name": "Chuhnliner",
+        "raceDefault": "No",
+        "img": "ships/chuhnliner-right.png"
+    },
+    {
+        "name": "Veivous",
+        "raceDefault": "No",
+        "img": "ships/veivous-right.png"
+    },
+    {
+        "name": "Artemys",
+        "raceDefault": "No",
+        "img": "ships/artemys-right.png"
+    },
+    {
+        "name": "Javelin",
+        "raceDefault": "No",
+        "img": "ships/javelin-right.png"
+    },
+    {
+        "name": "Vasteur",
+        "raceDefault": "No",
+        "img": "ships/vasteur-right.png"
+    },
+    {
+        "name": "Volton",
+        "raceDefault": "No",
+        "img": "ships/volton-right.png"
+    },
+    {
+        "name": "Bralkyst",
+        "raceDefault": "No",
+        "img": "ships/bralkyst-right.png"
+    },
+    {
+        "name": "Aerlen",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base2.png"
+    },
+    {
+        "name": "Human",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base4-right.png"
+    },
+    {
+        "name": "Inergon",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base7-right.png"
+    },
+    {
+        "name": "Konqul",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base-right.png"
+    },
+    {
+        "name": "Sillixx",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base6-right.png"
+    },
+    {
+        "name": "Vygoid",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base3-right.png"
+    },
+    {
+        "name": "Bahreen",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base-bahreen-right.gif"
+    },
+    {
+        "name": "Drannik",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base9-right.png"
+    },
+    {
+        "name": "Genetarr",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base10-right.png"
+    },
+    {
+        "name": "Kronyn",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base-kronyn-right.png"
+    },
+    {
+        "name": "Lazuli",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base11-right.png"
+    },
+    {
+        "name": "Litheor",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base-litheor-right.png"
+    },
+    {
+        "name": "Mylarai",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base-mylarai-right.png"
+    },
+    {
+        "name": "Taltherian",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base12-right.png"
+    },
+    {
+        "name": "Uldrinan",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base-uldrinan-right.png"
+    },
+    {
+        "name": "Xecti",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base-xecti-right.png"
+    },
+    {
+        "name": "Zolazin",
+        "raceDefault": "Yes",
+        "img": "ships/ship-base8-right.png"
+    },
+    {
+        "name": "Akulan",
+        "img": "npcs/phydra.png"
+    },
+    {
+        "name": "Singularity",
+        "img": "npcs/blackhole1.webp"
+    },
+    {
+        "name": "Undulok",
+        "img": "npcs/sparasite1.webp"
+    },
+    {
+        "name": "Asteroid",
+        "img": "npcs/asteroidaf.png"
+    },
+    {
+        "name": "Dark Smuggler",
+        "img": "npcs/darkfscout.png"
+    },
+    {
+        "name": "Octafari",
+        "img": "npcs/octafari-s.png"
+    },
+    {
+        "name": "Chaotic ArcRift Entity",
+        "img": "npcs/vcloud6.gif"
+    },
+    {
+        "name": "Comet",
+        "img": "npcs/comet1.png"
+    },
+    {
+        "name": "Allovore",
+        "img": "npcs/allovore.png"
+    },
+    {
+        "name": "Chromathis",
+        "img": "ships/chromathis-right.png"
+    }
+]

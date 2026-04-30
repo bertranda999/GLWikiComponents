@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Very Tiny",
+        "defaultSpace": "23",
+        "defaultPop": "20"
+    },
+    {
+        "name": "Tiny"
+    },
+    {
+        "name": "Very Small"
+    },
+    {
+        "name": "Small"
+    },
+    {
+        "name": "Average"
+    },
+    {
+        "name": "Large"
+    },
+    {
+        "name": "Very Large"
+    },
+    {
+        "name": "Massive"
+    },
+    {
+        "name": "Very Massive"
+    },
+    {
+        "name": "Colossal"
+    },
+    {
+        "name": "Mega Colossal"
+    }
+]

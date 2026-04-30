@@ -1,0 +1,429 @@
+[
+    {
+        "type": "Planet-Based Ability",
+        "name": "Chuhn Orbital Freeport",
+        "desc": "Trades 2 Aeon Badges for a random intergalactic artifact",
+        "buttonText": "Freeport Trade",
+        "cooldown": "20 hours",
+        "textOnUse": "The Freeport Trades you:",
+        "cost": {
+            "Aeon Badges": "2"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Kinitar Disassembler"
+            },
+            {
+                "type": "Grants",
+                "Artifact": "Chuhn Shipyard"
+            },
+            {
+                "type": "Grants",
+                "Artifact": "Shimmering Receptacle"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Cognisphere Librarium",
+        "desc": "Retrieves a random artifact from the Librarium. Uses 42 Blue Badges",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Paradox Generator"
+            }
+        ],
+        "cost": {
+            "Blue Badges": "42"
+        }
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Convocation of Peace",
+        "desc": "Boosts all influence production by 5-15% for 20 hours. Costs 4 Evolution Genes and 1111 Energy",
+        "buttonText": "Peace Talks",
+        "cooldown": "20 hours",
+        "message": "The planet begins Peace Talks...",
+        "playerEffects": [
+            {
+                "type": "Increase Influence Production",
+                "value": "5 - 15%",
+                "duration": "20 hours"
+            }
+        ],
+        "cost": {
+            "Energy": "1111",
+            "Evolution Genes": "4"
+        }
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Dark Ritual Site",
+        "desc": "Manifests a random Dark Artifact. Uses 2666 Influence and 5 Corruption",
+        "buttonText": "Dark Ritual",
+        "textOnUse": "The Dark Ritual manifests:<br>[Drop]",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Visage of the Dark One"
+            }
+        ],
+        "cost": {
+            "Influence": "2,666",
+            "Corruption": "5"
+        }
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Emergent Sentarch",
+        "desc": "Grants a random artifact. Costs 5 Aeon Badges",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Sentarch Mind-Drones"
+            },
+            {
+                "type": "Grants",
+                "Artifact": "Sentarch Seeker-Drones"
+            }
+        ],
+        "cost": {
+            "Aeon Badge": "5"
+        },
+        "buttonText": "Sentarch Meeting",
+        "textOnUse": "The Sentarch provides:<br>1 [artifact]"
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Enigmatic Aperture (Ability)",
+        "desc": "Boosts all planetary storage (of a random type) by 5% for 20 hours",
+        "cooldown": "20 hours",
+        "playerEffectsRandom": [
+            {
+                "type": "Boost Research Storage",
+                "amount": "5%",
+                "duration": "20 hours"
+            },
+            {
+                "type": "Boost Mining Storage",
+                "amount": "5%",
+                "duration": "20 hours"
+            },
+            {
+                "type": "Boost Artifact Storage",
+                "amount": "5%",
+                "duration": "20 hours"
+            },
+            {
+                "type": "Boost Influence Storage",
+                "amount": "5%",
+                "duration": "20 hours"
+            }
+        ],
+        "buttonText": "Aperture Delve",
+        "textOnUse": "The Portal begins fluctuating..."
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Fractal Anomaly",
+        "description": "Recharges your energy to full when used",
+        "cooldown": "56 hours",
+        "playerEffects": [
+            {
+                "type": "Refill Energy"
+            }
+        ],
+        "buttonText": "Fractal Readings"
+    },
+    {
+        "name": "Gateway Nexus Link",
+        "description": "Boosts planetary production by 2% for 3 days, plus an additional 1% for each other Gateway Nexus Link you control, up to a maximum 6% bonus.",
+        "cooldown": "3 days",
+        "planetEffects": [
+            {
+                "type": "Increase All Production",
+                "value": "2 - 6%"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Ignean Furnace",
+        "desc": "Boosts all scrapping yields by 6% for 20 hours. Uses 4200 Energy",
+        "cooldown": "20 hours",
+        "buttonText": "Ignean Scrapping",
+        "playerEffects": [
+            {
+                "type": "Increase Scrap Yields",
+                "value": "6%",
+                "duration": "20 hours"
+            }
+        ],
+        "cost": {
+            "Energy": "4200"
+        }
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Influential Traveler",
+        "desc": "Seek an audience with the traveler and gain a new one-time mission. Costs 2000 Influence",
+        "buttonText": "Grant Audience",
+        "textOnUse": "The Traveler Provides:<br>[Drop]",
+        "cooldown": "2 days",
+        "playerEffects": [
+            {
+                "type": "Grants",
+                "Artifact": "Vexira Jene Credentials"
+            }
+        ],
+        "cost": {
+            "Influence": "2,000"
+        }
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Lost Cry-Foundry",
+        "desc": "Produces a random artifact from the Ancient Foundry. Costs 5 Relic Badges",
+        "buttonText": "Foundry Activation",
+        "cooldown": "2 days 8 hours",
+        "cost": {
+            "Relic Badge": "5"
+        },
+        "playerEffects": [
+            {
+                "type": "Grants (Random)",
+                "options": [
+                    "Cryo-Foundry Ice Drill",
+                    "Cryo-Foundry Battery"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Mysterious Orb",
+        "desc": "Boost productions (of a random type) across all planets by 4% for 20 hours. Uses 1 Aeon Badge",
+        "buttonText": "Orb Pulse",
+        "cost": {
+            "Aeon Badges": "1"
+        },
+        "playerEffects": [
+            {
+                "type": "Boost All Production",
+                "value": "4%",
+                "duration": "20 hours"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Neo-Fecund Specimen",
+        "cooldown": "2 days 8 hours",
+        "buttonText": "Specimen Extract",
+        "cost": [
+            {
+                "Energy": "1000"
+            }
+        ],
+        "playerEffects": [
+            {
+                "type": "Reset Grow Genes Cooldown"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Noospheric Emergence",
+        "buttonText": "Noospheric Ritual",
+        "cost": [
+            {
+                "Evolution Genes": "22"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Increase Influence Availability",
+                "value": "1"
+            }
+        ],
+        "restrictions": [
+            {
+                "restrictionType": "Planet Stat",
+                "stat": "Influence Availability",
+                "max": "Less than Very Abundant"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Path of Terraforming",
+        "desc": "Trades 2 Aeon Badges for a random path reward.<br>Planet must have 'Very Rich' or greater artifact availability",
+        "cooldown": "4 days",
+        "cost": {
+            "Aeon Badges": "2"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Streveldan Ballroom"
+            },
+            {
+                "type": "Grants",
+                "Artifact": "Streveldan Cohesion Pit"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Path to Metropolis",
+        "desc": "Trades 2 Aeon Badges for a random path reward.<br>Planet must have at least 40 distinct structures built on it to earn",
+        "cooldown": "4 days",
+        "cost": {
+            "Aeon Badges": "2"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Streveldan Ballroom"
+            },
+            {
+                "type": "Grants",
+                "Artifact": "Streveldan Cohesion Pit"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Path to Obscurity",
+        "desc": "Trades 2 Aeon Badges for a random path reward.<br>Planet must have 500 or greater passive cloak",
+        "cooldown": "4 days",
+        "cost": {
+            "Aeon Badges": "2"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Streveldan Ballroom"
+            },
+            {
+                "type": "Grants",
+                "Artifact": "Streveldan Cohesion Pit"
+            }
+        ]
+    },
+    {
+        "name": "Sintered Abyss",
+        "desc": "Retrieves a random artifact from the pit. Uses 4 Green Badges",
+        "cooldown": "2 days 8 hours",
+        "cost": {
+            "Green Badges": "4"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Paradox Generator"
+            }
+        ]
+    },
+    {
+        "name": "Streveldan Landing Site",
+        "desc": "Trades 11 Evolution Genes for a random colony reward. Planet must have at least 3 Q-Pedd structures",
+        "cooldown": "4 days",
+        "cost": {
+            "Genes": "11"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Streveldan Ballroom"
+            },
+            {
+                "type": "Grants",
+                "Artifact": "Streveldan Cohesion Pit"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Time-Split Incursion",
+        "desc": "Resets the timer for a Daily Mission at random. Costs 1000 Energy.",
+        "cooldown": "2 days 8 hours",
+        "cost": {
+            "energy": "1000"
+        },
+        "buttonText": "Time-Split",
+        "playerEffects": [
+            {
+                "type": "Reset Random Daily Mission"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Vassal Allegiance",
+        "cooldown": "2 days 8 hours",
+        "desc": "Adds a new Daily Challenge to your list. Uses 2222 Influence",
+        "cost": {
+            "Influence": "2222"
+        },
+        "playerEffects": [
+            {
+                "type": "Add Daily Challenge"
+            }
+        ],
+        "buttonText": "Vassal Call",
+        "textOnUse": "The Vassal brings a new challenge..."
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Will of the Dark Psion",
+        "cooldown": "1 day",
+        "desc": "Seek an audience with the Dark Psion and gain a new one-time mission. Costs 9 Green Badges",
+        "buttonText": "Succumb",
+        "textOnUse": "You acquire:1 Dark Psionic Essence(Artifact)",
+        "cost": [
+            {
+                "Green Badges": "9"
+            }
+        ],
+        "playerEffects": [
+            {
+                "type": "Grants",
+                "Artifact": "Dark Psionic Essence"
+            }
+        ]
+    },
+    {
+        "type": "Planet-Based Ability",
+        "name": "Xenotypic Mutation",
+        "cooldown": "2 days 8 hours",
+        "desc": "Grows a random Biological creature (artifact). Costs 11 Evolution Genes",
+        "cost": {
+            "Evolution Genes": "11"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "Artifact": "Xenotypic Mutants"
+            }
+        ]
+    },
+    {
+        "name": "Gaia Sporewell",
+        "cooldown": "40 hours",
+        "desc": "Boosts Evolution Gene growth amounts by 10% for for 40 hours. Costs 2,200 energy",
+        "buttonText": "Sporewell Flow",
+        "textOnUse": "A surge of spores flow through your labs.",
+        "cost": {
+            "Energy": "2200"
+        },
+        "playerEffects": [
+            {
+                "type": "Boost Gene Growth",
+                "value": "10%",
+                "duration": "40 hours"
+            }
+        ]
+    }
+]

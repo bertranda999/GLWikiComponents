@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Ship Repairs",
+        "values": [
+            {
+                "option": "Do not allow your ship to be repaired by others."
+            },
+            {
+                "option": "Allow your ship to be repaired by other legion members."
+            }
+        ]
+    },
+    {
+        "name": "Alerts",
+        "values": [
+            {
+                "option": "Ship Buff Expirations Alert when a temporary buff expires"
+            },
+            {
+                "option": "Item Cooldowns Alert when a ship item cooldown is ready"
+            },
+            {
+                "option": "Player Timers Alert when invasion, scan share, evolution genes, daily reward, supporter bonus become available"
+            },
+            {
+                "option": "Browser Notifications Also send browser push notifications when alerted for any above (works in background tabs)"
+            }
+        ]
+    },
+    {
+        "name": "Button Styles",
+        "values": [
+            {
+                "option": "Classic Original GL Button style"
+            },
+            {
+                "option": "Refreshed Solid embossed buttons with more classic colors"
+            },
+            {
+                "option": "Neon Outlined buttons with glowing borders and dark scifi features"
+            }
+        ]
+    },
+    {
+        "name": "Race Images",
+        "values": [
+            {
+                "option": "Classic Original race portraits"
+            },
+            {
+                "option": "Alternate Alternate character art with multiple variants per race (chosen during race selection)"
+            }
+        ]
+    }
+]

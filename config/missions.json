@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Porowyn's Loop",
+        "desc": "Well well. Here we are. With the network nearly complete, the next phase is close at hand. It is time we discussed some of the... bigger picture.",
+        "dialogue": [
+            {
+                "character": "I couldn't have imagined a better companion in this endeavor. What we have achieved here... will connect us into the far tomorrows.",
+                "player": "I can only imagine..."
+            }
+        ],
+        "cost": {
+            "energy": "2,500",
+            "ctp": "200"
+        },
+        "rounds": "10",
+        "completions": "99",
+        "daily": "Yes",
+        "roundReward": {
+            "xp": "50"
+        },
+        "completionReward": {
+            "prismodyne": "3"
+        },
+        "perRoundText": {
+            "success": ""
+        },
+        "completionText": ""
+    },
+    {
+        "name": "Orbital Patrol",
+        "desc": "A planet of one of our allies has been a target of small attacks recently. They are offering rewards for ships to provide temporary defense.",
+        "perRoundMessages": [
+            {
+                "type": "Chance",
+                "effect": "Damage",
+                "text": "A legion of ships attacks you and other defenders. Your ship takes damage."
+            },
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "text": "You have finished one round of patrols."
+            }
+        ],
+        "completionText": "Your patrol duty is complete!",
+        "risks": "Potential for incoming planet attack (minor damage)",
+        "unlocks": "Border Patrol",
+        "cost": {
+            "Energy": "1"
+        },
+        "roundReward": {
+            "xp": "1",
+            "cr": "40"
+        },
+        "completionReward": {
+            "cr": "240",
+            "xp": "1"
+        },
+        "rounds": "10",
+        "completions": "20",
+        "charImage": "Race",
+        "icon": "https://galaxylegion-static-dev.up.railway.app/images/missions/orbit.png",
+        "damageCheck": "Yes"
+    },
+    {
+        "name": "Shipment Delivery",
+        "desc": "Our main trade outpost needs some shipments delivered to a nearby starbase",
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "text": "We have finished one round of shipments to the starbase"
+            }
+        ],
+        "completionText": "All shipments to the starbase have been delivered",
+        "cost": {
+            "Energy": "2"
+        },
+        "roundReward": {
+            "xp": "2",
+            "cr": "80"
+        },
+        "completionReward": {
+            "text": "The starbase provides a bonus for completing the shipments",
+            "xp": "7",
+            "cr": "380"
+        },
+        "completions": "20"
+    },
+    {
+        "name": "Escort a Frigate",
+        "desc": "Some trade routes have become quite hostile and our frigates are spread thin. Escort one of the ships for a reward.",
+        "charImage": "Race",
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "text": "You continue to escort the frigate safely"
+            }
+        ],
+        "cost": {
+            "Energy": "3"
+        },
+        "roundReward": {
+            "xp": "4",
+            "cr": "130"
+        },
+        "rounds": "5",
+        "completions": "20",
+        "completionReward": {
+            "cr": "330",
+            "xp": "8"
+        },
+        "completionText": "You have finished helping the frigate with its route",
+        "icon": "https://galaxylegion-static-dev.up.railway.app/images/missions/escort.png"
+    },
+    {
+        "name": "The Glaviz Incident",
+        "requirements": "20 scans",
+        "desc": "Inergon, I'll be brief. A ceremonial device of unspeakable value was plundered from our homeworld. The technology capable of pulling off such an act is beyond even our greatest spies. We have faint readings from a vessel that escaped - please find them.",
+        "cost": {
+            "Energy": "25"
+        },
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "text": "You continue your intense search for the escaped vessel."
+            }
+        ],
+        "charImage": "https://galaxylegion-static-dev.up.railway.app/images/missions/frames/glaviz.png",
+        "icon": "https://galaxylegion-static-dev.up.railway.app/images/missions/glaviz-1.jpg",
+        "roundReward": {
+            "xp": "50"
+        },
+        "rounds": "90",
+        "completions": "2",
+        "unlocks": "The Zolazin Pursuit",
+        "completionReward": {
+            "text": "You receive a Zolazin Jammer (artifact)",
+            "xp": "50"
+        },
+        "completionText": "The ship trail runs cold, but you discover a strange device..."
+    },
+    {
+        "name": "The Zolazin Pursuit",
+        "desc": "The Zolazin?? This is troubling. They are a band of renegade cyborgs - plundering the finest technology the galaxy has to offer. Finding them is impossible...but...disabling some of their remote sensory grids might bring them to us. Hurry.",
+        "cost": {
+            "Energy": "25"
+        },
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "text": "You continue in search of a Zolazin analyzer node."
+            }
+        ],
+        "charImage": "https://galaxylegion-static-dev.up.railway.app/images/missions/frames/glaviz.png",
+        "icon": "https://galaxylegion-static-dev.up.railway.app/images/missions/glaviz-2.jpg",
+        "roundReward": {
+            "xp": "55"
+        },
+        "rounds": "50",
+        "completions": "10",
+        "completionReward": {
+            "text": "You deactivate the Zolazin Analyzer (artifact), and place it in your cargo bay.",
+            "Zolazin Analyzer": "1",
+            "xp": "55"
+        },
+        "completionText": "You discover a Zolazin Analyzer node.",
+        "unlocks": "The Zolazin Battle"
+    }
+]

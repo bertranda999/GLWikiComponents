@@ -1,0 +1,293 @@
+{
+	"types": [
+		{
+			"type": "Type",
+			"name": "Action",
+			"desc": "",
+			"parameters": [
+				{
+					"name": "",
+					"desc": "",
+					"effects": "",
+					"cooldown": "",
+					"cooldownMods": "",
+					"cost": "",
+					"costReduction": "",
+					"notes": ""
+				}
+			]
+		},
+		{
+			"type": "Type",
+			"name": "Artifact",
+			"desc": "",
+			"page_template": "artifact_page.template",
+			"parameters": {
+				"name": "",
+				"desc": "Copied from game",
+				"img": "",
+				"scrap": "Object with type and value",
+				"notes": "Any extraneous notes",
+				"target": "",
+				"playerEffects": "",
+				"playerEffectsRandom": "",
+				"planetEffects": "",
+				"planetEffectsRandom": "",
+				"requirements": "",
+				"buttonText": "",
+				"textOnFirstUse": "",
+				"textOnFurtherUse": "",
+				"cost": "Array of cost objects",
+				"share": "Whether this can be shared",
+				"send": "Whether this can be sent",
+				"requiresConfirmation": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Daily Challenge",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"duration": "",
+				"reward": "",
+				"restrictions": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Evolution",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"cost": "",
+				"requiredEvo": "",
+				"medalPoints": "",
+				"quote": "",
+				"quoteCharacter": "",
+				"effects": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Medal",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"categories": "",
+				"medalPoints": "",
+				"artifactReward": "",
+				"titleReward": "",
+				"designReward": "",
+				"img": "",
+				"medalType": "This is the type to use in the wiki"
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Passive Ability",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"triggers": "",
+				"playerEffects": "",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Planet Effect",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"params": "Array of values pertinent to that effect, usually value and amount (such as 10% for 2 hours)",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Planet Type",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"minimumSize": "",
+				"maxNaturalSize": "Only if the planet can be found naturally",
+				"maxPossibleSize": "Object of the size and text of how to achieve (if transformation is required)",
+				"transformers": "Artifacts or abilities that transform this type into another",
+				"acquireSpecialImg": "How to acquire sixth image as html string; an array of objects that either specify a type and name or that specify string and an html string to add to a list",
+				"img": "Array of images",
+				"specialAttributes": "Any other attributes about this planet as an html string",
+				"story": "HTML string of story information about the planet type",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Planet-Based Ability",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"cooldown": "",
+				"cost": "",
+				"buttonText": "",
+				"textOnUse": "",
+				"planetEffects": "",
+				"planetEffectsRandom": "",
+				"playerEffects": "",
+				"playerEffectsRandom": "",
+				"requirements": "",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Planetary Event",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"effects": "Array of planet effect objects",
+				"planetTypes": "Array of planet type names",
+				"img": "",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Player Ability",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"cooldown": "",
+				"target": "",
+				"cost": "",
+				"buttonText": "",
+				"planetEffects": "",
+				"planetEffectsRandom": "",
+				"playerEffects": "",
+				"playerEffectsRandom": "",
+				"requirements": "",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Player Effect",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"params": "Array of values pertinent to that effect, usually value and amount (such as 10% for 2 hours)",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Player Statistic",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"triggers": "",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Research",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"section": "",
+				"cost": "",
+				"tiers": "",
+				"structures": "",
+				"modules": "",
+				"baseModules": "",
+				"passiveAbilities": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Resource",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"acquisition": "",
+				"storage": "",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Seasonal Event",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"year": "",
+				"desc": "",
+				"newMedals": "",
+				"newArtifacts": "",
+				"newGPMarket": "",
+				"passiveAbilities": "Include the effect and race / profession restrictions",
+				"newMissions": "",
+				"startDate": "",
+				"endDate": "",
+				"bannerImg": "",
+				"gameDescription": "",
+				"ustAbilities": "",
+				"newNPCs": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Seasonal Event Type",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"individualEvents": "Array of Event objects",
+				"seasonalZone": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Structure-Based Ability",
+			"desc": "",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"cooldown": "",
+				"cost": "",
+				"buttonText": "",
+				"planetEffects": "",
+				"planetEffectsRandom": "",
+				"playerEffects": "",
+				"playerEffectsRandom": "",
+				"requirements": "",
+				"notes": ""
+			}
+		},
+		{
+			"type": "Type",
+			"name": "Trigger",
+			"desc": "An event that triggers an effect.",
+			"parameters": {
+				"name": "",
+				"desc": "",
+				"details": "More specific information about the trigger, such as killing an NPC but specifically Rare NPCs",
+				"notes": ""
+			}
+		}
+	]
+}

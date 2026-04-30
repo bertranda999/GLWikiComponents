@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Energy"
+    },
+    {
+        "name": "Hull"
+    },
+    {
+        "name": "Shield"
+    },
+    {
+        "name": "Decks",
+        "desc": ""
+    },
+    {
+        "name": "Cargo"
+    },
+    {
+        "name": "Engineers"
+    },
+    {
+        "name": "Tactical Officers"
+    },
+    {
+        "name": "Helmsmen"
+    },
+    {
+        "name": "Scientists"
+    },
+    {
+        "name": "Space"
+    },
+    {
+        "name": "Attack"
+    },
+    {
+        "name": "Defense"
+    },
+    {
+        "name": "Scan"
+    },
+    {
+        "name": "Cloak"
+    },
+    {
+        "name": "Cargo"
+    },
+    {
+        "name": "Upkeep"
+    }
+]

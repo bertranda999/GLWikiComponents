@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Miner",
+        "playerEffects": [
+            {
+                "type": "Increase Mining",
+                "value": "10%"
+            }
+        ]
+    }
+]

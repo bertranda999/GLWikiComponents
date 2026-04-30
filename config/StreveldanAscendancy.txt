@@ -1,0 +1,35 @@
+Streveldan Ascendancy
+
+Availability: Q-Pedd
+
+missions/streveldan2.jpg
+missions/frames/streveldan.png
+
+Our Exodus proceeds as planned, but our work is far from finished. Many of our Colony ships are still completing their journey towards places of refuge, and their safety is paramount. Do you still harbor good will towards our goal of independence?
+
+Still... there are other... 'political' obstacles that also pose a challenge...
+ Many in Orionis are still pursuing the tech that was taken.
+ 
+Eventually they will realize that such efforts are wasted. The items we have seized are necessary for our survival.
+ Your fleets are also moving through busy core territory...
+ 
+You have political presence in those areas. You can vouch for our mission towards Krastis.
+ It will be costly. Many leaders have yet to trust your kind.
+ 
+Time has shown that we pose no great risk to these regions.
+ They are basing these views on... past iterations of your programming.
+ 
+We've long since corrected the errors caused by Hyperluminal interference. Some of our recent equipment especially compensates for this.
+ I'll be sure to relay this to them, based on those schematics. 
+ 
+I'll share what we've been using.  I'm sure your influence in this matter will be especially potent... and convincing.
+ End Transmission
+
+5 rounds / completion
+Energy: 1500, Influence: 2200, Streveldan Escort Grant
+NPC Hunt: Streveldan Colony Ship
+Rewards: 469 1 Hyperluminal Sat-Grid(on completion)
+Risks: Streveldan Colony Ships will sometimes appear while this mission is active
+Chance to get: A Streveldan Autoform Habitat when completing
+Limit 22
+Daily

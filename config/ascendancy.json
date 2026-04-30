@@ -1,0 +1,223 @@
+[
+    {
+        "name": "War Council",
+        "bonusDesc": "Increases Attack +2%",
+        "desc": "Coordinate legion-wide combat strategies from a unified command structure",
+        "phases": "280",
+        "cost": {
+            "Influence": "900",
+            "Studies": "200",
+            "Red Badges": "44"
+        },
+        "cooldown": "2 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Attack",
+                "value": "2%"
+            }
+        ],
+        "level": 1,
+        "img": "warcouncil1.jpg"
+    },
+    {
+        "name": "Material Sciences Division",
+        "bonusDesc": "Increases overall Mining storage by 22k, and +3%",
+        "desc": "Establish shared laboratories to advance material research and extraction techniques",
+        "phases": "230",
+        "cost": {
+            "Influence": "2,200",
+            "Studies": "200",
+            "Dark Badges": "333"
+        },
+        "cooldown": "4 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Mining Storage",
+                "value": "22k"
+            },
+            {
+                "type": "Increase Mining Storage",
+                "value": "3%"
+            }
+        ],
+        "level": 1,
+        "img": "materials1.jpg"
+    },
+    {
+        "name": "Reconnaisance Network",
+        "bonusDesc": "Increases Cloaking +3%",
+        "desc": "Coordinate clandestine intelligence gathering across legion territory",
+        "phases": "222",
+        "cost": {
+            "Influence": "900",
+            "Studies": "200",
+            "Blue Badges": "88"
+        },
+        "cooldown": "2 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Cloak",
+                "value": "3%"
+            }
+        ],
+        "level": 1,
+        "img": "recon1.jpg"
+    },
+    {
+        "name": "Species Mutagenics Program",
+        "bonusDesc": "Increases Evolution Genes Production +3%",
+        "desc": "Harness genetic variations across species to accelerate evolutionary adaptation",
+        "phases": "218",
+        "cost": {
+            "Influence": "1,100",
+            "Genes": "22",
+            "Studies": "200"
+        },
+        "cooldown": "2 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Gene Production",
+                "value": "3%"
+            }
+        ],
+        "level": 1,
+        "img": "genes1.jpg"
+    },
+    {
+        "name": "Universal Commerce Bureau",
+        "bonusDesc": "Universal Commerce Bureau",
+        "desc": "Establish trade agreements and logistics networks across legion territories",
+        "phases": "222",
+        "cost": {
+            "Influence": "1,100",
+            "Studies": "200",
+            "CTP": "550"
+        },
+        "cooldown": "2 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Cargo",
+                "value": "3%"
+            }
+        ],
+        "level": 1,
+        "img": "trade1.jpg"
+    },
+    {
+        "name": "Galactic Archives",
+        "bonusDesc": "Increases overall Research storage by 22k, and +3%",
+        "desc": "Catalog ancient relics, forgotten knowledge, and historical records from across the galaxy",
+        "phases": "222",
+        "cost": {
+            "Influence": "2,200",
+            "Studies": "200",
+            "Relic Badges": "5"
+        },
+        "cooldown": "4 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Research Storage",
+                "value": "22k"
+            },
+            {
+                "type": "Increase Research Storage",
+                "value": "3%"
+            }
+        ],
+        "level": 1,
+        "img": "archives1.jpg"
+    },
+    {
+        "name": "Ordnance Corps",
+        "bonusDesc": "Increases Enemy Base Damage Cap +6%",
+        "desc": "Centralize ordnance development and munitions logistics to support large-scale combat operations",
+        "prereqs": [
+            "War Council",
+            "Material Sciences Division"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Base Damage Cap",
+                "value": "6%"
+            }
+        ],
+        "level": 2,
+        "img": "war2.jpg"
+    },
+    {
+        "name": "Unknown",
+        "prereqs": [
+            "Material Sciences Division"
+        ],
+        "level": 2
+    },
+    {
+        "name": "Surveillance Nexus",
+        "bonusDesc": "Increases Scanning +3%",
+        "desc": "A distributed array of listening posts monitoring communications and tracking threats across sectors.",
+        "prereqs": [
+            "Reconnaisance Network"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Scan",
+                "value": "3%"
+            }
+        ],
+        "level": 2,
+        "img": "recon1.jpg"
+    },
+    {
+        "name": "Unknown",
+        "prereqs": [
+            "Species Mutagenics Program"
+        ],
+        "level": 2
+    },
+    {
+        "name": "Universal Contracts",
+        "bonusDesc": "Increases overall Influence storage by 4%",
+        "desc": "Standardize binding agreements to regulate obligations, liabilities, and enforcement across Legion space.",
+        "prereqs": [
+            "Galactic Archives",
+            "Universal Commerce Bureau"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Influence Storage",
+                "value": "4%"
+            }
+        ],
+        "level": 2,
+        "img": "contracts1.jpg"
+    },
+    {
+        "name": "Unknown",
+        "prereqs": [
+            "Galactic Archives"
+        ],
+        "level": 2
+    },
+    {
+        "name": "Unknown",
+        "prereqs": [
+            "Ordnance Corps"
+        ],
+        "level": 3
+    },
+    {
+        "name": "Unknown",
+        "prereqs": [
+            "Material Sciences Division",
+            "Surveillance Nexus"
+        ],
+        "level": 3
+    },
+    {
+        "name": "Unknown",
+        "prereqs": [
+            "Universal Contracts"
+        ],
+        "level": 3
+    }
+]
