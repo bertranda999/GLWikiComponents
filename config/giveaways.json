@@ -26,5 +26,11 @@
         "reward": "Aeon Ballot",
         "desc": "The Civicordium has convened its latest summit. It is time to Vote.",
         "date": "12 Apr 2026"
+    },
+    {
+        "name": "Time to Grow",
+        "reward": "Tabula Progenis",
+        "desc": "Since the Grow Evolution Genes cooldown has increased to 20h, you can use this to reset the current one.",
+        "date": "30 Apr 2026"
     }
 ]

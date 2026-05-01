@@ -12,15 +12,15 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Kinitar Disassembler"
+                "artifact": "Kinitar Disassembler"
             },
             {
                 "type": "Grants",
-                "Artifact": "Chuhn Shipyard"
+                "artifact": "Chuhn Shipyard"
             },
             {
                 "type": "Grants",
-                "Artifact": "Shimmering Receptacle"
+                "artifact": "Shimmering Receptacle"
             }
         ]
     },
@@ -31,7 +31,7 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Paradox Generator"
+                "artifact": "Paradox Generator"
             }
         ],
         "cost": {
@@ -66,7 +66,7 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Visage of the Dark One"
+                "artifact": "Visage of the Dark One"
             }
         ],
         "cost": {
@@ -81,11 +81,11 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Sentarch Mind-Drones"
+                "artifact": "Sentarch Mind-Drones"
             },
             {
                 "type": "Grants",
-                "Artifact": "Sentarch Seeker-Drones"
+                "artifact": "Sentarch Seeker-Drones"
             }
         ],
         "cost": {
@@ -174,7 +174,7 @@
         "playerEffects": [
             {
                 "type": "Grants",
-                "Artifact": "Vexira Jene Credentials"
+                "artifact": "Vexira Jene Credentials"
             }
         ],
         "cost": {
@@ -190,13 +190,14 @@
         "cost": {
             "Relic Badge": "5"
         },
-        "playerEffects": [
+        "playerEffectsRandom": [
             {
-                "type": "Grants (Random)",
-                "options": [
-                    "Cryo-Foundry Ice Drill",
-                    "Cryo-Foundry Battery"
-                ]
+                "type": "Grants",
+                "artifact": "Cryo-Foundry Ice Drill"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Cryo-Foundry Battery"
             }
         ]
     },
@@ -266,11 +267,11 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Streveldan Ballroom"
+                "artifact": "Streveldan Ballroom"
             },
             {
                 "type": "Grants",
-                "Artifact": "Streveldan Cohesion Pit"
+                "artifact": "Streveldan Cohesion Pit"
             }
         ]
     },
@@ -285,11 +286,11 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Streveldan Ballroom"
+                "artifact": "Streveldan Ballroom"
             },
             {
                 "type": "Grants",
-                "Artifact": "Streveldan Cohesion Pit"
+                "artifact": "Streveldan Cohesion Pit"
             }
         ]
     },
@@ -304,11 +305,11 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Streveldan Ballroom"
+                "artifact": "Streveldan Ballroom"
             },
             {
                 "type": "Grants",
-                "Artifact": "Streveldan Cohesion Pit"
+                "artifact": "Streveldan Cohesion Pit"
             }
         ]
     },
@@ -322,7 +323,7 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Paradox Generator"
+                "artifact": "Paradox Generator"
             }
         ]
     },
@@ -336,11 +337,11 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Streveldan Ballroom"
+                "artifact": "Streveldan Ballroom"
             },
             {
                 "type": "Grants",
-                "Artifact": "Streveldan Cohesion Pit"
+                "artifact": "Streveldan Cohesion Pit"
             }
         ]
     },
@@ -390,7 +391,7 @@
         "playerEffects": [
             {
                 "type": "Grants",
-                "Artifact": "Dark Psionic Essence"
+                "artifact": "Dark Psionic Essence"
             }
         ]
     },
@@ -405,7 +406,7 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Xenotypic Mutants"
+                "artifact": "Xenotypic Mutants"
             }
         ]
     },

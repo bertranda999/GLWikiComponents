@@ -1,5 +1,31 @@
 [
     {
+        "name": "Kaen Hoard",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "200,000",
+            "max": "800,000"
+        },
+        "desc": "<i>A glittering collection of items taken during the Heist of Kaen</i><br>Grants a random Kaen artifact when used.",
+        "buttonText": "Open",
+        "cost": {
+            "Energy": "2.2k"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Kaen MicroVault",
+                "message": "1 Kaen MicroVault(Artifact)"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Galakis Monument",
+                "message": "1 Galakis Monument(Artifact)"
+            }
+        ]
+    },
+    {
         "name": "Energy Cube",
         "target": "Player",
         "desc": "Fully recharges energy when used"
@@ -1017,16 +1043,6 @@
             {
                 "type": "Construct Structure",
                 "structure": "Forum of Realms"
-            }
-        ]
-    },
-    {
-        "name": "Quasi-Spacial Isolator",
-        "target": "Your Planet",
-        "restrictions": [
-            {
-                "type": "Size",
-                "max": "Average"
             }
         ]
     },
@@ -2870,19 +2886,19 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "Artifact": "Adumbrate Station"
+                "artifact": "Adumbrate Station"
             },
             {
                 "type": "Grants",
-                "Artifact": "Adumbrate Junction"
+                "artifact": "Adumbrate Junction"
             },
             {
                 "type": "Grants",
-                "Artifact": "Enumeration Crystal"
+                "artifact": "Enumeration Crystal"
             },
             {
                 "type": "Grants",
-                "Artifact": "Enumeration Metacrystal"
+                "artifact": "Enumeration Metacrystal"
             }
         ],
         "target": "Player"
@@ -3336,16 +3352,6 @@
         "target": "Your Planet"
     },
     {
-        "name": "OmniVote Terminal",
-        "restrictions": [
-            {
-                "type": "Development Status",
-                "status": "New Colony"
-            }
-        ],
-        "target": "Your Planet"
-    },
-    {
         "name": "Propaganda Plex",
         "restrictions": [
             {
@@ -3462,7 +3468,7 @@
         "restrictions": [
             {
                 "type": "Resource Availability",
-                "max": "Rich"
+                "max": "R"
             }
         ],
         "target": "Your Planet"
@@ -5573,11 +5579,11 @@
             },
             {
                 "type": "Resource Availability",
-                "max": "Rich"
+                "max": "EA"
             },
             {
                 "type": "Influence Availability",
-                "max": "Rich"
+                "max": "EA"
             }
         ],
         "planetEffects": [
@@ -7173,7 +7179,7 @@
         "restrictions": [
             {
                 "type": "Resource Availability",
-                "max": "Rich"
+                "max": "R"
             },
             {
                 "type": "Size",
@@ -7483,7 +7489,7 @@
         "restrictions": [
             {
                 "type": "Resource Availability",
-                "max": "Rich"
+                "max": "R"
             },
             {
                 "type": "Type",

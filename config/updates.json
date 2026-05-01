@@ -1578,5 +1578,17 @@
         "date": "29 Apr 2026",
         "type": "Cosmetic",
         "desc": "Voting initiatives that have permanent effects will now show an approximate date for when the change takes place"
+    },
+    {
+        "date": "30 Apr 2026",
+        "type": "Tweak",
+        "desc": "Evolution Genes yield bumped to 8-16 (from 4-10), and cooldown increased to 20h (from 14h). Net ~20% more genes/day with bigger bonus impact.",
+        "detail": "What changed:<br>• Yield range per claim: 4-10 -> 8-16 Evolution Genes<br>• Claim cooldown: 14 hours -> 20 hours<br><br>Why: the wider yield range gives bonus auras (Biologist, talents, etc.) and seasonal/vote multipliers a much larger absolute impact per claim. The cooldown bump keeps the daily rate balanced while still delivering an overall ~20% buff to base genes per day. 20h cooldowns are also more common, so this aligns it better with other timers"
+    },
+    {
+        "date": "30 Apr 2026",
+        "type": "Gift",
+        "desc": "Bonus: click here to claim a Tabula Progenis for your current genes cooldown (as explained below).",
+        "giveaway": "Time to Grow"
     }
 ]

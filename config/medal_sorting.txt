@@ -256,6 +256,8 @@ Domain:General
 		King of the Hill 2.0
 		Ascendant Awakening
 		The Lone Conqueror
+		
+	Section:Developer-Bestowed
 		Reality Stitching
 		Reality Vetting
 		Community Ambassador
