@@ -27,6 +27,7 @@ Domain:General
 	Section:Ascendancy
 		Ascendant Tiers
 		Tiers in Rain
+		Tiers of Awe
 		
 	Section:Complete Evolutions
 		Evolutionary Dynamics
@@ -449,19 +450,37 @@ Domain:Civicordium
 		
 Domain:Genoform
 
+	Section:Grow Genes
+		Triune Helix
+		Extended Telomeres
+		
 	Section:Influence Zone
 		Genoform Claim
+		Genoform Accession
+
+	Section:Planetary Event
+		Infected Intrusion
+		Taming the Undulok
 	
 	Section:Scan:
 		Growing Potential
+		Blossoming Potential
+		
+	Section:Scrap
+		Genetic Reclamation
 	
 	Section:Other GP
 		Phylogenetic Alignments
 		Cloning Guild Agreements
+		Optimal Mutations
+		Novel Phylogeny
+		Unchecked Growth
 		
 	Section:Other
 		Lifeform Patterning
 		Biospheric Diversity
+		Biospheric Isolation
+		Fecund Solitude
 		
 Domain:Elios
 		
@@ -806,9 +825,11 @@ Domain:Synesthetic
 		The Synesthetic Bridging
 		The Synesthetic Melding
 		The Synesthetic Convergence
+		The Synesthetic Fusion
 
 	Section:Other
 		Fusion of Identities
+		Fusion of Origins
 
 Domain:Divergent Escapes
 

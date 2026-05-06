@@ -2066,6 +2066,27 @@
         "bc": 23
     },
     {
+        "name": "Litheor Core-Tunnel Shrine (Size 1)",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bc": 15
+    },
+    {
+        "name": "Litheor Core-Tunnel Shrine (Size 2)",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "ip": 1,
+        "bc": 23
+    },
+    {
         "name": "Litheor Transmutative Locator (1)",
         "size": 1,
         "limit": 1,
@@ -6716,6 +6737,16 @@
         "bat": 25
     },
     {
+        "name": "Lazuli Darkmines (Aeon)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "at": 600,
+        "bat": 25,
+        "bc": 15
+    },
+    {
         "name": "Lazuli Darkmine Cluster",
         "size": 1,
         "limit": 2,
@@ -6723,6 +6754,16 @@
         "extract": true,
         "at": 1200,
         "bat": 30
+    },
+    {
+        "name": "Lazuli Darkmine Cluster (Aeon)",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "at": 1200,
+        "bat": 30,
+        "bc": 15
     },
     {
         "name": "Lazuli Shipyard",
@@ -9291,7 +9332,7 @@
         "c": 850
     },
     {
-        "name": "Covert Legation (Upgraded)",
+        "name": "Covert Legation II",
         "size": 1,
         "limit": 1,
         "limited": true,
@@ -9452,5 +9493,60 @@
         "ip": 4,
         "bip": 4,
         "ips": 550
+    },
+    {
+        "name": "Tamed Undulok",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "bp": 20
+    },
+    {
+        "name": "Bio-Symposium Lab",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 6,
+        "ip": 1,
+        "bp": 22
+    },
+    {
+        "name": "Tree of Harmony",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "bp": 20
+    },
+    {
+        "name": "Tree of Harmony II",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "ip": 1,
+        "bp": 30
+    },
+    {
+        "name": "Tree of Harmony III",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "ip": 1,
+        "bp": 40
     }
 ]

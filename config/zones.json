@@ -1,5 +1,44 @@
 [
     {
+        "name": "Civicordium Summit",
+        "type": "Political Headquarters",
+        "influenceCost": "555",
+        "energy": "",
+        "desc": "Situated at their headquarters near the Empyreal Core, the Galactic Civicordium Summit houses representatives from all key political factions and governments, coming together to ratify important matters affecting all species.",
+        "influenceThreshold": "2,222",
+        "bonusName": "Civic Honor",
+        "bonusDesc": "When casting Votes (Galactic Voting), you will earn a Civicordium Platform",
+        "playerEffects": [
+            {
+                "effectType": "Add Ability",
+                "ability": "Civic Honor"
+            }
+        ]
+    },
+    {
+        "name": "Genoform Surge (2026)",
+        "type": "Spacial Rupture",
+        "influenceCost": "444",
+        "desc": "A massive formless 'Entity' guards the spacial aperture, appearing to speak and negotiate with various influential powers",
+        "influenceThreshold": "3,000",
+        "bonusName": "Genoform Feedback",
+        "bonusDesc": "When completing a Daily <i>Challenge</i>, you will earn an Arx Genetica",
+        "ability": {
+            "name": "Genoform Feedback",
+            "triggers": [
+                {
+                    "type": "Complete Daily Challenge"
+                }
+            ],
+            "playerEffects": [
+                {
+                    "type": "Grants",
+                    "artifact": "Arx Genetica"
+                }
+            ]
+        }
+    },
+    {
         "name": "Lepus Cluster (2026)",
         "type": "Interphase Zone",
         "influenceCost": "222",
@@ -12,22 +51,6 @@
             {
                 "effectType": "Add Passive Ability",
                 "ability": "Interphase Transit"
-            }
-        ]
-    },
-    {
-        "name": "Civicordium Summit",
-        "type": "Political Headquarters",
-        "influenceCost": "555",
-        "energy": "",
-        "desc": "Situated at their headquarters near the Empyreal Core, the Galactic Civicordium Summit houses representatives from all key political factions and governments, coming together to ratify important matters affecting all species.",
-        "influenceThreshold": "2222",
-        "bonusName": "Civic Honor",
-        "bonusDesc": "When casting Votes (Galactic Voting), you will earn a Civicordium Platform",
-        "playerEffects": [
-            {
-                "effectType": "Add Ability",
-                "ability": "Civic Honor"
             }
         ]
     }

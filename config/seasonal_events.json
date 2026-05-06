@@ -756,5 +756,25 @@
                 "cost": "6,900"
             }
         ]
+    },
+    {
+        "name": "Growth Consensus (2026)",
+        "start": "1 May 2026",
+        "end": "12 May 2026",
+        "seasonalEventTypes": [
+            "Genoform",
+            "Civicordium"
+        ],
+        "lore": "With biological systems in genetic flux around the Galaxy, The Civicordium weighs on the new opportunities and crises that result",
+        "additionalEffectDescription": "Synesthetic medals become available during the seasonal overlap period.",
+        "scanDiscoveries": [
+            "Tree of Harmony"
+        ],
+        "newMedals": [
+            "Infected Intrusion",
+            "The Synesthetic Fusion",
+            "Fusion of Origins",
+            "Taming the Undulok"
+        ]
     }
 ]

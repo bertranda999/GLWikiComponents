@@ -3,7 +3,7 @@
         "name": "Tiers in Rain",
         "desc": "Make 60 Contributions to various Legion Ascendancy Talents",
         "medalPoints": "14",
-        "artifactReward": "Court of Eternity",
+        "artifact": "Court of Eternity",
         "img": "ltalent2.jpg",
         "triggers": [
             {
@@ -27,7 +27,7 @@
         "name": "Ascendant Tiers",
         "desc": "Make 20 Contributions to various Legion Ascendancy Talents",
         "medalPoints": "12",
-        "artifactReward": "Forum of Realms",
+        "artifact": "Forum of Realms",
         "triggers": [
             {
                 "type": "Contribute to Ascendancy"
@@ -39,7 +39,7 @@
         "name": "Civic Authority",
         "desc": "Cast 99 or more votes for elections or initiatives",
         "medalPoints": "16",
-        "artifactReward": "OmniVote Nexus Upgrade",
+        "artifact": "OmniVote Nexus Upgrade",
         "rewardCount": "3",
         "triggers": [
             {
@@ -52,7 +52,7 @@
         "name": "Diplomatic Claim",
         "desc": "Contribute at least 1400 Influence within the 'Civicordium Summit' Zone",
         "medalPoints": "11",
-        "artifactReward": "Civicordium Platform",
+        "artifact": "Civicordium Platform",
         "triggers": [
             {
                 "type": "Influence Zone"
@@ -64,7 +64,7 @@
         "name": "Distributed Delegation",
         "desc": "Use a Civicordium Charter on 5 different types of planets",
         "medalPoints": "15",
-        "artifactReward": "Spire of Civicordium Dominion",
+        "artifact": "Spire of Civicordium Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -93,7 +93,7 @@
         "name": "Council of Seven",
         "desc": "During the Civicordium Event, Convene the Council, and earn favor from 7 different council seats",
         "medalPoints": "11",
-        "artifactReward": "Spire of Civicordium Dominion",
+        "artifact": "Spire of Civicordium Dominion",
         "triggers": [
             {
                 "type": "Convene Council"
@@ -106,7 +106,7 @@
         "name": "Council of Unity",
         "desc": "Convene the Council, and earn favor from 10 different council races",
         "medalPoints": "11",
-        "artifactReward": "Court of Eternity",
+        "artifact": "Court of Eternity",
         "triggers": [
             {
                 "type": "Convene Council"
@@ -119,7 +119,7 @@
         "name": "Voting Bloc",
         "desc": "Cast at least 5 votes at a single time, for 8+ different initiative options",
         "medalPoints": "12",
-        "artifactReward": "OmniVote Nexus Upgrade",
+        "artifact": "OmniVote Nexus Upgrade",
         "rewardCount": "2",
         "triggers": [
             {
@@ -134,7 +134,7 @@
         "name": "Political Potential",
         "desc": "Use a Political Endorsement on 8 different races that are of the 'Diplomat' profession",
         "medalPoints": "12",
-        "artifactReward": "Covert Legation",
+        "artifact": "Covert Legation",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -149,7 +149,7 @@
         "name": "Civic Alignment",
         "desc": "Cast 42 or more votes for elections or initiatives",
         "medalPoints": "12",
-        "artifactReward": "OmniVote Nexus Upgrade",
+        "artifact": "OmniVote Nexus Upgrade",
         "rewardCount": "2",
         "prereq": "Civic Engagement",
         "triggers": [
@@ -165,7 +165,7 @@
         "name": "Civic Engagement",
         "desc": "Cast 15 or more votes for elections or initiatives",
         "medalPoints": "8",
-        "artifactReward": "OmniVote Nexus Upgrade",
+        "artifact": "OmniVote Nexus Upgrade",
         "triggers": [
             {
                 "type": "Vote"
@@ -179,7 +179,7 @@
         "name": "Sky Metropolis",
         "desc": "Build an Antigrav Citadel on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Embassy District",
+        "artifact": "Embassy District",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -195,7 +195,7 @@
         "name": "Political Reclamation",
         "desc": "During the Civicordium event, scrap a variety of different planet structures for Complex Tech Parts, that provide Influence",
         "medalPoints": "11",
-        "artifactReward": "Covert Legation",
+        "artifact": "Covert Legation",
         "triggers": [
             {
                 "type": "Scrap",
@@ -227,7 +227,7 @@
         "name": "Interspecies Communique",
         "desc": "Install 2 Diplomatic Transponders on your ship",
         "medalPoints": "11",
-        "artifactReward": "Embassy District",
+        "artifact": "Embassy District",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -256,7 +256,7 @@
         "name": "Autoform Resonance",
         "desc": "Place a Streveldan Autoform Habitat on 7 different types of planets that are Small size or smaller",
         "medalPoints": "18",
-        "artifactReward": "Spire of Cybernetic Dominion",
+        "artifact": "Spire of Cybernetic Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -270,7 +270,7 @@
         "name": "The Streveldan Colonies",
         "desc": "Build a 'Streveldan Cohesion Pit' or a 'Q-Pedd Ballroom' on 4 different types of planets that are Average size or smaller",
         "medalPoints": "13",
-        "artifactReward": "Passion Amplix",
+        "artifact": "Passion Amplix",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -353,7 +353,7 @@
         "name": "Sensory Determination",
         "desc": "Receive a 'Supel Sensor Readings' from friends and/or legion members of the following Professions: Builder, Excavator, Explorer, Fixer, Governor, Hacker, Merchant, Miner, Physicist, Raider, Saboteur, Spy",
         "medalPoints": "15",
-        "artifactReward": "Bio-Con Signaling Adapter",
+        "artifact": "Bio-Con Signaling Adapter",
         "img": "supelreadings2.jpg",
         "legionProfessionReq": [
             "Builder",
@@ -393,7 +393,7 @@
         "name": "The Synesthetic Convergence",
         "desc": "Complete the following actions while 2 or more Seasonal Events are affecting the Galaxy at the same time: Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC, Daily Challenge",
         "medalPoints": "11",
-        "artifactReward": "Xenoform Drone",
+        "artifact": "Xenoform Drone",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -429,7 +429,7 @@
         "img": "synmerging5.jpg",
         "desc": "Complete the following actions while 2 or more Seasonal Events are affecting the Galaxy at the same time: Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC",
         "medalPoints": "10",
-        "artifactReward": "Xenoform Drone",
+        "artifact": "Xenoform Drone",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -467,7 +467,7 @@
         "img": "synfusion2.jpg",
         "desc": "Complete 25 Daily Missions, while 2 or more Seasonal Events are affecting the Galaxy at the same time",
         "medalPoints": "11",
-        "artifactReward": "Synesthetic Fuse",
+        "artifact": "Synesthetic Fuse",
         "triggers": [
             {
                 "type": "Complete Daily Mission"
@@ -479,7 +479,7 @@
         "img": "supeln4.jpg",
         "desc": "Open 4 or more Chromatic Lepus Egg 16.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 16.0",
+        "artifact": "Auric Lepus Drone 16.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -493,7 +493,7 @@
         "img": "supeln7.jpg",
         "desc": "During the Lepus event, scrap a variety of different artifacts (except drones) for Complex Tech Parts, that have 'Lepus' or 'Supel' in their names",
         "medalPoints": "11",
-        "artifactReward": "Supel Incubator",
+        "artifact": "Supel Incubator",
         "triggers": [
             {
                 "type": "Scrap",
@@ -512,7 +512,7 @@
         "img": "diverge1.jpg",
         "desc": "Migrate a 'Divergent Entity' from 8 different types of planets",
         "medalPoints": "12",
-        "artifactReward": "Synesthetic Fuse",
+        "artifact": "Synesthetic Fuse",
         "artifactReq": [
             {
                 "artifact": "Divergent Entity",
@@ -532,7 +532,7 @@
         "img": "synmerging4.jpg",
         "desc": "Complete the following actions while 2 or more Seasonal Events are affecting the Galaxy at the same time: Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC",
         "medalPoints": "10",
-        "artifactReward": "Xenoform Drone",
+        "artifact": "Xenoform Drone",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -564,7 +564,7 @@
         "img": "supeln9.jpg",
         "desc": "Build a Supel Interphase Portal on 4 different planet types",
         "medalPoints": "12",
-        "artifactReward": "Mechanum Replicator",
+        "artifact": "Mechanum Replicator",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -579,7 +579,7 @@
         "img": "synmerging3.jpg",
         "desc": "Complete the following actions while 2 or more Seasonal Events are affecting the Galaxy at the same time: Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC",
         "medalPoints": "10",
-        "artifactReward": "Xenoform Drone",
+        "artifact": "Xenoform Drone",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -626,7 +626,7 @@
         "img": "qpeddm11.jpg",
         "desc": "Build a 'Q-Pedd Affinity Tunnel' on planets of 5 different sizes",
         "medalPoints": "14",
-        "artifactReward": "Passion Amplix",
+        "artifact": "Passion Amplix",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -640,7 +640,7 @@
         "name": "Neutronium Terraforming",
         "desc": "Upgrade a 'Biosphere Gyre' on planets of 6 different sizes",
         "medalPoints": "12",
-        "artifactReward": "Vault of Gaia",
+        "artifact": "Vault of Gaia",
         "triggers": [
             {
                 "type": "Use Structure Ability",
@@ -667,7 +667,7 @@
         "name": "Love Endures",
         "desc": "Escort 12 Streveldan Colony ships while under ALL the following Q-Pedd effects: 'Schematics', 'Largesse', 'Informant', 'Operative', 'Abettor', 'Inhibitor', and 'Bond-Key'",
         "medalPoints": "16",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Disable NPC",
@@ -680,7 +680,7 @@
         "name": "Sites of Tranquility",
         "desc": "Activate the following effects from various planetary events that occur on calmer worlds: Gaia Sporewell, Convocation of Peace, Noospheric Emergence",
         "medalPoints": "14",
-        "artifactReward": "Font of Vitalis",
+        "artifact": "Font of Vitalis",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -697,7 +697,7 @@
         "name": "Exodus Accession",
         "desc": "Contribute at least 1100 Influence within the 'Streveldan Refuge' Zone",
         "medalPoints": "12",
-        "artifactReward": "Streveldan Autoform Habitat",
+        "artifact": "Streveldan Autoform Habitat",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -711,7 +711,7 @@
         "name": "Research Guild Agreements",
         "desc": "Place a Q-Pedd Science Station 15.0 on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Charter of Lost Legacies",
+        "artifact": "Charter of Lost Legacies",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -726,7 +726,7 @@
         "name": "Heartfelt Reclamation",
         "desc": "During the Q-Pedd event, scrap a variety of different Q-Pedd artifacts for Complex Tech Parts",
         "medalPoints": "11",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Scrap",
@@ -740,7 +740,7 @@
         "name": "Patching Friendships",
         "desc": "Use 2 Streveldan Auto-Drones 2.0 Upgrades on your ship",
         "medalPoints": "11",
-        "artifactReward": "Passion Amplix",
+        "artifact": "Passion Amplix",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -772,7 +772,7 @@
         "name": "Love Thrives",
         "desc": "Escort 10 Streveldan Colony ships while under ALL the following Q-Pedd effects: 'Schematics', 'Largesse', 'Informant', 'Operative', 'Abettor', and 'Inhibitor'",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Disable NPC",
@@ -785,7 +785,7 @@
         "name": "Ascendant Awakening",
         "desc": "Use an Ascendant Charter or an Exarch's Proclamation on the following planet types: Terra, Relic, Gaia, Desert, Icy, Barren",
         "medalPoints": "14",
-        "artifactReward": "Spire of Dominion",
+        "artifact": "Spire of Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -802,7 +802,7 @@
         "name": "Naughty Heists",
         "desc": "During the Scruuge Event, raid mineral or artifact points from a member of the following professions that also has a 'Gift to the Naughty' affecting their ship: Builder, Excavator, Explorer, Fixer, Governor, Hacker, Merchant, Miner, Physicist, Raider, Saboteur, Spy",
         "medalPoints": "15",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Raid Ship",
@@ -828,7 +828,7 @@
         "name": "Novel Creations",
         "desc": "Activate the following effects from various planetary events: Emergent Sentarch, Xenotypic Mutation, Neo-Fecund Specimen, Lost Cryo-Foundry",
         "medalPoints": "19",
-        "artifactReward": "Font of Vitalis",
+        "artifact": "Font of Vitalis",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -846,7 +846,7 @@
         "name": "Naughty Marauding",
         "desc": "During the Scruuge Event, raid mineral or artifact points from a member of the following races that also has a 'Gift to the Naughty' affecting their ship: Human, Aerlen, Inergon, Konqul, Sillixx, Zolazin, Kronyn, Lazuli, Litheor, Xecti, Drannik",
         "medalPoints": "15",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Raid Ship",
@@ -871,7 +871,7 @@
         "name": "Coveted Accession",
         "desc": "Contribute at least 990 Influence within the 'Scruuge Perimeter' Zone",
         "medalPoints": "9",
-        "artifactReward": "Scruuge MegaStorm-Crate",
+        "artifact": "Scruuge MegaStorm-Crate",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -885,7 +885,7 @@
         "name": "Fifth-Order Heist",
         "desc": "During the Scruuge Event, successfully raid 5 enemy bases of different levels, while you have 'Gift to the Naughty' on your ship.",
         "medalPoints": "11",
-        "artifactReward": "Hullbuster's Cache",
+        "artifact": "Hullbuster's Cache",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -897,7 +897,7 @@
         "name": "Curator's Guild Agreements",
         "desc": "Place a Scruuge Hoarding Vault XV on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Cryobound Mandate",
+        "artifact": "Cryobound Mandate",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -912,7 +912,7 @@
         "name": "NetherReaver Nights",
         "desc": "While you have a Scruuge NetherReaver set bonus, Successfully raid enemy bases of the following levels: 5, 6, 7, 8, 9, 10",
         "medalPoints": "14",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "artifactReq": [
             "Scruuge NetherReaver"
         ],
@@ -936,7 +936,7 @@
         "name": "Ultimate Heist",
         "desc": "During the Scruuge Event, successfully raid 5 enemy bases, while you have 'Gift to the Naughty' on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -948,7 +948,7 @@
         "name": "Hullbuster Sale",
         "desc": "During the Scruuge Event, successfully raid 3 enemy bases, while you have 'Gift to the Naughty' on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Hullbuster's Cache",
+        "artifact": "Hullbuster's Cache",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -960,7 +960,7 @@
         "name": "Event Horizons",
         "desc": "Activate the following effects from various planetary events: Ignean Furnace, Fractal Anomaly, Time-Split Incursion, Enigmatic Aperture",
         "medalPoints": "14",
-        "artifactReward": "Exalted DarkForge",
+        "artifact": "Exalted DarkForge",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -978,7 +978,7 @@
         "name": "The Keystone Summit",
         "desc": "Upgrade Scruuge Keystones to V7 on 4 different planet types that produce Influence",
         "medalPoints": "17",
-        "artifactReward": "Spire of Scruuge Dominion",
+        "artifact": "Spire of Scruuge Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -992,7 +992,7 @@
         "name": "Gifted Reclamation",
         "desc": "During the Scruuge event, scrap a variety of different artifacts for Complex Tech Parts, that have 'Gift' or 'Scruuge' in their names",
         "medalPoints": "11",
-        "artifactReward": "Scruuge MegaStorm-Crate",
+        "artifact": "Scruuge MegaStorm-Crate",
         "triggers": [
             {
                 "type": "Scrap",
@@ -1009,7 +1009,7 @@
         "name": "Taking a Toll",
         "desc": "Build a 'Scruuge Toll-Station' on planets of 5 different sizes",
         "medalPoints": "14",
-        "artifactReward": "Miser's Gift-Bunker",
+        "artifact": "Miser's Gift-Bunker",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1024,7 +1024,7 @@
         "name": "Scruuge Boundless Favorite Things",
         "desc": "Use a Scruuge Bastion Master-Keep Upgrade on a base OR a Scruuge Swindlecharged Hypernode Upgrade on your ship",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1042,7 +1042,7 @@
         "name": "The Keystone Pinnacle",
         "desc": "Upgrade Scruuge Keystones to V6 on the following planet types that have influence resources: Icy, Relic, Metallic",
         "medalPoints": "16",
-        "artifactReward": "Spire of Scruuge Dominion",
+        "artifact": "Spire of Scruuge Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1056,7 +1056,7 @@
         "name": "King of the Hill 2.0",
         "desc": "Flag the planet named 'Exotica' after you have controlled it for at least 8 hours.",
         "medalPoints": "20",
-        "artifactReward": "Exotic Bio-Disruptor 2.0",
+        "artifact": "Exotic Bio-Disruptor 2.0",
         "triggers": [
             {
                 "type": "Flag Planet"
@@ -1068,14 +1068,14 @@
         "name": "King of the Hill",
         "desc": "Guard the planet named 'Exotica' after you have controlled it for at least 1 day. Deprecated. Rewarded when completing King of the Hill 2.0",
         "medalPoints": "40",
-        "artifactReward": "Exotic Bio-Disruptor",
+        "artifact": "Exotic Bio-Disruptor",
         "img": "khill2.jpg"
     },
     {
         "name": "Outsider's Accession",
         "desc": "Contribute at least 880 Influence within the 'Terran Outsiders Perimeter' Zone during the Era of Harvest",
         "medalPoints": "11",
-        "artifactReward": "T.O. Capitol Dome",
+        "artifact": "T.O. Capitol Dome",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -1089,7 +1089,7 @@
         "name": "Nature's Diversity",
         "desc": "Build a 'HyperNexus Power Shunt' on 3 different types of planets that are Average or smaller",
         "medalPoints": "12",
-        "artifactReward": "Vault of Gaia",
+        "artifact": "Vault of Gaia",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1104,7 +1104,7 @@
         "name": "Harvesting Guild Agreements",
         "desc": "Place a T.O. Harvest Vault XV on 5 different planet types:",
         "medalPoints": "14",
-        "artifactReward": "Terran Verdant Accord",
+        "artifact": "Terran Verdant Accord",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1119,7 +1119,7 @@
         "name": "Harvested Potential",
         "desc": "Use Harvested Genomics on 8 different races",
         "medalPoints": "12",
-        "artifactReward": "Spire of Edenic Dominion",
+        "artifact": "Spire of Edenic Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1159,7 +1159,7 @@
         "name": "Quests of the Harvest",
         "desc": "Complete the following Paths after colonizing during the Era of Harvest: Metropolis, Obscurity, Terraforming",
         "medalPoints": "22",
-        "artifactReward": "Edenic Strata-Field",
+        "artifact": "Edenic Strata-Field",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -1198,7 +1198,7 @@
         "name": "Shields of the Verdant",
         "desc": "Use a Harvest Aegis XI Upgrade on a base OR a Harvest Shield XII Upgrade on your ship.",
         "medalPoints": "11",
-        "artifactReward": "Terran Verdant Accord",
+        "artifact": "Terran Verdant Accord",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1251,7 +1251,7 @@
         "name": "Shields of the Protector",
         "desc": "Use a Harvest Aegis XII Upgrade on a base OR a Harvest Shield XIII Upgrade on your ship.",
         "medalPoints": "11",
-        "artifactReward": "Terran Verdant Accord",
+        "artifact": "Terran Verdant Accord",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1269,7 +1269,7 @@
         "name": "Habitat Reclamation",
         "desc": "During the Era of Harvest, scrap a variety of different artifacts for Complex Tech Parts, that each have a restriction to be used on one of Terra, Gaia, or Aphotic planets",
         "medalPoints": "12",
-        "artifactReward": "Edenic Strata-Field",
+        "artifact": "Edenic Strata-Field",
         "triggers": [
             {
                 "type": "Scrap",
@@ -1299,7 +1299,7 @@
         "name": "Vexira's Sight",
         "desc": "Find and Open 4 or more items from the 'Kaen Hoard'",
         "medalPoints": "14",
-        "artifactReward": "Exalted DarkForge",
+        "artifact": "Exalted DarkForge",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1324,7 +1324,7 @@
         "name": "Infernal Claim",
         "desc": "Contribute at least 1200 Influence within the 'Dark Psionic Anomaly' Zone",
         "medalPoints": "10",
-        "artifactReward": "Dark Temple of Woe",
+        "artifact": "Dark Temple of Woe",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -1355,7 +1355,7 @@
         "name": "Pyres of Evil",
         "desc": "During the Hallows Bane Event, scrap a variety of different artifacts for Complex Tech Parts, that have 'Bane' or 'Dark' in their names",
         "medalPoints": "11",
-        "artifactReward": "Writ of Forbidden Revelations",
+        "artifact": "Writ of Forbidden Revelations",
         "triggers": [
             {
                 "type": "Scrap",
@@ -1372,7 +1372,7 @@
         "name": "Vile Agreements",
         "desc": "Build a Bane Dark-Kiln on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Darkflame Doctrine",
+        "artifact": "Darkflame Doctrine",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1387,7 +1387,7 @@
         "name": "Evolutionary Diversity",
         "desc": "Complete 16 Evolutions from any race",
         "medalPoints": "19",
-        "artifactReward": "Species Evolution Lab",
+        "artifact": "Species Evolution Lab",
         "triggers": [
             {
                 "type": "Complete Evolution"
@@ -1399,7 +1399,7 @@
         "name": "A Bazaar Obsession",
         "desc": "Collect and use the following items from various Chuhn trading sources: Extragalactic Genes, Eye of Kinitar, Fornax Jewel, Furlinium-O Spanner, Prejor V12 Grav-Hutch, Shimmering Receptacle, Orion Menagerie, Bizian Star Atlas, Chuhn Exo-Habitability Probe, Lore of Laniakea, Triangulum, Pentragulum, Quadrigulum, Well of Yonayan, VSP Catalyst",
         "medalPoints": "35",
-        "artifactReward": "Chuhn Prime Starline",
+        "artifact": "Chuhn Prime Starline",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1428,7 +1428,7 @@
         "name": "Windfall Reclamation",
         "desc": "During the Chuhn Event, scrap a variety of different artifacts that result in an average yield of 77 or more Complex Tech Parts per item",
         "medalPoints": "14",
-        "artifactReward": "Chuhn Reclamation Drone",
+        "artifact": "Chuhn Reclamation Drone",
         "triggers": [
             {
                 "type": "Scrap",
@@ -1442,7 +1442,7 @@
         "name": "High-Energy Salvage",
         "desc": "During the Chuhn Event, scrap a variety of different artifacts for Complex Tech Parts that each require 1000+ energy to use",
         "medalPoints": "11",
-        "artifactReward": "Chuhn Reclamation Drone",
+        "artifact": "Chuhn Reclamation Drone",
         "triggers": [
             {
                 "type": "Scrap",
@@ -1456,7 +1456,7 @@
         "name": "High-Yield Salvage",
         "desc": "During the Chuhn Event, scrap a variety of different artifacts that result in an average yield of 42 or more Complex Tech Parts per item",
         "medalPoints": "11",
-        "artifactReward": "Chuhn Reclamation Drone",
+        "artifact": "Chuhn Reclamation Drone",
         "triggers": [
             {
                 "type": "Scrap",
@@ -1470,7 +1470,7 @@
         "name": "Mercantile Claim",
         "desc": "Contribute at least 880 Influence within the 'Chuhn Ingress' Zone",
         "medalPoints": "10",
-        "artifactReward": "Chuhn Star-Emporium",
+        "artifact": "Chuhn Star-Emporium",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -1484,7 +1484,7 @@
         "name": "Universal Colonization",
         "desc": "Use Universal Omni-Harvesters on the following planet types, each having 1 or fewer structures already built: Relic, Shattered, Metallic, Machine",
         "medalPoints": "12",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1498,7 +1498,7 @@
         "name": "Private Shipping",
         "desc": "Build a Chuhn Shipyard on 4 different planet types that are Average sized (or smaller)",
         "medalPoints": "12",
-        "artifactReward": "Chuhn Reclamation Drone",
+        "artifact": "Chuhn Reclamation Drone",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1512,7 +1512,7 @@
         "name": "A Scrap of Profit",
         "desc": "Use the 'Recycle' ability from a Chuhn Scrapyard or Depot on a planet that has an active Chuhn Orbital Freeport",
         "medalPoints": "12",
-        "artifactReward": "Exo-Galactic Curio",
+        "artifact": "Exo-Galactic Curio",
         "triggers": [
             {
                 "type": "Use Structure Ability",
@@ -1529,7 +1529,7 @@
         "name": "A Chuhn Immersion",
         "desc": "During the 2025 Chuhn Event, upgrade to the following Chuhn structures on your planets.: Chuhn Trading MegaHub, Chuhn Scrap Depot, Chuhn Exo-Logistics Gridport",
         "medalPoints": "15",
-        "artifactReward": "Chuhn Timebox",
+        "artifact": "Chuhn Timebox",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1578,7 +1578,7 @@
         "name": "Merchants Guild Agreements",
         "desc": "Build a Chuhn InterMarket Caster on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Commerce-Bound Decree",
+        "artifact": "Commerce-Bound Decree",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1608,7 +1608,7 @@
         "name": "Conquered Mandate",
         "desc": "Activate the following effects from various planetary events that occur when invading smaller worlds or ones with influence",
         "medalPoints": "14",
-        "artifactReward": "Exalted DarkForge",
+        "artifact": "Exalted DarkForge",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -1625,7 +1625,7 @@
         "name": "Uplifting Appraisals",
         "desc": "Use a GeoLifter on the following planet types: Terra, Oceanic, Icy, Desert, Barren, Gas, Toxic, Volcanic",
         "medalPoints": "14",
-        "artifactReward": "Xenoform Drone",
+        "artifact": "Xenoform Drone",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1639,7 +1639,7 @@
         "name": "Fervent Infrastructure",
         "desc": "During the Elios Migration, Build the 8 following Elios structures on a Machine Planet: Heliacal Plant, Powervault, Power Junction, Solar Drill, Core Mine, Flare Probe, Aurelios Voltarium, Corethune Shell",
         "medalPoints": "18",
-        "artifactReward": "Elios Starflare",
+        "artifact": "Elios Starflare",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1662,7 +1662,7 @@
         "name": "Solar Compressions",
         "desc": "Place an Elios Pulse-Compressor on the following planet types: Metallic, Volcanic, Barren, Gas",
         "medalPoints": "12",
-        "artifactReward": "Flare Probe Propaganda Terminal",
+        "artifact": "Flare Probe Propaganda Terminal",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1688,7 +1688,7 @@
         "name": "TitanCore Re-Emergence",
         "desc": "Complete various tasks within the The TitanCore Rebirth and Rise of the Sentiox legion missions",
         "medalPoints": "18",
-        "artifactReward": "Planetary TitanCore Seed",
+        "artifact": "Planetary TitanCore Seed",
         "triggers": [
             {
                 "type": "Complete Legion Mission Task",
@@ -1706,7 +1706,7 @@
         "name": "Sensor Sensibility",
         "desc": "Scan the following types of planets that are Massive or larger<br>Terra, Gaia, Oceanic, Ecumenopolis, Shattered, Volcanic, Toxic, Desert, Plasma",
         "medalPoints": "15",
-        "artifactReward": "Planetary TitanCore Seed",
+        "artifact": "Planetary TitanCore Seed",
         "triggers": [
             {
                 "type": "Scan Planet"
@@ -1742,7 +1742,7 @@
         "name": "Sparking Dissent",
         "desc": "Transfer your Sparkrunner Static to other players' ships of 12 different professions (that do not already have the effect) by successfully hacking them",
         "medalPoints": "17",
-        "artifactReward": "Elios Starflare",
+        "artifact": "Elios Starflare",
         "triggers": [
             {
                 "type": "Hack"
@@ -1754,7 +1754,7 @@
         "name": "Power Guild Agreements",
         "desc": "Build an Elios Soletta on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Alloy-Bound Decree",
+        "artifact": "Alloy-Bound Decree",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1769,7 +1769,7 @@
         "name": "Migratory Claim",
         "desc": "Contribute at least 660 Influence within the 'Elios Migration' Zone",
         "medalPoints": "9",
-        "artifactReward": "Elios Pulse-Compressor",
+        "artifact": "Elios Pulse-Compressor",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -1782,7 +1782,7 @@
         "name": "Illuminating Collection",
         "desc": "During the Elios Migration, use the following items and upgrades: Cyclopean Lens IX Upgrade, Elios Collector XI Upgrade, Ignisar - Elios Ember",
         "medalPoints": "17",
-        "artifactReward": "Elios Sensorion",
+        "artifact": "Elios Sensorion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1799,7 +1799,7 @@
         "name": "Heliosyne Distribution",
         "desc": "Use Heliosyne to upgrade Core Mines on 8 different planet types of size Very Massive (or larger)",
         "medalPoints": "12",
-        "artifactReward": "Flare Probe Propaganda Terminal",
+        "artifact": "Flare Probe Propaganda Terminal",
         "artifactReq": [
             {
                 "artifact": "Elios Core Mine",
@@ -1850,7 +1850,7 @@
         "name": "Growing Potential",
         "desc": "Use an Epigenetic Propogator on 8 different races",
         "medalPoints": "12",
-        "artifactReward": "Tabula Progenis",
+        "artifact": "Tabula Progenis",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1863,7 +1863,7 @@
         "name": "Genoform Claim",
         "desc": "Contribute at least 660 Influence within the 'Genoform Surge' Zone",
         "medalPoints": "9",
-        "artifactReward": "Arx Genetica",
+        "artifact": "Arx Genetica",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -1876,7 +1876,7 @@
         "name": "Temporal Resonations",
         "desc": "Build 3 Vaash Cron-Stabilizers on the following planet types: Plasma, Crystal, Metallic",
         "medalPoints": "10",
-        "artifactReward": "Chuhn Timebox",
+        "artifact": "Chuhn Timebox",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1889,7 +1889,7 @@
         "name": "Autoform Consensus",
         "desc": "Place a Streveldan Autoform Habitat on 8 different types of planets that are Average size or smaller",
         "medalPoints": "16",
-        "artifactReward": "Spire of Cybernetic Dominion",
+        "artifact": "Spire of Cybernetic Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1902,7 +1902,7 @@
         "name": "Phylogenetic Alignments",
         "desc": "Build a Phylogenetic Core on 5 planets of different sizes",
         "medalPoints": "14",
-        "artifactReward": "Species Evolution Lab",
+        "artifact": "Species Evolution Lab",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1916,7 +1916,7 @@
         "name": "Cloning Guild Agreements",
         "desc": "Build a Genoform Reservoir on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Species Evolution Lab",
+        "artifact": "Species Evolution Lab",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1930,7 +1930,7 @@
         "name": "Biospheric Diversity",
         "desc": "During the Genoform Surge, place (or upgrade to) 5 or more distinct structures that provide % bonuses to population, on planets of Average size or smaller",
         "medalPoints": "14",
-        "artifactReward": "Evolution Geno-Crystal",
+        "artifact": "Evolution Geno-Crystal",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1948,7 +1948,7 @@
         "name": "Interphased Claim",
         "desc": "Contribute at least 550 Influence within the 'Lepus Cluster' Zone",
         "medalPoints": "9",
-        "artifactReward": "Supel Microhaven",
+        "artifact": "Supel Microhaven",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -1961,7 +1961,7 @@
         "name": "Best of Confidants",
         "desc": "Receive a 'Streveldan Inhibitor' from friends and/or legion members of the following Races: Human, Aerlen, Inergon, Konqul, Sillixx, Zolazin, Kronyn, Lazuli, Litheor, Xecti, Drannik",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "legionRaceReq": [
             "Human",
             "Aerlen",
@@ -1980,7 +1980,7 @@
         "name": "Microhaven Tethering",
         "desc": "Place a Supel Microhaven on 6 different types of planets that are Tiny size or smaller",
         "medalPoints": "16",
-        "artifactReward": "Spire of Supel Dominion",
+        "artifact": "Spire of Supel Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -1993,7 +1993,7 @@
         "name": "Colony Guild Agreements",
         "desc": "Place a Streveldan Convocation Nexus on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Charter of Lost Legacies",
+        "artifact": "Charter of Lost Legacies",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2007,7 +2007,7 @@
         "name": "Dark Exchanges",
         "desc": "Find and Disable 'Mythrax, Dark Messenger'",
         "medalPoints": "11",
-        "artifactReward": "Mythrax Tools",
+        "artifact": "Mythrax Tools",
         "triggers": [
             {
                 "type": "Disable NPC",
@@ -2048,7 +2048,7 @@
         "name": "Auric Immersion",
         "desc": "Open 4 or more Chromatic Lepus Egg 15.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 15.0",
+        "artifact": "Auric Lepus Drone 15.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2061,7 +2061,7 @@
         "name": "The Messenger Conduit",
         "desc": "Complete 'The Lepus Messenger' daily mission an additional 10 times during the Lepus Cluster Event.",
         "medalPoints": "15",
-        "artifactReward": "Bio-Con Controller Unit",
+        "artifact": "Bio-Con Controller Unit",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -2073,7 +2073,7 @@
         "name": "Optimized Bio-Mechanization",
         "desc": "Build or Use the following Lepus Devices from the 2024 Season: Auric Lepus Drone 14.0, C-34 Replication Upgrade v2024, Chromatic Cannon 12.0 Upgrade",
         "medalPoints": "15",
-        "artifactReward": "Auric Lepus Drone 14.0",
+        "artifact": "Auric Lepus Drone 14.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2090,7 +2090,7 @@
         "name": "Spacing Guild Agreements",
         "desc": "Use a Supel Chromavault Exolock on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Charter of Moons",
+        "artifact": "Charter of Moons",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2126,7 +2126,7 @@
         "name": "Exodus Claim",
         "desc": "Contribute at least 440 Influence within the 'Streveldan Refuge' Zone",
         "medalPoints": "9",
-        "artifactReward": "Streveldan Autoform Habitat",
+        "artifact": "Streveldan Autoform Habitat",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -2150,7 +2150,7 @@
         "name": "Imprint of Creation",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 11 years and reaching at least Rank 2800.",
         "medalPoints": "220",
-        "artifactReward": "Quantum Projector",
+        "artifact": "Quantum Projector",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -2161,7 +2161,7 @@
         "name": "Zonal Dominance",
         "desc": "Collect 10 Daily Rewards (or Supporter Bonuses) while your legion is Suzerain of 4 or more Zones",
         "medalPoints": "20",
-        "artifactReward": "Spire of High Dominion",
+        "artifact": "Spire of High Dominion",
         "triggers": [
             {
                 "type": "Collect Daily Reward / Supporter Bonus"
@@ -2182,7 +2182,7 @@
         "name": "Pervasive Mandate",
         "desc": "Build the following structures on various planets that have at least 'Average' Influence: Atrium of Secrets, Xecti Brood-Nest, Gene-Root Pavilion, Drannik Holo-Sanctum, Seat of the Exarch",
         "medalPoints": "33",
-        "artifactReward": "Spire of Dominion",
+        "artifact": "Spire of Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2200,7 +2200,7 @@
         "name": "Neo-Horizons",
         "desc": "Build the following structures on various planets.: Sillixx Starport Hub, Omni-Weather Controller, Human Tactical Barracks",
         "medalPoints": "11",
-        "artifactReward": "Xenoform Drone",
+        "artifact": "Xenoform Drone",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2217,7 +2217,7 @@
         "name": "Science Guild Agreements",
         "desc": "Place a Q-Pedd Science Station 14.0 on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Charter of Lost Legacies",
+        "artifact": "Charter of Lost Legacies",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2259,7 +2259,7 @@
         "name": "The Final Seal",
         "desc": "Close the last stage of a 'Bane Nether-Seal' on the following types of planets: Demon, Volcanic, Irradiated, Toxic",
         "medalPoints": "18",
-        "artifactReward": "Writ of Forbidden Revelations",
+        "artifact": "Writ of Forbidden Revelations",
         "triggers": [
             {
                 "type": "Use Structure Ability",
@@ -2271,7 +2271,7 @@
         "name": "Inseparable Feelings",
         "desc": "Use a Q-Pedd Field Generator 13.0 Upgrade on a base OR a Q-Pedd Ansible 10.0 Upgrade on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Charter of Lost Legacies",
+        "artifact": "Charter of Lost Legacies",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2299,7 +2299,7 @@
         "name": "Ravenous Pillaging",
         "desc": "During the Scruuge Event, raid mineral or artifact points from a member of the following professions: Builder, Excavator, Explorer, Fixer, Governor, Hacker, Merchant, Miner, Physicist, Raider, Saboteur, Spy",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Raid Ship"
@@ -2310,7 +2310,7 @@
         "name": "Doorbuster Sale",
         "desc": "During the Scruuge Event, raid mineral or artifact points from a member of all races: Aerlen, Konqul, Sillixx, Human, Inergon, Vygoid, Drannik, Genetarr, Kronyn, Lazuli, Mylarai, Taltherian, Xecti, Zolazin, Litheor, Uldrinan",
         "medalPoints": "25",
-        "artifactReward": "Doorbuster's Cache",
+        "artifact": "Doorbuster's Cache",
         "triggers": [
             {
                 "type": "Raid Ship"
@@ -2321,7 +2321,7 @@
         "name": "Seasonal Versatility",
         "desc": "Collect and use all of the following Gifts from the Scruuge: Ancients, Elements, Stars, Void, Naughty, Nice, Mind, Spirit, Makers, Future",
         "medalPoints": "15",
-        "artifactReward": "Scruuge Pillage Cache",
+        "artifact": "Scruuge Pillage Cache",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2344,7 +2344,7 @@
         "name": "Sensor Awakenings",
         "desc": "Scan the following types of planets that are Massive or larger: Crystal, Metallic, Sentient, Aphotic, Demon, Barren, Icy, Irradiated",
         "medalPoints": "15",
-        "artifactReward": "Planetary TitanCore Seed",
+        "artifact": "Planetary TitanCore Seed",
         "triggers": [
             {
                 "type": "Scan Planet"
@@ -2367,7 +2367,7 @@
         "name": "Scruuge Solitude",
         "desc": "Upgrade to the following Scruuge structures on various planets that are 'Small' or smaller: Calibration Plant, Cargo Launcher, Growth Replivats, Refinery-Lab, Frost Tribunal",
         "medalPoints": "22",
-        "artifactReward": "Spire of Scruuge Dominion",
+        "artifact": "Spire of Scruuge Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2385,7 +2385,7 @@
         "name": "The Scruuge Consensus",
         "desc": "Open 9 or more Scruuge Storm-Crates during the Scruuge seasonal event",
         "medalPoints": "16",
-        "artifactReward": "Spire of Scruuge Dominion",
+        "artifact": "Spire of Scruuge Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2398,7 +2398,7 @@
         "name": "Piracy Guild Agreements",
         "desc": "Place a Scruuge Plunderhaven on the following planet types: Desert, Terra, Icy, Relic",
         "medalPoints": "12",
-        "artifactReward": "Cryobound Mandate",
+        "artifact": "Cryobound Mandate",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2438,7 +2438,7 @@
         "name": "Coveted Claim",
         "desc": "Contribute at least 440 Influence within the 'Scruuge Perimeter' Zone",
         "medalPoints": "9",
-        "artifactReward": "Scruuge Storm-Crate",
+        "artifact": "Scruuge Storm-Crate",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -2501,7 +2501,7 @@
         "name": "Collector's Guild Agreements",
         "desc": "Place a Scruuge Hoarding Vault XIV on the following planet types: Icy, Oceanic, Crystal, Relic",
         "medalPoints": "12",
-        "artifactReward": "Cryobound Mandate",
+        "artifact": "Cryobound Mandate",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2526,7 +2526,7 @@
         "name": "Zonal Pressure",
         "desc": "Collect 22 Daily Rewards (or Supporter Bonuses) while your legion is Suzerain of 2 or more Zones",
         "medalPoints": "16",
-        "artifactReward": "Spire of Dominion",
+        "artifact": "Spire of Dominion",
         "triggers": [
             {
                 "type": "Collect Daily Reward / Supporter Bonus"
@@ -2537,7 +2537,7 @@
         "name": "Defector's Hideaway",
         "desc": "Use a Thraccti Systems Upgrade XI to upgrade your Thraccti, Scruuge Defector.",
         "medalPoints": "11",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2550,7 +2550,7 @@
         "name": "Scruuge Envied Favorite Things",
         "desc": "Use a Scruuge Bastion Nexus-Ward Upgrade on a base OR a Scruuge Reavecharged Hypernode Upgrade on your ship",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2566,7 +2566,7 @@
         "name": "Scruuge Towering Things",
         "desc": "Use a Scruuge Bastion Max-Hold Upgrade on a base OR a Scruuge Seizecharged Hypernode Upgrade on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2606,13 +2606,13 @@
         "name": "The Great Link",
         "desc": "Link your existing account with a Google or Discord login",
         "medalPoints": "6",
-        "artifactReward": "Deep Cache"
+        "artifact": "Deep Cache"
     },
     {
         "name": "Outsider's Claim",
         "desc": "Contribute at least 220 Influence within the 'Terran Outsiders Perimeter' Zone during the Era of Harvest",
         "medalPoints": "9",
-        "artifactReward": "T.O. Capitol Dome",
+        "artifact": "T.O. Capitol Dome",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -2624,7 +2624,7 @@
         "name": "Citadels of the Elements",
         "desc": "Build the following types of Empyreal Citadels on various planets that are Small (or smaller): Fire, Ice, Garden",
         "medalPoints": "22",
-        "artifactReward": "Spire of Dominion",
+        "artifact": "Spire of Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2640,7 +2640,7 @@
         "name": "The Harvest Patterning",
         "desc": "Complete the 'Era of Harvest' daily mission at least 15 times.",
         "medalPoints": "14",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -2702,7 +2702,7 @@
         "name": "Mining Guild Agreements",
         "desc": "Place a T.O. Harvest Vault XIV on the following planet types: Toxic, Irradiated, Shattered, Volcanic",
         "medalPoints": "12",
-        "artifactReward": "Terran Verdant Accord",
+        "artifact": "Terran Verdant Accord",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2716,7 +2716,7 @@
         "name": "Reliquary of Ages",
         "desc": "Build any of the following structures on various Relic planets: Corrupted Edifice, Oruas Predictive Disjector, or B'elna's Altar",
         "medalPoints": "14",
-        "artifactReward": "Reliquary Conflux",
+        "artifact": "Reliquary Conflux",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2733,7 +2733,7 @@
         "name": "Nocturne Depths",
         "desc": "During the Hallows Bane event, Invade 4+ planets that have at least 1400 passive cloak, and have not been scanned by anyone else other than you and the owner.",
         "medalPoints": "12",
-        "artifactReward": "Writ of Forbidden Revelations",
+        "artifact": "Writ of Forbidden Revelations",
         "triggers": [
             {
                 "type": "Invade Planet"
@@ -2768,7 +2768,7 @@
         "name": "Dark Offspring",
         "desc": "During the Hallows Bane event, Invade 4+ planets that have at least 900 passive cloak, and have not been scanned by anyone else other than you and the owner.",
         "medalPoints": "10",
-        "artifactReward": "Bane Ritual Mask",
+        "artifact": "Bane Ritual Mask",
         "triggers": [
             {
                 "type": "Invade Planet"
@@ -2833,7 +2833,7 @@
         "name": "Wells of the Block",
         "desc": "Build a Well of Yonayan on the following planet types: Terra, Desert, Oceanic, Relic",
         "medalPoints": "12",
-        "artifactReward": "Chuhn Exo-Habitability Probe",
+        "artifact": "Chuhn Exo-Habitability Probe",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2846,7 +2846,7 @@
         "name": "Market Primacy",
         "desc": "Re-negotiate 3 additional Trade Deals with eligible Chuhn Merchants, while your battle list is full with other enemies: all with the same name",
         "medalPoints": "17",
-        "artifactReward": "Exo-Galactic Curio",
+        "artifact": "Exo-Galactic Curio",
         "triggers": [
             {
                 "type": "Use NPC Ability",
@@ -2859,7 +2859,7 @@
         "name": "A Chuhn Enlightenment",
         "desc": "During the 2024 Chuhn Event, upgrade to the following Chuhn structures on your planets.: Chuhn Trading Hub, Chuhn Scrap Depot, Chuhn Exo-Logistics Gridport",
         "medalPoints": "15",
-        "artifactReward": "Chuhn Timebox",
+        "artifact": "Chuhn Timebox",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2876,7 +2876,7 @@
         "name": "Disseminating Hope",
         "desc": "Upgrade to a 'Dissemination Megacore' on various planets with the following characteristics: Tiny or smaller, 3 or fewer structures, 2000 or more passive cloak",
         "medalPoints": "12",
-        "artifactReward": "Auric Lepus Clone-Program Tank",
+        "artifact": "Auric Lepus Clone-Program Tank",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2888,7 +2888,7 @@
         "name": "Extragalactic Fusion",
         "desc": "Use a Chuhn Translink X6 Omni-Merger on a base OR a Chuhn Salvage Arm V9 Upgrade on your ship.",
         "medalPoints": "12",
-        "artifactReward": "Exo-Galactic Curio",
+        "artifact": "Exo-Galactic Curio",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2933,7 +2933,7 @@
         "name": "Spire of Command",
         "desc": "Claim a daily reward after reaching Rank 2200, with a ship size (unbuffed) of at least 5000",
         "medalPoints": "55",
-        "artifactReward": "Seat of Command",
+        "artifact": "Seat of Command",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -2944,7 +2944,7 @@
         "name": "Heated Infrastructure",
         "desc": "During the Elios Migration, Build the 7 following Elios structures on a Machine Planet: Heliacal Plant, Powervault, Power Junction, Solar Drill, Core Mine, Flare Probe, Aurelios Voltarium",
         "medalPoints": "16",
-        "artifactReward": "Elios Starflare",
+        "artifact": "Elios Starflare",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2965,7 +2965,7 @@
         "name": "Shattered Horizons",
         "desc": "Build any of the following mining structures on various Shattered planets: Litheor Core-Tunnel, Seismic Shattermine, Mylarai Stripcore Mine",
         "medalPoints": "11",
-        "artifactReward": "Tectonic X-Cracker",
+        "artifact": "Tectonic X-Cracker",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2982,7 +2982,7 @@
         "name": "Radiant Collection",
         "desc": "During the Elios Migration, use the following items and upgrades: Cyclopean Lens VIII Upgrade, Elios Collector X Upgrade, Heliacal Solar Boost",
         "medalPoints": "16",
-        "artifactReward": "Elios Sensorion",
+        "artifact": "Elios Sensorion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -2999,7 +2999,7 @@
         "name": "Flares of Insight",
         "desc": "Build an Elios Ignis Tower on the following planet types: Gaia, Metallic, Oceanic",
         "medalPoints": "12",
-        "artifactReward": "Elios Sensorion",
+        "artifact": "Elios Sensorion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3013,7 +3013,7 @@
         "name": "Sparks Resisted",
         "desc": "During the Elios Migration, Build the 6 following Elios structures on a Barren Planet: Heliacal Plant, Powervault, Power Junction, Solar Drill, Core Mine, Flare Probe",
         "medalPoints": "15",
-        "artifactReward": "Illumination Siphon",
+        "artifact": "Illumination Siphon",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3033,7 +3033,7 @@
         "name": "Sparking Interference",
         "desc": "Transfer your Sparkrunner Static to other players' ships of the following races (that do not already have the effect) by successfully hacking them: Kronyn, Lazuli, Litheor, Mylarai, Uldrinan, Xecti, Bahreen, Genetarr, Drannik",
         "medalPoints": "15",
-        "artifactReward": "Elios Starflare",
+        "artifact": "Elios Starflare",
         "triggers": [
             {
                 "type": "Hack"
@@ -3102,7 +3102,7 @@
         "name": "Crossing the Infinite",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 10 years and reaching at least Rank 2400.",
         "medalPoints": "200",
-        "artifactReward": "Porowyn's Crystal",
+        "artifact": "Porowyn's Crystal",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -3130,7 +3130,7 @@
         "name": "Sensory Excitation",
         "desc": "Receive a 'Supel Sensor Readings' from friends and/or legion members of the following Races: Taltherian, Human, Aerlen, Inergon, Konqul, Sillixx, Kronyn, Litheor, Drannik",
         "medalPoints": "15",
-        "artifactReward": "Bio-Con Signaling Adapter",
+        "artifact": "Bio-Con Signaling Adapter",
         "triggers": [
             {
                 "type": "Receive Artifact",
@@ -3175,7 +3175,7 @@
         "name": "Auric Revelry",
         "desc": "Open 4 or more Chromatic Lepus Egg 14.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 14.0",
+        "artifact": "Auric Lepus Drone 14.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3188,7 +3188,7 @@
         "name": "Argent Heists",
         "desc": "Successfully raid enemy bases of the following levels: 6, 7, 8, 9",
         "medalPoints": "11",
-        "artifactReward": "Argent Directives",
+        "artifact": "Argent Directives",
         "triggers": [
             {
                 "type": "Raid Base",
@@ -3327,7 +3327,7 @@
         "name": "The Harvest Principle",
         "desc": "Complete the 'Era of Harvest' daily mission at least 11 times.",
         "medalPoints": "10",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -3339,7 +3339,7 @@
         "name": "Colonial Agreements",
         "desc": "Build 10 'Captured T.O. Harvester XIV' structures on Terra or Gaia planets",
         "medalPoints": "10",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3490,7 +3490,7 @@
         "name": "Auric Openings",
         "desc": "Open 4 or more Chromatic Lepus Egg 13.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 13.0",
+        "artifact": "Auric Lepus Drone 13.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3553,7 +3553,7 @@
         "name": "Best of Colleagues",
         "desc": "Receive a 'Streveldan Schematics' from friends and/or legion members of the following Races<br>Human, Aerlen, Inergon, Konqul, Sillixx, Zolazin, Kronyn, Lazuli, Litheor, Xecti, Drannik",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Receive Artifact",
@@ -3578,7 +3578,7 @@
         "name": "Love Forgives",
         "desc": "Escort 8 Streveldan Colony ships while under ALL the following Q-Pedd effects: 'Schematics', 'Largesse', 'Informant', 'Operative', and 'Abettor'",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Use NPC Ability",
@@ -3623,7 +3623,7 @@
         "name": "The Harvest Compulsion",
         "desc": "Complete the 'Era of Harvest' daily mission at least 10 times",
         "medalPoints": "10",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -3678,7 +3678,7 @@
         "name": "Scruuge Wonderous Things",
         "desc": "Use a Scruuge Bastion Hyperfort Upgrade on a base OR a Scruuge Lootcharged Hypernode Upgrade on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3758,7 +3758,7 @@
         "name": "The Synesthetic Merging",
         "desc": "Complete the following actions while 2 or more Seasonal Events are affecting the Galaxy at the same time<br>Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC",
         "medalPoints": "10",
-        "artifactReward": "Xenoform Drone",
+        "artifact": "Xenoform Drone",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -3800,6 +3800,7 @@
         "medalPoints": "15",
         "ability": {
             "name": "Bane Treachery",
+            "desc": "When setting a Hallows Bane Trick, you will also receive a 5% boost to attack for 1 hour.",
             "playerEffects": [
                 {
                     "type": "Increase Attack",
@@ -3844,7 +3845,7 @@
         "name": "Greater Disturbances",
         "desc": "Upgrade a Chuhn Ansible at least 4 times",
         "medalPoints": "10",
-        "artifactReward": "Chuhn Timebox",
+        "artifact": "Chuhn Timebox",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3895,7 +3896,7 @@
         "name": "Curious Arrivals",
         "desc": "Build 3 Farselle Psi-Drones on the following planet types<br>Gas, Icy, Oceanic",
         "medalPoints": "10",
-        "artifactReward": "Bio-Con Controller Unit",
+        "artifact": "Bio-Con Controller Unit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3908,7 +3909,7 @@
         "name": "Daily Perspectives",
         "desc": "Collect a daily reward while you are a member of each of the main races<br>Human, Inergon, Sillixx, Aerlen, Konqul, Vygoid",
         "medalPoints": "25",
-        "artifactReward": "Cerulean Fighter",
+        "artifact": "Cerulean Fighter",
         "triggers": [
             {
                 "type": "Collect Daily Reward",
@@ -3927,7 +3928,7 @@
         "name": "Can't get you out of my mind",
         "desc": "Activate a Neural Interface while you are a member of each of the following unlockable races<br>Drannik, Genetarr, Kronyn, Lazuli, Mylarai, Taltherian, Xecti, Zolazin",
         "medalPoints": "60",
-        "artifactReward": "Nightclaw Fighter",
+        "artifact": "Nightclaw Fighter",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3960,7 +3961,7 @@
         "name": "Auric Credit",
         "desc": "Open 4 or more Chromatic Lepus Egg 12.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 12.0",
+        "artifact": "Auric Lepus Drone 12.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -3972,7 +3973,7 @@
         "name": "Love Hurts",
         "desc": "Disable 8 Q-Pedd Escapee ships while under ALL the following Q-Pedd effects: 'Largesse', 'Informant', 'Operative', and 'Abettor'",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Disable NPC",
@@ -4064,7 +4065,7 @@
         "name": "Scruuge Fantastic Things",
         "desc": "Use a Scruuge Bastion Omnigrid Upgrade on a base OR a Scruuge Heistcharged Hypernode Upgrade on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4080,7 +4081,7 @@
         "name": "Sarkonis Paradise",
         "desc": "Build the following structures on a Gaia planet that has an Omni Harvest active<br>Sarkonis Headquarters, Sarkonis Omnipod, Sarkonis Hardshell",
         "medalPoints": "15",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "requiredArtifacts": [
             "Vault of Terra"
         ],
@@ -4103,7 +4104,7 @@
         "name": "The Harvest Fixation",
         "desc": "Complete the 'Era of Harvest' daily mission at least 10 times.",
         "medalPoints": "10",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -4156,7 +4157,7 @@
         "name": "Dark Descendants",
         "desc": "During the Hallows Bane event, Invade 4+ planets that have at least 500 passive cloak, and have not been scanned by anyone else other than you and the owner.",
         "medalPoints": "10",
-        "artifactReward": "Bane Ritual Mask",
+        "artifact": "Bane Ritual Mask",
         "triggers": [
             {
                 "type": "Invade Planet"
@@ -4249,7 +4250,7 @@
         "name": "The Transcendent Few",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 8 years and reaching at least Rank 1900.",
         "medalPoints": "140",
-        "artifactReward": "Transcendent Entity",
+        "artifact": "Transcendent Entity",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -4281,7 +4282,7 @@
         "name": "Radiant Teachings - Volume 4",
         "desc": "Use the 'Adept Teachings' ability of Porowyn at least 50 additional times.",
         "medalPoints": "10",
-        "artifactReward": "Prismoda Codex - Vol 4 - Advanced Transformation",
+        "artifact": "Prismoda Codex - Vol 4 - Advanced Transformation",
         "triggers": [
             {
                 "type": "Use Player Ability",
@@ -4293,7 +4294,7 @@
         "name": "Market Dominance",
         "desc": "Re-negotiate 2 additional Trade Deals with eligible Chuhn Merchants, while your battle list is full, and contains no greater than 2 groups of other enemies with differing names",
         "medalPoints": "15",
-        "artifactReward": "Exo-Galactic Curio",
+        "artifact": "Exo-Galactic Curio",
         "triggers": [
             {
                 "type": "Use NPC Ability",
@@ -4305,7 +4306,7 @@
         "name": "Market Forces",
         "desc": "Re-negotiate 4 Trade Deals with eligible Chuhn Merchants that you've already done business with, while your battle list contains at least 7 other enemies with differing names",
         "medalPoints": "10",
-        "artifactReward": "Exo-Galactic Curio",
+        "artifact": "Exo-Galactic Curio",
         "triggers": [
             {
                 "type": "Use NPC Ability",
@@ -4317,7 +4318,7 @@
         "name": "Radiant Teachings - Volume 3",
         "desc": "Use the 'Adept Teachings' ability of Porowyn at least 40 additional times.",
         "medalPoints": "10",
-        "artifactReward": "Prismoda Codex - Vol 3 - Prismodyne Enhancement",
+        "artifact": "Prismoda Codex - Vol 3 - Prismodyne Enhancement",
         "triggers": [
             {
                 "type": "Use Player Ability",
@@ -4329,7 +4330,7 @@
         "name": "Radiant Teachings - Volume 2",
         "desc": "Use the 'Adept Teachings' ability of Porowyn at least 30 additional times.",
         "medalPoints": "10",
-        "artifactReward": "Prismoda Codex - Vol 2 - Prismodyne Detection",
+        "artifact": "Prismoda Codex - Vol 2 - Prismodyne Detection",
         "triggers": [
             {
                 "type": "Use Player Ability",
@@ -4341,7 +4342,7 @@
         "name": "Best of Allies",
         "desc": "Receive a 'Q-Pedd Informant' from friends and/or legion members of the following Professions<br>Builder, Excavator, Explorer, Fixer, Governor, Hacker, Merchant, Miner, Physicist, Raider, Saboteur, Spy",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Receive Artifact",
@@ -4393,7 +4394,7 @@
         "name": "The Deep Dig",
         "desc": "Build an 'Elios Core Mine' on the following planet types",
         "medalPoints": "15",
-        "artifactReward": "Deep Cache",
+        "artifact": "Deep Cache",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4406,7 +4407,7 @@
         "name": "Prismatic Connection",
         "desc": "Make 3 Purchases in the Prismodyne Energy Network",
         "medalPoints": "10",
-        "artifactReward": "Tectonic Compiler",
+        "artifact": "Tectonic Compiler",
         "triggers": [
             {
                 "type": "Market Purchase",
@@ -4418,7 +4419,7 @@
         "name": "Radiant Teachings - Volume I",
         "desc": "Use the 'Adept Teachings' ability of Porowyn at least 30 times.",
         "medalPoints": "10",
-        "artifactReward": "Prismoda Codex - Vol 1 - Prismodyne Structures",
+        "artifact": "Prismoda Codex - Vol 1 - Prismodyne Structures",
         "triggers": [
             {
                 "type": "Use Player Ability",
@@ -4481,7 +4482,7 @@
         "name": "Auric Touch",
         "desc": "Build an 'Auric Lepus Bio Nest' on the following planet types<br>Gas, Toxic, Volcanic, Metallic",
         "medalPoints": "10",
-        "artifactReward": "Bio-Con Controller Unit",
+        "artifact": "Bio-Con Controller Unit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4494,7 +4495,7 @@
         "name": "Destiny Discovered",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 7 years and reaching at least Rank 1800.",
         "medalPoints": "120",
-        "artifactReward": "Porowyn, the Adept",
+        "artifact": "Porowyn, the Adept",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -4505,7 +4506,7 @@
         "name": "Nesting Season",
         "desc": "Build a 'Lepus Bio Nest' (or Auric variety) on the following planet types<br>Terra, Gaia, Oceanic, Barren, Icy, Desert",
         "medalPoints": "10",
-        "artifactReward": "Bio-Con Controller Unit",
+        "artifact": "Bio-Con Controller Unit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4537,7 +4538,7 @@
         "name": "Auric Trust",
         "desc": "Open 4 or more Chromatic Lepus Egg 11.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 11.0",
+        "artifact": "Auric Lepus Drone 11.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4549,7 +4550,7 @@
         "name": "Best of Cohorts",
         "desc": "Receive a 'Q-Pedd Abettor' from friends and/or legion members of the following Races<br>Human, Aerlen, Inergon, Konqul, Sillixx, Zolazin, Kronyn, Lazuli, Litheor, Xecti, Drannik",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Receive Artifact",
@@ -4574,7 +4575,7 @@
         "name": "Best of Collaborators",
         "desc": "Receive a 'Q-Pedd Operative' from friends and/or legion members of the following Professions<br>Builder, Excavator, Explorer, Fixer, Governor, Hacker, Merchant, Miner, Physicist, Raider, Saboteur, Spy",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Receive Artifact",
@@ -4639,7 +4640,7 @@
         "name": "Scruuge Coveted Favorite Things",
         "desc": "Use a Scruuge Bastion Perimatrix Upgrade on a base OR a Scruuge Snipecharged Hypernode Upgrade on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4655,7 +4656,7 @@
         "name": "Under Pressure",
         "desc": "Launch 20 'Deep-Phase Probe' structures into your planets.",
         "medalPoints": "10",
-        "artifactReward": "The Litheoria",
+        "artifact": "The Litheoria",
         "triggers": [
             {
                 "type": "Use Player Ability",
@@ -4667,7 +4668,7 @@
         "name": "The Harvest Obsession",
         "desc": "Complete the 'Era of Harvest' daily mission at least 10 times.",
         "medalPoints": "10",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -4679,7 +4680,7 @@
         "name": "5-Alarm Incursion",
         "desc": "During the Hallows Bane event, Invade 5+ planets that have been scanned by at least 5 other ships, but no more than 10 other ships.",
         "medalPoints": "15",
-        "artifactReward": "Bane Ritual Mask",
+        "artifact": "Bane Ritual Mask",
         "triggers": [
             {
                 "type": "Invade Planet"
@@ -4692,6 +4693,7 @@
         "medalPoints": "10",
         "ability": {
             "name": "Arbalest Precision",
+            "desc": "When receiving a green badge during an invasion, you will earn an additional green badge if the planet is under the effect of a Dark Arbalest VII (or greater)",
             "playerEffects": [
                 {
                     "type": "Grant Green Badge"
@@ -4731,7 +4733,7 @@
         "name": "The Synesthetic Crossing",
         "desc": "Complete the following actions while 2 or more large Seasonal Events are affecting the Galaxy at the same time<br>Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC",
         "medalPoints": "20",
-        "artifactReward": "Xenoform Drone",
+        "artifact": "Xenoform Drone",
         "triggers": [
             {
                 "type": "Raid Base"
@@ -4808,7 +4810,7 @@
         "name": "A Scrap of Hope",
         "desc": "Use the 'Recycle' ability from a Chuhn Scrapyard or Depot on a planet that has an active Chuhn Trading Forum",
         "medalPoints": "10",
-        "artifactReward": "Exo-Galactic Curio",
+        "artifact": "Exo-Galactic Curio",
         "triggers": [
             {
                 "type": "Use Structure Ability",
@@ -4824,7 +4826,7 @@
         "name": "Galactic Interchange",
         "desc": "Use an Chuhn Exo-Habitability Probe on 3 or more eligible planets",
         "medalPoints": "10",
-        "artifactReward": "Chuhn Exo-Habitability Probe",
+        "artifact": "Chuhn Exo-Habitability Probe",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4853,7 +4855,7 @@
         "name": "Fateful Games",
         "desc": "Finish the entire mission saga continuation starting with 'Corrupted Influence' and its 4 subsequent missions.",
         "medalPoints": "20",
-        "artifactReward": "Corruption Schematics",
+        "artifact": "Corruption Schematics",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -4901,7 +4903,7 @@
         "name": "Prismatic Twilight",
         "desc": "Recruit 10 or more government officials using your 'Prismatic Domain'.",
         "medalPoints": "10",
-        "artifactReward": "Tectonic Compiler",
+        "artifact": "Tectonic Compiler",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -4913,7 +4915,7 @@
         "name": "Furthering your Legacy",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 6 years and reaching at least Rank 1500.",
         "medalPoints": "100",
-        "artifactReward": "Prismatic Transcendence",
+        "artifact": "Prismatic Transcendence",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -4924,7 +4926,7 @@
         "name": "Sparks Connected",
         "desc": "During the Elios Migration, Build the 5 following Elios structures on a Metallic Planet<br>Heliacal Plant, Powervault, Power Junction, Solar Drill, Core Mine",
         "medalPoints": "10",
-        "artifactReward": "Illumination Siphon",
+        "artifact": "Illumination Siphon",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4953,7 +4955,7 @@
         "name": "Seeing the Light",
         "desc": "Use an Illumination Siphon on 3 or more eligible planets",
         "medalPoints": "10",
-        "artifactReward": "Illumination Siphon",
+        "artifact": "Illumination Siphon",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -4967,7 +4969,7 @@
         "name": "Dark Influence",
         "desc": "Use the Oruas Eye 'Deeper Bond' ability while you have accumulated at least 50 corruption.",
         "medalPoints": "10",
-        "artifactReward": "Vision of Extreme Darkness",
+        "artifact": "Vision of Extreme Darkness",
         "triggers": [
             {
                 "type": "Use Module Ability",
@@ -4991,7 +4993,7 @@
         "name": "Chromatic Replication",
         "desc": "Build 3 Lepus Clone-Program Tanks on eligible planets.",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Clone-Program Tank",
+        "artifact": "Auric Lepus Clone-Program Tank",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -5025,7 +5027,7 @@
         "name": "Auric Promises",
         "desc": "Open 4 or more Chromatic Lepus Egg 10.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 10.0",
+        "artifact": "Auric Lepus Drone 10.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -5049,7 +5051,7 @@
         "name": "Best of Friends",
         "desc": "Receive a 'Q-Pedd Largesse' from friends and/or legion members of the following Races<br>Human, Aerlen, Inergon, Konqul, Sillixx, Genetarr, Kronyn, Lazuli, Mylarai, Taltherian, Uldrinan",
         "medalPoints": "15",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Receive Artifact",
@@ -5084,7 +5086,7 @@
         "name": "A Valentine Gift",
         "desc": "Disable 8 Q-Pedd Escapee ships while under the effects of a 'Q-Pedd Largesse' AND a 'Q-Pedd Informant'",
         "medalPoints": "10",
-        "artifactReward": "Q-Pedd Docking Station",
+        "artifact": "Q-Pedd Docking Station",
         "triggers": [
             {
                 "type": "Disable NPC",
@@ -5132,7 +5134,7 @@
         "name": "Rift Transformer",
         "desc": "Create a Rift Planet by using a 'Subspace Fissuron' artifact on one of your existing planets.",
         "medalPoints": "15",
-        "artifactReward": "Omnistream Gateway",
+        "artifact": "Omnistream Gateway",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -5239,7 +5241,7 @@
         "name": "The Lutuma",
         "desc": "Finish the entire mission saga starting with 'Enigmatic Destruction' and its 7 subsequent missions.",
         "medalPoints": "20",
-        "artifactReward": "The Oruas Eye",
+        "artifact": "The Oruas Eye",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -5263,7 +5265,7 @@
         "name": "Defector's Loyalty",
         "desc": "Use a Thraccti Systems Upgrade V to upgrade your Thraccti, Scruuge Defector.",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -5276,7 +5278,7 @@
         "name": "Scruuge Ultimate Favorite Things",
         "desc": "Use a Scruuge Bastion Bulwark Upgrade on a base OR a Scruuge Pilfercharged Hypernode Upgrade on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -5414,7 +5416,7 @@
         "name": "Urban Paradise",
         "desc": "Use Universal Omni-Harvesters on the following planet types:<br>Terra, Gaia, Oceanic, Desert",
         "medalPoints": "10",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -5508,7 +5510,7 @@
         "name": "The Harvest Ritual",
         "desc": "Complete the 'Era of Harvest' daily mission at least 10 times.",
         "medalPoints": "10",
-        "artifactReward": "Vault of Terra",
+        "artifact": "Vault of Terra",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -5570,6 +5572,7 @@
         "medalPoints": "15",
         "ability": {
             "name": "Silent Takeover",
+            "desc": "When receiving a green badge during an invasion, you will earn an additional green badge if the planet's controller was inactive",
             "triggers": [
                 {
                     "type": "Invade Planet"
@@ -5677,6 +5680,7 @@
         "medalPoints": "15",
         "ability": {
             "name": "Improved Mind Influence",
+            "desc": "Each time you use your Mind Influence ability, the enemy target will also be unable to use any of its abilities for 10 minutes.",
             "triggers": [
                 {
                     "type": "Use Player Ability",
@@ -5748,7 +5752,7 @@
         "name": "Do you Recycle?",
         "desc": "Build a Chuhn Scrapyard on a planet OR use a Chuhn Salvage Arm Upgrade on your ship.",
         "medalPoints": "10",
-        "artifactReward": "Exo-Galactic Contraption",
+        "artifact": "Exo-Galactic Contraption",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -5802,7 +5806,7 @@
         "name": "Prismatic Dawn",
         "desc": "Improve the atmosphere of your prismatic planet after 1 or more resources reaches 15x Mega Rich or higher.",
         "medalPoints": "10",
-        "artifactReward": "Tectonic Compiler",
+        "artifact": "Tectonic Compiler",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -5814,7 +5818,7 @@
         "name": "The Erudite",
         "desc": "Use the Kronyn's Erudition ability on a planet 15 times.",
         "medalPoints": "15",
-        "artifactReward": "Kronyn TransThruster",
+        "artifact": "Kronyn TransThruster",
         "triggers": [
             {
                 "type": "Use Player Ability",
@@ -5837,7 +5841,7 @@
         "name": "Prismatic Eclipse",
         "desc": "Improve the atmosphere of your prismatic planet 30 or more times.",
         "medalPoints": "10",
-        "artifactReward": "Tectonic Compiler",
+        "artifact": "Tectonic Compiler",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -5849,7 +5853,7 @@
         "name": "Equal Opportunity",
         "desc": "Raid mineral or artifact points from a member of each playable profession<br>Biologist, Builder, Excavator, Explorer, Fixer, Governor, Hacker, Merchant, Miner, Physicist, Raider, Saboteur, Spy",
         "medalPoints": "15",
-        "artifactReward": "Raider's Cache",
+        "artifact": "Raider's Cache",
         "triggers": [
             {
                 "type": "Raid Ship",
@@ -5970,7 +5974,7 @@
         "name": "Path of the Devoted",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 5 years and reaching at least Rank 1000.",
         "medalPoints": "90",
-        "artifactReward": "Omnispectral Lens",
+        "artifact": "Omnispectral Lens",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -5981,7 +5985,7 @@
         "name": "The Pinnacle",
         "desc": "Reach Rank 1000",
         "medalPoints": "50",
-        "artifactReward": "Autonomous Processor",
+        "artifact": "Autonomous Processor",
         "triggers": [
             {
                 "type": "Rank Up"
@@ -6064,6 +6068,7 @@
         "medalPoints": "15",
         "ability": {
             "name": "Improved Enrich",
+            "desc": "Each time you use your Enrich ability, the planet also gains a 20% boost to its mineral production for 40 hours.",
             "triggers": [
                 {
                     "type": "Use Player Ability",
@@ -6185,7 +6190,7 @@
         "name": "Mark of the Creators",
         "desc": "Complete 'The Lepus Messenger' daily mission an additional 7 times during the Lepus Cluster Event.",
         "medalPoints": "15",
-        "artifactReward": "Bio-Con Controller Unit",
+        "artifact": "Bio-Con Controller Unit",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -6316,7 +6321,7 @@
         "name": "Auric Guarantees",
         "desc": "Open 4 or more Chromatic Lepus Egg 9.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 9.0",
+        "artifact": "Auric Lepus Drone 9.0",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -6379,7 +6384,7 @@
         "name": "Ardent Adventurer",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 4 years and reaching at least Rank 600.",
         "medalPoints": "75",
-        "artifactReward": "Throne of the Revered",
+        "artifact": "Throne of the Revered",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -6390,7 +6395,7 @@
         "name": "Worker's Comp",
         "desc": "Have 8 crew members on your ship die from chemical spills during the mission 'XTS-9 Refinement'.",
         "medalPoints": "15",
-        "artifactReward": "XTS-9 Silo",
+        "artifact": "XTS-9 Silo",
         "triggers": [
             {
                 "type": "Complete Mission",
@@ -6523,7 +6528,7 @@
         "name": "Nostalgic Voyage",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 3 years and reaching at least Rank 400.",
         "medalPoints": "60",
-        "artifactReward": "Solynia, Technician Elite",
+        "artifact": "Solynia, Technician Elite",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -6661,7 +6666,7 @@
         "name": "The MVP",
         "desc": "Complete 100 Legion Mission tasks.",
         "medalPoints": "50",
-        "artifactReward": "Mission Archives",
+        "artifact": "Mission Archives",
         "triggers": [
             {
                 "type": "Complete Legion Mission Task"
@@ -6694,7 +6699,7 @@
         "name": "Exo-Galactic Recruitment",
         "desc": "Invite 10 or more Facebook friends to play",
         "medalPoints": "10",
-        "artifactReward": "Tribute Cache",
+        "artifact": "Tribute Cache",
         "unavailable": "Yes"
     },
     {
@@ -6838,7 +6843,7 @@
         "name": "Deep Meditation",
         "desc": "Go 30 days without leaving a legion, sending an alert on a planet, and/or sending an alert on an enemy player.",
         "medalPoints": "20",
-        "artifactReward": "Temple of Reflection",
+        "artifact": "Temple of Reflection",
         "triggers": [
             {
                 "type": "Daily Timer"
@@ -6859,7 +6864,7 @@
         "name": "Restraining Order",
         "desc": "Go 30 days without hacking or raiding another enemy player's ship.",
         "medalPoints": "20",
-        "artifactReward": "Cross-Signal Restrainer",
+        "artifact": "Cross-Signal Restrainer",
         "triggers": [
             {
                 "type": "Daily Timer"
@@ -6870,7 +6875,7 @@
         "name": "Clear Skies",
         "desc": "Go 40 days without attempting an invasion on an enemy planet.",
         "medalPoints": "20",
-        "artifactReward": "Auto-Evasion Node",
+        "artifact": "Auto-Evasion Node",
         "triggers": [
             {
                 "type": "Daily Timer"
@@ -6881,7 +6886,7 @@
         "name": "Dyson Transformer",
         "desc": "Create a Dyson by using a 'Dyson Transformer' artifact on one of your existing planets.",
         "medalPoints": "15",
-        "artifactReward": "Omnistream Gateway",
+        "artifact": "Omnistream Gateway",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -6930,7 +6935,7 @@
         "name": "Exotic Transformation",
         "desc": "Create an Exotic Planet by using a 'Hyper Terraformer' artifact on one of your planets.",
         "medalPoints": "10",
-        "artifactReward": "Omnistream Gateway",
+        "artifact": "Omnistream Gateway",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -6995,7 +7000,7 @@
         "name": "A long road to get here",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 2 years.",
         "medalPoints": "50",
-        "artifactReward": "Chronofield Projector",
+        "artifact": "Chronofield Projector",
         "triggers": [
             {
                 "type": "Collect Daily Reward"
@@ -7006,7 +7011,7 @@
         "name": "Biomech Containment",
         "desc": "Build a Supel Biomech Hangar on 5 different planet types",
         "medalPoints": "14",
-        "artifactReward": "Mechanum Replicator",
+        "artifact": "Mechanum Replicator",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -7021,7 +7026,7 @@
         "name": "Snares of Density",
         "desc": "Activate the ability of a 'Scruuge Thavix-Snare' on 5 different types of planets that are Average or smaller",
         "medalPoints": "12",
-        "artifactReward": "Miser's Gift-Bunker",
+        "artifact": "Miser's Gift-Bunker",
         "triggers": [
             {
                 "type": "Use Structure Ability",
@@ -7033,7 +7038,7 @@
         "name": "Biodome Synchrony",
         "desc": "Place any T.O. 'dome' on 5 different types of planets that are Small size or smaller",
         "medalPoints": "15",
-        "artifactReward": "Spire of Edenic Dominion",
+        "artifact": "Spire of Edenic Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -7048,7 +7053,7 @@
         "name": "Heist Duality",
         "desc": "During the Scruuge Event, raid mineral or artifact points from members of the following races, that also have 'Naughty' AND 'Nice' gifts affecting their ship<br>Human, Aerlen, Inergon, Konqul, Sillixx, Zolazin, Kronyn, Lazuli, Litheor, Xecti, Drannik",
         "medalPoints": "17",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "triggers": [
             {
                 "type": "Raid Ship",
@@ -7072,7 +7077,7 @@
         "name": "Trees of Life",
         "desc": "Complete various Evolutions for each of the following starting races<br>Human, Aerlen, Inergon, Konqul, Sillixx, Vygoid",
         "medalPoints": "22",
-        "artifactReward": "Species Evolution Lab",
+        "artifact": "Species Evolution Lab",
         "triggers": [
             {
                 "type": "Complete Evolution",
@@ -7104,7 +7109,7 @@
         "name": "Micro-Gravity Occurrences",
         "desc": "Activate the following effects from various planetary events that can occur on smaller planets<br>Abandoned Micrograv Armory, Mysterious Orb, Dark Ritual Site",
         "medalPoints": "15",
-        "artifactReward": "Exalted DarkForge",
+        "artifact": "Exalted DarkForge",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -7124,7 +7129,7 @@
         "name": "Phage Development",
         "desc": "Build a Bane Phage Sacrarium on 3 different planet types that are Very Massive (or larger)",
         "medalPoints": "12",
-        "artifactReward": "Dark Phage Entity",
+        "artifact": "Dark Phage Entity",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -7157,7 +7162,7 @@
         "name": "Structured Isolation",
         "desc": "Build the following structures on various planets that are 'Small' or smaller<br>Vygos AquaSeeker, Ardyne Hypergate, Stryll Ghost-Uplink, Deep-Phase Sanctuary, OmniVote Terminal",
         "medalPoints": "29",
-        "artifactReward": "Spire of Dominion",
+        "artifact": "Spire of Dominion",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -7185,7 +7190,7 @@
         "name": "Heliothermic Adaptation",
         "desc": "Build an Elios Corethune Shell or Micro-Star Cradle on 10+ different planet types of size Small (or smaller)",
         "medalPoints": "16",
-        "artifactReward": "Flare Probe Propaganda Terminal",
+        "artifact": "Flare Probe Propaganda Terminal",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -7201,7 +7206,7 @@
         "name": "Reveal and Revel",
         "desc": "Alert your legion to the locations of the following planet types, each of size Massive or larger<br>Barren, Volcanic, Gas, Desert, Icy, Toxic, Metallic, Oceanic, Terra, Exotic, Aphotic, Ecumenopolis, Crystal, Irradiated, Demon, Plasma, Gaia, Sentient, Dyson, Rift, Shattered, Void, Machine, Relic, Chthonian",
         "medalPoints": "42",
-        "artifactReward": "Astrometrics Orrery",
+        "artifact": "Astrometrics Orrery",
         "triggers": [
             {
                 "type": "Alert Planet"
@@ -7213,7 +7218,7 @@
         "name": "Branches of Adaptation",
         "desc": "Complete various Evolutions for each of the following races<br>Mylarai, Drannik, Genetarr, Kronyn, Taltherian, Lazuli, Litheor",
         "medalPoints": "26",
-        "artifactReward": "Species Evolution Lab",
+        "artifact": "Species Evolution Lab",
         "triggers": [
             {
                 "type": "Complete Evolution",
@@ -7292,6 +7297,7 @@
         "medalPoints": "15",
         "ability": {
             "name": "Bane Trickery",
+            "desc": "When setting a Hallows Bane Trick, you will also receive a 10% boost to defense for 1 hour.",
             "triggers": [
                 {
                     "type": "Boost Defense",
@@ -7358,6 +7364,7 @@
         "medalPoints": "15",
         "ability": {
             "name": "Improved Repair",
+            "desc": "Each time you repair a legion member, that member gains a temporary 10% hull bonus.",
             "triggers": [
                 {
                     "type": "Repair Legion Member"
@@ -7412,7 +7419,7 @@
         "name": "Rulers of the Vaults",
         "desc": "Activate the following effects from various planetary events that occur on worlds with large amounts of different production storage<br>Sepulchral Caves, Cognisphere Librarium, Sintered Abyss",
         "medalPoints": "14",
-        "artifactReward": "Font of Vitalis",
+        "artifact": "Font of Vitalis",
         "triggers": [
             {
                 "type": "Use Planet-Based Ability",
@@ -7448,7 +7455,7 @@
         "name": "Fecund Signals",
         "desc": "Build 3 Supel Comm Towers on the following planet types<br>Terra, Gaia, Desert",
         "medalPoints": "10",
-        "artifactReward": "Bio-Con Signaling Adapter",
+        "artifact": "Bio-Con Signaling Adapter",
         "triggers": [
             {
                 "type": "Use Artifact",
@@ -7513,7 +7520,7 @@
         "name": "The Timeline Interfold",
         "desc": "Connect your account with an existing player from the distant future... in Galaxy Legion: Apotheosis",
         "medalPoints": "8",
-        "artifactReward": "Timebender's Cache",
+        "artifact": "Timebender's Cache",
         "triggers": [
             {
                 "type": "Connect Apotheosis Account"
@@ -7535,7 +7542,7 @@
         "name": "Recruitment Drive",
         "desc": "Refer a new player who creates a character, using your referral link",
         "medalPoints": "8",
-        "artifactReward": "Tribute Cache",
+        "artifact": "Tribute Cache",
         "triggers": [
             {
                 "type": "Referred Player Creation"
@@ -7567,7 +7574,7 @@
         "name": "Apex Authority",
         "desc": "Claim a daily reward after reaching Rank 4400, with a ship size (unbuffed) of at least 10000",
         "medalPoints": "65",
-        "artifactReward": "Seat of Command",
+        "artifact": "Seat of Command",
         "rankRequirement": "4,400",
         "deckRequirement": "10,000",
         "triggers": [
@@ -7668,7 +7675,7 @@
         "name": "The Rites of the Luminous",
         "desc": "Collect a daily reward after playing Galaxy Legion for over 13 years and reaching at least Rank 3800",
         "medalPoints": "260",
-        "artifactReward": "Rites of Prismoda",
+        "artifact": "Rites of Prismoda",
         "img": "bahreensun2.jpg",
         "rankRequirement": "3,800",
         "triggers": [
@@ -8025,7 +8032,7 @@
         "desc": "Contribute at least 4200 Influence within the 'Krastis' or 'Lazul Ring' Zones",
         "medalPoints": "11",
         "img": "partner1.jpg",
-        "artifactReward": "Species Evolution Lab",
+        "artifact": "Species Evolution Lab",
         "triggers": [
             {
                 "type": "Influence Zone",
@@ -8079,7 +8086,7 @@
         "name": "Auric Assurances",
         "desc": "Open 4 or more Chromatic Lepus Egg 8.0",
         "medalPoints": "10",
-        "artifactReward": "Auric Lepus Drone 8.0",
+        "artifact": "Auric Lepus Drone 8.0",
         "img": "aasurrance.jpg",
         "triggers": [
             {
@@ -8198,7 +8205,7 @@
         "name": "Ruler of Farselle",
         "desc": "Collect 14 Daily Rewards (or Supporter Bonuses) while your legion is Suzerain of 8 or more Zones",
         "medalPoints": "42",
-        "artifactReward": "Spire of High Dominion",
+        "artifact": "Spire of High Dominion",
         "img": "zonecontrol3.jpg",
         "triggers": [
             {
@@ -8210,7 +8217,7 @@
         "name": "Heist Totality",
         "desc": "During the Scruuge Event, raid mineral or artifact points from members of 12 different professions, that also have 'Naughty' AND 'Nice' gifts affecting their ship",
         "medalPoints": "17",
-        "artifactReward": "Gift of the Spirit",
+        "artifact": "Gift of the Spirit",
         "img": "scruugen7.jpg",
         "triggers": [
             {
@@ -8234,6 +8241,254 @@
             {
                 "type": "Disable NPC",
                 "npc": "Auric Lepus Drone 11.0"
+            }
+        ]
+    },
+    {
+        "name": "Genoform Accession",
+        "desc": "Contribute at least 2200 Influence within the 'Genoform Surge' Zone",
+        "medalPoints": "10",
+        "img": "ngeno1.jpg",
+        "artifact": "Arx Genetica",
+        "triggers": [
+            {
+                "type": "Influence Zone",
+                "zone": "Genoform Surge"
+            }
+        ]
+    },
+    {
+        "name": "Taming the Undulok",
+        "desc": "Use a Tamed Undulok on the following types of planets<br>Oceanic, Terra, Gaia, Aphotic",
+        "medalPoints": "11",
+        "img": "ngeno7.jpg",
+        "artifact": "Species Evolution Lab",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Tamed Undulok",
+                "count": "4"
+            }
+        ]
+    },
+    {
+        "name": "Triune Helix",
+        "desc": "During the Genoform Surge, Grow your Evolution Genes 10 times, while you have 3 or more temporary activated effects that increase their Yield (amount of genes gained)",
+        "medalPoints": "12",
+        "img": "ngeno4.jpg",
+        "artifact": "Evolution Geno-Crystal",
+        "triggers": [
+            {
+                "type": "Grow Genes"
+            }
+        ]
+    },
+    {
+        "name": "Blossoming Potential",
+        "desc": "Use an Epigenetic Propogator on 11 different professions",
+        "medalPoints": "12",
+        "img": "ngeno13.png",
+        "artifact": "Tabula Progenis",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Epigenetic Propagator",
+                "count": "11"
+            }
+        ]
+    },
+    {
+        "name": "Extended Telomeres",
+        "desc": "During the Genoform Surge, Grow your Evolution Genes 10 times, while you have 3 or more temporary activated effects that decrease their Cooldown time",
+        "medalPoints": "11",
+        "img": "ngeno10.jpg",
+        "artifact": "Bio-Symposium Lab",
+        "triggers": [
+            {
+                "type": "Grow Genes"
+            }
+        ]
+    },
+    {
+        "name": "Fecund Solitude",
+        "desc": "Colonize 5 or more 'Average' or smaller Terra, Gaia, Aphotic, or Sentient planets, during The Genoform event.",
+        "medalPoints": "12",
+        "img": "ngeno11.png",
+        "artifact": "Bio-Symposium Lab",
+        "triggers": [
+            {
+                "type": "Colonize Planet"
+            }
+        ]
+    },
+    {
+        "name": "Optimal Mutations",
+        "desc": "Use a Genoformatting Codex on 5 different planet types",
+        "medalPoints": "14",
+        "img": "ngeno3.jpg",
+        "artifact": "Biotic Reserve",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Genoformatting Codex",
+                "count": "5"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Genetic Reclamation",
+        "desc": "During the Genoform event, scrap a variety of different planet structures for Complex Tech Parts, that require Genes to build, or are acquired from the Genoform event.",
+        "medalPoints": "12",
+        "img": "ngeno2.jpg",
+        "artifact": "Bio-Symposium Lab",
+        "triggers": [
+            {
+                "type": "Scrap",
+                "scrapType": "CTP",
+                "tags": [
+                    "Genoform"
+                ],
+                "costType": "Genes",
+                "count": "5"
+            }
+        ]
+    },
+    {
+        "name": "Biospheric Isolation",
+        "desc": "During the Genoform Surge, place (or upgrade to) 7 or more distinct structures that provide % bonuses to population, on planets of Small size or smaller",
+        "medalPoints": "15",
+        "img": "ngeno9.jpg",
+        "artifact": "Bio-Symposium Lab",
+        "triggers": [
+            {
+                "type": "Build or Upgrade To Structure",
+                "statType": "BP"
+            }
+        ]
+    },
+    {
+        "name": "Fusion of Origins",
+        "desc": "Complete 6 Daily Challenges, while 2 or more large Seasonal Events are affecting the Galaxy at the same time",
+        "medalPoints": "12",
+        "img": "synfusion5.jpg",
+        "artifact": "Synesthestic Fuse",
+        "triggers": [
+            {
+                "type": "Complete Daily Challenge"
+            }
+        ]
+    },
+    {
+        "name": "The Synesthetic Fusion",
+        "desc": "Complete the following actions while 2 or more large Seasonal Events are affecting the Galaxy at the same time<br>Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC, Daily Challenge, Vote, Council, Ascendancy Contribution",
+        "medalPoints": "12",
+        "img": "synfusion3.jpg",
+        "artifact": "Xenoform Drone",
+        "triggers": [
+            {
+                "type": "Raid Base"
+            },
+            {
+                "type": "Complete Daily Mission"
+            },
+            {
+                "type": "Scan Planet",
+                "rarity": "Rare"
+            },
+            {
+                "type": "Complete Legion Mission Task"
+            },
+            {
+                "type": "Invade Planet"
+            },
+            {
+                "type": "Colonize Planet"
+            },
+            {
+                "type": "Disable NPC",
+                "rarity": "Extremely Rare"
+            },
+            {
+                "type": "Complete Daily Challenge"
+            },
+            {
+                "type": "Vote"
+            },
+            {
+                "type": "Convene Council"
+            },
+            {
+                "type": "Contribute to Ascendancy"
+            }
+        ]
+    },
+    {
+        "name": "Novel Phylogeny",
+        "desc": "Install 2 Nucleome Compilers on your ship",
+        "medalPoints": "11",
+        "img": "ngeno5.jpg",
+        "artifact": "Biotic Reserve",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Nucleome Compiler",
+                "count": "2"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Unchecked Growth",
+        "desc": "Recruit Amerase, Genoform Entity to your ship",
+        "medalPoints": "10",
+        "img": "ngeno6.jpg",
+        "flair": "Genescan",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Amerase, Genoform Entity"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Infected Intrusion",
+        "desc": "Transfer your Caustic Infection to other players' ships of various races (that do not already have the effect) by successfully raiding them",
+        "medalPoints": "16",
+        "img": "ngeno8.jpg",
+        "title": "the Infectious",
+        "titleCharAnimation": "@keyframes title-poison-a {0% { text-shadow: 0 1px 2px rgba(0,220,60,0.8), 0 4px 5px rgba(0,180,50,0.6), 0 9px 9px rgba(0,140,40,0.45), 0 15px 13px rgba(60,0,90,0.3); } 50% { text-shadow: -1px 2px 3px rgba(0,240,70,0.8), 1px 7px 6px rgba(0,170,45,0.6), -2px 12px 10px rgba(0,130,30,0.45), 2px 18px 16px rgba(80,0,110,0.3); } 100% { text-shadow: 0 1px 2px rgba(0,220,60,0.8), 0 4px 5px rgba(0,180,50,0.6), 0 9px 9px rgba(0,140,40,0.45), 0 15px 13px rgba(60,0,90,0.3); } }; @keyframes title-poison-b {0% { filter: brightness(0.9); } 33% { filter: brightness(1.0); } 66% { filter: brightness(0.75); } 100% { filter: brightness(0.9); }}; @keyframes title-poison-a-alt {0% { text-shadow: 0 1px 2px rgba(0,210,55,0.8), 0 5px 6px rgba(0,170,45,0.6), 0 10px 10px rgba(0,130,35,0.45), 0 14px 12px rgba(70,0,100,0.3); } 50% { text-shadow: 1px 3px 3px rgba(0,230,65,0.8), -1px 8px 7px rgba(0,160,40,0.6), 2px 13px 11px rgba(0,120,30,0.45), -1px 19px 17px rgba(90,0,120,0.3); } 100% { text-shadow: 0 1px 2px rgba(0,210,55,0.8), 0 5px 6px rgba(0,170,45,0.6), 0 10px 10px rgba(0,130,35,0.45), 0 14px 12px rgba(70,0,100,0.3); }}; .title-poison-char:nth-child(odd) { animation: title-poison-a-alt 2.5s ease-in-out infinite, title-poison-b 3.5s ease-in-out infinite; letter-spacing: 1px; } .title-poison-char { display: inline-block; color: #88cc99; animation: title-poison-a 2.0s ease-in-out infinite, title-poison-b 3.0s ease-in-out infinite; } ",
+        "titleHtml": "<span class=\"title-poison\" style=\"font-style:italic; font-weight:bold;\"><span class=\"title-poison-char\" style=\"animation-delay:0s\">t</span><span class=\"title-poison-char\" style=\"animation-delay:0.23s\">h</span><span class=\"title-poison-char\" style=\"animation-delay:0.07s\">e</span> <span class=\"title-poison-char\" style=\"animation-delay:0.14s\">I</span><span class=\"title-poison-char\" style=\"animation-delay:0.33s\">n</span><span class=\"title-poison-char\" style=\"animation-delay:0.02s\">f</span><span class=\"title-poison-char\" style=\"animation-delay:0.38s\">e</span><span class=\"title-poison-char\" style=\"animation-delay:0.19s\">c</span><span class=\"title-poison-char\" style=\"animation-delay:0.45s\">t</span><span class=\"title-poison-char\" style=\"animation-delay:0.09s\">i</span><span class=\"title-poison-char\" style=\"animation-delay:0.29s\">o</span><span class=\"title-poison-char\" style=\"animation-delay:0.16s\">u</span><span class=\"title-poison-char\" style=\"animation-delay:0.36s\">s</span></span>",
+        "triggers": [
+            {
+                "type": "Raid Ship"
+            }
+        ]
+    },
+    {
+        "name": "Tiers of Awe",
+        "desc": "Make 200 Contributions to various Legion Ascendancy Talents",
+        "medalPoints": "18",
+        "img": "ltalent3.jpg",
+        "artifact": "Court of Eternity",
+        "rewardCount": "2",
+        "triggers": [
+            {
+                "type": "Contribute to Ascendancy"
+            }
+        ]
+    },
+    {
+        "name": "Civic Consensus",
+        "desc": "Cast 200 or more votes for elections or initiatives",
+        "medalPoints": "25",
+        "img": "vote4.jpg",
+        "artifact": "OmniVote Nexus Upgrade",
+        "rewardCount": "4",
+        "triggers": [
+            {
+                "type": "Vote"
             }
         ]
     }

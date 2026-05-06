@@ -110,6 +110,21 @@
         ]
     },
     {
+        "influence": "14,000",
+        "councilors": [
+            {
+                "name": "Experimental Geneticist",
+                "desc": "An experienced Drannik Geneticist providing novel experimental equipment from council reserves.",
+                "img": "aliens/gl2-drannik5.png",
+                "race": "Drannik",
+                "reward": "Biosynthetic Catalyst",
+                "rarity": "Rare",
+                "shortName": "Geneticist",
+                "seasonal": "Genoform"
+            }
+        ]
+    },
+    {
         "influence": "20,880",
         "remove": [
             "Star Chart Analyst"
@@ -198,6 +213,16 @@
                 "max": "5",
                 "rarity": "Uncommon",
                 "shortName": "Mining"
+            },
+            {
+                "name": "Symposium Director",
+                "desc": "A well-known Uldrinan science director, organizing large gatherings of Xeno-Biologists.",
+                "img": "aliens/nuldrinan3.png",
+                "race": "Uldrinan",
+                "reward": "Bio-Symposium Lab",
+                "rarity": "Rare",
+                "shortName": "Symposium",
+                "seasonal": "Genoform"
             }
         ]
     },

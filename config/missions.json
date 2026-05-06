@@ -168,5 +168,77 @@
         },
         "completionText": "You discover a Zolazin Analyzer node.",
         "unlocks": "The Zolazin Battle"
+    },
+    {
+        "name": "The Genoform Surge",
+        "desc": "We... apologize for the disturbance. A malfunction of considerable severity resulted in a leaking of energies from... where we come from. We are in the process of sealing the breach, but there will be some unintended side effects in this region of space.",
+        "cost": {
+            "Energy": "2,200",
+            "Blue Badges": "2",
+            "Influence": "880"
+        },
+        "charImage": "missions/frames/genoform1.png",
+        "icon": "missions/genoform1.gif",
+        "roundReward": {
+            "xp": "1800"
+        },
+        "completionReward": {
+            "artifact": "Arx Genetica",
+            "text": "You have finished assisting the research effort..."
+        },
+        "completions": "42",
+        "rounds": "33",
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "text": "You continue to assist with Genoform research..."
+            }
+        ],
+        "dialogue": [
+            {
+                "character": "Rest assured that we mean your Galaxy no harm.",
+                "player": "Who are you? Where did you come from?"
+            },
+            {
+                "character": "It is best that we remain discreet about our origins... for now.",
+                "player": "What kind of malfunction could cause such a spacial rupture?"
+            },
+            {
+                "character": "One of our Genoform Engines. An experimental mishap caused the tear.",
+                "player": "What do these... Genoform Engines do?"
+            },
+            {
+                "character": "Their primary purpose is to accelerate growth across the Galaxies we inhabit. Recently we've been performing high-energy experiments with them.",
+                "player": "An unfathomable amount of energy..."
+            },
+            {
+                "character": "Which resulted in an environmental catastrophe on our end. Over here... the effects will be... unpredictable.",
+                "player": "How dangerous is the exposure?"
+            },
+            {
+                "character": "The Genoform Field strength here should be safe, though it can speed up mutations, genetic changes, and autocatalytic evolution among your species.",
+                "player": "Intriguing."
+            },
+            {
+                "character": "Still, as we must finish repairs on the Engine... the surge will not last.",
+                "player": "Can we travel through the aperture? Visit your side?"
+            },
+            {
+                "character": "I'm afraid not. I have been tasked with guarding the rupture until it is closed. But... you could still be of considerable assistance to us.",
+                "player": "How so?"
+            },
+            {
+                "character": "There is an opportunity to study the effects of the Genoform Surge on the species here. We would very much like to learn what we can.",
+                "player": "That could be agreeable. We'd be willing to exchange research."
+            },
+            {
+                "character": "We are pleased to hear that.",
+                "player": "We'd still like to learn more about you before the rupture closes."
+            },
+            {
+                "character": "In time. I would not be surprised if such an incident occurred again... given our frequency of such experiments. Perhaps we will meet again."
+            }
+        ]
     }
 ]

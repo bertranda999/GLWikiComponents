@@ -130,10 +130,11 @@
         "rewards": [
             {
                 "reward": "Genes",
-                "min": "4",
-                "max": "10"
+                "min": "8",
+                "max": "16"
             }
-        ]
+        ],
+        "cooldown": "20 hours"
     },
     {
         "name": "Collect Daily Reward",

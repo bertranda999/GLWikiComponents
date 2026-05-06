@@ -43,5 +43,87 @@
             }
         ],
         "img": "trainspeed.png"
+    },
+    {
+        "name": "Undulok Entity",
+        "rank": "Matched",
+        "class": "Biosphere Parasite",
+        "attackCost": "5",
+        "type": "Standard",
+        "rarity": "Special",
+        "desc": "Undulok hibernate most of their lives, but aggressively feed seasonally and during genetic blooms. Their bodies require diverse genetic sources, and so they seek out wilder biospheres.",
+        "faction": "Space Entity",
+        "transition": "",
+        "img": "sparasite1.webp",
+        "shields": "0",
+        "statExamples": [
+            {
+                "rank": "3423",
+                "hull": "366700",
+                "attack": "22542",
+                "defense": "1355470"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Caustic Infection",
+                "desc": "Will sometimes infect attacking ships, lowering their hull by 12% for 20m. This effect stacks and cannot be removed.",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Hull",
+                        "value": "12%",
+                        "duration": "20m"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Enraged Undulok Entity",
+        "rank": "Matched",
+        "class": "Biosphere Parasite",
+        "attack": "5",
+        "type": "Standard",
+        "rarity": "Special",
+        "desc": "Undulok hibernate most of their lives, but aggressively feed seasonally and during genetic blooms. Their bodies require diverse genetic sources, and so they seek out wilder biospheres.",
+        "faction": "Space Entity",
+        "img": "sparasite2.webp",
+        "shields": "0",
+        "statExamples": [
+            {
+                "rank": "3424",
+                "hull": "369000",
+                "attack": "1294240",
+                "defense": "862810"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Enraged Tendrils",
+                "desc": "Will sometimes use its Enraged Tendrils dealing massive damage to your ship.",
+                "playerEffects": [
+                    {
+                        "type": "% Damage"
+                    }
+                ]
+            },
+            {
+                "name": "Caustic Infection",
+                "desc": "Will sometimes infect attacking ships, lowering their hull by 12% for 20m. This effect stacks and cannot be removed.",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Hull",
+                        "value": "12%",
+                        "duration": "20m"
+                    }
+                ]
+            }
+        ],
+        "reward": [
+            {
+                "xp": "42",
+                "artifact": "Tamed Undulok"
+            }
+        ]
     }
 ]

@@ -17,5 +17,49 @@
 				"duration": "20 hours"
 			}
 		]
+	},
+	{
+		"name": "Decree of Fecundity",
+		"cost": {
+			"ctp": "900",
+			"influence": "28,000"
+		},
+		"desc": "Generates 1 Evolution Gene for each planet you control that has influence (up to 25 Genes), and boosts Evolution Gene yields by 6% for 20 hours.",
+		"img": "petition-genoform1.png",
+		"playerEffects": [
+			{
+				"type": "Increase Gene Production",
+				"value": "6%",
+				"duration": "20 hours"
+			},
+			{
+				"type": "Grant Genes",
+				"scaleValue": "1 per planet with Influence",
+				"scaling": {
+					"type": "Owned Planet",
+					"stat": "Influence Availability",
+					"min": "ES"
+				}
+			}
+		]
+	},
+	{
+		"name": "Special Session Directive",
+		"cost": {
+			"ctp": "700",
+			"influence": "11,000"
+		},
+		"desc": "Influences the Galactic Council to meet for another special session.<br>Increases Influence capacity by 3% for 20 hours, and refreshes the timer for your 'Galactic Council'",
+		"img": "petition-council1.png",
+		"playerEffects": [
+			{
+				"type": "Increase Influence Storage",
+				"value": "3%",
+				"duration": "20 hours"
+			},
+			{
+				"type": "Reset Council Timer"
+			}
+		]
 	}
 ]

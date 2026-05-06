@@ -427,7 +427,8 @@
         "playerEffects": [
             {
                 "type": "Grant Research",
-                "value": "10,000"
+                "value": "10,000",
+                "message": "Your scientists have successfully analyzed the Titancore Braindump"
             }
         ],
         "scrap": {
@@ -447,7 +448,8 @@
         },
         "playerEffects": [
             {
-                "type": "Reveal Enemy Planet"
+                "type": "Reveal Enemy Planet",
+                "message": "New Planet Discovered:<br>[Planet]"
             }
         ],
         "scrap": {
@@ -1890,7 +1892,9 @@
                 "conditions": [
                     {
                         "type": "Existing Structures",
-                        "structure": "Ardyne Transfer Conduit"
+                        "structures": [
+                            "Ardyne Transfer Conduit"
+                        ]
                     }
                 ]
             },
@@ -2517,6 +2521,14 @@
         "cost": {
             "Energy": "50"
         },
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Metallic"
+                ]
+            }
+        ],
         "planetEffects": [
             {
                 "type": "Invincible"
@@ -2867,7 +2879,8 @@
         "img": "tabulag1.png",
         "playerEffects": [
             {
-                "type": "Reset Grow Genes Cooldown"
+                "type": "Reset Grow Genes Cooldown",
+                "message": "Your Evolution Genes are ready to grow..."
             }
         ],
         "share": "No",
@@ -2875,7 +2888,16 @@
         "tags": [
             "Genoform Surge"
         ],
-        "target": "Player"
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "41,000",
+            "max": "164,000"
+        },
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "550"
+        }
     },
     {
         "name": "Cosmic Base Crate",
@@ -2985,42 +3007,6 @@
             }
         ],
         "target": "Your Planet"
-    },
-    {
-        "name": "Uldri Spacial Marker",
-        "restrictions": [
-            {
-                "type": "Calm",
-                "max": "48 hours"
-            }
-        ],
-        "target": "Your Planet",
-        "tags": [
-            "Uldrinan"
-        ]
-    },
-    {
-        "name": "Uldri Anomaly Crystal",
-        "planetEffectsConditional": [
-            {
-                "type": "Construct Structure",
-                "structure": "Uldri Anomaly Crystal (Upgraded)",
-                "conditions": [
-                    {
-                        "type": "Other Scanners",
-                        "min": "2"
-                    }
-                ]
-            },
-            {
-                "type": "Construct Structure",
-                "structure": "Uldri Anomaly Crystal"
-            }
-        ],
-        "target": "Your Planet",
-        "tags": [
-            "Uldrinan"
-        ]
     },
     {
         "name": "Neutron-Lift Processor",
@@ -3428,7 +3414,22 @@
                 "min": "3 Months"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "10"
+        },
+        "desc": "[ Planet Structure - Size:2, Artifact:2, Research:2, Population:+40% ]<br>Can only be built on planets that have been calm for 3+ months.<br>Limit 1 per planet.",
+        "buttonText": "Build",
+        "img": "silvfact.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Argent Consulate",
+                "message": "An Argent Consulate has been constructed on the planet."
+            }
+        ]
     },
     {
         "name": "Argent Sector-Embassy",
@@ -3438,7 +3439,26 @@
                 "min": "9 Months"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "44,440",
+            "max": "177,760"
+        },
+        "desc": "Upgrades an existing Argent Consulate<br>on your planet to a Argent Sector-Embassy,<br>increasing research by +2, artifact by +2, and its population bonus to +60%.<br>Planet must be calm for 9+ months to use.",
+        "buttonText": "Use",
+        "img": "consulate2.png",
+        "cost": {
+            "Energy": "4.4k"
+        },
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Argent Consulate",
+                "new": "Argent Sector-Embassy",
+                "message": "An Argent Consulate has been upgraded to a Argent Sector-Embassy."
+            }
+        ]
     },
     {
         "name": "Argent Galactic-Embassy",
@@ -3448,7 +3468,12 @@
                 "min": "2 Years"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "65,000",
+            "max": "260,000"
+        }
     },
     {
         "name": "Omni-Weather Controller",
@@ -3608,18 +3633,6 @@
         "tags": [
             "Scruuge"
         ]
-    },
-    {
-        "name": "ArcRift Tower",
-        "restrictions": [
-            {
-                "type": "Type",
-                "types": [
-                    "Rift"
-                ]
-            }
-        ],
-        "target": "Your Planet"
     },
     {
         "name": "Galactic Concord Station",
@@ -7727,11 +7740,24 @@
         "img": "halldel1.png",
         "target": "Your Planet",
         "buttonText": "Build",
-        "planetEffects": [
+        "planetEffectsConditional": [
             {
                 "type": "Construct Structure",
-                "structure": "Hall of Delegates",
-                "message": "The Hall of Delegates has been constructed on the planet."
+                "structure": "Hall of Delegates (Upgraded)",
+                "message": "The Hall of Delegates has been constructed on the planet.",
+                "conditions": [
+                    {
+                        "type": "Existing Structures",
+                        "structures": [
+                            "Council Chamber",
+                            "Court of Oracles"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Hall of Delegates"
             }
         ]
     },
@@ -9399,6 +9425,873 @@
             {
                 "type": "Increase Mining Availability",
                 "value": "2"
+            }
+        ]
+    },
+    {
+        "name": "Amerase, Genoform Entity",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        },
+        "desc": "[ Ship Ally ]<br>Initial Stats: Scan: 90, Hull: 700, Cloak: 110<br>Gains a new rank when growing your Evolution Genes.<br>Requires Rank 200+",
+        "restrictions": [
+            {
+                "type": "Rank",
+                "min": "200"
+            }
+        ],
+        "img": "amerase1.webp",
+        "buttonText": "Recruit",
+        "target": "Player",
+        "cost": {
+            "Energy": "2.2k"
+        },
+        "playerEffects": [
+            {
+                "type": "Install Ally",
+                "ally": "Amerase, Genoform Entity",
+                "message": "Amerase, Genoform Entity, has joined your ship."
+            }
+        ],
+        "tags": [
+            "Genoform Surge",
+            "Entity"
+        ]
+    },
+    {
+        "name": "Nucleome Compiler",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "14"
+        },
+        "target": "Player",
+        "img": "gcompile1.webp",
+        "desc": "[ Limited Item - Genoform ][ Device - Size: 77, Cloak: 490 ]<br>Increases Evolution Gene Yield range (+1 Gene min/max)<br>Increases energy to hack your ship by 100%<br>Limit 2 per ship",
+        "buttonText": "Build",
+        "tags": [
+            "Genoform Surge"
+        ],
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Nucleome Compiler",
+                "message": "A Nucleome Compiler has been installed on your ship."
+            }
+        ]
+    },
+    {
+        "name": "Tamed Undulok",
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        },
+        "desc": "[ Planet Structure - Size:0, Artifact:1, Mining:3 ]<br><br>Boosts population +20%. Planet must be Large (or smaller). Limit 1 per planet",
+        "target": "Your Planet",
+        "img": "undulok1.webp",
+        "buttonText": "Build",
+        "cost": {
+            "Energy": "800",
+            "Genes": "4"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Tamed Undulok"
+            }
+        ],
+        "tags": [
+            "Genoform Surge",
+            "Entity"
+        ],
+        "restrictions": [
+            {
+                "type": "Size",
+                "max": "Large"
+            }
+        ]
+    },
+    {
+        "name": "Biotic Reserve",
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "tags": [
+            "Genoform Surge"
+        ],
+        "desc": "[ Limited Item - Genoform ]<br>Permanently increases the target planet size by 2%.<br>Can only be used on Terra, Gaia, or Aphotic Planets:<br>of Average size or smaller",
+        "target": "Your Planet",
+        "img": "gpreserve1.png",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "6k",
+            "Genes": "22"
+        },
+        "planetEffects": [
+            {
+                "type": "Increase Space",
+                "value": "2%"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Terra",
+                    "Gaia",
+                    "Aphotic"
+                ]
+            },
+            {
+                "type": "Size",
+                "max": "Average"
+            }
+        ]
+    },
+    {
+        "name": "Phylogenetic Core",
+        "target": "Your Planet",
+        "desc": "[ Limited Item - Late Spring ][ Planet Structure - Size: 1, Influence: 1, Research Production:+8% ]<br>Ability: Reduce your 'Grow Genes' cooldown by 14% for 3 days (3 charges)<br>Limit 1",
+        "img": "genopulser1.gif",
+        "buttonText": "Build",
+        "tags": [
+            "Genoform Surge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Phylogenetic Core",
+                "message": "A Phylogenetic Core has been constructed on the planet."
+            }
+        ]
+    },
+    {
+        "name": "Biosynthetic Catalyst",
+        "target": "Player",
+        "desc": "<i>Subtly hums with undulating energy patterns...</i> Starts a random planetary event on a Terra, Gaia, Aphotic, or Oceanic world (if any are eligible)",
+        "img": "gcrys1.webp",
+        "playerEffects": [
+            {
+                "type": "Start Planetary Event",
+                "restrictions": [
+                    {
+                        "type": "Type",
+                        "types": [
+                            "Terra",
+                            "Gaia",
+                            "Aphotic",
+                            "Oceanic"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Modulated Xecti Disruptor",
+        "target": "Player",
+        "desc": "[ Special Weapon - Size:15, Cloak:40, Attack:20 ]<br>While Installed:<br>Zolazin, spies, and hackers get double the Cloak Bonus.<br>Konqul, Drannik, and raiders get double the Attack Bonus.<br>(Limit 4 / ship)",
+        "img": "axjammer.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Modulated Xecti Disruptor",
+                "message": "A Modulated Xecti Disruptor has been installed on your ship."
+            }
+        ],
+        "buttonText": "Build",
+        "tags": [
+            "Xecti"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "18"
+        }
+    },
+    {
+        "name": "Mutagenic Cartridges",
+        "target": "Player",
+        "desc": "Infuses your weapons with a powerful virus,<br>giving a 1500 bonus to planetary invasions.<br>Lasts only a short time.",
+        "img": "mutagenic.png",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "20"
+        },
+        "planetEffects": [
+            {
+                "type": "Increase Invasion Attack",
+                "value": "1500",
+                "duration": "5 min",
+                "message": "You have infused your weapons with the virus. Hurry and perform an invasion!"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "25,000",
+            "max": "100,000"
+        }
+    },
+    {
+        "name": "Xecti Truce Pact",
+        "target": "Player",
+        "desc": "Signs a permanent pact with the Xecti.<br>Unlocks the ability to choose Xecti whenever picking a new Race.<br>Xecti ships and planets receive a 40% boost to<br>attack and defense when under attack or invasion.",
+        "img": "xectipact.png",
+        "buttonText": "Sign",
+        "planetEffects": [
+            {
+                "type": "Unlock Race",
+                "race": "Xecti",
+                "message": "You sign the Xecti Truce Pact."
+            }
+        ],
+        "tags": [
+            "Xecti"
+        ]
+    },
+    {
+        "name": "ArcRift Tower",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Rift"
+                ]
+            }
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:+6% ]<br>Constructs an ArcRift Tower on your planet.<br>Boosts the planet's artifact production by 6%.<br>Can only be built on Rift Planets. (limit 2 per planet)",
+        "buttonText": "Build",
+        "img": "rifttower.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "ArcRift Tower",
+                "message": "The ArcRift Tower has been constructed on the planet."
+            }
+        ]
+    },
+    {
+        "name": "Crimson Cluster Missile",
+        "scrap": {
+            "type": "cr",
+            "min": "42,500",
+            "max": "170,000"
+        },
+        "target": "Enemy Planet",
+        "desc": "Destroys one non-special defense, attack, or population structure<br>at random on an enemy planet",
+        "img": "clustermissile.png",
+        "buttonText": "Fire",
+        "planetEffects": [
+            {
+                "message": "You have successfully used the effect on the planet.",
+                "type": "Destroy Structure"
+            }
+        ]
+    },
+    {
+        "name": "Exo-Temporal Translator",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "target": "Player",
+        "desc": "[ Special Module - Size:10, Scan:25, Invasion Attack Bonus:60 ]<br>Installs an Exo-Temporal Translator on your ship.<br>Limit 4 per ship.",
+        "img": "exotemp.png",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Exo-Temporal Translator",
+                "message": "An Exo-Temporal Translator has been installed on your ship."
+            }
+        ]
+    },
+    {
+        "name": "Gamma Crystallizer",
+        "scrap": {
+            "type": "cr",
+            "min": "80,000",
+            "max": "320,000"
+        },
+        "target": "Your Planet",
+        "img": "gammacrystal.png",
+        "desc": "Transforms a desert planet into a crystal world,<br>enhancing its size by 1, and mining, artifact, research by 2.",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "5"
+        },
+        "planetEffects": [
+            {
+                "type": "Increase Size",
+                "value": "1"
+            },
+            {
+                "type": "Increase Mining Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Artifact Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Research Availability",
+                "value": "2"
+            },
+            {
+                "type": "Change Type",
+                "newType": "Crystal"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hyper Terraformer",
+        "scrap": {
+            "type": "cr",
+            "min": "775,000",
+            "max": "3,100,000"
+        },
+        "img": "terraform2.png",
+        "desc": "Transforms a planet into an Exotic World, and makes the planet invincible to any attack.<br>The transformed planet will be massive size with 13x Mega Rich production in all categories.",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "20"
+        },
+        "target": "Your Planet",
+        "planetEffects": [
+            {
+                "type": "Change Type",
+                "newType": "Exotic",
+                "message": "The planet pulses with energy, transforming into a completely new world"
+            },
+            {
+                "type": "Set Artifact",
+                "value": "13x"
+            },
+            {
+                "type": "Set Mining",
+                "value": "13x"
+            },
+            {
+                "type": "Set Research",
+                "value": "13x"
+            },
+            {
+                "type": "Set Size",
+                "value": "Massive"
+            },
+            {
+                "type": "Invincible"
+            }
+        ]
+    },
+    {
+        "name": "Kronyn Datacube",
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "target": "Your Planet",
+        "desc": "Permanently increases the research production of a planet by 1.<br>This bonus doubles if the planet's current research production is abundant or less.",
+        "img": "kdatacube.png",
+        "buttonText": "Use",
+        "restrictions": [
+            {
+                "type": "Research Availability",
+                "max": "88x"
+            }
+        ],
+        "planetEffectsConditional": [
+            {
+                "type": "Increase Research Availability",
+                "value": "2",
+                "conditions": [
+                    {
+                        "type": "Research Availability",
+                        "max": "Abundant"
+                    }
+                ],
+                "message": "The planetary research has been optimized"
+            },
+            {
+                "type": "Increase Research Availability",
+                "value": "1",
+                "message": "The planetary research has been optimized"
+            }
+        ],
+        "tags": [
+            "Kronyn"
+        ]
+    },
+    {
+        "name": "Mass Surface Melter",
+        "scrap": {
+            "type": "cr",
+            "min": "80,000",
+            "max": "320,000"
+        },
+        "target": "Your Planet",
+        "img": "melter.png",
+        "desc": "Transforms an Icy world into an Oceanic world,<br>enhancing its size and mining, artifact, research by 2 in the process.",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "5"
+        },
+        "planetEffects": [
+            {
+                "type": "Change Type",
+                "newType": "Oceanic",
+                "message": "The planet's ice crackles and melts..."
+            },
+            {
+                "type": "Increase Artifact Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Mining Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Research Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Size",
+                "value": "2"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": "Icy"
+            }
+        ]
+    },
+    {
+        "name": "Merged DataNode",
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "desc": "[ Size:21, Scan:40, Cloak: 60] If this device is already installed on your ship, this will instead upgrade its stats by 50%, up to 500% max. When fully upgraded, it will provide a 4% defense bonus.*",
+        "img": "msenode.png",
+        "target": "Player",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Merged DataNode",
+                "installMessage": "",
+                "upgradeMessage": "The Merged DataNode has been upgraded"
+            }
+        ]
+    },
+    {
+        "name": "Nanosheared Weapon Scans",
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "desc": "Scan data gathered from a planet bombarded by matched weapon signatures.",
+        "img": "nanosheard.png",
+        "target": "Mission"
+    },
+    {
+        "name": "Octafari Hydroshifter",
+        "scrap": {
+            "type": "cr",
+            "min": "50,000",
+            "max": "200,000"
+        },
+        "tags": [
+            "Octafari"
+        ],
+        "desc": "Transports vast quantities of water from an existing Octafari world,<br>converting a barren planet to an oceanic,<br>and increasing its size and all research, mining, artifact by 1.",
+        "target": "Your Planet",
+        "img": "hydroshifter.png",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "5"
+        },
+        "planetEffects": [
+            {
+                "type": "Change Type",
+                "newType": "Oceanic",
+                "message": "The planet's surface instantly bursts with a rush of water..."
+            },
+            {
+                "type": "Increase Artifact Availability",
+                "value": "1"
+            },
+            {
+                "type": "Increase Mining Availability",
+                "value": "1"
+            },
+            {
+                "type": "Increase Research Availability",
+                "value": "1"
+            },
+            {
+                "type": "Increase Size",
+                "value": "1"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": "Barren"
+            }
+        ]
+    },
+    {
+        "name": "Omnistream Gateway",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        },
+        "target": "Your Planet",
+        "desc": "[ Planet Structure - Size:2, Research:3, Mining:3, Artifact:3 ]<br>Constructs an Omnistream Gateway on your planet (limit 1 per planet)<br>Can only be constructed on Invincible planets.",
+        "img": "ca-gateway.png",
+        "buttonText": "Build",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Omnistream Gateway",
+                "message": "An Omnistream Gateway has been constructed on the planet."
+            }
+        ]
+    },
+    {
+        "name": "Raix Bunker",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "target": "Your Planet",
+        "img": "raixbunker.png",
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Research: 1, Defense:? ]<br>Provides 1 defense bonus per 5 planet population.<br>Limit 1 per planet.",
+        "buttonText": "Build",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Raix Bunker"
+            }
+        ],
+        "tags": [
+            "Raix"
+        ]
+    },
+    {
+        "name": "Raix-Radiated Plating",
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "target": "Player",
+        "img": "t5plating.png",
+        "desc": "[ Size:20, Hull:160 ] If this device is already installed on your ship, this will instead upgrade its stats by 50%, up to 500% max. When fully upgraded, it will provide +300 defense.",
+        "buttonText": "Build",
+        "tags": [
+            "Raix"
+        ],
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Raix-Radiated Plating",
+                "installMessage": "The Raix-Radiated Plating has been installed on your ship.",
+                "upgradeMessage": "The Raix-Radiated Plating has been upgraded"
+            }
+        ]
+    },
+    {
+        "name": "Shadow-Barb Link",
+        "target": "Mission",
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "desc": "A connected link to an existing Shadow-Barb, set to receive any data once it attaches.",
+        "img": "shadowlink.png"
+    },
+    {
+        "name": "Tejiar Ally HQ",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:2, Artifact:1 ]<br>If built on a planet that has been scanned<br>by at least 1 other ship, the structure gains +1<br>artifact and provides a +5% cloak bonus.<br>Limit 1 /planet.",
+        "img": "tejiarhq.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Tejiar Ally HQ",
+                "message": "The Tejiar Ally HQ has been constructed on the planet."
+            }
+        ],
+        "tags": [
+            "Raix"
+        ]
+    },
+    {
+        "name": "The Gaia Seed",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "80,000",
+            "max": "320,000"
+        },
+        "desc": "Transforms a Terra world into a Gaia planet,<br>enhancing its size by 1 and mining, artifact, research by 2.",
+        "img": "gaiaseed2.png",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Terra"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Change Type",
+                "newType": "Gaia"
+            },
+            {
+                "type": "Increase Artifact Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Mining Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Research Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Size",
+                "value": "1"
+            }
+        ],
+        "tags": [
+            "Drannik"
+        ]
+    },
+    {
+        "name": "Uldri Recovery Capsule",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:2, Research:1, Population:500 ]<br>Can only be built on planets attacked in the last 48 hours.<br>Once built, the structure can be upgraded<br>after periods of calm.<br>Limit 1/planet",
+        "img": "uldcapsule.png",
+        "restrictions": [
+            {
+                "type": "Calm",
+                "max": "48 hours"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Recovery Capsule",
+                "message": "The Uldri Recovery Capsule has been constructed on the planet."
+            }
+        ],
+        "tags": [
+            "Uldri"
+        ]
+    },
+    {
+        "name": "Uldri Anomaly Crystal",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "desc": "[ Planet Structure - Size:1, Research:1, Artifact:1 ]<br>If built on a planet that has been scanned<br>by at least 2 other ships, the structure gains +200<br>cloak and provides a +5% research bonus.<br>Limit 1 /planet.",
+        "img": "exupgr.png",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Anomaly Crystal (Upgraded)",
+                "conditions": [
+                    {
+                        "type": "Other Scanners",
+                        "min": "2"
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Anomaly Crystal",
+                "message": "The Uldri Anomaly Crystal has been placed on the planet."
+            }
+        ],
+        "tags": [
+            "Uldrinan"
+        ]
+    },
+    {
+        "name": "Uldri Spacial Marker",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:1, Artifact:1, Defense:300 ]<br>Can only be built on planets attacked in the last 48 hours.<br>Once built, this structure can be upgraded<br>after periods of calm.<br>Limit 1/planet",
+        "img": "uldrib1.png",
+        "restrictions": [
+            {
+                "type": "Calm",
+                "max": "48 hours"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Spacial Marker",
+                "message": "The Uldri Spacial Marker has been constructed on the planet."
+            }
+        ]
+    },
+    {
+        "name": "Tree of Harmony",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "tags": [
+            "Civicordium",
+            "Genoform Surge"
+        ],
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Mining:1, Research:1 ]<br>Boosts population by 20%.<br>Planet must be Terra, Gaia, or Aphotic, of Average size or smaller.<br>Can be upgraded with 5+ %-Population structures. Limit 1",
+        "buttonText": "Build",
+        "img": "treeunity1.png",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Terra",
+                    "Gaia",
+                    "Aphotic"
+                ]
+            },
+            {
+                "type": "Size",
+                "max": "Average"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Tree of Harmony"
+            }
+        ],
+        "cost": {
+            "Energy": "5.5k",
+            "Influence": "5.5k"
+        }
+    },
+    {
+        "name": "Bio-Symposium Lab",
+        "desc": "[ Planet Structure - Size:1, Research:6, Influence:1, Population:+22% ]<br>Planet must be Average (or smaller) to build.<br>Includes ability to generate Evolution Genes<br>Limit 1 per planet.",
+        "img": "genolab1.png",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "Energy": "4.4k",
+            "Influence": "4.4k"
+        },
+        "restrictions": [
+            {
+                "type": "Size",
+                "max": "Average"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Bio-Symposium Lab"
+            }
+        ]
+    },
+    {
+        "name": "Mark of Dawn",
+        "desc": "[ Temporary Item - Legion Mission ]<br>Places a Mark of Dawn on an enemy ship.<br>Can only use if you have raided this target in the last 30 minutes,<br>but no more than 4 times in the last 24 hours.<br>Limit 1 per ship",
+        "img": "darmprobe1.png",
+        "target": "Enemy Ship",
+        "buttonText": "Mark",
+        "cost": {
+            "Energy": "500"
+        },
+        "scrap": {
+            "type": "cr",
+            "min": "3,000",
+            "max": "12,000"
+        },
+        "enemyShipEffects": [
+            {
+                "type": "Mark of Dawn",
+                "message": "[Player] has placed a Mark of Dawn on your ship."
+            }
+        ]
+    },
+    {
+        "name": "VARA Interface",
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "img": "varaint.png",
+        "desc": "[ Size:20, Defense:40, Shields:70 ] If this device is already installed on your ship, this will instead upgrade its stats by 50%, up to 500% max. When fully upgraded, it will unlock an ability.",
+        "target": "Player",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "VARA Interface",
+                "installMessage": "The VARA Interface has been installed on your ship.",
+                "upgradeMessage": "The VARA Interface has been upgraded"
             }
         ]
     }
