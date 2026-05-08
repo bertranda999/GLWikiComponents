@@ -5,33 +5,53 @@
         "defaultPop": "20"
     },
     {
-        "name": "Tiny"
+        "name": "Tiny",
+        "defaultSpace": "23",
+        "defaultPop": "40"
     },
     {
-        "name": "Very Small"
+        "name": "Very Small",
+        "defaultSpace": "23",
+        "defaultPop": "60"
     },
     {
-        "name": "Small"
+        "name": "Small",
+        "defaultSpace": "23",
+        "defaultPop": "80"
     },
     {
-        "name": "Average"
+        "name": "Average",
+        "defaultSpace": "23",
+        "defaultPop": "100"
     },
     {
-        "name": "Large"
+        "name": "Large",
+        "defaultSpace": "23",
+        "defaultPop": "120"
     },
     {
-        "name": "Very Large"
+        "name": "Very Large",
+        "defaultSpace": "23",
+        "defaultPop": "140"
     },
     {
-        "name": "Massive"
+        "name": "Massive",
+        "defaultSpace": "23",
+        "defaultPop": "160"
     },
     {
-        "name": "Very Massive"
+        "name": "Very Massive",
+        "defaultSpace": "23",
+        "defaultPop": "180"
     },
     {
-        "name": "Colossal"
+        "name": "Colossal",
+        "defaultSpace": "23",
+        "defaultPop": "200"
     },
     {
-        "name": "Mega Colossal"
+        "name": "Mega Colossal",
+        "defaultSpace": "23",
+        "defaultPop": "220"
     }
 ]

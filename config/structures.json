@@ -901,7 +901,7 @@
         "c": 100
     },
     {
-        "name": "Tranquil Monolith 5%",
+        "name": "Tranquil Monolith (5%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -911,7 +911,7 @@
         "bc": 5
     },
     {
-        "name": "Tranquil Monolith 10%",
+        "name": "Tranquil Monolith (10%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -921,7 +921,7 @@
         "bc": 10
     },
     {
-        "name": "Tranquil Monolith 15%",
+        "name": "Tranquil Monolith (15%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -931,7 +931,7 @@
         "bc": 15
     },
     {
-        "name": "Tranquil Monolith 20%",
+        "name": "Tranquil Monolith (20%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -941,7 +941,7 @@
         "bc": 20
     },
     {
-        "name": "Tranquil Monolith 25%",
+        "name": "Tranquil Monolith (25%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -951,7 +951,7 @@
         "bc": 25
     },
     {
-        "name": "Tranquil Monolith 30%",
+        "name": "Tranquil Monolith (30%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -961,7 +961,7 @@
         "bc": 30
     },
     {
-        "name": "Tranquil Monolith 35%",
+        "name": "Tranquil Monolith (35%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -971,7 +971,7 @@
         "bc": 35
     },
     {
-        "name": "Tranquil Monolith 40%",
+        "name": "Tranquil Monolith (40%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -981,7 +981,7 @@
         "bc": 40
     },
     {
-        "name": "Tranquil Monolith 45%",
+        "name": "Tranquil Monolith (45%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -991,7 +991,7 @@
         "bc": 45
     },
     {
-        "name": "Tranquil Monolith 50%",
+        "name": "Tranquil Monolith (50%)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -1269,7 +1269,7 @@
         "c": 110
     },
     {
-        "name": "Void-Field Enclave (VM+)",
+        "name": "Void-Field Enclave",
         "size": 1,
         "limit": 1,
         "limited": true,
@@ -1280,7 +1280,7 @@
         "c": 808
     },
     {
-        "name": "Void-Field Enclave (L-M)",
+        "name": "Void-Field Enclave (Doubled)",
         "size": 1,
         "limit": 1,
         "limited": true,
@@ -1291,7 +1291,7 @@
         "c": 1616
     },
     {
-        "name": "Void-Field Enclave (VT-Av)",
+        "name": "Void-Field Enclave (Tripled)",
         "size": 1,
         "limit": 1,
         "limited": true,
@@ -2174,7 +2174,7 @@
         "bc": 10
     },
     {
-        "name": "Uldri Recovery Capsule (1)",
+        "name": "Uldri Recovery Capsule",
         "size": 1,
         "limit": 1,
         "limited": true,
@@ -2593,7 +2593,7 @@
         "id": 6666
     },
     {
-        "name": "Bane Nether-Seal (1)",
+        "name": "Bane Nether-Seal",
         "size": 10,
         "limit": 1,
         "limited": false,
@@ -3321,7 +3321,7 @@
         "c": 200
     },
     {
-        "name": "Supel Microhaven (Av+)",
+        "name": "Supel Microhaven",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -3892,7 +3892,7 @@
         "c": 200
     },
     {
-        "name": "Adumbrate Station (Upgrade)",
+        "name": "Adumbrate Station (Doubled)",
         "size": 1,
         "limit": 2,
         "limited": false,
@@ -4374,7 +4374,7 @@
         "p": 600
     },
     {
-        "name": "Luring Cynosure 1",
+        "name": "Luring Cynosure",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -4383,7 +4383,7 @@
         "bat": 20
     },
     {
-        "name": "Luring Cynosure 2",
+        "name": "Luring Cynosure (Upgraded)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -7533,7 +7533,7 @@
         "p": 10000
     },
     {
-        "name": "Dissemination Ultracore",
+        "name": "Affection Disseminator Ultracore",
         "size": 1,
         "limit": 2,
         "limited": false,
@@ -7543,7 +7543,7 @@
         "p": 20000
     },
     {
-        "name": "Dissemination Megacore",
+        "name": "Affection Disseminator Megacore",
         "size": 1,
         "limit": 2,
         "limited": false,
@@ -7741,7 +7741,7 @@
         "d": 4444
     },
     {
-        "name": "Cygnusis AI-Core (Upgraded)",
+        "name": "Cygnusis AI-Core (Doubled)",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -8148,7 +8148,7 @@
         "c": 200
     },
     {
-        "name": "Isolation Bureau",
+        "name": "Isolation Bureau (Doubled)",
         "size": 2,
         "limit": 1,
         "limited": false,
@@ -8586,7 +8586,7 @@
         "bp": 9
     },
     {
-        "name": "Galakis Monument Doubled)",
+        "name": "Galakis Monument (Doubled)",
         "size": 0,
         "limit": 1,
         "limited": false,
@@ -9548,5 +9548,166 @@
         "rp": 2,
         "ip": 1,
         "bp": 40
+    },
+    {
+        "name": "Bane Phage Sacrarium",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 3,
+        "brp": 3
+    },
+    {
+        "name": "Bane Phage Sacrarium v2",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 5,
+        "brp": 3
+    },
+    {
+        "name": "Bane Phage Sacrarium v3",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 6,
+        "brp": 5
+    },
+    {
+        "name": "Bane Phage Sacrarium v4",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 5,
+        "rp": 6,
+        "brp": 7
+    },
+    {
+        "name": "Chuhn Reclamation Drone",
+        "size": 0,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "bmp": 5,
+        "mps": 2200,
+        "ap": 2,
+        "aps": 2200
+    },
+    {
+        "name": "Covert BlackWatch",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "c": 888
+    },
+    {
+        "name": "Cross-Signal Restrainer",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "bc": 30
+    },
+    {
+        "name": "Dark Phage Entity",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 2,
+        "bap": 2,
+        "brp": 2,
+        "bip": 2,
+        "bp": -66,
+        "ic": 3
+    },
+    {
+        "name": "Drannik Holo-Sanctum",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "rps": 444,
+        "ip": 1
+    },
+    {
+        "name": "Elios Soletta",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 3,
+        "ap": 1
+    },
+    {
+        "name": "Elios Soletta v2",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 4,
+        "ap": 1
+    },
+    {
+        "name": "Elios Soletta v3",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 5,
+        "ap": 2
+    },
+    {
+        "name": "Elios Soletta v4",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 6,
+        "ap": 3
+    },
+    {
+        "name": "Exotic Miners Guildhall",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "bmp": 6,
+        "ip": 1
+    },
+    {
+        "name": "Klorvis Shroud Generator",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": true,
+        "rp": 1,
+        "c": 200
+    },
+    {
+        "name": "Klorvis Troop Gateway",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "at": 750,
+        "d": 750
     }
 ]

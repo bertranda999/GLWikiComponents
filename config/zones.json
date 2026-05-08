@@ -16,7 +16,7 @@
         ]
     },
     {
-        "name": "Genoform Surge (2026)",
+        "name": "Genoform Surge",
         "type": "Spacial Rupture",
         "influenceCost": "444",
         "desc": "A massive formless 'Entity' guards the spacial aperture, appearing to speak and negotiate with various influential powers",
@@ -39,7 +39,7 @@
         }
     },
     {
-        "name": "Lepus Cluster (2026)",
+        "name": "Lepus Cluster",
         "type": "Interphase Zone",
         "influenceCost": "222",
         "energy": "",

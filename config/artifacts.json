@@ -28,12 +28,13 @@
     {
         "name": "Energy Cube",
         "target": "Player",
-        "desc": "Fully recharges energy when used"
+        "desc": "Fully recharges energy when used",
+        "requiresConfirmation": "No"
     },
     {
         "name": "Quasi-Spacial Isolator",
         "target": "Your Planet",
-        "desc": "(Missing description - Creates an intense spacial distortion field around an<br>Average or smaller planet, expanding its size by 1.)"
+        "desc": "Creates an intense spacial distortion field around an<br>Average or smaller planet, expanding its size by 1.*"
     },
     {
         "name": "Labyrinth Sigil",
@@ -43,7 +44,7 @@
     {
         "name": "Consular Sigil",
         "target": "Player",
-        "desc": "(Missing description - Refreshes the timer for your 'Daily Reward' and 'Supporter Bonus'"
+        "desc": "*Refreshes the timer for your 'Daily Reward' and 'Supporter Bonus'"
     },
     {
         "name": "Data-Lab Archives",
@@ -984,7 +985,7 @@
     {
         "name": "Gallery of Records",
         "target": "Your Planet",
-        "desc": "(Missing description - Size 1, Artifact 2, Influence 1, Influence Storage 180, Artifact Storage 1800, planet must be Small or smaller)",
+        "desc": "Size 1, Artifact 2, Influence 1, Influence Storage 180, Artifact Storage 1800, planet must be Small or smaller*",
         "restrictions": [
             {
                 "type": "Size",
@@ -1018,7 +1019,7 @@
                 "max": "Very Small"
             }
         ],
-        "desc": "(Missing description - ''A special political zone for isolated regions.'' Permanently increases the target planet size by 2%. Can only be used on 'Very Small' (or smaller) planets that have Influence availability.)"
+        "desc": "<i>A special political zone for isolated regions.</i><br>Permanently increases the target planet size by 2%. Can only be used on 'Very Small' (or smaller) planets that have Influence availability.*"
     },
     {
         "name": "Forum of Realms",
@@ -1077,10 +1078,9 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "A.I. Emotion Core",
         "target": "Your Planet",
-        "desc": "<font color=\"pink\"[ Limited Item - Valentines Day ]</font><br><font color=\"blue\"[ Planet Structure - Size:1, Artifact:1, Research:2, Attack:500 ]</font><br>Constructs an A.I. Emotion Core on your planet. (limit 1)",
+        "desc": "<font color=\"pink\">[ Limited Item - Valentines Day ]</font><br><font color=\"blue\"[ Planet Structure - Size:1, Artifact:1, Research:2, Attack:500 ]</font><br>Constructs an A.I. Emotion Core on your planet. (limit 1)",
         "img": "qpulsex.png",
         "buttonText": "Build",
         "share": "No",
@@ -1101,7 +1101,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Abysmal Rift Trap",
         "target": "Your Planet",
         "img": "hatch1.png",
@@ -1128,7 +1127,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Adaptive Spire",
         "img": "biospire.gif",
         "desc": "<font color=\"blue\">[ Planet Structure - Size:1 ]</font><br>A strange reactive structure that adapts to the planet environment.<br>Provides a resource bonus based on the type of planet it is placed on. (Limit 2 per planet)",
@@ -1218,7 +1216,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Adumbrate Junction",
         "target": "Your Planet",
         "desc": "<font color=\"blue\">[ Planet Structure - Size:1, Artifact:1, Research:3, Cloak:+18% ]</font><br>Constructs an Adumbrate Junction on your planet.<br>Can only be built on planets with an existing 'Adumbrate Station'.<br>(limit 2 per planet)",
@@ -1280,7 +1277,7 @@
             {
                 "type": "Upgrade Structure",
                 "original": "Adumbrate Station",
-                "new": "Adumbrate Station (Upgraded)"
+                "new": "Adumbrate Station (Doubled)"
             }
         ]
     },
@@ -2052,7 +2049,6 @@
         "send": "No"
     },
     {
-        "type": "Artifact",
         "name": "Bane Dark-Kiln",
         "description": "<font color=\"yellow\">[ Limited Item - Halloween ]</font><<font color=\"blue\">[ Planet Structure - Size: 0, Mining: 3, Artifact: 1, Cloak: 666 ]</font><br>Planet must have 5+ Bane Structures to build<br>Can be upgraded with Aeon and 6+ structures. Limit 1",
         "buttonText": "Build",
@@ -2085,7 +2081,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Bane Generator XV",
         "description": "<font color=\"yellow\">[ Limited Item - Halloween ]</font><font color=\"blue\">[ Planet Structure - Size: 2, Mining: 19, Artifact: 8, Attack: 120k, Cloak: 2200 ]</font><br>Installs a Bane Generator XV on your planet.<br>Limit 1 per planet.",
         "share": "No",
@@ -2111,7 +2106,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Bane HyperShroud IX Upgrade",
         "description": "<font color=\"yellow\">[ Limited Item - Halloween ]</font><br>Upgrades a Bane HyperShroud VIII to a Bane HyperShroud IX,<br>increasing its cloak by 566, reducing 'Infusion' cooldown<br>by 4 hours, and boosting its effect +22/+1000 max",
         "img": "bhypershroud9.gif",
@@ -2135,7 +2129,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Bane Ritual Mask",
         "description": "<font color=\"yellow\">[ Limited Item - Halloween ]</font><br>Upgrades an existing Bane Psybeacon (up to Mark 6)<br>or Bane Psyshade Arsenal (up to Mark 5),<br>bypassing any requirements and costs.",
         "target": "Your Planet",
@@ -2202,7 +2195,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Carjean Scatterlauncher",
         "scrap": {
             "type": "relic",
@@ -2402,7 +2394,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Chuhn Salvage Arm V10 Upgrade",
         "target": "Player",
         "buttonText": "Use",
@@ -2434,7 +2425,6 @@
         "target": "Player"
     },
     {
-        "type": "Artifact",
         "name": "Cryo-Foundry Battery",
         "desc": "[ Planet Structure - Size:0 ]<br><br>Increases Artifact production by 1%.<br>If placed on an icy planet, its bonuses double.<br>Limit 1 per planet",
         "img": "cryobat1.png",
@@ -2639,13 +2629,6 @@
         ]
     },
     {
-        "type": "Artifact",
-        "name": "Energy Cube",
-        "requiresConfirmation": "No",
-        "target": "Player"
-    },
-    {
-        "type": "Artifact",
         "name": "Infinity Capsule",
         "desc": "<i>An intricate connection of tesseract points, the<br>capsule's design can store a massive amount of cargo.</i><br>Adds 50k cargo to your ship.",
         "img": "infinitycargo1.png",
@@ -2669,7 +2652,6 @@
         "send": "false"
     },
     {
-        "type": "Artifact",
         "name": "Mark of Twilight",
         "desc": "[ Temporary Item - Legion Mission ]<br>Places a Mark of Twilight on a disabled enemy base.<br>Can only use if you have successfully raided this target.",
         "img": "darmprobe1.png",
@@ -2712,7 +2694,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Sentarch Mind-Drones",
         "desc": "[ Planet Structure - Size:0, Influence:1, Research:2 ]<br><br>Planet must be Machine, Metallic, or Ecumenopolis. Limit 2 Sentarch Drones per planet",
         "img": "sdrones1.png",
@@ -2773,7 +2754,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Tribute of the Ancients XII",
         "desc": "Permanently increases the artifact output of a planet by 1,<br>up to a maximum of 13x Mega Rich.",
         "img": "gift-2.png",
@@ -2807,7 +2787,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Tribute of the Elements XII",
         "desc": "Permanently increases the mining output of a planet by 1,<br>up to a maximum of 13x Mega Rich.",
         "img": "gift-3.png",
@@ -2841,7 +2820,6 @@
         ]
     },
     {
-        "type": "Artifact",
         "name": "Tribute of the Void XII",
         "desc": "Permanently increases the passive cloak of a planet by 150,<br>up to a maximum of 1700.",
         "img": "gift-4.png",
@@ -2983,7 +2961,7 @@
         "planetEffectsConditional": [
             {
                 "type": "Construct Structure",
-                "structure": "Void-Field Enclave (Triple)",
+                "structure": "Void-Field Enclave (Tripled)",
                 "conditions": [
                     {
                         "type": "Size",
@@ -2993,7 +2971,7 @@
             },
             {
                 "type": "Construct Structure",
-                "structure": "Void-Field Enclave (Double)",
+                "structure": "Void-Field Enclave (Doubled)",
                 "conditions": [
                     {
                         "type": "Size",
@@ -3388,7 +3366,7 @@
         "planetEffectsConditional": [
             {
                 "type": "Construct Structure",
-                "structure": "Luring Cynosure (Improved)",
+                "structure": "Luring Cynosure (Upgraded)",
                 "conditions": [
                     {
                         "type": "Active Event",
@@ -4371,7 +4349,7 @@
         "planetEffectsRandom": [
             {
                 "type": "Construct Structure",
-                "structure": "Auric Lepus Bio-Nest 1"
+                "structure": "Auric Lepus Bio-Nest (1)"
             }
         ],
         "tags": [
@@ -4502,7 +4480,7 @@
         "planetEffectsConditional": [
             {
                 "type": "Construct Structure",
-                "structure": "Bane Dark-Infernum (Improved)",
+                "structure": "Bane Dark-Infernum (Upgraded)",
                 "conditions": [
                     {
                         "type": "Existing Structures",
@@ -4532,15 +4510,15 @@
         "planetEffectsRandom": [
             {
                 "type": "Construct Structure",
-                "structure": "Bane Doom Silo 1"
+                "structure": "Bane Doom Silo (1)"
             },
             {
                 "type": "Construct Structure",
-                "structure": "Bane Doom Silo 2"
+                "structure": "Bane Doom Silo (2)"
             },
             {
                 "type": "Construct Structure",
-                "structure": "Bane Doom Silo 3"
+                "structure": "Bane Doom Silo (3)"
             }
         ],
         "tags": [
@@ -5998,7 +5976,7 @@
         "planetEffectsConditional": [
             {
                 "type": "Construct Structure",
-                "structure": "Covert Legation (Upgraded)",
+                "structure": "Covert Legation II",
                 "conditions": [
                     {
                         "type": "Size",
@@ -6471,7 +6449,7 @@
         "planetEffectsConditional": [
             {
                 "type": "Construct Structure",
-                "structure": "DM79 Datacenter (Improved)",
+                "structure": "DM79 Datacenter (Upgraded)",
                 "conditions": [
                     {
                         "type": "Not Type",
@@ -7478,7 +7456,7 @@
         "planetEffectsConditional": [
             {
                 "type": "Construct Structure",
-                "structure": "Gauss Chain (Doubled)",
+                "structure": "Gauss Chain II",
                 "conditions": [
                     {
                         "type": "Owned Planets",
@@ -7862,7 +7840,7 @@
             {
                 "type": "Upgrade Structure",
                 "original": "Elios Core Mine",
-                "new": "Elios Core Mind (Upgraded)",
+                "new": "Elios Core Mine (Upgraded)",
                 "message": "The Elios Core Mine has been upgraded."
             }
         ]
@@ -10294,5 +10272,30 @@
                 "upgradeMessage": "The VARA Interface has been upgraded"
             }
         ]
+    },
+    {
+        "name": "Epigenetic Propagator",
+        "scrap": {
+            "type": "cr",
+            "min": "27,000",
+            "max": "108,000"
+        },
+        "img": "epgene1.png",
+        "tags": [
+            "Genoform Surge"
+        ],
+        "desc": "[ Limited Item - Late Spring ]<br>Can only be used on a friend or legion member.<br>Reduces their 'Grow Evolution Genes' cooldown by 6% for 30 hours.",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "531"
+        },
+        "playerEffects": [
+            {
+                "type": "Decrease Grow Genes Cooldown",
+                "value": "6%",
+                "duration": "30 hours"
+            }
+        ],
+        "target": "Friend"
     }
 ]

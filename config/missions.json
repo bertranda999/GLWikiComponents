@@ -240,5 +240,52 @@
                 "character": "In time. I would not be surprised if such an incident occurred again... given our frequency of such experiments. Perhaps we will meet again."
             }
         ]
+    },
+    {
+        "name": "Ascendancy Directives",
+        "desc": "Your deeds have garnered the attention of some Galactic power brokers... ones that may help expand our influence. I have scheduled an audience with leaders of these factions: see what they have to offer.",
+        "charImage": "Race",
+        "icon": "missions/adirectives1.jpg",
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "message": "You continue to seek audience with influential leaders..."
+            }
+        ],
+        "completions": "101",
+        "daily": "Yes",
+        "roundReward": {
+            "xp": "900"
+        },
+        "completionReward": {
+            "message": "You have established relations with influential leaders...",
+            "artifact": "Ascendant Charter"
+        },
+        "cost": {
+            "Energy": "1,100",
+            "Relic Badges": "1"
+        },
+        "dialogue": [
+            {
+                "character": "Many of these leaders have Seats on Galactic councils. Some are powerful lobbyists. It is time that we garner some of this power.",
+                "player": "I already have a great deal of planetary might, and allies."
+            },
+            {
+                "character": "That may be true, but we need Galactic influence... strong enough to shape the will of governments. Power that does not come from your factories and labs alone.",
+                "player": "I've met with many such leaders before."
+            },
+            {
+                "character": "And you will do so again. It is time to establish new Charters on worlds ideal for gatherings among the Galactic populace.",
+                "player": "Such as?"
+            },
+            {
+                "character": "Lower gravity worlds are usually picked for this purpose, such as ones typically smaller. There are other candidates, as well.",
+                "player": "I'll see what I can find."
+            },
+            {
+                "character": "I'll prepare the schedule. Good luck."
+            }
+        ]
     }
 ]
