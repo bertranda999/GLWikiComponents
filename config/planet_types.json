@@ -4,5 +4,161 @@
         "smallest": "Very Tiny",
         "largestNatural": "Very Massive",
         "largest": "Very Massive"
+    },
+    {
+        "name": "Volcanic",
+        "smallest": "Tiny",
+        "largest": "Very Massive",
+        "largestNatural": "Very Large"
+    },
+    {
+        "name": "Gas",
+        "smallest": "Large",
+        "largest": "Very Massive",
+        "largestNatural": "Very Massive"
+    },
+    {
+        "name": "Desert",
+        "smallest": "Tiny",
+        "largest": "Very Large",
+        "largestNatural": "Very Massive"
+    },
+    {
+        "name": "Icy",
+        "largest": "Very Massive",
+        "largestNatural": "Very Large",
+        "smallest": "Tiny"
+    },
+    {
+        "name": "Toxic",
+        "largest": "Very Massive",
+        "largestNatural": "Very Large",
+        "smallest": "Tiny"
+    },
+    {
+        "largest": "Very Massive",
+        "largestNatural": "Very Massive",
+        "name": "Metallic",
+        "smallest": "Average"
+    },
+    {
+        "name": "Oceanic",
+        "largest": "Mega Colossal",
+        "largestNatural": "Very Massive",
+        "smallest": "Very Small"
+    },
+    {
+        "name": "Terra",
+        "largest": "Very Massive",
+        "largestNatural": "Very Large",
+        "smallest": "Small"
+    },
+    {
+        "name": "Exotic",
+        "largest": "Very Massive",
+        "largestNatural": "Very Massive",
+        "smallest": "Very Tiny"
+    },
+    {
+        "name": "Relic",
+        "largest": "Very Massive",
+        "largestNatural": "Very Massive",
+        "smallest": "Very Small"
+    },
+    {
+        "name": "Shattered",
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "smallest": "Average"
+    },
+    {
+        "largest": "Very Massive",
+        "largestNatural": "Very Large",
+        "name": "Aphotic",
+        "smallest": "Very Large"
+    },
+    {
+        "largest": "Very Massive",
+        "largestNatural": "Large",
+        "name": "Ecumenopolis",
+        "smallest": "Large"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "smallest": "Very Small",
+        "name": "Crystal"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "name": "Demon",
+        "smallest": "Very Small"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "name": "Irradiated",
+        "smallest": "Very Small"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "name": "Machine",
+        "smallest": "Large"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "name": "Plasma",
+        "smallest": "Very Large"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Large",
+        "name": "Prismatic",
+        "smallest": "Large"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "name": "Void",
+        "smallest": "Average"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Very Massive",
+        "name": "Gaia",
+        "smallest": "Small"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "name": "Luminous",
+        "smallest": "Tiny"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "name": "Sentient",
+        "smallest": "Tiny"
+    },
+    {
+        "largest": "Very Massive",
+        "largestNatural": "Very Large",
+        "name": "Chthonian",
+        "smallest": "Small"
+    },
+    {
+        "largest": "Mega Colossal",
+        "smallest": "Mega Colossal",
+        "largestNatural": "Mega Colossal",
+        "name": "Rift"
+    },
+    {
+        "largest": "Colossal",
+        "largestNatural": "Colossal",
+        "name": "Dyson",
+        "smallest": "Colossal"
     }
 ]

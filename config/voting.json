@@ -110,8 +110,8 @@
     {
         "name": "Suzerain Term Limits",
         "desc": "The Galactic Council wishes to propose new conditions for Suzerains to hold power within their Zonal areas",
-        "start": "5 Apr 2026",
-        "end": "12 Apr 2026",
+        "start": "5 May 2026",
+        "end": "12 May 2026",
         "effectDuration": "Permanent",
         "options": [
             {
@@ -131,5 +131,43 @@
             }
         ],
         "voteCooldown": "40 hours"
+    },
+    {
+        "name": "Chancellor Election",
+        "desc": "Allied Governments once again wish to elect a Galactic Chancellor to represent their shared interests, and advance the goals of the greater regions",
+        "start": "6 May 2026",
+        "end": "12 May 2026",
+        "effectDuration": "14 days",
+        "options": [
+            {
+                "name": "Ambassador Thelaru",
+                "effectDesc": "Increases Evolution Gene yields by 12% and reduces Genes cooldown by 12%, but reduces research production by 8%",
+                "race": "Aerlen",
+                "charDesc": "A career diplomat from icy Roathir, the Aerlen homeworld, Thelaru has brokered more treaties than any living ambassador, although they are on their 8th clone variant. Thelaru aims to prioritize genetic advancements by redirecting research resources.",
+                "img": "aliens/vaerlen1.png"
+            },
+            {
+                "name": "Warlord Krassak",
+                "effectDesc": "Expands all enemy rank ranges by 10%",
+                "race": "Konqul",
+                "charDesc": "Krassak rose through the Konqul military ranks by sheer force of will. He believes strength is the only language the galaxy understands, and he intends to speak it fluently.",
+                "img": "aliens/vkonqul1.png"
+            },
+            {
+                "name": "Director Vynn-7",
+                "effectDesc": "Increases all production by 1% for cybernetic races",
+                "race": "Vygoid",
+                "charDesc": "Once a Supreme Governor on Vygos, Vynn-7 has since overseen the optimization of the entire Mechanon Hyper-Network... though many of these new efficiencies can only be realized through cybernetic interfaces.",
+                "img": "aliens/vvygoid1.png"
+            },
+            {
+                "name": "Luminary Oreth",
+                "effectDesc": "Exotic Matter is 42% more common during mineral acquisition, but mineral storage is reduced by 15%",
+                "race": "Litheor",
+                "charDesc": "An ancient Litheor sage who has witnessed the rise and fall of empires. Oreth counsels patience and renewal, drawing on millennia of accumulated wisdom.",
+                "img": "aliens/vlitheor1.png"
+            }
+        ],
+        "voteCooldown": "24 hours"
     }
 ]
