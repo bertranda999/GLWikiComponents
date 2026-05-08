@@ -8630,7 +8630,7 @@
         "desc": "Complete 6 Daily Challenges, while 2 or more large Seasonal Events are affecting the Galaxy at the same time",
         "medalPoints": "12",
         "img": "synfusion5.jpg",
-        "artifact": "Synesthestic Fuse",
+        "artifact": "Synesthetic Fuse",
         "triggers": [
             {
                 "type": "Complete Daily Challenge"
