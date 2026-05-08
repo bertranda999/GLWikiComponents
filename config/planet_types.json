@@ -9,13 +9,15 @@
         "name": "Volcanic",
         "smallest": "Tiny",
         "largest": "Very Massive",
-        "largestNatural": "Very Large"
+        "largestNatural": "Very Large",
+        "hasSpecialImage": "Yes"
     },
     {
         "name": "Gas",
         "smallest": "Large",
         "largest": "Very Massive",
-        "largestNatural": "Very Massive"
+        "largestNatural": "Very Massive",
+        "hasSpecialImage": "Yes"
     },
     {
         "name": "Desert",
@@ -39,7 +41,8 @@
         "largest": "Very Massive",
         "largestNatural": "Very Massive",
         "name": "Metallic",
-        "smallest": "Average"
+        "smallest": "Average",
+        "hasSpecialImage": "Yes"
     },
     {
         "name": "Oceanic",
@@ -51,25 +54,29 @@
         "name": "Terra",
         "largest": "Very Massive",
         "largestNatural": "Very Large",
-        "smallest": "Small"
+        "smallest": "Small",
+        "hasSpecialImage": "Yes"
     },
     {
         "name": "Exotic",
         "largest": "Very Massive",
         "largestNatural": "Very Massive",
-        "smallest": "Very Tiny"
+        "smallest": "Very Tiny",
+        "hasSpecialImage": "Yes"
     },
     {
         "name": "Relic",
         "largest": "Very Massive",
         "largestNatural": "Very Massive",
-        "smallest": "Very Small"
+        "smallest": "Very Small",
+        "hasSpecialImage": "Yes"
     },
     {
         "name": "Shattered",
         "largest": "Colossal",
         "largestNatural": "Colossal",
-        "smallest": "Average"
+        "smallest": "Average",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Very Massive",
@@ -81,7 +88,8 @@
         "largest": "Very Massive",
         "largestNatural": "Large",
         "name": "Ecumenopolis",
-        "smallest": "Large"
+        "smallest": "Large",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Colossal",
@@ -93,7 +101,8 @@
         "largest": "Colossal",
         "largestNatural": "Colossal",
         "name": "Demon",
-        "smallest": "Very Small"
+        "smallest": "Very Small",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Colossal",
@@ -105,13 +114,15 @@
         "largest": "Colossal",
         "largestNatural": "Colossal",
         "name": "Machine",
-        "smallest": "Large"
+        "smallest": "Large",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Colossal",
         "largestNatural": "Colossal",
         "name": "Plasma",
-        "smallest": "Very Large"
+        "smallest": "Very Large",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Colossal",
@@ -123,19 +134,22 @@
         "largest": "Colossal",
         "largestNatural": "Colossal",
         "name": "Void",
-        "smallest": "Average"
+        "smallest": "Average",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Colossal",
         "largestNatural": "Very Massive",
         "name": "Gaia",
-        "smallest": "Small"
+        "smallest": "Small",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Colossal",
         "largestNatural": "Colossal",
         "name": "Luminous",
-        "smallest": "Tiny"
+        "smallest": "Tiny",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Colossal",
@@ -147,18 +161,21 @@
         "largest": "Very Massive",
         "largestNatural": "Very Large",
         "name": "Chthonian",
-        "smallest": "Small"
+        "smallest": "Small",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Mega Colossal",
         "smallest": "Mega Colossal",
         "largestNatural": "Mega Colossal",
-        "name": "Rift"
+        "name": "Rift",
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Colossal",
         "largestNatural": "Colossal",
         "name": "Dyson",
-        "smallest": "Colossal"
+        "smallest": "Colossal",
+        "hasSpecialImage": "Yes"
     }
 ]
