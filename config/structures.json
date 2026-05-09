@@ -9709,5 +9709,20 @@
         "extract": true,
         "at": 750,
         "d": 750
+    },
+    {
+        "name": "Portal of Legacies",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 4,
+        "ap": 1,
+        "bap": 4,
+        "rp": 3,
+        "brp": 4,
+        "ip": 1,
+        "bip": 4
     }
 ]

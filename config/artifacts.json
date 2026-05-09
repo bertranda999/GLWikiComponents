@@ -692,6 +692,12 @@
                 "type": "Size",
                 "max": "Average"
             }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Thavix-Snare"
+            }
         ]
     },
     {
@@ -870,7 +876,7 @@
         }
     },
     {
-        "name": "Portal of Lost Legacies",
+        "name": "Portal of Legacies",
         "target": "Your Planet",
         "restrictions": [
             {
@@ -881,6 +887,12 @@
         "tags": [
             "Anniversary",
             "Aperture"
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Portal of Legacies"
+            }
         ]
     },
     {
