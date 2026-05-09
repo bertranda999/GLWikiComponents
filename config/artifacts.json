@@ -2153,47 +2153,47 @@
         "planetEffectsRandom": [
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Bane Psybeacon",
-                "new": "Bane Psybeacon II"
+                "original": "Bane Psybeacon",
+                "new": "Bane Psybeacon - Mark II"
             },
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Bane Psybeacon II",
-                "new": "Bane Psybeacon III"
+                "original": "Bane Psybeacon - Mark II",
+                "new": "Bane Psybeacon - Mark III"
             },
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Bane Psybeacon III",
-                "new": "Bane Psybeacon IV"
+                "original": "Bane Psybeacon - Mark III",
+                "new": "Bane Psybeacon - Mark IV"
             },
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Bane Psybeacon IV",
-                "new": "Bane Psybeacon V"
+                "original": "Bane Psybeacon - Mark IV",
+                "new": "Bane Psybeacon - Mark V"
             },
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Bane Psybeacon V",
-                "new": "Bane Psybeacon VI"
+                "original": "Bane Psybeacon - Mark V",
+                "new": "Bane Psybeacon - Mark VI"
             },
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Psyshade Arsenal",
+                "original": "Psyshade Arsenal",
                 "new": "Psyshade Arsenal II"
             },
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Psyshade Arsenal II",
+                "original": "Psyshade Arsenal II",
                 "new": "Psyshade Arsenal III"
             },
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Psyshade Arsenal III",
+                "original": "Psyshade Arsenal III",
                 "new": "Psyshade Arsenal IV"
             },
             {
                 "type": "Upgrade Structure",
-                "oldStructure": "Psyshade Arsenal IV",
+                "original": "Psyshade Arsenal IV",
                 "new": "Psyshade Arsenal V"
             }
         ],
@@ -4629,7 +4629,7 @@
         "planetEffects": [
             {
                 "type": "Construct Structure",
-                "structure": "Bane Psyshade Arsenal"
+                "structure": "Psyshade Arsenal"
             }
         ],
         "tags": [
@@ -8492,11 +8492,11 @@
         "planetEffectsChoice": [
             {
                 "type": "Construct Structure",
-                "structure": "Litheor Core-Tunnel (Size 1)"
+                "structure": "Litheor Core-Tunnel (1)"
             },
             {
                 "type": "Construct Structure",
-                "structure": "Litheor Core-Tunnel (Size 2)"
+                "structure": "Litheor Core-Tunnel (2)"
             }
         ],
         "tags": [
@@ -8532,11 +8532,13 @@
         "planetEffectsRandom": [
             {
                 "type": "Upgrade Structure",
-                "original": "Litheor Core-Tunnel (Size 1)"
+                "original": "Litheor Core-Tunnel (1)",
+                "new": "Litheor Core-Tunnel Shrine (1)"
             },
             {
                 "type": "Upgrade Structure",
-                "original": "Litheor Core-Tunnel (Size 2)"
+                "original": "Litheor Core-Tunnel (2)",
+                "new": "Litheor Core-Tunnel Shrine (2)"
             }
         ]
     },
