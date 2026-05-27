@@ -170,7 +170,7 @@ for (name, ally) in allies.items():
                 elif effect['type'] == "Decrease Grow Genes Cooldown":
                     genesEffects.append(("Cooldown", "Ally", name, effect['value'], "-"))
                 elif effect['type'] == "Reduce Council Cost":
-                    councilToolData['costMods'].append({"name": name, "value": effect['value']})
+                    councilToolData['costMods'].append({"name": name, "value": float(effect['value'].replace("%", ""))})
 
 for (name, talent) in talents.items():
     if 'playerEffects' in talent:
@@ -262,7 +262,7 @@ for level in galacticCouncil:
             artifacts[councilor['reward']]['sources']['council'].append((councilor, councilor['min'] if 'min' in councilor else 1, councilor['max'] if 'max' in councilor else 1))
 
 
-for seasonal in seasonals:
+for (name, seasonal) in seasonals.items():
     if 'playerEffects' in seasonal:
         for effect in seasonal['playerEffects']:
             if effect['type'] == "Reduce Council Cost":
