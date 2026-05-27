@@ -170,7 +170,7 @@ for (name, ally) in allies.items():
                 elif effect['type'] == "Decrease Grow Genes Cooldown":
                     genesEffects.append(("Cooldown", "Ally", name, effect['value'], "-"))
                 elif effect['type'] == "Reduce Council Cost":
-                    councilToolData['costMods'].append((name, effect['value']))
+                    councilToolData['costMods'].append({"name": name, "value": effect['value']})
 
 for (name, talent) in talents.items():
     if 'playerEffects' in talent:
