@@ -130,7 +130,8 @@
                 "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"currentColor\"><path d=\"M313.4 479.1c26-5.2 42.9-30.5 37.7-56.5l-2.3-11.4c-5.3-26.7-15.1-52.1-28.8-75.2l144 0c26.5 0 48-21.5 48-48c0-18.5-10.5-34.6-25.9-42.6C497 236.6 504 223.1 504 208c0-23.4-16.8-42.9-38.9-47.1c4.4-7.3 6.9-15.8 6.9-24.9c0-21.3-13.9-39.4-33.1-45.6c.7-3.3 1.1-6.8 1.1-10.4c0-26.5-21.5-48-48-48l-97.5 0c-19 0-37.5 5.6-53.3 16.1L202.7 73.8C176 91.6 160 121.6 160 153.7l0 38.3 0 48 0 24.9c0 29.2 13.3 56.7 36 75l7.4 5.9c26.5 21.2 44.6 51 51.2 84.2l2.3 11.4c5.2 26 30.5 42.9 56.5 37.7zM32 384l64 0c17.7 0 32-14.3 32-32l0-224c0-17.7-14.3-32-32-32L32 96C14.3 96 0 110.3 0 128L0 352c0 17.7 14.3 32 32 32z\"></path></svg>"
             }
         ],
-        "voteCooldown": "40 hours"
+        "voteCooldown": "40 hours",
+        "winner": "Restrict Suzerains"
     },
     {
         "name": "Chancellor Election",
@@ -144,7 +145,17 @@
                 "effectDesc": "Increases Evolution Gene yields by 12% and reduces Genes cooldown by 12%, but reduces research production by 8%",
                 "race": "Aerlen",
                 "charDesc": "A career diplomat from icy Roathir, the Aerlen homeworld, Thelaru has brokered more treaties than any living ambassador, although they are on their 8th clone variant. Thelaru aims to prioritize genetic advancements by redirecting research resources.",
-                "img": "aliens/vaerlen1.png"
+                "img": "aliens/vaerlen1.png",
+                "playerEffects": [
+                    {
+                        "type": "Increase Genes Production",
+                        "value": "12%"
+                    },
+                    {
+                        "type": "Decrease Grow Genes Cooldown",
+                        "value": "12%"
+                    }
+                ]
             },
             {
                 "name": "Warlord Krassak",
@@ -168,6 +179,88 @@
                 "img": "aliens/vlitheor1.png"
             }
         ],
-        "voteCooldown": "24 hours"
+        "voteCooldown": "24 hours",
+        "winner": "Ambassador Thelaru"
+    },
+    {
+        "name": "VTP-5 Mutagen",
+        "seasonal": "Genoform",
+        "desc": "Due to the Genoform Surge, a particularly virulent strain of VTP is spreading between numerous colonies and trading hubs. Quarantine protocols have been initiated, but even stricter measures must be taken to combat this novel variant, as even some Genetic Vaults have been affected.",
+        "effectDuration": "14 days",
+        "end": "17 May 2026",
+        "failure": "Reduces all Gene Yields by 10%",
+        "failurePlayerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "-10%"
+            }
+        ],
+        "options": [
+            {
+                "name": "Hasten Cure",
+                "effectDesc": "Decreases Evolution Gene cooldown by 11%, but Reduces Research storage by 8%",
+                "lore": "Coordinates Research Labs to devote a larger portion of their computational resources to quickening development of a treatment for the current VTP variant",
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 3h6\"></path><path d=\"M10 3v6L4.5 19a2 2 0 0 0 1.7 3h11.6a2 2 0 0 0 1.7-3L14 9V3\"></path><path d=\"M7 14h10\"></path></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Decrease Grow Genes Cooldown",
+                        "value": "11%"
+                    }
+                ]
+            },
+            {
+                "name": "Purge Gene Vaults",
+                "effectDesc": "Increases all production by 2%, but decreases Evolution Gene yields by 6%",
+                "lore": "Instructs the vast number of Gene Vaults to purge and repurpose their genetic material, reusing the rich biomass towards other productive means",
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 15c6.667-6 13.333 0 20-6\"></path><path d=\"M9 22c1.798-1.998 2.518-3.995 2.807-5.993\"></path><path d=\"M15 2c-1.798 1.998-2.518 3.995-2.807 5.993\"></path><path d=\"m17 6-2.891-2.891\"></path><path d=\"m20 9 .891.891\"></path><path d=\"M3.109 14.109 4 15\"></path><path d=\"m7 18 2.891 2.891\"></path><path d=\"m6.5 12.5 1 1\"></path><path d=\"m10 16 1.5 1.5\"></path><path d=\"m14 8-1.5-1.5\"></path><path d=\"m16.5 10.5 1 1\"></path></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Genes Production",
+                        "value": "-6%"
+                    }
+                ]
+            },
+            {
+                "name": "Expand Quarantine",
+                "effectDesc": "Increases Influence Storage by 10%, but decreases Influence Production by 10%",
+                "lore": "Restricts non-essential travel and isolates population centers for the duration of the outbreak",
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 4C7 4 2.7 7.1 1 12c1.7 4.9 6 8 11 8s9.3-3.1 11-8c-1.7-4.9-6-8-11-8zm0 13c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z\"></path><circle cx=\"12\" cy=\"12\" r=\"2.5\"></circle></svg>"
+            }
+        ],
+        "start": "10 May 2026",
+        "voteCooldown": "24 hours",
+        "votesRequired": "2,100",
+        "winner": "Hasten Cure"
+    },
+    {
+        "name": "Galakis Trading Guilds",
+        "start": "20 May 2026",
+        "desc": "The Galakis Trading League wishes to expand its charter to include new guilds, and has room to take on routes for one new member currently. 4 guilds currently vie for consideration...",
+        "effectDuration": "12 days",
+        "end": "27 May 2026",
+        "voteCooldown": "24 hours",
+        "votesRequired": "2,000",
+        "options": [
+            {
+                "name": "Foundry Guild",
+                "effectDesc": "Increases production by 2% for Foundry Guild professions<br>Bonus Restricted to: Builder, Miner, Fixer, Guard",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9,5V10C13.03,12.47 8.44,14.97 6,16V19H21V16C14.59,13.27 17.47,9 22,8V5H9M2,6C2.81,8.13 4.42,9.5 7,10V6H2Z\"></path></svg>"
+            },
+            {
+                "name": "Shadows Guild",
+                "effectDesc": "Increases production by 2% for Shadows Guild professions<br>Bonus Restricted to: Hacker, Spy, Saboteur, Raider",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M21,13C21,17.97 16.97,22 12,22C7.03,22 3,17.97 3,13L3.03,4.43C5.68,2.88 8.76,2 12.05,2C15.3,2 18.36,2.87 21,4.38V13M13,19.93C16.39,19.44 19,16.5 19,13V5.59C16.9,4.57 14.54,4 12.05,4C9.5,4 7.08,4.6 4.94,5.66L5,13C5,16.5 7.63,19.44 11,19.93V18H13V19.93M11,16H8L6,13L9,14H10L11,13H13L14,14H15L18,13L16,16H13L12,15L11,16M6,9.03C6.64,8.4 7.5,8.05 8.5,8.05C9.45,8.05 10.34,8.4 11,9.03C10.34,9.65 9.45,10 8.5,10C7.5,10 6.64,9.65 6,9.03M13,9.03C13.64,8.4 14.5,8.05 15.5,8.05C16.45,8.05 17.34,8.4 18,9.03C17.34,9.65 16.45,10 15.5,10C14.5,10 13.64,9.65 13,9.03Z\"></path></svg>"
+            },
+            {
+                "name": "Magnates Guild",
+                "effectDesc": "Increases production by 2% for Magnates Guild professions<br>Bonus Restricted to: Diplomat, Mentor, Governor, Merchant",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M5,16L3,5L8.5,12L12,5L15.5,12L21,5L19,16H5M19,19C19,19.55 18.55,20 18,20H6C5.45,20 5,19.55 5,19V18H19V19Z\"></path></svg>"
+            },
+            {
+                "name": "Pathfinders Guild",
+                "effectDesc": "Increases production by 2% for Pathfinders Guild professions<br>Bonus Restricted to: Explorer, Biologist, Excavator, Physicist",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14.19,14.19L6,18L9.81,9.81L18,6M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,10.9C11.39,10.9 10.9,11.39 10.9,12C10.9,12.61 11.39,13.1 12,13.1C12.61,13.1 13.1,12.61 13.1,12C13.1,11.39 12.61,10.9 12,10.9Z\"></path></svg>"
+            }
+        ]
     }
 ]

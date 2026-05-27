@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Operation Shadow's Sleep",
+        "duration": "3 days",
+        "desc": "The Stryll Order seek to eliminate difficult 'targets' currently occupying various political posts, and would like to take advantage of our influential trust to gain unfettered access to these individuals.",
+        "rewardBadges": "6",
+        "dialogue": [
+            {
+                "speaker": "Stryll Representative",
+                "character": "We've come to call in a favor. One you greatly owe.",
+                "player": "Oh?"
+            },
+            {
+                "character": "Your influence has allowed you great privilege in accessing areas that even for us are... difficult.",
+                "player": "Where exactly are you needing help reaching?"
+            },
+            {
+                "character": "A number of highly secure targets. Ones within powerful leadership roles. We are being paid quite generously to... eliminate some of these figures.",
+                "player": "Even with our clout, such areas will be heavily monitored."
+            },
+            {
+                "character": "I'm sure you are talented enough to create a sufficient distraction... with enough time to reach the targets.",
+                "player": "How large of a distraction will this entail?"
+            },
+            {
+                "character": "10 of your ships should suffice.",
+                "player": "Alright..."
+            },
+            {
+                "character": "Of course... your team will need to carry out the kills themselves. Can't have this tracing back to our clients.",
+                "player": "We'll also expect to be paid... generously."
+            },
+            {
+                "character": "Just get it done."
+            }
+        ],
+        "tasks": [
+            {
+                "name": "Shadow's Diversion",
+                "desc": "Using our influential access, create convincing distractions that will allow the 'Sleeper' team to reach their targets undetected",
+                "requires": "Requires: Disable any Rare (or rarer) enemy.",
+                "triggers": [
+                    {
+                        "type": "Disable NPC"
+                    }
+                ],
+                "reward": {
+                    "xp": "420",
+                    "artifact": "Stryll Ghost-Uplink"
+                }
+            },
+            {
+                "name": "Eliminate Targets",
+                "desc": "Once diversions are prepared, this 'Sleeper' team will move stealthily to the targets and assassinate them.",
+                "requires": "Requires: Use an Assassination Contract on an Enemy Player",
+                "triggers": [
+                    {
+                        "type": "Use Artifact",
+                        "artifact": "Assassination Contract"
+                    }
+                ],
+                "reward": {
+                    "xp": "420",
+                    "artifact": "Stryll Shadow Decree"
+                }
+            }
+        ]
+    }
+]

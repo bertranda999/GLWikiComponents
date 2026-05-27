@@ -1,5 +1,32 @@
 [
     {
+        "name": "Abandoned Micrograv Armory",
+        "message": "The Armory begins working...",
+        "desc": "Boosts your damage cap (for a random damage type) by 12% for 4 hours",
+        "playerEffectsRandom": [
+            {
+                "type": "Increase NPC Damage Cap",
+                "value": "12%",
+                "duration": "20 hours"
+            }
+        ],
+        "cooldown": "20 hours",
+        "buttonText": "Armory Sources"
+    },
+    {
+        "name": "Archaic Debris Field",
+        "message": "",
+        "desc": "Extracts a random artifact from the debris field",
+        "cooldown": "6 days 16 hours",
+        "buttonText": "Debris Search",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Aeon Chronoprism"
+            }
+        ]
+    },
+    {
         "name": "Chuhn Orbital Freeport",
         "desc": "Trades 2 Aeon Badges for a random intergalactic artifact",
         "buttonText": "Freeport Trade",
@@ -29,12 +56,19 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "artifact": "Paradox Generator"
+                "artifact": "Paradox Generator",
+                "message": "You gain:1 Paradox Generator(Artifact)"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Planet Flux"
             }
         ],
         "cost": {
             "Blue Badges": "42"
-        }
+        },
+        "buttonText": "Cognisphere Revelation",
+        "cooldown": "2 days 8 hours"
     },
     {
         "name": "Convocation of Peace",
@@ -313,6 +347,21 @@
         ]
     },
     {
+        "name": "Site Repair",
+        "desc": "Removes the Nanosheared Drilling Site.<br>Costs 500 Energy and 500 Complex Tech Parts.",
+        "cost": {
+            "energy": "500",
+            "ctp": "500"
+        },
+        "buttonText": "Repair Damage",
+        "planetEffects": [
+            {
+                "type": "Remove Drilling Site"
+            }
+        ],
+        "textOnUse": "You successfully repair the damage from the Drilling Site."
+    },
+    {
         "name": "Streveldan Landing Site",
         "desc": "Trades 11 Evolution Genes for a random colony reward. Planet must have at least 3 Q-Pedd structures",
         "cooldown": "4 days",
@@ -360,6 +409,16 @@
         "textOnUse": "The Vassal brings a new challenge..."
     },
     {
+        "name": "Voltaic Maelstrom",
+        "desc": "Recharges your energy to full when used",
+        "buttonText": "Voltaic Tap",
+        "playerEffects": [
+            {
+                "type": "Refill Energy"
+            }
+        ]
+    },
+    {
         "name": "Will of the Dark Psion",
         "cooldown": "1 day",
         "desc": "Seek an audience with the Dark Psion and gain a new one-time mission. Costs 9 Green Badges",
@@ -402,7 +461,7 @@
         },
         "playerEffects": [
             {
-                "type": "Boost Gene Growth",
+                "type": "Increase Genes Production",
                 "value": "10%",
                 "duration": "40 hours"
             }

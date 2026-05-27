@@ -29,7 +29,14 @@
         "name": "Energy Cube",
         "target": "Player",
         "desc": "Fully recharges energy when used",
-        "requiresConfirmation": "No"
+        "requiresConfirmation": "No",
+        "playerEffects": [
+            {
+                "type": "Restore Energy"
+            }
+        ],
+        "buttonText": "Use",
+        "img": "energycube.png"
     },
     {
         "name": "Quasi-Spacial Isolator",
@@ -37,14 +44,116 @@
         "desc": "Creates an intense spacial distortion field around an<br>Average or smaller planet, expanding its size by 1.*"
     },
     {
-        "name": "Labyrinth Sigil",
-        "target": "Player",
-        "desc": "Starts a new Daily Challenge"
-    },
-    {
         "name": "Consular Sigil",
         "target": "Player",
-        "desc": "*Refreshes the timer for your 'Daily Reward' and 'Supporter Bonus'"
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "20"
+        },
+        "desc": "Refreshes the timer for your 'Daily Reward' and 'Supporter Bonus'",
+        "cost": {
+            "energy": "4.4k",
+            "influence": "4.4k"
+        },
+        "buttonText": "Use",
+        "img": "sigilciv1.png"
+    },
+    {
+        "name": "Containment Cage",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "3,000",
+            "max": "12,000"
+        },
+        "img": "cage.png",
+        "buttonText": "Use",
+        "desc": "Removes all harmful effects (except traps) from your ship",
+        "playerEffects": [
+            {
+                "type": "Remove Harmful Effects"
+            }
+        ]
+    },
+    {
+        "name": "Containment Missile",
+        "target": "Enemy Ship",
+        "scrap": {
+            "type": "cr",
+            "min": "4,250",
+            "max": "17,000"
+        },
+        "img": "missile.png",
+        "desc": "Removes most beneficial effects (except traps) from an enemy ship",
+        "buttonText": "Fire",
+        "enemyShipEffects": [
+            {
+                "type": "Remove Beneficial Effects"
+            }
+        ]
+    },
+    {
+        "name": "Continuum Beacon",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "25,000",
+            "max": "100,000"
+        },
+        "img": "ssbeacon.png",
+        "desc": "Increases the scanning capability of your ship by 15% for 1 hour",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "10"
+        },
+        "playerEffects": [
+            {
+                "type": "Increase Scan",
+                "value": "15%",
+                "duration": "1 hour"
+            }
+        ]
+    },
+    {
+        "name": "Continuum Parser",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "20",
+            "max": "40"
+        },
+        "img": "kritube.png",
+        "desc": "[ Special Module - Size:30, Scan:80, Cloak:80, Attack:80 ]<br>Installs a Continuum Parser on your ship.<br>Limit 4 per ship.",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Continuum Beacon"
+            }
+        ]
+    },
+    {
+        "name": "Continuum Parser Upgrade",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "11",
+            "max": "22"
+        },
+        "img": "kritube.png",
+        "desc": "Upgrades a Continuum Parser on your ship to<br>a Continuum Parser II, increasing all<br>bonuses by 40 without increasing its size.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Continuum Parser",
+                "new": "Continuum Parser Upgrade"
+            }
+        ]
     },
     {
         "name": "Data-Lab Archives",
@@ -60,11 +169,6 @@
         "name": "Relic Archives",
         "target": "Player",
         "desc": "Artifact site locations pulled from Galactic Council archives. Boosts Artifact Storage by 7% for 40 hours."
-    },
-    {
-        "name": "Gene Archives",
-        "target": "Player",
-        "desc": "Genetic records pulled from Galactic Council archives. Boosts Evolution Gene yields by 7% for 40 hours."
     },
     {
         "name": "Observatory Archives",
@@ -1029,9 +1133,30 @@
             {
                 "type": "Size",
                 "max": "Very Small"
+            },
+            {
+                "type": "Influence Availability",
+                "min": "Extremely Sparse"
             }
         ],
-        "desc": "<i>A special political zone for isolated regions.</i><br>Permanently increases the target planet size by 2%. Can only be used on 'Very Small' (or smaller) planets that have Influence availability.*"
+        "desc": "<i>A special political zone for isolated regions.</i><br> Permanently increases the target planet size by 2%.<br>Can only be used on 'Very Small' (or smaller)<br>planets that have Influence availability.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5.5k",
+            "influence": "5.5k",
+            "genes": "8"
+        },
+        "planetEffects": [
+            {
+                "type": "Increase Space",
+                "value": "2%"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        }
     },
     {
         "name": "Forum of Realms",
@@ -1045,7 +1170,7 @@
         "scrap": {
             "type": "ctp",
             "min": "2",
-            "max": "4"
+            "max": "5"
         },
         "desc": "[ Planet Structure - Size:1, Artifact:2, Mining:2, Research:2, Influence:1 ]<br>Planet must be Small size or smaller.<br>Boosts all production by 2%.<br>Limit 1 per planet",
         "img": "galciv1.png",
@@ -1679,7 +1804,12 @@
                 "type": "Construct Structure",
                 "structure": "Anti-Grav Repulsor"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
     },
     {
         "name": "Antigrav Citadel",
@@ -1902,7 +2032,8 @@
                     {
                         "type": "Existing Structures",
                         "structures": [
-                            "Ardyne Transfer Conduit"
+                            "Ardyne Transfer Conduit",
+                            "Ardyne Transfer Conduit (Doubled)"
                         ]
                     }
                 ]
@@ -1934,6 +2065,10 @@
                         "ability": "Gateway Nexus Link"
                     }
                 ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Ardyne Transfer Conduit"
             }
         ]
     },
@@ -2431,10 +2566,43 @@
         ]
     },
     {
+        "name": "Crimson Force-Locks",
+        "scrap": {
+            "type": "cr",
+            "min": "25,000",
+            "max": "100,000"
+        },
+        "tags": [
+            "Crimson"
+        ],
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "30%",
+                "duration": "4 hours"
+            }
+        ],
+        "cmImmune": "Yes",
+        "img": "crimhullamp.png",
+        "buttonText": "Use",
+        "desc": "Greatly amplifies the intensity of weapon systems, increasing attack by 15% for 8 hours"
+    },
+    {
         "name": "Crimson Obelisk",
         "desc": "Magnifies the intensity of weapon systems, temporarily increasing attack by 10%",
         "img": "crimsonobelisk.png",
-        "target": "Player"
+        "target": "Player",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5"
+        },
+        "send": "Yes",
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        }
     },
     {
         "name": "Cryo-Foundry Battery",
@@ -2892,7 +3060,7 @@
     {
         "name": "Cosmic Base Crate",
         "img": "bsupplies2.png",
-        "desc": "The metal feels warm, unyielding, and imbued with a strange force...<br>A Cosmic crate, raided from a large, powerful base.<br>Contains a variety of random artifacts.",
+        "desc": "<i>The metal feels warm, unyielding, and imbued with a strange force...</i><br>A Cosmic crate, raided from a large, powerful base.<br>Contains a variety of random artifacts.",
         "share": "No",
         "send": "No",
         "playerEffectsRandom": [
@@ -2914,29 +3082,6 @@
             }
         ],
         "target": "Player"
-    },
-    {
-        "name": "Kinitar Disassembler",
-        "img": "kscrap1.png",
-        "scrap": {
-            "type": "ctp",
-            "min": "35",
-            "max": "70"
-        },
-        "target": "Player",
-        "share": "No",
-        "send": "No",
-        "desc": "A shifting, volatile salvaging device used by extragalactic machinists<br>Increases all scrapping yields by 8%<br>Lasts 40 hours",
-        "playerEffects": [
-            {
-                "type": "Increase Scrap Yield",
-                "Value": "8%",
-                "duration": "40 hours"
-            }
-        ],
-        "tags": [
-            "Chuhn"
-        ]
     },
     {
         "name": "Steward's Villa",
@@ -3098,7 +3243,12 @@
         ],
         "tags": [
             "Zolazin"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "18",
+            "max": "37"
+        }
     },
     {
         "name": "Xecti Brood-Nest",
@@ -3132,7 +3282,24 @@
         "target": "Your Planet",
         "tags": [
             "Stryll"
-        ]
+        ],
+        "cost": {
+            "energy": "8,888"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Stryll Ghost-Uplink"
+            }
+        ],
+        "desc": "[ Planet Structure - Size:2, Research:3, Influence:1, Cloak:1100 ]<br>Also boosts planetary cloak by 11%.<br>Planet must be 'Very Large' size or smaller.<br>Limit 1 per planet",
+        "buttonText": "Build",
+        "img": "stryllghost1.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "18",
+            "max": "37"
+        }
     },
     {
         "name": "Scruuge Calibration Plant",
@@ -3371,7 +3538,12 @@
                 "type": "Construct Structure",
                 "structure": "Assimilation Locus"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        }
     },
     {
         "name": "Luring Cynosure",
@@ -3463,7 +3635,20 @@
             "type": "cr",
             "min": "65,000",
             "max": "260,000"
-        }
+        },
+        "img": "consulate3.png",
+        "desc": "Upgrades an existing Argent Sector-Embassy<br>on your planet to a Argent Galactic-Embassy,<br>increasing research by +2, artifact by +2, and its population bonus to +80%.<br>Planet must be calm for 2+ years to use.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5.6k"
+        },
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Argent Sector-Embassy",
+                "new": "Argent Galactic-Embassy"
+            }
+        ]
     },
     {
         "name": "Omni-Weather Controller",
@@ -3645,26 +3830,6 @@
         "target": "Your Planet"
     },
     {
-        "name": "Isolation Bureau",
-        "planetEffectsConditional": [
-            {
-                "type": "Construct Structure",
-                "structure": "Isolation Bureau (Doubled)",
-                "conditions": [
-                    {
-                        "type": "Other Scanners",
-                        "max": "0"
-                    }
-                ]
-            },
-            {
-                "type": "Construct Structure",
-                "structure": "Isolation Bureau"
-            }
-        ],
-        "target": "Your Planet"
-    },
-    {
         "name": "Toxic Processing Plant",
         "planetEffectsConditional": [
             {
@@ -3780,54 +3945,6 @@
                     "Desert",
                     "Aphotic"
                 ]
-            }
-        ],
-        "target": "Your Planet"
-    },
-    {
-        "name": "Galakis Monument",
-        "planetEffectsConditional": [
-            {
-                "type": "Construct Structure",
-                "structure": "Galakis Monument (Doubled)",
-                "conditions": [
-                    {
-                        "type": "Active Event",
-                        "filters": [
-                            "Trading",
-                            "Festival",
-                            "Diplomatic"
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "Construct Structure",
-                "structure": "Galakis Monument"
-            }
-        ],
-        "target": "Your Planet"
-    },
-    {
-        "name": "Kaen MicroVault",
-        "planetEffectsConditional": [
-            {
-                "type": "Construct Structure",
-                "structure": "Kaen MicroVault (Doubled)",
-                "conditions": [
-                    {
-                        "type": "Active Event",
-                        "filters": [
-                            "Relics",
-                            "Archive",
-                            "Black Market"
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "Construct Structure",
-                "structure": "Kaen MicroVault"
             }
         ],
         "target": "Your Planet"
@@ -4096,12 +4213,27 @@
                     "Aphotic",
                     "Void"
                 ]
+            },
+            {
+                "type": "Influence Availability",
+                "max": "None"
             }
         ],
         "target": "Your Planet",
         "tags": [
             "Stryll"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        },
+        "img": "acharter7.png",
+        "desc": "<i>Establishes a special isolated Espionage operation</i><br>Increases the planet's influence by 2, and cloaking by 5%.<br>Can only be used on Barren, Aphotic or Void planets,<br>without any existing influence availability",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5.5k"
+        }
     },
     {
         "name": "Terraforming Device",
@@ -4295,7 +4427,12 @@
                 "type": "Construct Structure",
                 "structure": "Astrobiology Ward"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        }
     },
     {
         "name": "Aurelios Star-Plant",
@@ -4321,7 +4458,12 @@
         ],
         "tags": [
             "Elios"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Aurelios Voltarium",
@@ -4347,7 +4489,12 @@
         ],
         "tags": [
             "Elios"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Auric Lepus Bio-Nest",
@@ -4362,11 +4509,24 @@
             {
                 "type": "Construct Structure",
                 "structure": "Auric Lepus Bio-Nest (1)"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Auric Lepus Bio-Nest (2)"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Auric Lepus Bio-Nest (3)"
             }
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        }
     },
     {
         "name": "Auric Lepus Clone-Program Tank",
@@ -4437,7 +4597,7 @@
     },
     {
         "name": "Balphis Void Inverter",
-        "desc": "''The device hums loudly, as if waiting to be used...''<br>Transforms an Aphotic or Chthonian planet into a Void world,<br>enhancing its size by 1, artifact, mining, research by 2,<br>And boosting its passive cloak by 2900.",
+        "desc": "<i>The device hums loudly, as if waiting to be used...</i><br>Transforms an Aphotic or Chthonian planet into a Void world,<br>enhancing its size by 1, artifact, mining, research by 2,<br>And boosting its passive cloak by 2900.",
         "target": "Your Planet",
         "buttonText": "Use",
         "img": "balphisvoid1.png",
@@ -4535,7 +4695,253 @@
         ],
         "tags": [
             "Bane"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
+    },
+    {
+        "name": "Bane Emission Corruptor",
+        "playerEffectsRandom": [
+            {
+                "type": "Change Module",
+                "original": "Bane Emitter",
+                "new": "Charged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Charged Bane Emitter",
+                "new": "Overcharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Overcharged Bane Emitter",
+                "new": "Hypercharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Hypercharged Bane Emitter",
+                "new": "Megacharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Megacharged Bane Emitter",
+                "new": "Terrorcharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Terrorcharged Bane Emitter",
+                "new": "Horrorcharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Horrorcharged Bane Emitter",
+                "new": "Dreadcharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Dreadcharged Bane Emitter",
+                "new": "Vilecharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Vilecharged Bane Emitter",
+                "new": "Foulcharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Foulcharged Bane Emitter",
+                "new": "Wrathcharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Wrathcharged Bane Emitter",
+                "new": "Darkcharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Darkcharged Bane Emitter",
+                "new": "Paincharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Paincharged Bane Emitter",
+                "new": "Frightcharged Bane Emitter"
+            },
+            {
+                "type": "Change Module",
+                "original": "Frightcharged Bane Emitter",
+                "new": "Hellcharged Bane Emitter"
+            }
+        ],
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "6,000",
+            "max": "24,000"
+        },
+        "img": "banecorrupt.png",
+        "tags": [
+            "Bane"
+        ],
+        "buttonText": "Use",
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades 1 Bane Emitter on your ship<br>(at random) to a more powerful version of its next type.<br>Each emitter can only be upgraded once in this way."
+    },
+    {
+        "name": "Bane Krow Probe - Type 1",
+        "target": "Player",
+        "tags": [
+            "Bane"
+        ],
+        "playerEffects": [
+            {
+                "type": "Deploy Structure",
+                "structure": "Bane Krow Probe - Type 1"
+            }
+        ],
+        "desc": "Activates the probe, which travels to one of your planets (at random).<br>Provides +1 artifact and occupies no space, but lowers<br>planetary defense by 5%.",
+        "img": "krowprobe.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        }
+    },
+    {
+        "name": "Bane Krow Probe - Type 2",
+        "target": "Player",
+        "tags": [
+            "Bane"
+        ],
+        "playerEffects": [
+            {
+                "type": "Deploy Structure",
+                "structure": "Bane Krow Probe - Type 2"
+            }
+        ],
+        "desc": "Activates the probe, which travels to one of your planets (at random).<br>Provides +1 mining/research and occupies no space, but lowers<br>planetary defense by 10%.",
+        "img": "krowprobe.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "750"
+        },
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        }
+    },
+    {
+        "name": "Bane Krow Probe - Type 3",
+        "target": "Player",
+        "tags": [
+            "Bane"
+        ],
+        "playerEffects": [
+            {
+                "type": "Deploy Structure",
+                "structure": "Bane Krow Probe - Type 3"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "desc": "Activates the probe, which travels to one of your planets (at random).<br>Provides +1 mining/research/artifact and occupies no space, but lowers<br>planetary defense by 15%.",
+        "img": "krowprobe.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1.5k"
+        }
+    },
+    {
+        "name": "Bane Dermal Infuser",
+        "scrap": {
+            "type": "cr",
+            "min": "6,000",
+            "max": "24,000"
+        },
+        "tags": [
+            "Bane"
+        ],
+        "target": "Player",
+        "img": "banecorrupt2.png",
+        "playerEffectsRandom": [
+            {
+                "type": "Change Module",
+                "original": "Shell of Bane",
+                "new": "Frame of Bane"
+            },
+            {
+                "type": "Change Module",
+                "original": "Frame of Bane",
+                "new": "Skin of Bane"
+            },
+            {
+                "type": "Change Module",
+                "original": "Skin of Bane",
+                "new": "Carapace of Bane"
+            },
+            {
+                "type": "Change Module",
+                "original": "Carapace of Bane",
+                "new": "Husk of Bane"
+            }
+        ],
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades 1 Bane Hull on your ship<br>(at random) to a more powerful version of its next type.<br>Each hull can only be upgraded once in this way.",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "1,000"
+        }
+    },
+    {
+        "name": "Carapace of Bane",
+        "img": "banehull2.png",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "11"
+        },
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Carapace of Bane"
+            }
+        ],
+        "buttonText": "Build",
+        "desc": "[ Limited Item - Halloween ][ Device - Size: 26, Cloak: 320, Hull: 800 ]<br>Installs a Carapace of Bane on your ship.<br>Limit 2 per ship."
+    },
+    {
+        "name": "Chaostatic Inhibitor",
+        "img": "inhibitor.png",
+        "target": "Enemy Ship",
+        "scrap": {
+            "type": "ctp",
+            "max": "4",
+            "min": "2"
+        },
+        "enemyShipEffects": [
+            {
+                "type": "Block Shield Recharge",
+                "duration": "4 hours"
+            }
+        ],
+        "desc": "Blocks the normal operation of shield harmonics,<br>significantly slowing an enemy's shield recharge for 4 hours.",
+        "buttonText": "Fire",
+        "cost": {
+            "energy": "5"
+        }
     },
     {
         "name": "Bane Nether-Seal",
@@ -4564,7 +4970,12 @@
         ],
         "tags": [
             "Bane"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
     },
     {
         "name": "Bane Phage Sacrarium",
@@ -4590,7 +5001,12 @@
         ],
         "tags": [
             "Bane"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "18"
+        }
     },
     {
         "name": "Bane Psybeacon",
@@ -4612,7 +5028,12 @@
         ],
         "tags": [
             "Bane"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Bane Psyshade Arsenal",
@@ -4634,7 +5055,12 @@
         ],
         "tags": [
             "Bane"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "16"
+        }
     },
     {
         "name": "Bane Quad-Phase Inhibitor",
@@ -4650,7 +5076,12 @@
         ],
         "tags": [
             "Bane"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        }
     },
     {
         "name": "Barrier Nexus",
@@ -4663,7 +5094,12 @@
                 "type": "Construct Structure",
                 "structure": "Barrier Nexus"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        }
     },
     {
         "name": "Bioship Gene Lab",
@@ -4680,6 +5116,36 @@
                 "type": "Construct Structure",
                 "structure": "Bioship Gene Lab 2"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        }
+    },
+    {
+        "name": "Bio-Con Signaling Adapter",
+        "scrap": {
+            "type": "cr",
+            "min": "24,500",
+            "max": "98,000"
+        },
+        "target": "Player",
+        "tags": [
+            "Lepus"
+        ],
+        "img": "biocon-sig1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "250"
+        },
+        "desc": "[ Limited Item - Easter ]<br>Upgrades a Bio-Con Controller Unit on your ship,<br>increasing its energy by 42,<br>adding 42 scanning capability,<br>and lowering ability cooldown by 4 hours",
+        "playerEffects": [
+            {
+                "type": "Upgrade Module",
+                "original": "Bio-Con Controller Unit",
+                "new": "Bio-Con Signaling Unit"
+            }
         ]
     },
     {
@@ -4693,7 +5159,12 @@
                 "type": "Construct Structure",
                 "structure": "Bioship Landing Platform"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        }
     },
     {
         "name": "Biosphere Gyre",
@@ -4724,7 +5195,12 @@
         ],
         "tags": [
             "Harvest"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        }
     },
     {
         "name": "Bralkir Altar",
@@ -4743,6 +5219,66 @@
         ],
         "tags": [
             "Bralkir"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
+        "name": "Bralkir Ritual Chamber",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "13"
+        },
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Bralkir Ritual Chamber",
+                "max": "500%"
+            }
+        ],
+        "desc": "[ Weapon - Size: 25, Attack: 50, Hull: 150, Invade: 100 ]<br>If this weapon is already installed on your ship, this will instead upgrade its stats by 50%, up to a max of 500%.",
+        "tags": [
+            "Bralkir"
+        ],
+        "buttonText": "Build",
+        "img": "bkchamber.png"
+    },
+    {
+        "name": "Bralkir Torture Probe",
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        },
+        "target": "Player",
+        "img": "bralgun.png",
+        "buttonText": "Use",
+        "desc": "Amplifies your weapons, boosting player attack<br>OR invasion by 8% (your choice).<br>This effect is immune to removal from other artifacts.<br>Lasts 2 hours.",
+        "cmImmune": "Yes",
+        "playerEffectsChoice": [
+            {
+                "playerEffects": [
+                    {
+                        "type": "Increase Invasion Attack",
+                        "value": "8%",
+                        "duration": "2 hours"
+                    }
+                ]
+            },
+            {
+                "playerEffects": [
+                    {
+                        "type": "Increase Player Attack",
+                        "value": "8%",
+                        "duration": "2 hours"
+                    }
+                ]
+            }
         ]
     },
     {
@@ -4763,7 +5299,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "15,000",
+            "max": "60,000"
+        }
     },
     {
         "name": "C-34 Fluxgate Upgrade",
@@ -4783,7 +5324,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "max": "60,000",
+            "min": "15,000"
+        }
     },
     {
         "name": "C-34 Hypergate Upgrade",
@@ -4803,7 +5349,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "max": "60,000",
+            "min": "15,000"
+        }
     },
     {
         "name": "C-34 Replication Upgrade v2021",
@@ -4823,16 +5374,6 @@
         "planetEffectsConditional": [
             {
                 "type": "Increase Production",
-                "value": "15%",
-                "conditions": [
-                    {
-                        "type": "Existing Effect",
-                        "effect": "Lepus Replication Node v2021 (1)"
-                    }
-                ]
-            },
-            {
-                "type": "Increase Production",
                 "value": "30%",
                 "conditions": [
                     {
@@ -4840,11 +5381,20 @@
                         "effect": "Lepus Replication Node v2021 (2)"
                     }
                 ]
+            },
+            {
+                "type": "Increase Production",
+                "value": "15%"
             }
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "max": "50,000",
+            "min": "12,500"
+        }
     },
     {
         "name": "C-34 Replication Upgrade v2022",
@@ -4885,7 +5435,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "max": "50,000",
+            "min": "12,500"
+        }
     },
     {
         "name": "C-34 Replication Upgrade v2023",
@@ -4926,7 +5481,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "max": "50,000",
+            "min": "12,500"
+        }
     },
     {
         "name": "C-34 Replication Upgrade v2024",
@@ -4967,7 +5527,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "max": "50,000",
+            "min": "12,500"
+        }
     },
     {
         "name": "C-34 Replication Upgrade v2025",
@@ -5008,7 +5573,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "max": "50,000",
+            "min": "12,500"
+        }
     },
     {
         "name": "C-34 Replication Upgrade v2026",
@@ -5049,7 +5619,33 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "max": "50,000",
+            "min": "12,500"
+        }
+    },
+    {
+        "name": "Calming Amplifier",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "desc": "Prevents your ship from being attacked,<br>but also prevents your ship from attacking. Lasts 4 hours.<br>This effect is immune to removal from enemy artifacts,<br>but will be removed if you perform any offensive actions against other players.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5"
+        },
+        "playerEffects": [
+            {
+                "type": "Calm",
+                "duration": "4 hours"
+            }
+        ],
+        "img": "pacify.png"
     },
     {
         "name": "Captured Crimson Base",
@@ -5084,7 +5680,12 @@
         ],
         "tags": [
             "Harvest"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "max": "5",
+            "min": "2"
+        }
     },
     {
         "name": "Captured T.O. Harvester XVI",
@@ -5103,7 +5704,12 @@
         ],
         "tags": [
             "Harvest"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "max": "5",
+            "min": "2"
+        }
     },
     {
         "name": "Caretaker's Villa",
@@ -5119,7 +5725,12 @@
                 "type": "Construct Structure",
                 "structure": "Caretaker's Villa"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Cerulean Flow Converter",
@@ -5135,7 +5746,12 @@
         ],
         "tags": [
             "Aerlen"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        }
     },
     {
         "name": "Cerulean Hyperstation",
@@ -5151,6 +5767,31 @@
         ],
         "tags": [
             "Aerlen"
+        ],
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        }
+    },
+    {
+        "name": "Cryobound Mandate",
+        "target": "Your Planet",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Icy"
+                ]
+            },
+            {
+                "type": "Influence Availability",
+                "max": "None"
+            },
+            {
+                "type": "Size",
+                "max": "Average"
+            }
         ]
     },
     {
@@ -5162,6 +5803,11 @@
         "cost": {
             "Energy": "4.4k",
             "Influence": "2.2k"
+        },
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
         },
         "restrictions": [
             {
@@ -5233,7 +5879,12 @@
             }
         ],
         "target": "Your Planet",
-        "img": "cprojectoid1.png"
+        "img": "cprojectoid1.png",
+        "scrap": {
+            "type": "cr",
+            "min": "12,000",
+            "max": "48,000"
+        }
     },
     {
         "name": "Chuhn Exo-Habitability Probe",
@@ -5266,13 +5917,18 @@
                 "value": "2%"
             },
             {
-                "type": "Image 6"
+                "type": "Special Image"
             }
         ],
         "img": "chuhndrone.gif",
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "14,000",
+            "max": "56,000"
+        }
     },
     {
         "name": "Chuhn Exo-Logistics Center",
@@ -5291,7 +5947,12 @@
         ],
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        }
     },
     {
         "name": "Chuhn Exo-Logistics Gridport Upgrade",
@@ -5311,7 +5972,12 @@
         ],
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "18",
+            "max": "36"
+        }
     },
     {
         "name": "Chuhn InterMarket Caster",
@@ -5336,7 +6002,12 @@
         ],
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "min": "8",
+            "max": "18",
+            "type": "ctp"
+        }
     },
     {
         "name": "Chuhn Prime Starline",
@@ -5365,7 +6036,12 @@
         ],
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "max": "18,000",
+            "min": "4,500",
+            "type": "cr"
+        }
     },
     {
         "name": "Chuhn Reclamation Drone",
@@ -5396,7 +6072,12 @@
         ],
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "34",
+            "max": "69"
+        }
     },
     {
         "name": "Chuhn Scrapyard",
@@ -5412,7 +6093,12 @@
         ],
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        }
     },
     {
         "name": "Chuhn Scrapyard Upgrade",
@@ -5432,7 +6118,12 @@
         ],
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        }
     },
     {
         "name": "Chuhn Shipyard",
@@ -5460,7 +6151,12 @@
         ],
         "tags": [
             "Chuhn"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "28",
+            "max": "58"
+        }
     },
     {
         "name": "Chuhn Star-Emporium",
@@ -5485,6 +6181,61 @@
         ],
         "tags": [
             "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
+        "name": "Chuhn Stem Bolts",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "tags": [
+            "Chuhn"
+        ],
+        "target": "Player",
+        "desc": "[ Limited Artifact - Late Summer ]<br>Stabilizes the hull of your ship with a collection of Stem Bolts.<br>Increases your hull integrity by 10% for 24 hours.",
+        "buttonText": "Use",
+        "img": "cstembolts.png",
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "10%",
+                "duration": "24 hours"
+            }
+        ]
+    },
+    {
+        "name": "Chuhn Timebox",
+        "target": "Player",
+        "tags": [
+            "Chuhn"
+        ],
+        "desc": "<i>One of a set of tributes from the Chuhn for recent time<br>anomalies affecting the Galaxy</i><br>Removes active timers for your invade, hack,<br>raid, and repair abilities, and grants 8 hours<br>of planetary production (capped by storage)",
+        "buttonText": "Use",
+        "img": "outagecrate.png",
+        "playerEffects": [
+            {
+                "type": "Grant All Resources",
+                "value": "8 hours"
+            },
+            {
+                "type": "Reset Invade Timer"
+            },
+            {
+                "type": "Reset Hack Timer"
+            },
+            {
+                "type": "Reset Raid Timer"
+            },
+            {
+                "type": "Reset Repair Timer"
+            }
         ]
     },
     {
@@ -5510,7 +6261,12 @@
         "tags": [
             "Chuhn"
         ],
-        "buttonText": "Use"
+        "buttonText": "Use",
+        "scrap": {
+            "type": "ctp",
+            "min": "15",
+            "max": "30"
+        }
     },
     {
         "name": "Chuhn Trading Post",
@@ -5539,7 +6295,12 @@
         "tags": [
             "Chuhn"
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        }
     },
     {
         "name": "Chuhn Trading Post Upgrade",
@@ -5564,7 +6325,12 @@
         "tags": [
             "Chuhn"
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "15",
+            "max": "30"
+        }
     },
     {
         "name": "Civicordium Charter",
@@ -5598,7 +6364,12 @@
         "tags": [
             "Civicordium"
         ],
-        "buttonText": "Use"
+        "buttonText": "Use",
+        "scrap": {
+            "type": "cr",
+            "min": "31,500",
+            "max": "126,000"
+        }
     },
     {
         "name": "Civicordium Platform",
@@ -5617,7 +6388,12 @@
                 "statMin": "2",
                 "min": "2"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "18"
+        }
     },
     {
         "name": "Cloning Pods",
@@ -5632,7 +6408,12 @@
                 "type": "Restore Population"
             }
         ],
-        "buttonText": "Use"
+        "buttonText": "Use",
+        "scrap": {
+            "type": "cr",
+            "min": "2,000",
+            "max": "8,000"
+        }
     },
     {
         "name": "Cognitor Forum",
@@ -5662,7 +6443,12 @@
             }
         ],
         "buttonText": "Build",
-        "desc": "[ Planet Structure - Size:3, Research:6, Artifact:3, Influence:2 ]<br>Also increases Research production by 8%.<br>Planet must be Ecumenopolis, Machine, or Relic:<br>of 'Large' size or smaller.<br>Limit 1"
+        "desc": "[ Planet Structure - Size:3, Research:6, Artifact:3, Influence:2 ]<br>Also increases Research production by 8%.<br>Planet must be Ecumenopolis, Machine, or Relic:<br>of 'Large' size or smaller.<br>Limit 1",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        }
     },
     {
         "name": "Cognizant Omniforge",
@@ -5678,7 +6464,12 @@
         "cost": {
             "Energy": "250"
         },
-        "buttonText": "Build"
+        "buttonText": "Build",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        }
     },
     {
         "name": "Commerce-Bound Decree",
@@ -5704,7 +6495,7 @@
             "Energy": "3.3k"
         },
         "img": "chuhntab1.png",
-        "desc": "Charters a unique Political area on Desert or Barren worlds<br>Increases the planet's influence by 4, and influence production by 10%.<br>Can only be used on Average (or smaller) planets,<br>without any existing influence availability",
+        "desc": "<i>Charters a unique Political area on Desert or Barren worlds</i><br>Increases the planet's influence by 4, and influence production by 10%.<br>Can only be used on Average (or smaller) planets,<br>without any existing influence availability",
         "planetEffects": [
             {
                 "type": "Increase Influence Availability",
@@ -5718,6 +6509,37 @@
         "buttonText": "Use",
         "tags": [
             "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        }
+    },
+    {
+        "name": "Concordant Catalyst",
+        "scrap": {
+            "type": "cr",
+            "min": "5,555",
+            "max": "22,200"
+        },
+        "target": "Player",
+        "desc": "<i>Subtly hums with undulating energy patterns...</i><br><br>Starts a random planetary event on a world that<br>has influence availability (if any are eligible)",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "420",
+            "influence": "2.2k"
+        },
+        "playerEffects": [
+            {
+                "type": "Start Planetary Event",
+                "restrictions": [
+                    {
+                        "type": "Influence Availability",
+                        "min": "ES"
+                    }
+                ]
+            }
         ]
     },
     {
@@ -5753,7 +6575,12 @@
         "buttonText": "Use",
         "tags": [
             "Crimson"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        }
     },
     {
         "name": "Conductor's Villa",
@@ -5784,7 +6611,12 @@
                 "type": "Construct Structure",
                 "structure": "Conductor's Villa"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Consensus of Fire",
@@ -5883,7 +6715,12 @@
                 "original": "Aurelios Voltarium",
                 "new": "Aurelios Voltarium II"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        }
     },
     {
         "name": "Corrupted Omen",
@@ -5909,7 +6746,12 @@
         "desc": "Starts a Corrupted Omen event on the planet,<br>boosting all production by 11% for 6 days.<br>The planet must have been attacked in the last month to use.",
         "tags": [
             "Corruption"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        }
     },
     {
         "name": "Court of Eternity",
@@ -5950,7 +6792,12 @@
                 "type": "Construct Structure",
                 "structure": "Counter-Intelligence Nexus"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
     },
     {
         "name": "Covert BlackWatch",
@@ -6010,6 +6857,38 @@
         "buttonText": "Build",
         "tags": [
             "Civicordium"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
+    },
+    {
+        "name": "Crate of Goridian Ale",
+        "target": "Player",
+        "img": "goridianale.png",
+        "scrap": {
+            "type": "em",
+            "min": "50",
+            "max": "100"
+        },
+        "tags": [
+            "Chuhn"
+        ],
+        "desc": "Heavily boosts crew morale, adding a 12% attack bonus<br>for 1 hour, but also lowers attack by 2% for 4 hours.",
+        "buttonText": "Open",
+        "playerEffects": [
+            {
+                "type": "Increase Attack",
+                "value": "12%",
+                "duration": "1 hour"
+            },
+            {
+                "type": "Increase Attack",
+                "value": "-2%",
+                "duration": "4 hours"
+            }
         ]
     },
     {
@@ -6026,7 +6905,37 @@
         ],
         "tags": [
             "Crimson"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        }
+    },
+    {
+        "name": "Crimson Amplifier",
+        "target": "Player",
+        "img": "crimsonamp.png",
+        "tags": [
+            "Crimson"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "45,000",
+            "max": "180,000"
+        },
+        "playerEffects": [
+            {
+                "type": "Increase Attack",
+                "value": "15%",
+                "duration": "8 hours"
+            }
+        ],
+        "desc": "Greatly amplifies the intensity of weapon systems, increasing attack by 15% for 8 hours",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5"
+        }
     },
     {
         "name": "Crimson Rift Aperture",
@@ -6058,7 +6967,12 @@
         ],
         "tags": [
             "Crimson"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
     },
     {
         "name": "Cross-Signal Restrainer",
@@ -6071,7 +6985,32 @@
                 "type": "Construct Structure",
                 "structure": "Cross-Signal Restrainer"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        }
+    },
+    {
+        "name": "Crux Amplifier",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "10,000",
+            "max": "40,000"
+        },
+        "img": "warcrux.png",
+        "cmImmune": "Yes",
+        "playerEffects": [
+            {
+                "type": "Increase Attack",
+                "value": "10%",
+                "duration": "12 hours"
+            }
+        ],
+        "desc": "Amplifies your weapon systems, boosting attack by 10%.<br>This effect is immune to removal from other artifacts.<br>Lasts 12 hours.",
+        "buttonText": "Use"
     },
     {
         "name": "Cryonic Xynapse",
@@ -6099,7 +7038,12 @@
                 "type": "Construct Structure",
                 "structure": "Cryonic Xynapse"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        }
     },
     {
         "name": "Custodian's Villa",
@@ -6128,7 +7072,12 @@
                 "type": "Construct Structure",
                 "structure": "Custodian's Villa"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Cygnusis AI-Core",
@@ -6161,7 +7110,12 @@
         },
         "tags": [
             "Harvest"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
     },
     {
         "name": "Dais of Deceit",
@@ -6189,7 +7143,12 @@
         ],
         "tags": [
             "Corruption"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        }
     },
     {
         "name": "Dark Anti-Beacon",
@@ -6200,6 +7159,52 @@
             {
                 "type": "Construct Structure",
                 "structure": "Dark Anti-Beacon"
+            }
+        ],
+        "target": "Your Planet",
+        "tags": [
+            "Dark Smugglers"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
+    },
+    {
+        "name": "Dark Eluder Matrix",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "img": "darkdef.png",
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Increase Base Defense",
+                "value": "10%",
+                "duration": "4 hours"
+            }
+        ],
+        "desc": "Complex firmware used to predict the attack vectors of bases.<br>Increases defense while fighting enemy bases by 10% for 4 hours."
+    },
+    {
+        "name": "Dark Null Beacon Upgrade",
+        "scrap": {
+            "max": "9",
+            "min": "4",
+            "type": "ctp"
+        },
+        "img": "darktower2.png",
+        "buttonText": "Use",
+        "desc": "Upgrades an existing Dark Anti-Beacon<br>on your planet to a Dark Null Beacon, doubling all of its bonuses.<br>The new structure will also provide a 10% defense bonus.",
+        "playerEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Dark Anti-Beacon",
+                "new": "Dark Null Beacon"
             }
         ],
         "target": "Your Planet",
@@ -6225,7 +7230,70 @@
         "target": "Your Planet",
         "tags": [
             "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "11",
+            "max": "23"
+        }
+    },
+    {
+        "name": "Dark Phase Engine",
+        "scrap": {
+            "max": "16",
+            "min": "8",
+            "type": "ctp"
+        },
+        "img": "darkphase.png",
+        "buttonText": "Build",
+        "desc": "[ Special Module - Size:20, Defense:150 ]<br>Installs a Dark Phase Engine on your ship.<br>Limit 4 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Dark Phase Engine"
+            }
+        ],
+        "target": "Player",
+        "tags": [
+            "Dark Smugglers"
         ]
+    },
+    {
+        "name": "Dark Pyramid",
+        "send": "Yes",
+        "scrap": {
+            "type": "cr",
+            "max": "7,000",
+            "min": "1,750"
+        },
+        "img": "darkpyramid.png",
+        "target": "Player",
+        "desc": "Temporarily increases your cloaking ability by 50",
+        "playerEffects": [
+            {
+                "type": "Increase Cloak",
+                "value": "50",
+                "duration": "10 hours",
+                "message": "Your ship is surrounded with dark energy"
+            }
+        ],
+        "buttonText": "Use"
+    },
+    {
+        "name": "Dark Smugglers Cache",
+        "tags": [
+            "Dark Smugglers"
+        ],
+        "playerEffects": [
+            {
+                "type": "Grant All Resources",
+                "value": "8 hours"
+            }
+        ],
+        "desc": "A large cache of data and goods of various types.<br>When opened, it grants 8 hours worth of planetary production,<br>not to exceed your planetary and rank capacity.",
+        "buttonText": "Open",
+        "target": "Player",
+        "img": "darkcrate.png"
     },
     {
         "name": "Dark Smugglers Vault",
@@ -6252,7 +7320,12 @@
         "target": "Your Planet",
         "tags": [
             "Dark Smugglers"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        }
     },
     {
         "name": "Dark Void Beacon Upgrade",
@@ -6272,6 +7345,75 @@
         "target": "Your Planet",
         "tags": [
             "Dark Smugglers"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        }
+    },
+    {
+        "name": "Dark Void Engine",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "13"
+        },
+        "target": "Player",
+        "img": "darkveng.gif",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Dark Void Engine"
+            }
+        ],
+        "desc": "[ Device - Size:25, Defense:250 ]<br>Activated Ability (with cooldown): 6% defense bonus for 1 hour.<br>Limit 4 per ship.",
+        "tags": [
+            "Dark Smugglers"
+        ]
+    },
+    {
+        "name": "Dark Void Foci",
+        "tags": [
+            "Dark Smugglers"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "buttonText": "Fire",
+        "desc": "Absorbs harmful energy from non-player enemy ships,<br>lowering their attack by 50% for 1 hour",
+        "enemyShipEffects": [
+            {
+                "type": "Decrease Attack",
+                "value": "50%",
+                "duration": "1 hour"
+            }
+        ],
+        "target": "Enemy Ship",
+        "img": "darkvoidfoci.png"
+    },
+    {
+        "name": "Darkcharged Bane Emitter",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "target": "Player",
+        "desc": "[ Limited Item - Halloween ][ Special Weapon - Size: 18, Attack: 310, Invasion: 310 ]<br>Installs a Darkcharged Bane Emitter on your ship. (limit 4 per ship)",
+        "buttonText": "Build",
+        "img": "banecannon10.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Darkcharged Bane Emitter"
+            }
         ]
     },
     {
@@ -6313,7 +7455,47 @@
         ],
         "tags": [
             "Bane"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        }
+    },
+    {
+        "name": "Darmos Champion's Seal",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        },
+        "target": "Player",
+        "desc": "[Device - Size:35, Attack:40, Defense:40, Energy:40, Scan:40]<br>If this device is already installed on your ship, this will instead upgrade its stats by 40%, up to a max of 200%.",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Darmos Champion's Seal"
+            }
+        ],
+        "img": "dcseal.png",
+        "buttonText": "Build"
+    },
+    {
+        "name": "Darmos Nerve Turret",
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        },
+        "target": "Your Planet",
+        "img": "darmosb.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Darmos Nerve Turret"
+            }
+        ],
+        "desc": "[ Planet Structure - Size:1, Mining:1, Artifact:1, Research:3, Attack:+30% ]<br>Activated Ability (2 Charges): Darmos Nerve Gas<br>(+8% boost to ship raiding for 24 hours)<br>(Limit 1 per planet)"
     },
     {
         "name": "Deep-Phase Sanctuary",
@@ -6348,7 +7530,33 @@
         "desc": "Upgrades an existing Litheor Deep-Phase Probe on your planet<br>to a Deep-Phase Sanctuary, doubling its bonuses,<br>and adding +1 Influence. Planet must be Shattered,<br>Desert, Volcanic, or Demon: of Average size or smaller.",
         "tags": [
             "Litheor"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "15",
+            "max": "30"
+        }
+    },
+    {
+        "name": "Diplomat's Case",
+        "scrap": {
+            "type": "ctp",
+            "min": "20",
+            "max": "40"
+        },
+        "target": "Player",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "4.4k"
+        },
+        "desc": "[ Profession Change - Diplomat: Influence +10% ]<br>Swaps your profession to Diplomat when opened.<br>Note: 'Diplomat' will not be available as a choice<br>if you change your race and profession later",
+        "playerEffects": [
+            {
+                "type": "Change Profession",
+                "profession": "Diplomat"
+            }
+        ],
+        "img": "diplocase1.png"
     },
     {
         "name": "Diplomat's Villa",
@@ -6371,7 +7579,34 @@
                 "structure": "Diplomat's Villa"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
+        "name": "Disarming Bomb",
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "target": "Enemy Ship",
+        "img": "overload.png",
+        "enemyShipEffects": [
+            {
+                "type": "Reduce Attack",
+                "value": "10%",
+                "duration": "2 hours"
+            }
+        ],
+        "desc": "Disrupts the systems of a target ship, temporarily reducing attack by 10%",
+        "buttonText": "Fire",
+        "cost": {
+            "energy": "5"
+        }
     },
     {
         "name": "Dissemination Megacore",
@@ -6391,7 +7626,12 @@
         "tags": [
             "Q-Pedd"
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "18"
+        }
     },
     {
         "name": "Dissemination Ultracore",
@@ -6411,7 +7651,12 @@
         ],
         "tags": [
             "Q-Pedd"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "13"
+        }
     },
     {
         "name": "Divergent Entity",
@@ -6438,7 +7683,12 @@
                 "type": "Construct Structure",
                 "structure": "Divergent Entity"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        }
     },
     {
         "name": "Diversionary Tactics",
@@ -6454,7 +7704,12 @@
                 "type": "Increase Defense",
                 "value": "35%"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        }
     },
     {
         "name": "DM79 Datacenter",
@@ -6491,6 +7746,24 @@
             {
                 "type": "Construct Structure",
                 "structure": "Domain Walker"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
+    },
+    {
+        "name": "Doorbuster's Cache",
+        "target": "Player",
+        "desc": "A large cache of data and goods of various types.<br>When opened, it grants 8 hours worth of planetary production,<br>not to exceed your planetary and rank capacity.",
+        "buttonText": "Open",
+        "img": "sc-crate.png",
+        "playerEffects": [
+            {
+                "type": "Grant All Resources",
+                "value": "8 hours"
             }
         ]
     },
@@ -6538,6 +7811,33 @@
         ],
         "tags": [
             "Drannik"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        }
+    },
+    {
+        "name": "Drannik Saboteur",
+        "target": "Enemy Ship",
+        "scrap": {
+            "type": "cr",
+            "min": "8,000",
+            "max": "32,000"
+        },
+        "desc": "Sabotages the systems of a non-player enemy, temporarily reducing defense by 50%",
+        "tags": [
+            "Drannik"
+        ],
+        "buttonText": "Fire",
+        "img": "dsaboteur.png",
+        "enemyShipEffects": [
+            {
+                "type": "Reduce Defense",
+                "value": "50%",
+                "duration": "1 hour"
+            }
         ]
     },
     {
@@ -6553,7 +7853,52 @@
         ],
         "tags": [
             "Drannik"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "24,000",
+            "max": "96,000"
+        }
+    },
+    {
+        "name": "Dreadcharged Bane Emitter",
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "target": "Player",
+        "desc": "[ Limited Item - Halloween ]<br>[ Special Weapon - Size:17, Attack:150, Invasion:150 ]<br>Installs a Dreadcharged Bane Emitter on your ship. (limit 4 per ship)",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Dreadcharged Bane Emitter"
+            }
+        ],
+        "tags": [
+            "Bane"
+        ],
+        "img": "banecannon6.png"
+    },
+    {
+        "name": "Durtanium Brackets",
+        "scrap": {
+            "type": "cr",
+            "min": "9,000",
+            "max": "36,000"
+        },
+        "img": "bracket.png",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "10",
+                "message": "You install the brackets on your ship"
+            }
+        ],
+        "send": "Yes",
+        "buttonText": "Use"
     },
     {
         "name": "Edenic Strata-Field",
@@ -6581,7 +7926,12 @@
         ],
         "tags": [
             "Harvest"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        }
     },
     {
         "name": "Elios Core Mine",
@@ -6610,7 +7960,12 @@
                 "message": "The Elios Core Mine has been constructed on the planet."
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Elios Corethune Shell",
@@ -6639,7 +7994,12 @@
                 "type": "Construct Structure",
                 "structure": "Elios Corethune Shell"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        }
     },
     {
         "name": "Elios Flare Probe",
@@ -6658,7 +8018,12 @@
                 "type": "Construct Structure",
                 "structure": "Elios Flare Probe"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Elios Heliacal Plant",
@@ -6674,7 +8039,12 @@
                 "type": "Construct Structure",
                 "structure": "Elios Heliacal Plant"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        }
     },
     {
         "name": "Elios Micro-Star Cradle",
@@ -6703,7 +8073,12 @@
         ],
         "tags": [
             "Elios"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        }
     },
     {
         "name": "Elios Orbital Conduit",
@@ -6728,7 +8103,12 @@
         ],
         "tags": [
             "Elios"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        }
     },
     {
         "name": "Elios Power Junction",
@@ -6756,7 +8136,12 @@
         ],
         "tags": [
             "Elios"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Elios Pulse-Compressor",
@@ -6779,7 +8164,12 @@
         ],
         "tags": [
             "Elios"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        }
     },
     {
         "name": "Elios Radiant Attractor",
@@ -6801,7 +8191,12 @@
         ],
         "tags": [
             "Elios"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        }
     },
     {
         "name": "Elios Solar Drill",
@@ -6820,7 +8215,12 @@
                 "type": "Construct Structure",
                 "structure": "Elios Solar Drill"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        }
     },
     {
         "name": "Elios Solar Inverter",
@@ -6845,7 +8245,12 @@
                 "original": "Elios Solar Drill (Heliacal)",
                 "new": "Elios Solar Drill (Inverter + Heliacal)"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        }
     },
     {
         "name": "Elios Soletta",
@@ -6870,11 +8275,16 @@
                 "type": "Construct Structure",
                 "structure": "Elios Soletta"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        }
     },
     {
         "name": "Elios Starflare",
-        "desc": "A massive, pulsing, crystalline device that floats in place...<br>Permanently increases all production of a planet by 2%.<br>The planet must have at least 5 other Elios structures installed.",
+        "desc": "<i>A massive, pulsing, crystalline device that floats in place...</i><br>Permanently increases all production of a planet by 2%.<br>The planet must have at least 5 other Elios structures installed.",
         "restrictions": [
             {
                 "type": "Existing Structures",
@@ -6897,6 +8307,33 @@
             {
                 "type": "Increase Production",
                 "value": "2%"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,000",
+            "max": "48,000"
+        }
+    },
+    {
+        "name": "Elios Thermo-Pressor",
+        "scrap": {
+            "type": "ctp",
+            "min": "32",
+            "max": "64"
+        },
+        "target": "Player",
+        "img": "eliosbox1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "3,200"
+        },
+        "desc": "Temporarily reduces the size of 'heavy' materials by 10% for 40 hours",
+        "playerEffects": [
+            {
+                "type": "Reduce Heavy Material Size",
+                "value": "10%",
+                "duration": "40 hours"
             }
         ]
     },
@@ -6924,6 +8361,32 @@
             {
                 "type": "Increase Space",
                 "value": "2%"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        }
+    },
+    {
+        "name": "EMP Sphere",
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "target": "Enemy Ship",
+        "desc": "Disrupts the systems of a target ship, temporarily reducing defense by 10%",
+        "buttonText": "Fire",
+        "cost": {
+            "energy": "5"
+        },
+        "enemyShipEffects": [
+            {
+                "type": "Increase Defense",
+                "value": "-10%",
+                "duration": "2 hours"
             }
         ]
     },
@@ -6957,7 +8420,12 @@
         ],
         "tags": [
             "Civicordium"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        }
     },
     {
         "name": "Empyreal Fire-Citadel",
@@ -6986,7 +8454,12 @@
                 "type": "Construct Structure",
                 "structure": "Empyreal Fire-Citadel"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
     },
     {
         "name": "Empyreal Garden-Citadel",
@@ -7015,7 +8488,12 @@
                 "type": "Construct Structure",
                 "structure": "Empyreal Garden-Citadel"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
     },
     {
         "name": "Empyreal Ice-Citadel",
@@ -7044,7 +8522,12 @@
                 "structure": "Empyreal Ice-Citadel",
                 "message": "The Empyreal Citadel has been constructed on the planet."
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
     },
     {
         "name": "Empyreal Prime-District Seal",
@@ -7077,6 +8560,53 @@
                 "type": "Increase Defense",
                 "value": "10%"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        }
+    },
+    {
+        "name": "Encephalon Core",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "19",
+            "max": "38"
+        },
+        "tags": [
+            "Drannik"
+        ],
+        "buttonText": "Build",
+        "desc": "[ Special Module - Size:12, Energy:70 ]<br>Installs an Encephalon Core on your ship.<br>Limit 4 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Encephalon Core"
+            }
+        ],
+        "img": "drannikcore2.png"
+    },
+    {
+        "name": "Engineered Virus",
+        "target": "Enemy Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "2,500",
+            "max": "10,000"
+        },
+        "desc": "Stops population growth on a recently-attacked enemy planet for 1 day.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5"
+        },
+        "img": "virus.png",
+        "enemyPlanetEffects": [
+            {
+                "type": "Stop Pop Growth",
+                "duration": "1 day"
+            }
         ]
     },
     {
@@ -7099,7 +8629,12 @@
                 "type": "Increase Artifact Availability",
                 "value": "1"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        }
     },
     {
         "name": "Enumeration Metacrystal",
@@ -7121,7 +8656,12 @@
                 "type": "Increase Artifact Availability",
                 "value": "1"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        }
     },
     {
         "name": "Ergosphere Filter",
@@ -7134,7 +8674,12 @@
                 "type": "Construct Structure",
                 "structure": "Ergosphere Filter"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        }
     },
     {
         "name": "Essence of the Arbilon",
@@ -7157,7 +8702,32 @@
         ],
         "tags": [
             "Corruption"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "14,000",
+            "max": "56,000"
+        }
+    },
+    {
+        "name": "Ethereal Shell",
+        "scrap": {
+            "type": "cr",
+            "min": "25,000",
+            "max": "100,000"
+        },
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Change Race / Profession"
+            }
+        ],
+        "img": "ethshell.png",
+        "desc": "<i>The shell represents a willingness to accept a new version of self.</i>Allows you to change your Race and Profession when used.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        }
     },
     {
         "name": "Exalted DarkForge",
@@ -7174,7 +8744,12 @@
                 "type": "Construct Structure",
                 "structure": "Exalted DarkForge"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        }
     },
     {
         "name": "Exarch's Proclamation",
@@ -7204,7 +8779,54 @@
                 "value": "1"
             }
         ],
-        "desc": "Establishes an independent spiritual center in desolate regions<br>Charters a Small (or smaller) planet, expanding influence by 1,<br>up to a maximum of Very Abundant.<br>Can only be used on planets with no other resource Rich or greater"
+        "desc": "Establishes an independent spiritual center in desolate regions<br>Charters a Small (or smaller) planet, expanding influence by 1,<br>up to a maximum of Very Abundant.<br>Can only be used on planets with no other resource Rich or greater",
+        "scrap": {
+            "type": "cr",
+            "min": "31,500",
+            "max": "126,000"
+        }
+    },
+    {
+        "name": "Exo-Galactic Contraption",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "None",
+                "message": "It is unclear how the contraption works. You have no idea how to use it... but it can be scrapped."
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "65",
+            "max": "130"
+        },
+        "tags": [
+            "Chuhn"
+        ],
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Late Summer ]<br><i>An odd device of unknown purpose from another Galaxy.<br>It is unclear what it does or how it works,<br>but it could be dismantled for useful parts...</i>",
+        "img": "exocontrap.png"
+    },
+    {
+        "name": "Exo-Galactic Curio",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "None",
+                "message": "It is unclear how the object works, but its components are extremely intricate. You have no idea how to use it... but it can be scrapped."
+            }
+        ],
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Late Summer ]<i><br>An odd, intricate device of unknown purpose from another Galaxy.<br>It is unclear what it does or how it works,<br>but it could be dismantled for useful parts...</i>",
+        "img": "chuhncurio.png",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "300",
+            "max": "600"
+        }
     },
     {
         "name": "Exo-Rift Repulsor Trap",
@@ -7216,7 +8838,48 @@
             {
                 "type": "Set Trap"
             }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "124,000",
+            "max": "496,000"
+        }
+    },
+    {
+        "name": "Exotic Bio-Disruptor 2.0",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "10"
+        },
+        "buttonText": "Build",
+        "desc": "[ Special Weapon - Size:12, Invasion Attack:350,<br>Invasion Attack Bonus:+6% ]<br>A powerful anti-troop weapon.<br>Limit 1 per ship.",
+        "img": "ca-wavegen.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Exotic Bio-Disruptor 2.0"
+            }
         ]
+    },
+    {
+        "name": "Exotic Bio-Disruptor",
+        "target": "Player",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Exotic Bio-Disruptor"
+            }
+        ],
+        "desc": "[ Special Weapon - Size:12, Invasion Attack:250,<br>Invasion Attack Bonus:+5% ]<br>A powerful anti-troop weapon.<br>Limit 1 per ship.",
+        "img": "ca-wavegen.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "10"
+        }
     },
     {
         "name": "Exotic Miners Guildhall",
@@ -7242,7 +8905,12 @@
                 "type": "Construct Structure",
                 "structure": "Exotic Miners Guildhall"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        }
     },
     {
         "name": "Exotic Nexal Mesh",
@@ -7270,7 +8938,12 @@
                 "type": "Increase Space",
                 "value": "3%"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,000",
+            "max": "48,000"
+        }
     },
     {
         "name": "Extracted Lithovoric Stem",
@@ -7289,7 +8962,54 @@
                 "type": "Construct Structure",
                 "structure": "Extracted Lithovoric Stem"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
+    },
+    {
+        "name": "Eye of Jeminoss",
+        "tags": [
+            "Chuhn"
+        ],
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "10"
+        },
+        "desc": "[ Limited Artifact - Late Summer ]<br>[ Device - Size:46, Scan:155 Energy:175 ]<br>While Installed, Inergon, Kronyn, and<br>Genetarr receive double the energy bonus.<br>Limit 2 per ship.",
+        "buttonText": "Build",
+        "img": "eyejeminoss.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Eye of Jeminoss"
+            }
         ]
+    },
+    {
+        "name": "Eye of Kinitar",
+        "desc": "[ Limited Artifact - Late Summer ][ Device - Size: 52, Scan: 170, Energy: 190 ]<br>While Installed, Inergon, Kronyn, and<br>Genetarr receive double the energy bonus.<br>Limit 2 per ship.",
+        "tags": [
+            "Chuhn"
+        ],
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Eye of Kinitar"
+            }
+        ],
+        "buttonText": "Build",
+        "img": "eyekinitar.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "10"
+        }
     },
     {
         "name": "Farselle Paravault",
@@ -7324,7 +9044,7 @@
     {
         "name": "Farselle Psi-Drone",
         "target": "Your Planet",
-        "desc": "[ Planet Structure - Size:1, Artifact:1, Research:1, Mining:1 ]<br>Its energy patterns seem out of sync with this timeline...<br>Also increases Mining/Artifact/Research capacities by 200 units.<br>Limit 1.",
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Research:1, Mining:1 ]<br><i>Its energy patterns seem out of sync with this timeline...</i><br>Also increases Mining/Artifact/Research capacities by 200 units.<br>Limit 1.",
         "img": "farsellecurio.gif",
         "buttonText": "Build",
         "planetEffects": [
@@ -7332,7 +9052,33 @@
                 "type": "Construct Structure",
                 "structure": "Farselle Psi-Drone"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
+    },
+    {
+        "name": "Farselle Tribute Crate",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Grant All Resources",
+                "value": "8 hours"
+            },
+            {
+                "type": "Reset Invade Timer"
+            },
+            {
+                "type": "Reset Hack / Raid Timer"
+            },
+            {
+                "type": "Reset Repair Timer"
+            }
+        ],
+        "img": "farsellecrate.png",
+        "desc": "<i>A tribute for recent disturbances and<br>anomalies affecting the Galaxy</i><br>Removes active timers for your invade, hack,<br>raid, and repair abilities, and grants 8 hours<br>of planetary production (capped by storage)"
     },
     {
         "name": "Flare Probe Propaganda Terminal",
@@ -7349,7 +9095,30 @@
                 "original": "Elios Flare Probe",
                 "new": "Elios Flare Probe II"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        }
+    },
+    {
+        "name": "Flux Probe - Tracer",
+        "target": "Planet",
+        "planetEffects": [
+            {
+                "type": "List Players on Scan"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "2,500",
+            "max": "10,000"
+        },
+        "desc": "An advanced Flux Probe that returns the names and<br>ranks of ships who have scanned the target planet.",
+        "buttonText": "Use",
+        "img": "bp-tracer.png",
+        "send": "Yes"
     },
     {
         "name": "Font of Vitalis",
@@ -7366,7 +9135,12 @@
                 "type": "Construct Structure",
                 "structure": "Font of Vitalis"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        }
     },
     {
         "name": "Fornax Jewel",
@@ -7394,7 +9168,188 @@
                 "type": "Construct Structure",
                 "structure": "Fornax Jewel"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
+    },
+    {
+        "name": "Foulcharged Bane Emitter",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "img": "banecannon8.png",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Foulcharged Bane Emitter"
+            }
+        ],
+        "desc": "[ Limited Item - Halloween ][ Special Weapon - Size: 17, Attack: 220, Invasion: 220 ]<br>Installs a Foulcharged Bane Emitter on your ship. (limit 4 per ship)",
+        "target": "Player"
+    },
+    {
+        "name": "Fractal Mass-Folder",
+        "scrap": {
+            "type": "ctp",
+            "min": "11",
+            "max": "22"
+        },
+        "img": "fractalanchor2.png",
+        "playerEffects": [
+            {
+                "type": "Increase Mining Storage",
+                "value": "10%",
+                "duration": "20 hours"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "4,200"
+        },
+        "desc": "<i>Intricate compartments fold in on each other,<br>revealing layers of hidden storage within</i><br><br>Temporarily boosts mining storage by 10% for 20 hours.",
+        "target": "Player"
+    },
+    {
+        "name": "Frame of Bane",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        },
+        "img": "hbshell2.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Frame of Bane"
+            }
+        ],
+        "tags": [
+            "Bane"
+        ],
+        "desc": "[ Limited Item - Halloween ][ Device - Size: 22, Cloak: 150, Hull: 450 ]<br>Installs a Frame of Bane on your ship.<br>Limit 2 per ship.",
+        "buttonText": "Build",
+        "target": "Player"
+    },
+    {
+        "name": "Frightcharged Bane Emitter",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "img": "banecannon12.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Frightcharged Bane Emitter"
+            }
+        ],
+        "desc": "[ Limited Item - Halloween ][ Special Weapon - Size: 19, Attack: 420, Invasion: 420 ]<br>Installs a Frightcharged Bane Emitter on your ship. (limit 4 per ship)",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "666"
+        },
+        "target": "Player"
+    },
+    {
+        "name": "Furlinium-N Spanner",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "img": "fnspanner.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Furlinium-N Spanner"
+            }
+        ],
+        "desc": "[ Weapon - Size:56, Attack:510, Cloak:580 ]<br><i>A weapon with an extragalactic power source.</i><br>While Installed, Zolazin, Vygoid, and Litheor<br>receive double the cloak bonus.<br>Limit 2 per ship.",
+        "buttonText": "Build",
+        "target": "Player"
+    },
+    {
+        "name": "Furlinium-O Spanner",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "img": "fospanner.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Furlinium-O Spanner"
+            }
+        ],
+        "desc": "[ Weapon - Size:66, Attack:610, Cloak:680 ]<br><i>A weapon with an extragalactic power source.</i><br>While Installed, Zolazin, Vygoid, and Litheor<br>receive double the cloak bonus.<br>Limit 2 per ship.",
+        "buttonText": "Build",
+        "target": "Player"
+    },
+    {
+        "name": "Fused Balthion Plating",
+        "tags": [
+            "Lazuli"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "18",
+            "max": "37"
+        },
+        "img": "lazulihullz.png",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Fused Balthion Plating"
+            }
+        ],
+        "desc": "[ Hull - Size:35, Hull:700 ]<br>If this plating is already installed on your ship, this will instead upgrade its stats by 30%, up to a max of 300%. When fully upgraded, it will provide a 7% overall hull bonus.",
+        "buttonText": "Build",
+        "target": "Player"
+    },
+    {
+        "name": "Galactic Base Crate",
+        "img": "galcrate1.png",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Farselle Paravault"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Enumeration Crystal"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Enumeration Metacrystal"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Adumbrate Junction"
+            }
+        ],
+        "target": "Player",
+        "desc": "<i>The metal feels hot, unyielding, and imbued with a strange force...</i><br>A huge Galactic crate, raided from a large, powerful base.<br>Contains a variety of random artifacts.",
+        "buttonText": "Open"
     },
     {
         "name": "Galakis Entry Port",
@@ -7488,6 +9443,29 @@
         ]
     },
     {
+        "name": "Gene Archives",
+        "target": "Player",
+        "desc": "<i>Genetic records pulled from Galactic Council archives.</i> Boosts Evolution Gene yields by 7% for 40 hours.",
+        "playerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "7%",
+                "duration": "40 hours"
+            }
+        ],
+        "img": "councilgene1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "800",
+            "influence": "800"
+        },
+        "scrap": {
+            "type": "cr",
+            "min": "27,000",
+            "max": "108,000"
+        }
+    },
+    {
         "name": "Gene-Root Pavilion",
         "restrictions": [
             {
@@ -7520,6 +9498,84 @@
         ]
     },
     {
+        "name": "Genoformatting Codex",
+        "tags": [
+            "Genoform Surge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "13"
+        },
+        "img": "genoformat1.webp",
+        "desc": "[ Limited Item - Genoform ]<br>Upgrades a Phylogenetic Core or a Genoform Reservoir<br>on your planet up to v2, Boosting Artifact/Research/Influence +1,<br>Influence storage +180, and refreshing its charges.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "888"
+        },
+        "planetEffectsRandom": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Genoform Reservior",
+                "new": "Genoform Reservoir II",
+                "message": "An existing Genoform structure has been upgraded."
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Phylogenetic Core",
+                "new": "Phylogenetic Core II",
+                "message": "An existing Genoform structure has been upgraded."
+            }
+        ],
+        "target": "Your Planet"
+    },
+    {
+        "name": "GeoLifter",
+        "scrap": {
+            "type": "cr",
+            "min": "22,500",
+            "max": "90,000"
+        },
+        "img": "geolifter1.png",
+        "desc": "<i>A pre-colonization planet lifter, able to prep lesser developed worlds.</i><br>Permanently increases mining, artifact, research of a planet by 1-3.<br>Can only use on unoccupied planets of 5x Mega-Richness or less,<br>scanned within the last week",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "420"
+        },
+        "planetEffects": [
+            {
+                "type": "Increase Mining Availability",
+                "min": "1",
+                "max": "3"
+            },
+            {
+                "type": "Increase Artifact Availability",
+                "min": "1",
+                "max": "3"
+            },
+            {
+                "type": "Increase Research Availability",
+                "min": "1",
+                "max": "3"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Resource Availability",
+                "max": "4x"
+            },
+            {
+                "type": "Scanned",
+                "max": "1 week"
+            },
+            {
+                "type": "Occupation",
+                "status": "Unoccupied"
+            }
+        ],
+        "target": "Planet"
+    },
+    {
         "name": "Gift of the Emissary",
         "desc": "[ Limited Item - Holidays ]<br>Permanently increases the target planet size by 3%.<br>Can only be used on planets with at least 5<br>distinct structures that provide Influence.",
         "img": "giftemissary1.png",
@@ -7542,7 +9598,15 @@
                     "IPP"
                 ]
             }
-        ]
+        ],
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        }
     },
     {
         "name": "Gift of the Far Futures (2023)",
@@ -7572,6 +9636,14 @@
                 "value": "5%",
                 "duration": "5 days"
             }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "tags": [
+            "Scruuge"
         ]
     },
     {
@@ -7592,7 +9664,7 @@
                     {
                         "type": "Existing Structures",
                         "structures": [
-                            "Scruuge Hoarding Vault XV"
+                            "Scruuge Hoarding Vault XIV"
                         ]
                     }
                 ]
@@ -7602,6 +9674,14 @@
                 "value": "5%",
                 "duration": "5 days"
             }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "tags": [
+            "Scruuge"
         ]
     },
     {
@@ -7632,6 +9712,14 @@
                 "value": "5%",
                 "duration": "5 days"
             }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "tags": [
+            "Scruuge"
         ]
     },
     {
@@ -7662,6 +9750,14 @@
                 "value": "4%",
                 "duration": "5 days"
             }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "tags": [
+            "Scruuge"
         ]
     },
     {
@@ -7680,6 +9776,14 @@
                 "max": "20%",
                 "duration": "7 days"
             }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "tags": [
+            "Scruuge"
         ]
     },
     {
@@ -7694,6 +9798,14 @@
                 "original": "Refining Lab",
                 "new": "Scruuge Lab"
             }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "10,000",
+            "max": "40,000"
+        },
+        "tags": [
+            "Scruuge"
         ]
     },
     {
@@ -7710,17 +9822,234 @@
                 "type": "Increase Space",
                 "value": "5%"
             }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "tags": [
+            "Scruuge"
         ]
     },
     {
+        "name": "Gift to the Naughty",
+        "scrap": {
+            "type": "cr",
+            "min": "32,500",
+            "max": "130,000"
+        },
+        "tags": [
+            "Scruuge"
+        ],
+        "img": "gnaughty.png",
+        "target": "Enemy Ship",
+        "desc": "[ Limited Item - Holidays ]<br>Reduces enemy ship defenses by 30%.<br>Can only be used on enemies who have hacked, raided, invaded, or<br>disabled you in the last 24 hours.",
+        "buttonText": "Fire",
+        "enemyShipEffects": [
+            {
+                "type": "Reduce Defense",
+                "value": "30%"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "PvP Recency",
+                "max": "24 hours"
+            }
+        ]
+    },
+    {
+        "name": "Gift to the Nice",
+        "scrap": {
+            "type": "cr",
+            "min": "12,000",
+            "max": "48,000"
+        },
+        "tags": [
+            "Scruuge"
+        ],
+        "target": "Friend",
+        "img": "scruugecrate1.png",
+        "playerEffects": [
+            {
+                "type": "Expand Rank Range",
+                "value": "10%",
+                "duration": "3 hours"
+            }
+        ],
+        "desc": "Can only be used on a friend or legion member.<br>Expands their available ranges (rank) of enemy player<br>ships by 10% for 3 hours",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        }
+    },
+    {
         "name": "Grav-Whip Trap",
-        "desc": "Grav-Whip Trap[ Trap - 1 Week ] When applied, a ship that attacks<br>the target planet has a chance to take 400 damage",
+        "desc": "[ Trap - 1 Week ] When applied, a ship that attacks<br>the target planet has a chance to take 400 damage",
         "img": "gravtrap.png",
         "target": "Your Planet",
         "buttonText": "Set",
         "planetEffects": [
             {
                 "type": "Set Trap"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "7,500",
+            "max": "30,000"
+        },
+        "send": "Yes"
+    },
+    {
+        "name": "Gravimantle Plating",
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "18"
+        },
+        "cost": {
+            "energy": "42,000",
+            "influence": "5,500"
+        },
+        "buttonText": "Use",
+        "img": "gravplating1.png",
+        "desc": "Upgrades a Perfect Syncopated Plating on your ship to a Gravimantle Plating,<br>increasing hull to 8000, cloak to 500,<br>and providing a 1% hull bonus",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Perfect Syncopated Plating",
+                "new": "Gravimantle Plating"
+            }
+        ],
+        "target": "Player"
+    },
+    {
+        "name": "Gravitic Amplifier",
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        },
+        "planetEffects": [
+            {
+                "type": "Increase Passive Defense",
+                "value": "100"
+            }
+        ],
+        "target": "Your Planet",
+        "restrictions": [
+            {
+                "type": "Planet Size",
+                "min": "VL"
+            },
+            {
+                "type": "Passive Defense",
+                "max": "2,000"
+            }
+        ],
+        "img": "gravchannel.png",
+        "desc": "Uses a planet's intense gravity as a barrier against attackers,<br>permanently boosting its defense by 100.<br>Usable on planets that are Very Large or greater in size.",
+        "buttonText": "Use"
+    },
+    {
+        "name": "Grid Console",
+        "target": "Player",
+        "send": "Yes",
+        "scrap": {
+            "type": "cr",
+            "min": "3,500",
+            "max": "14,000"
+        },
+        "playerEffects": [
+            {
+                "type": "Increase Defense",
+                "value": "20%",
+                "duration": "2 hours"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5"
+        },
+        "desc": "A temporary firmware package, increasing your ship defenses by 20% for 2 hours",
+        "img": "console.png"
+    },
+    {
+        "name": "Guardian Ward-Shell",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "6,250",
+            "max": "25,000"
+        },
+        "img": "wardshell1.png",
+        "desc": "<i>A massive energized shield frame, the<br>ward's design can fit a ship's outer hull<br>with ease.</i><br>Adds 20k hull, and 10k shield to your ship.",
+        "buttonText": "Activate",
+        "cost": {
+            "energy": "2,222"
+        },
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "20,000",
+                "message": "You apply the Ward-Shell"
+            },
+            {
+                "type": "Increase Shield",
+                "value": "10,000"
+            }
+        ]
+    },
+    {
+        "name": "Guardian's Villa",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "img": "keepvilla1.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "420"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Research:2 ]<br>Also boosts the planet's cloaking by 22%.<br>(Limit 1 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Guardian's Villa"
+            }
+        ]
+    },
+    {
+        "name": "Halcyon Trap",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "7,500",
+            "max": "30,000"
+        },
+        "img": "calmtrap.png",
+        "buttonText": "Set",
+        "desc": "[ Trap - 1 Week ] When applied, an attacking ship<br>has a chance to cause you to be pacified for 2 hours,<br>being unable to attack or be attacked by others.<br>This trap will be removed if you perform any offensive actions against other players.",
+        "playerEffects": [
+            {
+                "type": "Set Trap",
+                "duration": "1 week",
+                "playerEffects": [
+                    {
+                        "type": "Calm",
+                        "duration": "2 hours"
+                    }
+                ]
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "PvP Recency",
+                "min": "24 hours"
             }
         ]
     },
@@ -7762,7 +10091,15 @@
                 "type": "Construct Structure",
                 "structure": "Hall of Extreme Torment"
             }
-        ]
+        ],
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
     },
     {
         "name": "Hall of Torment",
@@ -7775,7 +10112,15 @@
                 "type": "Construct Structure",
                 "structure": "Hall of Torment"
             }
-        ]
+        ],
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
     },
     {
         "name": "Hall of Unfathomable Torment",
@@ -7784,7 +10129,7 @@
         "target": "Your Planet",
         "buttonText": "Build",
         "cost": {
-            "Energy": "2.2k"
+            "Energy": "2,222"
         },
         "restrictions": [
             {
@@ -7797,6 +10142,14 @@
                 "type": "Construct Structure",
                 "structure": "Hall of Unfathomable Torment"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "tags": [
+            "Bane"
         ]
     },
     {
@@ -7810,7 +10163,69 @@
                 "type": "Construct Structure",
                 "structure": "Hall of Unrelenting Torment"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "tags": [
+            "Bane"
         ]
+    },
+    {
+        "name": "Hallows Bane Trick",
+        "scrap": {
+            "type": "cr",
+            "min": "32,500",
+            "max": "130,000"
+        },
+        "target": "Player",
+        "img": "banetrap.png",
+        "buttonText": "Set",
+        "tags": [
+            "Bane"
+        ],
+        "desc": "[ Limited Item - Halloween ][ Trap - 1 Week ] When applied, an attacking ship<br>has a chance to lose 50% defense for 1 hour",
+        "playerEffects": [
+            {
+                "type": "Set Trap",
+                "duration": "1 week",
+                "enemyShipEffects": [
+                    {
+                        "type": "Decrease Defense",
+                        "value": "50%",
+                        "duration": "1 hour"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Harvested Genomics",
+        "target": "Friend",
+        "playerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "11%",
+                "duration": "40 hours"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "27,000",
+            "max": "108,000"
+        },
+        "tags": [
+            "Harvest"
+        ],
+        "img": "harvestgene1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "411",
+            "influence": "411"
+        },
+        "desc": "[ Limited Item - Thanksgiving ]<br>Can only be used on a friend or legion member.<br>Boosts their Evolution Gene yields by 11% for 40 hours."
     },
     {
         "name": "Heist Dispatch Center",
@@ -7823,7 +10238,12 @@
                 "type": "Construct Structure",
                 "structure": "Heist Dispatch Center"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        }
     },
     {
         "name": "Heliacal Solar Boost",
@@ -7837,11 +10257,19 @@
                 "original": "Elios Heliacal Plant",
                 "new": "Elios Heliacal Plant (Upgraded)"
             }
-        ]
+        ],
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "16,625",
+            "max": "66,500"
+        }
     },
     {
         "name": "Heliosyne",
-        "desc": "[ Limited Artifact - Summer ]<br>A novel power fluid recently developed by the Elios<br>Upgrades an Elios Core Mine on your planet, boosting mining +1 and mining bonus to 15%",
+        "desc": "[ Limited Artifact - Summer ]<br><i>A novel power fluid recently developed by the Elios</i><br>Upgrades an Elios Core Mine on your planet, boosting mining +1 and mining bonus to 15%",
         "img": "heliosyne1.png",
         "target": "Your Planet",
         "buttonText": "Use",
@@ -7855,11 +10283,61 @@
                 "new": "Elios Core Mine (Upgraded)",
                 "message": "The Elios Core Mine has been upgraded."
             }
+        ],
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        }
+    },
+    {
+        "name": "Horizon Observer",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "32,500",
+            "max": "130,000"
+        },
+        "img": "hobserver1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "420"
+        },
+        "desc": "<i>A delicate sensor attachment.</i><br>Expands the available ranges of enemy player ships<br>eligible for your rank by 42% for 6 hours.<br>Lower-ranges scale further at higher ranks.",
+        "playerEffects": [
+            {
+                "type": "Expand Rank Range",
+                "value": "42%",
+                "duration": "6 hours"
+            }
+        ],
+        "playerEffectsScaled": [
+            {
+                "type": "Expand Rank Range",
+                "max": "?",
+                "scale": "? Rank"
+            }
+        ]
+    },
+    {
+        "name": "Hullbuster's Cache",
+        "target": "Player",
+        "img": "sc-crate.png",
+        "buttonText": "Open",
+        "desc": "A large cache of data and goods of various types.<br>When opened, it grants 10 hours worth of planetary production,<br>not to exceed your planetary and rank capacity.",
+        "playerEffects": [
+            {
+                "type": "Grant All Resources",
+                "value": "10 hours"
+            }
         ]
     },
     {
         "name": "Hyper-Dimensional Anchor",
-        "desc": "Found cloaked in a hydroshifted planet, it appears to<br>amplify the Octafari dimensional control radius.<br><br>Boosts a planet's passive cloaking by 90 when used.<br>Due to risk of Octafari control, it cannot be used on Oceanics.",
+        "desc": "<i>Found cloaked in a hydroshifted planet, it appears to<br>amplify the Octafari dimensional control radius.</i><br><br>Boosts a planet's passive cloaking by 90 when used.<br>Due to risk of Octafari control, it cannot be used on Oceanics.",
         "img": "d-anchor.png",
         "target": "Your Planet",
         "buttonText": "Use",
@@ -7867,6 +10345,19 @@
             {
                 "type": "Increase Passive Cloak",
                 "value": "90"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "restrictions": [
+            {
+                "type": "Not Type",
+                "types": [
+                    "Oceanic"
+                ]
             }
         ]
     },
@@ -7881,7 +10372,12 @@
                 "type": "Construct Structure",
                 "structure": "Hypergate"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
     },
     {
         "name": "Hypergate Upgrade",
@@ -7895,7 +10391,12 @@
                 "original": "Warp Gate",
                 "new": "Hypergate"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "4"
+        }
     },
     {
         "name": "Hyperluminal Mesh Upgrade",
@@ -7918,7 +10419,29 @@
                 "original": "Hyperluminal Sat-Grid",
                 "new": "Hyperluminal Sat-Grid Mesh"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        },
+        "tags": [
+            "Q-Pedd"
         ]
+    },
+    {
+        "name": "Hyperluminal Readings",
+        "target": "Mission",
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "img": "qpeddchip.png",
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "Hyperluminal data gathered from gas giant scans."
     },
     {
         "name": "Hyperluminal Sat-Grid",
@@ -7936,6 +10459,14 @@
                 "original": "Hyperluminal Satellite",
                 "new": "Hyperluminal Sat-Grid"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "tags": [
+            "Q-Pedd"
         ]
     },
     {
@@ -7949,6 +10480,14 @@
                 "type": "Construct Structure",
                 "structure": "Hyperluminal Satellite"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "tags": [
+            "Q-Pedd"
         ]
     },
     {
@@ -7971,6 +10510,14 @@
                 "type": "Construct Structure",
                 "structure": "HyperNexus Power Shunt"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "tags": [
+            "Harvest"
         ]
     },
     {
@@ -7984,7 +10531,23 @@
                 "type": "Construct Structure",
                 "structure": "HyperSensor Satellite"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
+    },
+    {
+        "name": "IceScan Data",
+        "target": "Mission",
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "desc": "A cross-referenced set of registry data on various Icy planets against psionic visions.",
+        "img": "icescan1.png"
     },
     {
         "name": "Illumination Siphon",
@@ -8013,7 +10576,12 @@
                     "Exotic"
                 ]
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "14,000",
+            "max": "56,000"
+        }
     },
     {
         "name": "Interrogation Center",
@@ -8034,7 +10602,12 @@
                 "type": "Construct Structure",
                 "structure": "Interrogation Center"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "16"
+        }
     },
     {
         "name": "Interrogation Stronghold",
@@ -8055,7 +10628,12 @@
                 "type": "Construct Structure",
                 "structure": "Interrogation Stronghold"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "16"
+        }
     },
     {
         "name": "Interspacial Fold Generator",
@@ -8074,7 +10652,12 @@
                 "type": "Increase Passive Cloak",
                 "value": "100"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        }
     },
     {
         "name": "Intraphasic Hoveroid",
@@ -8087,7 +10670,12 @@
                 "type": "Construct Structure",
                 "structure": "Intraphasic Hoveroid"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        }
     },
     {
         "name": "Ion Repulsor Charge",
@@ -8100,6 +10688,200 @@
                 "type": "Increase Defense",
                 "value": "30%",
                 "duration": "1 day"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4,500",
+            "max": "18,000"
+        }
+    },
+    {
+        "name": "Ion Storm Charge",
+        "target": "Enemy Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "img": "storm.png",
+        "desc": "Reduces all defenses of an enemy planet by 15% for an hour",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5"
+        },
+        "planetEffects": [
+            {
+                "type": "Reduce Defense",
+                "value": "15%",
+                "duration": "1 hour"
+            }
+        ]
+    },
+    {
+        "name": "Isolation Bureau",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Isolation Bureau (Doubled)",
+                "conditions": [
+                    {
+                        "type": "Other Scanners",
+                        "max": "0"
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Isolation Bureau"
+            }
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "desc": "[ Planet Structure - Size:2, Research / Mining / Artifact:1, Cloak:200 ]<br><i>An agency specializing in keeping secrets...secret.</i><br>All bonuses double if built on a planet that only YOU have scanned. limit 1",
+        "img": "upcore.png",
+        "buttonText": "Build"
+    },
+    {
+        "name": "Kaen MicroVault",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Kaen MicroVault (Doubled)",
+                "conditions": [
+                    {
+                        "type": "Active Event",
+                        "filters": [
+                            "Relics",
+                            "Archive",
+                            "Black Market"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Kaen MicroVault"
+            }
+        ],
+        "target": "Your Planet",
+        "img": "kvault1.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        },
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,800",
+            "influence": "4,200"
+        }
+    },
+    {
+        "name": "Kelethor's Schematics",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "14"
+        },
+        "buttonText": "Use",
+        "cost": {
+            "energy": "25"
+        },
+        "img": "crimsch.png",
+        "desc": "Permanently upgrades a Crimson module<br>(hull/weapon) on your ship at random, increasing<br>its fixed stats by 25% and its value/upkeep by 50%,<br>up to a maximum bonus of 100% per module.",
+        "playerEffectsRandom": [
+            {
+                "type": "Upgrade Module",
+                "module": "Korteth Plating",
+                "value": "25%",
+                "max": "100%"
+            },
+            {
+                "type": "Upgrade Module",
+                "module": "Sirakar Hull",
+                "value": "25%",
+                "max": "100%"
+            },
+            {
+                "type": "Upgrade Module",
+                "module": "Crimson Auto-Laser",
+                "value": "25%",
+                "max": "100%"
+            },
+            {
+                "type": "Upgrade Module",
+                "module": "Crimson Auto-Phaser",
+                "value": "25%",
+                "max": "100%"
+            },
+            {
+                "type": "Upgrade Module",
+                "module": "Vortul Blast Phaser",
+                "value": "25%",
+                "max": "100%"
+            },
+            {
+                "type": "Upgrade Module",
+                "module": "Korteth Twin-Blaster",
+                "value": "25%",
+                "max": "100%"
+            }
+        ]
+    },
+    {
+        "name": "Kinitar Disassembler",
+        "img": "kscrap1.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "35",
+            "max": "70"
+        },
+        "target": "Player",
+        "share": "No",
+        "send": "No",
+        "desc": "A shifting, volatile salvaging device used by extragalactic machinists<br>Increases all scrapping yields by 8%<br>Lasts 40 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Scrap Yield",
+                "Value": "8%",
+                "duration": "40 hours"
+            }
+        ],
+        "tags": [
+            "Chuhn"
+        ]
+    },
+    {
+        "name": "Klorvis Debris",
+        "target": "Player",
+        "desc": "Unsorted item from the Klorvis debris field that has yet to be analyzed.",
+        "img": "kdebis.png",
+        "buttonText": "Analyze",
+        "cost": {
+            "energy": "50"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Klorvis Shroud Generator"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Omni-Field Regulator"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Klorvis Supply Conduit"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Klorvis Troop Gateway"
             }
         ]
     },
@@ -8117,6 +10899,11 @@
         ],
         "cost": {
             "Energy": "75"
+        },
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
         }
     },
     {
@@ -8134,7 +10921,115 @@
                 "value": "30%",
                 "duration": "2 days"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        }
+    },
+    {
+        "name": "Klorvis Troop Gateway",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        },
+        "desc": "[ Planet Structure - Size:1, Attack:750, Defense:750 ]<br><i>These troop gateways were used extensively<br>during the battle of Klorvis 5.</i><br>(limit 1 per planet)",
+        "buttonText": "Build",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Klorvis Troop Gateway"
+            }
+        ],
+        "img": "xgate5.gif"
+    },
+    {
+        "name": "Krionite Torpedo",
+        "target": "Enemy Ship",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "desc": "Blasts the enemy ship with Krionite Phase Gas,<br>Vaporizing all shield energy on the ship",
+        "buttonText": "Fire",
+        "cost": {
+            "energy": "5"
+        },
+        "enemyShipEffects": [
+            {
+                "type": "Deplete Shields"
+            }
+        ],
+        "img": "kr-torpedo.png"
+    },
+    {
+        "name": "Krionus Virus Trap",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "desc": "[ Trap - 1 Week ] When applied, an attacking ship<br>has a chance to lose 90% attack power for 30 minutes",
+        "buttonText": "Set",
+        "playerEffects": [
+            {
+                "type": "Set Trap",
+                "enemyShipEffects": [
+                    {
+                        "type": "Decrease Attack",
+                        "value": "90%",
+                        "duration": "30 min"
+                    }
+                ]
+            }
+        ],
+        "img": "krionustrap.png"
+    },
+    {
+        "name": "Kulgox Octal-Sac",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "desc": "Increases planet invasion attack by 10% for 4 hours.<br>This effect is immune to being removed by other artifacts.",
+        "cmImmune": "Yes",
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Increase Invasion Attack",
+                "value": "10%",
+                "duration": "4 hours"
+            }
+        ],
+        "img": "kulgox-a.png"
+    },
+    {
+        "name": "Labyrinth Sigil",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "20"
+        },
+        "desc": "Starts a new Daily Challenge",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "4,400",
+            "influence": "4,400"
+        },
+        "playerEffects": [
+            {
+                "type": "Start Daily Challenge"
+            }
+        ],
+        "img": "sigilciv2.png"
     },
     {
         "name": "Lazuli Darkmine Cluster",
@@ -8150,7 +11045,12 @@
         ],
         "tags": [
             "Lazuli"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
     },
     {
         "name": "Lazuli Darkmines",
@@ -8166,6 +11066,36 @@
         ],
         "tags": [
             "Lazuli"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
+    },
+    {
+        "name": "Lazuli Microfuser",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        },
+        "desc": "An expensive tool used to upgrade Lazuli vessels.<br>Increases shields by 15 and hull by 20.",
+        "tags": [
+            "Lazuli"
+        ],
+        "buttonText": "Use",
+        "img": "lmicrofuse.png",
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "20"
+            },
+            {
+                "type": "Increase Shield",
+                "value": "15"
+            }
         ]
     },
     {
@@ -8182,7 +11112,12 @@
         ],
         "tags": [
             "Lazuli"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "12",
+            "max": "24"
+        }
     },
     {
         "name": "Lazuli Shipyard",
@@ -8198,7 +11133,58 @@
         ],
         "tags": [
             "Lazuli"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "18"
+        }
+    },
+    {
+        "name": "Lazuli Universal Coupling",
+        "scrap": {
+            "type": "cr",
+            "min": "20,000",
+            "max": "80,000"
+        },
+        "target": "Player",
+        "desc": "Grants 1 Complex Tech Part for each 100 decks on your ship (up to 1000 CTP)",
+        "playerEffectsScaled": [
+            {
+                "type": "Grant CTP",
+                "max": "1,000",
+                "scale": "Decks / 100"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "img": "lazulicoupling.png",
+        "tags": [
+            "Lazuli"
         ]
+    },
+    {
+        "name": "Lepus Analyzer",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "14"
+        },
+        "tags": [
+            "Lepus"
+        ],
+        "desc": "[ Limited Item - Easter ]<br>[ Module - Size:38, Attack:125, Scan:150 ]<br>Installs a Lepus Analyzer on your ship.<br>Limit 2 Lepus Sensors.",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Lepus Analyzer"
+            }
+        ],
+        "img": "lepusscan5.png"
     },
     {
         "name": "Lepus Bio-Mech Gateway",
@@ -8214,7 +11200,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
     },
     {
         "name": "Lepus C-34 Gateway",
@@ -8230,7 +11221,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        }
     },
     {
         "name": "Lepus Data Kernel",
@@ -8255,7 +11251,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        }
     },
     {
         "name": "Lepus Drone 15.0",
@@ -8271,7 +11272,12 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        }
     },
     {
         "name": "Lepus Drone 16.0",
@@ -9570,7 +12576,7 @@
     {
         "name": "Biosynthetic Catalyst",
         "target": "Player",
-        "desc": "<i>Subtly hums with undulating energy patterns...</i> Starts a random planetary event on a Terra, Gaia, Aphotic, or Oceanic world (if any are eligible)",
+        "desc": "<i>Subtly hums with undulating energy patterns...</i><br><br>Starts a random planetary event on a Terra, Gaia, Aphotic, or Oceanic world (if any are eligible)",
         "img": "gcrys1.webp",
         "playerEffects": [
             {
@@ -9585,9 +12591,20 @@
                             "Oceanic"
                         ]
                     }
-                ]
+                ],
+                "message": "The Catalyst emits a powerful pulse of energy...."
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,555",
+            "max": "22,200"
+        },
+        "buttonText": "Use",
+        "cost": {
+            "energy": "411",
+            "genes": "4"
+        }
     },
     {
         "name": "Modulated Xecti Disruptor",
@@ -10193,7 +13210,8 @@
         },
         "tags": [
             "Civicordium",
-            "Genoform Surge"
+            "Genoform Surge",
+            "Synesthetic"
         ],
         "desc": "[ Planet Structure - Size:1, Artifact:1, Mining:1, Research:1 ]<br>Boosts population by 20%.<br>Planet must be Terra, Gaia, or Aphotic, of Average size or smaller.<br>Can be upgraded with 5+ %-Population structures. Limit 1",
         "buttonText": "Build",
@@ -10244,6 +13262,14 @@
                 "type": "Construct Structure",
                 "structure": "Bio-Symposium Lab"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "tags": [
+            "Genoform Surge"
         ]
     },
     {
@@ -10311,5 +13337,132 @@
             }
         ],
         "target": "Friend"
+    },
+    {
+        "name": "Cognizant Omniforge Grid Upgrade",
+        "target": "Your Planet",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Cognizant Omniforge",
+                "new": "Cognizant Omniforge Grid"
+            }
+        ]
+    },
+    {
+        "name": "Evolution Geno-Crystal",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "25,000",
+            "max": "100,000"
+        },
+        "restrictions": [
+            {
+                "type": "Timeframe",
+                "timeframe": "May"
+            }
+        ],
+        "tags": [
+            "Genoform Surge"
+        ],
+        "playerEffects": [
+            {
+                "type": "Change Race / Profession",
+                "message": "Race change in progress..."
+            }
+        ],
+        "img": "genoprism1.gif",
+        "desc": "[ Limited Item - Late Spring ]<br>A powerful catalyst that triggers rapid re-evolution...<br><br>Allows you to change your Race and Profession when used.<br>Can only be activated in the month of May.",
+        "buttonText": "Use"
+    },
+    {
+        "name": "Undulok Biomarkers",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Decrease Grow Genes Cooldown",
+                "value": "11%",
+                "duration": "90 hours"
+            }
+        ]
+    },
+    {
+        "name": "Neutro-Cellular Bonder",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "10%",
+                "duration": "20 hours"
+            }
+        ]
+    },
+    {
+        "name": "Extragalactic Genes",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "20%",
+                "duration": "40 hours"
+            }
+        ]
+    },
+    {
+        "name": "Accordium Charter",
+        "target": "Your Planet",
+        "img": "acharter6.png",
+        "buttonText": "Use",
+        "cost": {
+            "Energy": "7.7k"
+        },
+        "restrictions": [
+            {
+                "type": "Size",
+                "max": "Average"
+            },
+            {
+                "type": "Influence Availability",
+                "min": "Very Sparse",
+                "max": "Abundant"
+            }
+        ],
+        "desc": "<i>Expands an influential political area on isolated colonies</i><br>Charters an Average or smaller planet, expanding its influence by 1,<br>up to a maximum of Very Abundant.<br>Can only be used on planets with at least 'very sparse' Influence.",
+        "planetEffects": [
+            {
+                "type": "Increase Influence Availability",
+                "value": "1",
+                "message": "The Accordium Charter has been signed and sealed on the planet"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "31,500",
+            "max": "126,000"
+        }
+    },
+    {
+        "name": "Aeon Ballot",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "11"
+        },
+        "tags": [
+            "Civicordium"
+        ],
+        "img": "votecrys1.png",
+        "playerEffects": [
+            {
+                "type": "Reset Initiative Cooldown (Random)"
+            }
+        ],
+        "desc": "<i>A crystalline device holding a voting record from the future...</i>Resets the timer on a voting initiative at random",
+        "cost": {
+            "Energy": "2.2k",
+            "Influence": "222"
+        }
     }
 ]

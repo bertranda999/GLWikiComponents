@@ -21,7 +21,27 @@
             }
         ],
         "lore": "Aerlen prefer anonymity and try to avoid conflict. Aerlen ships are very agile and difficult to target.",
-        "oldImg": "aerlen.png"
+        "oldImg": "aerlen.png",
+        "evolutions": [
+            {
+                "name": "Cross-Genomic Instinct",
+                "playerEffects": [
+                    {
+                        "type": "Increase Genes Production",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Proteomic Sculpting",
+                "playerEffects": [
+                    {
+                        "type": "Increase Genes Amount",
+                        "value": "1"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Human",
@@ -46,7 +66,31 @@
             }
         ],
         "oldImg": "human.png",
-        "lore": "Humans adapt quickly to their surroundings, and fit a wide variety of roles."
+        "lore": "Humans adapt quickly to their surroundings, and fit a wide variety of roles.",
+        "evolutions": [
+            {
+                "name": "Epigenetic Learning",
+                "playerEffects": [
+                    {
+                        "type": "Decrease Grow Genes Cooldown",
+                        "value": "9%"
+                    }
+                ]
+            },
+            {
+                "name": "Epigenetic Surge Response",
+                "playerEffects": [
+                    {
+                        "type": "Reset Grow Genes Cooldown"
+                    }
+                ],
+                "triggers": [
+                    {
+                        "type": "Complete LM Task"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Inergon",
@@ -254,7 +298,23 @@
         },
         "bonus": "Erudition (increases planetary research production)",
         "lore": "The Kronyn are a technocracy of brilliant scientists and engineers.",
-        "oldImg": "kronyn.png"
+        "oldImg": "kronyn.png",
+        "evolutions": [
+            {
+                "name": "Intracellular Awareness",
+                "playerEffects": [
+                    {
+                        "type": "Reset Grow Genes Cooldown"
+                    }
+                ],
+                "triggers": [
+                    {
+                        "type": "Use Ability",
+                        "ability": "Erudition"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Xecti",
@@ -304,7 +364,21 @@
         },
         "bonus": "Deep-Phase Probe (builds a special structure on one of your planets)",
         "lore": "The Litheor are a long-living race that survive underground.",
-        "oldImg": "litheor.png"
+        "oldImg": "litheor.png",
+        "evolutions": [
+            {
+                "name": "Micro-Raix Metabolism",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Item",
+                        "market": "Raix",
+                        "item": "Micro-Raix Cyclotron",
+                        "cost": "17",
+                        "mp": "4,800"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Uldrinan",

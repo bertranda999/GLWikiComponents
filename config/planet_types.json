@@ -41,7 +41,7 @@
         "largest": "Very Massive",
         "largestNatural": "Very Massive",
         "name": "Metallic",
-        "smallest": "Average",
+        "smallest": "Tiny",
         "hasSpecialImage": "Yes"
     },
     {
@@ -54,7 +54,7 @@
         "name": "Terra",
         "largest": "Very Massive",
         "largestNatural": "Very Large",
-        "smallest": "Small",
+        "smallest": "Very Tiny",
         "hasSpecialImage": "Yes"
     },
     {
@@ -122,7 +122,10 @@
         "largestNatural": "Colossal",
         "name": "Plasma",
         "smallest": "Very Large",
-        "hasSpecialImage": "Yes"
+        "hasSpecialImage": "Yes",
+        "naturalAbilities": [
+            "Voltaic Maelstrom"
+        ]
     },
     {
         "largest": "Colossal",
@@ -162,7 +165,10 @@
         "largestNatural": "Very Large",
         "name": "Chthonian",
         "smallest": "Small",
-        "hasSpecialImage": "Yes"
+        "hasSpecialImage": "Yes",
+        "naturalAbilities": [
+            "Archaic Debris Field"
+        ]
     },
     {
         "largest": "Mega Colossal",

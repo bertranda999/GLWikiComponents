@@ -4,6 +4,7 @@
         "desc": "Well well. Here we are. With the network nearly complete, the next phase is close at hand. It is time we discussed some of the... bigger picture.",
         "dialogue": [
             {
+                "speaker": "Porowyn",
                 "character": "I couldn't have imagined a better companion in this endeavor. What we have achieved here... will connect us into the far tomorrows.",
                 "player": "I can only imagine..."
             }
@@ -197,6 +198,7 @@
         ],
         "dialogue": [
             {
+                "speaker": "Genoform Entity",
                 "character": "Rest assured that we mean your Galaxy no harm.",
                 "player": "Who are you? Where did you come from?"
             },
@@ -268,6 +270,7 @@
         },
         "dialogue": [
             {
+                "speaker": "Race Government Representative",
                 "character": "Many of these leaders have Seats on Galactic councils. Some are powerful lobbyists. It is time that we garner some of this power.",
                 "player": "I already have a great deal of planetary might, and allies."
             },
@@ -287,5 +290,31 @@
                 "character": "I'll prepare the schedule. Good luck."
             }
         ]
+    },
+    {
+        "name": "Accordancy Directives",
+        "desc": "Several of your councils have risen to possess great voting power within the Galactic community. It is time for us to strengthen and protect our reach in these regions: through a series of new agreements... and private arrangements.",
+        "charImage": "Race",
+        "icon": "missions/adirectives2.jpg",
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "message": "You continue to seek audience with influential leaders..."
+            }
+        ],
+        "cost": {
+            "Relic Badges": "1",
+            "Energy": "3,300"
+        },
+        "completions": "101",
+        "daily": "Yes",
+        "roundReward": {
+            "xp": "1,600"
+        },
+        "completionReward": {
+            "message": "You have established relations with influential leaders...",
+            "artifact": "Accordium Charter"
+        }
     }
 ]

@@ -1601,8 +1601,183 @@
         "desc": "The Genoform Surge event - started"
     },
     {
-        "date": "5 Apr 2026",
+        "date": "5 May 2026",
         "type": "Initiative",
         "desc": "Darmos Galactic Host - Winner: Tross Quadrant: Increases production by 2% for races in the Tross Quadrant"
+    },
+    {
+        "date": "11 May 2026",
+        "type": "Initiative",
+        "desc": "Suzerain Term Limits - Approved: Restrict Suzerains: When Zones expire, controlling Suzerains will not be able to Influence the Zone until it expires again."
+    },
+    {
+        "date": "12 May 2026",
+        "type": "Initiative",
+        "desc": "Chancellor Election - Winner: Ambassador Thelaru: Increases Evolution Gene yields by 12% and reduces Genes cooldown by 12%, but reduces research production by 8%"
+    },
+    {
+        "date": "12 May 2026",
+        "type": "Discord",
+        "desc": "Maintenance Notice<br><br>Galaxy Legion will be undergoing maintenance on Tuesday 19th May 2026 at 18: 00 UTC, and will be going offline temporarily. We estimate the downtime to last approx. 4 hours, though this may be extended if required.<br><br>This is part of planned work to move Galaxy Legion onto improved hosting, helping ensure the game remains stable and ready for the future. It also gives us a better foundation for performance improvements, and new features we would like to bring to the game.<br><br>The migration is an involved process and requires a large amount of work, hence the planned downtime being longer what we've typically scheduled in the past. We will post another announcement closer to the maintenance window as a reminder, and keep you updated throughout the process as it happens.<br><br>If you have any questions, please ask in the thread below.<br><br>Thank you for your patience and continued support!"
+    },
+    {
+        "date": "17 May 2026",
+        "type": "Initiative",
+        "desc": "VTP-5 Mutagen - Winner: Hasten Cure: Decreases Evolution Gene cooldown by 11%, but Reduces Research storage by 8%"
+    },
+    {
+        "date": "18 May 2026",
+        "type": "Discord",
+        "desc": "Maintenance Notice - Tomorrow at 18:00 UTC<br><br>This is a reminder that Galaxy Legion will be undergoing maintenance at Tuesday, May 19,<br>        2026 at 2: 00 PM (your local time), and will be going offline temporarily. The downtime is estimated to last approximately 4 hours, though this may be extended if required.<br><br>We appreciate your patience while we perform this essential work - we are migrating the game away from its current hosting infrastructure to a modern cloud platform to facilitate future work to improve the game. As stated above, this will include future performance improvements and a base for new features and functionality.<br><br>As part of this work, the current wiki and forum will also be unavailable for a short time - this will be longer than the maintenance window as our primary focus will be the migration of the game itself - these will follow shortly after.<br><br>If you have any questions or concerns, please raise these in the thread above.<br><br>We once again thank you for your understanding and support."
+    },
+    {
+        "date": "19 May 2026",
+        "type": "Discord",
+        "desc": "Maintenance Window Extension<br><br>We are extending the current maintenance window by one hour until approximately May 19,<br>        2026 at 7: 00 PM. This is to facilitate resolution of an issue that has arisen during the migration process.<br><br>We apologise for this delay, but it is necessary to ensure a smooth playing experience!<br><br>Thanks once again for your patience and understanding."
+    },
+    {
+        "date": "19 May 2026",
+        "type": "Discord",
+        "desc": "Migration Window - Further Extension<br><br>The current maintenance window will further be extended by an additional hour, until approximately May 19,<br>        2026 at 8: 00 PM. We apologise for this further delay - it is due to unforeseen circumstances during the migration that currently out of our control. We are currently working to have these resolved as soon as possible.<br><br>Please be assured that your character, ship, legion, planets, artifacts, credits, genes, and influence (etc) are all safe. In the event that this issue is not resolved in a reasonable amount of time, we will fall back to our existing infrastructure and reschedule the migration for a later date.<br><br>If you have any concerns, please let us know in the thread below.<br><br>We really appreciate your patience while we work to improve the galaxy - thank you for your understanding."
+    },
+    {
+        "date": "19 May 2026",
+        "type": "Discord",
+        "desc": "Migration Downtime - Indefinite Extension<br><br>We currently do not have an ETA for a resolution of the issues mentioned in our last update. As a result, we are going to hold the migration window open until these issues are resolved by our upstream providers.<br><br>We sincerely apologise for this extension and continued delay, and we regret that we cannot give you an exact time for when the game will be available again. We will keep providing updates each hour and also provide an ETA as soon as we have one.<br><br>We'll arrange in-game compensation in the next few days for you all.<br><br>Thank you once again for your support and patience - it means a lot."
+    },
+    {
+        "date": "19 May 2026",
+        "type": "Discord",
+        "desc": "We are still waiting on our upstream providers and unfortunately do not have an ETA at this time."
+    },
+    {
+        "date": "19 May 2026",
+        "type": "Discord",
+        "desc": "We're beginning to see recovery from our upstream provider, however we still do not have an ETA as to when things will be fully operational. We will another update in around an hour, earlier if anything changes."
+    },
+    {
+        "date": "19 May 2026",
+        "type": "Discord",
+        "desc": "We are seeing further recovery from our upstream provider and are working on bringing the game's own systems back online. We still do not have an ETA at this time."
+    },
+    {
+        "date": "19 May 2026",
+        "type": "Cosmetic",
+        "desc": "Improved Main Stats Bar design and visuals, and Navigation bar design",
+        "detail": "The Main Stats Bar has been streamlined for visual improvements, including:<br>* New procedural Rank Insignia badge that evolves continuously with your rank — replaces the old stacked rank-image strip<br>* Central race button now links to your evolutions, and will automatically glow when genes are ready to grow<br>* Stat bars have been redesigned for readability across devices<br>* Galactic Server Time is now always visible in the upper system bar<br>* Various links are now available in the Account dropdown menu"
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Discord",
+        "desc": "We're continuing to bring things back online. We're waiting for some additional services that our upstream provider provides to come back up, but there is no ETA on this from them at the moment. We'll update again in an hour."
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Discord",
+        "desc": "We expect to be back up and running in the next 30-45 minutes."
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Discord",
+        "desc": "Maintenance Period Ended<br><br>I am pleased to announce to everyone @here that we are back!<br><br>We'll be closely monitoring for a little while in case any issues arrise. If you spot anything that seems to be a general issue (not affecting your account specifically, i.e. accidentally bought something), please open a thread in issues.<br><br>Also please check the Latest Updates for a list of some changes we've been working on over the last few weeks. There is also a redemption code containing compensation for the extended downtime.<br><br>If you have any questions, concerns, or feedback, please let us know!<br><br>Thanks once again for all of your patience and understanding - we really appreciate it. <br><br>Here's to the future!"
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Discord",
+        "desc": "We are experiencing a high influx of support tickets. I must reiterate that if an issues is not related specifically to your account/ship, please post in issues instead. If the issue concerns login or UI issues, please state your device type (mobile/tablet/laptop/desktop) and browser, and be detailed as to any behaviours/flows you see."
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Tweak",
+        "desc": "New Game Server Hosting architecture",
+        "detail": "Galaxy Legion has been migrated to a brand new Server hosting architecture, readying the game for its next phase of upgrades. Please note that this is just the first of many steps involving performance and system improvements. This early stage may encounter some hiccups and bottlenecks, so bear with us."
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Tweak",
+        "desc": "Migrated Galaxy Legion to galaxylegion.com",
+        "detail": "Galaxy Legion is now fully playable directly from galaxylegion.com. If you have bookmarked older links, such as to galaxylegionfb.com or apps.facebook.com/galaxylegion, please use the new site going forward. The older links will stop working after a few more months.<br><br>Important: If you are playing directly from facebook, you are strongly encouraged to link your account to Google and/or Discord for alternative login options."
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Tweak",
+        "desc": "Increased session timeouts to 10 hours"
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Tweak",
+        "desc": "Galactic Server Time is now synced to UTC (Coordinated Universal Time)"
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Cosmetic",
+        "desc": "Ship and resource / production stats can now be clicked on for extensive detail and modifier breakdowns"
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Cosmetic",
+        "desc": "Updated Collective Theory Lab interface"
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Feature",
+        "desc": "Improved Music Player with context-aware playlists",
+        "detail": "The in-game Music Player has been completely overhauled, and now includes hundreds of tracks. Key details:<br>* Context-aware playlists: when in 'Auto (Reactive)' mode, the active track set automatically swaps based on where you are (combat vs. planet management vs. base management etc), so the mood matches what you're doing<br>* You can choose a specific playlist mood instead of the Auto setting<br>* Player remembers your volume / pause / mute preference across sessions"
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Gift",
+        "desc": "Thank you everyone for your continued patience during the extended downtime today: Click here to claim some Transit Anomaly Caches",
+        "gift": {
+            "name": "Thanks for waiting...",
+            "desc": "Thank you for your continued patience during our migration today!",
+            "reward": "Transit Anomaly Cache",
+            "count": "3"
+        }
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Maintenance",
+        "desc": "Fixed an issue affecting combat with Balthion, Lazuli Flagship"
+    },
+    {
+        "date": "20 May 2026",
+        "type": "Not Posted",
+        "desc": "Restrict Suzerains result went into effect"
+    },
+    {
+        "date": "21 May 2026",
+        "type": "Maintenance",
+        "desc": "Fixed some issues causing excessive memory usage during play"
+    },
+    {
+        "date": "21 May 2026",
+        "type": "Cosmetic",
+        "desc": "Hovering over XP bar or XP reward icons will also show remaining XP to rank"
+    },
+    {
+        "date": "21 May 2026",
+        "type": "Cosmetic",
+        "desc": "Clicking your name in the System Bar now links to your Ship Stats. Added back Research Points to main stat bar, as well as influence"
+    },
+    {
+        "date": "21 May 2026",
+        "type": "Discord",
+        "desc": "Update on Mobile Login Issues<br><br>We're aware of an issue that prevents logins on mobile, specifically Android devices. Attempting to use the Facebook login option will result in a page freeze, with no login occurring. <br><br>This issue is related to Facebook's login flow on Android devices, and unfortunately this is not something we can fix ourselves. <br><br>We will look for a workaround for this issue, but in the meantime affected users can work around this issue by either:<br><br>Logging in on a desktop device and linking an alternate login method which you can then use to sign in on mobile, or, if you only have access to a mobile device;<br>Using Incognito/Private browsing to use the Facebook login method and link either Discord or Google as an alternate login method. You will need to log into both of these services while under Incognito, so make sure you have your username and password handy.<br><br>If you have any questions or require further assistance on this, we're tracking the issue here: issues Troubles logging in on mobile.<br><br>Thanks!"
+    },
+    {
+        "date": "22 May 2026",
+        "type": "Maintenance",
+        "desc": "Fixed some display issues with the stats headers on certain browsers / devices (Firefox, Puffin)"
+    },
+    {
+        "date": "23 May 2026",
+        "type": "Discord",
+        "desc": "Update on Forum<br><br>We're aware that we've removed access to the forum since the migration earlier in the week - this was an oversight.<br><br>We'll be reinstating an archived, read-only version of the forum in the near future, with a redirect (similar to the wiki) so the old links will still work, but there is no ETA on this currently.<br><br>Thanks for your patience!"
+    },
+    {
+        "date": "26 May 2026",
+        "type": "Tweak",
+        "desc": "Galactic Survey Expansion: The Cartography Division's commissioned survey is complete. Long-range detectors resolved a denser field of viable worlds than preliminary models had forecast, expanding the known galactic registry by over 30%."
     }
 ]

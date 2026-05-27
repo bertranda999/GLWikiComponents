@@ -186,5 +186,15 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Nucleome Compiler",
+        "playerEffects": [
+            {
+                "type": "Increase Genes Amount",
+                "value": "1"
+            }
+        ],
+        "limit": "2"
     }
 ]

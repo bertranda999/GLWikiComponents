@@ -80,6 +80,7 @@
     {
         "type": "Planetary Event",
         "name": "Cognisphere Librarium",
+        "img": "cognisphere1.gif",
         "effects": [
             {
                 "effectType": "Add Planet-Based Ability",
@@ -543,6 +544,16 @@
         ]
     },
     {
+        "name": "Undulok Entity",
+        "desc": "[Panet] reports that a Undulok Entity has entered orbit and is blockading the planet!",
+        "effects": [
+            {
+                "effectType": "Blockade",
+                "npc": "Undulok Entity"
+            }
+        ]
+    },
+    {
         "type": "Planetary Event",
         "name": "Unique Lifeforms",
         "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/lifeform.jpg",
@@ -576,6 +587,16 @@
             }
         ],
         "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/vassal1.gif"
+    },
+    {
+        "name": "Voltaic Maelstrom",
+        "img": "voltaic1.webp",
+        "effects": [
+            {
+                "effectType": "Add Planet-Based Ability",
+                "abilityName": "Voltaic Maelstrom"
+            }
+        ]
     },
     {
         "type": "Planetary Event",

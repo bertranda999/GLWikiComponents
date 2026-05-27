@@ -125,7 +125,7 @@
         ]
     },
     {
-        "influence": "20,880",
+        "influence": "19,000",
         "remove": [
             "Star Chart Analyst"
         ]
@@ -175,9 +175,9 @@
         ]
     },
     {
-        "influence": "24,176",
+        "influence": "25,000",
         "remove": [
-            "Mineralogist"
+            "Research Scholar"
         ]
     },
     {
@@ -192,12 +192,6 @@
                 "rarity": "Rare",
                 "shortName": "Envoy"
             }
-        ]
-    },
-    {
-        "influence": "27,473",
-        "remove": [
-            "Research Scholar"
         ]
     },
     {
@@ -250,6 +244,12 @@
         ]
     },
     {
+        "influence": "30,000",
+        "remove": [
+            "Relic Archivist"
+        ]
+    },
+    {
         "influence": "32,000",
         "councilors": [
             {
@@ -270,12 +270,6 @@
                 "rarity": "Rare",
                 "shortName": "Senator"
             }
-        ]
-    },
-    {
-        "influence": "32,967",
-        "remove": [
-            "Relic Archivist"
         ]
     },
     {

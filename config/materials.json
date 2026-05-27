@@ -1,8 +1,114 @@
 [
     {
         "name": "Neutronium",
-        "img": "",
+        "img": "icons/special/neutronium1.gif",
         "space": "4,200",
-        "heavy": "Yes"
+        "heavy": "Yes",
+        "desc": "A heavy amount of extremely dense neutrons held in stasis.<br>Used for advanced structures, equipment, and missions."
+    },
+    {
+        "name": "Aeon Badges",
+        "img": "icons/special/badge-a.png",
+        "space": "1",
+        "desc": "Badges awarded for completing daily challenges."
+    },
+    {
+        "name": "Prismodyne Energy",
+        "img": "icons/special/prismoenergy2.gif",
+        "space": "1,000",
+        "heavy": "Yes",
+        "desc": "Strange, primordial energy extracted from a Prismodyne source."
+    },
+    {
+        "name": "Corruption",
+        "img": "icons/special/corruption.png",
+        "desc": "A rare substance with a variety of uses."
+    },
+    {
+        "name": "Uldrinan Trade Credits",
+        "img": "icons/special/uldricred.png",
+        "desc": "Credits received for being a loyal Uldrinan."
+    },
+    {
+        "name": "Relic Badges",
+        "img": "icons/special/relicbadge2.png",
+        "desc": "Badges awarded for completing Legion Missions."
+    },
+    {
+        "name": "Dark Badges",
+        "img": "icons/special/badge-l.png",
+        "desc": "Badges awarded for battling non-player enemies."
+    },
+    {
+        "name": "Silver Badges",
+        "img": "icons/special/badge-s.png",
+        "desc": "Badges awarded for battling enemy bases."
+    },
+    {
+        "name": "Green Badges",
+        "img": "icons/special/badge-g.png",
+        "desc": "Badges awarded for invading enemy planets."
+    },
+    {
+        "name": "Yellow Badges",
+        "img": "icons/special/badge-y.png",
+        "desc": "Badges awarded for raiding enemy players."
+    },
+    {
+        "name": "Blue Badges",
+        "img": "icons/special/badge-b.png",
+        "desc": "Badges awarded for hacking enemy players."
+    },
+    {
+        "name": "Red Badges",
+        "img": "icons/special/badge-r.png",
+        "desc": "Badges awarded for disabling enemy players."
+    },
+    {
+        "name": "Complex Tech Parts",
+        "img": "icons/special/parts.png",
+        "desc": "Complex Tech recycled from various advanced modules.<br>Required for special missions and building advanced modules.",
+        "give": "Yes"
+    },
+    {
+        "name": "Zolazin Debris",
+        "img": "icons/special/zolazin.png",
+        "desc": "Debris collected from battles with Zolazin ships.<br>Required for missions involving the Zolazin.",
+        "give": "Yes"
+    },
+    {
+        "name": "Prejoran Tech",
+        "img": "icons/special/relic.png",
+        "desc": "Technology belonging to an ancient race known as the Prejor.<br>Required for building special items",
+        "give": "Yes"
+    },
+    {
+        "name": "Exotic Matter",
+        "img": "icons/special/exotic.png",
+        "desc": "A rare material used in controlling chaotic phenomena.<br>Required for high rank missions",
+        "give": "Yes"
+    },
+    {
+        "name": "Political Favor",
+        "img": "icons/special/political.png",
+        "desc": "A favor awarded for your heroic actions.<br>Required for constructing certain military installations"
+    },
+    {
+        "name": "XTS-9",
+        "img": "icons/special/xts9.png",
+        "desc": "An extremely toxic substance used for advanced structures.<br>Required for high rank missions",
+        "give": "Yes"
+    },
+    {
+        "name": "Credits",
+        "icon": "icons/credits.png"
+    },
+    {
+        "name": "Genes",
+        "icon": "icons/dna.png"
+    },
+    {
+        "name": "Galaxy Points",
+        "icon": "icons/galaxypoints.png"
     }
 ]

@@ -208,7 +208,7 @@
             "Hyperluminal Readings",
             "Streveldan Probe Bay"
         ],
-        "planetEvents": [
+        "planetaryEvents": [
             "Streveldan Landing Site"
         ],
         "influenceZone": [
@@ -775,6 +775,70 @@
             "The Synesthetic Fusion",
             "Fusion of Origins",
             "Taming the Undulok"
+        ]
+    },
+    {
+        "name": "Genoform Surge (2026)",
+        "start": "1 May 2026",
+        "end": "12 May 2026",
+        "seasonalEventTypes": [
+            "Genoform"
+        ],
+        "lore": "An unusual spacial rupture opens near Drannox, causing species across the Galaxy to evolve and mutate far more rapidly than usual. An entity of unknown origin stands guard at its aperture.",
+        "additionalEffectDescription": "When growing Evolution Genes, you will earn 30% more than usual.",
+        "newMissions": [
+            "The Genoform Surge"
+        ],
+        "planetaryEvents": [
+            "Undulok Entity Blockade"
+        ],
+        "scanDiscoveries": [
+            "Epigenetic Propagator"
+        ],
+        "influenceZone": "Genoform Surge",
+        "dailyReward": {
+            "add": [
+                "Biosynthetic Catalyst"
+            ]
+        },
+        "supporterBonus": {
+            "add": [
+                "Tabula Progenis"
+            ]
+        },
+        "artifactMarket": [
+            {
+                "name": "Amerase, Genoform Entity",
+                "cost": "133"
+            },
+            {
+                "name": "Nucleome Compiler",
+                "cost": "78"
+            },
+            {
+                "name": "Genoformatting Codex",
+                "cost": "21"
+            },
+            {
+                "name": "Phylogenetic Core",
+                "cost": "22"
+            },
+            {
+                "name": "Genoform Reservoir",
+                "cost": "18"
+            }
+        ],
+        "serviceTerminal": [
+            "Life Support Defragmentation"
+        ],
+        "petitionerSuite": [
+            "Decree of Fecundity"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "30%"
+            }
         ]
     }
 ]

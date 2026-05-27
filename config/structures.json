@@ -801,6 +801,7 @@
     },
     {
         "name": "Bainar A-Node - Basic",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -809,6 +810,7 @@
     },
     {
         "name": "Bainar A-Node - Advanced",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -817,6 +819,7 @@
     },
     {
         "name": "Bainar A-Node - Prime",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -825,6 +828,7 @@
     },
     {
         "name": "Bainar M-Node - Basic",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -833,6 +837,7 @@
     },
     {
         "name": "Bainar M-Node - Advanced",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -841,6 +846,7 @@
     },
     {
         "name": "Bainar M-Node - Prime",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -849,6 +855,7 @@
     },
     {
         "name": "Bainar R-Node - Basic",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -857,6 +864,7 @@
     },
     {
         "name": "Bainar R-Node - Advanced",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -865,6 +873,7 @@
     },
     {
         "name": "Bainar R-Node - Prime",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -873,6 +882,7 @@
     },
     {
         "name": "Bainar X-Node",
+        "base": "Bainar",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -883,6 +893,7 @@
     },
     {
         "name": "Galaxy Overseers",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -899,6 +910,7 @@
     },
     {
         "name": "Galaxy Technocrats",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -907,6 +919,7 @@
     },
     {
         "name": "Galaxy Inquisitors",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -3671,7 +3684,7 @@
         "limited": false,
         "extract": false,
         "ap": 2,
-        "p": 2000
+        "p": 5000
     },
     {
         "name": "Auric Lepus Bio-Nest (2)",
@@ -3680,161 +3693,11 @@
         "limit": 1,
         "limited": false,
         "extract": false,
-        "ap": 2,
-        "p": 3000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (3)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 2,
-        "p": 4000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (4)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 2,
-        "p": 5000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (5)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 2,
-        "p": 6000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (6)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 2,
-        "p": 7000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (7)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 2,
-        "p": 8000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (8)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 2,
-        "p": 9000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (9)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 2,
-        "p": 10000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (10)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
         "ap": 3,
         "p": 2000
     },
     {
-        "name": "Auric Lepus Bio-Nest (11)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 3,
-        "p": 3000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (12)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 3,
-        "p": 4000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (13)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 3,
-        "p": 5000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (14)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 3,
-        "p": 6000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (15)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 3,
-        "p": 7000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (16)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 3,
-        "p": 8000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (17)",
-        "base": "Auric Lepus Bio-Nest",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "ap": 3,
-        "p": 9000
-    },
-    {
-        "name": "Auric Lepus Bio-Nest (18)",
+        "name": "Auric Lepus Bio-Nest (3)",
         "base": "Auric Lepus Bio-Nest",
         "size": 1,
         "limit": 1,
@@ -4347,6 +4210,7 @@
     },
     {
         "name": "Galaxy Pedants",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -4355,6 +4219,7 @@
     },
     {
         "name": "Galaxy Administrators",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -4363,6 +4228,7 @@
     },
     {
         "name": "Galaxy Aristocrats",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -4371,6 +4237,7 @@
     },
     {
         "name": "Galaxy Surrogates",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -4381,6 +4248,7 @@
     },
     {
         "name": "Galaxy Celestials",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -5620,13 +5488,49 @@
         "ip": 1
     },
     {
+        "name": "Genoform Reservoir II",
+        "base": "Genoform Reservoir",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 1,
+        "rps": 3500,
+        "ip": 2,
+        "ips": 180
+    },
+    {
         "name": "Phylogenetic Core",
         "size": 1,
         "limit": 1,
         "limited": false,
         "extract": false,
         "brp": 8,
-        "ip": 1
+        "ip": 1,
+        "ability": {
+            "name": "Decrease Genes Cooldown",
+            "playerEffects": [
+                {
+                    "type": "Decrease Grow Genes Cooldown",
+                    "value": "14%",
+                    "duration": "3 days"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Phylogenetic Core II",
+        "base": "Phylogenetic Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 1,
+        "brp": 8,
+        "ip": 2,
+        "ips": 180
     },
     {
         "name": "Elios Heliacal Plant",
@@ -6640,6 +6544,7 @@
     },
     {
         "name": "Spire of High Dominion",
+        "base": "Spire of Dominion",
         "size": 2,
         "limit": 1,
         "limited": true,
@@ -6649,6 +6554,7 @@
     },
     {
         "name": "Spire of Scruuge Dominion",
+        "base": "Spire of Dominion",
         "size": 2,
         "limit": 1,
         "limited": true,
@@ -6659,6 +6565,7 @@
     },
     {
         "name": "Spire of Cybernetic Dominion",
+        "base": "Spire of Dominion",
         "size": 2,
         "limit": 1,
         "limited": true,
@@ -6670,6 +6577,7 @@
     },
     {
         "name": "Spire of Supel Dominion",
+        "base": "Spire of Dominion",
         "size": 2,
         "limit": 1,
         "limited": true,
@@ -7460,7 +7368,7 @@
     },
     {
         "name": "Quadrigulum Sparkmatter (1)",
-        "base": "Quadrigulum Sparkmatter",
+        "base": "Triangulum Sparkmatter",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -7470,7 +7378,7 @@
     },
     {
         "name": "Quadrigulum Sparkmatter (2)",
-        "base": "Quadrigulum Sparkmatter",
+        "base": "Triangulum Sparkmatter",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -7480,7 +7388,7 @@
     },
     {
         "name": "Quadrigulum Sparkmatter (3)",
-        "base": "Quadrigulum Sparkmatter",
+        "base": "Triangulum Sparkmatter",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -7490,7 +7398,7 @@
     },
     {
         "name": "Pentragulum Sparkmatter (1)",
-        "base": "Pentragulum Sparkmatter",
+        "base": "Triangulum Sparkmatter",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -7500,7 +7408,7 @@
     },
     {
         "name": "Pentragulum Sparkmatter (2)",
-        "base": "Pentragulum Sparkmatter",
+        "base": "Triangulum Sparkmatter",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -9195,6 +9103,7 @@
     },
     {
         "name": "Spire of Edenic Dominion",
+        "base": "Spire of Dominion",
         "size": 2,
         "limit": 1,
         "limited": false,
@@ -9664,6 +9573,30 @@
         "c": 404
     },
     {
+        "name": "Veon Singularium v2",
+        "base": "Veon Singularium",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 2,
+        "c": 404
+    },
+    {
+        "name": "Veon Singularium v3",
+        "base": "Veon Singularium",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "rp": 3,
+        "c": 404
+    },
+    {
         "name": "Veon Singularium v4",
         "base": "Veon Singularium",
         "size": 0,
@@ -9950,6 +9883,7 @@
     },
     {
         "name": "Spire of Civicordium Dominion",
+        "base": "Spire of Dominion",
         "size": 2,
         "limit": 1,
         "limited": true,

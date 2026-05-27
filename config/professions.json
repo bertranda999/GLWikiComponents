@@ -1,5 +1,14 @@
 [
     {
+        "name": "Biologist",
+        "playerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "15%"
+            }
+        ]
+    },
+    {
         "name": "Miner",
         "playerEffects": [
             {

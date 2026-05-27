@@ -28,7 +28,7 @@
 		"img": "petition-genoform1.png",
 		"playerEffects": [
 			{
-				"type": "Increase Gene Production",
+				"type": "Increase Genes Production",
 				"value": "6%",
 				"duration": "20 hours"
 			},
@@ -40,6 +40,19 @@
 					"stat": "Influence Availability",
 					"min": "ES"
 				}
+			}
+		]
+	},
+	{
+		"name": "Genome-Sync Initiative",
+		"playerEffects": [
+			{
+				"type": "Decrease Grow Genes Cooldown",
+				"value": "7%",
+				"duration": "30 hours"
+			},
+			{
+				"type": "Reset Grow Genes Cooldown"
 			}
 		]
 	},

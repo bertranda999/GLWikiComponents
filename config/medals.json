@@ -5419,7 +5419,8 @@
                 ],
                 "count": "3"
             }
-        ]
+        ],
+        "img": "keystonetunnel.jpg"
     },
     {
         "name": "Seasonal Variety",
@@ -5811,7 +5812,8 @@
                 "type": "Disable NPC",
                 "disable": "Xathe Vortex Entity"
             }
-        ]
+        ],
+        "img": "nlmmedal4.jpg"
     },
     {
         "name": "Evil Transformation",
@@ -5822,7 +5824,8 @@
                 "type": "Disable NPC",
                 "npc": "Bane Psyshade"
             }
-        ]
+        ],
+        "img": "bane15m1.jpg"
     },
     {
         "name": "Enveloping Villainy",
@@ -5841,7 +5844,8 @@
                     "type": "Grant Green Badge"
                 }
             ]
-        }
+        },
+        "img": "villian.jpg"
     },
     {
         "name": "It's Huge!",
@@ -5851,7 +5855,8 @@
             {
                 "type": "Increase Ship Size"
             }
-        ]
+        ],
+        "img": "sizem.jpg"
     },
     {
         "name": "Evil Entities",
@@ -5867,7 +5872,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "evilent.jpg"
     },
     {
         "name": "This Way Comes...",
@@ -5883,7 +5889,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "thisway.jpg"
     },
     {
         "name": "Something Wicked",
@@ -5899,7 +5906,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "vile.jpg"
     },
     {
         "name": "Goridian Hangover",
@@ -5909,7 +5917,8 @@
             {
                 "type": "Disable Player"
             }
-        ]
+        ],
+        "img": "ghangover.jpg"
     },
     {
         "name": "Bizian Revelations",
@@ -5919,7 +5928,8 @@
             {
                 "type": "Scan Planet"
             }
-        ]
+        ],
+        "img": "bizian.jpg"
     },
     {
         "name": "Fair Trade",
@@ -5930,7 +5940,8 @@
                 "type": "Complete Mission",
                 "mission": "The Chuhn"
             }
-        ]
+        ],
+        "img": "chuhn1.jpg"
     },
     {
         "name": "Mind Over Matter",
@@ -5956,7 +5967,8 @@
                 "type": "Use Player Ability",
                 "ability": "Mind Influence"
             }
-        ]
+        ],
+        "img": "mindmatter.jpg"
     },
     {
         "name": "A Chuhn Paradise",
@@ -5976,7 +5988,8 @@
                 "artifact": "Chuhn Exo-Logistics Center"
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "chuhnparadise.jpg"
     },
     {
         "name": "Revenge of the captured",
@@ -5988,7 +6001,8 @@
                 "type": "Disable NPC",
                 "npc": "Stryll Assassin"
             }
-        ]
+        ],
+        "img": "stryll.jpg"
     },
     {
         "name": "Chuhn Connections",
@@ -6004,7 +6018,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "chuhnconnect.jpg"
     },
     {
         "name": "Do you Recycle?",
@@ -6020,7 +6035,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "recycle.jpg"
     },
     {
         "name": "First Contact",
@@ -6028,7 +6044,7 @@
         "medalPoints": "10",
         "triggers": [
             {
-                "type": "Disable NPC",
+                "type": "Disable Player",
                 "races": [
                     "Aerlen",
                     "Konqul",
@@ -6046,7 +6062,8 @@
                     "Zolazin"
                 ]
             }
-        ]
+        ],
+        "img": "firstcontact2.jpg"
     },
     {
         "name": "Come at me, bro.",
@@ -6058,7 +6075,8 @@
                 "artifact": "Trinity-Core Drive"
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "tcdrive.jpg"
     },
     {
         "name": "Prismatic Dawn",
@@ -6070,7 +6088,8 @@
                 "type": "Use Planet-Based Ability",
                 "ability": "Prismatic Atmosphere"
             }
-        ]
+        ],
+        "img": "prismatic.jpg"
     },
     {
         "name": "The Erudite",
@@ -6082,7 +6101,8 @@
                 "type": "Use Player Ability",
                 "ability": "Erudition"
             }
-        ]
+        ],
+        "img": "erudite.jpg"
     },
     {
         "name": "The Cost of War",
@@ -6093,7 +6113,8 @@
                 "type": "Complete Mission",
                 "mission": "The Tejiar Reformation"
             }
-        ]
+        ],
+        "img": "tejiar.jpg"
     },
     {
         "name": "Prismatic Eclipse",
@@ -6105,7 +6126,8 @@
                 "type": "Use Planet-Based Ability",
                 "ability": "Prismatic Atmosphere"
             }
-        ]
+        ],
+        "img": "prismatic.jpg"
     },
     {
         "name": "Equal Opportunity",
@@ -6131,7 +6153,8 @@
                     "Spy"
                 ]
             }
-        ]
+        ],
+        "img": "jobseek.png"
     },
     {
         "name": "From the Ashes",
@@ -6146,7 +6169,8 @@
                 "type": "Use Artifact",
                 "artifact": "Elios Storburst Ray"
             }
-        ]
+        ],
+        "img": "elphoenix.jpg"
     },
     {
         "name": "Fully Charged",
@@ -6158,7 +6182,8 @@
                 "type": "Disable NPC",
                 "npc": "Elios Empyrean"
             }
-        ]
+        ],
+        "img": "elios1.jpg"
     },
     {
         "name": "The Omniscient",
@@ -6169,7 +6194,8 @@
             {
                 "type": "Scan Planet"
             }
-        ]
+        ],
+        "img": "pscan5.jpg"
     },
     {
         "name": "Cunning Opportunist",
@@ -6180,7 +6206,8 @@
             {
                 "type": "Complete Legion Mission Task"
             }
-        ]
+        ],
+        "img": "brightopp.jpg"
     },
     {
         "name": "Did You Hear Something?",
@@ -6191,7 +6218,8 @@
                 "type": "Complete Mission",
                 "mission": "The Litheor Conciliation"
             }
-        ]
+        ],
+        "img": "lithfin.jpg"
     },
     {
         "name": "Adaptive Behavior",
@@ -6204,7 +6232,8 @@
                 "ally": "Cuniculus, Lepus Adjutant"
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "cornic.jpg"
     },
     {
         "name": "The Expanse",
@@ -6215,7 +6244,8 @@
                 "type": "Complete Mission",
                 "mission": "The Slip-Field Route"
             }
-        ]
+        ],
+        "img": "uldri.jpg"
     },
     {
         "name": "Bright Opportunist",
@@ -6226,7 +6256,8 @@
             {
                 "type": "Complete Legion Mission Task"
             }
-        ]
+        ],
+        "img": "brightopp.jpg"
     },
     {
         "name": "Path of the Devoted",
@@ -6237,7 +6268,8 @@
             {
                 "type": "Collect Daily Reward"
             }
-        ]
+        ],
+        "img": "5ymedal.jpg"
     },
     {
         "name": "The Pinnacle",
@@ -6248,7 +6280,8 @@
             {
                 "type": "Rank Up"
             }
-        ]
+        ],
+        "img": "commander4.jpg"
     },
     {
         "name": "The Elios Migration",
@@ -6259,7 +6292,8 @@
                 "type": "Complete Mission",
                 "mission": "The Elios Migration"
             }
-        ]
+        ],
+        "img": "elios2.jpg"
     },
     {
         "name": "Hottest Tech",
@@ -6275,7 +6309,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "hottech2.jpg"
     },
     {
         "name": "Getting Hot in Here",
@@ -6291,7 +6326,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "gettinghot.jpg"
     },
     {
         "name": "Here Comes the Sun",
@@ -6307,7 +6343,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "elios3.jpg"
     },
     {
         "name": "Hacker vs Hacker",
@@ -6318,7 +6355,8 @@
             {
                 "type": "Disable NPC"
             }
-        ]
+        ],
+        "img": "hackvs.jpg"
     },
     {
         "name": "The Enriched",
@@ -6346,7 +6384,8 @@
                 "type": "Use Player Ability",
                 "ability": "Enrich"
             }
-        ]
+        ],
+        "img": "enrich.jpg"
     },
     {
         "name": "Warez my backup?",
@@ -6357,7 +6396,8 @@
                 "type": "Use Player Ability",
                 "ability": "NFX-2 Virus"
             }
-        ]
+        ],
+        "img": "warez.jpg"
     },
     {
         "name": "Illicit Activities",
@@ -6368,7 +6408,8 @@
                 "type": "Use Player Ability",
                 "ability": "Dark Aperture-Key"
             }
-        ]
+        ],
+        "img": "illicit.jpg"
     },
     {
         "name": "A Kernel of Truth",
@@ -6380,7 +6421,8 @@
                 "artifact": "Lepus Data Kernel",
                 "count": "5"
             }
-        ]
+        ],
+        "img": "kerneltruth.jpg"
     },
     {
         "name": "The Derelict",
@@ -6391,7 +6433,8 @@
                 "type": "Complete Mission",
                 "mission": "The Xecti Agreement"
             }
-        ]
+        ],
+        "img": "derelict.jpg"
     },
     {
         "name": "Welcome to the Team",
@@ -6402,7 +6445,8 @@
                 "type": "Complete Mission",
                 "mission": "A Destiny Unrestrained"
             }
-        ]
+        ],
+        "img": "bioship.jpg"
     },
     {
         "name": "Nothing personal",
@@ -6412,7 +6456,8 @@
             {
                 "type": "Disable Player"
             }
-        ]
+        ],
+        "img": "kills3.jpg"
     },
     {
         "name": "Intruder Alert",
@@ -6422,7 +6467,8 @@
             {
                 "type": "Raid Ship"
             }
-        ]
+        ],
+        "img": "intruder.jpg"
     },
     {
         "name": "She Blinded Me With Research",
@@ -6432,7 +6478,8 @@
             {
                 "type": "Research Topics"
             }
-        ]
+        ],
+        "img": "research3.jpg"
     },
     {
         "name": "David doesn't stand a chance",
@@ -6442,7 +6489,8 @@
             {
                 "type": "Increase Ship Size"
             }
-        ]
+        ],
+        "img": "sizeg.jpg"
     },
     {
         "name": "Mark of the Creators",
@@ -6454,7 +6502,8 @@
                 "type": "Complete Mission",
                 "mission": "The Lepus Messenger"
             }
-        ]
+        ],
+        "img": "marklepus.jpg"
     },
     {
         "name": "The Elusive Smuggler",
@@ -6465,7 +6514,8 @@
                 "type": "Disable NPC",
                 "npc": "Caelon, Dark Dispatcher"
             }
-        ]
+        ],
+        "img": "contra.jpg"
     },
     {
         "name": "Eye of the Universe",
@@ -6475,7 +6525,8 @@
             {
                 "type": "Scan Planet"
             }
-        ]
+        ],
+        "img": "pscan4.jpg"
     },
     {
         "name": "Nesting Instinct",
@@ -6485,7 +6536,8 @@
             {
                 "type": "Scan Planet"
             }
-        ]
+        ],
+        "img": "lepusnest.png"
     },
     {
         "name": "Lepus Clustered",
@@ -6508,7 +6560,8 @@
                     "Lepus C-34 Gateway"
                 ]
             }
-        ]
+        ],
+        "img": "lepus2.jpg"
     },
     {
         "name": "Taken Alive...",
@@ -6519,7 +6572,8 @@
                 "type": "Complete Mission",
                 "mission": "NFX-2 Integration"
             }
-        ]
+        ],
+        "img": "zshadin.jpg"
     },
     {
         "name": "Hidden Hands",
@@ -6530,7 +6584,8 @@
                 "type": "Complete Mission",
                 "mission": "The Lepus Messenger"
             }
-        ]
+        ],
+        "img": "lepusmess.jpg"
     },
     {
         "name": "Choices, choices.",
@@ -6540,7 +6595,8 @@
             {
                 "type": "Increase NPC Slots"
             }
-        ]
+        ],
+        "img": "choices2.jpg"
     },
     {
         "name": "Larva. Why'd it have to be Larva?",
@@ -6551,7 +6607,8 @@
                 "type": "Disable NPC",
                 "npc": "Silthion Hybrid Larva"
             }
-        ]
+        ],
+        "img": "tpsilth.jpg"
     },
     {
         "name": "Lepus Disruption",
@@ -6562,7 +6619,8 @@
                 "type": "Use NPC Ability",
                 "ability": "Chromatic Disruption"
             }
-        ]
+        ],
+        "img": "bcprime.jpg"
     },
     {
         "name": "A Golden Destiny",
@@ -6573,7 +6631,8 @@
                 "type": "Disable NPC",
                 "npc": "Auric Lepus Drone 19.0"
             }
-        ]
+        ],
+        "img": "lepusd2.jpg"
     },
     {
         "name": "Auric Guarantees",
@@ -6585,7 +6644,8 @@
                 "type": "Use Artifact",
                 "artifact": "Chromatic Lepus Egg 9.0"
             }
-        ]
+        ],
+        "img": "aasurrance.jpg"
     },
     {
         "name": "Chromatic Dominion",
@@ -6598,7 +6658,8 @@
                 "artifact": "Chromatic Cannon 5.0 Upgrade"
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "lepus5.jpg"
     },
     {
         "name": "Chromatic Coverage",
@@ -6614,7 +6675,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "lepus4.jpg"
     },
     {
         "name": "The Resemblance is Uncanny",
@@ -6625,7 +6687,8 @@
                 "type": "Complete Mission",
                 "mission": "Seal of the Genetarr"
             }
-        ]
+        ],
+        "img": "stryll1.jpg"
     },
     {
         "name": "Wrinkles in Time",
@@ -6636,7 +6699,8 @@
                 "type": "Complete Mission",
                 "mission": "Altered Directions"
             }
-        ]
+        ],
+        "img": "wrintime.jpg"
     },
     {
         "name": "Ardent Adventurer",
@@ -6647,7 +6711,8 @@
             {
                 "type": "Collect Daily Reward"
             }
-        ]
+        ],
+        "img": "4ymedal.png"
     },
     {
         "name": "Worker's Comp",
@@ -6659,7 +6724,8 @@
                 "type": "Complete Mission",
                 "mission": "XTS-9 Refinement"
             }
-        ]
+        ],
+        "img": "xts9.jpg"
     },
     {
         "name": "The Neverending Saga",
@@ -6670,7 +6736,8 @@
                 "type": "Complete Mission",
                 "mission": "Prejoran Motives"
             }
-        ]
+        ],
+        "img": "planet-shield.jpg"
     },
     {
         "name": "I'll be back...",
@@ -6681,7 +6748,8 @@
                 "type": "Complete Mission",
                 "mission": "A Pact with the Drannik"
             }
-        ]
+        ],
+        "img": "drannikex.jpg"
     },
     {
         "name": "The Transcendence",
@@ -6692,7 +6760,8 @@
                 "type": "Complete Mission",
                 "mission": "The Permanent Bond"
             }
-        ]
+        ],
+        "img": "unrems.jpg"
     },
     {
         "name": "The Urbane",
@@ -6704,7 +6773,8 @@
                 "type": "Use Player Ability",
                 "ability": "Urbanize"
             }
-        ]
+        ],
+        "img": "urbane.jpg"
     },
     {
         "name": "It's a Trap!",
@@ -6715,7 +6785,8 @@
                 "type": "Complete Mission",
                 "mission": "Lazuli Independence"
             }
-        ]
+        ],
+        "img": "lintercept.jpg"
     },
     {
         "name": "Thanks for all the fish",
@@ -6726,7 +6797,8 @@
                 "type": "Complete Mission",
                 "mission": "The Mylarai Accord"
             }
-        ]
+        ],
+        "img": "octafari2.jpg"
     },
     {
         "name": "There's been an incident...",
@@ -6737,7 +6809,8 @@
                 "type": "Complete Mission",
                 "mission": "The Zolazin Truce"
             }
-        ]
+        ],
+        "img": "glaviz-1.jpg"
     },
     {
         "name": "View from up high",
@@ -6748,7 +6821,8 @@
                 "type": "Rank Up",
                 "rank": "500"
             }
-        ]
+        ],
+        "img": "commander3.jpg"
     },
     {
         "name": "Love was once a gas",
@@ -6759,7 +6833,8 @@
                 "type": "Complete Mission",
                 "mission": "The Q-Pedd Catalyst"
             }
-        ]
+        ],
+        "img": "qpeddcat.jpg"
     },
     {
         "name": "Empty, the opposite of full",
@@ -6770,7 +6845,8 @@
                 "type": "Complete Mission",
                 "mission": "Taltherian Renewal"
             }
-        ]
+        ],
+        "img": "arcstasis.jpg"
     },
     {
         "name": "A Star of Calm",
@@ -6780,7 +6856,8 @@
             {
                 "type": "Collect Daily Reward"
             }
-        ]
+        ],
+        "img": "starcalm.jpg"
     },
     {
         "name": "Nostalgic Voyage",
@@ -6791,7 +6868,8 @@
             {
                 "type": "Collect Daily Reward"
             }
-        ]
+        ],
+        "img": "nvoyage.jpg"
     },
     {
         "name": "True Love",
@@ -6807,7 +6885,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "qpeddlove.jpg"
     },
     {
         "name": "Be Forever Mine",
@@ -6823,7 +6902,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "qpedd4.jpg"
     },
     {
         "name": "Be All Mine",
@@ -6839,7 +6919,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "qpedd3.jpg"
     },
     {
         "name": "Be Mine",
@@ -6855,7 +6936,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "qpedd1.jpg"
     },
     {
         "name": "Another Rootkit",
@@ -6865,7 +6947,8 @@
             {
                 "type": "Hack"
             }
-        ]
+        ],
+        "img": "hack2.jpg"
     },
     {
         "name": "Loyal Piracy",
@@ -6878,7 +6961,8 @@
                 "ally": "Thraccti, Scruuge Defector"
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "scrloyal.jpg"
     },
     {
         "name": "New Opportunities",
@@ -6888,7 +6972,8 @@
             {
                 "type": "Skip Legion Mission"
             }
-        ]
+        ],
+        "img": "skiplmission.jpg"
     },
     {
         "name": "Warming up the cannons",
@@ -6898,7 +6983,8 @@
             {
                 "type": "Disable Player"
             }
-        ]
+        ],
+        "img": "cannon1.jpg"
     },
     {
         "name": "Boarding Party",
@@ -6908,7 +6994,8 @@
             {
                 "type": "Raid Ship"
             }
-        ]
+        ],
+        "img": "raid1.jpg"
     },
     {
         "name": "Neophyte",
@@ -6918,7 +7005,8 @@
             {
                 "type": "Hack"
             }
-        ]
+        ],
+        "img": "hack1.jpg"
     },
     {
         "name": "The MVP",
@@ -6929,7 +7017,8 @@
             {
                 "type": "Complete Legion Mission Task"
             }
-        ]
+        ],
+        "img": "nlmmedal2.jpg"
     },
     {
         "name": "A Worthy Participant",
@@ -6940,7 +7029,8 @@
             {
                 "type": "Complete Legion Mission Task"
             }
-        ]
+        ],
+        "img": "nlmmedal3.jpg"
     },
     {
         "name": "Shared Adventures",
@@ -6951,14 +7041,16 @@
             {
                 "type": "Complete Legion Mission Task"
             }
-        ]
+        ],
+        "img": "nlmmedal2.jpg"
     },
     {
         "name": "Exo-Galactic Recruitment",
         "desc": "Invite 10 or more Facebook friends to play",
         "medalPoints": "10",
         "artifact": "Tribute Cache",
-        "unavailable": "Yes"
+        "unavailable": "Yes",
+        "img": "recruit.jpg"
     },
     {
         "name": "Seeing Red",
@@ -6969,7 +7061,8 @@
             {
                 "type": "Disable NPC"
             }
-        ]
+        ],
+        "img": "seered.jpg"
     },
     {
         "name": "Galactic Traveler",
@@ -6979,7 +7072,8 @@
             {
                 "type": "Scan Planet"
             }
-        ]
+        ],
+        "img": "pscan3.jpg"
     },
     {
         "name": "Menacing Hijack",
@@ -6990,7 +7084,8 @@
                 "type": "Disable NPC",
                 "npc": "Scruuge Hijacker"
             }
-        ]
+        ],
+        "img": "scruugeblock.jpg"
     },
     {
         "name": "Planetary Harvest",
@@ -7000,7 +7095,8 @@
             {
                 "type": "Colonize Planet"
             }
-        ]
+        ],
+        "img": "harv14a.jpg"
     },
     {
         "name": "Scruuge Most Favorite Things",
@@ -7016,7 +7112,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "scruugegifts2.jpg"
     },
     {
         "name": "Scruuge Very Favorite Things",
@@ -7031,7 +7128,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "sfthings2.jpg"
     },
     {
         "name": "Scruuge Favorite Things",
@@ -7047,7 +7145,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "scruugebay.jpg"
     },
     {
         "name": "The Era of Harvest",
@@ -7058,7 +7157,8 @@
                 "type": "Complete Mission",
                 "mission": "Era of Harvest"
             }
-        ]
+        ],
+        "img": "toharv1.jpg"
     },
     {
         "name": "Of course, Commander.",
@@ -7068,7 +7168,8 @@
             {
                 "type": "Rank Up"
             }
-        ]
+        ],
+        "img": "commander2.jpg"
     },
     {
         "name": "Higher Terror",
@@ -7085,7 +7186,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "hbturret.jpg"
     },
     {
         "name": "Hypothetically Speaking...",
@@ -7095,7 +7197,8 @@
             {
                 "type": "Research Topics"
             }
-        ]
+        ],
+        "img": "research1.jpg"
     },
     {
         "name": "Deep Meditation",
@@ -7106,7 +7209,8 @@
             {
                 "type": "Daily Timer"
             }
-        ]
+        ],
+        "img": "meditate.jpg"
     },
     {
         "name": "Gaining some notoriety",
@@ -7116,7 +7220,8 @@
             {
                 "type": "Disable NPC"
             }
-        ]
+        ],
+        "img": "notor.jpg"
     },
     {
         "name": "Restraining Order",
@@ -7127,7 +7232,8 @@
             {
                 "type": "Daily Timer"
             }
-        ]
+        ],
+        "img": "restrain.jpg"
     },
     {
         "name": "Clear Skies",
@@ -7138,7 +7244,8 @@
             {
                 "type": "Daily Timer"
             }
-        ]
+        ],
+        "img": "soul.jpg"
     },
     {
         "name": "Dyson Transformer",
@@ -7151,7 +7258,8 @@
                 "artifact": "Dyson Transformer"
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "circmap.jpg"
     },
     {
         "name": "Deep Explorer",
@@ -7161,7 +7269,8 @@
             {
                 "type": "Scan Planet"
             }
-        ]
+        ],
+        "img": "pscan2.jpg"
     },
     {
         "name": "Knowledge is Power",
@@ -7171,7 +7280,8 @@
             {
                 "type": "Research Topics"
             }
-        ]
+        ],
+        "img": "research2.jpg"
     },
     {
         "name": "The Chuhn Deal",
@@ -7187,7 +7297,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "chuhn3.jpg"
     },
     {
         "name": "Exotic Transformation",
@@ -7199,7 +7310,8 @@
                 "type": "Use Artifact",
                 "artifact": "Hyper Terraformer"
             }
-        ]
+        ],
+        "img": "pshores.jpg"
     },
     {
         "name": "Daddy Issues",
@@ -7211,7 +7323,8 @@
                 "artifact": "F.A.T.H.E.R"
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "father2.jpg"
     },
     {
         "name": "Frontier Explorer",
@@ -7221,7 +7334,8 @@
             {
                 "type": "Scan Planet"
             }
-        ]
+        ],
+        "img": "pscan1.jpg"
     },
     {
         "name": "Lab Assistant",
@@ -7231,7 +7345,8 @@
             {
                 "type": "Research Topics"
             }
-        ]
+        ],
+        "img": "research4.jpg"
     },
     {
         "name": "Welcome, Cadet",
@@ -7241,7 +7356,8 @@
             {
                 "type": "Rank Up"
             }
-        ]
+        ],
+        "img": "cadet.jpg"
     },
     {
         "name": "Back in my day...",
@@ -7252,7 +7368,8 @@
             {
                 "type": "Collect Daily Reward"
             }
-        ]
+        ],
+        "img": "myday.jpg"
     },
     {
         "name": "A long road to get here",
@@ -7263,7 +7380,8 @@
             {
                 "type": "Collect Daily Reward"
             }
-        ]
+        ],
+        "img": "longroad.jpg"
     },
     {
         "name": "Biomech Containment",
@@ -7290,7 +7408,8 @@
                 "type": "Use Structure Ability",
                 "ability": "Thavix Snare"
             }
-        ]
+        ],
+        "img": "scruugen9.jpg"
     },
     {
         "name": "Biodome Synchrony",
@@ -7305,7 +7424,8 @@
                     "T.O. Capitol Dome"
                 ]
             }
-        ]
+        ],
+        "img": "nterra13.jpg"
     },
     {
         "name": "Heist Duality",
@@ -7329,7 +7449,8 @@
                     "Drannik"
                 ]
             }
-        ]
+        ],
+        "img": "scruugewar3.jpg"
     },
     {
         "name": "Trees of Life",
@@ -7361,7 +7482,8 @@
                 "type": "Complete Evolution",
                 "race": "Vygoid"
             }
-        ]
+        ],
+        "img": "treelife1.jpg"
     },
     {
         "name": "Micro-Gravity Occurrences",
@@ -7381,7 +7503,8 @@
                 "type": "Use Planet-Based Ability",
                 "ability": "Dark Ritual Site"
             }
-        ]
+        ],
+        "img": "vacuous1.gif"
     },
     {
         "name": "Phage Development",
@@ -7393,7 +7516,8 @@
                 "type": "Use Artifact",
                 "artifact": "Bane Phage Sacrarium"
             }
-        ]
+        ],
+        "img": "banecult7.jpg"
     },
     {
         "name": "Divisive Takeover",
@@ -7403,7 +7527,8 @@
             {
                 "type": "Invade Planet"
             }
-        ]
+        ],
+        "img": "banewar2.jpg"
     },
     {
         "name": "Sure Plays a Mean Pinball",
@@ -7414,7 +7539,8 @@
                 "type": "Use Artifact",
                 "artifact": "Unstable Wormhole Emitter"
             }
-        ]
+        ],
+        "img": "warphole.jpg"
     },
     {
         "name": "Structured Isolation",
@@ -7442,7 +7568,8 @@
                 "type": "Use Artifact",
                 "artifact": "OmniVote Terminal"
             }
-        ]
+        ],
+        "img": "isolation1.jpg"
     },
     {
         "name": "Heliothermic Adaptation",
@@ -7458,7 +7585,8 @@
                 ],
                 "count": "10"
             }
-        ]
+        ],
+        "img": "eliosc3.jpg"
     },
     {
         "name": "Reveal and Revel",
@@ -7470,7 +7598,8 @@
                 "type": "Alert Planet"
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "orrery1.jpg"
     },
     {
         "name": "Branches of Adaptation",
@@ -7506,7 +7635,8 @@
                 "type": "Complete Evolution",
                 "race": "Litheor"
             }
-        ]
+        ],
+        "img": "treelife2.jpg"
     },
     {
         "name": "Lifeform Patterning",
@@ -7518,7 +7648,8 @@
                 "type": "Complete Mission",
                 "mission": "Genoform Surge"
             }
-        ]
+        ],
+        "img": "genoform3.jpg"
     },
     {
         "name": "The Ace Strategist",
@@ -7537,7 +7668,8 @@
                     "Spy"
                 ]
             }
-        ]
+        ],
+        "img": "lmission250.jpg"
     },
     {
         "name": "Moon Reflections",
@@ -7547,7 +7679,8 @@
             {
                 "type": "Flag Planet"
             }
-        ]
+        ],
+        "img": "scruugemoons.jpg"
     },
     {
         "name": "A Bag of Tricks",
@@ -7640,7 +7773,8 @@
             {
                 "type": "Repair Legion Member"
             }
-        ]
+        ],
+        "img": "repairs.jpg"
     },
     {
         "name": "Ominous Epiphanies",
@@ -7656,7 +7790,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "baneeyes1.jpg"
     },
     {
         "name": "The Duodecix Alignment",
@@ -7671,7 +7806,8 @@
             {
                 "type": "Collect Daily Reward"
             }
-        ]
+        ],
+        "img": "duodecix.jpg"
     },
     {
         "name": "Rulers of the Vaults",
@@ -7691,7 +7827,8 @@
                 "type": "Use Planet-Based Ability",
                 "ability": "Sintered Abyss"
             }
-        ]
+        ],
+        "img": "vaults1.gif"
     },
     {
         "name": "Haunting Revelations",
@@ -7707,7 +7844,8 @@
                 ]
             }
         ],
-        "requiresGP": "Yes"
+        "requiresGP": "Yes",
+        "img": "bane-haunted1.jpg"
     },
     {
         "name": "Fecund Signals",
@@ -7720,7 +7858,8 @@
                 "artifact": "Supel Comm Tower",
                 "count": "3"
             }
-        ]
+        ],
+        "img": "supel-green1.jpg"
     },
     {
         "name": "My Cargo Runneth Over",
@@ -7731,7 +7870,8 @@
             {
                 "type": "Raid Ship"
             }
-        ]
+        ],
+        "img": "cargorun2.jpg"
     },
     {
         "name": "Breaking the Shell",
@@ -7741,7 +7881,8 @@
             {
                 "type": "Disable Player"
             }
-        ]
+        ],
+        "img": "lepus3.jpg"
     },
     {
         "name": "Galactic Proconsul",
@@ -7751,7 +7892,8 @@
             {
                 "type": "Influence Zone"
             }
-        ]
+        ],
+        "img": "influence3.jpg"
     },
     {
         "name": "Obliteration Protocol",
@@ -7762,7 +7904,8 @@
             {
                 "type": "Disable Player"
             }
-        ]
+        ],
+        "img": "kills5.jpg"
     },
     {
         "name": "Watching the Clock",
@@ -7772,7 +7915,8 @@
             {
                 "type": "Alter Legion Mission Duration"
             }
-        ]
+        ],
+        "img": "nlmmedal1.jpg"
     },
     {
         "name": "The Timeline Interfold",
@@ -7783,7 +7927,8 @@
             {
                 "type": "Connect Apotheosis Account"
             }
-        ]
+        ],
+        "img": "greatlink2.jpg"
     },
     {
         "name": "Omni-Decryption Mastery",
@@ -7794,7 +7939,8 @@
             {
                 "type": "Hack"
             }
-        ]
+        ],
+        "img": "hack6.jpg"
     },
     {
         "name": "Recruitment Drive",
@@ -7805,7 +7951,8 @@
             {
                 "type": "Referred Player Creation"
             }
-        ]
+        ],
+        "img": "recruit3.jpg"
     },
     {
         "name": "Exo-Galactic Trading",
@@ -7816,7 +7963,8 @@
                 "type": "Collect TrialPay"
             }
         ],
-        "unavailable": "Yes"
+        "unavailable": "Yes",
+        "img": "trialpay.jpg"
     },
     {
         "name": "Ritual of the Challenger",
@@ -7826,7 +7974,8 @@
             {
                 "type": "Complete Daily Challenge"
             }
-        ]
+        ],
+        "img": "challenge5.jpg"
     },
     {
         "name": "Apex Authority",
@@ -7839,7 +7988,8 @@
             {
                 "type": "Collect Daily Reward"
             }
-        ]
+        ],
+        "img": "commander6.jpg"
     },
     {
         "name": "Terrors of Oblivion",
@@ -7849,7 +7999,8 @@
             {
                 "type": "Invade Planet"
             }
-        ]
+        ],
+        "img": "banewar6.jpg"
     },
     {
         "name": "Mending Hearts",
@@ -7880,7 +8031,8 @@
                 "type": "Repair Legion Member",
                 "race": "Physicist"
             }
-        ]
+        ],
+        "img": "cyblove.jpg"
     },
     {
         "name": "Evolutionary Mastery",
@@ -7890,7 +8042,8 @@
             {
                 "type": "Complete Evolution"
             }
-        ]
+        ],
+        "img": "evolutions3.jpg"
     },
     {
         "name": "Freight Expectations",

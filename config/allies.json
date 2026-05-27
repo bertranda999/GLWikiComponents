@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Amerase, Genoform Entity",
+        "unlockables": [
+            {
+                "rank": "30",
+                "playerEffects": [
+                    {
+                        "type": "Increase Genes Production",
+                        "value": "7%"
+                    }
+                ]
+            },
+            {
+                "rank": "100",
+                "playerEffects": [
+                    {
+                        "type": "Decrease Grow Genes Cooldown",
+                        "value": "9%"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Valetheon, Civicordium Envoy",
+        "unlockables": [
+            {
+                "rank": "30",
+                "playerEffects": [
+                    {
+                        "type": "Decrease Vote Influence Cost",
+                        "value": "12%"
+                    }
+                ]
+            },
+            {
+                "rank": "50",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Council Cost",
+                        "value": "6%"
+                    }
+                ]
+            }
+        ]
+    }
+]
