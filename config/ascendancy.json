@@ -201,11 +201,27 @@
         "img": "recon1.jpg"
     },
     {
-        "name": "Unknown",
+        "name": "Augmentation Initiative",
         "prereqs": [
             "Species Mutagenics Program"
         ],
-        "level": 2
+        "playerEffects": [
+            {
+                "type": "Decrease Grow Genes Cooldown",
+                "value": "5%"
+            }
+        ],
+        "img": "augment1.jpg",
+        "level": 2,
+        "bonusDesc": "Reduces 'Grow Evolution Genes' cooldown by 5%",
+        "cooldown": "4 hours",
+        "cost": {
+            "Influence": "2,800",
+            "Genes": "15",
+            "Studies": "520"
+        },
+        "desc": "Implement standardized augmentation protocols to improve biological and cybernetic performance.",
+        "phases": "380"
     },
     {
         "name": "Universal Contracts",

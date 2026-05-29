@@ -839,6 +839,20 @@
                 "type": "Increase Genes Production",
                 "value": "30%"
             }
+        ],
+        "newMedals": [
+            "Biospheric Isolation",
+            "Genetic Reclamation",
+            "Extended Telomeres",
+            "Triune Helix",
+            "Fecund Solitude",
+            "Novel Phylogeny",
+            "Unchecked Growth",
+            "Infected Intrustion",
+            "Genoform Accession",
+            "Taming the Undulok",
+            "Blossoming Potential",
+            "Optimal Mutations"
         ]
     }
 ]

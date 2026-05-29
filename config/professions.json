@@ -9,6 +9,10 @@
         ]
     },
     {
+        "name": "Governor",
+        "description": "Colony administrators. Planetary event frequency is significantly elevated under their oversight."
+    },
+    {
         "name": "Miner",
         "playerEffects": [
             {

@@ -6467,6 +6467,16 @@
         "rps": 2000
     },
     {
+        "name": "Polychoron OreVault",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 2000,
+        "aps": 1000,
+        "rps": 1000
+    },
+    {
         "name": "Dais of Deceit",
         "size": 1,
         "limit": 1,
@@ -6516,9 +6526,9 @@
         "bmp": 3,
         "bap": 3,
         "brp": 3,
-        "rps": 2600,
+        "rps": 3200,
         "bip": 3,
-        "ips": 260
+        "ips": 320
     },
     {
         "name": "Bio-Luminous Orb",

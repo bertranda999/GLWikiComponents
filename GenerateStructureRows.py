@@ -755,6 +755,7 @@ structures: list[Structure] = [
     Structure("Artifact Relic-Warehouse", 2, 5, False, False, aps=4300, c=200, acq=evo(), alternatePageName="Artifact Warehouse"),
     Structure("Polychoron RelicVault", 1, 1, False, False, mps=1000, aps=2000, rps=1000, acq=evo(), alternatePageName="Polychoron Vault", formDescription="If artifact storage boosted with [[Polychoron Adapter]]:"),
     Structure("Polychoron DataVault", 1, 1, False, False, mps=1000, aps=1000, rps=2000, acq=evo(), alternatePageName="Polychoron Vault", formDescription="If research storage boosted with [[Polychoron Adapter]]:"),
+    Structure("Polychoron OreVault", 1, 1, False, False, mps=2000, aps=1000, rps=1000, acq=evo(), alternatePageName="Polychoron Vault", formDescription="If research storage boosted with [[Polychoron Adapter]]:"),
     Structure("Dais of Deceit", 1, 1, False, False, mpp=2, app=2, rpp=2, ip=1, ipp=2, c=900, acq=evo()),
     Structure("Micro-Raix Cyclotron", 1, 1, False, False, mpp=2, app=2, rpp=2, rps=2000, ipp=2, ips=200, acq=evo()),
     Structure("Micro-Raix Cyclotron", 1, 1, False, False, "2", mpp=2, app=2, rpp=2, rps=2600, ipp=2, ips=260, acq=evo()),

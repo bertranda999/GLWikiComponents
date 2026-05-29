@@ -3,21 +3,30 @@
         "name": "Barren",
         "smallest": "Very Tiny",
         "largestNatural": "Very Massive",
-        "largest": "Very Massive"
+        "largest": "Very Massive",
+        "naturalAbilities": [
+            "Subterranean Catacombs"
+        ]
     },
     {
         "name": "Volcanic",
         "smallest": "Tiny",
         "largest": "Very Massive",
         "largestNatural": "Very Large",
-        "hasSpecialImage": "Yes"
+        "hasSpecialImage": "Yes",
+        "naturalAbilities": [
+            "Geothermic Crucible"
+        ]
     },
     {
         "name": "Gas",
         "smallest": "Large",
         "largest": "Very Massive",
         "largestNatural": "Very Massive",
-        "hasSpecialImage": "Yes"
+        "hasSpecialImage": "Yes",
+        "naturalAbilities": [
+            "Archaic Debris Field"
+        ]
     },
     {
         "name": "Desert",
@@ -29,7 +38,10 @@
         "name": "Icy",
         "largest": "Very Massive",
         "largestNatural": "Very Large",
-        "smallest": "Tiny"
+        "smallest": "Tiny",
+        "naturalAbilities": [
+            "Subglacial Logic Engine"
+        ]
     },
     {
         "name": "Toxic",
@@ -42,20 +54,29 @@
         "largestNatural": "Very Massive",
         "name": "Metallic",
         "smallest": "Tiny",
-        "hasSpecialImage": "Yes"
+        "hasSpecialImage": "Yes",
+        "naturalAbilities": [
+            "Ferric Resonator"
+        ]
     },
     {
         "name": "Oceanic",
         "largest": "Mega Colossal",
         "largestNatural": "Very Massive",
-        "smallest": "Very Small"
+        "smallest": "Very Small",
+        "naturalAbilities": [
+            "Proliferate Biosphere"
+        ]
     },
     {
         "name": "Terra",
         "largest": "Very Massive",
         "largestNatural": "Very Large",
         "smallest": "Very Tiny",
-        "hasSpecialImage": "Yes"
+        "hasSpecialImage": "Yes",
+        "naturalAbilities": [
+            "Proliferate Biosphere"
+        ]
     },
     {
         "name": "Exotic",
@@ -89,13 +110,19 @@
         "largestNatural": "Large",
         "name": "Ecumenopolis",
         "smallest": "Large",
-        "hasSpecialImage": "Yes"
+        "hasSpecialImage": "Yes",
+        "naturalAbilities": [
+            "Urban Maintenance Guild"
+        ]
     },
     {
         "largest": "Colossal",
         "largestNatural": "Colossal",
         "smallest": "Very Small",
-        "name": "Crystal"
+        "name": "Crystal",
+        "naturalAbilities": [
+            "Voltaic Maelstrom"
+        ]
     },
     {
         "largest": "Colossal",
@@ -145,7 +172,10 @@
         "largestNatural": "Very Massive",
         "name": "Gaia",
         "smallest": "Small",
-        "hasSpecialImage": "Yes"
+        "hasSpecialImage": "Yes",
+        "naturalAbilities": [
+            "Hyperfertile Ecology"
+        ]
     },
     {
         "largest": "Colossal",
@@ -165,10 +195,7 @@
         "largestNatural": "Very Large",
         "name": "Chthonian",
         "smallest": "Small",
-        "hasSpecialImage": "Yes",
-        "naturalAbilities": [
-            "Archaic Debris Field"
-        ]
+        "hasSpecialImage": "Yes"
     },
     {
         "largest": "Mega Colossal",
@@ -183,5 +210,10 @@
         "name": "Dyson",
         "smallest": "Colossal",
         "hasSpecialImage": "Yes"
+    },
+    {
+        "name": "Psionic",
+        "smallest": "Very Tiny",
+        "imageCount": "6"
     }
 ]

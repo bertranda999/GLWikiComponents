@@ -1779,5 +1779,20 @@
         "date": "26 May 2026",
         "type": "Tweak",
         "desc": "Galactic Survey Expansion: The Cartography Division's commissioned survey is complete. Long-range detectors resolved a denser field of viable worlds than preliminary models had forecast, expanding the known galactic registry by over 30%."
+    },
+    {
+        "date": "27 May 2026",
+        "type": "Initiative",
+        "desc": "Galakis Trading Guilds - Winner: Pathfinders Guild: Increases production by 2% for Pathfinders Guild professions"
+    },
+    {
+        "date": "27 May 2026",
+        "type": "Cosmetic",
+        "desc": "Updated vertical scrollbars throughout the game for better interactivity on mobile devices. You may need to clear your cache (CTRL+F5) to see these."
+    },
+    {
+        "date": "28 May 2026",
+        "type": "Cosmetic",
+        "desc": "Influence Zones that are restricted due to 'Suzerain Term Limits' will now appear with a red border on the map"
     }
 ]

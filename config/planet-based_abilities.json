@@ -1,6 +1,5 @@
 [
     {
-        "name": "Abandoned Micrograv Armory",
         "message": "The Armory begins working...",
         "desc": "Boosts your damage cap (for a random damage type) by 12% for 4 hours",
         "playerEffectsRandom": [
@@ -11,14 +10,13 @@
             }
         ],
         "cooldown": "20 hours",
-        "buttonText": "Armory Sources"
+        "name": "Armory Sources"
     },
     {
-        "name": "Archaic Debris Field",
         "message": "",
         "desc": "Extracts a random artifact from the debris field",
         "cooldown": "6 days 16 hours",
-        "buttonText": "Debris Search",
+        "name": "Debris Search",
         "playerEffectsRandom": [
             {
                 "type": "Grants",
@@ -27,9 +25,8 @@
         ]
     },
     {
-        "name": "Chuhn Orbital Freeport",
         "desc": "Trades 2 Aeon Badges for a random intergalactic artifact",
-        "buttonText": "Freeport Trade",
+        "name": "Freeport Trade",
         "cooldown": "20 hours",
         "textOnUse": "The Freeport Trades you:",
         "cost": {
@@ -51,7 +48,6 @@
         ]
     },
     {
-        "name": "Cognisphere Librarium",
         "desc": "Retrieves a random artifact from the Librarium. Uses 42 Blue Badges",
         "playerEffectsRandom": [
             {
@@ -67,13 +63,12 @@
         "cost": {
             "Blue Badges": "42"
         },
-        "buttonText": "Cognisphere Revelation",
+        "name": "Cognisphere Revelation",
         "cooldown": "2 days 8 hours"
     },
     {
-        "name": "Convocation of Peace",
         "desc": "Boosts all influence production by 5-15% for 20 hours. Costs 4 Evolution Genes and 1111 Energy",
-        "buttonText": "Peace Talks",
+        "name": "Peace Talks",
         "cooldown": "20 hours",
         "message": "The planet begins Peace Talks...",
         "playerEffects": [
@@ -89,9 +84,8 @@
         }
     },
     {
-        "name": "Dark Ritual Site",
         "desc": "Manifests a random Dark Artifact. Uses 2666 Influence and 5 Corruption",
-        "buttonText": "Dark Ritual",
+        "name": "Dark Ritual",
         "textOnUse": "The Dark Ritual manifests:<br>[Drop]",
         "playerEffectsRandom": [
             {
@@ -105,7 +99,6 @@
         }
     },
     {
-        "name": "Emergent Sentarch",
         "desc": "Grants a random artifact. Costs 5 Aeon Badges",
         "playerEffectsRandom": [
             {
@@ -120,11 +113,10 @@
         "cost": {
             "Aeon Badge": "5"
         },
-        "buttonText": "Sentarch Meeting",
+        "name": "Sentarch Meeting",
         "textOnUse": "The Sentarch provides:<br>1 [artifact]"
     },
     {
-        "name": "Enigmatic Aperture (Ability)",
         "desc": "Boosts all planetary storage (of a random type) by 5% for 20 hours",
         "cooldown": "20 hours",
         "playerEffectsRandom": [
@@ -149,23 +141,33 @@
                 "duration": "20 hours"
             }
         ],
-        "buttonText": "Aperture Delve",
+        "name": "Aperture Delve",
         "textOnUse": "The Portal begins fluctuating..."
     },
     {
-        "name": "Fractal Anomaly",
-        "description": "Recharges your energy to full when used",
+        "name": "Resonator Pulse",
+        "desc": "Boosts scanning by 3% for 5 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Scan",
+                "value": "3%",
+                "duration": "5 hours"
+            }
+        ]
+    },
+    {
+        "desc": "Recharges your energy to full when used",
         "cooldown": "56 hours",
         "playerEffects": [
             {
                 "type": "Refill Energy"
             }
         ],
-        "buttonText": "Fractal Readings"
+        "name": "Fractal Readings"
     },
     {
-        "name": "Gateway Nexus Link",
-        "description": "Boosts planetary production by 2% for 3 days, plus an additional 1% for each other Gateway Nexus Link you control, up to a maximum 6% bonus.",
+        "name": "Gateway Link",
+        "desc": "Boosts planetary production by 2% for 3 days, plus an additional 1% for each other Gateway Nexus Link you control, up to a maximum 6% bonus.",
         "cooldown": "3 days",
         "planetEffects": [
             {
@@ -176,10 +178,31 @@
         ]
     },
     {
-        "name": "Ignean Furnace",
+        "desc": "Boosts total mining production (across all planets) by 3% for 8 hours",
+        "name": "Geothermic Tap",
+        "playerEffects": [
+            {
+                "type": "Increase Mining",
+                "value": "3%",
+                "duration": "8 hours"
+            }
+        ]
+    },
+    {
+        "desc": "Reduces Evolution Gene Cooldown by 9% for 30 hours",
+        "name": "Hyperfertility",
+        "playerEffects": [
+            {
+                "type": "Decrease Grow Genes Cooldown",
+                "value": "9%",
+                "duration": "30 hours"
+            }
+        ]
+    },
+    {
         "desc": "Boosts all scrapping yields by 6% for 20 hours. Uses 4200 Energy",
         "cooldown": "20 hours",
-        "buttonText": "Ignean Scrapping",
+        "name": "Ignean Scrapping",
         "playerEffects": [
             {
                 "type": "Increase Scrap Yields",
@@ -192,9 +215,8 @@
         }
     },
     {
-        "name": "Influential Traveler",
         "desc": "Seek an audience with the traveler and gain a new one-time mission. Costs 2000 Influence",
-        "buttonText": "Grant Audience",
+        "name": "Grant Audience",
         "textOnUse": "The Traveler Provides:<br>[Drop]",
         "cooldown": "2 days",
         "playerEffects": [
@@ -208,9 +230,8 @@
         }
     },
     {
-        "name": "Lost Cry-Foundry",
         "desc": "Produces a random artifact from the Ancient Foundry. Costs 5 Relic Badges",
-        "buttonText": "Foundry Activation",
+        "name": "Foundry Activation",
         "cooldown": "2 days 8 hours",
         "cost": {
             "Relic Badge": "5"
@@ -227,9 +248,8 @@
         ]
     },
     {
-        "name": "Mysterious Orb",
         "desc": "Boost productions (of a random type) across all planets by 4% for 20 hours. Uses 1 Aeon Badge",
-        "buttonText": "Orb Pulse",
+        "name": "Orb Pulse",
         "cost": {
             "Aeon Badges": "1"
         },
@@ -242,9 +262,8 @@
         ]
     },
     {
-        "name": "Neo-Fecund Specimen",
         "cooldown": "2 days 8 hours",
-        "buttonText": "Specimen Extract",
+        "name": "Specimen Extract",
         "cost": [
             {
                 "Energy": "1000"
@@ -257,8 +276,7 @@
         ]
     },
     {
-        "name": "Noospheric Emergence",
-        "buttonText": "Noospheric Ritual",
+        "name": "Noospheric Ritual",
         "cost": [
             {
                 "Evolution Genes": "22"
@@ -279,7 +297,7 @@
         ]
     },
     {
-        "name": "Path of Terraforming",
+        "name": "Path of Terraforming*",
         "desc": "Trades 2 Aeon Badges for a random path reward.<br>Planet must have 'Very Rich' or greater artifact availability",
         "cooldown": "4 days",
         "cost": {
@@ -297,7 +315,7 @@
         ]
     },
     {
-        "name": "Path to Metropolis",
+        "name": "Path to Metropoli*",
         "desc": "Trades 2 Aeon Badges for a random path reward.<br>Planet must have at least 40 distinct structures built on it to earn",
         "cooldown": "4 days",
         "cost": {
@@ -315,7 +333,7 @@
         ]
     },
     {
-        "name": "Path to Obscurity",
+        "name": "Path to Obscurity*",
         "desc": "Trades 2 Aeon Badges for a random path reward.<br>Planet must have 500 or greater passive cloak",
         "cooldown": "4 days",
         "cost": {
@@ -333,7 +351,19 @@
         ]
     },
     {
-        "name": "Sintered Abyss",
+        "name": "Biosphere Proliferation",
+        "desc": "Boosts Evolution Gene Yields by 9% for 10 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "9%",
+                "duration": "10 hours"
+            }
+        ],
+        "cooldown": "3 days 8 hours"
+    },
+    {
+        "name": "Sintered Abyss*",
         "desc": "Retrieves a random artifact from the pit. Uses 4 Green Badges",
         "cooldown": "2 days 8 hours",
         "cost": {
@@ -347,13 +377,12 @@
         ]
     },
     {
-        "name": "Site Repair",
         "desc": "Removes the Nanosheared Drilling Site.<br>Costs 500 Energy and 500 Complex Tech Parts.",
         "cost": {
             "energy": "500",
             "ctp": "500"
         },
-        "buttonText": "Repair Damage",
+        "name": "Repair Damage",
         "planetEffects": [
             {
                 "type": "Remove Drilling Site"
@@ -362,7 +391,7 @@
         "textOnUse": "You successfully repair the damage from the Drilling Site."
     },
     {
-        "name": "Streveldan Landing Site",
+        "name": "Streveldan Landing Site*",
         "desc": "Trades 11 Evolution Genes for a random colony reward. Planet must have at least 3 Q-Pedd structures",
         "cooldown": "4 days",
         "cost": {
@@ -380,13 +409,33 @@
         ]
     },
     {
-        "name": "Time-Split Incursion",
+        "name": "Subglacial Logic Engine*",
+        "playerEffects": [
+            {
+                "type": "Increase Research",
+                "value": "3%",
+                "duration": ""
+            }
+        ]
+    },
+    {
+        "desc": "Boosts total Artifact Storage (across all planets) by 5% for 8 hours",
+        "name": "Catacombs Storage",
+        "playerEffects": [
+            {
+                "type": "Increase Artifact Storage",
+                "value": "5%",
+                "duration": "8 hours"
+            }
+        ]
+    },
+    {
         "desc": "Resets the timer for a Daily Mission at random. Costs 1000 Energy.",
         "cooldown": "2 days 8 hours",
         "cost": {
             "energy": "1000"
         },
-        "buttonText": "Time-Split",
+        "name": "Time-Split",
         "playerEffects": [
             {
                 "type": "Reset Random Daily Mission"
@@ -394,7 +443,6 @@
         ]
     },
     {
-        "name": "Vassal Allegiance",
         "cooldown": "2 days 8 hours",
         "desc": "Adds a new Daily Challenge to your list. Uses 2222 Influence",
         "cost": {
@@ -405,13 +453,12 @@
                 "type": "Add Daily Challenge"
             }
         ],
-        "buttonText": "Vassal Call",
+        "name": "Vassal Call",
         "textOnUse": "The Vassal brings a new challenge..."
     },
     {
-        "name": "Voltaic Maelstrom",
         "desc": "Recharges your energy to full when used",
-        "buttonText": "Voltaic Tap",
+        "name": "Voltaic Tap",
         "playerEffects": [
             {
                 "type": "Refill Energy"
@@ -419,10 +466,9 @@
         ]
     },
     {
-        "name": "Will of the Dark Psion",
         "cooldown": "1 day",
         "desc": "Seek an audience with the Dark Psion and gain a new one-time mission. Costs 9 Green Badges",
-        "buttonText": "Succumb",
+        "name": "Succumb",
         "textOnUse": "You acquire:1 Dark Psionic Essence(Artifact)",
         "cost": [
             {
@@ -437,7 +483,7 @@
         ]
     },
     {
-        "name": "Xenotypic Mutation",
+        "name": "Xenotypic Mutation*",
         "cooldown": "2 days 8 hours",
         "desc": "Grows a random Biological creature (artifact). Costs 11 Evolution Genes",
         "cost": {
@@ -451,10 +497,9 @@
         ]
     },
     {
-        "name": "Gaia Sporewell",
         "cooldown": "40 hours",
         "desc": "Boosts Evolution Gene growth amounts by 10% for for 40 hours. Costs 2,200 energy",
-        "buttonText": "Sporewell Flow",
+        "name": "Sporewell Flow",
         "textOnUse": "A surge of spores flow through your labs.",
         "cost": {
             "Energy": "2200"

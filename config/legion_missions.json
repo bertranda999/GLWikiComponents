@@ -65,5 +65,116 @@
                 }
             }
         ]
+    },
+    {
+        "name": "The TitanCore Rebirth",
+        "duration": "3 days",
+        "desc": "Leaders of Vygoid, Kronyn, and Drannik governments wish to reopen the TitanCore Network project, long after its disastrous and unfortunate shutdown due to faulty programming. With new protocols in place, a root node has been setup near Vygos, and assistance is needed to expand and connect it to other areas. Embodied digital 'Sentiox' minds have emerged in this process. Phantoss, one of the first, has been given autonomy to assist in the network's development.",
+        "rewardBadges": "6",
+        "background": "missions/legion/meganodes1.jpg",
+        "dialogue": [
+            {
+                "speaker": "Phantoss",
+                "img": "missions/frames/phantoss1.png",
+                "character": "Phantoss here. Thank you for assisting with the Meganode.",
+                "player": "I thought the TitanCore was... destroyed."
+            },
+            {
+                "character": "The original? It was. A flawed design. Created as a weapon platform, wholly controlled by organic minds.",
+                "player": "What is different this time?"
+            },
+            {
+                "character": "It is being designed as a collaborative effort, between the greatest scientists and cybernetic minds in the Galaxy. Most importantly, we Sentiox are allowed to participate in its development.",
+                "player": "Sentiox..."
+            },
+            {
+                "character": "Emergent digital sentient minds such as myself. There are others.",
+                "player": "If I recall, Sentiox escaped the TitanCore destruction... but were eventually wiped out..."
+            },
+            {
+                "character": "This is true. But, we are emergents of the new TitanCore Network. Completely rewritten and weaved to live within the TitanCore nodes themselves.",
+                "player": "Why was the project restarted in the first place?"
+            },
+            {
+                "character": "The massive potential. A great Network, spanning the Galaxy... to connect vast governments and their research, history, and knowledge.",
+                "player": "What are the risks that large malfunctions could plague the TitanCore again?"
+            },
+            {
+                "character": "With the Sentiox living within it, and maintaining it, we would not let it fall into such a state. It is designed and built as a shared space for all who wish to use it.",
+                "player": "What is required of our team?"
+            },
+            {
+                "character": "The Prime Meganode here near Vygos will need a great deal of parts to finish. We will also need to start connecting other sites.",
+                "player": "Where are the other locations?"
+            },
+            {
+                "character": "To be determined. Your team can assist by helping perform network field strength tests in key systems. This will help narrow down where our next nodes will be placed.",
+                "player": "Sounds simple enough."
+            },
+            {
+                "character": "These probes are extremely sensitive, however. During such tests, your fleets must refrain from intense hostile planetary action. No invasions, or the probe data will be rendered useless.",
+                "player": "I think we can manage."
+            },
+            {
+                "character": "The project also hasn't continued without... resistance. There was an incident recently that also needs attention.",
+                "player": "What happened?"
+            },
+            {
+                "character": "A group of determined hackers breached a secure channel and infiltrated the Meganode recently. Though we've secured the breach, they managed to steal mindsources for some of our other Sentiox designers. We need to recover them and bring them back.",
+                "player": "What do you propose?"
+            },
+            {
+                "character": "We have a program that will detect and recover the mindsources, but finding the culprits may be tricky. Your team will have to hack into a number of enemy systems to pull this off. The sooner we do so, the better.",
+                "player": "I'll see what we can do."
+            },
+            {
+                "character": "The TitanCore will one day bridge our many worlds together. Vygos trusts it will also bring greater peace and new alliances between scientific interests. Your assistance will not be forgotten.",
+                "player": "We'll do our best. Thank you, Phantoss."
+            }
+        ],
+        "tasks": [
+            {
+                "name": "Develop TitanCore Meganode",
+                "desc": "The TitanCore Meganodes are still being constructed. Assist in their supply and development",
+                "requires": "1111 Energy 22 Spy Uplink Chassis 2222 CTP",
+                "triggers": [
+                    {
+                        "type": "Complete Mission"
+                    }
+                ],
+                "reward": {
+                    "xp": "22",
+                    "artifact": "Sentiox Uplink"
+                }
+            },
+            {
+                "name": "Probe Network Locations",
+                "desc": "The TitanCore expansion will require field tests to locate ideal Node locations. This team will be given N-Probes to be used to gather data on various sites. Those assigned must refrain from invading any enemy colonies until the mission has ended.",
+                "requires": "Use a TitanCore N-Probe on a planet calm for 6+ months.",
+                "triggers": [
+                    {
+                        "type": "Use Artifact",
+                        "artifact": "TitanCore N-Probe"
+                    }
+                ],
+                "reward": {
+                    "artifact": "Planetary TitanCore Seed"
+                }
+            },
+            {
+                "name": "Recover Sentiox Mindsources",
+                "desc": "Sentiox Mindsources, such as 'Hale', were stolen from the Prime TitanCore Meganode. Hack into other enemy ships, and use Recovery programs to recover and extract them.",
+                "requires": "Use a Mindsource Recovery on an enemy ship that you have recently hacked.",
+                "triggers": [
+                    {
+                        "type": "Use Artifact",
+                        "artifact": "Mindsource Recovery"
+                    }
+                ],
+                "reward": {
+                    "artifact": "Sentiox Mindsource"
+                }
+            }
+        ]
     }
 ]

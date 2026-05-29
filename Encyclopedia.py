@@ -294,6 +294,18 @@ for (name, artifact) in artifacts.items():
                     if planetBuilderStructure['name'] == effect['new']:
                         planetBuilderStructure['base'] = effect['original']
                         break
+    elif 'planetEffectsChoice' in artifact:
+        for effect in artifact['planetEffectsChoice']:
+            if not 'type' in effect:
+                print(f"Missing effect type: {artifact['name']}")
+            if effect['type'] == 'Construct Structure':
+                structures[effect['structure']]['sources']['artifacts'].append((artifact, "Optional"))
+            elif effect['type'] == 'Upgrade Structure':
+                structures[effect['new']]['sources']['artifacts'].append((artifact, "Optional"))
+                for planetBuilderStructure in planetBuilderData['structures']:
+                    if planetBuilderStructure['name'] == effect['new']:
+                        planetBuilderStructure['base'] = effect['original']
+                        break
     elif 'planetEffectsRandom' in artifact:
         for effect in artifact['planetEffectsRandom']:
             if effect['type'] == 'Construct Structure':
@@ -1464,7 +1476,298 @@ async def writeHeaderPage():
         await file.write(headerHtml)
 
 asyncio.run(writeHeaderPage())
+
+async def writeNewsTab():
+
+    newsTabHtml =   '''<head><link rel=\"stylesheet\" href=\"../style.css\"></head>
+                        <h2>News Tab</h2>
+                        Access this tab by clicking the button the image below<br>
+                        <img src="../assets/newstabbutton.png"><br>
+                        
+                        This tab displays general game information<br>
+                        <img src="../assets/newstab.png"><br><br>
+
+                        The <a href="../actions/dailyreward.html">Daily Reward</a> button<br>
+                        The <a href="../actions/supporterbonus.html">Supporter Bonus</a> button<br>
+                        The <a href="../materials/gp.html">Galaxy Points</a> purchase button<br>
+                        The <a href="../markets/artifactmarket.html">Artifact</a> Market button<br>
+                        The Seasonal Events Schedule button<br>
+                        The active Seasonal Event banners (if any Seasonal Events are active)<br>
+                        A link to Galaxy Legion: Apotheosis, the sequel game<br>
+                        A button to view all game updates<br>
+                        A section to view the most recent updates<br>
+                        The Galactic Voting button, which accesses Initiatives<br>
+                        The current Legion Announcement, where Legion leaders can post important updates<br>
+                        The Ship's Log, which includes many types of messages about your game<br>
+
+                        <h3>Galaxy Points Pop-Up</h3>
+                        Clicking on the Galaxy Points displays a pop-up with various GP purchase options.<br>
+                        <img src="../assets/gppopup.png">
+
+                        <h3>Seasonal Events Schedule Pop-Up</h3>
+                        Clicking on the Schedule button displays a pop-up with the Seasonal Events schedule. This schedule lists the various Seasonal Events in the game, along with their timeframes. In addition, hovering over the icons can give more information about the features available during that Seasonal Event.<br>
+                        <img src="../assets/seasonaleventsschedulepopup.png">
+
+                        <h3>Seasonal Banners</h3>
+                        You can expand these banners by clicking on them, which reveals more information about the Event.
+
+                        <h3>Updates</h3>
+                        This button displays the full list of game updates. Some updates have more lengthy information associated, which you can see by clicking on the updates. Further, you can click on any updates indicating a passing Initiative to see more information about the effect.<br>
+                        <img src="../assets/gameupdatespopup.png">
+
+                        <h3>Ship's Log</h3>
+                        This log contains various filter buttons. Click these buttons at the top to filter the type of messages seen.
+                    '''
+
+    async with aiofiles.open(outPath + "interface/news.html", "w") as file:
+        await file.write(newsTabHtml)
+
+asyncio.run(writeNewsTab())
+
+async def writeShipTab():
+
+    shipHtml =  '''
+                <head><link rel=\"stylesheet\" href=\"../style.css\"></head>
+                <h2>Ship Tab</h2>
+                Access this tab either by clicking the Ship tab button or by clicking on your ship design in the header<br>
+                <img src="../assets/shiptabbutton.png"><img src="../assets/shiptabbutton2.png"><br><br>
+
+                This tab shows information about your ship<br>
+                <img src="../assets/shiptab.png"><br><br>
+
+                This tab displays the following information:<br>
+                Your <a href="../shipstats/size.html">Ship Size (Space)</a> stat<br>
+                Your <a href="../shipstats/attack.html">Attack</a> stat<br>
+                Your <a href="../shipstats/defense.html">Defense</a> stat<br>
+                Your <a href="../shipstats/scan.html">Scan</a> stat<br>
+                Your <a href="../shipstats/cloak.html">Cloak</a> stat<br>
+                Your <a href="../shipstats/cargo.html">Cargo</a> stat<br>
+                Your <a href="../shipstats/upkeep.html">Upkeep</a><br>
+                Your <a href="../races.html">Race</a><br>
+                Your <a href="../professions.html">Profession</a><br>
+                The <a href="shipstats.html">Ship Stats</a> button<br>
+                The <a href="../medals_sorted.html">Medals</a> button<br>
+                The <a href="../actions/repairship.html">Repair Ship</a> button<br>
+                The <a href="../artifacts.html">Artifacts</a> button<br>
+                The <a href="../abilities.html">Abilities</a> button<br>
+                The <a href="settingswindow.html">Settings</a> button<br>
+                The ship display
+
+                <h3>Space Pop-Up</h3>
+                Clicking your Space stat will show your space used vs your ship size, your size class, and any modifiers to your ship size.<br>
+                <img src="../assets/shipspacepopup.png">
+
+                <h3>Attack Pop-Up</h3>
+                Clicking your Attack stat will show your total attack, attack from crew, attack from modules, and any modifiers to your attack.<br>
+                <img src="../assets/shipattackpopup.png">
+
+                <h3>Defense Pop-Up</h3>
+                Clicking your Defense stat will show your total defense, defense from crew, defense from modules, and any modifiers to your defense.<br>
+                <img src="../assets/shipdefensepopup.png">
+
+                <h3>Scan Pop-Up</h3>
+                Clicking your Scan stat will show your total scan, scan from modules, and any modifiers to your scan.<br>
+                <img src="../assets/shipscanpopup.png">
+
+                <h3>Cloak Pop-Up</h3>
+                Clicking your Cloak stat will show your total cloak, cloak from modules, and any modifiers to your cloak.<br>
+                <img src="../assets/shipcloakpopup.png">
+
+                <h3>Cargo Pop-Up</h3>
+                Clicking your Cargo stat will show your used cargo space vs max cargo space, cargo space installed on your ship, and any modifiers to your cargo space.<br>
+                <img src="../assets/shipcargopopup.png">
+
+                <h3>Upkeep Pop-Up</h3>
+                Clicking your Upkeep stat will your total upkeep, time until your upkeep is due, and any modifiers to your upkeep.<br>
+                <img src="../assets/shipupkeepopup.png">
+
+                <h3>Race Pop-Up</h3>
+                Clicking your Race image will show your current race, its bonus, and its description.<br>
+                <img src="../assets/racepopup.png">
+
+                <h3>Profession Pop-Up</h3>
+                Clicking your Profession will show your current profession, its bonus, and its description.<br>
+                <img src="../assets/professionpopup.png">
+
+                <h3>Ship Stats Window</h3>
+                <a href="shipstats.html">More Information</a><br>
+                <img src="../assets/shipstatswindow.png">
+
+                <h3>Medals Window</h3>
+                This window displays your medals and accumulated medal points.
+                <img src="../assets/medalswindow.png">
+
+                <h3>Abilities Window</h3>
+                This window displays your abilities. Here, you can only use abilities that don't require a specific target, like a specific planet or NPC.<br>
+                <img src="../assets/abilitieswindow.png">
+
+                <h3>Settings Window</h3>
+                This window displays your <a href="../actions/settings.html">Player Settings</a>.<br>
+                <img src="../assets/settingswindow.png">
+
+                <h3>Ship Display</h3>
+                You can expand the various sections to see ship crew and size, modules, and allies. In the Ship Crew & Size, you can spend Rank points. In the modules sections, you can install various standard modules, sell modules, use modules abilities, or uninstall / reinstall modules.<br>
+                <img src="../assets/shipdisplay.png">
+
+                '''
+
+    async with aiofiles.open(outPath + "interface/ship.html", "w") as file:
+        await file.write(shipHtml)
         
+asyncio.run(writeShipTab())
+
+async def writeShipStatsWindow():
+    html =  '''
+            <head><link rel=\"stylesheet\" href=\"../style.css\"></head>
+            <h2>Ship Stats Window</h2>
+            You can access this window from the <a href="ship.html">Ship</a> tab<br>
+            <img src="../assets/shipstatswindow.png"><br><br>
+
+            This window displays:<br>
+            A player display area<br>
+            A <a href="../playerstats.html">Player Stats</a> tab<br>
+            A Ship tab<br>
+            An Actions tab<br>
+            Your player comm<br>
+            Your Effects tab<br>
+
+            <h3>Player Display</h3>
+            The area at the top of this window shows your ship, fighters, name, title, rank, race, profession, and Legion<br>
+            <img src="../assets/playerdisplay.png">
+
+            <h3>Actions Tab</h3>
+            Here you can access the Abilities and Medals windows.<br>
+            <img src="../assets/abilitieswindow.png"><br>
+            <img src="../assets/medalswindow.png">
+
+            <h3>Comm Tab</h3>
+            On this tab, you can see messages sent to you by other players. You can then delete each message, block the sender, or reply to the sender.<br>
+            <img src="../assets/playercomm.png">
+
+            '''
+    
+    async with aiofiles.open(outPath + "interface/shipstats.html", "w") as file:
+        await file.write(html)
+
+asyncio.run(writeShipStatsWindow())
+
+async def writeSettingsWindow():
+    html =  '''
+            <head><link rel=\"stylesheet\" href=\"../style.css\"></head>
+            <h2>Settings Window</h2>
+            You can access this window from the <a href="ship.html">Ship</a> tab<br>
+            <img src="../assets/settingswindow.png"><br><br>
+
+            This window displays:<br>
+            A Miscellaneous Settings Tab<br>
+            A Titles and Ships Tab<br>
+            A Flairs Tab<br>
+            Remember to click Save Settings at the bottom when you are done!
+
+            <h3>Misc Tab</h3>
+            This tab contains a variety of settings, including: background animation, alerts, and button styles. In addition, this tab contains the Tutorial.<br>
+
+            <h3>Titles and Ships Tab</h3>
+            This tab allows you to select from the Titles and <a href="../designs.html">Designs</a> that you've unlocked.
+
+            <h3>Flairs Tab</h3>
+            This tab allows you to select from <a href="../flairs.html">Flairs</a> that you've unlocked.<br><br>
+
+            You can unlock more Designs, Titles, and Flairs by earning <a href="../medals_sorted.html">Medals</a><br>
+            You can test out different Designs, Titles, and Flairs with the <a href="../design_fun.html">Fun with Designs!</a> page.
+            '''
+    
+    async with aiofiles.open(outPath + "interface/settingswindow.html", "w") as file:
+        await file.write(html)
+
+asyncio.run(writeSettingsWindow())
+
+async def writePlanetsTab():
+    html =  '''
+            <head><link rel=\"stylesheet\" href=\"../style.css\"></head>
+            <h2>Planets Tab</h2>
+            You can access this tab with the button below.<br>
+            <ing src="../assets/planetstabbutton.png"><br><br>
+
+            This tab displays the following:<br>
+            The <a href="../actions/scan.html">Scan Planets</a> button<br>
+            The planet that you are currently <a href="../actions/guard.html">Guarding</a>, if you are doing so<br>
+            The various filters for planets, such as your planets or enemy planets<br>
+            The planet text filter<br>
+            The list of planets that currently match this filter<br>
+            Icons on planets indicating the owner: you, a player in your Legion, or a player in another Legion<br>
+            The planet quick action button, which allows you to quickly use probes or purgers on planets<br>
+
+            <h3>Scan Planets Pop-Up</h3>
+            Clicking the "Scan New Planets" pop-up provides the scan button, and displays your scan stat, the number of planets you have on scan, the number of planets in the galaxy, your chance for a successful scan, and an image of the planet that you just scanned, or a blank planet image if you have not scanned<br>
+            <img src="../assets/scanpopup.png">
+
+            <h3>Planet Window</h3>
+            Clicking a planet displays the <a href="planetwindow.html">Planet</a> window<br>
+            <img src="../assets/planetwindow.png">
+
+            <h3>Planet Quick Action</h3>
+            The quick action button displays a few artifacts that you can use without actually opening the planet<br>
+            <img src="../assets/planetquickaction.png">
+            '''
+    
+    async with aiofiles.open(outPath + "interface/planetstab.html", "w") as file:
+        await file.write(html)
+
+asyncio.run(writePlanetsTab())
+
+async def writePlanetWindow():
+    html =  ''' 
+            <head><link rel=\"stylesheet\" href=\"../style.css\"></head>
+            <h2>Planet Window</h2>
+            This window displays information about a particular planet. The window changes depending on the owner<br>
+            <img src="../assets/planetwindow.png"><br><br>
+
+            <img src="../assets/planetwindowheader.png"><br>
+            This section displays any icons representing planet events and effects, the planet image, the name of the planet, the <a href="../planetstats/size.html">Size</a> and <a href="../planettypes.html">Type</a> of the planet, the rarity of the type (if applicable), the controller, and an action button<br>
+            You can click the icons in the upper-left of the window for details on the effects<br>
+            The action button depends on the owner:<br>
+            If you or a Legion member own the planet, then this button lets you <a href="../actions/guard.html">Guard</a> the planet<br>
+            If a player in another Legion owns the planet, then this button lets you <a href="../actions/attackplanet.html">Attack</a> the planet<br>
+            If no one owns the planet, then this button lets you <a href="./actions/colonize.html">Colonize</a> the planet<br><br>
+
+            <img src="../assets/planetresourcestab.png"><br>
+            This tab displays the resources of the planet. You can click each production value to see the base values of the resource and any modifiers<br>
+            At the bottom of the tab you can see the passive stats for the planet. They can be Attack, Defense, or Cloak<br><br>
+
+            <img src="../assets/planetcolonytab.png"><br>
+            This tab, which does not appear on unoccupied planets, displays the following:<br>
+            The <a href="../planetstats/population.html">Population</a> of the planet, which you can click for a detailed pop-up of the base value and modifiers<br>
+            The age and <a href="../planetstats/developmentstatus.html">Development Status</a> of the planet, which you can click for a detailed pop-up<br>
+            The <a href="../planetstats/threatstatus.html">Threat Status</a> of the planet, which you can click for a detailed pop-up<br>
+            The <a href="../planetstats/defense.html">Defense</a>, <a href="../planetstats/attack.html">Attack</a>, and <a href="../planetstats/cloak.html">Cloak</a> of the planet, each of which you can click for a detailed pop-up<br><br>
+
+            <img src="../assets/planetstructurestab.png"><br>
+            This tab, which does not appear on unoccupied planets, displays the following:<br>
+            The space on the planet, which you can click for a detailed pop-up<br>
+            The <a href="../action/buildstructure.html">Build New Structure</a> button, which you can click to see the structure menu (only on planets that you or a Legion member own)<br>
+            The list of structures on the planet. If you own the planet, then each structure will have a "Demolish" button. This button removes the structure without returning anything required for building the structure<br>
+            Note: If you have used a <a href="../artifacts/MylaraiBuildExtractor.html">Mylarai Build Extractor</a>, then structures that you can extract will return the original artifact to you. Also note that this button sometimes appears on structures that you can't extract; clicking the button in such cases will cause an error message<br><br>
+
+            <img src="../assets/planetactionstab.png"><br>
+            This tab displays the following:<br>
+            The <a href="../actions/planetplayeralert.png">Alert</a> button, which makes the planet visible to your Legion<br>
+            Buttons to use either artifacts that target the planet or artifacts that target yourself<br>
+            The <a href="../actions/abandon.html">Abandon</a> button, if you own the planet<br>
+            The <a href="../actions/flagplanet.html">Flag</a> button, which allows you to mark a planet with a flag. Note: due to the <a href="../artifacts/VethinBomb.html">Vethin Bomb</a>, it is not recommended to use the black flag, except for the use of the bomb<br>
+            An abilities button, to access abilities that you can use on the planet
+            The <a href="../actions/analyzeplanet.html">Analyze</a> button, if Analysis is available on the planet<br>
+            Any planet-based abilities, which come from structures or effects<br><br>
+
+            <img src="../assets/planeteffectstab.png"><br>
+            This tab displays the various effects on the planet. This does not appear on unoccupied planets
+            '''
+    
+    async with aiofiles.open(outPath + "interface/planetwindow.html", "w") as file:
+        await file.write(html)
+
+asyncio.run(writePlanetWindow())
+
 evolutionTabHtml = "<head><link rel=\"stylesheet\" href=\"../style.css\"></head>"
 evolutionTabHtml += '''<h2>Evolution Tab</h2>
                         Access this tab either by clicking on the Genes value in the header or by clicking on your race image in the header.<br><br>
@@ -1505,6 +1808,10 @@ for effect in genesEffects:
         elif effect[1] == "Petitioners Suite":
             source = f"<a href=\"../petitionerssuite/{normalizeName(effect[2])}.html\">{effect[2]}</a>"
         elif effect[1] == "Ally":
+            source = f"<a href=\"../allies/{normalizeName(effect[2])}.html\">{effect[2]}</a>"
+        elif effect[1] == "Planet-Based Ability":
+            source = f"<a href=\"../allies/{normalizeName(effect[2])}.html\">{effect[2]}</a>"
+        elif effect[1] == "Talent":
             source = f"<a href=\"../allies/{normalizeName(effect[2])}.html\">{effect[2]}</a>"
         cooldownTable += f"<tr><td style=\"border: 1px solid gray;\">{source}</td>"
         cooldownTable += f"<td style=\"border: 1px solid gray;\">{effect[1]}</td>"
