@@ -308,8 +308,8 @@ structures: list[Structure] = [
     Structure("Vvarix Flux Conduit", 1, 1, True, False, "(8,500)", ap=2, rp=4, rpp=8, rps=1000, c=600, acq=mission("An Uncomfortable Decision"), nameNotes=[SHIP_SIZE_NOTE]),
     Structure("Vvarix Flux Conduit", 1, 1, True, False, "(9,000)", ap=2, rp=4, rpp=8, rps=2000, c=600, acq=mission("An Uncomfortable Decision"), nameNotes=[SHIP_SIZE_NOTE]),
     Structure("Alarri Comm Tower", 1, 1, True, False, ap=1, rp=1, c=100, acq=mission("The Alarri Sojourn")),
-    Structure("Alarri Comm Tower", 1, 1, True, False, "- Mark II", ap=1, rp=2, c=200, acq=mission("The Alarri Sojourn"), formDescription="Must be a Hacker/Physicist/Spy to upgrade to Alarri Comm Tower - Mark II:"),
-    Structure("Alarri Comm Tower", 1, 1, True, False, "- Mark III", ap=2, rp=2, c=350, acq=mission("The Alarri Sojourn"), formDescription="Must be Builder/Fixer/Explorer to upgrade to Alarri Comm Tower - Mark III:"),
+    Structure("Alarri Comm Tower", 1, 1, True, False, "- P2", ap=1, rp=2, c=200, acq=mission("The Alarri Sojourn"), formDescription="Must be a Hacker/Physicist/Spy to upgrade to Alarri Comm Tower - Mark II:"),
+    Structure("Alarri Comm Tower", 1, 1, True, False, "- P3", ap=2, rp=2, c=350, acq=mission("The Alarri Sojourn"), formDescription="Must be Builder/Fixer/Explorer to upgrade to Alarri Comm Tower - Mark III:"),
     Structure("Alarri Compound Turret", 1, 1, True, False, mp=2, ap=1, atp=15, acq=mission("Breaching the Compound")),
     Structure("Alarri Signaling Drone", 1, 1, True, False, mp=1, ap=1, acq=mission("A Trap for Ja'kell")),
     Structure("XTS-10 Injector", 1, 1, True, True, mp=3, p=-150, acq=mission("Building the Injector")),
@@ -784,7 +784,7 @@ structures: list[Structure] = [
     Structure("Astrometrics Orrery", 1, 1, True, False, "v3", ap=3, rp=7, rps=1100, acq=medal(), formDescription="Upgrade using ability (costs 2222 [[Complex Tech Parts]] and requires 2200+ planets scanned in database):"),
     Structure("Astrometrics Orrery", 1, 1, True, False, "v4", ap=4, rp=9, rps=1800, acq=medal(), formDescription="Upgrade using ability (costs 3333 [[Complex Tech Parts]] and requires 2900+ planets scanned in database):"),
     Structure("Astrometrics Orrery", 1, 1, True, False, "v5", ap=6, rp=11, rps=2600, acq=medal(), formDescription="Upgrade using ability (costs 4444 [[Complex Tech Parts]] and requires 3500+ planets scanned in database):"),
-    Structure("Miser's Gift-Bunker", 2, 1, False, False, mps=4400, ap=4, aps=4400, c=1100, cp=22),
+    Structure("Miser's Gift-Bunker", 2, 1, True, False, mps=4400, ap=4, aps=4400, c=1100, cp=22),
     Structure("Elios Flare Probe", 0, 1, True, False, "II", mpp=2, ap=2, ip=1, ips=101, acq=medal()),
     Structure("Xiphos Heist Outpost", 1, 1, False, False, "(1)", mp=1, rp=1, acq=npc("Crimson Xiphos"), nameNotes=[SHIP_SIZE_NOTE]),
     Structure("Xiphos Heist Outpost", 1, 1, False, False, "(5,785)", mp=2, ap=1, rp=2, acq=npc("Crimson Xiphos"), nameNotes=[SHIP_SIZE_NOTE]),
@@ -884,7 +884,7 @@ structures: list[Structure] = [
     Structure("Affection Disseminator Megacore", 1, 2, False, False, ap=1, rp=3, d=30000, p=30000, acq=npc("Affection Disseminator"), alternatePageName="Affection Disseminator", formDescription="Upgrade with Dissemination Megacore:"),
     Structure("Q-Pedd Probe", 0, 2, False, False, rp=1, rpp=1, acq=npc("Q-Pedd 1 0V3 Probe")),
     Structure("Streveldan Probe-Bay", 0, 2, False, False, ap=1, rp=2, rpp=2, acq=scanning("QPedd (seasonal event)"), alternatePageName="Q-Pedd Probe", formDescription="Upgrade with Streveldan Probe-Bay (costs 4444 [[Exotic Matter]])"),
-    Structure("A.I. Emotion Core", 1, 1, False, True, ap=1, rp=2, at=500, acq=npc("QPP1-L05, Q-Pedd Prototype")),
+    Structure("A.I. Emotion Core", 1, 1, False, False, ap=1, rp=2, at=500, acq=npc("QPP1-L05, Q-Pedd Prototype")),
     Structure("A.I. Emotion Bi-Core", 1, 1, False, False, ap=2, rp=3, at=500, acq=scanning("QPedd (seasonal event)"), alternatePageName="A.I. Emotion Core", formDescription="Upgrade with A.I. Emotion Bi-Core"),
     Structure("Scruuge Calibration Chamber", 1, 1, False, False, mp=1, ap=1, c=200, acq=npc("Scruuge Vicar")),
     Structure("Scruuge Calibration Chamber", 1, 1, False, False, "(Upgraded)", mp=1, ap=1, c=400, acq=npc("Scruuge Vicar"), formDescription="If placed while you have the [[Thraccti, Scruuge Defector]] ally:"),
@@ -993,9 +993,9 @@ structures: list[Structure] = [
     Structure("Verdant Estate", 1, 1, False, False, "v4", ap=6, aps=1800, rp=2, ip=2),
     Structure("T.O. Frontier Habidome", 1, 1, False, False, mp=2, ap=2, rp=2, ip=1, pp=42),
     Structure("T.O. Seed-Lab", 1, 1, False, False, ap=1, rp=5, rpp=3, rps=1800),
-    Structure("Vault of Gaia", 2, 1, False, True, mps=7000, aps=7000, rps=7000, ips=700, c=700),
-    Structure("Vault of Gaia", 2, 1, False, True, "(Doubled)", mps=14000, aps=14000, rps=14000, ips=1400, c=1400),
-    Structure("Spire of Edenic Dominion", 2, 1, False, True, mp=3, ap=3, rp=3, ip=4, ips=500, pp=55),
+    Structure("Vault of Gaia", 2, 1, True, False, mps=7000, aps=7000, rps=7000, ips=700, c=700),
+    Structure("Vault of Gaia", 2, 1, True, False, "(Doubled)", mps=14000, aps=14000, rps=14000, ips=1400, c=1400),
+    Structure("Spire of Edenic Dominion", 2, 1, True, False, mp=3, ap=3, rp=3, ip=4, ips=500, pp=55),
     Structure("Biosphere Gyre", 1, 1, False, False, mp=2, ap=1),
     Structure("Biosphere Gyre", 1, 1, False, False, "v2", mp=2, mps=4400, ap=1),
     Structure("Biosphere Gyre", 1, 1, False, False, "v3", mp=2, mps=4400, ap=2, aps=4400),
@@ -1034,15 +1034,15 @@ structures: list[Structure] = [
     Structure("Veon Singularium", 0, 1, False, False, "v2", mp=2, ap=1, rp=2, c=404),
     Structure("Veon Singularium", 0, 1, False, False, "v3", mp=3, ap=2, rp=3, c=404),
     Structure("Veon Singularium", 0, 1, False, False, "v4", mp=4, ap=3, rp=4, c=808),
-    Structure("Synesthetic Fuse", 0, 1, False, True, mpp=2, app=2, rpp=2, ipp=2),
-    Structure("Synesthetic Fuse", 0, 1, False, True, "v2", mpp=3, app=3, rpp=3, ipp=3),
-    Structure("Synesthetic Fuse", 0, 1, False, True, "v3", mpp=4, app=4, rpp=4, ipp=4),
-    Structure("Synesthetic Fuse", 0, 1, False, True, "v4", mpp=5, app=5, rpp=5, ipp=5),
-    Structure("Font of Vitalis", 3, 1, False, True, ap=8, ip=4, ipp=6),
-    Structure("Thavix Geneworks", 1, 1, False, False, ap=2, rp=7, rps=5200),
-    Structure("Thavix Geneworks", 1, 1, False, False, "v2", ap=2, rp=7, rpp=2, rps=5200),
-    Structure("Thavix Geneworks", 1, 1, False, False, "v3", ap=3, rp=8, rpp=2, rps=5200, ips=250),
-    Structure("Thavix Geneworks", 1, 1, False, False, "v4", ap=2, app=2, rp=8, rpp=2, rps=5200, ips=400),
+    Structure("Synesthetic Fuse", 0, 1, True, False, mpp=2, app=2, rpp=2, ipp=2),
+    Structure("Synesthetic Fuse", 0, 1, True, False, "v2", mpp=3, app=3, rpp=3, ipp=3),
+    Structure("Synesthetic Fuse", 0, 1, True, False, "v3", mpp=4, app=4, rpp=4, ipp=4),
+    Structure("Synesthetic Fuse", 0, 1, True, False, "v4", mpp=5, app=5, rpp=5, ipp=5),
+    Structure("Font of Vitalis", 3, 1, True, False, ap=8, ip=4, ipp=6),
+    Structure("Thavix Geneworks", 1, 1, True, False, ap=2, rp=7, rps=5200),
+    Structure("Thavix Geneworks", 1, 1, True, False, "v2", ap=2, rp=7, rpp=2, rps=5200),
+    Structure("Thavix Geneworks", 1, 1, True, False, "v3", ap=3, rp=8, rpp=2, rps=5200, ips=250),
+    Structure("Thavix Geneworks", 1, 1, True, False, "v4", ap=2, app=2, rp=8, rpp=2, rps=5200, ips=400),
     Structure("Covert Legation", 1, 1, True, False, rp=4, c=850),
     Structure("Covert Legation", 1, 1, True, False, "II", rp=6, ip=1, c=850, esp=42),
     Structure("Antigrav Citadel", 0, 1, False, False, rp=1, ip=1, cp=11),
@@ -1102,7 +1102,10 @@ addAbility("Chuhn Star-Emporium v2", {"name":"Upgrade", "planetEffects":[{"type"
 addAbility("Chuhn Star-Emporium v3", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Chuhn Star-Emporium v4"}], "restrictions":[{"type":"Size","max":"Average"}]})
 addAbility("Chuhn Star-Emporium v4", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Chuhn Star-Emporium v5"}], "restrictions":[{"type":"Size","max":"Average"}]})
 addAbility("Phylogenetic Core", {"name":"Decrease Genes Cooldown", "playerEffects":[{"type":"Decrease Grow Genes Cooldown", "value":"14%", "duration":"3 days"}]})
-
+addAbility("Alarri Comm Tower", {"name":"Phase 2 Upgrade", "planetEffects":[{"type":"Upgrade","new":"Alarri Comm Tower - Mark II","cost":{"energy":"250"},"restrictions":[{"type":"Professions","professions":["Hacker","Physicist","Spy"]}],"message":"You successfully perform the upgrades."}],"desc":"Upgrades Tower and Ability to Phase 2.<br>Adds +1 Research and +100 Cloak to the Tower. Must be a Hacker / Physicist / or Spy to use.<br>Costs 250 Energy and 1 Charge."})
+addAbility("Alarri Comm Tower - P2", {"name":"Phase 3 Upgrade", "planetEffects":[{"type":"Upgrade","new":"Alarri Comm Tower - Mark III","cost":{"energy":"500"},"restrictions":[{"type":"Professions","professions":["Builder", "Fixer", "Explorer"]}]}],"desc":"Upgrades Tower to Phase 3.<br>Adds +1 Artifact and +150 Cloak to the Tower. Must be a Builder / Fixer / or Explorer to use.<br>Costs 500 Energy and 1 Charge."})
+addAbility("Alarri Compound Turret", {"name":"Compound Lockdown","desc":"Increases Planetary Defense by 50% For 1 month.<br>Costs 250 Energy and 1 Charge.", "planetEffects":[{"type":"Increase Defense","value":"50%","duration":"1 month"}],"message":"The Planet is now on lockdown."})
+addAbility("Alarri Signaling Drone", {"name":"Drone Signal","desc":"Increases production by 10% for 4 days.<br>Costs 400 Energy and 1 Charge.","charges":"4","planetEffects":[{"type":"Increase All Production","value":"10%","duration":"4 days","message":"The planet pulses with energy."}]})
     
 def generateNotesStr(notes: list[int] = []):
     if len(notes) < 1:

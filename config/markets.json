@@ -1,7 +1,7 @@
 [
     {
         "name": "Artifact Market",
-        "resource": "Galaxy Points",
+        "material": "Galaxy Points",
         "artifacts": [
             {
                 "name": "Library of Celestial Registry",
@@ -364,6 +364,17 @@
             {
                 "name": "Quasi-Spacial Expander",
                 "cost": "50"
+            }
+        ]
+    },
+    {
+        "name": "Raix",
+        "material": "Raix",
+        "artifacts": [
+            {
+                "name": "Micro-Raix Cyclotron",
+                "cost": "17",
+                "mp": "4,800"
             }
         ]
     }

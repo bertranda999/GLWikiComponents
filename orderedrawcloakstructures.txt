@@ -1,0 +1,184 @@
+Veon Singularium v4: 100000
+Veon Singularium v3: 100000
+Veon Singularium v2: 100000
+Veon Singularium: 100000
+Bane Dark-Kiln: 100000
+Galaxy Celestials: 100000
+Galaxy Interrogators: 100000
+Strazi Link Anchor (1): 100000
+Galaxy Inquisitors: 100000
+Void-Field Enclave (Tripled): 2424.0
+Corrupted Portal V: 2000.0
+Void-Field Enclave (Doubled): 1616.0
+Corrupted Portal IV: 1600.0
+Supel Chromavault 3.0: 1400.0
+Obscura Lab v3: 1260.0
+Obscura Lab v4: 1260.0
+Exo-Pulse Disruptor: 1222.0
+Corrupted Portal III: 1200.0
+Dark Supercollider (Upgraded): 1200.0
+SubVoid Darkdrone E: 1111.0
+Bane Generator XV: 1100.0
+Bane Generator XIV: 900.0
+Dais of Deceit: 900.0
+Covert BlackWatch: 888.0
+T.O. Harvest Vault XV - Upgraded: 850.0
+Covert Legation: 850.0
+Covert Legation II: 850.0
+Obscura Lab v2: 840.0
+Elios Corethune Shell v4: 810.0
+Void-Field Enclave: 808.0
+Oruas Corrupted Disjector: 800.0
+Hyperluminal Sat-Grid Mesh: 800.0
+Scruuge Calibration Plant (Upgraded): 800.0
+Corrupted Portal II: 800.0
+Dark Supercollider: 800.0
+T.O. Harvest Vault XV: 750.0
+Q-Pedd Science Station 15.0: 700.0
+Supel Chromavault 2.0: 700.0
+Vault of Gaia (Doubled): 700.0
+Bane Nether-Seal (6): 666.0
+Bane Doom Silo (1): 666.0
+Bane Doom Silo (2): 666.0
+Bane Doom Silo (3): 666.0
+Biosphere Gyre v5: 660.0
+Scruuge Hoarding Vault XV: 650.0
+Elios Corethune Shell v3: 610.0
+Uldri Spacial Mega-Folder: 600.0
+Vvarix Flux Conduit (6,200): 600.0
+Vvarix Flux Conduit (6,500): 600.0
+Vvarix Flux Conduit (7,099): 600.0
+Vvarix Flux Conduit (8,002): 600.0
+Vvarix Flux Conduit (8,500): 600.0
+Vvarix Flux Conduit (9,000): 600.0
+Hyperluminal Sat-Grid: 600.0
+Silthion T-Plasma Vesicle II: 600.0
+Nexus Recon Spy-Hub: 600.0
+Q-Pedd Science Station 14.0: 600.0
+Dark Void Beacon: 600.0
+SubVoid Darkdrone D: 555.5
+Atrium of Secrets: 550.0
+Stryll Ghost-Uplink: 550.0
+T.O. Harvest Vault XIV: 550.0
+Scruuge Hoarding Vault XIV: 550.0
+Miser's Gift-Bunker: 550.0
+B'elna's Altar (Upgraded): 500.0
+Elios Corethune Shell v2: 460.0
+Biosphere Gyre v4: 440.0
+Supel Comm Tower: 420.0
+Obscura Lab: 420.0
+T.O. Genesis Loom: 411.0
+Xephius Portal: 404.0
+Streveldan CogNode: 404.0
+Entropy Repulsor Pylon: 400.0
+Raix Refinery II: 400.0
+Raix Refinery II (Specialized): 400.0
+Oruas Predictive Disjector: 400.0
+Ardyne Transfer Conduit (Doubled): 400.0
+Scruuge Calibration Plant: 400.0
+Adumbrate Station (Doubled): 400.0
+Corrupted Portal: 400.0
+Auric Lepus Drone 15.0: 400.0
+Auric Lepus Drone 16.0: 400.0
+Spire of Cybernetic Dominion: 400.0
+Crimson Rift Aperture (Doubled): 400.0
+Scruuge Calibration Chamber (Upgraded): 400.0
+Archotage Transmitter - Upgraded: 400.0
+Morphogenic Shift-Gate (2): 400.0
+Morphogenic Shift-Gate (3): 400.0
+Temple of Radiance: 388.5
+Gene-Root Pavilion: 385.0
+Alarri Comm Tower - P3: 350.0
+Streveldan Autoform Habitat A: 350.0
+Streveldan Autoform Habitat B: 350.0
+Vault of Gaia: 350.0
+Bane Nether-Seal (5): 333.0
+Elios Corethune Shell: 310.0
+Xiphos Heist Outpost (9,000): 303.0
+Xiphos Heist Outpost (10,000): 303.0
+Xiphos Heist Outpost (20,000): 303.0
+Litheor Deep-Phase Sanctuary: 300.0
+Shrine of B'elna: 300.0
+Vvarix Flux Conduit (5,700): 300.0
+Raix Refinery: 300.0
+Raix Refinery (Specialized): 300.0
+Sub-Tachyonic Axis (Upgraded): 300.0
+Chron Shifter: 300.0
+Morphogenic Inhibitor: 300.0
+Silthion Gas Vesicle II: 300.0
+Uldri Spacial Folder: 300.0
+Nexus Spy Fortress: 300.0
+Dark Null Beacon: 300.0
+Silthion T-Plasma Vesicle: 300.0
+Morphogenic Shift-Gate: 300.0
+SubVoid Darkdrone F: 277.5
+Krionite Absorption Net: 275.0
+Streveldan Convocation Nexus: 266.6666666666667
+Supel Interphase Portal: 266.6666666666667
+B'elna's Altar: 250.0
+Resonance Inhibitor: 250.0
+Alarri Comm Tower - P2: 200.0
+Sub-Tachyonic Axis: 200.0
+Uldri Anomaly Crystal (Upgraded): 200.0
+Hyperluminal Satellite: 200.0
+Siladon Suppressor: 200.0
+Ardyne Transfer Conduit: 200.0
+Active Tenebris Relic: 200.0
+Streveldan Autoform Habitat C: 200.0
+Streveldan Autoform Habitat D: 200.0
+Adumbrate Station: 200.0
+Lepus Drone 15.0: 200.0
+Lepus Drone 16.0: 200.0
+Crimson Rift Aperture: 200.0
+Scruuge Calibration Chamber: 200.0
+Archotage Transmitter: 200.0
+Isolation Bureau (Doubled): 200.0
+Klorvis Shroud Generator: 200.0
+Aeon Tower: 183.33333333333334
+Bane Nether-Seal (4): 166.5
+Litheor Deep-Phase Probe: 150.0
+Ergosphere Filter: 150.0
+Nexus Command Center: 150.0
+Quantum Accelerator (M) 100%: 150.0
+Quantum Accelerator (A) 100%: 150.0
+Quantum Accelerator (R) 100%: 150.0
+Dark Anti-Beacon: 150.0
+Silthion Gas Vesicle: 150.0
+Sha'jha Uplink: 120.0
+Inverse-Flux Satellites: 114.28571428571429
+Quantum Accelerator (M) 50%: 112.5
+Quantum Accelerator (A) 50%: 112.5
+Quantum Accelerator (R) 50%: 112.5
+Bane Nether-Seal (3): 111.0
+Adumbrate Starport: 111.0
+Void Barrier: 110.0
+Alarri Comm Tower: 100.0
+Zolazin Void Tower: 100.0
+Vaash Holomatrix: 100.0
+Vaash Holomatrix (Upgraded): 100.0
+Permafrost Sub-Network (Doubled): 100.0
+T.O. Omnispanner: 100.0
+Mineral Storage Silo-Tower: 100.0
+Artifact Relic-Warehouse: 100.0
+Isolation Bureau: 100.0
+Polaron Emitter: 100.0
+Polaron Emitter (Upgraded): 100.0
+Dark Pylon Shifter: 90.0
+Anti-Tachyon Satellites: 83.33333333333333
+Bane Nether-Seal (2): 83.25
+Prejor Beacon Jammer: 75.0
+Modified Grid-Pylon: 75.0
+Counter-Intelligence Nexus: 75.0
+Quantum Accelerator (M): 75.0
+Quantum Accelerator (A): 75.0
+Quantum Accelerator (R): 75.0
+Bane Nether-Seal: 66.6
+SubVoid Darkdrone G: 55.5
+Cloaking Satellites: 50.0
+Permafrost Sub-Network: 50.0
+Spy Uplink: 40.0
+Stealth Satellites: 37.5
+Anti-Resistance Base: 33.333333333333336
+RSL Data Uplink: 33.333333333333336
+Shroud Satellites: 25.0
+Jammer Satellites: 12.5

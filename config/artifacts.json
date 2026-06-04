@@ -350,7 +350,25 @@
                 "max": "Small"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        },
+        "img": "aeontower1.png",
+        "desc": "[ Planet Structure - Size:3, Artifact:3, Research: 6, Influence:2, Cloak:550 ]<br>Also increases planetary cloaking by 16%<br>Planet must be 'Small' size or smaller.<br>Limit 2",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Aeon Tower"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "3,000",
+            "influence": "1,880"
+        }
     },
     {
         "name": "Aerlen Patronage",
@@ -510,10 +528,102 @@
         ]
     },
     {
+        "name": "Alarri Comm Tower",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        },
+        "desc": "[ Planet Structure - Size:1, Research:1, Artifact:1, Cloak:100 ]<br>Once built, this structure can be upgraded<br>at a later time by various professions.<br>(Limit 1 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Alarri Comm Tower",
+                "message": "The Alarri Comm Tower has been constructed on the planet."
+            }
+        ],
+        "buttonText": "Build",
+        "img": "alarritower.png",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Alarri Compound Turret",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:2, Artifact:1, Attack:+15% ]<br>Activated Ability (2 Charges): Compound Lockdown<br>(+50% Defense for 1 Month)<br>(Limit 1 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Alarri Compound Turret",
+                "message": "The Alarri Compound Turret has been constructed on the planet."
+            }
+        ],
+        "buttonText": "Build",
+        "img": "alturret.png",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Alarri Probability Core",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "16"
+        },
+        "desc": "[ Device - Size:20, Defense:45, Cloak:60 ]<br>If this device is already installed on your ship,. this will instead upgrade its stats by 50%,. up to 500% max. Unlocks an ability when fully upgraded.",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Alarri Probability Core",
+                "max": "500%",
+                "value": "50%"
+            }
+        ],
+        "img": "alarripod5.png",
+        "buttonText": "Build",
+        "target": "Player"
+    },
+    {
+        "name": "Alarri Signaling Drone",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:1, Artifact:1 ]<br>Activated Ability (4 Charges): Drone Signal<br>(+10% Production for 4 Days)<br>(Limit 1 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Alarri Signaling Drone",
+                "message": "The Alarri Signaling Drone has been constructed on the planet."
+            }
+        ],
+        "buttonText": "Build",
+        "img": "aldetec.png",
+        "target": "Your Planet"
+    },
+    {
         "name": "Alien Archeo-Cryptex",
         "desc": "<i>An elaborate, interconnected data archive, the<br>cryptex holds a large amount of novel research.</i><br>Adds 700k research when used.",
         "img": "aliencryptex1.png",
-        "target": "Player"
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "6,250",
+            "max": "25,000"
+        },
+        "playerEffects": [
+            {
+                "type": "Grant Research",
+                "value": "700,000"
+            }
+        ],
+        "buttonText": "Activate",
+        "cost": {
+            "energy": "1,111"
+        }
     },
     {
         "name": "Alien Data Disc",
@@ -744,7 +854,8 @@
         "playerEffects": [
             {
                 "type": "Grant Research",
-                "value": "4 hours"
+                "value": "4 hours",
+                "message": "You receive [Value] Research Points."
             }
         ]
     },
@@ -2261,6 +2372,35 @@
         ]
     },
     {
+        "name": "BioMimetic Sealer",
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "6"
+        },
+        "desc": "[ Special Module - Size:10, Hull:60, Defense:30 ]<br>Installs a BioMimetic Sealer on your ship.<br>If you are a Biologist or Fixer when this is first installed,<br>it will provide an additional 50 hull.",
+        "playerEffectsConditional": [
+            {
+                "type": "Install Module",
+                "module": "BioMimetic Sealer II",
+                "conditions": [
+                    {
+                        "type": "Profession",
+                        "professions": [
+                            "Biologist",
+                            "Fixer"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Install Module",
+                "module": "BioMimetic Sealer"
+            }
+        ],
+        "target": "Player"
+    },
+    {
         "name": "Bioship Gene Lab",
         "desc": "[ Planet Structure - Size:1, (Choice Bonus) ]<br>Choose one of the following bonuses: [Research 2, Population +200 ] OR<br>[Research 1, Artifact 1, Population +200 ]<br>(Limit 1 per planet)",
         "target": "Your Planet",
@@ -2409,6 +2549,26 @@
         ]
     },
     {
+        "name": "Bizian Star Atlas",
+        "scrap": {
+            "type": "cr",
+            "min": "15,000",
+            "max": "60,000"
+        },
+        "desc": "[ Limited Artifact - Late Summer ]<br>Your successful planetary scans have a higher chance<br>of finding larger and more resource plentiful worlds. Lasts 1 hour.",
+        "playerEffects": [
+            {
+                "type": "Improve Scanning"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "300"
+        },
+        "img": "galaxy3dmap.png",
+        "target": "Player"
+    },
+    {
         "name": "Blueprint: Anti-Resistance Base",
         "desc": "Allows the creation of new Anti-Resistance bases on your planets",
         "img": "blueprint.png",
@@ -2441,6 +2601,96 @@
         ]
     },
     {
+        "name": "Blueprint: Exotic Barrier",
+        "desc": "Allows the creation of Exotic Barrier structures on your planets",
+        "img": "blueprint.png",
+        "target": "Player",
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Unlock Standard Structure",
+                "structure": "Exotic Barrier",
+                "message": "You can can now build: Exotic Barrier",
+                "cost": {
+                    "cr": "500",
+                    "em": "400"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Blueprint: Exotic Lab",
+        "desc": "Allows the creation of Exotic Lab structures on your planets",
+        "img": "blueprint.png",
+        "target": "Player",
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Unlock Standard Structure",
+                "structure": "Exotic Lab",
+                "message": "You can can now build: Exotic Lab",
+                "cost": {
+                    "cr": "500",
+                    "em": "5,000"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Blueprint: Exotic Turret",
+        "desc": "Allows the creation of Exotic Turret structures on your planets",
+        "img": "blueprint.png",
+        "target": "Player",
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Unlock Standard Structure",
+                "structure": "Exotic Turret",
+                "message": "You can can now build: Exotic Turret",
+                "cost": {
+                    "cr": "500",
+                    "em": "400"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Blueprint: Prejoran Power-Diffuser",
+        "desc": "Allows the creation of Prejoran Power-Diffuser defense modules",
+        "img": "blueprint.png",
+        "target": "Player",
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Unlock Standard Module",
+                "module": "Prejoran Power-Diffuser",
+                "message": "You can can now build: Prejoran Power-Diffuser",
+                "cost": {
+                    "cr": "100,000",
+                    "pt": "40"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Blueprint: Prejoran Slave Barrier",
+        "desc": "Allows the creation of Prejoran Slave Barrier structures on your planets",
+        "img": "blueprint.png",
+        "target": "Player",
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Unlock Standard Structure",
+                "structure": "Prejoran Slave Barrier",
+                "message": "You can can now build: Prejoran Slave Barrier",
+                "cost": {
+                    "cr": "100,000",
+                    "pt": "50"
+                }
+            }
+        ]
+    },
+    {
         "name": "Blueprint: Signal Processor",
         "desc": "Allows the creation of Co-Align Signal Processors for your ship",
         "img": "blueprint.png",
@@ -2450,7 +2700,11 @@
             {
                 "type": "Unlock Standard Module",
                 "module": "Co-Align Signal Processor",
-                "message": "You can can now build: Co-Align Signal Processor"
+                "message": "You can can now build: Co-Align Signal Processor",
+                "cost": {
+                    "cr": "120,000,000",
+                    "ctp": "100"
+                }
             }
         ]
     },
@@ -4191,7 +4445,7 @@
         "name": "Conductor's Villa",
         "restrictions": [
             {
-                "type": "Planet Type",
+                "type": "Type",
                 "types": [
                     "Metallic",
                     "Machine",
@@ -4985,7 +5239,7 @@
         "name": "Custodian's Villa",
         "restrictions": [
             {
-                "type": "Planet Type",
+                "type": "Type",
                 "types": [
                     "Machine",
                     "Ecumenopolis",
@@ -5456,6 +5710,24 @@
         "desc": "Research data-lab locations pulled from Galactic Council archives. Boosts Research Storage by 7% for 40 hours."
     },
     {
+        "name": "Datastream Compiler",
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "18"
+        },
+        "desc": "[ Special Device - Size:16, Defense:25, Scan:30 ]<br>While Installed:<br>Aerlen, Genetarr, and Xecti get double the Defense Bonus.<br>Explorers and Hackers get double the Scan Bonus.<br>(Limit 4 / ship)",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Datastream Compiler"
+            }
+        ],
+        "buttonText": "Build",
+        "img": "datastreama.png",
+        "target": "Player"
+    },
+    {
         "name": "Deep-Phase Sanctuary",
         "planetEffects": [
             {
@@ -5466,7 +5738,7 @@
         ],
         "restrictions": [
             {
-                "type": "Planet Type",
+                "type": "Type",
                 "types": [
                     "Shattered",
                     "Desert",
@@ -5902,7 +6174,6 @@
                 "message": "You install the brackets on your ship"
             }
         ],
-        "send": "Yes",
         "buttonText": "Use"
     },
     {
@@ -7005,7 +7276,14 @@
         "buttonText": "Set",
         "planetEffects": [
             {
-                "type": "Set Trap"
+                "type": "Set Trap",
+                "duration": "2 weeks",
+                "planetEffects": [
+                    {
+                        "type": "Artifact Immune",
+                        "duration": "24 hours"
+                    }
+                ]
             }
         ],
         "scrap": {
@@ -7101,6 +7379,24 @@
         }
     },
     {
+        "name": "Exotic Pulser",
+        "desc": "[ Special Weapon - Size:5, Attack:30, Energy:-10 ]<br>Installs an Exotic Pulser on your ship.",
+        "target": "Player",
+        "img": "exoticpulse.png",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Exotic Pulser"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "10",
+            "max": "20"
+        }
+    },
+    {
         "name": "Exotic Nexal Mesh",
         "desc": "A dense Neutronium energy-mesh, requiring coordinated effort to erect<br>Permanently increases the size of an Exotic planet by 3%.",
         "tags": [
@@ -7132,6 +7428,25 @@
             "min": "12,000",
             "max": "48,000"
         }
+    },
+    {
+        "name": "Exotic Tactical Algorithm",
+        "scrap": {
+            "type": "cr",
+            "min": "25,000",
+            "max": "100,000"
+        },
+        "desc": "Unlocks the 'Tactical Re-modulation' ability for your ship.<br>When installed, the ability will be available via your Ship Tab.",
+        "playerEffects": [
+            {
+                "type": "Unlock Ability",
+                "ability": "Tactical Re-modulation",
+                "message": "You integrate the new algorithm with your ship systems.<br>You gain the ability 'Tactical Re-modulation'"
+            }
+        ],
+        "img": "bremod.png",
+        "buttonText": "Install",
+        "target": "Player"
     },
     {
         "name": "Extracted Lithovoric Stem",
@@ -7300,6 +7615,25 @@
             "min": "12,500",
             "max": "50,000"
         }
+    },
+    {
+        "name": "Flux Probe",
+        "send": "Yes",
+        "scrap": {
+            "type": "cr",
+            "min": "1,250",
+            "max": "5,000"
+        },
+        "desc": "This probe returns data on the number of other ships that have scanned the target planet.",
+        "planetEffects": [
+            {
+                "type": "Get Scanner Count",
+                "message": "The probe returns with data:<br>[Count] other ship(s) have scanned this planet"
+            }
+        ],
+        "buttonText": "Use",
+        "img": "probe2.png",
+        "target": "Your Planet"
     },
     {
         "name": "Flux Probe - Tracer",
@@ -7584,6 +7918,7 @@
             {
                 "type": "Construct Structure",
                 "structure": "Galactic Concord Station II",
+                "message": "The Galactic Concord Station has been constructed on the planet.",
                 "conditions": [
                     {
                         "type": "Calm",
@@ -7596,7 +7931,15 @@
                 "structure": "Galactic Concord Station"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:1, Artifact:1, Defense:+10% ]<br>If the planet has not been attacked in the last 9 months<br>when this is first built, all bonuses are doubled.<br>Limit 1 per planet.",
+        "buttonText": "Build",
+        "img": "galpeace2.png"
     },
     {
         "name": "Galakis Entry Port",
@@ -9615,6 +9958,31 @@
         "img": "sigilciv2.png"
     },
     {
+        "name": "Large Base Crate",
+        "target": "Player",
+        "desc": "A large crate, raided from a base. Contains a variety of random artifacts.",
+        "buttonText": "Open",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Tri-Phase Upgrade",
+                "message": "The Crate Contains:<br>1 Tri-Phase Upgrade(Artifact)"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Adumbrate Station"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Abysmal Rift Trap"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Enumeration Crystal"
+            }
+        ]
+    },
+    {
         "name": "Lazuli Darkmine Cluster",
         "desc": "[ Planet Structure - Size:1, Attack:1200, Attack Bonus: +30% ]<br>Installs Lazuli Darkmine Cluster on your planet.<br>(limit 2 per planet)",
         "img": "ldarkmines2.png",
@@ -10271,6 +10639,28 @@
         }
     },
     {
+        "name": "Litheor Data Interface",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "desc": "[ Device - Size:15, Attack:30, Cloak:50, Scan:20 ]<br>Activated Ability (with 2 charges):<br>Litheor Interface Pulse,<br>5% non-player attack bonus for 4 hours.",
+        "buttonText": "Build",
+        "img": "lithdatamod.gif",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Litheor Data Interface",
+                "message": "The Litheor Data Interface has been installed on your ship."
+            }
+        ],
+        "tags": [
+            "Litheor"
+        ],
+        "target": "Player"
+    },
+    {
         "name": "Litheor Deep-Ember Keep",
         "restrictions": [
             {
@@ -10307,6 +10697,23 @@
             "min": "18",
             "max": "37"
         }
+    },
+    {
+        "name": "Litheor Tetractic Crystal",
+        "desc": "[ Device - Size:14, Defense:40, Scan:40 ]<br>Unlocks a set bonus when 4 are installed on your ship.<br>Set Bonus: Litheor Crystal Focus (Passive ability)<br>Limit 4 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Litheor Tetractic Crystal",
+                "message": "A Litheor Crystal has been installed on your ship."
+            }
+        ],
+        "tags": [
+            "Litheor"
+        ],
+        "buttonText": "Build",
+        "img": "lcrys.gif",
+        "target": "Player"
     },
     {
         "name": "Litheor Transmutative Locator",
@@ -11488,6 +11895,11 @@
                 "structure": "Omnistream Gateway",
                 "message": "An Omnistream Gateway has been constructed on the planet."
             }
+        ],
+        "restrictions": [
+            {
+                "type": "Invincible"
+            }
         ]
     },
     {
@@ -12162,6 +12574,24 @@
         "target": "Your Planet"
     },
     {
+        "name": "Polychoron Vault",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "desc": "[ Planet Structure - Size:1 ]<br>Constructs a Polychoron Vault on your planet (limit 1 per planet).<br>Increases mineral, artifact, and research production capacities by 1000 units.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Polychoron Vault"
+            }
+        ],
+        "img": "dstore.png",
+        "buttonText": "Build",
+        "target": "Your Planet"
+    },
+    {
         "name": "Porowyn, the Adept",
         "desc": "[ Ship Ally - Type: Prismatic]<br>Initial Stats: Energy: 200, Cloak: 200, Scan: 100<br>(Upgrades when the 'Prismatic Meditation' ability)",
         "img": "porowyn.gif",
@@ -12200,7 +12630,222 @@
                 "type": "Construct Structure",
                 "structure": "Portal of Legacies"
             }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "2"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:2, Artifact:1, Research:3, Influence:1 ]<br>Also boosts the planet's production of all resources by 4%.<br>Can only be built on Average or smaller planets.",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "5,200"
+        }
+    },
+    {
+        "name": "Portal Torus",
+        "scrap": {
+            "type": "ctp",
+            "min": "89",
+            "max": "178"
+        },
+        "desc": "[ Base Module - Size:2, Artifact: 10 ]<br>Installs a Portal Torus on your base.<br>Can only install if you have been loyal to your<br>legion for at least 6 months.<br>Limit 4 per base.",
+        "restrictions": [
+            {
+                "type": "Loyalty",
+                "min": "6 months"
+            }
+        ],
+        "img": "portalfarm.png",
+        "baseEffects": [
+            {
+                "type": "Install Module",
+                "module": "Portal Torus"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1,000"
+        },
+        "target": "Base"
+    },
+    {
+        "name": "Positron Clouder",
+        "scrap": {
+            "type": "cr",
+            "min": "2,000",
+            "max": "8,000"
+        },
+        "desc": "Releases an intense blast of high-energy positrons,<br>Reducing enemy cloaking ability by 50% for 15 minutes",
+        "enemyShipEffects": [
+            {
+                "type": "Reduce Cloak",
+                "value": "50%",
+                "duration": "15 min"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5"
+        },
+        "img": "positron.png",
+        "send": "Yes",
+        "target": "Enemy Ship"
+    },
+    {
+        "name": "Prejor Beacon Jammer",
+        "desc": "[ Planet Structure - Size:1, Cloak:75 ]<br>Constructs a Prejor Beacon Jammer on your planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Prejor Beacon Jammer"
+            }
+        ],
+        "buttonText": "Build",
+        "img": "prej-beacons.png",
+        "target": "Your Planet",
+        "tags": [
+            "Prejor"
         ]
+    },
+    {
+        "name": "Prejor Ship Parts",
+        "desc": "Adds 2 decks to your ship when used.",
+        "playerEffects": [
+            {
+                "type": "Add Decks",
+                "value": "2",
+                "message": "You integrate the Prejor ship modules with your ship"
+            }
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "30,000",
+            "max": "120,000"
+        },
+        "img": "prejor-scrap.png",
+        "buttonText": "Use",
+        "target": "Player"
+    },
+    {
+        "name": "Prejor V12 Grav-Hutch",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "tags": [
+            "Chuhn",
+            "Prejor"
+        ],
+        "desc": "[ Limited Artifact - Late Summer ][ Defense - Size: 58, Defense: 700, Shield: 700 ]<br>While Installed, Aerlen, Xecti, and Guard<br>receive double the defense bonus.<br>Limit 2 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Prejor V12 Grav-Hutch"
+            }
+        ],
+        "img": "prejgrav12.png",
+        "buttonText": "Build",
+        "target": "Player"
+    },
+    {
+        "name": "Prismodyne Gene Splicer",
+        "scrap": {
+            "type": "cr",
+            "min": "1,500",
+            "max": "6,000"
+        },
+        "tags": [
+            "Bahreen"
+        ],
+        "desc": "Evolves a random Government Official on your planet<br>to a better version of themselves. On rare occasions,<br>an Official will transcend into a Surrogate or a Celestial.",
+        "planetEffectsRandom": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Overseers",
+                "new": "Galaxy Administrators"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Elitists",
+                "new": "Galaxy Aristocrats"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Technocrats",
+                "new": "Galaxy Pedants"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Inquisitors",
+                "new": "Galaxy Interrogators"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Overseers",
+                "new": "Galaxy Surrogates"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Elitists",
+                "new": "Galaxy Surrogates"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Technocrats",
+                "new": "Galaxy Surrogates"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Inquisitors",
+                "new": "Galaxy Surrogates"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Overseers",
+                "new": "Galaxy Celestials"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Elitists",
+                "new": "Galaxy Celestials"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Technocrats",
+                "new": "Galaxy Celestials"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Galaxy Inquisitors",
+                "new": "Galaxy Celestials"
+            }
+        ],
+        "img": "prismutagen.gif",
+        "buttonText": "Evolve",
+        "cost": {
+            "energy": "7,000"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Processing Core Chassis",
+        "scrap": {
+            "type": "cr",
+            "min": "10,000",
+            "max": "40,000"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Mining:1 ]<br>Constructs a Processing Core on your planet (limit 1 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Processing Core"
+            }
+        ],
+        "img": "chemcenter.png",
+        "buttonText": "Build",
+        "target": "Your Planet"
     },
     {
         "name": "Propaganda Plex",
@@ -12219,7 +12864,25 @@
                 "max": "Large"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        },
+        "desc": "[ Planet Structure - Size:6, Artifact:7, Influence:3, Population:+20% ]<br>Can be upgraded with Influence / Yellow Badges.<br>Planet must be Ecumenopolis, Machine, Terra, or Relic:<br>of 'Large' size or smaller. Limit 1",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Propaganda Plex"
+            }
+        ],
+        "img": "propcenter1.gif",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "5,500",
+            "influence": "700"
+        }
     },
     {
         "name": "Prototype Engineering Bay",
@@ -12235,7 +12898,8 @@
         "playerEffects": [
             {
                 "type": "Add Decks",
-                "value": "3"
+                "value": "3",
+                "message": "You add the Prototype Engineering Bay into your ship"
             },
             {
                 "type": "Add Crew",
@@ -12250,6 +12914,84 @@
         ]
     },
     {
+        "name": "Q-Pedd Abettor",
+        "scrap": {
+            "type": "cr",
+            "min": "10,000",
+            "max": "40,000"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "Can only be used on a friend or legion member.<br>Boosts NPC attack by 5% for 30 minutes.",
+        "playerEffects": [
+            {
+                "type": "Increase NPC Attack",
+                "value": "5%",
+                "duration": "30 min"
+            }
+        ],
+        "img": "qabettor.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "50"
+        },
+        "target": "Friend"
+    },
+    {
+        "name": "Q-Pedd Affinity Tunnel",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "tags": [
+            "Q-Pedd",
+            "Aperture"
+        ],
+        "desc": "[ Planet Structure - Size:0, Artifact:1, Research:2, Influence:1, Research:+3% ]<br>Planet must have 3+ distinct Q-Pedd Structures to build.<br>Can be upgraded with 5+ other structures<br>Limit 1",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Q-Pedd"
+                ],
+                "min": "3"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Q-Pedd Affinity Tunnel"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "550"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Q-Pedd Assembly Line 12.0",
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "[ Limited Item - Valentines Day ]<br>[ Device - Size:23, Energy:275, Hull:3000 ]<br>Ability (with cooldown): Adds 1 Q-Pedd Scientist<br>(2 research) to your ship.<br>Limit 2 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Q-Pedd Assembly Line 12.0"
+            }
+        ],
+        "buttonText": "Build",
+        "target": "Player"
+    },
+    {
         "name": "Q-Pedd Ballroom",
         "restrictions": [
             {
@@ -12260,7 +13002,352 @@
         "target": "Your Planet",
         "tags": [
             "Q-Pedd"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:2, Research:2, Influence:1 ]<br>Also increases influence storage by 202, and energy cost to attack planet by 50%.<br>Can only be built on Large or smaller planets.<br>Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Q-Pedd Ballroom"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "1,100",
+            "influence": "1,100"
+        }
+    },
+    {
+        "name": "Q-Pedd Docking Station",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "[ Planet Structure - Size:1, Mining:3, Research:2, Artifact:2 ]<br>Activated Ability: Docking: ( Boosts<br>production by 5% for 48 hours )",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Q-Pedd Docking Station"
+            }
+        ],
+        "img": "qdockbay.png",
+        "buttonText": "Build",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Q-Pedd Informant",
+        "scrap": {
+            "type": "cr",
+            "min": "7,500",
+            "max": "30,000"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "<i>A specialized, non-affection Q-Pedd model</i><br>Can only be used on a friend or legion member.<br>Boosts enemy base attack by 3% for 10 minutes.",
+        "playerEffects": [
+            {
+                "type": "Increase Base Attack",
+                "value": "3%",
+                "duration": "10 min"
+            }
+        ],
+        "img": "qpinformant.png",
+        "cost": {
+            "energy": "25"
+        },
+        "target": "Friend"
+    },
+    {
+        "name": "Q-Pedd Largesse",
+        "scrap": {
+            "type": "cr",
+            "min": "7,500",
+            "max": "30,000"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "Can only be used on a friend or legion member. Boosts hull by 8% for 1 hour.",
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "8%",
+                "duration": "1 hour"
+            }
+        ],
+        "img": "qvalentine.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "50"
+        },
+        "target": "Friend"
+    },
+    {
+        "name": "Q-Pedd Operative",
+        "scrap": {
+            "type": "cr",
+            "min": "10,000",
+            "max": "40,000"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "Can only be used on a friend or legion member.<br>Boosts shields by 7% for 30 minutes.",
+        "playerEffects": [
+            {
+                "type": "Increase Shield",
+                "value": "7%",
+                "duration": "30 min"
+            }
+        ],
+        "img": "qpedd-op.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "50"
+        },
+        "target": "Friend"
+    },
+    {
+        "name": "Q-Pedd Probe",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "[ Limited Item - Valentines Day ]<br>[ Planet Structure - Research:1 ]<br><br>Also provides a 1% research production bonus.<br>The structure does not take up space on the planet.<br>Limit 2",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Q-Pedd Probe"
+            }
+        ],
+        "img": "qpprobe.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "300"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Q-Pedd Science Station 15.0",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "[ Limited Item - Valentines Day ]<br>[ Planet Structure - Size:2, Research:15, Cloak:1400 ]<br><br>Also Increases planetary research production capacity by 16000 points.<br>Limit 2",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Q-Pedd Science Station 15.0"
+            }
+        ],
+        "img": "qpeddscistat-23.gif",
+        "buttonText": "Build",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Q-Pedd Tech Parts",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "[ Limited Item - Valentines Day ]<br><i>A pile of Q-Pedd parts, mostly comprised of<br>broken, burned, and disabled android colonists.<br>They could be recycled for useful components...</i>",
+        "playerEffects": [
+            {
+                "type": "None",
+                "message": "The parts are too destroyed to be used or rebuilt..."
+            }
+        ],
+        "img": "qpedd-parts.png",
+        "buttonText": "Use",
+        "target": "Player"
+    },
+    {
+        "name": "Quadrigulum Sparkmatter",
+        "scrap": {
+            "max": "5",
+            "min": "2",
+            "type": "ctp"
+        },
+        "tags": [
+            "Q-Pedd"
+        ],
+        "desc": "[ Limited Artifact - Late Summer ]<br>[ Planet Structure - Size:1, Artifact/Research: ? ? ]<br>Sparkmatter objects are unpredictable, and can take lesser forms of themselves.<br>Limit 1.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Quadrigulum Sparkmatter (1)"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Quadrigulum Sparkmatter (2)"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Quadrigulum Sparkmatter (3)"
+            }
+        ],
+        "img": "sparkmatter2.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "100"
+        },
+        "target": "Planet"
+    },
+    {
+        "name": "Quantum Accelerator",
+        "scrap": {
+            "type": "ctp",
+            "min": "13",
+            "max": "26"
+        },
+        "desc": "[ Planet Structure - Size:2, Cloak:150, (Choice Production:2) ]<br>Choose mining, research, or artifact when building this structure.<br>The structure will provide 2 production for that resource.<br>(Limit 2)",
+        "planetEffectsChoice": [
+            {
+                "type": "Construct Structure",
+                "structure": "Quantum Accelerator (A)"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Quantum Accelerator (M)"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Quantum Accelerator (R)"
+            }
+        ],
+        "img": "bspinner.gif",
+        "buttonText": "Build",
+        "target": "Planet"
+    },
+    {
+        "name": "Quantum Bio-Vaporizer",
+        "scrap": {
+            "type": "cr",
+            "max": "170,000",
+            "min": "42,500"
+        },
+        "desc": "Instantly reduces the planet population by half.",
+        "enemyPlanetEffects": [
+            {
+                "type": "Reduce Population",
+                "value": "50%"
+            }
+        ],
+        "img": "vbomb.png",
+        "buttonText": "Fire",
+        "target": "Enemy Planet"
+    },
+    {
+        "name": "Quantum Firewall Trap",
+        "scrap": {
+            "type": "cr",
+            "min": "6,000",
+            "max": "24,000"
+        },
+        "desc": "[ Trap - 1 Week ] When applied, the first ship to<br>hack you will lose all cloaking power for 2 hours",
+        "playerEffects": [
+            {
+                "type": "Set Trap",
+                "duration": "1 week",
+                "enemyShipEffects": [
+                    {
+                        "type": "Reduce Cloak",
+                        "value": "100%",
+                        "duration": "2 hours"
+                    }
+                ]
+            }
+        ],
+        "img": "qfirewall.png",
+        "buttonText": "Set",
+        "target": "Player",
+        "send": "Yes"
+    },
+    {
+        "name": "Quantum Flare",
+        "scrap": {
+            "max": "10,000",
+            "min": "2,500",
+            "type": "cr"
+        },
+        "desc": "Emits rapid pulses of jamming energy, reducing enemy scan ability by 50% for 15 minutes",
+        "enemyShipEffects": [
+            {
+                "type": "Reduce Scan",
+                "value": "50%",
+                "duration": "15 min"
+            }
+        ],
+        "img": "qflare2.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5"
+        },
+        "target": "Enemy Ship",
+        "send": "Yes"
+    },
+    {
+        "name": "Quantum Hydro-Meliorator",
+        "tags": [
+            "Octafari"
+        ],
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Population:100 ]<br>Population bonus doubles if built on a Terra, Gaia, or Dyson planet.<br>Population bonus triples if built on an Oceanic Planet.",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Quantum Hydro-Meliorator (Pop Tripled)",
+                "conditions": [
+                    {
+                        "type": "Type",
+                        "types": [
+                            "Oceanic"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Quantum Hydro-Meliorator (Pop Doubled)",
+                "conditions": [
+                    {
+                        "type": "Type",
+                        "types": [
+                            "Terra",
+                            "Gaia",
+                            "Dyson"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Quantum Hydro-Meliorator"
+            }
+        ],
+        "img": "q-hydro.png",
+        "buttonText": "Build",
+        "target": "Your Planet"
     },
     {
         "name": "Quantum Projector",
@@ -12287,7 +13374,22 @@
     {
         "name": "Quasi-Spacial Isolator",
         "target": "Your Planet",
-        "desc": "Creates an intense spacial distortion field around an<br>Average or smaller planet, expanding its size by 1.*"
+        "desc": "Creates an intense spacial distortion field around an<br>Average or smaller planet, expanding its size by 1.*",
+        "restrictions": [
+            {
+                "type": "Size",
+                "max": "Average"
+            }
+        ],
+        "tags": [
+            "Bahreen"
+        ],
+        "planetEffects": [
+            {
+                "type": "Increase Size",
+                "value": "1"
+            }
+        ]
     },
     {
         "name": "Raix Bunker",
@@ -12410,12 +13512,233 @@
                     "Ancient Civilization Acropolis (30%)"
                 ]
             }
+        ],
+        "tags": [
+            "Bahreen"
         ]
+    },
+    {
+        "name": "Recondite Intruder",
+        "scrap": {
+            "max": "40,000",
+            "min": "10,000",
+            "type": "cr"
+        },
+        "desc": "Sabotages the systems of a non-player enemy, reducing its defense by 25%.<br>Can be used on elites and bosses. Lasts 12 hours.",
+        "enemyShipEffects": [
+            {
+                "type": "Decrease Defense",
+                "value": "25%",
+                "duration": "12 hours"
+            }
+        ],
+        "img": "bp-shady.png",
+        "buttonText": "Fire",
+        "target": "Enemy Ship"
+    },
+    {
+        "name": "Refining Lab",
+        "scrap": {
+            "max": "40,000",
+            "min": "10,000",
+            "type": "cr"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:1, Research:1 ]<br>Constructs a Refining Lab on your planet (limit 1 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Refining Lab"
+            }
+        ],
+        "img": "mprocessor.png",
+        "buttonText": "Build",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Relay Tower",
+        "scrap": {
+            "max": "40,000",
+            "min": "10,000",
+            "type": "cr"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Research:1 ]<br>Constructs a Relay Tower on your planet (limit 1 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Relay Tower"
+            }
+        ],
+        "img": "commtower.png",
+        "buttonText": "Build",
+        "target": "Your Planet"
     },
     {
         "name": "Relic Archives",
         "target": "Player",
-        "desc": "Artifact site locations pulled from Galactic Council archives. Boosts Artifact Storage by 7% for 40 hours."
+        "desc": "Artifact site locations pulled from Galactic Council archives. Boosts Artifact Storage by 7% for 40 hours.",
+        "playerEffects": [
+            {
+                "type": "Increase Artifact Storage",
+                "value": "7%",
+                "duration": "40 hours"
+            }
+        ]
+    },
+    {
+        "name": "Repair Nanodrones",
+        "scrap": {
+            "max": "7,000",
+            "min": "1,750",
+            "type": "cr"
+        },
+        "desc": "Restores full hull integrity when used",
+        "playerEffects": [
+            {
+                "type": "Restore Hull"
+            }
+        ],
+        "img": "nanodrones.png",
+        "buttonText": "Use",
+        "target": "Player",
+        "send": "Yes"
+    },
+    {
+        "name": "Rescued Prisoners",
+        "scrap": {
+            "max": "80,000",
+            "min": "20,000",
+            "type": "cr"
+        },
+        "desc": "Releasing the prisoners will grant goodwill from their homeworld.",
+        "playerEffects": [
+            {
+                "type": "Grant RP",
+                "value": "3"
+            }
+        ],
+        "img": "prisoners.png",
+        "buttonText": "Use",
+        "target": "Player"
+    },
+    {
+        "name": "Rescued Scientists",
+        "scrap": {
+            "max": "36,000",
+            "min": "9,000",
+            "type": "cr"
+        },
+        "desc": "Scientists that were once held captive by the Rogue Science League.<br>Hiring these scientists for your crew will increase your research by 5",
+        "playerEffects": [
+            {
+                "type": "Add Crew",
+                "crewType": "Scientist",
+                "value": "5"
+            }
+        ],
+        "img": "rescient.png",
+        "buttonText": "Hire",
+        "target": "Player"
+    },
+    {
+        "name": "Rescued Specialists",
+        "scrap": {
+            "max": "50,000",
+            "min": "12,500",
+            "type": "cr"
+        },
+        "desc": "Special Scientists that were once held captive by the Rogue Science League.<br>Hiring these scientists for your crew will increase your research by 10",
+        "playerEffects": [
+            {
+                "type": "Add Crew",
+                "crewType": "Scientist",
+                "value": "10"
+            }
+        ],
+        "img": "rescient2.png",
+        "buttonText": "Hire",
+        "target": "Player"
+    },
+    {
+        "name": "Research Data Archive",
+        "scrap": {
+            "type": "ctp",
+            "max": "4",
+            "min": "2"
+        },
+        "desc": "[ Planet Structure - Size:2 ]<br>Constructs a Research Data Archive on your planet (limit 5 per planet).<br>Increases your total research production capacity by 2000 points.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Research Data Archive"
+            }
+        ],
+        "img": "rstorage.png",
+        "buttonText": "Build",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Resonance Inhibitor",
+        "scrap": {
+            "max": "4",
+            "min": "2",
+            "type": "ctp"
+        },
+        "desc": "[ Planet Structure - Size:1, Cloak:250, Invasion Defense:500 ]<br>Installs a Resonance Inhibitor on your planet.<br>(limit 2 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Resonance Inhibitor"
+            }
+        ],
+        "img": "temporalinv.png",
+        "buttonText": "Build",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Rikthar's War Forge",
+        "scrap": {
+            "max": "26",
+            "min": "13",
+            "type": "ctp"
+        },
+        "desc": "[ Planet Structure - Size:2, (Choice Bonus) ]<br>Choose one of the following bonuses:<br>[Artifact 2, Mining 2, Attack +30%] OR<br>[Artifact 3, Mining 1, Attack +10%]<br>(Limit 1 per planet)",
+        "planetEffectsChoice": [
+            {
+                "type": "Construct Structure",
+                "structure": "Rikthar's War Forge (1)"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Rikthar's War Forge (2)"
+            }
+        ],
+        "img": "crimart5.png",
+        "buttonText": "Build",
+        "tags": [
+            "Crimson"
+        ],
+        "target": "Your Planet"
+    },
+    {
+        "name": "RSL Data Uplink",
+        "scrap": {
+            "max": "30",
+            "min": "15",
+            "type": "ctp"
+        },
+        "desc": "[ Planet Structure - Size:3, Research:3, Cloak:100, Defense:300 ]<br>Constructs a RSL Data Uplink on your planet (limit 2 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "RSL Data Uplink"
+            }
+        ],
+        "img": "rslsat.png",
+        "buttonText": "Build",
+        "target": "Your Planet",
+        "tags": [
+            "RSL"
+        ]
     },
     {
         "name": "RSL Memory Vault",
@@ -12601,6 +13924,24 @@
             }
         ],
         "target": "Your Planet"
+    },
+    {
+        "name": "Sehrin, Bioship Ally",
+        "scrap": {
+            "type": "ctp",
+            "min": "200",
+            "max": "400"
+        },
+        "desc": "[ Ship Ally ]<br>Recruits this Ally, who provides its stats to your ship.<br>Initial Stats: Attack: 80, Hull: 150 (Upgrades with Rank)<br>Sehrin gains a new rank whenever you complete a Daily Mission.",
+        "playerEffects": [
+            {
+                "type": "Install Ally",
+                "ally": "Sehrin, Bioship Ally"
+            }
+        ],
+        "buttonText": "Recruit",
+        "img": "bioship2.png",
+        "target": "Player"
     },
     {
         "name": "Sentarch Mind-Drones",
@@ -12803,7 +14144,7 @@
         "name": "Steward's Villa",
         "restrictions": [
             {
-                "type": "Planet Type",
+                "type": "Type",
                 "types": [
                     "Terra",
                     "Gaia",
@@ -12887,6 +14228,26 @@
         "cost": {
             "energy": "5.5k"
         }
+    },
+    {
+        "name": "Subquantum Tracing Console",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        },
+        "desc": "[ Device - Size:20, Defense:30, Attack:25, Cloak:30 ]<br>If this device is already installed on your ship,. this will instead upgrade its stats by 50%,. up to 500% max. Unlocks an ability when fully upgraded.",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Subquantum Tracing Console",
+                "value": "50%",
+                "max": "500%"
+            }
+        ],
+        "img": "traceconsole.gif",
+        "buttonText": "Build",
+        "target": "Player"
     },
     {
         "name": "SubVoid Darkdrone",
@@ -12995,6 +14356,26 @@
         ]
     },
     {
+        "name": "Symbiont Test Lab Upgrade",
+        "desc": "Upgrades an existing Refining Lab structure on your planet to a<br>Symbiont Test Lab, doubling its research and mining bonuses.<br>The new structure will also provide a 20% population bonus.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Refining Lab",
+                "new": "Symbiont Test Lab",
+                "message": "A Refining Lab has been upgraded to a Symbiont Test Lab."
+            }
+        ],
+        "buttonText": "Use",
+        "img": "tsymbio.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        },
+        "target": "Your Planet"
+    },
+    {
         "name": "T.O. Colony Ark",
         "restrictions": [
             {
@@ -13043,6 +14424,27 @@
         ]
     },
     {
+        "name": "T.O. Harvest Vault XV",
+        "tags": [
+            "Harvest"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:2, Mining:26, Cloak:1500, Population:+20% ]<br>Also Increases your planetary mineral production capacity by 16000 units.<br>Limit 2",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "T.O. Harvest Vault XV",
+                "message": "A T.O. Harvest Vault XV has been constructed on the planet."
+            }
+        ],
+        "img": "toharvestvault4.png",
+        "buttonText": "Build"
+    },
+    {
         "name": "T.O. Seed Lab",
         "restrictions": [
             {
@@ -13067,6 +14469,35 @@
         "tags": [
             "Scruuge"
         ]
+    },
+    {
+        "name": "T5 Analysis Data",
+        "scrap": {
+            "type": "cr",
+            "min": "16,000",
+            "max": "64,000"
+        },
+        "desc": "Applies a bonus of your choice to the targeted planet.<br>Choice: provide a 35% bonus to planet research for 1 week,<br>a 4% bonus to planet research permanently,<br>or a 1% bonus to all planet production permanently.",
+        "planetEffectsChoice": [
+            {
+                "type": "Increase Research",
+                "value": "35%",
+                "duration": "1 week",
+                "message": "You begin to apply the T5 Field Analysis..."
+            },
+            {
+                "type": "Increase Research",
+                "value": "4%",
+                "message": "You begin to apply the T5 Field Analysis..."
+            },
+            {
+                "type": "Increase Production",
+                "value": "1%",
+                "message": "You begin to apply the T5 Field Analysis..."
+            }
+        ],
+        "img": "st5data.png",
+        "buttonText": "Use"
     },
     {
         "name": "Tabula Progenis",
@@ -13384,6 +14815,46 @@
             "min": "25,000",
             "max": "100,000"
         }
+    },
+    {
+        "name": "TitanCore N-Probe",
+        "scrap": {
+            "max": "20,000",
+            "min": "5,000",
+            "type": "cr"
+        },
+        "desc": "[ Temporary Item - Legion Mission ]<br>Places a TitanCore probe on a planet, marking a spot for development.<br>Can only use on Metallic, Barren, Machine, Icy, or Ecumenopolis worlds not attacked in the last 6 months",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Dyson",
+                    "Metallic",
+                    "Barren",
+                    "Machine",
+                    "Icy",
+                    "Ecumenopolis"
+                ]
+            },
+            {
+                "type": "Calm",
+                "min": "6 months"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Increase Defense",
+                "message": "An N-Probe signal has been established.",
+                "value": "42%",
+                "duration": "2 weeks"
+            }
+        ],
+        "img": "titan-probe1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "2,222"
+        },
+        "target": "Your Planet"
     },
     {
         "name": "Toxic Processing Plant",

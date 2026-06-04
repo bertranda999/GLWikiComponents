@@ -261,6 +261,81 @@
                 "effectDesc": "Increases production by 2% for Pathfinders Guild professions<br>Bonus Restricted to: Explorer, Biologist, Excavator, Physicist",
                 "icon": "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14.19,14.19L6,18L9.81,9.81L18,6M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,10.9C11.39,10.9 10.9,11.39 10.9,12C10.9,12.61 11.39,13.1 12,13.1C12.61,13.1 13.1,12.61 13.1,12C13.1,11.39 12.61,10.9 12,10.9Z\"></path></svg>"
             }
+        ],
+        "winner": "Pathfinders Guild"
+    },
+    {
+        "name": "Chancellor Election",
+        "start": "27 May 2026",
+        "desc": "Allied Governments once again wish to elect a Galactic Chancellor to represent their shared interests, and advance the goals of the greater regions",
+        "effectDuration": "14 days",
+        "end": "2 Jun 2026",
+        "voteCooldown": "24 hours",
+        "votesRequired": "500",
+        "options": [
+            {
+                "name": "Senator Marcus Dale"
+            },
+            {
+                "name": "Luminary Oreth"
+            },
+            {
+                "name": "Viceroy Krynn"
+            },
+            {
+                "name": "Pod-Leader Salune"
+            }
+        ],
+        "winner": "Viceroy Krynn"
+    },
+    {
+        "name": "The Nythic Breach",
+        "start": "1 Jun 2026",
+        "desc": "An unusual and highly-volatile energy rift has appeared near the Tenebris region, expanding towards Ardyne and the Uldrinan Expanse. Feedback from the anomaly grows, and engineers are concerned it could destabilize sensor networks if it is not closed in time. Scientists hope to allow the rift to remain open long enough to study it...",
+        "effectDuration": "12 days",
+        "end": "7 Jun 2026",
+        "voteCooldown": "24 hours",
+        "failure": "Reduces all Scanning by 13%",
+        "failurePlayerEffects": [
+            {
+                "type": "Increase Scan",
+                "value": "-13%"
+            }
+        ],
+        "votesRequired": "2,800",
+        "options": [
+            {
+                "name": "Close the Breach",
+                "effectDesc": "Increases all Influence Production by 6%, but decreases Max Energy by 5%",
+                "desc": "Instructs the fleet to coordinate a serious of High-Intensity pulses at the Rift, closing it before it can grow further.",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"5\"></circle><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"></line><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"></line><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"></line><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"></line><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"></line><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"></line><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"></line><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"></line></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Influence",
+                        "value": "5%"
+                    },
+                    {
+                        "type": "Increase Energy",
+                        "value": "-5%"
+                    }
+                ]
+            },
+            {
+                "name": "Study the Breach",
+                "effectDesc": "Increases all Research Production by 6%, but decreases Scanning by 5%",
+                "desc": "Directs Scientists to study the anomaly as it grows it size, despite the consequences to sensor networks in the region",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9 3h6\"></path><path d=\"M10 3v6L4.5 19a2 2 0 0 0 1.7 3h11.6a2 2 0 0 0 1.7-3L14 9V3\"></path><path d=\"M7 14h10\"></path></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Research",
+                        "value": "6%"
+                    },
+                    {
+                        "type": "Increase Scan",
+                        "value": "-5%"
+                    }
+                ]
+            }
         ]
     }
 ]

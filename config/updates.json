@@ -1794,5 +1794,20 @@
         "date": "28 May 2026",
         "type": "Cosmetic",
         "desc": "Influence Zones that are restricted due to 'Suzerain Term Limits' will now appear with a red border on the map"
+    },
+    {
+        "date": "2 Jun 2026",
+        "type": "Initiative",
+        "desc": "Chancellor Election - Winner: Viceroy Krynn: Decreases ship upkeep by 13%, but also reduces cargo space by 15%"
+    },
+    {
+        "date": "2 Jun 2026",
+        "type": "Not Posted",
+        "desc": "Module abilities start on cooldown after being re-installed, to prevent overuse of abilities"
+    },
+    {
+        "date": "3 Jun 2026",
+        "type": "Discord",
+        "desc": "Update on Recent Performance Issues<br><br>Over the past week or so, many of you have run into lag, errors, or blank screens while playing. We understand that this has been frustrating, especially during active play, and we want to give you a clearer picture of what is going on.<br><br>After a fair amount of digging, we have traced the cause to an intermittent networking issue with our infrastructure, specifically with how our hosting provider is routing traffic to and from the game's servers. To be clear; this issue sits with the provider rather than the game's code, and it is out of our own control. Our providers are now aware and looking into it, but we do not have an ETA for a resolution at this time. We will provide an update to you all as soon as we hear more.<br><br>In the meantime, the game is still accessible - you may just hit the occasional slowness or errors. We have observed that when this happens, it generally only lasts a few minutes, and a refresh will get you back in both during and afterwards.<br><br>As part of our investigation into this problem, we also found and fixed unrelated (but still important) performance issues on our end, so active areas of the game should start feeling smoother going forward, once this issue is resolved. <br><br>Thanks for bearing with us, and for your assistance in reporting instances of these issues as they have occurred - this has helped us rule out potential causes and narrow this down.<br><br>If you have any questions or concerns, please feel free to reach out.<br><br>Thank you once again for your support!"
     }
 ]

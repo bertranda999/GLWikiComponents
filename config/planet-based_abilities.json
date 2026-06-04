@@ -285,14 +285,14 @@
         "planetEffects": [
             {
                 "type": "Increase Influence Availability",
-                "value": "1"
+                "value": "1",
+                "message": "The Noospheric Ritual has begun..."
             }
         ],
         "restrictions": [
             {
-                "restrictionType": "Planet Stat",
-                "stat": "Influence Availability",
-                "max": "Less than Very Abundant"
+                "restrictionType": "Influence Availability",
+                "max": "Abundant"
             }
         ]
     },

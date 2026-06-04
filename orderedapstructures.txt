@@ -1,0 +1,663 @@
+Elios Soletta v4: 100000
+Elios Soletta v3: 100000
+Elios Soletta v2: 100000
+Elios Soletta: 100000
+Dark Phage Entity: 100000
+Chuhn Reclamation Drone: 100000
+Tamed Undulok: 100000
+Synesthetic Fuse v4: 100000
+Synesthetic Fuse v3: 100000
+Synesthetic Fuse v2: 100000
+Synesthetic Fuse: 100000
+Veon Singularium v4: 100000
+Veon Singularium v3: 100000
+Veon Singularium v2: 100000
+Veon Singularium: 100000
+Q-Pedd Affinity Tunnel v4: 100000
+Q-Pedd Affinity Tunnel v3: 100000
+Q-Pedd Affinity Tunnel v2: 100000
+Q-Pedd Affinity Tunnel: 100000
+Supel Biomech Hangar v4: 100000
+Supel Biomech Hangar v3: 100000
+Supel Biomech Hangar v2: 100000
+Supel Biomech Hangar: 100000
+Sentarch Seeker-Drones: 100000
+T.O. Colony Ark v4: 100000
+T.O. Colony Ark v3: 100000
+T.O. Colony Ark v2: 100000
+T.O. Colony Ark: 100000
+Kaen MicroVault (Doubled): 100000
+Kaen MicroVault: 100000
+Visage of the Dark One: 100000
+Cryo-Foundry Battery (Doubled): 100000
+Cryo-Foundry Battery: 100000
+Xenotypic Mutants: 100000
+Streveldan Probe-Bay: 100000
+Bane Krow Probe - Type 3: 100000
+Bane Krow Probe - Type 1: 100000
+Elios Flare Probe: 100000
+Elios Flare Probe II: 100000
+Xenoform Drone (Tripled): 100000
+Xenoform Drone: 100000
+Scruuge Toll-Station v4: 100000
+Scruuge Toll-Station v3: 100000
+Scruuge Toll-Station v2: 100000
+Scruuge Toll-Station: 100000
+Bane Dark-Kiln: 100000
+Galaxy Celestials: 100000
+Galaxy Surrogates: 100000
+Galaxy Aristocrats: 100000
+Strazi Link Anchor (3): 100000
+Strazi Link Anchor (2): 100000
+Strazi Link Anchor (1): 100000
+Galaxy Elitists: 100000
+Throne of the Revered - Mark 4: 54.0
+Throne of the Revered - Mark 3: 31.0
+Supel Chromavault 3.0: 26.464912280701753
+Supel Chromavault 2.0: 23.736842105263158
+Supel Chromavault: 21.00877192982456
+Scruuge Hoarding Vault XV: 19.289473684210527
+Scruuge Hoarding Vault XIV: 18.412280701754383
+Scruuge Hoarding Vault XIII: 17.035087719298247
+Scruuge Hoarding Vault XIII: 17.035087719298247
+Throne of the Revered - Mark 2: 17.0
+Scruuge Hoarding Vault XII: 16.157894736842106
+Scruuge Hoarding Vault XI: 14.780701754385966
+Scruuge Hoarding Vault X: 13.903508771929825
+Biosphere Gyre v5: 13.578947368421051
+Scruuge Hoarding Vault IX: 12.526315789473683
+Cognizant Omniforge Grid: 12.5
+Vault of Gaia (Doubled): 12.280701754385966
+Scruuge Hoarding Vault VIII: 11.649122807017543
+Corrupted Portal V: 11.263157894736842
+Scruuge Hoarding Vault VII: 10.771929824561402
+Uldri Spacial Mega-Crystal Field: 10.5
+Uldri Power Mega-Node: 10.5
+Throne of the Revered: 10.0
+Aethercron Hold: 10.0
+Scruuge Hoarding Vault VI: 9.894736842105264
+Biosphere Gyre v3: 9.719298245614034
+Biosphere Gyre v4: 9.719298245614034
+Perpetual HyperTurbine V: 9.5
+Corrupted Portal IV: 9.210526315789473
+Verdant Estate v4: 9.157894736842106
+Litheor Transmutative Locator (1): 9.0
+Dark Supercollider (Upgraded): 9.0
+HyperNexus Power Shunt: 9.0
+Auric Lepus Clone-Program Tank: 9.0
+ArcRift Tower: 9.0
+Scruuge Hoarding Vault V: 8.517543859649123
+Cognizant Omniforge: 8.5
+Chuhn InterMarket Caster v4: 8.5
+T.O. TerraFounder - Upgraded: 8.5
+Perpetual HyperTurbine IV: 8.0
+Scruuge Hoarding Vault IV: 7.640350877192983
+Scruuge Hoarding Vault IV: 7.640350877192983
+Intraphasic Hoveroid: 7.5
+Litheor Transmutative Locator (2): 7.5
+Uldri Crystal Field: 7.5
+Uldri Power Node: 7.5
+T.O. TerraFounder: 7.5
+Court of Eternity: 7.5
+Corrupted Portal III: 7.157894736842105
+Vault of Terra (Doubled): 7.017543859649122
+Auric Lepus Drone 16.0: 7.0
+Portal of Legacies: 7.0
+Scruuge Hoarding Vault III: 6.763157894736842
+B'elna's Altar (Upgraded): 6.5
+Aurelios Star-Plant II: 6.5
+Perpetual HyperTurbine III: 6.5
+Monolith of Miracles v4: 6.25
+Raix Stasis Hold III: 6.2105263157894735
+Vault of Gaia: 6.140350877192983
+Bahreen Duodecix (1): 6.0
+Litheor Transmutative Locator (3): 6.0
+Bane Nether-Seal (6): 6.0
+Scruuge Keystone VII: 6.0
+Dark Supercollider: 6.0
+Lepus Drone 16.0: 6.0
+Auric Lepus Drone 13.0: 6.0
+Auric Lepus Drone 14.0: 6.0
+Auric Lepus Drone 15.0: 6.0
+Chuhn Exo-Logistics Gridport: 6.0
+Chuhn InterMarket Caster v3: 6.0
+Astrometrics Orrery v5: 6.0
+Chuhn Star-Emporium v5: 6.0
+Cognizant Omni-Bank: 5.898245614035088
+Scruuge Hoarding Vault II: 5.885964912280701
+Miser's Gift-Bunker: 5.859649122807017
+Dark Smugglers Vault: 5.789473684210526
+Ring of Ascendance: 5.5
+Raix Stasis Hold II: 5.333333333333334
+Gallery of Records: 5.157894736842105
+Corrupted Portal II: 5.105263157894736
+Scruuge Hoarding Vault: 5.008771929824562
+Steward's Villa: 5.0
+Bahreen Duodecix (2): 5.0
+Bane Psybeacon - Mark VI: 5.0
+Sentiox Trilink Node: 5.0
+Psyshade Arsenal V: 5.0
+Scruuge Keystone VI: 5.0
+Dark Mega-Strider v4: 5.0
+Lepus Drone 13.0: 5.0
+Lepus Drone 14.0: 5.0
+Lepus Drone 15.0: 5.0
+Auric Lepus Drone 10.0: 5.0
+Auric Lepus Drone 11.0: 5.0
+Auric Lepus Drone 12.0: 5.0
+Perpetual HyperTurbine II: 5.0
+Verdant Estate v3: 5.0
+Thavix Geneworks v4: 5.0
+Forum of Realms: 5.0
+Bane Phage Sacrarium v4: 5.0
+Corrupted Edifice: 4.508771929824562
+Custodian's Villa: 4.5
+Micro-Raix Cyclotron 3: 4.5
+Bio-Luminous Orb: 4.5
+Lepus Clone-Program Tank: 4.5
+Litheor Deep-Phase Sanctuary: 4.0
+Bahreen Duodecix (3): 4.0
+Shrine of B'elna: 4.0
+Ancestral Gene-Bank v4: 4.0
+Stryll Bioresearch Bay (Upgraded): 4.0
+Hyperluminal Sat-Grid Mesh: 4.0
+Bane Psybeacon - Mark V: 4.0
+Psyshade Arsenal IV: 4.0
+Scruuge Keystone V: 4.0
+Forgestone Prison Colony v4: 4.0
+Dark Mega-Strider v3: 4.0
+Lepus Drone 10.0: 4.0
+Lepus Drone 11.0: 4.0
+Lepus Drone 12.0: 4.0
+Auric Lepus Drone 7.0: 4.0
+Auric Lepus Drone 8.0: 4.0
+Auric Lepus Drone 9.0: 4.0
+Chuhn Exo-Logistics Center: 4.0
+Chuhn Trading MegaHub (Upgraded): 4.0
+Bane Generator XV: 4.0
+Astrometrics Orrery v4: 4.0
+Aurelios Star-Plant: 4.0
+Pentragulum Sparkmatter (2): 4.0
+Lepus C-34 Chromatic Fluxgate: 4.0
+Seismic Shattermine (Quadrupled): 4.0
+Monolith of Miracles v3: 4.0
+Verdant Estate v2: 4.0
+Chuhn Star-Emporium v4: 4.0
+Artifact Relic-Warehouse: 3.7719298245614037
+Oruas Eye Chamber: 3.754385964912281
+Artifact Warehouse: 3.508771929824561
+Polychoron RelicVault: 3.508771929824561
+Vault of Terra: 3.508771929824561
+Chuhn InterMarket Caster v2: 3.5
+Bane Generator XIII: 3.5
+Bane Generator XIV: 3.5
+Perpetual HyperTurbine: 3.5
+Raix Stasis Hold: 3.456140350877193
+Farselle Paravault: 3.3508771929824563
+Spire of Scruuge Dominion: 3.3157894736842106
+Bane Doom Silo (1): 3.168421052631579
+Ardyne Hypergate (Upgraded): 3.1666666666666665
+Corrupted Portal: 3.052631578947368
+Bainar A-Node - Prime: 3.0
+Bahreen Duodecix (4): 3.0
+Ancestral Gene-Bank v3: 3.0
+Void-Field Enclave (Tripled): 3.0
+Raix Refinery II (Specialized): 3.0
+NSX Tracking Matrix (3): 3.0
+Hyperluminal Sat-Grid: 3.0
+Elios Solar Drill (Inverter + Heliacal): 3.0
+Elios Corethune Shell v4: 3.0
+Bane Psybeacon - Mark IV: 3.0
+Bane Nether-Seal (5): 3.0
+Scruuge Cargo Launcher: 3.0
+Scruuge Growth Replivats (Upgraded): 3.0
+Auric Lepus Bio-Nest (2): 3.0
+Auric Lepus Bio-Nest (3): 3.0
+Psyshade Arsenal III: 3.0
+Scruuge Keystone IV: 3.0
+Cognizant Omni-Plant: 3.0
+Forgestone Prison Colony v3: 3.0
+Arcobarrier PulseNexus: 3.0
+Argent Galactic-Embassy: 3.0
+Dark Mega-Strider v2: 3.0
+Council Chamber: 3.0
+Lepus Drone 7.0: 3.0
+Lepus Drone 8.0: 3.0
+Lepus Drone 9.0: 3.0
+Auric Lepus Drone 2.0: 3.0
+Auric Lepus Drone 3.0: 3.0
+Auric Lepus Drone 4.0: 3.0
+Auric Lepus Drone 5.0: 3.0
+Auric Lepus Drone 6.0: 3.0
+Genoform Reservoir II: 3.0
+Chuhn Scrap Depot: 3.0
+Chuhn Trading Hub (Upgraded): 3.0
+Chuhn Trading MegaHub: 3.0
+Bane Generator XI: 3.0
+Bane Generator XII: 3.0
+Scruuge Plunderhaven: 3.0
+Dais of Deceit: 3.0
+Micro-Raix Cyclotron: 3.0
+Micro-Raix Cyclotron 2: 3.0
+Astrometrics Orrery v3: 3.0
+Obscura Lab v4: 3.0
+Quadrigulum Sparkmatter (2): 3.0
+Lepus C-34 Fluxgate: 3.0
+SubVoid Darkdrone G: 3.0
+Verdant Estate: 3.0
+Chuhn Star-Emporium v3: 3.0
+Dark Temple of Woe v2: 3.0
+Dark Temple of Woe v3: 3.0
+Dark Temple of Woe v4: 3.0
+Thavix Geneworks v3: 3.0
+Civicordium Platform v4: 3.0
+Bane Phage Sacrarium v2: 3.0
+Bane Phage Sacrarium v3: 3.0
+Nova-Stasis Unit: 2.949122807017544
+Font of Vitalis: 2.6666666666666665
+Xiphos Heist Outpost (20,000): 2.531578947368421
+Exo-Wave Generator: 2.5
+Caretaker's Villa: 2.5
+Chuhn InterMarket Caster: 2.5
+Bane Generator IX: 2.5
+Bane Generator X: 2.5
+Bane Dark-Infernum (Upgraded): 2.5
+Adumbrate Starport: 2.5
+SubVoid Darkdrone F: 2.5
+Monolith of Miracles v2: 2.5
+Sirocco Sandspire: 2.25
+Exo-Rift Membrane Blueprint: 2.0
+Litheor Deep-Phase Probe: 2.0
+Bainar A-Node - Advanced: 2.0
+Tranquil Monolith: 2.0
+Tranquil Monolith (10%): 2.0
+Tranquil Monolith (15%): 2.0
+Tranquil Monolith (20%): 2.0
+Tranquil Monolith (25%): 2.0
+Tranquil Monolith (30%): 2.0
+Tranquil Monolith (35%): 2.0
+Tranquil Monolith (40%): 2.0
+Tranquil Monolith (45%): 2.0
+Tranquil Monolith (50%): 2.0
+Bahreen Duodecix (5): 2.0
+Bahreen Duodecix (6): 2.0
+Bahreen Duodecix (7): 2.0
+Thavix Reactor: 2.0
+Uldri Spacial Mega-Folder: 2.0
+Ancestral Gene-Bank v2: 2.0
+Trellith Comm Relay: 2.0
+Void-Field Enclave (Doubled): 2.0
+Stryll Bioresearch Bay: 2.0
+XC1 Transport Probe: 2.0
+Terran-Stryll Interrogation Cell (Upgraded): 2.0
+Vvarix Flux Conduit (4,400): 2.0
+Vvarix Flux Conduit (4,695): 2.0
+Vvarix Flux Conduit (5,000): 2.0
+Vvarix Flux Conduit (5,700): 2.0
+Vvarix Flux Conduit (6,200): 2.0
+Vvarix Flux Conduit (6,500): 2.0
+Vvarix Flux Conduit (7,099): 2.0
+Vvarix Flux Conduit (8,002): 2.0
+Vvarix Flux Conduit (8,500): 2.0
+Vvarix Flux Conduit (9,000): 2.0
+Alarri Comm Tower - P3: 2.0
+Raix Bunker II: 2.0
+Tejiar Ally HQ II: 2.0
+Raix Refinery (Specialized): 2.0
+Raix Refinery II: 2.0
+NSX Tracking Matrix (2): 2.0
+Sub-Tachyonic Axis (Upgraded): 2.0
+Oruas Corrupted Disjector: 2.0
+Adaptive Spire (A): 2.0
+Orbital Stabilizer (Doubled): 2.0
+Litheor Core-Tunnel Shrine (1): 2.0
+Uldri Spacial Marker III: 2.0
+Uldri Recovery Capsule (4): 2.0
+Elios Solar Drill (Heliacal): 2.0
+Elios Solar Drill (Inverter): 2.0
+Elios Corethune Shell v3: 2.0
+Vaash Cron-Stabilizer: 2.0
+Chuhn Trading Post (Doubled): 2.0
+Bane Psybeacon - Mark II: 2.0
+Bane Psybeacon - Mark III: 2.0
+Perimeter Station: 2.0
+Perimeter Station - Upgraded: 2.0
+Galakis Entry Port: 2.0
+Vorean Habitat (Upgraded): 2.0
+Vorean Biostasis Lab (Upgraded): 2.0
+Ryelis Analyzer: 2.0
+Genome Modifier Tubes: 2.0
+Ardyne Transfer Conduit (Doubled): 2.0
+Cerulean Hyperstation: 2.0
+Aerlen Rescue Transport (Doubled): 2.0
+Active Tenebris Relic: 2.0
+B'elna's Altar: 2.0
+Silthion T-Plasma Vesicle II: 2.0
+Sentiox Uplink: 2.0
+Scruuge Calibration Plant: 2.0
+Scruuge Calibration Plant (Upgraded): 2.0
+Scruuge Cargo Launcher: 2.0
+Scruuge Growth Replivats: 2.0
+Scruuge Refinery-Lab: 2.0
+Streveldan Autoform Habitat C: 2.0
+Supel Microhaven (VT): 2.0
+Elios Pulse-Compressor: 2.0
+Lepus Bio-Nest (7): 2.0
+Lepus Bio-Nest (8): 2.0
+Lepus Bio-Nest (9): 2.0
+Lepus Bio-Nest (10): 2.0
+Lepus Bio-Nest (11): 2.0
+Lepus Bio-Nest (12): 2.0
+Auric Lepus Bio-Nest (1): 2.0
+Elios Core Mine: 2.0
+Elios Core Mine (Upgraded): 2.0
+Psyshade Arsenal II: 2.0
+Scruuge Keystone II: 2.0
+Scruuge Keystone III: 2.0
+Adumbrate Station (Doubled): 2.0
+Uldri Prism Haven: 2.0
+Aeon Relay Tower: 2.0
+Aeon Processor Core: 2.0
+Forgestone Prison Colony v2: 2.0
+Orbisbarrier HyperNexus: 2.0
+Argent Sector-Embassy: 2.0
+Quantum Accelerator (A) 100%: 2.0
+Dark Mega-Strider: 2.0
+Library of Celestial Registry: 2.0
+Streveldan Convocation Nexus: 2.0
+Lepus Drone 2.0: 2.0
+Lepus Drone 3.0: 2.0
+Lepus Drone 4.0: 2.0
+Lepus Drone 5.0: 2.0
+Lepus Drone 6.0: 2.0
+Auric Lepus Drone: 2.0
+Supel Interphase Portal: 2.0
+Genoform Reservoir: 2.0
+Elios Heliacal Plant (Upgraded): 2.0
+Chuhn Scrapyard: 2.0
+Chuhn Trading Hub: 2.0
+Bane Generator VI: 2.0
+Bane Generator VII: 2.0
+Bane Generator VIII: 2.0
+Exalted DarkForge: 2.0
+Q-Pedd Docking Station: 2.0
+Astrometrics Orrery v2: 2.0
+Xiphos Heist Outpost (10,000): 2.0
+Crimson Rift Aperture (Doubled): 2.0
+Obscura Lab v2: 2.0
+Obscura Lab v3: 2.0
+Elios Phoenix Powervault: 2.0
+Aurelios Voltarium II: 2.0
+Orion Menagerie: 2.0
+Triangulum Sparkmatter (3): 2.0
+Hall of Unfathomable Torment: 2.0
+Lepus C-34 Hypergate: 2.0
+A.I. Emotion Bi-Core: 2.0
+Cygnusis AI-Core (Doubled): 2.0
+T.O. Manufacturing Core: 2.0
+Valcaron-Cygnusis AI-Core (Upgraded): 2.0
+Scruuge Cargo Pad (Doubled): 2.0
+Scruuge Growth Vats (Doubled): 2.0
+Hypergate: 2.0
+Galactic Concord Station II: 2.0
+SubVoid Darkdrone D: 2.0
+Morphogenic Shift-Gate (3): 2.0
+Chuhn Shipyard: 2.0
+T.O. Genesis Loom: 2.0
+T.O. Frontier Habidome: 2.0
+Chuhn Star-Emporium: 2.0
+Chuhn Star-Emporium v2: 2.0
+Scruuge Resupply Depot III: 2.0
+Scruuge Thavix-Snare: 2.0
+Dark Temple of Woe: 2.0
+Q-Pedd Ballroom: 2.0
+Streveldan CogNode: 2.0
+Thavix Geneworks: 2.0
+Thavix Geneworks v2: 2.0
+Civicordium Platform v3: 2.0
+Tree of Harmony III: 2.0
+Bane Phage Sacrarium: 2.0
+Propaganda Plex v3: 1.8333333333333333
+Scruuge Frost Tribunal: 1.763157894736842
+Polychoron DataVault: 1.7543859649122806
+Polychoron OreVault: 1.7543859649122806
+Polychoron Vault: 1.7543859649122806
+Galakis Transport: 1.7017543859649122
+Ardyne Hypergate: 1.6666666666666667
+Species Evolution Lab: 1.6666666666666667
+Entropy Repulsor Pylon: 1.5
+Rikthar's War Forge (2): 1.5
+Elios Corethune Shell v2: 1.5
+Bane Nether-Seal (4): 1.5
+Seat of the Exarch: 1.5
+Seat of the Exarch (Upgraded): 1.5
+Temple of Radiance: 1.5
+Nexus Recon Spy-Hub: 1.5
+Propaganda Plex v2: 1.5
+Paralyxis Diffuser: 1.5
+Quantum Accelerator (A) 50%: 1.5
+Sillixx Starport Hub: 1.5
+Human Tactical Barracks: 1.5
+Bane Generator II: 1.5
+Bane Generator III: 1.5
+Bane Generator IV: 1.5
+Bane Generator V: 1.5
+Omnistream Gateway: 1.5
+Elios Micro-Star Cradle: 1.5
+T.O. Fortisphere: 1.5
+SubVoid Darkdrone B: 1.5
+SubVoid Darkdrone E: 1.5
+Spire of Edenic Dominion: 1.5
+Spire of Civicordium Dominion: 1.5
+Farselle Psi-Drone: 1.3508771929824561
+Vygos Aquaseeker: 1.3333333333333333
+Morphogenic Shift-Gate: 1.3333333333333333
+Morphogenic Shift-Gate (2): 1.3333333333333333
+Propaganda Plex: 1.1666666666666667
+Processing Core: 1.0
+Relay Tower: 1.0
+Space Elevator: 1.0
+Warp Gate: 1.0
+Conductor's Villa: 1.0
+Guardian's Villa: 1.0
+Bainar A-Node - Basic: 1.0
+Bainar X-Node: 1.0
+Bralkir Altar: 1.0
+Xephius Portal: 1.0
+Ancestral Gene-Bank: 1.0
+Void-Field Enclave: 1.0
+Bioship Gene Lab (AR): 1.0
+Terran-Stryll Interrogation Cell: 1.0
+Strazi Genolink Probe: 1.0
+Vvarix Flux Conduit: 1.0
+Alarri Comm Tower: 1.0
+Alarri Comm Tower - P2: 1.0
+Alarri Compound Turret: 1.0
+Alarri Signaling Drone: 1.0
+Raix Bunker: 1.0
+Tejiar Ally HQ: 1.0
+Raix Refinery: 1.0
+Tej-Brask Refueling Depot II: 1.0
+Rikthar's War Forge (1): 1.0
+NSX Tracking Matrix: 1.0
+Sub-Tachyonic Axis: 1.0
+Lutuma Command Module: 1.0
+Oruas Predictive Disjector: 1.0
+Tri-Ocular Inhibitor: 1.0
+Zolazin Analyzer: 1.0
+Quantum Hydro-Meliorator: 1.0
+Quantum Hydro-Meliorator (Pop Doubled): 1.0
+Quantum Hydro-Meliorator (Pop Tripled): 1.0
+Adaptive Spire (X): 1.0
+Orbital Stabilizer: 1.0
+Litheor Core-Tunnel Shrine (2): 1.0
+Uldri Spacial Marker: 1.0
+Uldri Spacial Marker II: 1.0
+Uldri Anomaly Crystal: 1.0
+Uldri Anomaly Crystal (Upgraded): 1.0
+Ventar Field Collapser: 1.0
+Uldri Recovery Capsule (2): 1.0
+Uldri Recovery Capsule (3): 1.0
+Antimatter Drill: 1.0
+Hyperluminal Satellite: 1.0
+Elios Solar Drill: 1.0
+Elios Corethune Shell: 1.0
+Chuhn Trading Post: 1.0
+Bane Psybeacon: 1.0
+Bane Nether-Seal (3): 1.0
+Scruuge Lab: 1.0
+Cognitor Forum: 1.0
+War Foundry Plant: 1.0
+Xathe Inhibitor: 1.0
+Vorean Habitat: 1.0
+Vorean Biostasis Lab: 1.0
+Anti-Grav Repulsor: 1.0
+Ardyne Transfer Conduit: 1.0
+Roathir Listening Post: 1.0
+Cerulean Flow Converter: 1.0
+Aerlen Rescue Transport: 1.0
+Darmos Nerve Turret: 1.0
+Vearon Casino: 1.0
+Morphogenic Inhibitor: 1.0
+Streveldan Autoform Habitat A: 1.0
+Streveldan Autoform Habitat B: 1.0
+Streveldan Autoform Habitat D: 1.0
+Supel Microhaven: 1.0
+Supel Microhaven (S): 1.0
+Supel Microhaven (VS): 1.0
+Supel Microhaven (T): 1.0
+NSX Crate: Diamond: 1.0
+Lepus Bio-Nest (1): 1.0
+Lepus Bio-Nest (2): 1.0
+Lepus Bio-Nest (3): 1.0
+Lepus Bio-Nest (4): 1.0
+Lepus Bio-Nest (5): 1.0
+Lepus Bio-Nest (6): 1.0
+Elios Orbital Conduit: 1.0
+Psyshade Arsenal: 1.0
+Scruuge Keystone: 1.0
+Adumbrate Station: 1.0
+Adumbrate Junction: 1.0
+Uldri Spacial Folder: 1.0
+Aeon Tower: 1.0
+Heist Dispatch Station: 1.0
+Luring Cynosure: 1.0
+Luring Cynosure (Upgraded): 1.0
+Forgestone Prison Colony: 1.0
+Barrier Nexus: 1.0
+Barrier HyperNexus: 1.0
+Argent Consulate: 1.0
+Quantum Accelerator (A): 1.0
+Omni-Weather Controller: 1.0
+Lepus Drone: 1.0
+Phylogenetic Core II: 1.0
+Elios Heliacal Plant: 1.0
+Elios Ignis Tower: 1.0
+Bane Generator: 1.0
+Astrometrics Orrery: 1.0
+Xiphos Heist Outpost (5,785): 1.0
+Xiphos Heist Outpost (7,022): 1.0
+Xiphos Heist Outpost (9,000): 1.0
+Crimson Rift Aperture: 1.0
+Dark Void Beacon: 1.0
+Lazuli Shipyard: 1.0
+Obscura Lab: 1.0
+Silthion T-Plasma Vesicle: 1.0
+Assembly of Tri-Unity: 1.0
+Empyreal Garden-Citadel: 1.0
+Empyreal Garden-Citadel II: 1.0
+Elios Power Junction: 1.0
+Elios Powervault: 1.0
+Aurelios Voltarium: 1.0
+Triangulum Sparkmatter (1): 1.0
+Triangulum Sparkmatter (2): 1.0
+Bane Quad-Phase Inhibitor: 1.0
+Bane Dark-Infernum: 1.0
+Bane Doom Silo (2): 1.0
+Bane Doom Silo (3): 1.0
+Lepus Chromatic Gateway: 1.0
+Lepus Bio-Mech Gateway: 1.0
+Lepus Bio-Mech Hypergate: 1.0
+Lepus C-34 Gateway: 1.0
+Affection Disseminator Megacore: 1.0
+A.I. Emotion Core: 1.0
+Scruuge Calibration Chamber: 1.0
+Scruuge Calibration Chamber (Upgraded): 1.0
+Scruuge Hovertank: 1.0
+Archotage Transmitter: 1.0
+Archotage Transmitter - Upgraded: 1.0
+Sarkonis Omnipod: 1.0
+Sarkonis Omnipod - Upgraded: 1.0
+Cygnusis AI-Core: 1.0
+Valcaron-Cygnusis AI-Core: 1.0
+Gauss Chain II: 1.0
+Scruuge Cargo Pad: 1.0
+Scruuge Growth Vats: 1.0
+HyperSensor Satellite: 1.0
+Galactic Concord Station: 1.0
+Isolation Bureau (Doubled): 1.0
+Toxic Processing Plant: 1.0
+Polaron Emitter (Upgraded): 1.0
+Seismic Shattermine: 1.0
+SubVoid Darkdrone A: 1.0
+Krionite Absorption Net: 1.0
+Monolith of Miracles: 1.0
+T.O. Seed-Lab: 1.0
+Biosphere Gyre: 1.0
+Biosphere Gyre v2: 1.0
+Scruuge Resupply Depot: 1.0
+Scruuge Resupply Depot II: 1.0
+Divergent Entity: 1.0
+Supel Dark-Warren: 1.0
+Supel Incubator: 1.0
+Hall of Delegates: 1.0
+Hall of Delegates (Upgraded): 1.0
+Civicordium Platform v2: 1.0
+Tree of Harmony: 1.0
+Tree of Harmony II: 1.0
+Covert BlackWatch: 1.0
+Drannik Holo-Sanctum: 1.0
+Proto-Matter Synthesizer: 0.8421052631578947
+Bane Nether-Seal (2): 0.75
+Hyperforge Fabricator: 0.6666666666666666
+Sillixx Starport: 0.6666666666666666
+Omnibase: 0.6
+Bane Nether-Seal: 0.6
+Empyreal Fire-Citadel: 0.6
+Empyreal Fire-Citadel II: 0.6
+Empyreal Ice-Citadel: 0.6
+Empyreal Ice-Citadel II: 0.6
+Stellar Replicator: 0.5882352941176471
+Gravitonic Revealer: 0.5
+Voliir Transgenic Lock: 0.5
+Gene-Root Pavilion: 0.5
+Heist Dispatch Center: 0.5
+Captured T.O. Harvester: 0.5
+Captured T.O. Harvester II: 0.5
+Captured T.O. Harvester III: 0.5
+Captured T.O. Harvester IV: 0.5
+Captured T.O. Harvester V: 0.5
+Captured T.O. Harvester VI: 0.5
+Captured T.O. Harvester VII: 0.5
+Captured T.O. Harvester VIII: 0.5
+Captured T.O. Harvester IX: 0.5
+Captured T.O. Harvester X: 0.5
+Captured T.O. Harvester XI: 0.5
+Captured T.O. Harvester XII: 0.5
+Captured T.O. Harvester XIII: 0.5
+Captured T.O. Harvester XIV: 0.5
+Captured T.O. Harvester XV: 0.5
+Captured T.O. Harvester XVI: 0.5
+Captured T.O. Harvester XVI - Upgraded: 0.5
+Gauss Chain: 0.5
+Isolation Bureau: 0.5
+SubVoid Darkdrone C: 0.5
+Quantum Analyzer Engine: 0.4
+Captured Crimson Base: 0.4
+Drannik Databank: 0.4
+Mesh Probes: 0.38461538461538464
+Deep Scan Harmonizer: 0.36363636363636365
+Subterranean Probes: 0.3333333333333333
+Hall of Law: 0.3333333333333333
+Analyzer Drones: 0.2857142857142857
+Surface Scanner: 0.25

@@ -1,0 +1,179 @@
+Exo-Wave Generator
+Caretaker's Villa
+Custodian's Villa
+Diplomat's Villa
+Litheor Deep-Phase Sanctuary
+Ring of Ascendance
+Caustic Pit-Spire
+Uldri Spacial Mega-Crystal Field
+Ancestral Gene-Bank
+Ancestral Gene-Bank v2
+Ancestral Gene-Bank v3
+Ancestral Gene-Bank v4
+Intraphasic Hoveroid
+Litheor Core-Tunnel Shrine (2)
+Hyperluminal Sat-Grid
+Hyperluminal Sat-Grid Mesh
+Elios Corethune Shell
+Elios Corethune Shell v2
+Elios Corethune Shell v3
+Elios Corethune Shell v4
+Ardyne Hypergate
+Ardyne Hypergate (Upgraded)
+Seat of the Exarch
+Seat of the Exarch (Upgraded)
+Vygos Aquaseeker
+Temple of Radiance
+Cognitor Forum
+Sirocco Sandspire
+Cryonic Xynapse
+Litheor Deep-Ember Keep
+Litheor Deep-Ember Keep v2
+Litheor Deep-Ember Keep v3
+Atrium of Secrets
+Xecti Brood-Nest
+Stryll Ghost-Uplink
+Scruuge Frost Tribunal
+Streveldan Autoform Habitat D
+Supel Microhaven (VS)
+Supel Microhaven (T)
+Supel Microhaven (VT)
+Arx Genetica
+Elios Pulse-Compressor
+Gene-Root Pavilion
+T.O. Capitol Dome
+T.O. Capitol Dome - Upgraded
+Uldri Crystal Field
+Cognizant Omniforge
+Cognizant Omniforge Grid
+Hall of Law
+Aeon Tower
+Aeon Relay Tower
+Aeon Processor Core
+OmniVote Terminal
+OmniVote Nexus
+Propaganda Plex
+Propaganda Plex v2
+Propaganda Plex v3
+Dark Supercollider
+Dark Supercollider (Upgraded)
+Library of Celestial Registry
+Council Chamber
+Court of Oracles
+Streveldan Convocation Nexus
+Supel Interphase Portal
+Supel Chromavault
+Supel Chromavault 2.0
+Supel Chromavault 3.0
+Genoform Reservoir
+Genoform Reservoir II
+Phylogenetic Core
+Phylogenetic Core II
+Chuhn Trading MegaHub
+HyperNexus Power Shunt
+Scruuge Plunderhaven
+Scruuge Toll-Station
+Scruuge Toll-Station v2
+Scruuge Toll-Station v3
+Scruuge Toll-Station v4
+Dais of Deceit
+Micro-Raix Cyclotron
+Micro-Raix Cyclotron 2
+Micro-Raix Cyclotron 3
+Bio-Luminous Orb
+Spire of Dominion
+Spire of High Dominion
+Spire of Scruuge Dominion
+Spire of Cybernetic Dominion
+Spire of Supel Dominion
+Exalted DarkForge
+Xenoform Drone
+Xenoform Drone (Tripled)
+Species Evolution Lab
+Throne of the Revered
+Throne of the Revered - Mark 2
+Throne of the Revered - Mark 3
+Throne of the Revered - Mark 4
+Elios Flare Probe II
+Assembly of Tri-Unity
+Empyreal Fire-Citadel
+Empyreal Fire-Citadel II
+Empyreal Garden-Citadel
+Empyreal Garden-Citadel II
+Empyreal Ice-Citadel
+Empyreal Ice-Citadel II
+Elios Micro-Star Cradle
+Lepus Clone-Program Tank
+Auric Lepus Clone-Program Tank
+T.O. TerraFounder
+T.O. TerraFounder - Upgraded
+T.O. Fortisphere
+Valcaron-Cygnusis AI-Core
+Valcaron-Cygnusis AI-Core (Upgraded)
+Adumbrate Starport
+Morphogenic Shift-Gate
+Morphogenic Shift-Gate (2)
+Morphogenic Shift-Gate (3)
+Monolith of Miracles v2
+Monolith of Miracles v3
+Monolith of Miracles v4
+Visage of the Dark One
+Galakis Monument
+Galakis Monument (Doubled)
+T.O. Colony Ark
+T.O. Colony Ark v2
+T.O. Colony Ark v3
+T.O. Colony Ark v4
+Verdant Estate
+Verdant Estate v2
+Verdant Estate v3
+Verdant Estate v4
+T.O. Frontier Habidome
+Spire of Edenic Dominion
+Chuhn Star-Emporium
+Chuhn Star-Emporium v2
+Chuhn Star-Emporium v3
+Chuhn Star-Emporium v4
+Chuhn Star-Emporium v5
+Sentarch Mind-Drones
+Divergent Entity
+Dark Temple of Woe
+Dark Temple of Woe v2
+Dark Temple of Woe v3
+Dark Temple of Woe v4
+Supel Biomech Hangar v2
+Supel Biomech Hangar v3
+Supel Biomech Hangar v4
+Supel Dark-Warren
+Q-Pedd Affinity Tunnel
+Q-Pedd Affinity Tunnel v2
+Q-Pedd Affinity Tunnel v3
+Q-Pedd Affinity Tunnel v4
+Q-Pedd Ballroom
+Supel Incubator
+Synesthetic Fuse
+Synesthetic Fuse v2
+Synesthetic Fuse v3
+Synesthetic Fuse v4
+Font of Vitalis
+Covert Legation II
+Antigrav Citadel
+Antigrav Citadel v2
+Antigrav Citadel v3
+Antigrav Citadel v4
+Hall of Delegates (Upgraded)
+Gallery of Records
+Forum of Realms
+Court of Eternity
+Civicordium Platform
+Civicordium Platform v2
+Civicordium Platform v3
+Civicordium Platform v4
+Spire of Civicordium Dominion
+Bio-Symposium Lab
+Tree of Harmony II
+Tree of Harmony III
+Dark Phage Entity
+Drannik Holo-Sanctum
+Exotic Miners Guildhall
+Portal of Legacies

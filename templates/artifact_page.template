@@ -1,0 +1,4 @@
+<a><b>{name}</b><br> {desc}<br></a><img src={img}><br>
+Target = {target}<br>
+Cost to {buttonText} = {cost}<br>
+Scrap = {scrap.min} - {scrap.max} {scrap.scrapType}

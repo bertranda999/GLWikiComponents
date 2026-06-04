@@ -1969,7 +1969,7 @@ with open(outPath + "types_table.html", "w") as file:
     file.write(html)
 
 async def writeRank():
-    html = "<head><link rel=\"stylesheet\" href=\"style.css\"><script type=\"text/javascript\" charset=\"utf8\" src=\"../sorttable.js\" defer></script></head>"
+    html = "<head><link rel=\"stylesheet\" href=\"../style.css\"><script type=\"text/javascript\" charset=\"utf8\" src=\"../sorttable.js\" defer></script></head>"
 
     html += "<h1>Rank</h1>Your player rank, which unlocks access to various features<br>"
     insigniaTableColCount = 6
@@ -1985,7 +1985,7 @@ async def writeRank():
             html += "</tr><tr>"
             count = 0
         count += 1
-        html += f"<td><img width=\"200\" src=\"assets/ranks/{file.name}\"></td>"
+        html += f"<td><img width=\"200\" src=\"../assets/ranks/{file.name}\"></td>"
 
     html += "</table>"
 
