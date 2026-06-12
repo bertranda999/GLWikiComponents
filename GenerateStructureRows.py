@@ -320,9 +320,9 @@ structures: list[Structure] = [
     Structure("Tejiar Ally HQ", 1, 1, True, False, mp=2, ap=1, acq=mission("A Choice of Sides")),
     Structure("Tejiar Ally HQ", 1, 1, True, False, "II", mp=2, ap=2, cp=5, acq=mission("A Choice of Sides")),
     Structure("Raix Refinery", 1, 1, True, False, mp=2, ap=1, c=300, acq=mission("The Garathon Offensive")),
-    Structure("Raix Refinery", 1, 1, True, False, "(Specialized)", mp=2, ap=2, c=300, acq=mission("The Garathon Offensive"), formDescription="If built on a planet that already has a Raix Bunker constructed"),
+    Structure("Raix Refinery", 1, 1, True, False, "(Upgraded)", mp=2, ap=2, c=300, acq=mission("The Garathon Offensive"), formDescription="If built on a planet that already has a Raix Bunker constructed"),
     Structure("Raix Refinery", 1, 1, True, False, "II", mp=3, ap=2, c=400, acq=mission("The Garathon Offensive"), formDescription="After using the Raix Transformation"),
-    Structure("Raix Refinery", 1, 1, True, False, "II (Specialized)", mp=3, ap=3, c=400, acq=mission("The Garathon Offensive"), formDescription="If built on a planet that already has a Raix Bunker constructed AND After using the Raix Transformation"),
+    Structure("Raix Refinery", 1, 1, True, False, "II (Upgraded)", mp=3, ap=3, c=400, acq=mission("The Garathon Offensive"), formDescription="If built on a planet that already has a Raix Bunker constructed AND After using the Raix Transformation"),
     Structure("Tej-Brask Refueling Depot", 1, 1, True, False, mp=4, d=500, acq=mission("The Crimson Bait")),
     Structure("Tej-Brask Refueling Depot", 1, 1, True, False, "II", mp=6, ap=1, d=1000, acq=mission("Tej-Brask Refueling Depot"), formDescription="After using the Raix Transformation"),
     Structure("Meta-Tuned Jammer", 1, 1, True, True, "(1)", rp=2, cp=25, acq=mission("The Crimson Defector"), formDescription="Option 1"),
@@ -609,6 +609,7 @@ structures: list[Structure] = [
     Structure("Human Tactical Barracks", 2, 2, False, False, ap=3, rps=1111, dp=33, atp=33, p=5000, acq=market(GP_MARKET)),
     Structure("Library of Celestial Registry", 2, 1, False, False, ap=4, rp=4, rps=1001, ip=2, ips=101, acq=market(GP_MARKET)),
     Structure("Council Chamber", 1, 2, False, False, ap=3, ip=1, acq=market(GP_MARKET)),
+    Structure("Hyperprism Chamber", 1, 2, False, False, ap=6, ip=2, acq=market(GP_MARKET)),
     Structure("Court of Oracles", 2, 1, False, False, ip=3, acq=market(GP_MARKET)),
     Structure("Q-Pedd Science Station", 2, 2, False, True, rp=3, rps=2000, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE], formDescription="Available 2012:"),
     Structure("Q-Pedd Science Station", 2, 2, False, True, "2.0", rp=3, rps=3000, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE], formDescription="Available 2013:"),
@@ -697,6 +698,9 @@ structures: list[Structure] = [
     Structure("Bane Generator", 2, 1, False, False, "XIV", mp=18, ap=7, at=100000, c=1800, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE]),
     Structure("Bane Generator", 2, 1, False, False, "XV", mp=19, ap=8, at=120000, c=2200, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE]),
     Structure("Bane Dark-Kiln", 0, 1, False, False, mp=3, ap=1, c=666),
+    Structure("Bane Dark-Kiln", 0, 1, False, False, "v2", mp=3, ap=2, c=666, cp=14),
+    Structure("Bane Dark-Kiln", 0, 1, False, False, "v3", mp=5, ap=2, c=666, cp=28),
+    Structure("Bane Dark-Kiln", 0, 1, False, False, "v4", mp=6, ap=3, c=666, cp=42),
     Structure("HyperNexus Power Shunt", 1, 1, False, False, mpp=6, app=6, rpp=6, ipp=6, dp=20, acq=market(GP_MARKET)),
     Structure("T.O. Harvest Vault", 2, 2, False, False, mp=3, mps=2000, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE]),
     Structure("T.O. Harvest Vault", 2, 2, False, False, "- Upgraded", mp=4, mps=2500, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE], formDescription="Upgrade with [[Archotage Amplifier]]:"),
@@ -1081,6 +1085,26 @@ structures: list[Structure] = [
     Structure("Klorvis Shroud Generator", 1, 2, False, True, rp=1, c=200),
     Structure("Klorvis Troop Gateway", 1, 1, False, True, at=750, d=750),
     Structure("Portal of Legacies", 1, 1, False, False, mp=2, mpp=4, ap=1, app=4, rp=3, rpp=4, ip=1, ipp=4),
+    Structure("Jeweled Labyrinth", 2, 1, True, False, mp=3, mpp=2, ap=3, app=2, rpp=2, ip=1, ipp=2, dp=33),
+    Structure("Jeweler's Villa", 1, 1, False, False, mp=1, mpp=3, ap=1),
+    Structure("Prismatrix Silo", 1, 1, False, False, mps=4400, ap=1),
+    Structure("Prismatrix Library", 1, 1, False, False, ap=1, rps=4400),
+    Structure("Prismatrix Reliquary", 1, 1, False, False, ap=1, aps=3100),
+    Structure("Prismatrix Chamber", 1, 1, False, False, ap=1, ips=170),
+    Structure("Spectral Conclave", 1, 1, False, False, mpp=4, ap=3, app=4, rpp=4, ip=1, ipp=4, cp=11),
+    Structure("Azure Prism", 1, 1, False, False, ap=1, ip=1, dp=33),
+    Structure("Heliac Prism", 1, 1, False, False, mp=2, rp=2, esp=33),
+    Structure("Pyric Prism", 1, 1, False, False, mp=3, ap=1),
+    Structure("Rhodic Prism", 1, 1, False, False, ip=1, ipp=3),
+    Structure("Twilight Prism", 1, 1, False, False, ap=1, rp=3, cp=11),
+    Structure("Viridian Prism", 1, 1, False, False, rp=1, ip=1, pp=20),
+    Structure("Crownspire, Spectral Palace", 3, 1, False, False, mp=5, mpp=3, ap=3, app=3, rp=3, rpp=3, ip=2, ipp=3, pp=25, esp=33),
+    Structure("Shardveil, Spectral Citadel", 3, 1, False, False, mp=3, mpp=3, ap=3, app=3, rp=5, rpp=3, ip=2, ipp=3, dp=33, cp=13),
+    Structure("Glimmerhold, Spectral Castle", 3, 1, False, False, mp=3, mpp=3, ap=4, app=3, rp=3, rpp=3, ip=2, ipp=3, ips=300, mps=3000, aps=3000, rps=3000),
+    Structure("Jeweled Sentinel", 0, 1, False, False, mpp=4, ap=1, app=1),
+    Structure("Jeweled Sentinel", 0, 1, False, False, "v2", mpp=4, ap=2, app=2),
+    Structure("Crystalline Portal", 1, 1, False, False, mp=3, ap=1, rp=3, pp=22),
+    Structure("Jeweled Sentinel", 0, 1, False, False, "v3", mpp=5, ap=2, app=2, c=404),
     ]
 
 def addAbility(structureName, ability):
@@ -1106,6 +1130,14 @@ addAbility("Alarri Comm Tower", {"name":"Phase 2 Upgrade", "planetEffects":[{"ty
 addAbility("Alarri Comm Tower - P2", {"name":"Phase 3 Upgrade", "planetEffects":[{"type":"Upgrade","new":"Alarri Comm Tower - Mark III","cost":{"energy":"500"},"restrictions":[{"type":"Professions","professions":["Builder", "Fixer", "Explorer"]}]}],"desc":"Upgrades Tower to Phase 3.<br>Adds +1 Artifact and +150 Cloak to the Tower. Must be a Builder / Fixer / or Explorer to use.<br>Costs 500 Energy and 1 Charge."})
 addAbility("Alarri Compound Turret", {"name":"Compound Lockdown","desc":"Increases Planetary Defense by 50% For 1 month.<br>Costs 250 Energy and 1 Charge.", "planetEffects":[{"type":"Increase Defense","value":"50%","duration":"1 month"}],"message":"The Planet is now on lockdown."})
 addAbility("Alarri Signaling Drone", {"name":"Drone Signal","desc":"Increases production by 10% for 4 days.<br>Costs 400 Energy and 1 Charge.","charges":"4","planetEffects":[{"type":"Increase All Production","value":"10%","duration":"4 days","message":"The planet pulses with energy."}]})
+addAbility("Bane Dark-Kiln", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Bane Dark-Kiln v2"}], "cost":{"aeon":"2"}, "restrictions":[{"type":"Existing Structures", "tags":["Bane"], "min":"6"}]})
+addAbility("Bane Dark-Kiln v2", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Bane Dark-Kiln v3"}], "cost":{"aeon":"2"}, "restrictions":[{"type":"Existing Structures", "tags":["Bane"], "min":"8"}]})
+addAbility("Bane Dark-Kiln v3", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Bane Dark-Kiln v4"}], "cost":{"aeon":"2"}, "restrictions":[{"type":"Existing Structures", "tags":["Bane"], "min":"10"}]})
+addAbility("Jeweled Sentinel", {"name":"V2 Upgrade", "desc":"Upgrades Sentinel to V2<br>Adds +1 Artifact +1% Artifact<br>Planet must have at least 4 <u>other</u> Crystal / Prism / Spectral / Jewel Structures.<br>Costs 5500 Energy", "planetEffects":[{"type":"Upgrade","new":"Jeweled Sentinel v2","message":"You successfully perform the upgrades."}],"cost":{"energy":"5,500"},"restrictions":[{"type":"Existing Structures","filters":["Crystal","Prism","Spectral","Jewel"],"min":"4"}]})
+addAbility("Jeweled Sentinel v2", {"name":"V3 Upgrade","desc":"Upgrades Sentinel to V3<br>Adds +404 Cloak +1% Mining<br>Planet must have at least 6 <u>other</u> Crystal / Prism / Spectral / Jewel Structures.<br>Costs 8800 Energy", "planetEffects":[{"type":"Upgrade","new":"Jeweled Sentinel v3","message":"You successfully perform the upgrades."}],"cost":{"energy":"8,800"},"restrictions":[{"type":"Existing Structures","filters":["Crystal","Prism","Spectral","Jewel"],"min":"6"}]})
+addAbility("Jeweled Sentinel v3", {"name":"V4 Upgrade","desc":"Upgrades Sentinel to V4<br>Adds +1 Artifact +1 Mining +1% Mining<br>Planet must have at least 8 <u>other</u> Crystal / Prism / Spectral / Jewel Structures.<br>Costs 15000 Energy", "planetEffects":[{"type":"Upgrade","new":"Jeweled Sentinel v4","message":""}],"cost":{"energy":"15,000"},"restrictions":[{"type":"Existing Structures","filters":["Crystal","Prism","Spectral","Jewel"],"min":"8"}]})
+addAbility("Antigrav Citadel", {"message":"You successfully perform the upgrades.","name":"V2 Upgrade", "desc":"Upgrades Citadel to v2<br>Adds +1 Research +111 Influence Storage +11% Cloak<br>Planet must have at least 4 distinct structures that provide 2+ influence.<br>Costs 4 Evolution Genes", "planetEffects":[{"type":"Upgrade","new":"Antigrav Citadel v2"}], "restrictions":[{"type":"Existing Structures","statType":"ip","statMin":"2","min":"4"}],"cost":{"genes":"4"}})
+addAbility("Antigrav Citadel v2", {"message":"","name":"V3 Upgrade", "desc":"Upgrades Citadel to v3<br>Adds +2 Research +1 Influence<br>Planet must have at least 6 distinct structures that provide 2+ influence.<br>Costs 8 Evolution Genes", "planetEffects":[{"type":"Upgrade","new":"Antigrav Citadel v3"}], "restrictions":[{"type":"Existing Structures","statType":"ip","statMin":"2","min":"6"}],"cost":{"genes":"8"}})
     
 def generateNotesStr(notes: list[int] = []):
     if len(notes) < 1:
@@ -1231,7 +1263,7 @@ variantStructures = [
 
 def setBase(structure):
     if structure['name'] in ["Galaxy Interrogators"]:
-        structure['base'] = "Galaxy Overseers"
+        structure['base'] = "Government Official"
     elif structure['name'] in ["Spire of Civicordium Dominion", "Spire of Edenic Dominion", "Spire of High Dominion", "Spire of Scruuge Dominion", "Spire of Cybernetic Dominion", "Spire of Supel Dominion"]:
         structure['base'] = "Spire of Dominion"
     elif structure['name'] in ["Galaxy Inquisitors", "Galaxy Technocrats", "Galaxy Overseers", "Galaxy Interrogators", "Galaxy Pedants", "Galaxy Administrators", "Galaxy Aristocrats", "Galaxy Surrogates", "Galaxy Celestials"]:

@@ -1,3 +1,4 @@
+Jeweled Sentinel v3: 100000
 Antigrav Citadel v4: 100000
 Antigrav Citadel v3: 100000
 Antigrav Citadel v2: 100000
@@ -6,6 +7,9 @@ Veon Singularium v4: 100000
 Veon Singularium v3: 100000
 Veon Singularium v2: 100000
 Veon Singularium: 100000
+Bane Dark-Kiln v4: 100000
+Bane Dark-Kiln v3: 100000
+Bane Dark-Kiln v2: 100000
 Bane Dark-Kiln: 100000
 Galaxy Celestials: 100000
 Galaxy Interrogators: 100000
@@ -49,6 +53,8 @@ Arx Genetica: 2200.0
 Raix Stasis Hold: 2200.0
 Scruuge Plunderhaven: 2200.0
 SubVoid Darkdrone A: 2200.0
+Spectral Conclave: 2200.0
+Twilight Prism: 2200.0
 Tranquil Monolith (10%): 2000.0
 Meta-Tuned Jammer (2): 2000.0
 Tri-Ocular Inhibitor: 2000.0
@@ -80,6 +86,7 @@ Bane Generator XIV: 900.0
 Dais of Deceit: 900.0
 T.O. Fortisphere: 900.0
 Covert BlackWatch: 888.0
+Shardveil, Spectral Citadel: 866.6666666666666
 T.O. Harvest Vault XV - Upgraded: 850.0
 Covert Legation: 850.0
 Covert Legation II: 850.0
@@ -124,7 +131,7 @@ Obscura Lab: 420.0
 T.O. Genesis Loom: 411.0
 Entropy Repulsor Pylon: 400.0
 Raix Refinery II: 400.0
-Raix Refinery II (Specialized): 400.0
+Raix Refinery II (Upgraded): 400.0
 Oruas Predictive Disjector: 400.0
 Ardyne Transfer Conduit (Doubled): 400.0
 Scruuge Calibration Plant: 400.0
@@ -153,7 +160,7 @@ Litheor Deep-Phase Sanctuary: 300.0
 Shrine of B'elna: 300.0
 Vvarix Flux Conduit (5,700): 300.0
 Raix Refinery: 300.0
-Raix Refinery (Specialized): 300.0
+Raix Refinery (Upgraded): 300.0
 Sub-Tachyonic Axis (Upgraded): 300.0
 Chron Shifter: 300.0
 Morphogenic Inhibitor: 300.0

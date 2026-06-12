@@ -149,5 +149,9 @@
                 "artifact": "Tamed Undulok"
             }
         ]
+    },
+    {
+        "name": "Ergosphere Extractor",
+        "shield": "https://static-dev.galaxylegion.com/images/npcs/kronynext-shield.png"
     }
 ]

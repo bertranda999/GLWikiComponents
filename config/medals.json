@@ -1956,7 +1956,8 @@
         "name": "Parasitic Embrace",
         "desc": "Have 6 friendly ships of different races take a Bio-Con Parasite away from your ship",
         "medalPoints": "16",
-        "img": "parasites2.jpg"
+        "img": "parasites2.jpg",
+        "prereq": "One for the Team"
     },
     {
         "name": "Interphased Claim",
@@ -8900,6 +8901,165 @@
         "triggers": [
             {
                 "type": "Vote"
+            }
+        ]
+    },
+    {
+        "name": "Opulent Fixation",
+        "desc": "Install 2 Crystalline Weavers on your ship",
+        "medalPoints": "11",
+        "img": "nspectral3.jpg",
+        "artifact": "Refracted Projection",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "count": "2",
+                "artifacts": [
+                    "Crystalline Weaver"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Crystalline Gardens",
+        "desc": "Colonize 5 or more 'Large' or smaller Crystal planets, during The Spectral Convergence event.",
+        "medalPoints": "12",
+        "img": "nspectral7.jpg",
+        "artifact": "Jeweled Labyrinth",
+        "triggers": [
+            {
+                "type": "Colonize Planet"
+            }
+        ]
+    },
+    {
+        "name": "Iridescent Diversity",
+        "desc": "During the Spectral Convergence, take part in 7+ different Seasonal Events as their features temporarily appear - through a Daily Mission, Daily Challenge, Petitioner Suite action, GP Market purchase, or by disabling a shared NPC from those events.",
+        "medalPoints": "16",
+        "img": "nspectral12.jpg",
+        "title": "the Iridescent",
+        "titleCharAnimation": " .title-spectralshimmer {     color: #000000; }  .title-spectralshimmer-char {     display: inline-block;     color: #000000;     animation: title-spectralshimmer 3s linear infinite; }  @keyframes title-spectralshimmer { 0% {     color: #ff5566;     text-shadow: 0 0 6px rgba(255,85,102,0.55); } 16% {     color: #ffa755;     text-shadow: 0 0 6px rgba(255,167,85,0.55); } 33% {     color: #ffee55;     text-shadow: 0 0 6px rgba(255,238,85,0.55); } 50% {     color: #66ff88;     text-shadow: 0 0 6px rgba(102,255,136,0.55); } 66% {     color: #55cfff;     text-shadow: 0 0 6px rgba(85,207,255,0.55); } 83% {     color: #cc88ff;     text-shadow: 0 0 6px rgba(204,136,255,0.55); } 100% {     color: #ff5566;     text-shadow: 0 0 6px rgba(255,85,102,0.55); } } ",
+        "titleHtml": "<span class=\"title-spectralshimmer\" style=\"font-style:italic; font-weight:bold;\"><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0s\">t</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.08s\">h</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.16s\">e</span> <span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.32s\">I</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.4s\">r</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.48s\">i</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.56s\">d</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.64s\">e</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.72s\">s</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.8s\">c</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.88s\">e</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:0.96s\">n</span><span class=\"title-spectralshimmer-char\" style=\"animation-delay:1.04s\">t</span></span>"
+    },
+    {
+        "name": "Sundered Lattice",
+        "desc": "During the Spectral Convergence, invade 4+ Crystal planets of various sizes, that have been scanned by no greater than 2 other ships.",
+        "medalPoints": "12",
+        "img": "nspectral9.jpg",
+        "artifact": "Jeweled Labyrinth",
+        "triggers": [
+            {
+                "type": "Invade Planet"
+            }
+        ]
+    },
+    {
+        "name": "Chamber's Apex",
+        "desc": "Use a Hyperprism Chamber Upgrade on 4 different planet types",
+        "medalPoints": "14",
+        "artifact": "Refracted Projection",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Hyperprism Chamber Upgrade",
+                "count": "5"
+            }
+        ]
+    },
+    {
+        "name": "Spectral Facets",
+        "desc": "Use the following types of Prisms on various planets<br>Pyric, Heliac, Viridian, Azure, Twilight, Rhodic",
+        "medalPoints": "12",
+        "artifact": "Jeweled Labyrinth",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Pyric Prism"
+            },
+            {
+                "type": "Use Artifact",
+                "artifact": "Heliac Prism"
+            },
+            {
+                "type": "Use Artifact",
+                "artifact": "Viridian Prism"
+            },
+            {
+                "type": "Use Artifact",
+                "artifact": "Azure Prism"
+            },
+            {
+                "type": "Use Artifact",
+                "artifact": "Twilight Prism"
+            },
+            {
+                "type": "Use Artifact",
+                "artifact": "Rhodic Prism"
+            }
+        ]
+    },
+    {
+        "name": "Shimmering Castles",
+        "desc": "Create the following Spectral Castles in the Collective Theory Lab<br>Crownspire, Shardveil, Glimmerhold",
+        "medalPoints": "12",
+        "artifact": "Spectral Crystallizer",
+        "triggers": [
+            {
+                "type": "Use CTL",
+                "artifact": "Crownspire"
+            },
+            {
+                "type": "Use CTL",
+                "artifact": "Shardveil"
+            },
+            {
+                "type": "Use CTL",
+                "artifact": "Glimmerhold"
+            }
+        ]
+    },
+    {
+        "name": "Jeweled Observation",
+        "desc": "Use a Jeweled Sentinel on 4 different planet types",
+        "medalPoints": "14",
+        "flair": "Prismgrid",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Jeweled Sentinel"
+                ],
+                "count": "4"
+            }
+        ]
+    },
+    {
+        "name": "Isolated Iridescence",
+        "desc": "During the Spectral Convergence, place 8 or more distinct 'Crystal', 'Prism', or 'Spectral' structures, on planets of Very Small size or smaller",
+        "medalPoints": "15",
+        "artifact": "Jeweled Labyrinth",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "nameFilters": [
+                    "Crystal",
+                    "Prism",
+                    "Spectral"
+                ],
+                "count": "8",
+                "target": "Your Planet",
+                "effectType": "Construct Structure"
+            }
+        ]
+    },
+    {
+        "name": "Converging Journeys",
+        "desc": "During the Spectral Convergence, activate the abilities of various permanent planet events on 5 different planet types",
+        "medalPoints": "12",
+        "artifact": "Spectral Crystallizer",
+        "triggers": [
+            {
+                "type": "Use Planet-Based Ability"
             }
         ]
     }

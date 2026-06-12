@@ -1809,5 +1809,26 @@
         "date": "3 Jun 2026",
         "type": "Discord",
         "desc": "Update on Recent Performance Issues<br><br>Over the past week or so, many of you have run into lag, errors, or blank screens while playing. We understand that this has been frustrating, especially during active play, and we want to give you a clearer picture of what is going on.<br><br>After a fair amount of digging, we have traced the cause to an intermittent networking issue with our infrastructure, specifically with how our hosting provider is routing traffic to and from the game's servers. To be clear; this issue sits with the provider rather than the game's code, and it is out of our own control. Our providers are now aware and looking into it, but we do not have an ETA for a resolution at this time. We will provide an update to you all as soon as we hear more.<br><br>In the meantime, the game is still accessible - you may just hit the occasional slowness or errors. We have observed that when this happens, it generally only lasts a few minutes, and a refresh will get you back in both during and afterwards.<br><br>As part of our investigation into this problem, we also found and fixed unrelated (but still important) performance issues on our end, so active areas of the game should start feeling smoother going forward, once this issue is resolved. <br><br>Thanks for bearing with us, and for your assistance in reporting instances of these issues as they have occurred - this has helped us rule out potential causes and narrow this down.<br><br>If you have any questions or concerns, please feel free to reach out.<br><br>Thank you once again for your support!"
+    },
+    {
+        "date": "4 Jun 2026",
+        "type": "Tweak",
+        "desc": "Updated various internal server settings to improve overall performance. We are still monitoring an ongoing issue with occasional network lag.",
+        "detail": "Over the past week or so, many of you have run into lag, errors, or blank screens while playing. We understand that this has been frustrating, especially during active play, and we want to give you a clearer picture of what is going on.<br><br>After a fair amount of digging, we have traced the cause to an intermittent networking issue with our infrastructure, specifically with how our hosting provider is routing traffic to and from the game's servers. To be clear; this issue sits with the provider rather than the game's code, and it is out of our own control. Our providers are now aware and looking into it, but we do not have an ETA for a resolution at this time. We will provide an update to you all as soon as we hear more.<br><br>In the meantime, the game is still accessible - you may just hit the occasional slowness or errors. We have observed that when this happens, it generally only lasts a few minutes, and a refresh will get you back in both during and afterwards.<br><br>As part of our investigation into this problem, we also found and fixed unrelated (but still important) performance issues on our end, so active areas of the game should start feeling smoother going forward, once this issue is resolved.<br><br>Thanks for bearing with us, and for your assistance in reporting instances of these issues as they have occurred - this has helped us rule out potential causes and narrow this down.<br><br>If you have any questions or concerns, please feel free to reach out on Discord"
+    },
+    {
+        "date": "4 Jun 2026",
+        "type": "Event",
+        "desc": "Spectral Convergence event - started"
+    },
+    {
+        "date": "8 Jun 2026",
+        "type": "Tweak",
+        "desc": "Performed another optimization pass, slightly increasing overall game performance."
+    },
+    {
+        "date": "8 Jun 2026",
+        "type": "Tweak",
+        "desc": "Fixed an issue where the main game menu bar would become permanently unresponsive, requiring a page refresh to resolve."
     }
 ]

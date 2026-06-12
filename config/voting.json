@@ -280,7 +280,8 @@
                 "name": "Luminary Oreth"
             },
             {
-                "name": "Viceroy Krynn"
+                "name": "Viceroy Krynn",
+                "effectDesc": "Decreases ship upkeep by 18%, but also reduces cargo space by 9%"
             },
             {
                 "name": "Pod-Leader Salune"
@@ -333,6 +334,108 @@
                     {
                         "type": "Increase Scan",
                         "value": "-5%"
+                    }
+                ]
+            }
+        ],
+        "winner": "Fail"
+    },
+    {
+        "name": "Darmos Galactic Host",
+        "desc": "Darmos is seeking new hosts for the upcoming Darmos Galactic, a seasonal series of Games that brings together participants from across the Galaxy, and is trying to determine which quadrant would be the ideal choice",
+        "effectDuration": "12 days",
+        "end": "12 Jun 2026",
+        "start": "6 Jun 2026",
+        "voteCooldown": "24 hours",
+        "votesRequired": "2,000",
+        "options": [
+            {
+                "name": "Tross Quadrant",
+                "effectDesc": "Increases production by 1% for races in the Tross Quadrant<br>Bonus Restricted to: Taltherian, Uldrinan, Inergon, Konqul"
+            },
+            {
+                "effectDesc": "Increases production by 2% for races in the Pract Quadrant<br>Bonus Restricted to: Vygoid, Litheor, Kronyn, Aerlen, Genetarr",
+                "name": "Pract Quadrant"
+            },
+            {
+                "effectDesc": "Increases production by 2% for races in the Aether Quadrant<br>Bonus Restricted to: Human, Sillixx, Drannik, Lazuli",
+                "name": "Aether Quadrant"
+            },
+            {
+                "effectDesc": "Increases production by 3% for races in the Drahj Quadrant<br>Bonus Restricted to: Mylarai, Zolazin, Bahreen, Xecti",
+                "name": "Drahj Quadrant"
+            }
+        ]
+    },
+    {
+        "name": "Alarri Forgeworks Improvements",
+        "desc": "The renowned Alarri Forgeworks has extended an offer to enhance regional infrastructure through a series of ambitious public works projects, in exchange for a cut of our usual production quota. The Council is weighing which deal would benefit us most.",
+        "start": "11 Jun 2026",
+        "end": "18 Jun 2026",
+        "effectDuration": "7 days",
+        "voteCooldown": "24 hours",
+        "votesRequired": "2,000",
+        "options": [
+            {
+                "name": "Alarri Forgeworks Improvements",
+                "img": "aeonspire1.webp",
+                "desc": "Aeon Spire",
+                "effectDesc": "Temporarily Unlocks 'Aeon Spire Upgrade' design in the Aeon Market, but reduces mining production by 8%",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Items",
+                        "market": "Aeon",
+                        "items": [
+                            {
+                                "name": "Aeon Spire Upgrade"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Increase Mining Production",
+                        "value": "-8%"
+                    }
+                ]
+            },
+            {
+                "name": "House of Law",
+                "img": "houselaw1.png",
+                "desc": "House of Law",
+                "effectDesc": "Temporarily Unlocks 'House of Law Upgrade' design in the Mission Market, but reduces research production by 8%",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Items",
+                        "market": "Mission",
+                        "items": [
+                            {
+                                "name": "House of Law Upgrade"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Increase Research Production",
+                        "value": "-8%"
+                    }
+                ]
+            },
+            {
+                "name": "Uldri Glome",
+                "img": "uldglome1.webp",
+                "desc": "Uldri Glome",
+                "effectDesc": "Temporarily Unlocks 'Uldri Glome' design in the Uldri Trade Market, but reduces artifact production by 4%",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Items",
+                        "market": "Uldrinan",
+                        "items": [
+                            {
+                                "name": "Uldri Glome"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Increase Artifact Production",
+                        "value": "4%"
                     }
                 ]
             }

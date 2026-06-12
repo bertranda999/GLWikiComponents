@@ -106,6 +106,16 @@
                 "reward": "Energy Cube",
                 "rarity": "Uncommon",
                 "shortName": "Warden"
+            },
+            {
+                "name": "Litheor Crystallographer",
+                "desc": "A Litheor crystallographer cataloguing the unusual crystalline fragments discovered in places where energies refract during the Convergence.",
+                "img": "aliens/nlitheor2.png",
+                "race": "Litheor",
+                "reward": "Prismatrix Vault",
+                "rarity": "Uncommon",
+                "shortName": "Crystals",
+                "seasonal": "Spectral"
             }
         ]
     },
@@ -121,6 +131,16 @@
                 "rarity": "Rare",
                 "shortName": "Geneticist",
                 "seasonal": "Genoform"
+            },
+            {
+                "name": "Bahreen Phenomenologist",
+                "desc": "A Bahreen phenomenologist mapping the convergence's anomalous patterns — drawn to the places where reality bends.",
+                "img": "aliens/gl2-bahreen4.png",
+                "race": "Bahreen",
+                "reward": "Crystalline Portal",
+                "rarity": "Uncommon",
+                "seasonal": "Spectral",
+                "shortName": "Anomalies"
             }
         ]
     },

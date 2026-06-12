@@ -315,7 +315,7 @@
         ]
     },
     {
-        "name": "Path to Metropoli*",
+        "name": "Complete Path (Metropolis)",
         "desc": "Trades 2 Aeon Badges for a random path reward.<br>Planet must have at least 40 distinct structures built on it to earn",
         "cooldown": "4 days",
         "cost": {
@@ -361,6 +361,15 @@
             }
         ],
         "cooldown": "3 days 8 hours"
+    },
+    {
+        "name": "Sepulchral Cache",
+        "desc": "Excavates a random artifact. Uses 4 Green Badges",
+        "cooldown": "2 days 8 hours",
+        "cost": {
+            "green": "4"
+        },
+        "playerEffectsRandom": []
     },
     {
         "name": "Sintered Abyss*",

@@ -346,7 +346,7 @@
         "effects": [
             {
                 "effectType": "Add Planet-Based Ability",
-                "abilityName": "Path to Metropolis",
+                "abilityName": "Complete Path (Metropolis)",
                 "duration": "4 days"
             }
         ]
@@ -429,6 +429,17 @@
             }
         ],
         "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/gclouds1.gif"
+    },
+    {
+        "name": "Sepulchral Caves",
+        "desc": "?",
+        "effects": [
+            {
+                "type": "Add Planet-Based Ability",
+                "ability": "Sepulchral Cache"
+            }
+        ],
+        "img": "planets/effects/sepcaves1.gif"
     },
     {
         "name": "Sintered Abyss",

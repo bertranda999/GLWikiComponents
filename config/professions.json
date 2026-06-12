@@ -20,5 +20,9 @@
                 "value": "10%"
             }
         ]
+    },
+    {
+        "name": "Diplomat",
+        "img": "aliens/traits/diplomat.png"
     }
 ]

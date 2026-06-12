@@ -316,5 +316,52 @@
             "message": "You have established relations with influential leaders...",
             "artifact": "Accordium Charter"
         }
+    },
+    {
+        "name": "Spectral Origins",
+        "desc": "Energy levels across the Convergence are increasing... rippling through spacetime at different points. Strange projections have been appearing and disappearing... from our sensors. Further study is needed to see what kind of threat it poses to life here.",
+        "charImage": "Race",
+        "icon": "missions/spectral1.jpg",
+        "dialogue": [
+            {
+                "character": "The Convergence represents a singular photonic signature...",
+                "player": "A single event? Have we traced its source?"
+            },
+            {
+                "character": "There are leylines that converge at a Locus, but they did not originate from our place in time. What we see here are... interference patterns.",
+                "player": "What kind of studies can we assist with?"
+            },
+            {
+                "character": "We've coordinated with a lab in Tenebris that can be isolated from the effects. We would like your scientists to assist them with biological assays.",
+                "player": "Many are saying that the Convergence is a good omen."
+            },
+            {
+                "character": "Then I am sure your results will reflect such a sentiment.",
+                "player": "I'm sure they will. One must agree that the phenomenon is quite... beautiful."
+            },
+            {
+                "character": "There is certainly beauty in chaos... but I trust the data. I'll be checking in with Tenebris soon."
+            }
+        ],
+        "cost": {
+            "energy": "42",
+            "genes": "5",
+            "studies": "33"
+        },
+        "completionReward": {
+            "artifact": "Prismatrix Vault"
+        },
+        "roundReward": {
+            "xp": "42"
+        },
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "effect": "Progression",
+                "message": "You continue to analyze the spectral phenomenae..."
+            }
+        ],
+        "completionText": "You have finished analyzing the spectral phenomenae..",
+        "daily": "Yes"
     }
 ]

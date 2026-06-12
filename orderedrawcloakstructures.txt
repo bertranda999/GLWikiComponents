@@ -1,7 +1,11 @@
+Jeweled Sentinel v3: 100000
 Veon Singularium v4: 100000
 Veon Singularium v3: 100000
 Veon Singularium v2: 100000
 Veon Singularium: 100000
+Bane Dark-Kiln v4: 100000
+Bane Dark-Kiln v3: 100000
+Bane Dark-Kiln v2: 100000
 Bane Dark-Kiln: 100000
 Galaxy Celestials: 100000
 Galaxy Interrogators: 100000
@@ -72,7 +76,7 @@ Xephius Portal: 404.0
 Streveldan CogNode: 404.0
 Entropy Repulsor Pylon: 400.0
 Raix Refinery II: 400.0
-Raix Refinery II (Specialized): 400.0
+Raix Refinery II (Upgraded): 400.0
 Oruas Predictive Disjector: 400.0
 Ardyne Transfer Conduit (Doubled): 400.0
 Scruuge Calibration Plant: 400.0
@@ -101,7 +105,7 @@ Litheor Deep-Phase Sanctuary: 300.0
 Shrine of B'elna: 300.0
 Vvarix Flux Conduit (5,700): 300.0
 Raix Refinery: 300.0
-Raix Refinery (Specialized): 300.0
+Raix Refinery (Upgraded): 300.0
 Sub-Tachyonic Axis (Upgraded): 300.0
 Chron Shifter: 300.0
 Morphogenic Inhibitor: 300.0

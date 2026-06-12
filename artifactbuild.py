@@ -37,6 +37,8 @@ with open("config/structures.json", "r") as file:
 orderedStructs = []
 currentRaw: float = 0
 currentBonus = 1.0
+infRaw = 0
+infBonus = 1.0
 
 size0 = []
 for struct in volcInfStructs:
@@ -64,6 +66,9 @@ while size0.__len__() > 0:
     orderedStructs.append(maxStruct)
     currentRaw += maxStruct['ap'] if 'ap' in maxStruct else 0
     currentBonus *= (1.0 + (maxStruct['bap'] / 100.0)) if 'bap' in maxStruct else 1.0
+    
+    infRaw += maxStruct['ip'] if 'ip' in maxStruct else 0
+    infBonus *= (1 + (maxStruct['bip'] / 100.0)) if 'bip' in maxStruct else 1.0
     print(f"{maxStruct['name']} {max}")
     
     base = maxStruct['base'] if 'base' in maxStruct else maxStruct['name']
@@ -103,6 +108,8 @@ while totalSpace < 116:
     orderedStructs.append(maxStruct)
     currentRaw += maxStruct['ap'] if 'ap' in maxStruct else 0
     currentBonus *= (1.0 + (maxStruct['bap'] / 100.0)) if 'bap' in maxStruct else 1.0
+    infRaw += maxStruct['ip'] if 'ip' in maxStruct else 0
+    infBonus *= (1.0 + (maxStruct['bip'] / 100.0)) if 'bip' in maxStruct else 1.0
     print(f"{maxStruct['name']} {max}")
     
     base = maxStruct['base'] if 'base' in maxStruct else maxStruct['name']
@@ -126,6 +133,10 @@ while totalSpace < 116:
 print(currentRaw)
 print(currentBonus)
 print(currentRaw * currentBonus)
+
+print(infRaw)
+print(infBonus)
+print(infRaw * infBonus)
 
 
 #for struct in orderedStructs:

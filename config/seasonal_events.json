@@ -854,5 +854,262 @@
             "Blossoming Potential",
             "Optimal Mutations"
         ]
+    },
+    {
+        "name": "Spectral Convergence (2026)",
+        "img": "<a href=\"#\"><img class=\"seasonal-start-icon\" src=\"https://static.galaxylegion.com/images/regions/spectral1.png\" alt=\"\"><div class=\"seasonal-header-content\"><div class=\"seasonal-title-box seasonal-title-box-spectral\"><span class=\"seasonal-title\">Spectral Convergence</span><span class=\"seasonal-dates\">Jun 4 - 30</span></div></div><img class=\"seasonal-end-icon\" src=\"https://static.galaxylegion.com/images/artifacts/icrystal1.webp\" alt=\"\"><div class=\"seasonal-bg-image\" style=\"background-image: url('https://static.galaxylegion.com/images/bg/seasonal1.jpg'); opacity: 0.42;\"></div><div class=\"seasonal-bg-darken\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 100\" preserveAspectRatio=\"none\" style=\"width:100%;height:100%;position:absolute;top:0;left:0;pointer-events:none;overflow:visible;z-index:2;\"><defs><linearGradient id=\"scifi-grad-459d0a5a\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" stop-color=\"#ff0000\"></stop><stop offset=\"20%\" stop-color=\"#ff9900\"></stop><stop offset=\"40%\" stop-color=\"#ffff00\"></stop><stop offset=\"60%\" stop-color=\"#00cc00\"></stop><stop offset=\"80%\" stop-color=\"#0066ff\"></stop><stop offset=\"100%\" stop-color=\"#9933ff\"></stop></linearGradient><linearGradient id=\"scifi-gradDark-459d0a5a\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" stop-color=\"color-mix(in srgb, #ff0000 30%, black)\"></stop><stop offset=\"20%\" stop-color=\"color-mix(in srgb, #ff9900 30%, black)\"></stop><stop offset=\"40%\" stop-color=\"color-mix(in srgb, #ffff00 30%, black)\"></stop><stop offset=\"60%\" stop-color=\"color-mix(in srgb, #00cc00 30%, black)\"></stop><stop offset=\"80%\" stop-color=\"color-mix(in srgb, #0066ff 30%, black)\"></stop><stop offset=\"100%\" stop-color=\"color-mix(in srgb, #9933ff 30%, black)\"></stop></linearGradient><linearGradient id=\"scifi-gradLight-459d0a5a\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"color-mix(in srgb, #ff0000, white 60%)\"></stop><stop offset=\"20%\" stop-color=\"color-mix(in srgb, #ff9900, white 60%)\"></stop><stop offset=\"40%\" stop-color=\"color-mix(in srgb, #ffff00, white 60%)\"></stop><stop offset=\"60%\" stop-color=\"color-mix(in srgb, #00cc00, white 60%)\"></stop><stop offset=\"80%\" stop-color=\"color-mix(in srgb, #0066ff, white 60%)\"></stop><stop offset=\"100%\" stop-color=\"color-mix(in srgb, #9933ff, white 60%)\"></stop></linearGradient><filter id=\"scifi-glow-459d0a5a\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\"><feGaussianBlur stdDeviation=\"3\" result=\"blur\"></feGaussianBlur><feMerge><feMergeNode in=\"blur\"></feMergeNode><feMergeNode in=\"blur\"></feMergeNode><feMergeNode in=\"SourceGraphic\"></feMergeNode></feMerge></filter><filter id=\"scifi-shadow-459d0a5a\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\"><feDropShadow dx=\"2\" dy=\"4\" stdDeviation=\"4\" flood-color=\"rgba(0,0,0,1)\"></feDropShadow></filter></defs><!-- Outer shadow/glow --><path d=\"M 18 0 L 382 0 L 400 18 L 400 82 L 382 100 L 18 100 L 0 82 L 0 18 Z\" fill=\"none\" stroke=\"rgba(0,0,0,0.9)\" stroke-width=\"8\" filter=\"url(#scifi-shadow-459d0a5a)\"></path><!-- Outer dark edge (3D depth) --><path d=\"M 18 0 L 382 0 L 400 18 L 400 82 L 382 100 L 18 100 L 0 82 L 0 18 Z\" fill=\"none\" stroke=\"rgba(20,20,20,1)\" stroke-width=\"2\"></path><!-- Main colored frame border (thick, with glow) --><path d=\"M 22 4 L 378 4 L 396 22 L 396 78 L 378 96 L 22 96 L 4 78 L 4 58 L 8 58 L 8 42 L 4 42 L 4 22 Z\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"5\" filter=\"url(#scifi-glow-459d0a5a)\"></path><!-- 3D bevel highlight on top/left edges --><path d=\"M 22 4 L 378 4 L 396 22\" fill=\"none\" stroke=\"url(#scifi-gradLight-459d0a5a)\" stroke-width=\"2\" opacity=\"0.7\"></path><path d=\"M 22 4 L 4 22 L 4 42\" fill=\"none\" stroke=\"url(#scifi-gradLight-459d0a5a)\" stroke-width=\"2\" opacity=\"0.5\"></path><!-- 3D bevel shadow on bottom/right edges --><path d=\"M 378 96 L 22 96 L 4 78\" fill=\"none\" stroke=\"rgba(0,0,0,0.6)\" stroke-width=\"2\"></path><path d=\"M 396 78 L 396 22\" fill=\"none\" stroke=\"rgba(0,0,0,0.4)\" stroke-width=\"2\"></path><!-- Inner recessed dark area --><path d=\"M 30 12 L 370 12 L 388 30 L 388 70 L 370 88 L 30 88 L 12 70 L 12 56 L 16 56 L 16 44 L 12 44 L 12 30 Z\" fill=\"none\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"3\"></path><!-- Inner highlight border --><path d=\"M 36 18 L 364 18 L 382 36 L 382 64 L 364 82 L 36 82 L 18 64 L 18 36 Z\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"1.5\" opacity=\"0.6\"></path><!-- Left side notch details --><rect x=\"0\" y=\"40\" width=\"6\" height=\"20\" fill=\"none\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"1\"></rect><line x1=\"6\" y1=\"42\" x2=\"6\" y2=\"58\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"1\" opacity=\"0.8\"></line><!-- Right side accent notch --><rect x=\"394\" y=\"35\" width=\"6\" height=\"30\" fill=\"none\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"1\"></rect><line x1=\"394\" y1=\"37\" x2=\"394\" y2=\"63\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"1\" opacity=\"0.6\"></line><!-- Corner accent details - top left --><path d=\"M 8 26 L 20 14\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"2\" opacity=\"0.8\"></path><path d=\"M 26 8 L 14 20\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"1\" opacity=\"0.5\"></path><!-- Corner accent details - top right --><path d=\"M 392 26 L 380 14\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"2\" opacity=\"0.8\"></path><path d=\"M 374 8 L 386 20\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"1\" opacity=\"0.5\"></path><!-- Corner accent details - bottom left --><path d=\"M 8 74 L 20 86\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"2\" opacity=\"0.8\"></path><path d=\"M 26 92 L 14 80\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"1\" opacity=\"0.5\"></path><!-- Corner accent details - bottom right --><path d=\"M 392 74 L 380 86\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"2\" opacity=\"0.8\"></path><path d=\"M 374 92 L 386 80\" fill=\"none\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"1\" opacity=\"0.5\"></path><!-- Top edge diagonal stripes /// on left side --><g opacity=\"0.9\"><line x1=\"42\" y1=\"0\" x2=\"52\" y2=\"10\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"3\"></line><line x1=\"54\" y1=\"0\" x2=\"64\" y2=\"10\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"3\"></line><line x1=\"66\" y1=\"0\" x2=\"76\" y2=\"10\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"3\"></line></g><!-- Top edge diagonal stripes /// on right side --><g opacity=\"0.9\"><line x1=\"324\" y1=\"0\" x2=\"334\" y2=\"10\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"3\"></line><line x1=\"336\" y1=\"0\" x2=\"346\" y2=\"10\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"3\"></line><line x1=\"348\" y1=\"0\" x2=\"358\" y2=\"10\" stroke=\"url(#scifi-grad-459d0a5a)\" stroke-width=\"3\"></line></g><!-- Bottom edge diagonal stripes /// on left side --><g opacity=\"0.7\"><line x1=\"42\" y1=\"100\" x2=\"52\" y2=\"90\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"3\"></line><line x1=\"54\" y1=\"100\" x2=\"64\" y2=\"90\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"3\"></line><line x1=\"66\" y1=\"100\" x2=\"76\" y2=\"90\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"3\"></line></g><!-- Bottom edge diagonal stripes /// on right side --><g opacity=\"0.7\"><line x1=\"324\" y1=\"100\" x2=\"334\" y2=\"90\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"3\"></line><line x1=\"336\" y1=\"100\" x2=\"346\" y2=\"90\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"3\"></line><line x1=\"348\" y1=\"100\" x2=\"358\" y2=\"90\" stroke=\"url(#scifi-gradDark-459d0a5a)\" stroke-width=\"3\"></line></g></svg></a>",
+        "randomSeasonals": [
+            {
+                "date": "4 Jun",
+                "challenges": "Lepus",
+                "suite": "Civicordium",
+                "market": "Scruuge",
+                "npcs": "Harvest",
+                "missions": "Harvest"
+            },
+            {
+                "date": "5 Jun",
+                "supporter": "Civicordium",
+                "planetEvents": "Chuhn",
+                "terminal": "Harvest",
+                "npcs": "Scruuge",
+                "missions": "Chuhn"
+            },
+            {
+                "date": "6 Jun",
+                "supporter": "Genoform",
+                "planetEvents": "Harvest",
+                "terminal": "Lepus",
+                "missions": "Genoform",
+                "challenges": "Civicordium"
+            },
+            {
+                "date": "7 Jun",
+                "missions": "Harvest",
+                "scan": "Genoform",
+                "planetEvents": "Genoform",
+                "npcs": "Lepus",
+                "dailyReward": "Lepus"
+            },
+            {
+                "date": "8 Jun",
+                "scan": "Bane",
+                "market": "Civicordium",
+                "commonArtis": "Q-Pedd",
+                "zone": "Harvest",
+                "npcs": "Harvest"
+            },
+            {
+                "date": "9 Jun",
+                "missions": "Civicordium",
+                "npcs": "Bane",
+                "suite": "Bane",
+                "zone": "Harvest",
+                "dailyReward": "Scruuge"
+            },
+            {
+                "date": "10 Jun",
+                "suite": "Genoform",
+                "scan": "Harvest",
+                "challenges": "Q-Pedd",
+                "zone": "Harvest",
+                "missions": "Genoform"
+            },
+            {
+                "date": "11 Jun",
+                "market": "Bane",
+                "zone": "Genoform",
+                "suite": "Civicordium",
+                "missions": "Lepus",
+                "npcs": "Lepus"
+            },
+            {
+                "date": "12 Jun",
+                "npcs": "Bane",
+                "zone": "Genoform",
+                "missions": "Chuhn",
+                "planetEvents": "Harvest",
+                "terminal": "Harvest"
+            }
+        ],
+        "additionalEffectDescription": "Various features from other Seasonal Events will randomly appear (and disappear) each day.",
+        "artifactMarket": [
+            {
+                "name": "Hyperprism Chamber Upgrade",
+                "cost": "16"
+            },
+            {
+                "name": "Jeweled Sentinel",
+                "cost": "22"
+            },
+            {
+                "name": "Crystalline Weaver",
+                "cost": "88"
+            }
+        ],
+        "prismodyneMarket": [
+            {
+                "name": "Spectral Conclave",
+                "cost": "11",
+                "mp": "5,500"
+            }
+        ],
+        "end": "30 Jun 2026",
+        "lore": "An unusual cosmic phenomenon causes light across the galaxy to refract and bend across time, revealing fragments of reality from the past and future. Spacefaring civilizations everywhere celebrate the convergence as a tribute to the galaxy's shared diversity.",
+        "newMissions": [
+            "Spectral Origins"
+        ],
+        "npcs": [
+            "Crystalline Colossus"
+        ],
+        "supporterBonus": {
+            "add": [
+                "Jeweler's Villa"
+            ]
+        },
+        "newMedals": [
+            "Crystalline Gardens",
+            "Opulent Fixation",
+            "Iridescent Diversity",
+            "Sundered Lattice",
+            "Chamber's Apex",
+            "Spectral Facets",
+            "Shimmering Castles",
+            "Jeweled Observations",
+            "Isolated Iridescence",
+            "Converging Journeys"
+        ],
+        "scanDiscoveries": [
+            "Spectral Fragment"
+        ],
+        "petitionerSuite": [
+            "Faceted Mandate"
+        ],
+        "start": "4 Jun 2026",
+        "playerAbilities": [
+            {
+                "name": "Mission Purgers",
+                "hidden": "Yes",
+                "restrictions": [
+                    {
+                        "type": "Race",
+                        "races": [
+                            "Bahreen",
+                            "Litheor",
+                            "Biologist"
+                        ]
+                    }
+                ],
+                "playerEffects": [
+                    {
+                        "type": "Grants",
+                        "artifact": "Star Chart Purger"
+                    }
+                ],
+                "triggers": [
+                    {
+                        "type": "Complete Daily Mission"
+                    }
+                ]
+            }
+        ],
+        "ctl": [
+            {
+                "name": "Spectral Conglomerate",
+                "energy": "2,200",
+                "other": [
+                    {
+                        "artifact": "Spectral Fragment",
+                        "count": "7"
+                    },
+                    {
+                        "artifact": "Ancient Crystal Foci",
+                        "count": "888"
+                    },
+                    {
+                        "resource": "Studies",
+                        "amount": "42"
+                    }
+                ]
+            },
+            {
+                "name": "Crownspire, Spectral Palace",
+                "energy": "5,500",
+                "other": [
+                    {
+                        "artifact": "Pyric Prism"
+                    },
+                    {
+                        "artifact": "Heliac Prism"
+                    },
+                    {
+                        "artifact": "Viridian Prism"
+                    },
+                    {
+                        "artifact": "Rhodic Prism"
+                    },
+                    {
+                        "material": "CTP",
+                        "amount": "3,333"
+                    },
+                    {
+                        "resource": "Studies",
+                        "amount": "333"
+                    }
+                ]
+            },
+            {
+                "name": "Sharveil, Spectral Citadel",
+                "energy": "5,500",
+                "other": [
+                    {
+                        "artifact": "Pyric Prism"
+                    },
+                    {
+                        "artifact": "Azure Prism"
+                    },
+                    {
+                        "artifact": "Twilight Prism"
+                    },
+                    {
+                        "artifact": "Rhodic Prism"
+                    },
+                    {
+                        "material": "CTP",
+                        "amount": "3,333"
+                    },
+                    {
+                        "resource": "Studies",
+                        "amount": "333"
+                    }
+                ]
+            },
+            {
+                "name": "Glimmerhold, Spectral Castle",
+                "energy": "5,500",
+                "other": [
+                    {
+                        "artifact": "Heliac Prism"
+                    },
+                    {
+                        "artifact": "Viridian Prism"
+                    },
+                    {
+                        "artifact": "Azure Prism"
+                    },
+                    {
+                        "artifact": "Twilight Prism"
+                    },
+                    {
+                        "material": "CTP",
+                        "amount": "3,333"
+                    },
+                    {
+                        "resource": "Studies",
+                        "amount": "333"
+                    }
+                ]
+            }
+        ]
     }
 ]

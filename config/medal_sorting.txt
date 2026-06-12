@@ -482,6 +482,26 @@ Domain:Genoform
 		Biospheric Isolation
 		Fecund Solitude
 		
+Domain:Spectral Convergence
+
+	Section:GP
+		Chamber's Apex
+		Jeweled Observation
+		Opulent Fixation
+		
+	Section:Invade
+		Sundered Lattice
+	
+	Section:Random Effects
+		Iridescent Diversity
+		
+	Section:Other
+		Converging Journeys
+		Crystalline Gardens
+		Isolated Iridescence
+		Shimmering Castles
+		Spectral Facets
+		
 Domain:Elios
 		
 	Section:Cyclopean Lens / Warp Ring

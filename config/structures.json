@@ -1811,7 +1811,7 @@
         "c": 300
     },
     {
-        "name": "Raix Refinery (Specialized)",
+        "name": "Raix Refinery (Upgraded)",
         "base": "Raix Refinery",
         "size": 1,
         "limit": 1,
@@ -1833,7 +1833,7 @@
         "c": 400
     },
     {
-        "name": "Raix Refinery II (Specialized)",
+        "name": "Raix Refinery II (Upgraded)",
         "base": "Raix Refinery",
         "size": 1,
         "limit": 1,
@@ -4272,7 +4272,7 @@
     },
     {
         "name": "Galaxy Interrogators",
-        "base": "Galaxy Overseers",
+        "base": "Government Official",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -4912,6 +4912,15 @@
         "extract": false,
         "ap": 3,
         "ip": 1
+    },
+    {
+        "name": "Hyperprism Chamber",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 6,
+        "ip": 2
     },
     {
         "name": "Court of Oracles",
@@ -5933,7 +5942,106 @@
         "extract": false,
         "mp": 3,
         "ap": 1,
-        "c": 666
+        "c": 666,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Bane Dark-Kiln v2"
+                }
+            ],
+            "cost": {
+                "aeon": "2"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Bane"
+                    ],
+                    "min": "6"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Bane Dark-Kiln v2",
+        "base": "Bane Dark-Kiln",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 2,
+        "c": 666,
+        "bc": 14,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Bane Dark-Kiln v3"
+                }
+            ],
+            "cost": {
+                "aeon": "2"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Bane"
+                    ],
+                    "min": "8"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Bane Dark-Kiln v3",
+        "base": "Bane Dark-Kiln",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 2,
+        "c": 666,
+        "bc": 28,
+        "ability": {
+            "name": "Upgrade",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Bane Dark-Kiln v4"
+                }
+            ],
+            "cost": {
+                "aeon": "2"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Bane"
+                    ],
+                    "min": "10"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Bane Dark-Kiln v4",
+        "base": "Bane Dark-Kiln",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "ap": 3,
+        "c": 666,
+        "bc": 42
     },
     {
         "name": "HyperNexus Power Shunt",
@@ -9825,7 +9933,29 @@
         "extract": false,
         "rp": 1,
         "ip": 1,
-        "bc": 11
+        "bc": 11,
+        "ability": {
+            "message": "You successfully perform the upgrades.",
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Citadel to v2<br>Adds +1 Research +111 Influence Storage +11% Cloak<br>Planet must have at least 4 distinct structures that provide 2+ influence.<br>Costs 4 Evolution Genes",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Antigrav Citadel v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "statType": "ip",
+                    "statMin": "2",
+                    "min": "4"
+                }
+            ],
+            "cost": {
+                "genes": "4"
+            }
+        }
     },
     {
         "name": "Antigrav Citadel v2",
@@ -9837,7 +9967,29 @@
         "rp": 2,
         "ip": 1,
         "ips": 111,
-        "bc": 22
+        "bc": 22,
+        "ability": {
+            "message": "",
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Citadel to v3<br>Adds +2 Research +1 Influence<br>Planet must have at least 6 distinct structures that provide 2+ influence.<br>Costs 8 Evolution Genes",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Antigrav Citadel v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "statType": "ip",
+                    "statMin": "2",
+                    "min": "6"
+                }
+            ],
+            "cost": {
+                "genes": "8"
+            }
+        }
     },
     {
         "name": "Antigrav Citadel v3",
@@ -10215,5 +10367,313 @@
         "brp": 4,
         "ip": 1,
         "bip": 4
+    },
+    {
+        "name": "Jeweled Labyrinth",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 3,
+        "bmp": 2,
+        "ap": 3,
+        "bap": 2,
+        "brp": 2,
+        "ip": 1,
+        "bip": 2,
+        "bd": 33
+    },
+    {
+        "name": "Jeweler's Villa",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 3,
+        "ap": 1
+    },
+    {
+        "name": "Prismatrix Silo",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 4400,
+        "ap": 1
+    },
+    {
+        "name": "Prismatrix Library",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rps": 4400
+    },
+    {
+        "name": "Prismatrix Reliquary",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "aps": 3100
+    },
+    {
+        "name": "Prismatrix Chamber",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "ips": 170
+    },
+    {
+        "name": "Spectral Conclave",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 4,
+        "ap": 3,
+        "bap": 4,
+        "brp": 4,
+        "ip": 1,
+        "bip": 4,
+        "bc": 11
+    },
+    {
+        "name": "Azure Prism",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "ip": 1,
+        "bd": 33
+    },
+    {
+        "name": "Heliac Prism",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "rp": 2,
+        "es": 33
+    },
+    {
+        "name": "Pyric Prism",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1
+    },
+    {
+        "name": "Rhodic Prism",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ip": 1,
+        "bip": 3
+    },
+    {
+        "name": "Twilight Prism",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "bc": 11
+    },
+    {
+        "name": "Viridian Prism",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 1,
+        "ip": 1,
+        "bp": 20
+    },
+    {
+        "name": "Crownspire, Spectral Palace",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "bmp": 3,
+        "ap": 3,
+        "bap": 3,
+        "rp": 3,
+        "brp": 3,
+        "ip": 2,
+        "bip": 3,
+        "bp": 25,
+        "es": 33
+    },
+    {
+        "name": "Shardveil, Spectral Citadel",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 3,
+        "ap": 3,
+        "bap": 3,
+        "rp": 5,
+        "brp": 3,
+        "ip": 2,
+        "bip": 3,
+        "bd": 33,
+        "bc": 13
+    },
+    {
+        "name": "Glimmerhold, Spectral Castle",
+        "size": 3,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 3,
+        "mps": 3000,
+        "ap": 4,
+        "bap": 3,
+        "aps": 3000,
+        "rp": 3,
+        "brp": 3,
+        "rps": 3000,
+        "ip": 2,
+        "bip": 3,
+        "ips": 300
+    },
+    {
+        "name": "Jeweled Sentinel",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 4,
+        "ap": 1,
+        "bap": 1,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Sentinel to V2<br>Adds +1 Artifact +1% Artifact<br>Planet must have at least 4 <u>other</u> Crystal / Prism / Spectral / Jewel Structures.<br>Costs 5500 Energy",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Jeweled Sentinel v2",
+                    "message": "You successfully perform the upgrades."
+                }
+            ],
+            "cost": {
+                "energy": "5,500"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "filters": [
+                        "Crystal",
+                        "Prism",
+                        "Spectral",
+                        "Jewel"
+                    ],
+                    "min": "4"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Jeweled Sentinel v2",
+        "base": "Jeweled Sentinel",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 4,
+        "ap": 2,
+        "bap": 2,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Sentinel to V3<br>Adds +404 Cloak +1% Mining<br>Planet must have at least 6 <u>other</u> Crystal / Prism / Spectral / Jewel Structures.<br>Costs 8800 Energy",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Jeweled Sentinel v3",
+                    "message": "You successfully perform the upgrades."
+                }
+            ],
+            "cost": {
+                "energy": "8,800"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "filters": [
+                        "Crystal",
+                        "Prism",
+                        "Spectral",
+                        "Jewel"
+                    ],
+                    "min": "6"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Crystalline Portal",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "rp": 3,
+        "bp": 22
+    },
+    {
+        "name": "Jeweled Sentinel v3",
+        "base": "Jeweled Sentinel",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 5,
+        "ap": 2,
+        "bap": 2,
+        "c": 404,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Sentinel to V4<br>Adds +1 Artifact +1 Mining +1% Mining<br>Planet must have at least 8 <u>other</u> Crystal / Prism / Spectral / Jewel Structures.<br>Costs 15000 Energy",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Jeweled Sentinel v4",
+                    "message": ""
+                }
+            ],
+            "cost": {
+                "energy": "15,000"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "filters": [
+                        "Crystal",
+                        "Prism",
+                        "Spectral",
+                        "Jewel"
+                    ],
+                    "min": "8"
+                }
+            ]
+        }
     }
 ]

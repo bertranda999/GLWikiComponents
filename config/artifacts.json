@@ -905,7 +905,8 @@
         ],
         "tags": [
             "Civicordium"
-        ]
+        ],
+        "message": "An Antigrav Citadel has been constructed above the planet."
     },
     {
         "name": "Antimatter Drill",
@@ -4351,14 +4352,15 @@
         ],
         "target": "Your Planet",
         "cost": {
-            "Energy": "3.3k"
+            "Energy": "3,300"
         },
         "img": "chuhntab1.png",
         "desc": "<i>Charters a unique Political area on Desert or Barren worlds</i><br>Increases the planet's influence by 4, and influence production by 10%.<br>Can only be used on Average (or smaller) planets,<br>without any existing influence availability",
         "planetEffects": [
             {
                 "type": "Increase Influence Availability",
-                "value": "4"
+                "value": "4",
+                "message": "You have successfully used the effect on the planet."
             },
             {
                 "type": "Increase Influence",
@@ -4835,7 +4837,25 @@
                 "max": "Small"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "desc": "[ Planet Structure - Size:2, Influence:3 ]<br>Constructs a Court of Oracles on your planet.<br>Planet must be 'Small' size or smaller.<br>Limit 1 per planet.",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "220"
+        },
+        "img": "council2.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structre",
+                "structure": "Court of Oracles"
+            }
+        ],
+        "message": "A Court of Oracles has been constructed on the planet."
     },
     {
         "name": "Covert BlackWatch",
@@ -4987,7 +5007,8 @@
             {
                 "type": "Increase Hull",
                 "value": "30%",
-                "duration": "4 hours"
+                "duration": "4 hours",
+                "message": "You adapt the Force-Locks with your ship's hull."
             }
         ],
         "cmImmune": "Yes",
@@ -5210,6 +5231,25 @@
             "min": "8",
             "max": "17"
         }
+    },
+    {
+        "name": "Crystalline Weaver",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "0"
+        },
+        "desc": "[ Limited Artifact - Spectral Convergence ]<br>[ Weapon - Size:65, Attack:1500, Attack:+2% ]<br>Includes 2 Activated Abilities:<br>Fragment Forge: Creates 2-10 Spectral Fragments<br>Fragment Scatter: Boosts production on a planet +4% for 6 days (Double % on Crystal planets, Uses 3 Fragments)<br>Shared 40-hour cooldown.<br>Limit 2 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Crystalline Weaver",
+                "message": "The Crystalline Weaver has been installed on your ship."
+            }
+        ],
+        "buttonText": "Use",
+        "target": "Player",
+        "img": "crystalcannon1.webp"
     },
     {
         "name": "Cuniculus Systems Upgrade XII",
@@ -5601,6 +5641,28 @@
         ],
         "target": "Enemy Ship",
         "img": "darkvoidfoci.png"
+    },
+    {
+        "name": "Dark Warp Coil",
+        "tags": [
+            "Dark Smugglers"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "19",
+            "max": "38"
+        },
+        "desc": "[ Special Module - Size:20, Energy:30, Hull:125 ]<br>Installs a Dark Warp Coil on your ship.<br>Limit 4 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Dark Warp Coil",
+                "message": "A Dark Warp Coil has been installed on your ship."
+            }
+        ],
+        "buttonText": "Build",
+        "img": "wtube.png",
+        "target": "Player"
     },
     {
         "name": "Darkcharged Bane Emitter",
@@ -7526,6 +7588,25 @@
         }
     },
     {
+        "name": "F.A.T.H.E.R.",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "buttonText": "Build",
+        "img": "father-relay2.png",
+        "desc": "[ Energy Relay - Size:5, Charge Rate:5 ]<br>Installs a Fusion Amplified Tensile High Energy Relay on your ship.<br>Limit 2 per ship. Can be installed even if 4 other relays are online.",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "F.A.T.H.E.R.",
+                "message": "F.A.T.H.E.R. has been installed on your ship."
+            }
+        ]
+    },
+    {
         "name": "Farselle Paravault",
         "target": "Your Planet",
         "desc": "[ Planet Structure - Size:1, Artifact:+2% ]<br>Also increases Mining/Artifact/Research capacities by 200 units.<br>Can only be built on planets with an existing Adumbrate structure.<br>Limit 1.",
@@ -9257,6 +9338,32 @@
         ]
     },
     {
+        "name": "Hyperprism Chamber Upgrade",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        },
+        "tags": [
+            "Spectral"
+        ],
+        "desc": "[ Limited Item - Spectral ]<br>Upgrades a Council Chamber on your planet to a Hyperprism Chamber, boosting Artifact +3, Influence by +1, and Cloak by 202.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "777"
+        },
+        "img": "scouncil1.webp",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Council Chamber",
+                "new": "Hyperprism Chamber",
+                "message": "An existing Council Chamber has been upgraded."
+            }
+        ]
+    },
+    {
         "name": "HyperNexus Power Shunt",
         "desc": "[ Limited Item - Thanksgiving ][ Planet Structure - Size: 1, Defense:+20%, Production:+6% ]<br>Can only be built on planets with an existing 'HyperNexus' or 'PulseNexus' upgrade.<br>Limit 1",
         "img": "terran17s.png",
@@ -9536,6 +9643,65 @@
         "buttonText": "Build"
     },
     {
+        "name": "Jeweled Labyrinth",
+        "tags": [
+            "Spectral"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "13",
+            "max": "26"
+        },
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "8,888",
+            "influence": "11,000"
+        },
+        "desc": "[ Planet Structure - Size:2, Mining:3, Artifact:3, Influence:1, Defense:+33% ]<br>Also provides a 2% Production bonus.<br>Can only be built on Crystal planets.<br>Limit 1 per planet",
+        "img": "crystalmaze1.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Jeweled Labyrinth"
+            }
+        ]
+    },
+    {
+        "name": "Jeweler's Villa",
+        "tags": [
+            "Spectral"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "target": "Your Planet",
+        "img": "crystalvilla1.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "888"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Mining:1 ]<br>Also boosts the planet's mining production by 3%.<br>Can only be built on Crystal, Metallic, or Shattered planets.<br>Limit 1 per planet",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Metallic",
+                    "Shattered"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Jeweler's Villa"
+            }
+        ]
+    },
+    {
         "name": "Kaen Hoard",
         "target": "Player",
         "scrap": {
@@ -9595,6 +9761,17 @@
             "energy": "2,800",
             "influence": "4,200"
         }
+    },
+    {
+        "name": "Kalvium Deposit",
+        "target": "Mission",
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "img": "kalvium.png",
+        "desc": "A glowing collection of Kalvium ore. Someone must be looking for this..."
     },
     {
         "name": "Kelethor's Schematics",
@@ -9952,7 +10129,8 @@
         },
         "playerEffects": [
             {
-                "type": "Start Daily Challenge"
+                "type": "Start Daily Challenge",
+                "message": "The Sigil begins to glow..."
             }
         ],
         "img": "sigilciv2.png"
@@ -9980,6 +10158,20 @@
                 "type": "Grants",
                 "artifact": "Enumeration Crystal"
             }
+        ]
+    },
+    {
+        "name": "Lazuli Cargo Manifest",
+        "scrap": {
+            "type": "cr",
+            "min": "30,000",
+            "max": "120,000"
+        },
+        "target": "Mission",
+        "desc": "A lengthy list of parts and supplies. Someone must be looking for this...",
+        "img": "lmanifest.png",
+        "tags": [
+            "Lazuli"
         ]
     },
     {
@@ -10567,7 +10759,24 @@
                 "max": "R"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "buttonText": "Build",
+        "cost": {
+            "energy": "1,200"
+        },
+        "desc": "[ Planet Structure - Size:2, Research:4, Artifact:4, Influence:2 ]<br>Also increases Research storage by 1001, and Influence storage by 101.<br>Can only be placed planets with a resource no greater than Rich.<br>Limit 1",
+        "playerEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Library of Celestial Registry",
+                "message": "The Library has been constructed on the planet."
+            }
+        ]
     },
     {
         "name": "Litheor Core-Tunnel",
@@ -10949,7 +11158,9 @@
         "restrictions": [
             {
                 "type": "Type",
-                "types": "Icy"
+                "types": [
+                    "Icy"
+                ]
             }
         ]
     },
@@ -11680,6 +11891,28 @@
         ]
     },
     {
+        "name": "Octafari Deflector",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        },
+        "desc": "[ Special Module - Size:12, Defense:25, Shield:40 ]<br>Installs an Octafari Deflector on your ship.<br>Limit 4 per ship.",
+        "buttonText": "Build",
+        "img": "oct-def.png",
+        "tags": [
+            "Octafari"
+        ],
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Octafari Deflector",
+                "message": "An Octafari Deflector has been installed on your ship."
+            }
+        ]
+    },
+    {
         "name": "Octafari Holo-Disguise",
         "playerEffects": [
             {
@@ -11732,7 +11965,9 @@
         "restrictions": [
             {
                 "type": "Type",
-                "types": "Barren"
+                "types": [
+                    "Barren"
+                ]
             }
         ]
     },
@@ -12287,6 +12522,28 @@
         }
     },
     {
+        "name": "Phase Interceptor Drive",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "19",
+            "max": "38"
+        },
+        "tags": [
+            "Lazuli"
+        ],
+        "desc": "[ Special Module - Size:15, Defense:30, Cloak:30 ]<br>Installs a Phase Interceptor Drive on your ship.<br>Limit 4 per ship.",
+        "img": "lidrive.png",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Phase Interceptor Drive",
+                "message": "A Phase Interceptor Drive has been installed on your ship."
+            }
+        ]
+    },
+    {
         "name": "Phase-Conductor Channels",
         "restrictions": [
             {
@@ -12748,6 +13005,39 @@
         "img": "prejgrav12.png",
         "buttonText": "Build",
         "target": "Player"
+    },
+    {
+        "name": "Prismatrix Vault",
+        "tags": [
+            "Spectral"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "13",
+            "max": "26"
+        },
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "desc": "[ Planet Structure - Size:1, Artifact:1 ]<br>Choose a Storage type/amount when building this structure.<br>Limit 1 per planet",
+        "img": "crystalvault1.webp",
+        "planetEffectsChoice": [
+            {
+                "type": "Construct Structure",
+                "structure": "Prismatrix Silo"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Prismatrix Library"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Prismatrix Reliquary"
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Prismatrix Chamber"
+            }
+        ]
     },
     {
         "name": "Prismodyne Gene Splicer",
@@ -13405,12 +13695,47 @@
         "planetEffects": [
             {
                 "type": "Construct Structure",
-                "structure": "Raix Bunker"
+                "structure": "Raix Bunker",
+                "message": "The Raix Bunker has been constructed on the planet."
             }
         ],
         "tags": [
             "Raix"
         ]
+    },
+    {
+        "name": "Raix Refinery",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "tags": [
+            "Raix"
+        ],
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Mining:2, Cloak:300 ]<br>If built on a planet that already has a Raix Bunker constructed,<br>this structure gains +1 artifact. Limit 1 per planet.",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Raix Refinery (Upgraded)",
+                "conditions": [
+                    {
+                        "type": "Existing Structures",
+                        "structures": [
+                            "Raix Bunker"
+                        ]
+                    }
+                ],
+                "message": "The Raix Refinery has been constructed on the planet."
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Raix Refinery",
+                "message": "The Raix Refinery has been constructed on the planet."
+            }
+        ],
+        "buttonText": "Build",
+        "target": "Your Planet"
     },
     {
         "name": "Raix-Radiated Plating",
@@ -13553,6 +13878,37 @@
         "img": "mprocessor.png",
         "buttonText": "Build",
         "target": "Your Planet"
+    },
+    {
+        "name": "Refracted Projection",
+        "target": "Your Planet",
+        "tags": [
+            "Spectral"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5,555",
+            "influence": "18,000"
+        },
+        "img": "rprojection1.png",
+        "desc": "[ Limited Item - Spectral Convergence ]<br>Permanently increases the target planet size by 2%.<br>Can only be used on Crystal Planets of Large size or smaller",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal"
+                ]
+            },
+            {
+                "type": "Size",
+                "max": "Large"
+            }
+        ]
     },
     {
         "name": "Relay Tower",
@@ -14121,6 +14477,58 @@
         "target": "Your Planet"
     },
     {
+        "name": "Spectral Conclave",
+        "tags": [
+            "Spectral"
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "buttonText": "Build",
+        "cost": {
+            "energy": "8,888",
+            "influence": "11,000"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:3, Influence:1, Cloak: +11% ]<br>Also provides a 4% production bonus<br>Can only be built on Crystal or Psionic planets<br>with a Government Official present.<br>Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Spectral Conclave"
+            }
+        ],
+        "img": "spectralemb1.webp",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Psionic",
+                    "Crystal"
+                ]
+            },
+            {
+                "type": "Existing Structures",
+                "structureBase": "Government Official"
+            }
+        ]
+    },
+    {
+        "name": "Spectral Fragment",
+        "target": "None",
+        "tags": [
+            "Spectral"
+        ],
+        "desc": "<i>A crystalline shard found among high-energy readings. The fragments seem to be attracted to each other...</i>",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "img": "cfragment1.png"
+    },
+    {
         "name": "Star Chart Purger",
         "scrap": {
             "type": "cr",
@@ -14165,6 +14573,28 @@
         "target": "Your Planet",
         "tags": [
             "Lepus"
+        ]
+    },
+    {
+        "name": "Stryll Confinement Chamber",
+        "tags": [
+            "Stryll"
+        ],
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        },
+        "img": "stryllchamber.png",
+        "buttonText": "Build",
+        "desc": "[ Special Module - Size:10, Hull:50, Cloak:20 ]<br>Installs a Stryll Confinement Chamber on your ship. (limit 4 per ship)",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Stryll Confinement Chamber",
+                "message": "A Stryll Confinement Chamber has been installed on your ship."
+            }
         ]
     },
     {
@@ -14442,7 +14872,8 @@
             }
         ],
         "img": "toharvestvault4.png",
-        "buttonText": "Build"
+        "buttonText": "Build",
+        "target": "Your Planet"
     },
     {
         "name": "T.O. Seed Lab",
@@ -14472,6 +14903,7 @@
     },
     {
         "name": "T5 Analysis Data",
+        "target": "Your Planet",
         "scrap": {
             "type": "cr",
             "min": "16,000",
@@ -14524,6 +14956,28 @@
         "cost": {
             "Energy": "550"
         }
+    },
+    {
+        "name": "Taltherian Archives",
+        "target": "Your Planet",
+        "tags": [
+            "Taltherian"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "14"
+        },
+        "desc": "[ Planet Structure - Size:1, Research:1, Research Capacity + 1000 ]<br>Constructs Taltherian Archives on your planet (limit 2 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Taltherian Archives",
+                "message": "The Taltherian Archives have been constructed on the planet."
+            }
+        ],
+        "img": "tarchive.png",
+        "buttonText": "Build"
     },
     {
         "name": "Taltherian Def-Opt",
@@ -14605,6 +15059,23 @@
                 "max": "Large"
             }
         ]
+    },
+    {
+        "name": "Tarlis Codes",
+        "scrap": {
+            "type": "cr",
+            "min": "30,000",
+            "max": "120,000"
+        },
+        "desc": "Disables all shields on most Terran Outsider ships.",
+        "target": "Enemy Ship",
+        "enemyShipEffects": [
+            {
+                "type": "Reduce T.O. Shields"
+            }
+        ],
+        "img": "todisc.png",
+        "buttonText": "Use"
     },
     {
         "name": "Tejiar Ally HQ",
@@ -14925,6 +15396,76 @@
         ]
     },
     {
+        "name": "Trade Outpost Intelligence",
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "desc": "Increases the planet's artifact, research, and mining<br>production by 4%. Can be used once per planet.",
+        "planetEffects": [
+            {
+                "type": "Increase Production",
+                "value": "4%",
+                "message": "The planet's production has been enhanced."
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "200"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Trader's Boon",
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "target": "Your Planet",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "25"
+        },
+        "desc": "increases a planet's artifact, research, OR mineral<br>availability (at random) by 1. Will only increase<br>resources on the planet that are at least very sparse,<br>and below 20X Mega Rich.",
+        "planetEffectsRandom": [
+            {
+                "type": "Increase Artifact Availability",
+                "value": "1",
+                "message": "Planetary artifact has been enhanced."
+            },
+            {
+                "type": "Increase Mining Availability",
+                "value": "1",
+                "message": "Planetary mining has been enhanced."
+            },
+            {
+                "type": "Increase Research Availability",
+                "value": "1",
+                "message": "Planetary research has been enhanced."
+            }
+        ],
+        "img": "tradeboon.png",
+        "restrictions": [
+            {
+                "type": "Mining Availability",
+                "min": "Very Sparse",
+                "max": "19x"
+            },
+            {
+                "type": "Research Availability",
+                "min": "Very Sparse",
+                "max": "19x"
+            },
+            {
+                "type": "Artifact Availability",
+                "min": "Very Sparse",
+                "max": "19x"
+            }
+        ]
+    },
+    {
         "name": "Tranquil Monolith",
         "planetEffectsConditional": [
             {
@@ -14980,6 +15521,157 @@
             "Energy": "5.5k",
             "Influence": "5.5k"
         }
+    },
+    {
+        "name": "Trellith Binding Catalyst",
+        "scrap": {
+            "type": "cr",
+            "min": "25,000",
+            "max": "100,000"
+        },
+        "desc": "<i>Allows the Trellith to bind to your physical body</i><br>Unlocks the 'Trellith Influence' ability for your ship.<br>When unlocked, the ability will be available via planet 'Abilities'.",
+        "playerEffects": [
+            {
+                "type": "Unlock Ability",
+                "ability": "Trellith Influence",
+                "message": "You feel a rush of energy as the Trellith Symbiont enters your body."
+            }
+        ],
+        "buttonText": "Initiate",
+        "target": "Player",
+        "img": "tbinder.png",
+        "tags": [
+            "Trellith"
+        ]
+    },
+    {
+        "name": "Trellith Comm Relay Upgrade",
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "desc": "Upgrades an existing Relay Tower structure on your planet to a<br>Trellith Comm Relay, doubling its research and artifact bonuses.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Relay Tower",
+                "new": "Trellith Comm Relay",
+                "message": "A Relay Tower has been upgraded to a Trellith Comm Relay."
+            }
+        ],
+        "img": "trrelay.png",
+        "buttonText": "Use",
+        "target": "Your Planet",
+        "tags": [
+            "Trellith"
+        ]
+    },
+    {
+        "name": "Trellith Resequencer",
+        "scrap": {
+            "type": "cr",
+            "min": "22,500",
+            "max": "90,000"
+        },
+        "desc": "Permanently increases the mining, research, OR artifact<br>(your choice) availability on a planet by 1, up to a maximum<br>of 20x Mega Rich.",
+        "planetEffectsChoice": [
+            {
+                "type": "Increase Artifact Availability",
+                "value": "1",
+                "message": "The planet has been enriched."
+            },
+            {
+                "type": "Increase Mining Availability",
+                "value": "1",
+                "message": "The planet has been enriched."
+            },
+            {
+                "type": "Increase Research Availability",
+                "value": "1",
+                "message": "The planet has been enriched."
+            }
+        ],
+        "buttonText": "Use",
+        "img": "humball.gif",
+        "target": "Your Planet",
+        "tags": [
+            "Trellith"
+        ]
+    },
+    {
+        "name": "Trellith Structural Energizer",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "22,500",
+            "max": "90,000"
+        },
+        "desc": "Upgrades any 'standard' structure (built from the planet with materials)<br>and permanently boosts all of its bonuses by 50%, up to a maximum of 100%.<br>The structure also gains immunity to destruction from enemy artifacts and abilities.",
+        "planetEffectsChoice": [
+            {
+                "type": "Improve Researched Structure",
+                "value": "50%",
+                "max": "100%",
+                "message": "A planet structure is ready for an upgrade...",
+                "message2": "[Structure] has been upgraded."
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "50"
+        },
+        "img": "trellithmnf.png",
+        "tags": [
+            "Trellith"
+        ]
+    },
+    {
+        "name": "Tri-Phase Upgrade",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "desc": "Upgrades an existing Phase Cutter structure on your planet to a Tri-Phase Cutter,<br>tripling all of its bonuses.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Phase Cutter",
+                "new": "Tri-Phase Cutter",
+                "message": "A Phase Cutter has been upgraded to a Tri-Phase Cutter."
+            }
+        ],
+        "buttonText": "Use",
+        "img": "pturret2.png"
+    },
+    {
+        "name": "Triaxial Array",
+        "target": "Player",
+        "desc": "[ Device - Size:12, Defense:25, Cloak:35 ]<br>If your ship has at least 1 'Trinity-Core Drive' already<br>installed on it when this Array is first built,<br>its defense and cloak bonuses are doubled.",
+        "playerEffectsConditional": [
+            {
+                "type": "Install Module",
+                "module": "Triaxial Array - Mark II",
+                "conditions": [
+                    {
+                        "type": "Installed Modules",
+                        "modules": [
+                            "Trinity-Core Drive"
+                        ]
+                    }
+                ],
+                "message": "A Triaxial Array has been installed on your ship."
+            },
+            {
+                "type": "Install Module",
+                "module": "Triaxial Array",
+                "message": "A Triaxial Array has been installed on your ship."
+            }
+        ],
+        "buttonText": "Build",
+        "img": "bioscloak.png"
     },
     {
         "name": "Tribute of the Ancients XII",
@@ -15132,6 +15824,43 @@
         ]
     },
     {
+        "name": "Trinity-Core Drive",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "13"
+        },
+        "desc": "[ Special Defense - Size:9, Defense:50 ]<br>Installs a Trinity-Core Drive on your ship.<br>Also provides a 8% boost to your ship's defense<br>while it is under attack. (Limit 2 per ship)",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Trinity-Core Drive",
+                "message": "A Trinity-Core Drive has been installed on your ship."
+            }
+        ],
+        "img": "trthrust.png",
+        "buttonText": "Build"
+    },
+    {
+        "name": "Trovar Zane, Elite Tracer",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "12"
+        },
+        "desc": "[ Ship Ally - Type: Tracer]<br>Initial Stats: Energy: 60, Shields: 160<br>(Upgrades when Alerting recently scanned planets)",
+        "playerEffects": [
+            {
+                "type": "Install Ally",
+                "ally": "Trovar Zane, Elite Tracer"
+            }
+        ],
+        "buttonText": "Hire",
+        "img": "alarriax9.png"
+    },
+    {
         "name": "Uldri Anomaly Crystal",
         "target": "Your Planet",
         "scrap": {
@@ -15249,6 +15978,119 @@
                 "message": "The Uldri Spacial Marker has been constructed on the planet."
             }
         ]
+    },
+    {
+        "name": "Uldri Wave Ejector",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        },
+        "desc": "[ Weapon - Size:20, Attack:30, Energy:30, Cloak:20 ]<br>If this device is already installed on your ship,. this will instead upgrade its stats by 50%,. up to 500% max. Unlocks an ability when fully upgraded.",
+        "img": "uwaver.png",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Uldri Wave Ejector",
+                "value": "50%",
+                "max": "500%",
+                "message": "The Uldri Wave Ejector has been installed on your ship.",
+                "message2": "The Uldri Wave Ejector has been upgraded"
+            }
+        ]
+    },
+    {
+        "name": "Uldrinan Henxicant",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "desc": "[ Device - Size:30, Scan:50, Shields:100, Hull:130 ]<br>If this device is already installed on your ship,. this will instead upgrade its stats by 30%,. up to 300%. When fully upgraded, it provides a 2% scanning bonus.",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Uldrinan Henxicant",
+                "value": "30%",
+                "max": "300%",
+                "message": "The Uldrinan Henxicant has been installed on your ship.",
+                "message2": "The Uldrinan Henxicant has been upgraded"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "500"
+        },
+        "img": "uldmi1.png"
+    },
+    {
+        "name": "Uldrinan Onxicant",
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "15"
+        },
+        "desc": "[ Device - Size:20, Scan:30, Cloak:40, Hull:120 ]<br>If this device is already installed on your ship,<br> this will instead upgrade its stats by 50%,<br> up to 500% max. When fully upgraded,<br> it will unlock an ability.",
+        "playerEffects": [
+            {
+                "type": "Install or Upgrade Module",
+                "module": "Udrinan Onxicant",
+                "value": "50%",
+                "max": "500%",
+                "message": "The Uldrinan Onxicant has been installed on your ship.",
+                "message2": "The Uldrinan Onxicant has been upgraded"
+            }
+        ],
+        "img": "onxicant.gif",
+        "buttonText": "Build",
+        "target": "Player"
+    },
+    {
+        "name": "Uldrinan Route Expansion",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "10,000",
+            "max": "40,000"
+        },
+        "desc": "Permanently unlocks new Items in your Uldrinan Trade Market.",
+        "playerEffects": [
+            {
+                "type": "Unlock Market Items",
+                "market": "Uldrinan",
+                "message": "You reveal the trade route expansion...",
+                "items": [
+                    {
+                        "name": "Uldri Spacial Marker (Market)",
+                        "cost": "4",
+                        "mp": "2,900"
+                    },
+                    {
+                        "name": "Uldri Anomaly Crystal (Market)",
+                        "cost": "4",
+                        "mp": "2,900"
+                    },
+                    {
+                        "name": "Uldri Prism Haven",
+                        "cost": "11",
+                        "mp": "3,300"
+                    },
+                    {
+                        "name": "Uldri Slip-Distortion Field",
+                        "cost": "19",
+                        "mp": "4,800"
+                    }
+                ]
+            }
+        ],
+        "img": "uldritrade1.png",
+        "buttonText": "Open",
+        "cost": {
+            "energy": "4,444"
+        }
     },
     {
         "name": "Undulok Biomarkers",
@@ -15405,6 +16247,31 @@
         "target": "Your Planet"
     },
     {
+        "name": "Voliir Modulator",
+        "target": "Player",
+        "buttonText": "Build",
+        "img": "volscan5.png",
+        "desc": "[ Device - Size:10, Energy:15, Scan:40 ]<br>If your ship has at least 1 'F.A.T.H.E.R.' module already<br>installed on it when this Modulator is first built,<br>its scan and energy bonuses are doubled",
+        "playerEffectsConditional": [
+            {
+                "type": "Install Module",
+                "module": "Voliir Modulator - Mark II",
+                "conditions": [
+                    {
+                        "type": "Existing Module",
+                        "module": "F.A.T.H.E.R."
+                    }
+                ],
+                "message": "A Voliir Modulator has been installed on your ship."
+            },
+            {
+                "type": "Install Module",
+                "module": "Voliir Modulator",
+                "message": "A Voliir Modulator has been installed on your ship."
+            }
+        ]
+    },
+    {
         "name": "Vorigar Scan Data",
         "desc": "Reveals the location of an unoccupied planet in the Vorigar Expanse.",
         "img": "vodata.png",
@@ -15517,6 +16384,53 @@
         ]
     },
     {
+        "name": "Xecti Ensconcing Field",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "tags": [
+            "Xecti"
+        ],
+        "buttonText": "Use",
+        "img": "xecticloak.gif",
+        "desc": "<i>Creates a permanent field around the planet to adapt against foreign signals</i><br>Increases the planet's passive cloaking and defense by 80.<br>If used on a planet that has not been scanned<br>by any other ship, this bonus is doubled.",
+        "planetEffectsConditional": [
+            {
+                "type": "Increase Passive Defense",
+                "value": "160",
+                "conditions": [
+                    {
+                        "type": "Other Scanners",
+                        "max": "0"
+                    }
+                ],
+                "message": "The planet fades into the darkness of space...(passive cloak and defense increased by 160)"
+            },
+            {
+                "type": "Increase Passive Cloak",
+                "value": "160",
+                "conditions": [
+                    {
+                        "type": "Other Scanners",
+                        "max": "0"
+                    }
+                ]
+            },
+            {
+                "type": "Increase Passive Defense",
+                "value": "80",
+                "message": "The planet fades into the darkness of space...<br>(passive cloak and defense increased by 80)"
+            },
+            {
+                "type": "Increase Passive Defense",
+                "value": "80"
+            }
+        ]
+    },
+    {
         "name": "Xecti Truce Pact",
         "target": "Player",
         "desc": "Signs a permanent pact with the Xecti.<br>Unlocks the ability to choose Xecti whenever picking a new Race.<br>Xecti ships and planets receive a 40% boost to<br>attack and defense when under attack or invasion.",
@@ -15584,5 +16498,410 @@
         "tags": [
             "RSL"
         ]
+    },
+    {
+        "name": "Prismatrix Vault",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Crystalline Portal",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Vethin Bomb",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "42,500",
+            "max": "170,000"
+        },
+        "buttonText": "Detonate",
+        "img": "morph-bomb1.png",
+        "cost": {
+            "energy": "55,000"
+        },
+        "desc": "Destroys up to 5 'Inhibitor' structures on a planet at random<br>that you have recently scanned (1 week), owned by a player<br>NOT active within the last year, and has been flagged black.<br>Has NO effect on planets not meeting these conditions.",
+        "planetEffects": [
+            {
+                "type": "Destroy Inhibitors",
+                "message": "[Player] has used a Vethin Bomb, attempting to destroy an Inhibitor structure..."
+            }
+        ],
+        "requiresConfirmation": "Yes"
+    },
+    {
+        "name": "Spectral Conglomerate",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "100,000",
+            "max": "400,000"
+        },
+        "desc": "<i>A tight grouping of Spectral Fragments, fused together.</i>Transforms into a random crystalline prism",
+        "buttonText": "Transform",
+        "cost": {
+            "energy": "888"
+        },
+        "img": "crystalform1.png",
+        "message": "The Conglomerate Transforms into: [Artifact]",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Pyric Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Heliac Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Viridian Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Rhodic Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Azure Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Twilight Prism"
+            }
+        ]
+    },
+    {
+        "name": "Azure Prism",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Influence:1 ]<br>Boosts planetary defense by 33%<br>Can only be built on Crystal, Gas, Icy, or Oceanic planets.<br>When built, this also counts as a 'Chuhn' and 'Civicordium' structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Gas",
+                    "Icy",
+                    "Oceanic"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Azure Prism"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "888",
+            "influence": "8,000",
+            "genes": "8"
+        },
+        "img": "icrystal1.webp"
+    },
+    {
+        "name": "Heliac Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222"
+        },
+        "img": "ocrystal1.webp",
+        "desc": "[ Planet Structure - Size:1, Research:2, Mining:2 ]<br>Can only be built on Crystal, Desert, Shattered, or Chthonian planets.<br>Increases energy cost to attack planet by 33%.<br>When built, this also counts as an 'Elios' planet structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Desert",
+                    "Shattered",
+                    "Chthonian"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Heliac Prism",
+                "message": "The Heliac Prism has been constructed on the planet."
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
+        "name": "Pyric Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "888"
+        },
+        "img": "rcrystal1.webp",
+        "tags": [
+            "Spectral"
+        ],
+        "desc": "Can only be built on Crystal, Metallic, Volcanic, or Demon planets.<br>When built, this also counts as a 'Bane' or 'Scruuge' structure.<br>Limit 1 Prism per planet",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Metallic",
+                    "Volcanic",
+                    "Demon"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structre",
+                "structure": "Pyric Prism"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
+        "name": "Rhodic Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "1,111",
+            "influence": "15,000",
+            "genes": "18"
+        },
+        "img": "pcrystal1.webp",
+        "desc": "[ Planet Structure - Size:1, Influence:1 ]<br>Boosts Influence production by 3%<br>Can only be built on Crystal, Machine, Sentient, or Psionic planets.<br>When built, this also counts as a 'Q-Pedd' structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Machine",
+                    "Sentient",
+                    "Psionic"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structre",
+                "structure": "Rhodic Prism"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
+        "name": "Twilight Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "11,111"
+        },
+        "img": "prcrystal1.webp",
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Research:3 ]<br>Boosts planetary cloak by 11%<br>Can only be built on Crystal, Aphotic, Void, or Exotic planets.<br>When built, this also counts as a 'Lepus' planet structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Aphotic",
+                    "Void",
+                    "Exotic"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structre",
+                "structure": "Twilight Prism"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
+        "name": "Viridian Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "888",
+            "influence": "8,000",
+            "genes": "8"
+        },
+        "img": "gcrystal1.webp",
+        "desc": "[ Planet Structure - Size:1, Research:1, Influence:1 ]<br>Boosts planetary population by 20%<br>Can only be built on Crystal, Terra, Gaia, or Relic planets.<br>When built, this also counts as a 'Genoform' planet structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Terra",
+                    "Gaia",
+                    "Relic"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structre",
+                "structure": "Viridian Prism"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
+        "name": "Jeweled Sentinel",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        },
+        "tags": [
+            "Spectral"
+        ],
+        "buttonText": "Build",
+        "img": "csentry2.webp",
+        "desc": "[ Limited Item - Spectral ]<br>[ Planet Structure - Size:0, Artifact:1, Mining:+4%, Artifact:+1% ]<br>Planet must have 2+ distinct Crystal, Prism, Spectral, or Jewel Structures to build.<br>Can be upgraded with 4+ other structures<br>Limit 1 per planet",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "filters": [
+                    "Crystal",
+                    "Prism",
+                    "Spectral",
+                    "Jewel"
+                ],
+                "min": "2"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structre",
+                "structure": "Jeweled Sentinel",
+                "message": "A Jeweled Sentinel has been deployed above the planet."
+            }
+        ]
+    },
+    {
+        "name": "Spectral Crystallizer",
+        "tags": [
+            "Spectral"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "80,000",
+            "max": "320,000"
+        },
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1,111"
+        },
+        "desc": "Transforms a planet into a crystal world, enhancing its influence by 1.<br>Can only be used on Desert or Barren planets, of average size or smaller",
+        "planetEffects": [
+            {
+                "type": "Change Type",
+                "newType": "Crystal"
+            },
+            {
+                "type": "Increase Influence Availability",
+                "value": "1"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Desert",
+                    "Barren"
+                ]
+            },
+            {
+                "type": "Size",
+                "max": "Average"
+            }
+        ],
+        "message": "The planet glows with an intense heat...",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Magnetosphere Charger",
+        "scrap": {
+            "type": "cr",
+            "min": "75,000",
+            "max": "300,000"
+        },
+        "target": "Your Planet",
+        "img": "orbmag2.gif",
+        "buttonText": "Use",
+        "restrictions": [
+            {
+                "type": "Passive Cloak",
+                "max": "3,500"
+            },
+            {
+                "type": "Passive Attack",
+                "max": "3,500"
+            },
+            {
+                "type": "Passive Defense",
+                "max": "3,500"
+            }
+        ],
+        "planetEffectsChoice": [
+            {
+                "type": "Increase Passive Cloak",
+                "value": "10% + 50",
+                "message": "The planet surges with intense energy..."
+            },
+            {
+                "type": "Increase Passive Defense",
+                "value": "10% + 50"
+            },
+            {
+                "type": "Increase Passive Attack",
+                "value": "10% + 50"
+            }
+        ],
+        "desc": "Permanently increases a passive ability on the planet<br>(of your choice) by 10% + 50, up to a max of 3500.<br>Choices are: cloak, attack, or defense."
     }
 ]

@@ -1333,7 +1333,8 @@ validTargets = [
     "Mission",
     "Planet",
     "Player",
-    "Your Planet"
+    "Your Planet",
+    "None"
 ]
 artifactTable = {}
 

@@ -59,6 +59,7 @@ Dark Supercollider
 Dark Supercollider (Upgraded)
 Library of Celestial Registry
 Council Chamber
+Hyperprism Chamber
 Court of Oracles
 Streveldan Convocation Nexus
 Supel Interphase Portal
@@ -177,3 +178,11 @@ Dark Phage Entity
 Drannik Holo-Sanctum
 Exotic Miners Guildhall
 Portal of Legacies
+Jeweled Labyrinth
+Spectral Conclave
+Azure Prism
+Rhodic Prism
+Viridian Prism
+Crownspire, Spectral Palace
+Shardveil, Spectral Citadel
+Glimmerhold, Spectral Castle

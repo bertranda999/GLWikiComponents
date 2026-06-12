@@ -1,3 +1,6 @@
+Jeweled Sentinel v3: 100000
+Jeweled Sentinel v2: 100000
+Jeweled Sentinel: 100000
 Elios Soletta v4: 100000
 Elios Soletta v3: 100000
 Elios Soletta v2: 100000
@@ -43,6 +46,9 @@ Scruuge Toll-Station v4: 100000
 Scruuge Toll-Station v3: 100000
 Scruuge Toll-Station v2: 100000
 Scruuge Toll-Station: 100000
+Bane Dark-Kiln v4: 100000
+Bane Dark-Kiln v3: 100000
+Bane Dark-Kiln v2: 100000
 Bane Dark-Kiln: 100000
 Galaxy Celestials: 100000
 Galaxy Surrogates: 100000
@@ -86,6 +92,7 @@ Dark Supercollider (Upgraded): 9.0
 HyperNexus Power Shunt: 9.0
 Auric Lepus Clone-Program Tank: 9.0
 ArcRift Tower: 9.0
+Spectral Conclave: 9.0
 Scruuge Hoarding Vault V: 8.517543859649123
 Cognizant Omniforge: 8.5
 Chuhn InterMarket Caster v4: 8.5
@@ -107,6 +114,7 @@ Scruuge Hoarding Vault III: 6.763157894736842
 B'elna's Altar (Upgraded): 6.5
 Aurelios Star-Plant II: 6.5
 Perpetual HyperTurbine III: 6.5
+Prismatrix Reliquary: 6.43859649122807
 Monolith of Miracles v4: 6.25
 Raix Stasis Hold III: 6.2105263157894735
 Vault of Gaia: 6.140350877192983
@@ -115,6 +123,7 @@ Litheor Transmutative Locator (3): 6.0
 Bane Nether-Seal (6): 6.0
 Scruuge Keystone VII: 6.0
 Dark Supercollider: 6.0
+Hyperprism Chamber: 6.0
 Lepus Drone 16.0: 6.0
 Auric Lepus Drone 13.0: 6.0
 Auric Lepus Drone 14.0: 6.0
@@ -150,6 +159,7 @@ Verdant Estate v3: 5.0
 Thavix Geneworks v4: 5.0
 Forum of Realms: 5.0
 Bane Phage Sacrarium v4: 5.0
+Glimmerhold, Spectral Castle: 4.587719298245614
 Corrupted Edifice: 4.508771929824562
 Custodian's Villa: 4.5
 Micro-Raix Cyclotron 3: 4.5
@@ -202,7 +212,7 @@ Bainar A-Node - Prime: 3.0
 Bahreen Duodecix (4): 3.0
 Ancestral Gene-Bank v3: 3.0
 Void-Field Enclave (Tripled): 3.0
-Raix Refinery II (Specialized): 3.0
+Raix Refinery II (Upgraded): 3.0
 NSX Tracking Matrix (3): 3.0
 Hyperluminal Sat-Grid: 3.0
 Elios Solar Drill (Inverter + Heliacal): 3.0
@@ -253,6 +263,7 @@ Thavix Geneworks v3: 3.0
 Civicordium Platform v4: 3.0
 Bane Phage Sacrarium v2: 3.0
 Bane Phage Sacrarium v3: 3.0
+Jeweled Labyrinth: 3.0
 Nova-Stasis Unit: 2.949122807017544
 Font of Vitalis: 2.6666666666666665
 Xiphos Heist Outpost (20,000): 2.531578947368421
@@ -265,6 +276,8 @@ Bane Dark-Infernum (Upgraded): 2.5
 Adumbrate Starport: 2.5
 SubVoid Darkdrone F: 2.5
 Monolith of Miracles v2: 2.5
+Crownspire, Spectral Palace: 2.5
+Shardveil, Spectral Citadel: 2.5
 Sirocco Sandspire: 2.25
 Exo-Rift Membrane Blueprint: 2.0
 Litheor Deep-Phase Probe: 2.0
@@ -303,7 +316,7 @@ Vvarix Flux Conduit (9,000): 2.0
 Alarri Comm Tower - P3: 2.0
 Raix Bunker II: 2.0
 Tejiar Ally HQ II: 2.0
-Raix Refinery (Specialized): 2.0
+Raix Refinery (Upgraded): 2.0
 Raix Refinery II: 2.0
 NSX Tracking Matrix (2): 2.0
 Sub-Tachyonic Axis (Upgraded): 2.0
@@ -617,6 +630,14 @@ Tree of Harmony: 1.0
 Tree of Harmony II: 1.0
 Covert BlackWatch: 1.0
 Drannik Holo-Sanctum: 1.0
+Jeweler's Villa: 1.0
+Prismatrix Silo: 1.0
+Prismatrix Library: 1.0
+Prismatrix Chamber: 1.0
+Azure Prism: 1.0
+Pyric Prism: 1.0
+Twilight Prism: 1.0
+Crystalline Portal: 1.0
 Proto-Matter Synthesizer: 0.8421052631578947
 Bane Nether-Seal (2): 0.75
 Hyperforge Fabricator: 0.6666666666666666
