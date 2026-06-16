@@ -4347,7 +4347,7 @@
     },
     {
         "name": "Galaxy Interrogators",
-        "base": "Government Official",
+        "base": "Galaxy Elitists",
         "size": 0,
         "limit": 8,
         "limited": false,
@@ -10596,6 +10596,7 @@
     },
     {
         "name": "Crownspire, Spectral Palace",
+        "base": "Shardveil, Spectral Citadel",
         "size": 3,
         "limit": 1,
         "limited": false,
@@ -10630,6 +10631,7 @@
     },
     {
         "name": "Glimmerhold, Spectral Castle",
+        "base": "Shardveil, Spectral Citadel",
         "size": 3,
         "limit": 1,
         "limited": false,

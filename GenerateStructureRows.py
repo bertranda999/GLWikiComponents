@@ -1103,8 +1103,9 @@ structures: list[Structure] = [
     Structure("Glimmerhold, Spectral Castle", 3, 1, False, False, mp=3, mpp=3, ap=4, app=3, rp=3, rpp=3, ip=2, ipp=3, ips=300, mps=3000, aps=3000, rps=3000),
     Structure("Jeweled Sentinel", 0, 1, False, False, mpp=4, ap=1, app=1),
     Structure("Jeweled Sentinel", 0, 1, False, False, "v2", mpp=4, ap=2, app=2),
-    Structure("Crystalline Portal", 1, 1, False, False, mp=3, ap=1, rp=3, pp=22),
     Structure("Jeweled Sentinel", 0, 1, False, False, "v3", mpp=5, ap=2, app=2, c=404),
+    Structure("Crystalline Portal", 1, 1, False, False, mp=3, ap=1, rp=3, pp=22),
+    
     ]
 
 def addAbility(structureName, ability):
@@ -1138,6 +1139,13 @@ addAbility("Jeweled Sentinel v2", {"name":"V3 Upgrade","desc":"Upgrades Sentinel
 addAbility("Jeweled Sentinel v3", {"name":"V4 Upgrade","desc":"Upgrades Sentinel to V4<br>Adds +1 Artifact +1 Mining +1% Mining<br>Planet must have at least 8 <u>other</u> Crystal / Prism / Spectral / Jewel Structures.<br>Costs 15000 Energy", "planetEffects":[{"type":"Upgrade","new":"Jeweled Sentinel v4","message":""}],"cost":{"energy":"15,000"},"restrictions":[{"type":"Existing Structures","filters":["Crystal","Prism","Spectral","Jewel"],"min":"8"}]})
 addAbility("Antigrav Citadel", {"message":"You successfully perform the upgrades.","name":"V2 Upgrade", "desc":"Upgrades Citadel to v2<br>Adds +1 Research +111 Influence Storage +11% Cloak<br>Planet must have at least 4 distinct structures that provide 2+ influence.<br>Costs 4 Evolution Genes", "planetEffects":[{"type":"Upgrade","new":"Antigrav Citadel v2"}], "restrictions":[{"type":"Existing Structures","statType":"ip","statMin":"2","min":"4"}],"cost":{"genes":"4"}})
 addAbility("Antigrav Citadel v2", {"message":"","name":"V3 Upgrade", "desc":"Upgrades Citadel to v3<br>Adds +2 Research +1 Influence<br>Planet must have at least 6 distinct structures that provide 2+ influence.<br>Costs 8 Evolution Genes", "planetEffects":[{"type":"Upgrade","new":"Antigrav Citadel v3"}], "restrictions":[{"type":"Existing Structures","statType":"ip","statMin":"2","min":"6"}],"cost":{"genes":"8"}})
+addAbility("Corrupted Portal", {"name":"Phase 2 Upgrade","desc":"Upgrades Portal and Ability to Phase 2.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 4 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal II"}],"cost":{"corruption":"4","energy":"5,555"},"message":"You successfully perform the upgrades."})
+addAbility("Corrupted Portal II", {"name":"Phase 3 Upgrade","desc":"Upgrades Portal and Ability to Phase 3.<br>Adds +1 Mining/Artifact/ +600 artifact storage and +400 cloak.<br>Costs 5 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal III"}],"cost":{"corruption":"5","energy":"5,555"},"message":"You successfully perform the upgrades."})
+addAbility("Corrupted Portal III", {"name":"Phase 4 Upgrade","desc":"Upgrades Portal and Ability to Phase 4.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 6 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal IV"}],"cost":{"corruption":"6","energy":"5,555"},"message":"You successfully perform the upgrades."})
+addAbility("Corrupted Portal IV", {"name":"Phase 5 Upgrade","desc":"Upgrades Portal and Ability to Phase 5.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 7 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal V"}],"cost":{"corruption":"7","energy":"5,555"},"message":"You successfully perform the upgrades."})
+addAbility("Neutron-Lift Processor", {"name":"Neutron-Process","desc":"Gain a random Neutronium-based artifact.<br>Requires 420 Neutronium and 42000 Energy","planetEffectsRandom":[{"type":"Grants","artifact":"Thavix Catalyst"}],"cost":{"energy":"42,000","neutronium":"420"}, "message":"The Neutron-Lift provides:[Artifact]"})
+addAbility("T.O. Genesis Loom", {"name":"Splice Genes","desc":"Generates 3 Evolution Genes for each Terra / Gaia / Aphotic or Oceanic planet<br>you control that has Influence. up to a maximum of 21 per use. Costs 4400 energy","charges":"2","playerEffectsScaled":[{"type":"Grant Genes","scaleType":"Owned Planets","stat":"Influence","statMin":"ES","max":"21"}],"cost":{"energy":"4,400"},"message":"You receive [X] Evolution Genes"})
+addAbility("Crystalline Portal", {"planetEffects":[{"type":"Reset Permanent Ability"}], "charges":"3"})
     
 def generateNotesStr(notes: list[int] = []):
     if len(notes) < 1:
@@ -1262,14 +1270,15 @@ variantStructures = [
 #                 nameNotes: list[int] = [], cloakNotes: list[int] = [], limitNotes: list[int] = [], defenseNotes: list[int] = [], alternatePageName: str = "", formDescription: str = ""):
 
 def setBase(structure):
-    if structure['name'] in ["Galaxy Interrogators"]:
-        structure['base'] = "Government Official"
-    elif structure['name'] in ["Spire of Civicordium Dominion", "Spire of Edenic Dominion", "Spire of High Dominion", "Spire of Scruuge Dominion", "Spire of Cybernetic Dominion", "Spire of Supel Dominion"]:
+    if structure['name'] in ["Spire of Civicordium Dominion", "Spire of Edenic Dominion", "Spire of High Dominion", "Spire of Scruuge Dominion", "Spire of Cybernetic Dominion", "Spire of Supel Dominion"]:
         structure['base'] = "Spire of Dominion"
     elif structure['name'] in ["Galaxy Inquisitors", "Galaxy Technocrats", "Galaxy Overseers", "Galaxy Interrogators", "Galaxy Pedants", "Galaxy Administrators", "Galaxy Aristocrats", "Galaxy Surrogates", "Galaxy Celestials"]:
         structure['base'] = "Galaxy Elitists"
     elif 'Sparkmatter' in structure['name']:
         structure['base'] = "Triangulum Sparkmatter"
+    elif structure['name'] in ["Glimmerhold, Spectral Castle", "Crownspire, Spectral Palace"]:
+        structure['base'] = "Shardveil, Spectral Citadel"
+
 
 for structure in structures:
     structureJson = {}

@@ -38,7 +38,6 @@ Domain:General
 		Branches of Adaptation
 		
 	Section:Convene Council
-		Council of Seven
 		Council of Unity
 		
 	Section:Corruption
@@ -216,6 +215,7 @@ Domain:General
 		Civic Engagement
 		Civic Alignment
 		Civic Authority
+		Civic Consensus
 		Voting Bloc
 
 	Section:Other GP
@@ -445,8 +445,8 @@ Domain:Civicordium
 
 	Section:Other
 		Council of Seven
-		Diplomatic Claim
 		Political Potential
+		Distributed Delegation
 		
 Domain:Genoform
 

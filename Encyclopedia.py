@@ -572,6 +572,9 @@ async def writeMedals():
             found = False
             for medal in medals:
                 if medal['name'] == line:
+                    for sortedMedal in sortedMedals:
+                        if sortedMedal['name'] == medal['name']:
+                            print(f"Duplicate sorted medal: {medal['name']}")
                     sortedMedals.append(medal)
                     tablesHtml += generateMedalRow(medal)
                     found = True
@@ -600,6 +603,15 @@ async def writeMedals():
             tablesHtml += "</table>"
 
     if sortedMedals.__len__() != medals.__len__():
+        for medal in medals:
+            found = False
+            for sortedMedal in sortedMedals:
+                if sortedMedal['name'] == medal['name']:
+                    found = True
+            if not found:
+                print(f"Medal not in sorted list: {medal['name']}")
+        if sortedMedals.__len__() > medals.__len__():
+            print("Duplicates in sorted medal list")
         print("Missing medals from sort")
 
     html += tocHtml + "</span>"
