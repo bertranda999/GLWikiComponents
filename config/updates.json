@@ -1830,5 +1830,10 @@
         "date": "8 Jun 2026",
         "type": "Tweak",
         "desc": "Fixed an issue where the main game menu bar would become permanently unresponsive, requiring a page refresh to resolve."
+    },
+    {
+        "date": "12 Jun 2026",
+        "type": "Initiative",
+        "desc": "Darmos Galactic Host - Winner: Pract Quadrant: Increases production by 2% for races in the Pract Quadrant"
     }
 ]

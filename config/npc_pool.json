@@ -3,5 +3,10 @@
         "name": "Crimson Flamehawk",
         "minRank": "",
         "maxRank": ""
+    },
+    {
+        "name": "Crystalline Colossus",
+        "minRank": "300",
+        "maxRank": "40000"
     }
 ]

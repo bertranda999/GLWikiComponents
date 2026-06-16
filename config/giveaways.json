@@ -26,5 +26,13 @@
         "reward": "Aeon Ballot",
         "desc": "The Civicordium has convened its latest summit. It is time to Vote.",
         "date": "12 Apr 2026"
+    },
+    {
+        "name": "",
+        "date": "14 Jun 2026",
+        "img": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-6/724598298_1009020128163802_6664986061340382319_n.jpg?stp=dst-jpg_tt6&cstp=mx1235x1174&ctp=s1235x1174&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fZJxOxNQFacQ7kNvwFgme-g&_nc_oc=Adpcz1blOZkxFfmppqHOGl6jRDvD0zvd5rIfkTz8WFs26oV-lNrQ6MIK4QwtsHPUHdrOG1qTWCLDtEDzhk-Hmmfo&_nc_zt=23&_nc_ht=scontent-mia5-1.xx&_nc_gid=USi2I6-tTrnum6UqLCzOjA&_nc_ss=7f2a8&oh=00_Af_l6nTqVAFVAjCpFn6hwXal0PeLXMthdwAQf3Z77EQrUw&oe=6A34F034",
+        "reward": "Spectral Conglomerate",
+        "count": "2",
+        "desc": "Celebrate the varying chaos and diversity of the Spectral Convergence"
     }
 ]

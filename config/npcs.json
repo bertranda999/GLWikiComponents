@@ -153,5 +153,81 @@
     {
         "name": "Ergosphere Extractor",
         "shield": "https://static-dev.galaxylegion.com/images/npcs/kronynext-shield.png"
+    },
+    {
+        "name": "Crystalline Colossus",
+        "desc": "Colossi emerge during the Spectral Convergence, drifting silently along interstellar leylines and feeding upon their concentrated energies",
+        "img": "npcs/crystalline1.webp",
+        "shieldImg": "crystalline1-shield.png",
+        "shield": "150,000",
+        "hull": "100,000",
+        "faction": "Space Entity",
+        "rank": "500",
+        "class": "Seeker",
+        "rarity": "Extremely Rare",
+        "attackCost": "15",
+        "type": "Elite 3",
+        "abilities": [
+            {
+                "name": "Phase Inversion",
+                "desc": "Will sometimes phase-invert hostile fire, repairing its shields and hull instead of taking damage.",
+                "enemyShipEffects": [
+                    {
+                        "type": "Repair"
+                    }
+                ]
+            },
+            {
+                "name": "Crystalloid Mind",
+                "desc": "Immune to Improved Mind Influence",
+                "enemyShipEffects": [
+                    {
+                        "type": "IMI Immune"
+                    }
+                ]
+            }
+        ],
+        "attack": "40,000",
+        "defense": "21,000",
+        "cloak": "1,200",
+        "rewards": [
+            {
+                "artifact": "Prismatrix Vault",
+                "xp": "42"
+            },
+            {
+                "artifact": "Spectral Fragments",
+                "count": "8",
+                "xp": "42"
+            }
+        ]
+    },
+    {
+        "name": "Drannik Relic-Pod",
+        "desc": "Drannik Emperor Deroh Clave once built these drones to gather items of interest for their Great Library on Drann. After the Extinction, they were never properly recalled, and continue to roam aimlessly... defending themselves.",
+        "faction": "The Drannik Automatons",
+        "class": "Drone",
+        "rank": "Matched",
+        "img": "npcs/drannikpod2.png",
+        "shieldImg": "npcs/drannikpod2-shield.png",
+        "attackCost": "25",
+        "rarity": "Special",
+        "type": "Matched",
+        "statExamples": [
+            {
+                "rank": "3454",
+                "shields": "174,600",
+                "hull": "58,200",
+                "attack": "1,139,750",
+                "defense": "341,890"
+            }
+        ],
+        "duration": "1 hour",
+        "reward": [
+            {
+                "artifact": "Drannik Holo-Sanctum",
+                "xp": "333"
+            }
+        ]
     }
 ]

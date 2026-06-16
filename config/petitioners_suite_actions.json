@@ -74,5 +74,44 @@
 				"type": "Reset Council Timer"
 			}
 		]
+	},
+	{
+		"name": "Distributed Consensus",
+		"cost": {
+			"ctp": "850",
+			"influence": "22,000"
+		},
+		"desc": "Calls for unity and efficiency between factional and planetary leadership. Increases cargo storage by 11% for 20 hours, and triggers a random planetary event",
+		"img": "artifacts/petition-qpedd1.png",
+		"playerEffects": [
+			{
+				"type": "Increase Cargo",
+				"value": "11%",
+				"duration": "20 hours"
+			},
+			{
+				"type": "Start Planetary Event"
+			}
+		]
+	},
+	{
+		"name": "Faceted Mandate",
+		"cost": {
+			"ctp": "1,100",
+			"influence": "25,000"
+		},
+		"desc": "Generates a 'Spectral Conglomerate' artifact when activated, and decreases ship upkeep by 11% for 30 hours",
+		"img": "artifacts/petition-crystal1.png",
+		"playerEffects": [
+			{
+				"type": "Decrease Upkeep",
+				"value": "11%",
+				"duration": "30 hours"
+			},
+			{
+				"type": "Grants",
+				"artifact": "Spectral Conglomerate"
+			}
+		]
 	}
 ]

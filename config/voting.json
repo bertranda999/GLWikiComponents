@@ -365,7 +365,8 @@
                 "effectDesc": "Increases production by 3% for races in the Drahj Quadrant<br>Bonus Restricted to: Mylarai, Zolazin, Bahreen, Xecti",
                 "name": "Drahj Quadrant"
             }
-        ]
+        ],
+        "winner": "Pract Quadrant"
     },
     {
         "name": "Alarri Forgeworks Improvements",

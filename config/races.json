@@ -390,7 +390,16 @@
             "nuldrinan5.png"
         ],
         "ability": {
-            "name": "Uldrinan Quota"
+            "name": "Uldrinan Quota",
+            "desc": "Issues you a Salary of 2 Uldri Trade Credits.",
+            "cooldown": "20 hours",
+            "img": "artifacts/uldricreds.png",
+            "playerEffects": [
+                {
+                    "type": "Grants Uldri Credits",
+                    "value": "2"
+                }
+            ]
         },
         "bonus": "Uldrinan Quota (provides special currency for items)",
         "lore": "The Uldrinan hold unique territory ideal for trade and technology.",

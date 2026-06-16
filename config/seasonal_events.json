@@ -930,6 +930,38 @@
                 "missions": "Chuhn",
                 "planetEvents": "Harvest",
                 "terminal": "Harvest"
+            },
+            {
+                "date": "13 Jun",
+                "council": "Civicordium",
+                "zone": "Genoform",
+                "missions": "Harvest",
+                "suite": "Harvest",
+                "market": "Scruuge"
+            },
+            {
+                "date": "14 Jun",
+                "missions": "Civicordium",
+                "suite": "Q-Pedd",
+                "dailyReward": "Q-Pedd",
+                "zone": "Scruuge",
+                "npcs": "Scruuge"
+            },
+            {
+                "date": "15 Jun",
+                "scan": "Bane",
+                "market": "Civicordium",
+                "npcs": "Chuhn",
+                "zone": "Scruuge",
+                "terminal": "Chuhn"
+            },
+            {
+                "date": "16 Jun",
+                "missions": "Q-Pedd",
+                "terminal": "Genoform",
+                "suite": "Civicordium",
+                "zone": "Scruuge",
+                "market": "Lepus"
             }
         ],
         "additionalEffectDescription": "Various features from other Seasonal Events will randomly appear (and disappear) each day.",

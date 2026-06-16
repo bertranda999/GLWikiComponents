@@ -2476,7 +2476,22 @@
         "limited": true,
         "extract": false,
         "mp": 6,
-        "mps": 4200
+        "mps": 4200,
+        "ability": {
+            "name": "Neutron-Process",
+            "desc": "Gain a random Neutronium-based artifact.<br>Requires 420 Neutronium and 42000 Energy",
+            "planetEffectsRandom": [
+                {
+                    "type": "Grants",
+                    "artifact": "Thavix Catalyst"
+                }
+            ],
+            "cost": {
+                "energy": "42,000",
+                "neutronium": "420"
+            },
+            "message": "The Neutron-Lift provides:[Artifact]"
+        }
     },
     {
         "name": "Hyperluminal Satellite",
@@ -4128,7 +4143,22 @@
         "mp": 3,
         "ap": 2,
         "aps": 600,
-        "c": 400
+        "c": 400,
+        "ability": {
+            "name": "Phase 2 Upgrade",
+            "desc": "Upgrades Portal and Ability to Phase 2.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 4 Corruption / 5555 Energy / and 1 Charge.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Corrupted Portal II"
+                }
+            ],
+            "cost": {
+                "corruption": "4",
+                "energy": "5,555"
+            },
+            "message": "You successfully perform the upgrades."
+        }
     },
     {
         "name": "Corrupted Portal II",
@@ -4140,7 +4170,22 @@
         "mp": 4,
         "ap": 3,
         "aps": 1200,
-        "c": 800
+        "c": 800,
+        "ability": {
+            "name": "Phase 3 Upgrade",
+            "desc": "Upgrades Portal and Ability to Phase 3.<br>Adds +1 Mining/Artifact/ +600 artifact storage and +400 cloak.<br>Costs 5 Corruption / 5555 Energy / and 1 Charge.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Corrupted Portal III"
+                }
+            ],
+            "cost": {
+                "corruption": "5",
+                "energy": "5,555"
+            },
+            "message": "You successfully perform the upgrades."
+        }
     },
     {
         "name": "Corrupted Portal III",
@@ -4152,7 +4197,22 @@
         "mp": 5,
         "ap": 4,
         "aps": 1800,
-        "c": 1200
+        "c": 1200,
+        "ability": {
+            "name": "Phase 4 Upgrade",
+            "desc": "Upgrades Portal and Ability to Phase 4.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 6 Corruption / 5555 Energy / and 1 Charge.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Corrupted Portal IV"
+                }
+            ],
+            "cost": {
+                "corruption": "6",
+                "energy": "5,555"
+            },
+            "message": "You successfully perform the upgrades."
+        }
     },
     {
         "name": "Corrupted Portal IV",
@@ -4164,7 +4224,22 @@
         "mp": 6,
         "ap": 5,
         "aps": 2400,
-        "c": 1600
+        "c": 1600,
+        "ability": {
+            "name": "Phase 5 Upgrade",
+            "desc": "Upgrades Portal and Ability to Phase 5.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 7 Corruption / 5555 Energy / and 1 Charge.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Corrupted Portal V"
+                }
+            ],
+            "cost": {
+                "corruption": "7",
+                "energy": "5,555"
+            },
+            "message": "You successfully perform the upgrades."
+        }
     },
     {
         "name": "Corrupted Portal V",
@@ -9147,7 +9222,25 @@
         "ap": 2,
         "rp": 4,
         "bp": 33,
-        "c": 411
+        "c": 411,
+        "ability": {
+            "name": "Splice Genes",
+            "desc": "Generates 3 Evolution Genes for each Terra / Gaia / Aphotic or Oceanic planet<br>you control that has Influence. up to a maximum of 21 per use. Costs 4400 energy",
+            "charges": "2",
+            "playerEffectsScaled": [
+                {
+                    "type": "Grant Genes",
+                    "scaleType": "Owned Planets",
+                    "stat": "Influence",
+                    "statMin": "ES",
+                    "max": "21"
+                }
+            ],
+            "cost": {
+                "energy": "4,400"
+            },
+            "message": "You receive [X] Evolution Genes"
+        }
     },
     {
         "name": "T.O. Colony Ark",
@@ -10628,17 +10721,6 @@
         }
     },
     {
-        "name": "Crystalline Portal",
-        "size": 1,
-        "limit": 1,
-        "limited": false,
-        "extract": false,
-        "mp": 3,
-        "ap": 1,
-        "rp": 3,
-        "bp": 22
-    },
-    {
         "name": "Jeweled Sentinel v3",
         "base": "Jeweled Sentinel",
         "size": 0,
@@ -10674,6 +10756,25 @@
                     "min": "8"
                 }
             ]
+        }
+    },
+    {
+        "name": "Crystalline Portal",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "rp": 3,
+        "bp": 22,
+        "ability": {
+            "planetEffects": [
+                {
+                    "type": "Reset Permanent Ability"
+                }
+            ],
+            "charges": "3"
         }
     }
 ]

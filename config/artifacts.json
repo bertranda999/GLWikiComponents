@@ -77,6 +77,54 @@
         ]
     },
     {
+        "name": "Acceleration Protocols",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "142,500",
+            "max": "570,000"
+        },
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "img": "cytab.png",
+        "desc": "Permanently upgrades a 'Quantum Accelerator' on<br>your planet, and increases its bonuses by 50%,<br>up to a maximum of a 100% upgrade.",
+        "planetEffectsRandom": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Quantum Accelerator (A)",
+                "new": "Quantum Accelerator (A) 50%"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Quantum Accelerator (A) 50%",
+                "new": "Quantum Accelerator (A) 100%"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Quantum Accelerator (M)",
+                "new": "Quantum Accelerator (M) 50%"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Quantum Accelerator (M) 50%",
+                "new": "Quantum Accelerator (M) 100%"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Quantum Accelerator (R)",
+                "new": "Quantum Accelerator (R) 50%"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Quantum Accelerator (R) 50%",
+                "new": "Quantum Accelerator (R) 100%"
+            }
+        ],
+        "message": "You successfully execute the Acceleration Protocols."
+    },
+    {
         "name": "Accordium Charter",
         "target": "Your Planet",
         "img": "acharter6.png",
@@ -1630,6 +1678,43 @@
         "tags": [
             "Lepus"
         ]
+    },
+    {
+        "name": "Azure Prism",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Influence:1 ]<br>Boosts planetary defense by 33%<br>Can only be built on Crystal, Gas, Icy, or Oceanic planets.<br>When built, this also counts as a 'Chuhn' and 'Civicordium' structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Gas",
+                    "Icy",
+                    "Oceanic"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Azure Prism"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "888",
+            "influence": "8,000",
+            "genes": "8"
+        },
+        "img": "icrystal1.webp"
     },
     {
         "name": "Bahreen Spacial Margin",
@@ -3217,6 +3302,7 @@
         "cost": {
             "Energy": "1.1k"
         },
+        "message": "A Captured T.O. Harvester XVI has been constructed on the planet.",
         "planetEffects": [
             {
                 "type": "Construct Structure",
@@ -3305,7 +3391,8 @@
             "type": "ctp",
             "min": "6",
             "max": "12"
-        }
+        },
+        "message": "The Cerulean Flow Converter has been constructed on the planet."
     },
     {
         "name": "Cerulean Hyperstation",
@@ -4748,6 +4835,31 @@
         }
     },
     {
+        "name": "Corrupted Portal",
+        "tags": [
+            "Corruption"
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "2"
+        },
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222"
+        },
+        "img": "corruptportal1.png",
+        "desc": "[ Planet Structure - Size:1, Mining:3, Artifact:2, Cloak:400 ]<br>Also increases artifact storage by 600<br>Can only be built on planets with a Corrupted Edifice.<br>Can be upgraded with further Corruption.<br>Limit 1",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Corrupted Portal"
+            }
+        ],
+        "message": "The Corrupted Portal has been constructed on the planet."
+    },
+    {
         "name": "Cosmic Base Crate",
         "img": "bsupplies2.png",
         "desc": "<i>The metal feels warm, unyielding, and imbued with a strange force...</i><br>A Cosmic crate, raided from a large, powerful base.<br>Contains a variety of random artifacts.",
@@ -4851,7 +4963,7 @@
         "img": "council2.png",
         "planetEffects": [
             {
-                "type": "Construct Structre",
+                "type": "Construct Structure",
                 "structure": "Court of Oracles"
             }
         ],
@@ -5233,6 +5345,31 @@
         }
     },
     {
+        "name": "Crystalline Portal",
+        "target": "Your Planet",
+        "tags": [
+            "Spectral"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "13",
+            "max": "26"
+        },
+        "buttonText": "Build",
+        "cost": {
+            "energy": "8,888",
+            "influence": "11,000"
+        },
+        "img": "crystalportal1.webp",
+        "desc": "[ Planet Structure - Size:1, Mining:3, Artifact:1, Research:2 ]<br>Boosts population by 22%.<br>Includes ability to reset the cooldown for a permanent planet event's ability (3 charges).<br>Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Crystalline Portal"
+            }
+        ]
+    },
+    {
         "name": "Crystalline Weaver",
         "scrap": {
             "type": "ctp",
@@ -5402,6 +5539,98 @@
         }
     },
     {
+        "name": "Dark Arbalest IX Upgrade",
+        "target": "Player",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "29,500",
+            "max": "118,000"
+        },
+        "buttonText": "Use",
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades a Dark Arbalest IX on your ship to a Dark Arbalest X,<br>increasing its attack by 220, its cloak by 160,<br>and increases its Bane Darkness ability bonus to 50%.",
+        "img": "hbturret12b.gif",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Dark Arbalest IX",
+                "new": "Dark Arbalest X"
+            }
+        ],
+        "message": "Dark Arbalest IX has been upgraded to Dark Arbalest X"
+    },
+    {
+        "name": "Dark Arbalest VIII Upgrade",
+        "target": "Player",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "29,500",
+            "max": "118,000"
+        },
+        "buttonText": "Use",
+        "message": "Dark Arbalest VIII has been upgraded to Dark Arbalest IX",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Dark Arbalest IX",
+                "new": "Dark Arbalest X"
+            }
+        ],
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades a Dark Arbalest VIII on your ship to a Dark Arbalest IX,<br>increasing its attack by 160, its cloak by 140,<br>and increases its Bane Darkness ability bonus to 42%.",
+        "img": "hbturret11.gif"
+    },
+    {
+        "name": "Dark Arbalest X Upgrade",
+        "target": "Player",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "29,500",
+            "max": "118,000"
+        },
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Dark Arbalest IX",
+                "new": "Dark Arbalest X"
+            }
+        ],
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades a Dark Arbalest X on your ship to a Dark Arbalest XI,<br>increasing its attack by 300, its cloak by 200,<br>and increases its Bane Darkness ability bonus to 58%.",
+        "img": "hbturret13.gif",
+        "message": "Dark Arbalest X has been upgraded to Dark Arbalest XI"
+    },
+    {
+        "name": "Dark Arbalest XI Upgrade",
+        "target": "Player",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "29,500",
+            "max": "118,000"
+        },
+        "buttonText": "Use",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Dark Arbalest IX",
+                "new": "Dark Arbalest X"
+            }
+        ],
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades a Dark Arbalest XI on your ship to a Dark Arbalest XII,<br>increasing its attack by 550, its cloak by 300,<br>and increases its Bane Darkness ability bonus to 66%.",
+        "img": "hbturret14.gif",
+        "message": "Dark Arbalest XI has been upgraded to Dark Arbalest XII"
+    },
+    {
         "name": "Dark Eluder Matrix",
         "target": "Player",
         "scrap": {
@@ -5556,6 +5785,43 @@
             "min": "14",
             "max": "29"
         }
+    },
+    {
+        "name": "Dark Supercollider",
+        "target": "Your Planet",
+        "img": "qaccel2.gif",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "5,555"
+        },
+        "desc": "[ Planet Structure - Size:1, Cloak:800 ]<br>Also boosts all resource production by 4%.<br>Can only be placed on planets with a Quantum Accelerator.<br>All stats boosted if 2 maxed upgraded Accelerators exist.<br>Limit 1",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Dark Supercollider (Upgraded)",
+                "conditions": [
+                    {
+                        "type": "Existing Structures",
+                        "structures": [
+                            "Quantum Accelerator (A) 100%",
+                            "Quantum Accelerator (R) 100%",
+                            "Quantum Accelerator (M) 100%"
+                        ],
+                        "min": "2"
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Dark Supercollider"
+            }
+        ],
+        "scrap": {
+            "type": "em",
+            "min": "108",
+            "max": "217"
+        },
+        "message": "The Dark Supercollider has been deployed on the planet."
     },
     {
         "name": "Dark Temple of Woe",
@@ -7441,24 +7707,6 @@
         }
     },
     {
-        "name": "Exotic Pulser",
-        "desc": "[ Special Weapon - Size:5, Attack:30, Energy:-10 ]<br>Installs an Exotic Pulser on your ship.",
-        "target": "Player",
-        "img": "exoticpulse.png",
-        "buttonText": "Build",
-        "playerEffects": [
-            {
-                "type": "Install Module",
-                "module": "Exotic Pulser"
-            }
-        ],
-        "scrap": {
-            "type": "ctp",
-            "min": "10",
-            "max": "20"
-        }
-    },
-    {
         "name": "Exotic Nexal Mesh",
         "desc": "A dense Neutronium energy-mesh, requiring coordinated effort to erect<br>Permanently increases the size of an Exotic planet by 3%.",
         "tags": [
@@ -7489,6 +7737,24 @@
             "type": "cr",
             "min": "12,000",
             "max": "48,000"
+        }
+    },
+    {
+        "name": "Exotic Pulser",
+        "desc": "[ Special Weapon - Size:5, Attack:30, Energy:-10 ]<br>Installs an Exotic Pulser on your ship.",
+        "target": "Player",
+        "img": "exoticpulse.png",
+        "buttonText": "Build",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Exotic Pulser"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "10",
+            "max": "20"
         }
     },
     {
@@ -9052,6 +9318,43 @@
         }
     },
     {
+        "name": "Heliac Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222"
+        },
+        "message": "The Heliac Prism has been constructed on the planet.",
+        "img": "ocrystal1.webp",
+        "desc": "[ Planet Structure - Size:1, Research:2, Mining:2 ]<br>Can only be built on Crystal, Desert, Shattered, or Chthonian planets.<br>Increases energy cost to attack planet by 33%.<br>When built, this also counts as an 'Elios' planet structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Desert",
+                    "Shattered",
+                    "Chthonian"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Heliac Prism",
+                "message": "The Heliac Prism has been constructed on the planet."
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
         "name": "Heliacal Solar Boost",
         "desc": "[ Limited Artifact - Summer ]<br>Upgrades an existing Elios Heliacal Plant<br>on your planet,<br>increasing mining and artifact production by 1,<br>and fully restoring its charges.",
         "img": "elioshcharge.png",
@@ -9338,32 +9641,6 @@
         ]
     },
     {
-        "name": "Hyperprism Chamber Upgrade",
-        "target": "Your Planet",
-        "scrap": {
-            "type": "ctp",
-            "min": "3",
-            "max": "7"
-        },
-        "tags": [
-            "Spectral"
-        ],
-        "desc": "[ Limited Item - Spectral ]<br>Upgrades a Council Chamber on your planet to a Hyperprism Chamber, boosting Artifact +3, Influence by +1, and Cloak by 202.",
-        "buttonText": "Use",
-        "cost": {
-            "energy": "777"
-        },
-        "img": "scouncil1.webp",
-        "planetEffects": [
-            {
-                "type": "Upgrade Structure",
-                "original": "Council Chamber",
-                "new": "Hyperprism Chamber",
-                "message": "An existing Council Chamber has been upgraded."
-            }
-        ]
-    },
-    {
         "name": "HyperNexus Power Shunt",
         "desc": "[ Limited Item - Thanksgiving ][ Planet Structure - Size: 1, Defense:+20%, Production:+6% ]<br>Can only be built on planets with an existing 'HyperNexus' or 'PulseNexus' upgrade.<br>Limit 1",
         "img": "terran17s.png",
@@ -9391,6 +9668,32 @@
         },
         "tags": [
             "Harvest"
+        ]
+    },
+    {
+        "name": "Hyperprism Chamber Upgrade",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        },
+        "tags": [
+            "Spectral"
+        ],
+        "desc": "[ Limited Item - Spectral ]<br>Upgrades a Council Chamber on your planet to a Hyperprism Chamber, boosting Artifact +3, Influence by +1, and Cloak by 202.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "777"
+        },
+        "img": "scouncil1.webp",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Council Chamber",
+                "new": "Hyperprism Chamber",
+                "message": "An existing Council Chamber has been upgraded."
+            }
         ]
     },
     {
@@ -9664,6 +9967,40 @@
             {
                 "type": "Construct Structure",
                 "structure": "Jeweled Labyrinth"
+            }
+        ]
+    },
+    {
+        "name": "Jeweled Sentinel",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        },
+        "tags": [
+            "Spectral"
+        ],
+        "buttonText": "Build",
+        "img": "csentry2.webp",
+        "desc": "[ Limited Item - Spectral ]<br>[ Planet Structure - Size:0, Artifact:1, Mining:+4%, Artifact:+1% ]<br>Planet must have 2+ distinct Crystal, Prism, Spectral, or Jewel Structures to build.<br>Can be upgraded with 4+ other structures<br>Limit 1 per planet",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "filters": [
+                    "Crystal",
+                    "Prism",
+                    "Spectral",
+                    "Jewel"
+                ],
+                "min": "2"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Jeweled Sentinel",
+                "message": "A Jeweled Sentinel has been deployed above the planet."
             }
         ]
     },
@@ -11060,6 +11397,47 @@
         ]
     },
     {
+        "name": "Magnetosphere Charger",
+        "scrap": {
+            "type": "cr",
+            "min": "75,000",
+            "max": "300,000"
+        },
+        "target": "Your Planet",
+        "img": "orbmag2.gif",
+        "buttonText": "Use",
+        "restrictions": [
+            {
+                "type": "Passive Cloak",
+                "max": "3,500"
+            },
+            {
+                "type": "Passive Attack",
+                "max": "3,500"
+            },
+            {
+                "type": "Passive Defense",
+                "max": "3,500"
+            }
+        ],
+        "planetEffectsChoice": [
+            {
+                "type": "Increase Passive Cloak",
+                "value": "10% + 50",
+                "message": "The planet surges with intense energy..."
+            },
+            {
+                "type": "Increase Passive Defense",
+                "value": "10% + 50"
+            },
+            {
+                "type": "Increase Passive Attack",
+                "value": "10% + 50"
+            }
+        ],
+        "desc": "Permanently increases a passive ability on the planet<br>(of your choice) by 10% + 50, up to a max of 3500.<br>Choices are: cloak, attack, or defense."
+    },
+    {
         "name": "Mark of Dawn",
         "desc": "[ Temporary Item - Legion Mission ]<br>Places a Mark of Dawn on an enemy ship.<br>Can only use if you have raided this target in the last 30 minutes,<br>but no more than 4 times in the last 24 hours.<br>Limit 1 per ship",
         "img": "darmprobe1.png",
@@ -11664,7 +12042,8 @@
         "target": "Your Planet",
         "tags": [
             "Neutronium"
-        ]
+        ],
+        "message": "The Neutron-Lift Processor has been deployed on the planet."
     },
     {
         "name": "Neutron-Lift Processor",
@@ -12170,7 +12549,7 @@
         "target": "Your Planet",
         "buttonText": "Build",
         "cost": {
-            "Energy": "1.1k"
+            "Energy": "1,100"
         },
         "restrictions": [
             {
@@ -12188,7 +12567,8 @@
             "type": "ctp",
             "min": "22",
             "max": "46"
-        }
+        },
+        "message": "An OmniVote Terminal has been constructed on the planet."
     },
     {
         "name": "Orbisbarrier HyperNexus Upgrade",
@@ -13204,6 +13584,41 @@
         ]
     },
     {
+        "name": "Pyric Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "888"
+        },
+        "img": "rcrystal1.webp",
+        "tags": [
+            "Spectral"
+        ],
+        "desc": "Can only be built on Crystal, Metallic, Volcanic, or Demon planets.<br>When built, this also counts as a 'Bane' or 'Scruuge' structure.<br>Limit 1 Prism per planet",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Metallic",
+                    "Volcanic",
+                    "Demon"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Pyric Prism"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
         "name": "Q-Pedd Abettor",
         "scrap": {
             "type": "cr",
@@ -13662,6 +14077,33 @@
         ]
     },
     {
+        "name": "Quasi-Spacial Expander",
+        "target": "Your Planet",
+        "scrap": {
+            "max": "126,000",
+            "min": "31,500",
+            "type": "cr"
+        },
+        "desc": "Creates an intense spacial distortion field around a<br>massive or smaller planet, expanding its size by 1.",
+        "planetEffects": [
+            {
+                "type": "Increase Size",
+                "value": "1"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Size",
+                "max": "Massive"
+            }
+        ],
+        "img": "sp-outpost.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "10"
+        }
+    },
+    {
         "name": "Quasi-Spacial Isolator",
         "target": "Your Planet",
         "desc": "Creates an intense spacial distortion field around an<br>Average or smaller planet, expanding its size by 1.*",
@@ -13843,6 +14285,35 @@
         ]
     },
     {
+        "name": "Reality Transfuser",
+        "scrap": {
+            "type": "cr",
+            "min": "40,000",
+            "max": "160,000"
+        },
+        "target": "Your Planet",
+        "desc": "Allows the planet to be analyzed to unlock a permanent random effect on it.<br>Can only be used planets that do not already have such an effect.",
+        "buttonText": "Use",
+        "planetEffects": [
+            {
+                "type": "Start Planetary Event",
+                "event": "Analyze"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Effect",
+                "filters": [
+                    "Rings",
+                    "Moon",
+                    "Reactive Barrier",
+                    "Ancient",
+                    "Increase Space"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Recondite Intruder",
         "scrap": {
             "max": "40,000",
@@ -14015,6 +14486,28 @@
         "target": "Player"
     },
     {
+        "name": "Rescued Stryll Captives",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "40,000",
+            "max": "160,000"
+        },
+        "desc": "Freeing the captives will grant goodwill from their homeworld.<br>Adds 7 Rank Points when used.",
+        "playerEffects": [
+            {
+                "type": "Add Rank Points",
+                "value": "7"
+            }
+        ],
+        "message": "You have freed the Stryll Captives! You are awarded 7 rank points.",
+        "buttonText": "Free",
+        "cost": {
+            "energy": "250"
+        },
+        "img": "rescapt.png"
+    },
+    {
         "name": "Research Data Archive",
         "scrap": {
             "type": "ctp",
@@ -14049,6 +14542,43 @@
         "img": "temporalinv.png",
         "buttonText": "Build",
         "target": "Your Planet"
+    },
+    {
+        "name": "Rhodic Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "1,111",
+            "influence": "15,000",
+            "genes": "18"
+        },
+        "img": "pcrystal1.webp",
+        "desc": "[ Planet Structure - Size:1, Influence:1 ]<br>Boosts Influence production by 3%<br>Can only be built on Crystal, Machine, Sentient, or Psionic planets.<br>When built, this also counts as a 'Q-Pedd' structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Machine",
+                    "Sentient",
+                    "Psionic"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Rhodic Prism"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
     },
     {
         "name": "Rikthar's War Forge",
@@ -14097,6 +14627,28 @@
         ]
     },
     {
+        "name": "RSL Memory Implant",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "13"
+        },
+        "img": "rslimplant.png",
+        "buttonText": "Use",
+        "desc": "Enhances your memory impulses, increasing<br>all experience gains by 10% for 30 minutes",
+        "playerEffects": [
+            {
+                "type": "Increase XP",
+                "value": "10%",
+                "duration": "30 min"
+            }
+        ],
+        "tags": [
+            "RSL"
+        ]
+    },
+    {
         "name": "RSL Memory Vault",
         "desc": "Adds 23 scientists to your ship crew when used.",
         "img": "memvault.png",
@@ -14131,12 +14683,201 @@
             },
             {
                 "type": "Research Availability",
-                "max": "22x"
+                "max": "21x"
             }
         ],
         "target": "Your Planet",
         "tags": [
             "RSL"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "7",
+            "max": "16"
+        },
+        "desc": "Permanently increases the research output of a planet by 1,<br>up to a maximum of 22x Mega Rich.<br>Can only use on Machine, Sentient, or Crystal planets.",
+        "planetEffects": [
+            {
+                "type": "Increase Research Availability",
+                "value": "1"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "8,888"
+        },
+        "img": "rslopt2.gif"
+    },
+    {
+        "name": "Ryelis Analyzer",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "19"
+        },
+        "img": "ryelisanalyzer.gif",
+        "desc": "[ Planet Structure - Size:1, Artifact:2, Research:2,<br>Cloak:+5% ]<br>Constructs a Ryelis Analyzer on your planet.<br>Limit 1 per planet.",
+        "buttonText": "Build",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Ryelis Analyzer"
+            }
+        ]
+    },
+    {
+        "name": "Ryelis Fuel Tank",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "16"
+        },
+        "img": "ryelistank.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "desc": "Permanently upgrades a standard defense module<br>(built from materials) on your ship at random, increasing<br>its defense bonus by 20% and its value/upkeep by 20%,<br>up to a maximum bonus of 100% per module.",
+        "playerEffectsRandom": [
+            {
+                "type": "Upgrade Module",
+                "value": "20%",
+                "max": "100%"
+            }
+        ]
+    },
+    {
+        "name": "Sarkonis Grid-Barrier",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "tags": [
+            "Harvest"
+        ],
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Device - Size:28, Defense:410, Shield:790 ]<br>Installs a Sarkonis Grid-Barrier on your ship.<br>Limit 2 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Sarkonis Grid-Barrier"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "700"
+        },
+        "img": "sarkbar9.png"
+    },
+    {
+        "name": "Sarkonis Hardshell",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "tags": [
+            "Harvest"
+        ],
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:1, Mining:1, Mining:+5%, Defense:5% ]<br>Installs Sarkonis Hardshell on your planet.<br>(limit 1)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Sarkonis Hardshell"
+            }
+        ],
+        "buttonText": "Build",
+        "img": "terrahard.gif"
+    },
+    {
+        "name": "Sarkonis Headquarters",
+        "target": "Your Planet",
+        "tags": [
+            "Harvest"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "buttonText": "Build",
+        "img": "tossh.png",
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:1, Research:1, Population:500, Defense:10% ]<br>Installs Sarkonis Headquarters on your planet.<br>(limit 1)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Sarkonis Headquarters"
+            }
+        ]
+    },
+    {
+        "name": "Sarkonis Omnipod",
+        "tags": [
+            "Harvest"
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "buttonText": "Build",
+        "img": "sarkspin.gif",
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:1, Artifact:1, Attack:10% ]<br>Installs a Sarkonis Omnipod on your planet.<br>(limit 1)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Sarkonis Omnipod"
+            }
+        ]
+    },
+    {
+        "name": "Sarkonis-Cygnusis Upgrade",
+        "tags": [
+            "Harvest"
+        ],
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "14"
+        },
+        "desc": "Upgrades a Sarkonis Grid-Barrier to a Cygnusis design,<br>With 888 shield, 222 attack, 88 scan, and 555 defense.",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "module": "Sarkonis-Cygnusis Barrier"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "111"
+        }
+    },
+    {
+        "name": "Science Summit Contract",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "buttonText": "Use",
+        "cost": {
+            "energy": "25"
+        },
+        "img": "summitcont.png",
+        "desc": "Starts a 'Regional Science Summit' event on a planet of your choice,<br>boosting research output on that planet by 25%. This event lasts for 2 days.",
+        "planetEffects": [
+            {
+                "type": "Increase Research",
+                "value": "25%",
+                "duration": "2 days"
+            }
         ]
     },
     {
@@ -14513,6 +15254,89 @@
                 "structureBase": "Government Official"
             }
         ]
+    },
+    {
+        "name": "Spectral Conglomerate",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "100,000",
+            "max": "400,000"
+        },
+        "desc": "<i>A tight grouping of Spectral Fragments, fused together.</i>Transforms into a random crystalline prism",
+        "buttonText": "Transform",
+        "cost": {
+            "energy": "888"
+        },
+        "img": "crystalform1.png",
+        "message": "The Conglomerate Transforms into: [Artifact]",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Pyric Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Heliac Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Viridian Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Rhodic Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Azure Prism"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Twilight Prism"
+            }
+        ]
+    },
+    {
+        "name": "Spectral Crystallizer",
+        "tags": [
+            "Spectral"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "80,000",
+            "max": "320,000"
+        },
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1,111"
+        },
+        "desc": "Transforms a planet into a crystal world, enhancing its influence by 1.<br>Can only be used on Desert or Barren planets, of average size or smaller",
+        "planetEffects": [
+            {
+                "type": "Change Type",
+                "newType": "Crystal"
+            },
+            {
+                "type": "Increase Influence Availability",
+                "value": "1"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Desert",
+                    "Barren"
+                ]
+            },
+            {
+                "type": "Size",
+                "max": "Average"
+            }
+        ],
+        "message": "The planet glows with an intense heat...",
+        "target": "Your Planet"
     },
     {
         "name": "Spectral Fragment",
@@ -15861,6 +16685,41 @@
         "img": "alarriax9.png"
     },
     {
+        "name": "Twilight Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "11,111"
+        },
+        "img": "prcrystal1.webp",
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Research:3 ]<br>Boosts planetary cloak by 11%<br>Can only be built on Crystal, Aphotic, Void, or Exotic planets.<br>When built, this also counts as a 'Lepus' planet structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Aphotic",
+                    "Void",
+                    "Exotic"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Twilight Prism"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
         "name": "Uldri Anomaly Crystal",
         "target": "Your Planet",
         "scrap": {
@@ -16217,6 +17076,65 @@
         ]
     },
     {
+        "name": "Vethin Bomb",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "42,500",
+            "max": "170,000"
+        },
+        "buttonText": "Detonate",
+        "img": "morph-bomb1.png",
+        "cost": {
+            "energy": "55,000"
+        },
+        "desc": "Destroys up to 5 'Inhibitor' structures on a planet at random<br>that you have recently scanned (1 week), owned by a player<br>NOT active within the last year, and has been flagged black.<br>Has NO effect on planets not meeting these conditions.",
+        "planetEffects": [
+            {
+                "type": "Destroy Inhibitors",
+                "message": "[Player] has used a Vethin Bomb, attempting to destroy an Inhibitor structure..."
+            }
+        ],
+        "requiresConfirmation": "Yes"
+    },
+    {
+        "name": "Viridian Prism",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "888",
+            "influence": "8,000",
+            "genes": "8"
+        },
+        "img": "gcrystal1.webp",
+        "desc": "[ Planet Structure - Size:1, Research:1, Influence:1 ]<br>Boosts planetary population by 20%<br>Can only be built on Crystal, Terra, Gaia, or Relic planets.<br>When built, this also counts as a 'Genoform' planet structure.<br>Limit 1 Prism per planet",
+        "tags": [
+            "Spectral"
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Terra",
+                    "Gaia",
+                    "Relic"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Viridian Prism"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        }
+    },
+    {
         "name": "Void-Field Enclave",
         "planetEffectsConditional": [
             {
@@ -16498,410 +17416,5 @@
         "tags": [
             "RSL"
         ]
-    },
-    {
-        "name": "Prismatrix Vault",
-        "target": "Your Planet"
-    },
-    {
-        "name": "Crystalline Portal",
-        "target": "Your Planet"
-    },
-    {
-        "name": "Vethin Bomb",
-        "target": "Player",
-        "scrap": {
-            "type": "cr",
-            "min": "42,500",
-            "max": "170,000"
-        },
-        "buttonText": "Detonate",
-        "img": "morph-bomb1.png",
-        "cost": {
-            "energy": "55,000"
-        },
-        "desc": "Destroys up to 5 'Inhibitor' structures on a planet at random<br>that you have recently scanned (1 week), owned by a player<br>NOT active within the last year, and has been flagged black.<br>Has NO effect on planets not meeting these conditions.",
-        "planetEffects": [
-            {
-                "type": "Destroy Inhibitors",
-                "message": "[Player] has used a Vethin Bomb, attempting to destroy an Inhibitor structure..."
-            }
-        ],
-        "requiresConfirmation": "Yes"
-    },
-    {
-        "name": "Spectral Conglomerate",
-        "target": "Player",
-        "scrap": {
-            "type": "cr",
-            "min": "100,000",
-            "max": "400,000"
-        },
-        "desc": "<i>A tight grouping of Spectral Fragments, fused together.</i>Transforms into a random crystalline prism",
-        "buttonText": "Transform",
-        "cost": {
-            "energy": "888"
-        },
-        "img": "crystalform1.png",
-        "message": "The Conglomerate Transforms into: [Artifact]",
-        "playerEffectsRandom": [
-            {
-                "type": "Grants",
-                "artifact": "Pyric Prism"
-            },
-            {
-                "type": "Grants",
-                "artifact": "Heliac Prism"
-            },
-            {
-                "type": "Grants",
-                "artifact": "Viridian Prism"
-            },
-            {
-                "type": "Grants",
-                "artifact": "Rhodic Prism"
-            },
-            {
-                "type": "Grants",
-                "artifact": "Azure Prism"
-            },
-            {
-                "type": "Grants",
-                "artifact": "Twilight Prism"
-            }
-        ]
-    },
-    {
-        "name": "Azure Prism",
-        "target": "Your Planet",
-        "scrap": {
-            "type": "ctp",
-            "min": "4",
-            "max": "8"
-        },
-        "desc": "[ Planet Structure - Size:1, Artifact:1, Influence:1 ]<br>Boosts planetary defense by 33%<br>Can only be built on Crystal, Gas, Icy, or Oceanic planets.<br>When built, this also counts as a 'Chuhn' and 'Civicordium' structure.<br>Limit 1 Prism per planet",
-        "tags": [
-            "Spectral"
-        ],
-        "restrictions": [
-            {
-                "type": "Type",
-                "types": [
-                    "Crystal",
-                    "Gas",
-                    "Icy",
-                    "Oceanic"
-                ]
-            }
-        ],
-        "planetEffects": [
-            {
-                "type": "Construct Structure",
-                "structure": "Azure Prism"
-            }
-        ],
-        "buttonText": "Build",
-        "cost": {
-            "energy": "888",
-            "influence": "8,000",
-            "genes": "8"
-        },
-        "img": "icrystal1.webp"
-    },
-    {
-        "name": "Heliac Prism",
-        "target": "Your Planet",
-        "buttonText": "Build",
-        "cost": {
-            "energy": "2,222"
-        },
-        "img": "ocrystal1.webp",
-        "desc": "[ Planet Structure - Size:1, Research:2, Mining:2 ]<br>Can only be built on Crystal, Desert, Shattered, or Chthonian planets.<br>Increases energy cost to attack planet by 33%.<br>When built, this also counts as an 'Elios' planet structure.<br>Limit 1 Prism per planet",
-        "tags": [
-            "Spectral"
-        ],
-        "restrictions": [
-            {
-                "type": "Type",
-                "types": [
-                    "Crystal",
-                    "Desert",
-                    "Shattered",
-                    "Chthonian"
-                ]
-            }
-        ],
-        "planetEffects": [
-            {
-                "type": "Construct Structure",
-                "structure": "Heliac Prism",
-                "message": "The Heliac Prism has been constructed on the planet."
-            }
-        ],
-        "scrap": {
-            "type": "ctp",
-            "min": "4",
-            "max": "8"
-        }
-    },
-    {
-        "name": "Pyric Prism",
-        "target": "Your Planet",
-        "buttonText": "Build",
-        "cost": {
-            "energy": "888"
-        },
-        "img": "rcrystal1.webp",
-        "tags": [
-            "Spectral"
-        ],
-        "desc": "Can only be built on Crystal, Metallic, Volcanic, or Demon planets.<br>When built, this also counts as a 'Bane' or 'Scruuge' structure.<br>Limit 1 Prism per planet",
-        "restrictions": [
-            {
-                "type": "Type",
-                "types": [
-                    "Crystal",
-                    "Metallic",
-                    "Volcanic",
-                    "Demon"
-                ]
-            }
-        ],
-        "planetEffects": [
-            {
-                "type": "Construct Structre",
-                "structure": "Pyric Prism"
-            }
-        ],
-        "scrap": {
-            "type": "ctp",
-            "min": "4",
-            "max": "8"
-        }
-    },
-    {
-        "name": "Rhodic Prism",
-        "target": "Your Planet",
-        "buttonText": "Build",
-        "cost": {
-            "energy": "1,111",
-            "influence": "15,000",
-            "genes": "18"
-        },
-        "img": "pcrystal1.webp",
-        "desc": "[ Planet Structure - Size:1, Influence:1 ]<br>Boosts Influence production by 3%<br>Can only be built on Crystal, Machine, Sentient, or Psionic planets.<br>When built, this also counts as a 'Q-Pedd' structure.<br>Limit 1 Prism per planet",
-        "tags": [
-            "Spectral"
-        ],
-        "restrictions": [
-            {
-                "type": "Type",
-                "types": [
-                    "Crystal",
-                    "Machine",
-                    "Sentient",
-                    "Psionic"
-                ]
-            }
-        ],
-        "planetEffects": [
-            {
-                "type": "Construct Structre",
-                "structure": "Rhodic Prism"
-            }
-        ],
-        "scrap": {
-            "type": "ctp",
-            "min": "4",
-            "max": "8"
-        }
-    },
-    {
-        "name": "Twilight Prism",
-        "target": "Your Planet",
-        "buttonText": "Build",
-        "cost": {
-            "energy": "11,111"
-        },
-        "img": "prcrystal1.webp",
-        "desc": "[ Planet Structure - Size:1, Artifact:1, Research:3 ]<br>Boosts planetary cloak by 11%<br>Can only be built on Crystal, Aphotic, Void, or Exotic planets.<br>When built, this also counts as a 'Lepus' planet structure.<br>Limit 1 Prism per planet",
-        "tags": [
-            "Spectral"
-        ],
-        "restrictions": [
-            {
-                "type": "Type",
-                "types": [
-                    "Crystal",
-                    "Aphotic",
-                    "Void",
-                    "Exotic"
-                ]
-            }
-        ],
-        "planetEffects": [
-            {
-                "type": "Construct Structre",
-                "structure": "Twilight Prism"
-            }
-        ],
-        "scrap": {
-            "type": "ctp",
-            "min": "4",
-            "max": "8"
-        }
-    },
-    {
-        "name": "Viridian Prism",
-        "target": "Your Planet",
-        "buttonText": "Build",
-        "cost": {
-            "energy": "888",
-            "influence": "8,000",
-            "genes": "8"
-        },
-        "img": "gcrystal1.webp",
-        "desc": "[ Planet Structure - Size:1, Research:1, Influence:1 ]<br>Boosts planetary population by 20%<br>Can only be built on Crystal, Terra, Gaia, or Relic planets.<br>When built, this also counts as a 'Genoform' planet structure.<br>Limit 1 Prism per planet",
-        "tags": [
-            "Spectral"
-        ],
-        "restrictions": [
-            {
-                "type": "Type",
-                "types": [
-                    "Crystal",
-                    "Terra",
-                    "Gaia",
-                    "Relic"
-                ]
-            }
-        ],
-        "planetEffects": [
-            {
-                "type": "Construct Structre",
-                "structure": "Viridian Prism"
-            }
-        ],
-        "scrap": {
-            "type": "ctp",
-            "min": "4",
-            "max": "8"
-        }
-    },
-    {
-        "name": "Jeweled Sentinel",
-        "target": "Your Planet",
-        "scrap": {
-            "type": "ctp",
-            "min": "5",
-            "max": "12"
-        },
-        "tags": [
-            "Spectral"
-        ],
-        "buttonText": "Build",
-        "img": "csentry2.webp",
-        "desc": "[ Limited Item - Spectral ]<br>[ Planet Structure - Size:0, Artifact:1, Mining:+4%, Artifact:+1% ]<br>Planet must have 2+ distinct Crystal, Prism, Spectral, or Jewel Structures to build.<br>Can be upgraded with 4+ other structures<br>Limit 1 per planet",
-        "restrictions": [
-            {
-                "type": "Existing Structures",
-                "filters": [
-                    "Crystal",
-                    "Prism",
-                    "Spectral",
-                    "Jewel"
-                ],
-                "min": "2"
-            }
-        ],
-        "planetEffects": [
-            {
-                "type": "Construct Structre",
-                "structure": "Jeweled Sentinel",
-                "message": "A Jeweled Sentinel has been deployed above the planet."
-            }
-        ]
-    },
-    {
-        "name": "Spectral Crystallizer",
-        "tags": [
-            "Spectral"
-        ],
-        "scrap": {
-            "type": "cr",
-            "min": "80,000",
-            "max": "320,000"
-        },
-        "buttonText": "Use",
-        "cost": {
-            "energy": "1,111"
-        },
-        "desc": "Transforms a planet into a crystal world, enhancing its influence by 1.<br>Can only be used on Desert or Barren planets, of average size or smaller",
-        "planetEffects": [
-            {
-                "type": "Change Type",
-                "newType": "Crystal"
-            },
-            {
-                "type": "Increase Influence Availability",
-                "value": "1"
-            }
-        ],
-        "restrictions": [
-            {
-                "type": "Type",
-                "types": [
-                    "Desert",
-                    "Barren"
-                ]
-            },
-            {
-                "type": "Size",
-                "max": "Average"
-            }
-        ],
-        "message": "The planet glows with an intense heat...",
-        "target": "Your Planet"
-    },
-    {
-        "name": "Magnetosphere Charger",
-        "scrap": {
-            "type": "cr",
-            "min": "75,000",
-            "max": "300,000"
-        },
-        "target": "Your Planet",
-        "img": "orbmag2.gif",
-        "buttonText": "Use",
-        "restrictions": [
-            {
-                "type": "Passive Cloak",
-                "max": "3,500"
-            },
-            {
-                "type": "Passive Attack",
-                "max": "3,500"
-            },
-            {
-                "type": "Passive Defense",
-                "max": "3,500"
-            }
-        ],
-        "planetEffectsChoice": [
-            {
-                "type": "Increase Passive Cloak",
-                "value": "10% + 50",
-                "message": "The planet surges with intense energy..."
-            },
-            {
-                "type": "Increase Passive Defense",
-                "value": "10% + 50"
-            },
-            {
-                "type": "Increase Passive Attack",
-                "value": "10% + 50"
-            }
-        ],
-        "desc": "Permanently increases a passive ability on the planet<br>(of your choice) by 10% + 50, up to a max of 3500.<br>Choices are: cloak, attack, or defense."
     }
 ]
