@@ -216,6 +216,7 @@ Domain:General
 		Civic Alignment
 		Civic Authority
 		Civic Consensus
+		Civic Dominion
 		Voting Bloc
 
 	Section:Other GP

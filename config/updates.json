@@ -1835,5 +1835,10 @@
         "date": "12 Jun 2026",
         "type": "Initiative",
         "desc": "Darmos Galactic Host - Winner: Pract Quadrant: Increases production by 2% for races in the Pract Quadrant"
+    },
+    {
+        "date": "18 Jun 2026",
+        "type": "Initiative",
+        "desc": "Alarri Forgeworks Improvements - Winner: Uldri Glome: Temporarily Unlocks 'Uldri Glome' design in the Uldri Trade Market, but reduces artifact production by 4%"
     }
 ]

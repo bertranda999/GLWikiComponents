@@ -3438,7 +3438,8 @@
         "bd": 15
     },
     {
-        "name": "Scruuge Cargo Launcher",
+        "name": "Scruuge Cargo Launcher (Upgraded)",
+        "base": "Scruuge Cargo Launcher",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -4601,7 +4602,36 @@
         "mp": 3,
         "bmp": 3,
         "mps": 404,
-        "ap": 1
+        "ap": 1,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Prison and Ability to V2.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 600+ captures.<br>Costs 22 Green Badges",
+            "restrictions": [
+                {
+                    "type": "Profession",
+                    "professions": [
+                        "Miner",
+                        "Governor",
+                        "Guard"
+                    ]
+                },
+                {
+                    "type": "Player Stat",
+                    "stat": "Invasions",
+                    "min": "600"
+                }
+            ],
+            "cost": {
+                "greens": "22"
+            },
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Forgestone Prison Colony v2"
+                }
+            ]
+        }
     },
     {
         "name": "Forgestone Prison Colony v2",
@@ -4613,7 +4643,36 @@
         "mp": 5,
         "bmp": 5,
         "mps": 606,
-        "ap": 2
+        "ap": 2,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Prison and Ability to V3.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 800+ captures.<br>Costs 33 Green Badges",
+            "restrictions": [
+                {
+                    "type": "Profession",
+                    "professions": [
+                        "Miner",
+                        "Governor",
+                        "Guard"
+                    ]
+                },
+                {
+                    "type": "Player Stat",
+                    "stat": "Invasions",
+                    "min": "800"
+                }
+            ],
+            "cost": {
+                "greens": "33"
+            },
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Forgestone Prison Colony v3"
+                }
+            ]
+        }
     },
     {
         "name": "Forgestone Prison Colony v3",
@@ -4625,7 +4684,36 @@
         "mp": 7,
         "bmp": 7,
         "mps": 808,
-        "ap": 3
+        "ap": 3,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Prison and Ability to V4.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 1000+ captures.<br>Costs 44 Green Badges",
+            "restrictions": [
+                {
+                    "type": "Profession",
+                    "professions": [
+                        "Miner",
+                        "Governor",
+                        "Guard"
+                    ]
+                },
+                {
+                    "type": "Player Stat",
+                    "stat": "Invasions",
+                    "min": "1,000"
+                }
+            ],
+            "cost": {
+                "greens": "44"
+            },
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Forgestone Prison Colony v4"
+                }
+            ]
+        }
     },
     {
         "name": "Forgestone Prison Colony v4",
@@ -10062,7 +10150,7 @@
         "ips": 111,
         "bc": 22,
         "ability": {
-            "message": "",
+            "message": "You successfully perform the upgrades.",
             "name": "V3 Upgrade",
             "desc": "Upgrades Citadel to v3<br>Adds +2 Research +1 Influence<br>Planet must have at least 6 distinct structures that provide 2+ influence.<br>Costs 8 Evolution Genes",
             "planetEffects": [
@@ -10094,7 +10182,29 @@
         "rp": 4,
         "ip": 2,
         "ips": 111,
-        "bc": 22
+        "bc": 22,
+        "ability": {
+            "message": "",
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Citadel to v4<br>Adds +111 Influence Storage +11% Cloak<br>Planet must have at least 8 distinct structures that provide 2+ influence.<br>Costs 12 Evolution Genes",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Antigrav Citadel v4"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "statType": "ip",
+                    "statMin": "2",
+                    "min": "8"
+                }
+            ],
+            "cost": {
+                "genes": "12"
+            }
+        }
     },
     {
         "name": "Antigrav Citadel v4",
@@ -10778,5 +10888,15 @@
             ],
             "charges": "3"
         }
+    },
+    {
+        "name": "Uldri Glome",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 2,
+        "ip": 1,
+        "bip": 2
     }
 ]

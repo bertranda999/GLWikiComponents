@@ -186,3 +186,4 @@ Viridian Prism
 Crownspire, Spectral Palace
 Shardveil, Spectral Citadel
 Glimmerhold, Spectral Castle
+Uldri Glome

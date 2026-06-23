@@ -378,7 +378,7 @@
         "votesRequired": "2,000",
         "options": [
             {
-                "name": "Alarri Forgeworks Improvements",
+                "name": "Aeon Spire",
                 "img": "aeonspire1.webp",
                 "desc": "Aeon Spire",
                 "effectDesc": "Temporarily Unlocks 'Aeon Spire Upgrade' design in the Aeon Market, but reduces mining production by 8%",
@@ -439,6 +439,95 @@
                         "value": "4%"
                     }
                 ]
+            }
+        ],
+        "winner": "Uldri Glome"
+    },
+    {
+        "name": "VTP-5 Mutagen",
+        "seasonal": "Genoform",
+        "desc": "Due to the Genoform Surge, a particularly virulent strain of VTP is spreading between numerous colonies and trading hubs. Quarantine protocols have been initiated, but even stricter measures must be taken to combat this novel variant, as even some Genetic Vaults have been affected.",
+        "effectDuration": "14 days",
+        "end": "24 Jun 2026",
+        "failure": "Reduces all Gene Yields by 10%",
+        "failurePlayerEffects": [
+            {
+                "type": "Increase Genes Production",
+                "value": "-10%"
+            }
+        ],
+        "options": [
+            {
+                "name": "Hasten Cure",
+                "effectDesc": "Decreases Evolution Gene cooldown by 11%, but Reduces Research storage by 8%",
+                "lore": "Coordinates Research Labs to devote a larger portion of their computational resources to quickening development of a treatment for the current VTP variant",
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 3h6\"></path><path d=\"M10 3v6L4.5 19a2 2 0 0 0 1.7 3h11.6a2 2 0 0 0 1.7-3L14 9V3\"></path><path d=\"M7 14h10\"></path></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Decrease Grow Genes Cooldown",
+                        "value": "11%"
+                    }
+                ]
+            },
+            {
+                "name": "Purge Gene Vaults",
+                "effectDesc": "Increases all production by 2%, but decreases Evolution Gene yields by 6%",
+                "lore": "Instructs the vast number of Gene Vaults to purge and repurpose their genetic material, reusing the rich biomass towards other productive means",
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 15c6.667-6 13.333 0 20-6\"></path><path d=\"M9 22c1.798-1.998 2.518-3.995 2.807-5.993\"></path><path d=\"M15 2c-1.798 1.998-2.518 3.995-2.807 5.993\"></path><path d=\"m17 6-2.891-2.891\"></path><path d=\"m20 9 .891.891\"></path><path d=\"M3.109 14.109 4 15\"></path><path d=\"m7 18 2.891 2.891\"></path><path d=\"m6.5 12.5 1 1\"></path><path d=\"m10 16 1.5 1.5\"></path><path d=\"m14 8-1.5-1.5\"></path><path d=\"m16.5 10.5 1 1\"></path></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Genes Production",
+                        "value": "-6%"
+                    }
+                ]
+            },
+            {
+                "name": "Expand Quarantine",
+                "effectDesc": "Increases Influence Storage by 10%, but decreases Influence Production by 10%",
+                "lore": "Restricts non-essential travel and isolates population centers for the duration of the outbreak",
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 4C7 4 2.7 7.1 1 12c1.7 4.9 6 8 11 8s9.3-3.1 11-8c-1.7-4.9-6-8-11-8zm0 13c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z\"></path><circle cx=\"12\" cy=\"12\" r=\"2.5\"></circle></svg>"
+            }
+        ],
+        "start": "18 Jun 2026",
+        "voteCooldown": "24 hours",
+        "votesRequired": "2,100"
+    },
+    {
+        "name": "Chancellor Election",
+        "desc": "Allied Governments once again wish to elect a Galactic Chancellor to represent their shared interests, and advance the goals of the greater regions",
+        "effectDuration": "14 days",
+        "end": "27 Jun 2026",
+        "start": "20 Jun 2026",
+        "votesRequired": "500",
+        "voteCooldown": "24 hours",
+        "options": [
+            {
+                "name": "Warlord Krassak",
+                "race": "Konqul",
+                "effectDesc": "Expands all enemy rank ranges by 10%",
+                "desc": "Krassak rose through the Konqul military ranks by sheer force of will. He believes strength is the only language the galaxy understands, and he intends to speak it fluently.",
+                "img": "aliens/vkonqul1.png"
+            },
+            {
+                "name": "Director Vynn-7",
+                "race": "Vygoid",
+                "effectDesc": "Increases all production by 2% for cybernetic races<br>Bonus Restricted to: Vygoid, Zolazin, Drannik",
+                "desc": "Once a Supreme Governor on Vygos, Vynn-7 has since overseen the optimization of the entire Mechanon Hyper-Network... though many of these new efficiencies can only be realized through cybernetic interfaces.",
+                "img": "vvygoid1.png"
+            },
+            {
+                "name": "Scion Gessella",
+                "race": "Genetarr",
+                "effectDesc": "Increases all production by 2% for academy professions<br>Bonus Restricted to: Governor, Diplomat, Merchant, Biologist, Physicist",
+                "desc": "A powerful teacher of The Sight, Gessella is chair of the High Council of Scions. Leading the 'Galardieh Academy' on Genetarris, a renowned center of study for science and politics, she aims to advance these schools and their professions to new heights.",
+                "img": "aliens/vgenetarr1.png"
+            },
+            {
+                "name": "Pod-Leader Salune",
+                "race": "Kronyn",
+                "effectDesc": "Technocrat Salune leads the largest research pod congomerate across Krastis, advancing studies in cybernetics and augmentation devices. A technological preservationist, Salune believes in maintaining the history of the Galaxy's innovations.",
+                "desc": "Technocrat Salune leads the largest research pod congomerate across Krastis, advancing studies in cybernetics and augmentation devices. A technological preservationist, Salune believes in maintaining the history of the Galaxy's innovations.",
+                "img": "aliens/vkronyn1.png"
             }
         ]
     }

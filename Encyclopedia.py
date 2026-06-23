@@ -471,9 +471,10 @@ def icons(name, height=20):
     
     return f"<img height=\"{height}\" src=\"{imgPath + path}\">"
 
-async def writeStructures():
-    html = "<head><link rel=\"stylesheet\" href=\"style.css\"><script type=\"text/javascript\" charset=\"utf8\" src=\"../sorttable.js\" defer></script></head><table class=\"sortable\"><thead><tr>"
-    html += f"<th class=\"sort_a\" style=\"border: 1px solid gray;width: 100\">Name</th>"
+def writeStructuresTableHeader(hidden = False):
+    hiddenStyle = "style=\"display: none\"" if hidden else ''
+    html = f"<div  style=\"max-height: 1000; overflow-y: auto;\"><table class=\"sortable\"><thead style=\"background: black;position: sticky; top: 0;\"><tr><th class=\"sort_a\" style=\"border: 1px solid gray;width: 100\">Name</th>"
+    html += "<style>{position: sticky; top: 0;background: black;}</style>"
     html += f"<th style=\"border: 1px solid gray;width: 50\">Extract</th>"
     html += f"<th style=\"border: 1px solid gray;width: 50\">Limited</th>"
     html += f"<th style=\"border: 1px solid gray;width: 20\">Limit</th>"
@@ -502,6 +503,16 @@ async def writeStructures():
     html += f"<th style=\"border: 1px solid gray;width: 20\">ES</th>"
     html += f"<th style=\"border: 1px solid gray;width: 20\">ID</th>"
     html += "</tr></thead><tbody>"
+    #if not hidden:
+    #    html += "</table>"
+
+    return html
+
+async def writeStructures():
+    html = "<head><link rel=\"stylesheet\" href=\"style.css\"><script type=\"text/javascript\" charset=\"utf8\" src=\"../sorttable.js\" defer></script></head>"
+    html += writeStructuresTableHeader()
+    # html += writeStructuresTableHeader(True)
+    
     for (name, structure) in structures.items():
         source = structureSourceLink(structure)
         html += "<tr>"
@@ -534,7 +545,7 @@ async def writeStructures():
         html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'es')}</td>"
         html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'id')}</td>"
         html += "</tr>"
-    html += "</tbody></table>"
+    html += "</tbody></table></div>"
     async with aiofiles.open(outPath + "structures.html", "w") as file:
         await file.write(html)
 

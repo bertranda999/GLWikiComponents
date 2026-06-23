@@ -9068,5 +9068,18 @@
                 "type": "Use Planet-Based Ability"
             }
         ]
+    },
+    {
+        "name": "Civic Dominion",
+        "desc": "Cast 500 or more votes for elections or initiatives",
+        "medalPoints": "35",
+        "artifact": "OmniVote Nexus Upgrade",
+        "rewardCount": "5",
+        "img": "vote5.jpg",
+        "triggers": [
+            {
+                "type": "Vote"
+            }
+        ]
     }
 ]

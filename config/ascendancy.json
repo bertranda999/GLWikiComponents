@@ -42,7 +42,8 @@
             }
         ],
         "level": 1,
-        "img": "materials1.jpg"
+        "img": "materials1.jpg",
+        "quote": "Knowledge of matter is power over matter"
     },
     {
         "name": "Reconnaisance Network",
@@ -62,7 +63,8 @@
             }
         ],
         "level": 1,
-        "img": "recon1.jpg"
+        "img": "recon1.jpg",
+        "quote": "Unseen eyes see all"
     },
     {
         "name": "Species Mutagenics Program",
@@ -82,7 +84,8 @@
             }
         ],
         "level": 1,
-        "img": "genes1.jpg"
+        "img": "genes1.jpg",
+        "quote": "Nature improvises. We refine."
     },
     {
         "name": "Universal Commerce Bureau",
@@ -102,7 +105,8 @@
             }
         ],
         "level": 1,
-        "img": "trade1.jpg"
+        "img": "trade1.jpg",
+        "quote": "A delayed shipment collapses a colony faster than an enemy fleet."
     },
     {
         "name": "Galactic Archives",
@@ -126,7 +130,8 @@
             }
         ],
         "level": 1,
-        "img": "archives1.jpg"
+        "img": "archives1.jpg",
+        "quote": "What is not recorded must be relearned at cost."
     },
     {
         "name": "Ordnance Corps",
@@ -238,14 +243,41 @@
             }
         ],
         "level": 2,
-        "img": "contracts1.jpg"
+        "img": "contracts1.jpg",
+        "cooldown": "4 hours",
+        "cost": {
+            "influence": "4,800",
+            "Studies": "520",
+            "aeon": "2"
+        },
+        "phases": "380"
     },
     {
-        "name": "Unknown",
+        "name": "Reliquary Division",
         "prereqs": [
             "Galactic Archives"
         ],
-        "level": 2
+        "bonusDesc": "Increases overall Artifact storage by 22k, and +3%",
+        "cooldown": "4 hours",
+        "cost": {
+            "influence": "4,800",
+            "Studies": "560",
+            "Relic Badges": "6"
+        },
+        "level": 2,
+        "desc": "Oversee the controlled study and deployment of recovered relic technologies.",
+        "img": "archives1.jpg",
+        "phases": "280",
+        "playerEffects": [
+            {
+                "type": "Increase Artifact Storage",
+                "value": "22k"
+            },
+            {
+                "type": "Increase Artifact Storage",
+                "value": "3%"
+            }
+        ]
     },
     {
         "name": "Unknown",
@@ -290,12 +322,24 @@
             }
         ],
         "level": 3,
-        "img": "anomalies1.jpg'"
+        "img": "anomalies1.jpg"
+    },
+    {
+        "name": "Cybernetics Synchrony",
+        "prereqs": [
+            "Augmentation Initiative",
+            "Surveillance Nexus"
+        ],
+        "level": 3,
+        "img": "cybernetic1.jpg",
+        "bonusDesc": "Increases overall Research Production by 11k per hour, and +3%",
+        "desc": "Align cybernetic systems to operate in coordinated and predictable harmony across Legion forces."
     },
     {
         "name": "Unknown",
         "prereqs": [
-            "Universal Contracts"
+            "Universal Contracts",
+            "Augmentation Initiative"
         ],
         "level": 3
     },
@@ -314,5 +358,23 @@
             }
         ],
         "img": "scrapping1.jpg"
+    },
+    {
+        "name": "Uplift Division",
+        "prereqs": [
+            "Reliquary Division",
+            "Extraction Guild"
+        ],
+        "level": 4,
+        "img": "uplift1.jpg",
+        "bonusDesc": "Increases overall Artifact Production by 11k per hour, and +2%",
+        "desc": "Employ Legion-wide systems to accelerate planetary uplift and environmental transformation."
+    },
+    {
+        "name": "Unknown",
+        "prereqs": [
+            "Cybernetic Synchrony"
+        ],
+        "level": 4
     }
 ]

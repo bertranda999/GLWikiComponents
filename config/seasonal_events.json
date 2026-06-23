@@ -962,6 +962,62 @@
                 "suite": "Civicordium",
                 "zone": "Scruuge",
                 "market": "Lepus"
+            },
+            {
+                "date": "17 Jun",
+                "suite": "Genoform",
+                "scan": "Harvest",
+                "zone": "Lepus",
+                "challenges": "Civicordium",
+                "missions": "Genoform"
+            },
+            {
+                "date": "18 Jun",
+                "supporter": "Civicordium",
+                "planetEvents": "Chuhn",
+                "zone": "Lepus",
+                "npcs": "Scruuge",
+                "missions": "Chuhn"
+            },
+            {
+                "date": "19 Jun",
+                "terminal": "Chuhn",
+                "suite": "Civicordium",
+                "zone": "Lepus",
+                "market": "Harvest",
+                "missions": "Harvest"
+            },
+            {
+                "date": "20 Jun",
+                "missions": "Harvest",
+                "scan": "Genoform",
+                "planetEvents": "Genoform",
+                "npcs": "Lepus",
+                "dailyReward": "Lepus"
+            },
+            {
+                "date": "21 Jun",
+                "suite": "Scruuge",
+                "planetEvents": "Harvest",
+                "terminal": "Lepus",
+                "missions": "Genoform",
+                "supporter": "Civicordium"
+            },
+            {
+                "date": "22 Jun",
+                "zone": "Civicordium",
+                "scan": "Chuhn",
+                "market": "Harvest",
+                "terminal": "Genoform",
+                "planetEvents": "Scruuge"
+            },
+            {
+                "date": "23 Jun",
+                "zone": "Civicordium",
+                "challenges": "Civicordium",
+                "dailyReward": "Scruuge",
+                "npcs": "Q-Pedd",
+                "suite": "Bane"
             }
         ],
         "additionalEffectDescription": "Various features from other Seasonal Events will randomly appear (and disappear) each day.",
@@ -1091,7 +1147,7 @@
                 ]
             },
             {
-                "name": "Sharveil, Spectral Citadel",
+                "name": "Shardveil, Spectral Citadel",
                 "energy": "5,500",
                 "other": [
                     {

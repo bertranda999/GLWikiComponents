@@ -416,7 +416,8 @@
         "cost": {
             "energy": "3,000",
             "influence": "1,880"
-        }
+        },
+        "message": "An Aeon Tower has been constructed on the planet."
     },
     {
         "name": "Aerlen Patronage",
@@ -4804,6 +4805,28 @@
         }
     },
     {
+        "name": "Corrupted Edifice",
+        "target": "Your Planet",
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Cloak:+20% ]<br>Also provides 2000 Artifact storage.<br>Limit 1 per planet.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Corrupted Edifice"
+            }
+        ],
+        "img": "darkedifice.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "500"
+        },
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "message": "A Corrupted Edifice has been constructed on the planet."
+    },
+    {
         "name": "Corrupted Omen",
         "restrictions": [
             {
@@ -4855,6 +4878,14 @@
             {
                 "type": "Construct Structure",
                 "structure": "Corrupted Portal"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structures": [
+                    "Corrupted Edifice"
+                ]
             }
         ],
         "message": "The Corrupted Portal has been constructed on the planet."
@@ -8059,6 +8090,28 @@
             "min": "8",
             "max": "17"
         }
+    },
+    {
+        "name": "Forgestone Prison Colony",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Mining:3, Mining:+3% ]<br>Provides 404 Mineral capacity. Can be upgraded with<br>Green Badges by miners, guards, or governors.<br>Requires 400+ prior invasion captures<br>Limit 1",
+        "img": "lprison1.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "8,888"
+        },
+        "message": "The Forgestone Prison Colony has been deployed on the planet.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Forgestone Prison Colony"
+            }
+        ]
     },
     {
         "name": "Fornax Jewel",
@@ -14256,6 +14309,53 @@
         "target": "Your Planet"
     },
     {
+        "name": "Raix Stasis Hold",
+        "target": "Your Planet",
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Mining: 2, Cloak: +11% ]<br>Also Provides 1400 Mineral and Artifact storage.<br>Supports multiple Raix Transformations.<br>Limit 1 per planet.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Raix Stasis Hold"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "550"
+        },
+        "img": "raixbuild0.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "message": "The Raix Stasis Hold has been constructed on the planet."
+    },
+    {
+        "name": "Raix Structural Enhancements",
+        "target": "Your Planet",
+        "desc": "Upgrades 1 structure on the target planet<br>at random) that supports Raix Transformation.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Raix Stasis Hold",
+                "new": "Raix Stasis Hold II"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Raix Stasis Hold II",
+                "new": "Raix Stasis Hold III"
+            }
+        ],
+        "buttonText": "Use",
+        "img": "raixsabuild.png",
+        "scrap": {
+            "type": "cr",
+            "min": "2,500",
+            "max": "10,000"
+        },
+        "message": "An existing Raix structure has been enhanced."
+    },
+    {
         "name": "Raix-Radiated Plating",
         "scrap": {
             "type": "ctp",
@@ -14455,7 +14555,14 @@
                 "type": "Size",
                 "max": "Large"
             }
-        ]
+        ],
+        "planetEffects": [
+            {
+                "type": "Increase Space",
+                "value": "2%"
+            }
+        ],
+        "message": "A bright illumination fills the planet's orbit"
     },
     {
         "name": "Relay Tower",
@@ -14972,7 +15079,30 @@
         "target": "Your Planet",
         "tags": [
             "Scruuge"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "25",
+            "max": "50"
+        },
+        "desc": "Upgrades an existing Scruuge Calibration Chamber on your planet<br>to a Scruuge Calibration Plant, doubling its bonuses. Planet must be<br>Toxic, Irradiated, Metallic, or Exotic",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Calibration Chamber",
+                "new": "Scruuge Calibration Plant"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Calibration Chamber (Upgraded)",
+                "new": "Scruuge Calibration Plant (Upgraded)"
+            }
+        ],
+        "img": "scruugeplant1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "4,000"
+        }
     },
     {
         "name": "Scruuge Cargo Launcher",
@@ -14990,7 +15120,58 @@
         "target": "Your Planet",
         "tags": [
             "Scruuge"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "25",
+            "max": "50"
+        },
+        "img": "scruugepad2.png",
+        "desc": "Upgrades an existing Scruuge Cargo Pad on your planet<br>to a Scruuge Cargo Launcher, adding +2 Mining and +1 Artifact, and +15% Defense.<br>Planet must be Exotic, Relic, Machine, or Ecumenopolis",
+        "planetEffectsRandom": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Cargo Pad",
+                "new": "Scruuge Cargo Launcher"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Cargo Pad (Doubled)",
+                "new": "Scruuge Cargo Launcher (Upgraded)"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "4,000"
+        }
+    },
+    {
+        "name": "Scruuge Cargo Pad",
+        "target": "Your Planet",
+        "tags": [
+            "Scruuge"
+        ],
+        "desc": "[ Planet Structure - Size:1, Mining:2, Artifact:1, Defense:2000 ]<br>If built on a planet with a Scruuge Calibration structure<br>, all bonuses of the Cargo Pad are doubled.<br>Limit 1 per planet.",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Cargo Pad (Doubled)",
+                "conditions": [
+                    {
+                        "type": "Existing Structures",
+                        "structures": [
+                            "Scruuge Calibration Plant"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Cargo Pad"
+            }
+        ],
+        "img": "scruugetpad.png",
+        "buttonText": "Build"
     },
     {
         "name": "Scruuge Frost Tribunal",
@@ -15005,7 +15186,49 @@
         "target": "Your Planet",
         "tags": [
             "Scruuge"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        },
+        "buttonText": "Build",
+        "cost": {
+            "energy": "8,000"
+        },
+        "desc": "[ Planet Structure - Size:2, Artifact:3, Influence:1 ]<br>Also provides 300 Artifact storage.<br>Planet must be Icy: with at least 2 other distinct 'Scruuge' named structures.<br>Limit 2",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Frost Tribunal"
+            }
+        ],
+        "img": "scruugeice1.png"
+    },
+    {
+        "name": "Scruuge Gift-Shredder",
+        "target": "Player",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "44",
+            "max": "88"
+        },
+        "img": "scruugescrap1.png",
+        "desc": "[ Limited Item - Holidays ]<br>A crude device used by the Scruuge to dispose of unwanted stolen goods<br>Increases all scrapping yields by 6%<br>Lasts 44 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Scrap Yield",
+                "value": "6%",
+                "duration": "44 hours"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "3,300"
+        }
     },
     {
         "name": "Scruuge Growth Replivats",
@@ -15023,6 +15246,278 @@
         "target": "Your Planet",
         "tags": [
             "Scruuge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "25",
+            "max": "50"
+        },
+        "desc": "Upgrades an existing Scruuge Growth Vat on your planet<br>to Scruuge Growth Replivats, adding +2 Research, +1 Artifact,<br>and +15% Population. Planet must be Exotic, Relic, Terra, or Gaia",
+        "planetEffectsRandom": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Growth Vats",
+                "new": "Scruuge Growth Replivats"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Growth Vats (Doubled)",
+                "new": "Scruuge Growth Replivats (Upgraded)"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "4,000"
+        },
+        "img": "scruugegrow2.png"
+    },
+    {
+        "name": "Scruuge Growth Vats",
+        "target": "Your Planet",
+        "tags": [
+            "Scruuge"
+        ],
+        "buttonText": "Build",
+        "desc": "[ Planet Structure - Size:1, Research:2, Artifact:1, Population:5000 ]<br>If built on a planet with a Scruuge Hoarding Vault VII (or greater)<br>already constructed, all bonuses of the Vats are doubled.<br>Limit 1.",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Growth Vats (Doubled)",
+                "conditions": [
+                    {
+                        "type": "Existing Structures",
+                        "structures": [
+                            "Scruuge Hoarding Vault VII",
+                            "Scruuge Hoarding Vault VIII",
+                            "Scruuge Hoarding Vault IX",
+                            "Scruuge Hoarding Vault X",
+                            "Scruuge Hoarding Vault XI",
+                            "Scruuge Hoarding Vault XII",
+                            "Scruuge Hoarding Vault XIII",
+                            "Scruuge Hoarding Vault XIV",
+                            "Scruuge Hoarding Vault XV"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Growth Vats"
+            }
+        ],
+        "img": "scruugegrow.png"
+    },
+    {
+        "name": "Scruuge Hoarding Vault XV",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "11"
+        },
+        "tags": [
+            "Scruuge"
+        ],
+        "desc": "[ Limited Item - Holidays ]<br>[ Planet Structure - Size:2, Artifact:7, Cloak:1300 ]<br>Also Increases your total planetary artifact production capacity by 18,000 units.<br>Limit 2",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Hoarding Vault XV"
+            }
+        ],
+        "img": "svault3.png",
+        "buttonText": "Build"
+    },
+    {
+        "name": "Scruuge Hovertank",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "6"
+        },
+        "target": "Your Planet",
+        "img": "scruugetank.png",
+        "buttonText": "Build",
+        "desc": "[ Limited Item - Holidays ]<br>[ Planet Structure - Size:1, Artifact:1, Attack+15%, Defense+15% ]<br>Installs a Scruuge Hovertank on your planet.<br>Limit 1 / planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Hovertank"
+            }
+        ]
+    },
+    {
+        "name": "Scruuge Keystone II Upgrade",
+        "tags": [
+            "Scruuge"
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "24,000",
+            "max": "96,000"
+        },
+        "img": "skeystone2.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "desc": "Upgrades an existing Scruuge Keystone on your planet to a<br>Scruuge Keystone II,<br>increasing artifact and<br>research bonuses by 1, and attack by 10%.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Keystone",
+                "new": "Scruuge Keystone II"
+            }
+        ]
+    },
+    {
+        "name": "Scruuge Keystone III Upgrade",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "24,000",
+            "max": "96,000"
+        },
+        "target": "Your Planet",
+        "img": "skeystone3.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1,500"
+        },
+        "desc": "Upgrades an existing Scruuge Keystone II on your planet to a<br>Scruuge Keystone III,<br>increasing mining and<br>research bonuses by 2, and attack by 10%.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Keystone II",
+                "new": "Scruuge Keystone III"
+            }
+        ]
+    },
+    {
+        "name": "Scruuge Keystone IV Upgrade",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "24,000",
+            "max": "96,000"
+        },
+        "img": "keystone4.png",
+        "target": "Your Planet",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "2,500"
+        },
+        "desc": "Upgrades an existing Scruuge Keystone III on your planet to a<br>Scruuge Keystone IV,<br>increasing mining and<br>research bonuses by 2, artifact by 1, and attack by 10%.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Keystone III",
+                "new": "Scruuge Keystone IV"
+            }
+        ]
+    },
+    {
+        "name": "Scruuge Keystone",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "6"
+        },
+        "img": "skeystone.png",
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "desc": "[ Limited Item - Holidays ]<br>[ Planet Structure - Size:1, Artifact:1, Research:3, Attack+10% ]<br><br>Planet must have at least 20 structures already installed.<br>Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Keystone"
+            }
+        ]
+    },
+    {
+        "name": "Scruuge Keystone V Upgrade",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "27,775",
+            "max": "111,100"
+        },
+        "img": "keystone5.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "3,333"
+        },
+        "target": "Your Planet",
+        "desc": "Upgrades an existing Scruuge Keystone IV on your planet to a<br>Scruuge Keystone V,<br>increasing mining and<br>research bonuses by 2, artifact by 1, and attack by 10%.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Keystone IV",
+                "new": "Scruuge Keystone V"
+            }
+        ]
+    },
+    {
+        "name": "Scruuge Keystone VI Upgrade",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "27,775",
+            "max": "111,100"
+        },
+        "img": "keystone6.png",
+        "buttonText": "Use",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Keystone V",
+                "new": "Scruuge Keystone VI"
+            }
+        ],
+        "target": "Your Planet",
+        "desc": "Upgrades an existing Scruuge Keystone V on your planet to a<br>Scruuge Keystone VI,<br>increasing mining and<br>research bonuses by 2, artifact by 1, and attack by 10%.",
+        "cost": {
+            "energy": "5,555"
+        }
+    },
+    {
+        "name": "Scruuge Keystone VII Upgrade",
+        "tags": [
+            "Scruuge"
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "27,775",
+            "max": "111,100"
+        },
+        "img": "keystone7.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "8,888"
+        },
+        "desc": "Upgrades an existing Scruuge Keystone VI on your planet to a<br>Scruuge Keystone VII,<br>increasing mining and<br>research bonuses by 2, artifact by 1, and attack by 10%.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Scruuge Keystone VI",
+                "new": "Scruuge Keystone VII"
+            }
         ]
     },
     {
@@ -17478,6 +17973,27 @@
         "tags": [
             "Xecti"
         ]
+    },
+    {
+        "name": "Xeno-Genesis Catalyst",
+        "target": "Player",
+        "scrap": {
+            "type": "cr",
+            "min": "5,555",
+            "max": "22,200"
+        },
+        "img": "xenogen2.gif",
+        "desc": "<i>Subtly pulses with undulating energy patterns...<br>A glowing seed can be seen rotating within its core...</i><br><br>Starts a random planetary event on one of your worlds.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "420"
+        },
+        "playerEffects": [
+            {
+                "type": "Start Planetary Event"
+            }
+        ],
+        "message": "The Catalyst emits a powerful pulse of energy...."
     },
     {
         "name": "Xenoform Drone",

@@ -219,7 +219,7 @@ Elios Solar Drill (Inverter + Heliacal): 3.0
 Elios Corethune Shell v4: 3.0
 Bane Psybeacon - Mark IV: 3.0
 Bane Nether-Seal (5): 3.0
-Scruuge Cargo Launcher: 3.0
+Scruuge Cargo Launcher (Upgraded): 3.0
 Scruuge Growth Replivats (Upgraded): 3.0
 Auric Lepus Bio-Nest (2): 3.0
 Auric Lepus Bio-Nest (3): 3.0
