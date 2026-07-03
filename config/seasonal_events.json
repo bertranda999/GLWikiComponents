@@ -1018,6 +1018,62 @@
                 "dailyReward": "Scruuge",
                 "npcs": "Q-Pedd",
                 "suite": "Bane"
+            },
+            {
+                "date": "24 Jun",
+                "zone": "Civicordium",
+                "npcs": "Scruuge",
+                "supporter": "Civicordium",
+                "planetEvents": "Chuhn",
+                "terminal": "Lepus"
+            },
+            {
+                "date": "25 Jun",
+                "market": "Scruuge",
+                "npcs": "Harvest",
+                "terminal": "Chuhn",
+                "suite": "Civicordium",
+                "council": "Civicordium"
+            },
+            {
+                "date": "26 Jun",
+                "planetEvents": "Genoform",
+                "npcs": "Lepus",
+                "missions": "Harvest",
+                "scan": "Genoform",
+                "terminal": "Genoform"
+            },
+            {
+                "date": "27 Jun",
+                "terminal": "Lepus",
+                "missions": "Genoform",
+                "suite": "Scruuge",
+                "planetEvents": "Harvest",
+                "scan": "Harvest"
+            },
+            {
+                "date": "28 Jun",
+                "terminal": "Q-Pedd",
+                "missions": "Scruuge",
+                "commonArtis": "Civicordium",
+                "zone": "Chuhn",
+                "suite": "Lepus"
+            },
+            {
+                "date": "29 Jun",
+                "npcs": "Chuhn",
+                "missions": "Harvest",
+                "scan": "Bane",
+                "zone": "Chuhn",
+                "suite": "Civicordium"
+            },
+            {
+                "date": "30 Jun",
+                "dailyReward": "Q-Pedd",
+                "missions": "Lepus",
+                "market": "Bane",
+                "zone": "Chuhn",
+                "npcs": "Q-Pedd"
             }
         ],
         "additionalEffectDescription": "Various features from other Seasonal Events will randomly appear (and disappear) each day.",
@@ -1199,5 +1255,26 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Mark of Independence (2026)",
+        "start": "4 Jul 2026",
+        "end": "4 Jul 2026",
+        "dailyReward": {
+            "add": [
+                "Glyph of Independence"
+            ],
+            "remove": [
+                "All"
+            ]
+        },
+        "supporterBonus": {
+            "add": [
+                "Tower of Independence"
+            ],
+            "remove": [
+                "All"
+            ]
+        }
     }
 ]

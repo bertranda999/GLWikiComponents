@@ -1,5 +1,15 @@
 [
     {
+        "name": "Analyze",
+        "planetEffectsRandom": [
+            {
+                "type": "Start Event",
+                "event": "Reactive Barrier",
+                "message": "Planetary Analysis Success! The planet reports that a massive barrier emerged around the atmosphere, powered by the planet itself. The planet is now immune to all artifacts and abilities used by enemies."
+            }
+        ]
+    },
+    {
         "message": "The Armory begins working...",
         "desc": "Boosts your damage cap (for a random damage type) by 12% for 4 hours",
         "playerEffectsRandom": [

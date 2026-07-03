@@ -1840,5 +1840,15 @@
         "date": "18 Jun 2026",
         "type": "Initiative",
         "desc": "Alarri Forgeworks Improvements - Winner: Uldri Glome: Temporarily Unlocks 'Uldri Glome' design in the Uldri Trade Market, but reduces artifact production by 4%"
+    },
+    {
+        "date": "24 Jun 2026",
+        "type": "Initiative",
+        "desc": "VTP-5 Mutagen - Winner: Hasten Cure: Decreases Evolution Gene cooldown by 11%, but Reduces Research storage by 8%"
+    },
+    {
+        "date": "27 Jun 2026",
+        "type": "Initiative",
+        "desc": "Chancellor Election - Winner: Warlord Krassak: Expands all enemy rank ranges by 10%"
     }
 ]

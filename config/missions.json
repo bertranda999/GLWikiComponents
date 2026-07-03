@@ -363,5 +363,64 @@
         ],
         "completionText": "You have finished analyzing the spectral phenomenae..",
         "daily": "Yes"
+    },
+    {
+        "name": "Will of the Exarch",
+        "desc": "Greetings. Welcome to the Emberia system. I am Thaumeh, Exarch of Gliss Nebula. Your name crosses my desk more often as of late. Come. We have much to discuss.",
+        "cost": {
+            "energy": "22,000",
+            "Relic Badges": "2"
+        },
+        "completions": "303",
+        "daily": "Yes",
+        "roundReward": {
+            "xp": "3,900"
+        },
+        "charImage": "missions/frames/genetarr7.png",
+        "completionReward": {
+            "artifact": "Seat of the Exarch"
+        },
+        "icon": "missions/exarch2.jpg",
+        "dialogue": [
+            {
+                "char": "Care for Twisser?",
+                "player": "Come again?"
+            },
+            {
+                "char": "A plant native to Genetarris. A tea. It will clear your mind.",
+                "player": "Oh. Yes. Thank you."
+            },
+            {
+                "char": "My rule extends far beyond Genetarris, to the furthest reaches of Gliss Nebula... but I seek access to other seats.. elsewhere.",
+                "player": "You've ruled for some time."
+            },
+            {
+                "char": "Yes, I have. Not as long as Galardieh before me, but my work speaks for itself.",
+                "player": "And you seek access to my Councils?"
+            },
+            {
+                "char": "Oh, you know it is far more involved than that. I wouldn't have asked you here just for a reciprocal audience.",
+                "player": "You want votes."
+            },
+            {
+                "char": "A minority share, of course. A figure to be negotiated.",
+                "player": "You seem to be busy with quite a few councils already."
+            },
+            {
+                "char": "As will you. It is not a problem.",
+                "player": "This tea is quite nice. Thank you again."
+            },
+            {
+                "char": "You'll have to visit the Gardens before you depart from Genetarris. Twisser grows quite large here."
+            }
+        ],
+        "perRoundMessages": [
+            {
+                "type": "Guaranteed",
+                "result": "Progress",
+                "message": "You continue to negotiate with the Exarch..."
+            }
+        ],
+        "completionText": "You have established negotiations with the Exarch..."
     }
 ]

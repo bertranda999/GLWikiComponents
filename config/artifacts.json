@@ -7878,7 +7878,21 @@
                 "value": "20%",
                 "duration": "40 hours"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "37",
+            "max": "74"
+        },
+        "tags": [
+            "Chuhn"
+        ],
+        "desc": "<i>Strange, unfamiliar genetic material sourced from another Galaxy<i><br>Increases evolution gene yields by 20%<br>Lasts 40 hours",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "2,200"
+        },
+        "img": "egenes1.png"
     },
     {
         "name": "Eye of Jeminoss",
@@ -8172,7 +8186,8 @@
                 "type": "Construct Structure",
                 "structure": "Forum of Realms"
             }
-        ]
+        ],
+        "message": "The Forum of Realms has been deployed on the planet."
     },
     {
         "name": "Foulcharged Bane Emitter",
@@ -11935,7 +11950,8 @@
             "type": "ctp",
             "min": "8",
             "max": "17"
-        }
+        },
+        "message": "A Monolith of Miracles has been constructed on the planet."
     },
     {
         "name": "Morphogenic Inhibitor",
@@ -13546,7 +13562,8 @@
                 "type": "Construct Structure",
                 "structure": "Prismatrix Chamber"
             }
-        ]
+        ],
+        "message": "The Prismatrix Vault has been constructed on the planet."
     },
     {
         "name": "Prismodyne Gene Splicer",
@@ -13853,7 +13870,8 @@
         "cost": {
             "energy": "1,100",
             "influence": "1,100"
-        }
+        },
+        "message": "A Q-Pedd Ballroom has been constructed above the planet."
     },
     {
         "name": "Q-Pedd Docking Station",
@@ -15521,6 +15539,50 @@
         ]
     },
     {
+        "name": "Scruuge Logistics Plans",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,000",
+            "max": "20,000"
+        },
+        "target": "Your Planet",
+        "img": "scrlogis.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "25"
+        },
+        "desc": "[ Limited Item - Holidays ]<br>Starts a 'Scruuge Logistics' event on a planet of your choice,<br>boosting artifact output on that planet by 20%.<br>This event lasts for 6 days.",
+        "planetEffects": [
+            {
+                "type": "Increase Production",
+                "value": "20%",
+                "duration": "6 days"
+            }
+        ]
+    },
+    {
+        "name": "Scruuge Pillage Cache",
+        "tags": [
+            "Scruuge"
+        ],
+        "target": "Player",
+        "buttonText": "Open",
+        "cost": {
+            "energy": "550"
+        },
+        "img": "scruuge-crate2.png",
+        "desc": "A large cache of data and stolen goods of various types.<br>When opened, it grants 12 hours worth of planetary production,<br>not to exceed your planetary and rank capacity.",
+        "playerEffects": [
+            {
+                "type": "Grant All Resources",
+                "value": "12 hours"
+            }
+        ]
+    },
+    {
         "name": "Scruuge Plunderhaven",
         "restrictions": [
             {
@@ -15531,6 +15593,19 @@
         "target": "Your Planet",
         "tags": [
             "Scruuge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "15",
+            "max": "30"
+        },
+        "img": "plunderhaven1.gif",
+        "desc": "[ Planet Structure - Size:2, Artifact:6, Influence:1 ]<br>Also increases planetary cloaking by 22%<br>Increases energy cost to attack planet by 150%.<br>Planet must be 'Very Large' size or smaller.<br>Limit 2 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Plunderhaven"
+            }
         ]
     },
     {
@@ -15558,7 +15633,12 @@
                 "new": "Scruuge Refinery-Lab",
                 "message": "A Scruuge Lab has been upgraded to a Scruuge Refinery-Lab."
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "10,000",
+            "max": "40,000"
+        }
     },
     {
         "name": "Scruuge Thavix-Snare",
@@ -16090,7 +16170,8 @@
         "buttonText": "Use",
         "cost": {
             "energy": "5.5k"
-        }
+        },
+        "message": "You have successfully used the effect on the planet."
     },
     {
         "name": "Subquantum Tracing Console",
@@ -18046,5 +18127,89 @@
         "tags": [
             "RSL"
         ]
+    },
+    {
+        "name": "Synesthetic Fuse",
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "19"
+        },
+        "target": "Your Planet",
+        "img": "synfuse1.webp",
+        "desc": "[ Planet Structure - Size:0, Production:+2% ]<br>Planet must have 3+ Size: 0 distinct structures built.<br>Can be upgraded when at 5+ other structures. Limit 1",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Synesthetic Fuse"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "stat": "Size",
+                "statMax": "0",
+                "min": "3"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "11,000"
+        },
+        "message": "Synesthetic Fuse has been deployed on the planet."
+    },
+    {
+        "name": "Scruuge Toll-Station",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "img": "tollstation1.webp",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "550"
+        },
+        "desc": "[ Planet Structure - Size:0, Mining:1, Influence:1, All Production:+1% ]<br>Planet must have 3+ distinct Scruuge Structures to build.<br>Can be upgraded with 5+ other structures<br>Limit 1",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Toll-Station"
+            }
+        ],
+        "message": "A Scruuge Toll-Station has been constructed above the planet.",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Scruuge"
+                ],
+                "min": "3"
+            }
+        ]
+    },
+    {
+        "name": "ZX EMP Missile",
+        "scrap": {
+            "type": "cr",
+            "min": "8,000",
+            "max": "32,000"
+        },
+        "target": "Enemy Ship",
+        "img": "carjeamissile.png",
+        "buttonText": "Fire",
+        "cost": {
+            "energy": "25"
+        },
+        "desc": "[ Temporary Item - Legion Mission ]<br>Prevents a Carjean Sentry from triggering<br>an alarm while it is under attack.",
+        "enemyShipEffects": [
+            {
+                "type": "Disable All Abilities"
+            }
+        ],
+        "message": "You have successfully used the effect on: Carjean Sentry"
     }
 ]

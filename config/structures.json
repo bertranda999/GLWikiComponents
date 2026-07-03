@@ -5083,7 +5083,8 @@
         "limited": false,
         "extract": false,
         "ap": 6,
-        "ip": 2
+        "ip": 2,
+        "c": 202
     },
     {
         "name": "Court of Oracles",
@@ -6724,7 +6725,30 @@
         "bap": 1,
         "brp": 1,
         "ip": 1,
-        "bip": 1
+        "bip": 1,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Toll-Station to V2<br>Adds +2 Artifact<br>Planet must have at least 5 other Scruuge Structures.<br>Costs 5000 Energy",
+            "cost": {
+                "energy": "5,000"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Scruuge"
+                    ],
+                    "min": "5"
+                }
+            ],
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Scruuge Toll-Station v2"
+                }
+            ],
+            "message": "You successfully perform the upgrades."
+        }
     },
     {
         "name": "Scruuge Toll-Station v2",
@@ -6739,7 +6763,30 @@
         "bap": 1,
         "brp": 1,
         "ip": 1,
-        "bip": 1
+        "bip": 1,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Toll-Station to V3<br>Adds +1% production<br>Planet must have at least 7 other Scruuge Structures.<br>Costs 8000 Energy",
+            "cost": {
+                "energy": "8,000"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Scruuge"
+                    ],
+                    "min": "7"
+                }
+            ],
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Scruuge Toll-Station v3"
+                }
+            ],
+            "message": "You successfully perform the upgrades."
+        }
     },
     {
         "name": "Scruuge Toll-Station v3",
@@ -6754,7 +6801,30 @@
         "bap": 2,
         "brp": 2,
         "ip": 1,
-        "bip": 2
+        "bip": 2,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Toll-Station to V4<br>Adds +2 Mining +1 Influence<br>Planet must have at least 9 other Scruuge Structures.<br>Costs 15k Energy",
+            "cost": {
+                "energy": "15,000"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Scruuge"
+                    ],
+                    "min": "9"
+                }
+            ],
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Scruuge Toll-Station v4"
+                }
+            ],
+            "message": "You successfully perform the upgrades."
+        }
     },
     {
         "name": "Scruuge Toll-Station v4",
@@ -9988,7 +10058,29 @@
         "bmp": 2,
         "bap": 2,
         "brp": 2,
-        "bip": 2
+        "bip": 2,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Fuse to V2<br>Adds +1% Production<br>Planet must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 4400 CTP",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Synesthetic Fuse v2"
+                }
+            ],
+            "cost": {
+                "energy": "22,000",
+                "ctp": "4,400"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "Size",
+                    "statMax": "0",
+                    "min": "4"
+                }
+            ]
+        }
     },
     {
         "name": "Synesthetic Fuse v2",
@@ -10078,7 +10170,7 @@
         "limit": 1,
         "limited": true,
         "extract": false,
-        "ap": 2,
+        "ap": 3,
         "bap": 2,
         "rp": 8,
         "brp": 2,
@@ -10283,7 +10375,29 @@
         "limited": false,
         "extract": false,
         "ip": 1,
-        "bip": 2
+        "bip": 2,
+        "ability": {
+            "message": "You successfully perform the upgrades.",
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Platform to V2<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 4 disctinct Structures that provide 2+ influence.<br>Costs 4400 Influence",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Civicordium Platform v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "iph",
+                    "statMin": "2",
+                    "min": "4"
+                }
+            ],
+            "cost": {
+                "influence": "4,400"
+            }
+        }
     },
     {
         "name": "Civicordium Platform v2",
@@ -10294,7 +10408,29 @@
         "extract": false,
         "ap": 1,
         "ip": 1,
-        "bip": 3
+        "bip": 3,
+        "ability": {
+            "message": "You successfully perform the upgrades.",
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Platform to V3<br>Adds +1 Artifact +1 Influence<br>Planet must have at least 7 distinct structures that provide 2+ influence.<br>Costs 8800 Influence",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Civicordium Platform v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "iph",
+                    "statMin": "2",
+                    "min": "7"
+                }
+            ],
+            "cost": {
+                "influence": "8,800"
+            }
+        }
     },
     {
         "name": "Civicordium Platform v3",
@@ -10305,7 +10441,29 @@
         "extract": false,
         "ap": 2,
         "ip": 2,
-        "bip": 3
+        "bip": 3,
+        "ability": {
+            "message": "You successfully perform the upgrades.",
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Platform to V4<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 10 distinct Structures that provide 2+ Influence.<br>Costs 16000 Influence",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Civicordium Platform v4"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "iph",
+                    "statMin": "2",
+                    "min": "10"
+                }
+            ],
+            "cost": {
+                "influence": "16,000"
+            }
+        }
     },
     {
         "name": "Civicordium Platform v4",
