@@ -1401,7 +1401,8 @@
                 "type": "Calm",
                 "min": "6 months"
             }
-        ]
+        ],
+        "message": "The Ascendant Charter has been signed and sealed on the planet"
     },
     {
         "name": "Assembly of Tri-Unity",
@@ -1517,7 +1518,8 @@
             "type": "ctp",
             "min": "18",
             "max": "37"
-        }
+        },
+        "message": "An Atrium of Secrets has been constructed on the planet."
     },
     {
         "name": "Aurelios Star-Plant",
@@ -2633,7 +2635,8 @@
                 "type": "Size",
                 "max": "Average"
             }
-        ]
+        ],
+        "message": "A bright illumination fills the planet's orbit"
     },
     {
         "name": "Bizian Star Atlas",
@@ -6162,7 +6165,8 @@
             "type": "ctp",
             "min": "15",
             "max": "30"
-        }
+        },
+        "message": "An existing Deep-Phase Probe has been upgraded."
     },
     {
         "name": "Deroh's Megacryptex",
@@ -7026,6 +7030,7 @@
     },
     {
         "name": "Elios Soletta",
+        "message": "An Elios Soletta has been constructed above the planet.",
         "desc": "[ Limited Item - Summer ][ Planet Structure - Size: 0, Mining: 1, Artifact: 1, Mining:+3% ]<br>Planet must have 4+ Elios Structures to build.<br>Can be upgraded with 6+ structures<br>Limit 1",
         "restrictions": [
             {
@@ -8044,7 +8049,8 @@
             "type": "cr",
             "min": "12,500",
             "max": "50,000"
-        }
+        },
+        "message": "An Elios Flare Probe has been upgraded"
     },
     {
         "name": "Flux Probe",
@@ -8460,7 +8466,7 @@
     {
         "name": "Gallery of Records",
         "target": "Your Planet",
-        "desc": "Size 1, Artifact 2, Influence 1, Influence Storage 180, Artifact Storage 1800, planet must be Small or smaller*",
+        "desc": "[ Planet Structure - Size:1, Artifact:2, Influence:1 ]<br>Increases Influence storage by 180, and Artifact storage by 1800.<br>Planet must be Average size or smaller.<br>Limit 1 per planet",
         "restrictions": [
             {
                 "type": "Size",
@@ -16231,7 +16237,25 @@
         "target": "Your Planet",
         "tags": [
             "Lepus"
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "2"
+        },
+        "img": "supelinc1.webp",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "5,500"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Mining:1, Research:5, Influence:1, Population:11k ]<br>Planet must have 4 or fewer existing structures to build.<br>Includes ability to generate Evolution Genes<br>Limit 1",
+        "playerEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Supel Incubator"
+            }
+        ],
+        "message": "A Supel Incubator has been constructed on the planet."
     },
     {
         "name": "Supel Interphase Portal",
@@ -18163,6 +18187,7 @@
         "tags": [
             "Scruuge"
         ],
+        "target": "Your Planet",
         "scrap": {
             "type": "ctp",
             "min": "2",
@@ -18211,5 +18236,434 @@
             }
         ],
         "message": "You have successfully used the effect on: Carjean Sentry"
+    },
+    {
+        "name": "Glyph of Independence",
+        "message": "The device releases a surge of energy into your ship systems.",
+        "target": "Player"
+    },
+    {
+        "name": "Elios Starcore Dynamo",
+        "scrap": {
+            "type": "ctp",
+            "min": "6",
+            "max": "14"
+        },
+        "target": "Player",
+        "img": "eliospulse1.webp",
+        "buttonText": "Build",
+        "desc": "[ Limited Artifact - Summer ]<br>[ Device - Size:88 ]<br><i>A self-optimizing energy cycler used by the Elios.</i><br>Decreases ship upkeep by 5%, Increases Max Energy by 3%,<br>and Increases energy to attack your ship by 25%<br>Limit 2 / ship",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Elios Starcore Dynamo"
+            }
+        ],
+        "message": "An Elios Starcore Dynamo has been installed on your ship.",
+        "tags": [
+            "Elios"
+        ]
+    },
+    {
+        "name": "Cyclopean Lens X Upgrade",
+        "scrap": {
+            "type": "cr",
+            "min": "32,500",
+            "max": "130,000"
+        },
+        "target": "Player",
+        "img": "cyclens11.webp",
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Summer ]<br>Upgrades a Cyclopean Lens X on your ship to a Cyclopean Lens XI,<br>increasing its attack by 1600, adding a +2% Scanning Bonus, and boosting its ability bonus amount to 11% per 1500 decks",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Cyclopean Lens X",
+                "new": "Cyclopean Lens XI"
+            }
+        ],
+        "message": "Cyclopean Lens X has been upgraded",
+        "tags": [
+            "Elios"
+        ]
+    },
+    {
+        "name": "Elios Collector XII Upgrade",
+        "scrap": {
+            "type": "cr",
+            "min": "34,000",
+            "max": "136,000"
+        },
+        "target": "Player",
+        "img": "eliosgen15.webp",
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Summer ]<br>Upgrades Elios Collector XII on your ship to an Elios Collector XIII,<br>increasing energy by 600, lowering energy charge cooldown by 3 hours,<br>adding a +2% Scanning bonus, and reducing costs to influence Zones by 7%",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Elios Collector XII",
+                "new": "Elios Collector XIII"
+            }
+        ],
+        "tags": [
+            "Elios"
+        ],
+        "message": "Elios Collector XII has been upgraded to Elios Collector XIII"
+    },
+    {
+        "name": "Ignisar Systems Upgrade",
+        "scrap": {
+            "type": "cr",
+            "min": "41,000",
+            "max": "164,000"
+        },
+        "target": "Player",
+        "img": "eliosdyno1.webp",
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Summer ]<br>Upgrades Ignisar, Elios Ember, lowering its Rank 100 ability cooldown by 8 hours. Ignisar's cargo bonus also upgrades to 12%, and its Research Storage bonus to 11%.<br>Can only use when Ignisar is rank 100.",
+        "playerEffects": [
+            {
+                "type": "Upgrade Ally",
+                "original": "Ignisar, Elios Ember",
+                "new": "Ignisar, Elios Ember II"
+            }
+        ],
+        "tags": [
+            "Elios"
+        ],
+        "message": "Ignisar, Elios Ember gains an upgrade."
+    },
+    {
+        "name": "Elios Orbital Promenade",
+        "scrap": {
+            "type": "cr",
+            "min": "2",
+            "max": "5"
+        },
+        "target": "Your Planet",
+        "img": "eliosprom1.png",
+        "buttonText": "Build",
+        "desc": "[ Limited Item - Summer ]<br>[ Planet Structure - Size:0, Artifact:1, Influence:1, Influence:+3%, Population:+24% ]<br>Planet must have an existing 'Elios Soletta v2' (or higher upgrade) to build<br>Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Elios Orbital Promenade"
+            }
+        ],
+        "tags": [
+            "Elios"
+        ],
+        "message": "An Elios Orbital Promenade has been constructed above the planet.",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structures": [
+                    "Elios Soletta v2"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cyclopean Lens IX Upgrade",
+        "scrap": {
+            "type": "cr",
+            "min": "32,500",
+            "max": "130,000"
+        },
+        "target": "Player",
+        "tags": [
+            "Elios"
+        ],
+        "img": "cyclens10.gif",
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Summer ]<br>Upgrades a Cyclopean Lens IX on your ship to a Cyclopean Lens X,<br>increasing its attack by 1500, and boosting its ability bonus<br>amount to 10% per 1500 decks",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Cyclopean Lens IX",
+                "new": "Cyclopean Lens X"
+            }
+        ],
+        "message": "Cyclopean Lens IX has been upgraded"
+    },
+    {
+        "name": "Cyclopean Lens VII Upgrade",
+        "scrap": {
+            "type": "cr",
+            "min": "32,500",
+            "max": "130,000"
+        },
+        "target": "Player",
+        "tags": [
+            "Elios"
+        ],
+        "img": "cyclens8.gif",
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Summer ]<br>Upgrades a Cyclopean Lens VII on your ship to a Cyclopean Lens VIII,<br>increasing its attack by 1200, and boosting its ability bonus<br>amount to 8% per 1500 decks",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Cyclopean Lens VII",
+                "new": "Cyclopean Lens VIII"
+            }
+        ],
+        "message": "Cyclopean Lens VII has been upgraded"
+    },
+    {
+        "name": "Cyclopean Lens VIII Upgrade",
+        "scrap": {
+            "type": "cr",
+            "min": "32,500",
+            "max": "130,000"
+        },
+        "target": "Player",
+        "tags": [
+            "Elios"
+        ],
+        "img": "cyclens9.gif",
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Summer ]<br>Upgrades a Cyclopean Lens VIII on your ship to a Cyclopean Lens IX,<br>increasing its attack by 1300, and boosting its ability bonus<br>amount to 9% per 1500 decks",
+        "playerEffects": [
+            {
+                "type": "Change Module",
+                "original": "Cyclopean Lens VIII",
+                "new": "Cyclopean Lens IX"
+            }
+        ],
+        "message": "Cyclopean Lens VIII has been upgraded"
+    },
+    {
+        "name": "Aeon Spire Upgrade",
+        "target": "Your Planet",
+        "img": "aeonspire1.webp",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5,500",
+            "influence": "3,300"
+        },
+        "desc": "Upgrades an Aeon Tower on your planet to a Aeon Spire, boosting Artifact +2, Research +2, Influence by +1, and boosting Cloak +8%",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Aeon Tower",
+                "new": "Aeon Spire"
+            }
+        ],
+        "message": "An existing Aeon Tower has been upgraded.",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "2"
+        }
+    },
+    {
+        "name": "Elios Stellar Assembly",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        },
+        "buttonText": "Build",
+        "cost": {
+            "energy": "11,000"
+        },
+        "img": "eliosfusion1.webp",
+        "desc": "[ Planet Structure - Size:2, Mining:2, Artifact:2, Research:4, Influence:1 ]<br>Increases Research Storage by 550.<br>Also increases energy cost to attack planet by 150%.<br>Planet must have 5+ distinct Elios Structures to build.<br>Limit 1 per planet",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Elios"
+                ],
+                "min": "5"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Elios Stellar Assembly"
+            }
+        ],
+        "tags": [
+            "Elios"
+        ]
+    },
+    {
+        "name": "Heliosyne Refinery",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "tags": [
+            "Elios"
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "5,500"
+        },
+        "desc": "[ Planet Structure - Size:2, Mining:7 ]<br>Also increases mining production by 17%.<br>Planet must have 7+ Elios Structures to build.<br>Limit 1 per planet.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Heliosyne Refinery"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Elios"
+                ],
+                "min": "7"
+            }
+        ],
+        "img": "elioshelfac1.webp",
+        "message": "The Heliosyne Refinery has been constructed on the planet."
+    },
+    {
+        "name": "Elios Gravitic Manifold",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "tags": [
+            "Elios"
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5,500",
+            "genes": "15"
+        },
+        "desc": "[ Limited Item - Summer ]<br>Permanently increases the target planet size by 2%.<br>Can only be used on planets with at least 12<br>Elios Structures",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Elios"
+                ],
+                "min": "12"
+            }
+        ],
+        "img": "eliosmerge1.webp"
+    },
+    {
+        "name": "Zenith Mote",
+        "target": "None",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "tags": [
+            "Elios"
+        ],
+        "desc": "<i>A compressed pocket of stellar condensate collected during the latest phase of a Siladon solar Cycle.</i>",
+        "img": "elios-m4.png"
+    },
+    {
+        "name": "Elios Heat-Exchanger",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        },
+        "tags": [
+            "Elios"
+        ],
+        "img": "elioscol1.webp",
+        "desc": "[ Limited Item - Summer ]<br>[ Planet Structure - Size:1, Mining:2, Mining:+2% ]<br>Planet must have 4+ Elios Structures to build.<br>Can be upgraded with 6+ structures using more Heat-Exchangers<br>Limit 1 per planet",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Elios"
+                ],
+                "min": "4"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Elios Heat-Exchanger"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "1,111"
+        },
+        "message": "An Elios Heat-Exchanger has been constructed on the planet."
+    },
+    {
+        "name": "Ember Mote",
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "desc": "<i>A compressed pocket of stellar condensate collected during the beginning phase of a Siladon solar Cycle.</i>",
+        "target": "None",
+        "img": "elios-m1.png"
+    },
+    {
+        "name": "Spark Mote",
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "target": "None",
+        "img": "elios-m2.png",
+        "desc": "<i>A compressed pocket of stellar condensate collected during the earlier phase of a Siladon solar Cycle.</i>"
+    },
+    {
+        "name": "Flare Mote",
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "target": "None",
+        "img": "elios-m3.png",
+        "desc": "<i>A compressed pocket of stellar condensate collected during the later phase of a Siladon solar Cycle.</i>"
+    },
+    {
+        "name": "Elios Helioscope",
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "target": "Player",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "550"
+        },
+        "desc": "Aligns your combat targeting systems, temporarily increasing the number of Non-Player Enemy slots in your battle list by 4.<br>Lasts 8 hours.",
+        "playerEffects": [
+            {
+                "type": "Increase NPC Slots",
+                "value": "4",
+                "duration": "8 hours"
+            }
+        ],
+        "img": "elioscan1.png"
     }
 ]

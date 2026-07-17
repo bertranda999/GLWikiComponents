@@ -383,5 +383,10 @@
     {
         "name": "Chromathis",
         "img": "ships/chromathis-right.png"
+    },
+    {
+        "name": "Thermion",
+        "img": "ships/thermion.webp",
+        "shield": "ships/thermion-shield.webp"
     }
 ]

@@ -258,6 +258,8 @@ Domain:General
 		King of the Hill 2.0
 		Ascendant Awakening
 		The Lone Conqueror
+		Challenge Accepted
+		Challenge Fulfilled
 		
 	Section:Developer-Bestowed
 		Reality Stitching
@@ -513,6 +515,7 @@ Domain:Elios
 		Fire Within
 		Radiant Collection
 		Illuminating Collection
+		Stellar Collection
 		
 	Section:Elios Migration
 		The Elios Migration
@@ -520,6 +523,7 @@ Domain:Elios
 		
 	Section:Influence Zone
 		Migratory Claim
+		Migratory Accession
 		
 	Section:Infrastructure
 		Sparks Connected
@@ -530,6 +534,7 @@ Domain:Elios
 		Heated Infrastructure
 		Fervent Infrastructure
 		Heliothermic Adaptation
+		Thermic Infrastructure
 		
 	Section:Legion Missions
 		Bright Opportunist
@@ -546,10 +551,15 @@ Domain:Elios
 		Sparks Ignite
 		Sparking Interference
 		Sparking Dissent
+		Sparking Controversy
 		
 	Section:Other GP
 		Seeing the Light
 		Flares of Insight
+		Orbital Prestige
+		Ignition Systems
+		Starcore Intrigue
+		Power Guild Entente
 		
 	Section:Other
 		Fully Charged
@@ -560,6 +570,8 @@ Domain:Elios
 		Power Guild Agreements
 		The Elios Factions
 		Solar Compressions
+		Thermal Detection
+		Heliosyne Compression
 		
 Domain:Chuhn
 	

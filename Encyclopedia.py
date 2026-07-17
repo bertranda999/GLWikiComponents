@@ -2,6 +2,7 @@ import json
 import asyncio
 import aiofiles
 
+from collections import defaultdict
 from pathlib import Path
 
 configPath = "config/"
@@ -25,6 +26,19 @@ def structureValue(structure, field):
         return structure[field]
     else:
         return ""
+
+effectsSet = {"player":{},"yourPlanet":{},"enemyPlanet":{},"enemyShip":{},"base":{}}
+
+def addEffectsByKey(object, type, key, group):
+    for effect in object['key']:
+        if not effect['type'] in effectsSet[group]:
+            effectsSet[group][effect['type']] = []
+        
+        effectsSet[group][effect['type']].append(object)
+
+
+def addToEffects(object, type):
+    pass
 
 professions = {}
 with open(configPath + "professions.json", "r") as file:
@@ -156,6 +170,7 @@ councilToolData = {"levels":[], "costMods":[]}
 
 genesEffects = []
 startCharters = []
+structureTrees = defaultdict(list)
 
 for (name, mission) in legionMissions.items():
     for task in mission['tasks']:
@@ -349,6 +364,10 @@ for (name, structure) in structures.items():
                 structure['base'] = structures[structure['base']]['base']
             else:
                 finished = True
+        structureTrees[structure['base']].append(structure)
+    else:
+        structureTrees[name].append(structure)
+
     if 'ability' in structure:
         if 'playerEffects' in structure['ability']:
             for effect in structure['ability']['playerEffects']:
@@ -471,9 +490,8 @@ def icons(name, height=20):
     
     return f"<img height=\"{height}\" src=\"{imgPath + path}\">"
 
-def writeStructuresTableHeader(hidden = False):
-    hiddenStyle = "style=\"display: none\"" if hidden else ''
-    html = f"<div  style=\"max-height: 1000; overflow-y: auto;\"><table class=\"sortable\"><thead style=\"background: black;position: sticky; top: 0;\"><tr><th class=\"sort_a\" style=\"border: 1px solid gray;width: 100\">Name</th>"
+def writeStructuresTableHeader():
+    html = f"<div  style=\"max-height: 100%; overflow-y: auto;\"><table class=\"sortable\" style=\"overflow-y: auto;\"><thead style=\"background: black;position: sticky; top: 0;\"><tr><th class=\"sort_a\" style=\"border: 1px solid gray;width: 100\">Name</th>"
     html += "<style>{position: sticky; top: 0;background: black;}</style>"
     html += f"<th style=\"border: 1px solid gray;width: 50\">Extract</th>"
     html += f"<th style=\"border: 1px solid gray;width: 50\">Limited</th>"
@@ -503,9 +521,41 @@ def writeStructuresTableHeader(hidden = False):
     html += f"<th style=\"border: 1px solid gray;width: 20\">ES</th>"
     html += f"<th style=\"border: 1px solid gray;width: 20\">ID</th>"
     html += "</tr></thead><tbody>"
-    #if not hidden:
-    #    html += "</table>"
 
+    return html
+
+def writeStructureRow(structure):
+    source = structureSourceLink(structure)
+    html = "<tr>"
+    html += f"<td style=\"border: 1px solid gray;width: 300\"><a href=\"{source}\">{structure['name']}</a></td>"
+    html += f"<td style=\"border: 1px solid gray;width: 50\">{structure['extract']}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 50\">{structure['limited']}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 20\">{structure['limit']}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 20\">{structure['size']}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'mp')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bmp')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'mps')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'ap')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bap')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'aps')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'rp')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'brp')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'rps')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'ip')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bip')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'ips')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'at')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bat')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'd')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bd')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'p')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bp')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'c')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bc')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'ic')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'es')}</td>"
+    html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'id')}</td>"
+    html += "</tr>"
     return html
 
 async def writeStructures():
@@ -514,37 +564,8 @@ async def writeStructures():
     # html += writeStructuresTableHeader(True)
     
     for (name, structure) in structures.items():
-        source = structureSourceLink(structure)
-        html += "<tr>"
-        html += f"<td style=\"border: 1px solid gray;width: 300\"><a href=\"{source}\">{structure['name']}</a></td>"
-        html += f"<td style=\"border: 1px solid gray;width: 50\">{structure['extract']}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 50\">{structure['limited']}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 20\">{structure['limit']}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 20\">{structure['size']}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'mp')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bmp')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'mps')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'ap')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bap')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'aps')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'rp')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'brp')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'rps')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'ip')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bip')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'ips')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'at')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bat')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'd')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bd')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'p')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bp')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'c')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'bc')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'ic')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'es')}</td>"
-        html += f"<td style=\"border: 1px solid gray;width: 40\">{structureValue(structure, 'id')}</td>"
-        html += "</tr>"
+        html += writeStructureRow(structure)
+
     html += "</tbody></table></div>"
     async with aiofiles.open(outPath + "structures.html", "w") as file:
         await file.write(html)
@@ -799,7 +820,9 @@ async def writeDesignFun():
             count = 0
         designPath = imgPath + design['img']
         shieldPath = ""
-        if 'ship-base' in design['img']:
+        if 'shield' in design:
+            shieldPath = f"{imgPath}{design['shield']}"
+        elif 'ship-base' in design['img']:
             shieldPath = imgPath + design['img'].replace('ship-base', 'ship-shield').replace('-right', '')
         elif 'right' in design['img']:
             shieldPath = imgPath + design['img'].replace('right', 'shield')
@@ -1400,6 +1423,17 @@ for (name, artifact) in artifacts.items():
         artiHtml += "<h3>Legion Mission Tasks</h3>"
         for task in artifact['sources']['legionMissions']:
             artiHtml += f"{task[0]['name']}: {task[1]['name']}<br>"
+
+    if 'planetEffects' in artifact:
+        for effect in artifact['planetEffects']:
+            if effect['type'] == "Construct Structure":
+                artiHtml += "<br>"
+                artiHtml += writeStructuresTableHeader()
+
+                for structure in structureTrees[effect['structure']]:
+                    artiHtml += writeStructureRow(structure)
+
+                artiHtml += "</tbody></table><br>"
 
     if 'restrictions' in artifact:
         eligibleArtifacts = []

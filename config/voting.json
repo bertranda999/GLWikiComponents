@@ -430,13 +430,15 @@
                         "market": "Uldrinan",
                         "items": [
                             {
-                                "name": "Uldri Glome"
+                                "name": "Uldri Glome",
+                                "cost": "6",
+                                "mp": "3,200"
                             }
                         ]
                     },
                     {
                         "type": "Increase Artifact Production",
-                        "value": "4%"
+                        "value": "-4%"
                     }
                 ]
             }
@@ -490,7 +492,8 @@
         ],
         "start": "18 Jun 2026",
         "voteCooldown": "24 hours",
-        "votesRequired": "2,100"
+        "votesRequired": "2,100",
+        "winner": "Hasten Cure"
     },
     {
         "name": "Chancellor Election",
@@ -529,7 +532,8 @@
                 "desc": "Technocrat Salune leads the largest research pod congomerate across Krastis, advancing studies in cybernetics and augmentation devices. A technological preservationist, Salune believes in maintaining the history of the Galaxy's innovations.",
                 "img": "aliens/vkronyn1.png"
             }
-        ]
+        ],
+        "winner": "Warlord Krassak"
     },
     {
         "name": "Galakis Trading Guilds",
@@ -566,6 +570,270 @@
                 "effectDesc": "Increases production by 2% for Pathfinders Guild professions<br>Bonus Restricted to: Explorer, Biologist, Excavator, Physicist",
                 "icon": "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14.19,14.19L6,18L9.81,9.81L18,6M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,10.9C11.39,10.9 10.9,11.39 10.9,12C10.9,12.61 11.39,13.1 12,13.1C12.61,13.1 13.1,12.61 13.1,12C13.1,11.39 12.61,10.9 12,10.9Z\"></path></svg>"
             }
-        ]
+        ],
+        "winner": "Foundry Guild"
+    },
+    {
+        "name": "Alarri Forgeworks Improvements",
+        "desc": "The renowned Alarri Forgeworks has extended an offer to enhance regional infrastructure through a series of ambitious public works projects, in exchange for a cut of our usual production quota. The Council is weighing which deal would benefit us most.",
+        "start": "25 Jun 2026",
+        "end": "5 Jul 2026",
+        "effectDuration": "16 days",
+        "voteCooldown": "24 hours",
+        "votesRequired": "2,000",
+        "options": [
+            {
+                "name": "Aeon Spire",
+                "img": "aeonspire1.webp",
+                "desc": "Aeon Spire",
+                "effectDesc": "Temporarily Unlocks 'Aeon Spire Upgrade' design in the Aeon Market, but reduces mining production by 8%",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Items",
+                        "market": "Aeon",
+                        "items": [
+                            {
+                                "name": "Aeon Spire Upgrade",
+                                "cost": "7",
+                                "mp": "4,200"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Increase Mining Production",
+                        "value": "-8%"
+                    }
+                ]
+            },
+            {
+                "name": "House of Law",
+                "img": "houselaw1.png",
+                "desc": "House of Law",
+                "effectDesc": "Temporarily Unlocks 'House of Law Upgrade' design in the Mission Market, but reduces research production by 8%",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Items",
+                        "market": "Mission",
+                        "items": [
+                            {
+                                "name": "House of Law Upgrade"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Increase Research Production",
+                        "value": "-8%"
+                    }
+                ]
+            },
+            {
+                "name": "Uldri Glome",
+                "img": "uldglome1.webp",
+                "desc": "Uldri Glome",
+                "effectDesc": "Temporarily Unlocks 'Uldri Glome' design in the Uldri Trade Market, but reduces artifact production by 4%",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Items",
+                        "market": "Uldrinan",
+                        "items": [
+                            {
+                                "name": "Uldri Glome"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Increase Artifact Production",
+                        "value": "-4%"
+                    }
+                ]
+            }
+        ],
+        "winner": "Aeon Spire Upgrade"
+    },
+    {
+        "name": "Spacedock Union Revolt",
+        "desc": "Unrest within the core spacedock unions has escalated into coordinated shutdowns. Crews across several major shipyards have locked their assembly grids, stranding assault craft and freezing munitions output. The Council is ruling on a response to their terms...",
+        "effectDuration": "12 days",
+        "end": "14 Jul 2026",
+        "failure": "Increases all Invasion Costs by 11%",
+        "failurePlayerEffects": [
+            {
+                "type": "Modify Invasion Cost",
+                "value": "11%"
+            }
+        ],
+        "options": [
+            {
+                "name": "Increase Worker Compensation",
+                "desc": "Agree to the worker's compensation demands, quelling the uprising and raising maintenance efficiency",
+                "effectDesc": "Increases Invasion Costs by 4%, but decreases Upkeep Costs by 8%",
+                "playerEffects": [
+                    {
+                        "type": "Modify Invasion Cost",
+                        "value": "4%"
+                    },
+                    {
+                        "type": "Modify Upkeep Cost",
+                        "value": "8%"
+                    }
+                ],
+                "icon": "<svg viewBox=\"0 0 576 512\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><g transform=\"translate(148,10) scale(0.55)\"><path d=\"M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4.2-24.5.6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c-.1.1-.3.1-.4.2c-.3.2-.6.3-.9.5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5l0 35.4c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8.2-3.5.2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336l0-35.4c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4l0 3.4 0 5.7 0 26.3z\"></path></g><path d=\"M559.7 392.2c17.8-13.1 21.6-38.1 8.5-55.9s-38.1-21.6-55.9-8.5L392.6 416 272 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-16 0-78.3 0c-29.1 0-57.3 9.9-80 28L68.8 384 32 384c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l160 0 160.5 0c29 0 57.3-9.3 80.7-26.5l126.6-93.3zM193.6 384l-.9 0c.3 0 .6 0 .9 0z\"></path></svg>"
+            },
+            {
+                "name": "Retake Shipyards by Force",
+                "desc": "Reject the worker's demands, and force a military intervention to restore order to the Shipyards",
+                "effectDesc": "Reduces Invasion Costs by 8%, but reduces Influence Production by 8%",
+                "playerEffects": [
+                    {
+                        "type": "Modify Invasion Cost",
+                        "value": "8%"
+                    },
+                    {
+                        "type": "Modify Influence Production",
+                        "value": "-8%"
+                    }
+                ],
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2 13 8 18 3 16 9 23 9 17 12 23 16 17 13 21 21 14 16 12 23 10 19 4 22 9 14 1 17 6 12 1 7 8 9 5 2 11 8z\"></path></svg>"
+            },
+            {
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2L10 8H7L4 12l3 1v3l2 2v-4h2l1 6 1-6h2v4l2-2v-3l3-1-3-4h-3L12 2zm0 4l1 4h-2l1-4z\"></path></svg>",
+                "name": "Reduce Military Budgets",
+                "desc": "Wait until the Revolt dies out on its own, while reducing the need for extra munitions production.",
+                "effectDesc": "Reduces Attack by 8%, but decreases Upkeep Costs by 8%",
+                "playerEffects": [
+                    {
+                        "type": "Modify Attack",
+                        "value": "-8%"
+                    },
+                    {
+                        "type": "Modify Upkeep Cost",
+                        "value": "-8%"
+                    }
+                ]
+            }
+        ],
+        "start": "7 Jul 2026",
+        "voteCooldown": "24 hours",
+        "votesRequired": "2,600",
+        "winner": "Increase Worker Compensation"
+    },
+    {
+        "name": "Darmos Galactic Host",
+        "desc": "Darmos is seeking new hosts for the upcoming Darmos Galactic, a seasonal series of Games that brings together participants from across the Galaxy, and is trying to determine which quadrant would be the ideal choice",
+        "effectDuration": "12 days",
+        "end": "14 Jul 2026",
+        "options": [
+            {
+                "name": "Tross Quadrant",
+                "effectDesc": "Increases production by 1% for races in the Tross Quadrant<br>Bonus Restricted to: Taltherian, Uldrinan, Inergon, Konqul",
+                "playerEffects": [
+                    {
+                        "type": "Modify Production",
+                        "value": "1%"
+                    }
+                ],
+                "restrictions": [
+                    {
+                        "type": "Race",
+                        "races": [
+                            "Taltherian",
+                            "Uldrinan",
+                            "Inergon",
+                            "Konqul"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pract Quadrant",
+                "effectDesc": "Increases production by 2% for races in the Pract Quadrant<br>Bonus Restricted to: Vygoid, Litheor, Kronyn, Aerlen, Genetarr",
+                "playerEffects": [
+                    {
+                        "type": "Modify Production",
+                        "value": "2%"
+                    }
+                ],
+                "restrictions": [
+                    {
+                        "type": "Race",
+                        "races": [
+                            "Vygoid",
+                            "Litheor",
+                            "Kronyn",
+                            "Aerlen",
+                            "Genetarr"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Aether Quadrant",
+                "effectDesc": "Increases production by 2% for races in the Aether Quadrant<br>Bonus Restricted to: Human, Sillixx, Drannik, Lazuli",
+                "playerEffects": [
+                    {
+                        "type": "Modify Production",
+                        "value": "2%"
+                    }
+                ],
+                "restrictions": [
+                    {
+                        "type": "Race",
+                        "races": [
+                            "Human",
+                            "Sillixx",
+                            "Drannik",
+                            "Lazuli"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Drahj Quadrant",
+                "effectDesc": "Increases production by 3% for races in the Drahj Quadrant<br>Bonus Restricted to: Mylarai, Zolazin, Bahreen, Xecti",
+                "playerEffects": [
+                    {
+                        "type": "Modify Production",
+                        "value": "3%"
+                    }
+                ],
+                "restrictions": [
+                    {
+                        "type": "Race",
+                        "races": [
+                            "Mylarai",
+                            "Zolazin",
+                            "Bahreen",
+                            "Xecti"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "start": "7 Jul 2026",
+        "voteCooldown": "24 hours",
+        "votesRequired": "2,000",
+        "winner": "Tross Quadrant"
+    },
+    {
+        "name": "Haelon Piracy",
+        "desc": "Piracy has grown significantly along major trading lanes, especially across the Haelon Corridor, a large region outside the Galakis Perimeter. The Empyreal Core wishes to raise tariffs considerably to fund more defensive escorts, but the trading guilds are pushing back, arguing that the core should bear most of the cost for securing the regions outside of the Perimeter.",
+        "start": "13 Jul 2026",
+        "end": "20 Jul 2026",
+        "effectDuration": "12 days",
+        "options": [
+            {
+                "name": "Raise Galakis Tariffs",
+                "effectDesc": "Doubles tariff and auction charges, but increases damage cap against non-player enemies by 20%",
+                "icon": "<svg viewBox=\"0 0 576 512\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><g transform=\"translate(148,10) scale(0.55)\"><path d=\"M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4.2-24.5.6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c-.1.1-.3.1-.4.2c-.3.2-.6.3-.9.5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5l0 35.4c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8.2-3.5.2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336l0-35.4c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4l0 3.4 0 5.7 0 26.3z\"></path></g><path d=\"M559.7 392.2c17.8-13.1 21.6-38.1 8.5-55.9s-38.1-21.6-55.9-8.5L392.6 416 272 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-16 0-78.3 0c-29.1 0-57.3 9.9-80 28L68.8 384 32 384c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l160 0 160.5 0c29 0 57.3-9.3 80.7-26.5l126.6-93.3zM193.6 384l-.9 0c.3 0 .6 0 .9 0z\"></path></svg>"
+            },
+            {
+                "name": "Increase Empyreal Funding",
+                "effectDesc": "increases damage cap against non-player enemies by 15% (for races near the core)<br>Bonus Restricted to: Taltherian, Litheor, Mylarai, Sillixx",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2L10 8H7L4 12l3 1v3l2 2v-4h2l1 6 1-6h2v4l2-2v-3l3-1-3-4h-3L12 2zm0 4l1 4h-2l1-4z\"></path></svg>"
+            }
+        ],
+        "failure": "Reduces all production by 2%",
+        "votesRequired": "1,500",
+        "voteCooldown": "24 hours"
     }
 ]

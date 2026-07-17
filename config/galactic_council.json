@@ -145,6 +145,40 @@
         ]
     },
     {
+        "influence": "15,000",
+        "councilors": [
+            {
+                "name": "Stellar Prospector",
+                "desc": "A Konqul prospector specializing in Heliosyne extraction, and Elios resource recovery during council salvage sweeps.",
+                "img": "aliens/gl2-konqul9.png",
+                "race": "Konqul",
+                "reward": "Heliosyne",
+                "min": "4",
+                "max": "8",
+                "rarity": "Common",
+                "shortName": "Prospector",
+                "seasonal": "Elios"
+            }
+        ]
+    },
+    {
+        "influence": "18,000",
+        "councilors": [
+            {
+                "name": "Core Surveyor",
+                "desc": "A Litheor surveyor charting worlds seared by the Elios migration, noting optimal locations for council mining claims.",
+                "img": "aliens/gl2-litheor9.png",
+                "race": "Litheor",
+                "reward": "Elios Core Mine",
+                "min": "1",
+                "max": "2",
+                "rarity": "Common",
+                "shortName": "Surveyor",
+                "seasonal": "Elios"
+            }
+        ]
+    },
+    {
         "influence": "19,000",
         "remove": [
             "Star Chart Analyst"
@@ -191,6 +225,16 @@
                 "rarity": "Uncommon",
                 "seasonal": "Civicordium",
                 "shortName": "Minister"
+            },
+            {
+                "name": "Assembly Fabricator",
+                "desc": "A Mylarai fabricator directing council efforts to erect Stellar Assemblies along the Elios migration path.",
+                "img": "aliens/gl2-mylarai2.png",
+                "race": "Mylarai",
+                "reward": "Elios Stellar Assembly",
+                "rarity": "Uncommon",
+                "seasonal": "Elios",
+                "shortName": "Fabricator"
             }
         ]
     },

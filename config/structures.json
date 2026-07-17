@@ -10652,7 +10652,30 @@
         "extract": false,
         "mp": 1,
         "bmp": 3,
-        "ap": 1
+        "ap": 1,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Soletta to V2<br>Adds +1 Mining +1% Mining<br>Planet must have at least 6 other Elios Structures.<br>Costs 5100 Energy",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Soletta v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Elios"
+                    ],
+                    "min": "6"
+                }
+            ],
+            "cost": {
+                "energy": "5,100"
+            }
+        }
     },
     {
         "name": "Elios Soletta v2",
@@ -10663,7 +10686,30 @@
         "extract": false,
         "mp": 2,
         "bmp": 4,
-        "ap": 1
+        "ap": 1,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Soletta to V3<br>Adds +1 Artifact +1% Mining<br>Planet must have at least 8 other Elios Structures.<br>Costs 7700 Energy",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Soletta v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Elios"
+                    ],
+                    "min": "8"
+                }
+            ],
+            "cost": {
+                "energy": "7,700"
+            }
+        }
     },
     {
         "name": "Elios Soletta v3",
@@ -10674,7 +10720,30 @@
         "extract": false,
         "mp": 2,
         "bmp": 5,
-        "ap": 2
+        "ap": 2,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Soletta to V4<br>Adds +1 Mining +Artifact +1% Mining<br>Planet must have at least 10 other Elios Structures.<br>Costs 9,900 Energy",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Soletta v4"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Elios"
+                    ],
+                    "min": "10"
+                }
+            ],
+            "cost": {
+                "energy": "9,900"
+            }
+        }
     },
     {
         "name": "Elios Soletta v4",
@@ -11056,5 +11125,211 @@
         "rp": 2,
         "ip": 1,
         "bip": 2
+    },
+    {
+        "name": "Aeon Spire",
+        "size": 3,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 5,
+        "rp": 8,
+        "ip": 3,
+        "c": 550,
+        "bc": 24
+    },
+    {
+        "name": "Elios Orbital Promenade",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "ip": 1,
+        "bip": 3,
+        "bp": 24
+    },
+    {
+        "name": "Elios Stellar Assembly",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 4,
+        "rps": 550,
+        "ip": 1,
+        "es": 150
+    },
+    {
+        "name": "Heliosyne Refinery",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 7,
+        "bmp": 17
+    },
+    {
+        "name": "Elios Heat-Exchanger",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 2,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Heat-Exchanger to V2<br>Adds +1 Artifact +800 Mineral Storage +2% Mining<br>Planet must have at least 5 other distinct Elios Structures.<br>Costs 4200 Energy and 1 Heat-Exchanger in cargo",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Heat-Exchanger v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Elios"
+                    ],
+                    "min": "5"
+                }
+            ],
+            "cost": {
+                "energy": "4,200",
+                "artifacts": {
+                    "Elios Heat-Exchanger": "1"
+                }
+            }
+        }
+    },
+    {
+        "name": "Elios Heat-Exchanger v2",
+        "base": "Elios Heat-Exchanger",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 4,
+        "mps": 800,
+        "ap": 1,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Heat-Exchanger to V3<br>Adds +2 Mining +600 Mining Storage +2% Mining<br>Planet must have at least 7 distinct Elios Structures.<br>Costs 7700 Energy and 2 Elios Heat-Exchangers in cargo",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Heat-Exchanger v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Elios"
+                    ],
+                    "min": "7"
+                }
+            ],
+            "cost": {
+                "energy": "7,700",
+                "artifacts": {
+                    "Elios Heat-Exchanger": "2"
+                }
+            }
+        }
+    },
+    {
+        "name": "Elios Heat-Exchanger v3",
+        "base": "Elios Heat-Exchanger",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "bmp": 6,
+        "mps": 1400,
+        "ap": 1,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Heat-Exchanger to V4<br>Adds +2 Mining +2% Mining<br>Planet must have at least 9 distinct Elios Structures.<br>Costs 14000 Energy and 3 Elios Heat-Exchangers in cargo",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Heat-Exchanger v4"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Elios"
+                    ],
+                    "min": "9"
+                }
+            ],
+            "cost": {
+                "energy": "14,000",
+                "artifacts": {
+                    "Elios Heat-Exchanger": "3"
+                }
+            }
+        }
+    },
+    {
+        "name": "Elios Heat-Exchanger v4",
+        "base": "Elios Heat-Exchanger",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 6,
+        "bmp": 8,
+        "mps": 1400,
+        "ap": 1,
+        "ability": {
+            "name": "V5 Upgrade",
+            "desc": "Upgrades Heat-Exchanger to V5<br>Adds +2 Mining +600 Mining Storage +2% Mining<br>Planet must have at least 11 distinct Elios Structures.<br>Costs 22000 Energy and 4 Elios Heat-Exchangers in cargo",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Elios Heat-Exchanger v5"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Elios"
+                    ],
+                    "min": "11"
+                }
+            ],
+            "cost": {
+                "energy": "22,000",
+                "artifacts": {
+                    "Elios Heat-Exchanger": "4"
+                }
+            }
+        }
+    },
+    {
+        "name": "Elios Heat-Exchanger v5",
+        "base": "Elios Heat-Exchanger",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 8,
+        "bmp": 10,
+        "mps": 2000,
+        "ap": 1
     }
 ]

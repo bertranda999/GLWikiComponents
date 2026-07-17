@@ -634,5 +634,15 @@
             }
         ],
         "img": "https://galaxylegion1-1faae.kxcdn.com/images/planets/effects/mutation1.gif"
+    },
+    {
+        "name": "Thoughtweb Lattice",
+        "img": "thoughtweb1.webp",
+        "effects": [
+            {
+                "type": "Add Planet-Based Ability",
+                "abilityName": "Thoughtweb Connection"
+            }
+        ]
     }
 ]

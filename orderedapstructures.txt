@@ -1,3 +1,4 @@
+Elios Orbital Promenade: 100000
 Jeweled Sentinel v3: 100000
 Jeweled Sentinel v2: 100000
 Jeweled Sentinel: 100000
@@ -132,6 +133,7 @@ Chuhn Exo-Logistics Gridport: 6.0
 Chuhn InterMarket Caster v3: 6.0
 Astrometrics Orrery v5: 6.0
 Chuhn Star-Emporium v5: 6.0
+Thavix Geneworks v4: 6.0
 Cognizant Omni-Bank: 5.898245614035088
 Scruuge Hoarding Vault II: 5.885964912280701
 Miser's Gift-Bunker: 5.859649122807017
@@ -156,7 +158,6 @@ Auric Lepus Drone 11.0: 5.0
 Auric Lepus Drone 12.0: 5.0
 Perpetual HyperTurbine II: 5.0
 Verdant Estate v3: 5.0
-Thavix Geneworks v4: 5.0
 Forum of Realms: 5.0
 Bane Phage Sacrarium v4: 5.0
 Glimmerhold, Spectral Castle: 4.587719298245614
@@ -438,6 +439,7 @@ Polychoron Vault: 1.7543859649122806
 Galakis Transport: 1.7017543859649122
 Ardyne Hypergate: 1.6666666666666667
 Species Evolution Lab: 1.6666666666666667
+Aeon Spire: 1.6666666666666667
 Entropy Repulsor Pylon: 1.5
 Rikthar's War Forge (2): 1.5
 Elios Corethune Shell v2: 1.5
@@ -638,6 +640,11 @@ Azure Prism: 1.0
 Pyric Prism: 1.0
 Twilight Prism: 1.0
 Crystalline Portal: 1.0
+Elios Stellar Assembly: 1.0
+Elios Heat-Exchanger v2: 1.0
+Elios Heat-Exchanger v3: 1.0
+Elios Heat-Exchanger v4: 1.0
+Elios Heat-Exchanger v5: 1.0
 Proto-Matter Synthesizer: 0.8421052631578947
 Bane Nether-Seal (2): 0.75
 Hyperforge Fabricator: 0.6666666666666666

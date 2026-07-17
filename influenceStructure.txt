@@ -187,3 +187,6 @@ Crownspire, Spectral Palace
 Shardveil, Spectral Citadel
 Glimmerhold, Spectral Castle
 Uldri Glome
+Aeon Spire
+Elios Orbital Promenade
+Elios Stellar Assembly

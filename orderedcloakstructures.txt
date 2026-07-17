@@ -60,6 +60,7 @@ Meta-Tuned Jammer (2): 2000.0
 Tri-Ocular Inhibitor: 2000.0
 Ventar Field Collapser: 2000.0
 Corrupted Portal V: 2000.0
+Aeon Spire: 1783.3333333333333
 Atrium of Secrets: 1650.0
 Stryll Ghost-Uplink: 1650.0
 Void-Field Enclave (Doubled): 1616.0
@@ -176,6 +177,7 @@ Streveldan Convocation Nexus: 266.6666666666667
 Supel Interphase Portal: 266.6666666666667
 B'elna's Altar: 250.0
 Resonance Inhibitor: 250.0
+Hyperprism Chamber: 202.0
 Alarri Comm Tower - P2: 200.0
 Sub-Tachyonic Axis: 200.0
 Uldri Anomaly Crystal (Upgraded): 200.0

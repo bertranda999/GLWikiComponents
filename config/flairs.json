@@ -3,20 +3,20 @@
         "name": "Qpulse",
         "img": "flairs/qpulse.webp",
         "type": "Shield",
-        "preview": "<img id=\"flair-img-shield-qpulse\" width=\"120\" src=\"https://galaxylegion1-1faae.kxcdn.com/images/flairs/qpulse.webp\" style=\"filter:brightness(100%)\">"
+        "preview": "<img id=\"flair-img-shield-qpulse\" width=\"120\" src=\"https://static.galaxylegion.com/images/flairs/qpulse.webp\" style=\"filter:brightness(100%)\">"
     },
     {
         "name": "Civgrid",
         "img": "flairs/civgrid.webp",
         "type": "Shield",
-        "preview": "<img id=\"flair-img-shield-civgrid\" width=\"120\" src=\"https://galaxylegion1-1faae.kxcdn.com/images/flairs/civgrid.webp\" style=\"filter: brightness(100%);\">"
+        "preview": "<img id=\"flair-img-shield-civgrid\" width=\"120\" src=\"https://static.galaxylegion.com/images/flairs/civgrid.webp\" style=\"filter: brightness(100%);\">"
     },
     {
         "name": "Chromsole",
         "img": "flairs/chromsole.png",
         "type": "Name Frame",
         "style": "\"position:absolute; left: -25px; top: -15px; width:calc(100% + 50px); height:47; z-index:-1; pointer-events:none; object-fit:fill;\"",
-        "preview": "<img id=\"preview-Chromsole\" width=\"120\" src=\"https://galaxylegion1-1faae.kxcdn.com/images/flairs/chromsole.png\" style=\"filter: hue-rotate(180deg);\">"
+        "preview": "<img id=\"preview-Chromsole\" width=\"120\" src=\"https://static.galaxylegion.com/images/flairs/chromsole.png\" style=\"filter: hue-rotate(180deg);\">"
     },
     {
         "name": "Ripple",
@@ -26,7 +26,7 @@
     {
         "name": "Auric Shimmer",
         "type": "Ship Effect",
-        "preview": "<style>@keyframes efp-ec474304 {0% { background-position: -200% 0; } 20% { background-position: 100% 0; } 100% { background-position: 100% 0; } }</style><div style=\"position:relative;display:inline-block;width:90px;height:60px;\"><img id=\"auric-shimmer-img\" width=\"90\" height=\"60\" src=\"https://galaxylegion1-1faae.kxcdn.com/images/ships/abyssiod-right.png\"><div id=\"auric-shimmer-preview\" style=\"position: absolute; top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(115deg, transparent 35%, rgba(255,215,0,0.3) 45%, rgba(255,255,200,0.5) 50%, rgba(255,215,0,0.3) 55%, transparent 65%);background-size:300% 100%;pointer-events:none;animation:efp-ec474304 11s linear infinite;-webkit-mask-image:url(https://galaxylegion1-1faae.kxcdn.com/images/ships/abyssiod-right.png);mask-image:url(https://galaxylegion1-1faae.kxcdn.com/images/ships/abyssiod-right.png);-webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;\"></div></div>"
+        "preview": "<style>@keyframes efp-ec474304 {0% { background-position: -200% 0; } 20% { background-position: 100% 0; } 100% { background-position: 100% 0; } }</style><div style=\"position:relative;display:inline-block;width:90px;height:60px;\"><img id=\"auric-shimmer-img\" width=\"90\" height=\"60\" src=\"https://static.galaxylegion.com/images/ships/abyssiod-right.png\"><div id=\"auric-shimmer-preview\" style=\"position: absolute; top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(115deg, transparent 35%, rgba(255,215,0,0.3) 45%, rgba(255,255,200,0.5) 50%, rgba(255,215,0,0.3) 55%, transparent 65%);background-size:300% 100%;pointer-events:none;animation:efp-ec474304 11s linear infinite;-webkit-mask-image:url('https://static.galaxylegion.com/images/ships/abyssiod-right.png');mask-image:url('https://static.galaxylegion.com/images/ships/abyssiod-right.png');-webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;\"></div></div>"
     },
     {
         "name": "Genescan",
@@ -38,5 +38,10 @@
         "img": "flairs/prismgrid.webp",
         "type": "Shield",
         "preview": "<img id=\"flair-img-shield-prismgrid\" width=\"120\" src=\"https://static.galaxylegion.com/images/flairs/prismgrid.webp\" style=\"filter: brightness(100%);\">"
+    },
+    {
+        "name": "Fire",
+        "type": "Name Effect",
+        "preview": "<style>--bf-angle { syntax: '<angle>'; initial-value: 0deg; inherits: false; } .title-fire { color: #ffffff; } .title-fire-char { display: inline-block; color: #ffffff; animation: title-fire-a 0.7s ease-in-out infinite, title-fire-b 1.1s ease-in-out infinite, title-fire-color 0.85s ease-in-out infinite; } .title-fire-char:nth-child(odd) { animation: title-fire-a-alt 0.9s ease-in-out infinite, title-fire-b 1.3s ease-in-out infinite, title-fire-color 1.05s ease-in-out infinite; letter-spacing: 1px; } @keyframes title-fire-a { 0% { text-shadow: 0 -1px 3px rgba(255,225,40,1), 0 -5px 7px rgba(255,140,0,0.9), 0 -11px 13px rgba(255,70,0,0.65), 0 -19px 20px rgba(220,0,0,0.4); } 50% { text-shadow: -1px -3px 4px rgba(255,240,70,1), 2px -8px 9px rgba(255,120,0,0.95), -3px -16px 16px rgba(255,55,0,0.7), 3px -24px 26px rgba(200,0,0,0.45); } 100% { text-shadow: 0 -1px 3px rgba(255,225,40,1), 0 -5px 7px rgba(255,140,0,0.9), 0 -11px 13px rgba(255,70,0,0.65), 0 -19px 20px rgba(220,0,0,0.4); } } @keyframes title-fire-a-alt { 0% { text-shadow: 0 -2px 3px rgba(255,205,20,1), 0 -6px 8px rgba(255,150,0,0.9), 0 -13px 15px rgba(255,50,0,0.6), 0 -19px 19px rgba(210,0,0,0.4); } 50% { text-shadow: 1px -4px 5px rgba(255,230,55,1), -2px -10px 11px rgba(255,105,0,0.95), 3px -18px 18px rgba(255,45,0,0.7), -2px -26px 27px rgba(190,0,0,0.45); } 100% { text-shadow: 0 -2px 3px rgba(255,205,20,1), 0 -6px 8px rgba(255,150,0,0.9), 0 -13px 15px rgba(255,50,0,0.6), 0 -19px 19px rgba(210,0,0,0.4); } } @keyframes title-fire-b { 0% { filter: brightness(1); } 25% { filter: brightness(1.35); } 50% { filter: brightness(0.85); } 75% { filter: brightness(1.25); } 100% { filter: brightness(1); } } @keyframes title-fire-color { 0% { color: #ffffff; } 50% { color: #ffe9a8; } 100% { color: #ffffff; } }</style><span id=\"fire-preview\" class=\"title-fire\" style=\"font-weight:bold;\"><span class=\"title-fire-char\" style=\"animation-delay:0s\">P</span><span class=\"title-fire-char\" style=\"animation-delay:0.23s\">l</span><span class=\"title-fire-char\" style=\"animation-delay:0.07s\">a</span><span class=\"title-fire-char\" style=\"animation-delay:0.41s\">y</span><span class=\"title-fire-char\" style=\"animation-delay:0.14s\">e</span><span class=\"title-fire-char\" style=\"animation-delay:0.33s\">r</span> <span class=\"title-fire-char\" style=\"animation-delay:0.02s\">N</span><span class=\"title-fire-char\" style=\"animation-delay:0.19s\">a</span><span class=\"title-fire-char\" style=\"animation-delay:0.45s\">m</span><span class=\"title-fire-char\" style=\"animation-delay:0.09s\">e</span></span></div>"
     }
 ]

@@ -121,6 +121,7 @@ Streveldan Convocation Nexus: 266.6666666666667
 Supel Interphase Portal: 266.6666666666667
 B'elna's Altar: 250.0
 Resonance Inhibitor: 250.0
+Hyperprism Chamber: 202.0
 Alarri Comm Tower - P2: 200.0
 Sub-Tachyonic Axis: 200.0
 Uldri Anomaly Crystal (Upgraded): 200.0
@@ -139,6 +140,7 @@ Archotage Transmitter: 200.0
 Isolation Bureau (Doubled): 200.0
 Klorvis Shroud Generator: 200.0
 Aeon Tower: 183.33333333333334
+Aeon Spire: 183.33333333333334
 Bane Nether-Seal (4): 166.5
 Litheor Deep-Phase Probe: 150.0
 Ergosphere Filter: 150.0

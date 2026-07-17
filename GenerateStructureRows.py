@@ -609,7 +609,7 @@ structures: list[Structure] = [
     Structure("Human Tactical Barracks", 2, 2, False, False, ap=3, rps=1111, dp=33, atp=33, p=5000, acq=market(GP_MARKET)),
     Structure("Library of Celestial Registry", 2, 1, False, False, ap=4, rp=4, rps=1001, ip=2, ips=101, acq=market(GP_MARKET)),
     Structure("Council Chamber", 1, 2, False, False, ap=3, ip=1, acq=market(GP_MARKET)),
-    Structure("Hyperprism Chamber", 1, 2, False, False, ap=6, ip=2, acq=market(GP_MARKET)),
+    Structure("Hyperprism Chamber", 1, 2, False, False, ap=6, ip=2, c=202, acq=market(GP_MARKET)),
     Structure("Court of Oracles", 2, 1, False, False, ip=3, acq=market(GP_MARKET)),
     Structure("Q-Pedd Science Station", 2, 2, False, True, rp=3, rps=2000, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE], formDescription="Available 2012:"),
     Structure("Q-Pedd Science Station", 2, 2, False, True, "2.0", rp=3, rps=3000, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE], formDescription="Available 2013:"),
@@ -1046,7 +1046,7 @@ structures: list[Structure] = [
     Structure("Thavix Geneworks", 1, 1, True, False, ap=2, rp=7, rps=5200),
     Structure("Thavix Geneworks", 1, 1, True, False, "v2", ap=2, rp=7, rpp=2, rps=5200),
     Structure("Thavix Geneworks", 1, 1, True, False, "v3", ap=3, rp=8, rpp=2, rps=5200, ips=250),
-    Structure("Thavix Geneworks", 1, 1, True, False, "v4", ap=2, app=2, rp=8, rpp=2, rps=5200, ips=400),
+    Structure("Thavix Geneworks", 1, 1, True, False, "v4", ap=3, app=2, rp=8, rpp=2, rps=5200, ips=400),
     Structure("Covert Legation", 1, 1, True, False, rp=4, c=850),
     Structure("Covert Legation", 1, 1, True, False, "II", rp=6, ip=1, c=850, esp=42),
     Structure("Antigrav Citadel", 0, 1, False, False, rp=1, ip=1, cp=11),
@@ -1105,7 +1105,16 @@ structures: list[Structure] = [
     Structure("Jeweled Sentinel", 0, 1, False, False, "v2", mpp=4, ap=2, app=2),
     Structure("Jeweled Sentinel", 0, 1, False, False, "v3", mpp=5, ap=2, app=2, c=404),
     Structure("Crystalline Portal", 1, 1, False, False, mp=3, ap=1, rp=3, pp=22),
-    Structure("Uldri Glome", 1, 1, False, False, rp=2, ip=1, ipp=2)
+    Structure("Uldri Glome", 1, 1, False, False, rp=2, ip=1, ipp=2),
+    Structure("Aeon Spire", 3, 2, False, False, ap=5, rp=8, ip=3, c=550, cp=24),
+    Structure("Elios Orbital Promenade", 0, 1, False, False, ap=1, ip=1, ipp=3, pp=24),
+    Structure("Elios Stellar Assembly", 2, 1, False, False, mp=2, ap=2, rp=4, rps=550, ip=1, esp=150),
+    Structure("Heliosyne Refinery", 2, 1, False, False, mp=7, mpp=17),
+    Structure("Elios Heat-Exchanger", 1, 1, False, False, mp=2, mpp=2),
+    Structure("Elios Heat-Exchanger", 1, 1, False, False, "v2", mp=2, mpp=4, mps=800, ap=1),
+    Structure("Elios Heat-Exchanger", 1, 1, False, False, "v3", mp=4, mpp=6, mps=1400, ap=1),
+    Structure("Elios Heat-Exchanger", 1, 1, False, False, "v4", mp=6, mpp=8, mps=1400, ap=1),
+    Structure("Elios Heat-Exchanger", 1, 1, False, False, "v5", mp=8, mpp=10, mps=2000, ap=1),
     ]
 
 def addAbility(structureName, ability):
@@ -1150,6 +1159,69 @@ addAbility("Crystalline Portal", {"planetEffects":[{"type":"Reset Permanent Abil
 addAbility("Forgestone Prison Colony", {"name":"V2 Upgrade", "desc":"Upgrades Prison and Ability to V2.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 600+ captures.<br>Costs 22 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"600"}],"cost":{"greens":"22"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v2"}]})
 addAbility("Forgestone Prison Colony v2", {"name":"V3 Upgrade", "desc":"Upgrades Prison and Ability to V3.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 800+ captures.<br>Costs 33 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"800"}],"cost":{"greens":"33"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v3"}]})
 addAbility("Forgestone Prison Colony v3", {"name":"V4 Upgrade", "desc":"Upgrades Prison and Ability to V4.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 1000+ captures.<br>Costs 44 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"1,000"}],"cost":{"greens":"44"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v4"}]})
+addAbility("Synesthetic Fuse", {"name":"V2 Upgrade", "desc":"Upgrades Fuse to V2<br>Adds +1% Production<br>Planet must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 4400 CTP", "planetEffects":[{"type":"Upgrade","new":"Synesthetic Fuse v2"}],"cost":{"energy":"22,000","ctp":"4,400"},"restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"4"}]})
+addAbility("Civicordium Platform", {"message":"You successfully perform the upgrades.", "name":"V2 Upgrade", "desc":"Upgrades Platform to V2<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 4 disctinct Structures that provide 2+ influence.<br>Costs 4400 Influence","planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v2"}],"restrictions":[{"type":"Existing Structures","stat":"iph","statMin":"2","min":"4"}],"cost":{"influence":"4,400"}})
+addAbility("Civicordium Platform v2", {"message":"You successfully perform the upgrades.", "name":"V3 Upgrade", "desc":"Upgrades Platform to V3<br>Adds +1 Artifact +1 Influence<br>Planet must have at least 7 distinct structures that provide 2+ influence.<br>Costs 8800 Influence","planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v3"}],"restrictions":[{"type":"Existing Structures","stat":"iph","statMin":"2","min":"7"}],"cost":{"influence":"8,800"}})
+addAbility("Civicordium Platform v3", {"message":"You successfully perform the upgrades.", "name":"V4 Upgrade", "desc":"Upgrades Platform to V4<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 10 distinct Structures that provide 2+ Influence.<br>Costs 16000 Influence","planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v4"}],"restrictions":[{"type":"Existing Structures","stat":"iph","statMin":"2","min":"10"}],"cost":{"influence":"16,000"}})
+addAbility("Scruuge Toll-Station", {"name":"V2 Upgrade","desc":"Upgrades Toll-Station to V2<br>Adds +2 Artifact<br>Planet must have at least 5 other Scruuge Structures.<br>Costs 5000 Energy","cost":{"energy":"5,000"},"restrictions":[{"type":"Existing Structures","tags":["Scruuge"],"min":"5"}],"planetEffects":[{"type":"Upgrade","new":"Scruuge Toll-Station v2"}], "message":"You successfully perform the upgrades."})
+addAbility("Scruuge Toll-Station v2", {"name":"V3 Upgrade","desc":"Upgrades Toll-Station to V3<br>Adds +1% production<br>Planet must have at least 7 other Scruuge Structures.<br>Costs 8000 Energy","cost":{"energy":"8,000"},"restrictions":[{"type":"Existing Structures","tags":["Scruuge"],"min":"7"}],"planetEffects":[{"type":"Upgrade","new":"Scruuge Toll-Station v3"}], "message":"You successfully perform the upgrades."})
+addAbility("Scruuge Toll-Station v3", {"name":"V4 Upgrade","desc":"Upgrades Toll-Station to V4<br>Adds +2 Mining +1 Influence<br>Planet must have at least 9 other Scruuge Structures.<br>Costs 15k Energy","cost":{"energy":"15,000"},"restrictions":[{"type":"Existing Structures","tags":["Scruuge"],"min":"9"}],"planetEffects":[{"type":"Upgrade","new":"Scruuge Toll-Station v4"}], "message":"You successfully perform the upgrades."})
+addAbility("Elios Soletta", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Soletta to V2<br>Adds +1 Mining +1% Mining<br>Planet must have at least 6 other Elios Structures.<br>Costs 5100 Energy",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Elios Soletta v2"}],
+    "restrictions":[{"type":"Existing Structures","tags":["Elios"],"min":"6"}],
+    "cost":{"energy":"5,100"}
+})
+addAbility("Elios Soletta v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Soletta to V3<br>Adds +1 Artifact +1% Mining<br>Planet must have at least 8 other Elios Structures.<br>Costs 7700 Energy",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Elios Soletta v3"}],
+    "restrictions":[{"type":"Existing Structures","tags":["Elios"],"min":"8"}],
+    "cost":{"energy":"7,700"}
+})
+addAbility("Elios Soletta v3", {
+    "name":"V4 Upgrade",
+    "desc":"Upgrades Soletta to V4<br>Adds +1 Mining +Artifact +1% Mining<br>Planet must have at least 10 other Elios Structures.<br>Costs 9,900 Energy",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Elios Soletta v4"}],
+    "restrictions":[{"type":"Existing Structures","tags":["Elios"],"min":"10"}],
+    "cost":{"energy":"9,900"}
+})
+addAbility("Elios Heat-Exchanger", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Heat-Exchanger to V2<br>Adds +1 Artifact +800 Mineral Storage +2% Mining<br>Planet must have at least 5 other distinct Elios Structures.<br>Costs 4200 Energy and 1 Heat-Exchanger in cargo",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Elios Heat-Exchanger v2"}],
+    "restrictions":[{"type":"Existing Structures","tags":["Elios"],"min":"5"}],
+    "cost":{"energy":"4,200","artifacts":{"Elios Heat-Exchanger":"1"}}
+})
+addAbility("Elios Heat-Exchanger v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Heat-Exchanger to V3<br>Adds +2 Mining +600 Mining Storage +2% Mining<br>Planet must have at least 7 distinct Elios Structures.<br>Costs 7700 Energy and 2 Elios Heat-Exchangers in cargo",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Elios Heat-Exchanger v3"}],
+    "restrictions":[{"type":"Existing Structures","tags":["Elios"],"min":"7"}],
+    "cost":{"energy":"7,700","artifacts":{"Elios Heat-Exchanger":"2"}}
+})
+addAbility("Elios Heat-Exchanger v3", {
+    "name":"V4 Upgrade",
+    "desc":"Upgrades Heat-Exchanger to V4<br>Adds +2 Mining +2% Mining<br>Planet must have at least 9 distinct Elios Structures.<br>Costs 14000 Energy and 3 Elios Heat-Exchangers in cargo",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Elios Heat-Exchanger v4"}],
+    "restrictions":[{"type":"Existing Structures","tags":["Elios"],"min":"9"}],
+    "cost":{"energy":"14,000","artifacts":{"Elios Heat-Exchanger":"3"}}
+})
+addAbility("Elios Heat-Exchanger v4", {
+    "name":"V5 Upgrade",
+    "desc":"Upgrades Heat-Exchanger to V5<br>Adds +2 Mining +600 Mining Storage +2% Mining<br>Planet must have at least 11 distinct Elios Structures.<br>Costs 22000 Energy and 4 Elios Heat-Exchangers in cargo",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Elios Heat-Exchanger v5"}],
+    "restrictions":[{"type":"Existing Structures","tags":["Elios"],"min":"11"}],
+    "cost":{"energy":"22,000","artifacts":{"Elios Heat-Exchanger":"4"}}
+})
     
 def generateNotesStr(notes: list[int] = []):
     if len(notes) < 1:

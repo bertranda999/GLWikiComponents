@@ -53,5 +53,27 @@
                 "ability": "Interphase Transit"
             }
         ]
+    },
+    {
+        "name": "Elios Nexus",
+        "ability": {
+            "name": "Migration Awareness",
+            "playerEffects": [
+                {
+                    "type": "Grants",
+                    "artifact": "Elios Pulse-Compressor"
+                }
+            ],
+            "triggers": [
+                {
+                    "type": "Complete Daily Challenge"
+                }
+            ]
+        },
+        "bonusDesc": "When completing a Daily Challenge, you will earn an Elios Pulse-Compressor",
+        "bonusName": "Migration Awareness",
+        "desc": " Though the Elios migrate from stars across many Galactic sectors, the Corethune faction has established a foothold in this particular region, seeking to establish their influence through coordinated growth rather than brute force.",
+        "influenceCost": "120",
+        "type": "Migration Zone"
     }
 ]

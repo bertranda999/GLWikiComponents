@@ -1746,6 +1746,10 @@
         "triggers": [
             {
                 "type": "Hack"
+            },
+            {
+                "type": "Disable NPC",
+                "npc": "Elios Sparkrunner"
             }
         ],
         "img": "eliosc8.jpg"
@@ -3135,6 +3139,10 @@
         "triggers": [
             {
                 "type": "Hack"
+            },
+            {
+                "type": "Disable NPC",
+                "npc": "Elios Sparkrunner"
             }
         ],
         "img": "eliosspark1.jpg"
@@ -3147,6 +3155,10 @@
         "triggers": [
             {
                 "type": "Hack"
+            },
+            {
+                "type": "Disable NPC",
+                "npc": "Elios Sparkrunner"
             }
         ],
         "img": "sparksfly.jpg"
@@ -4037,6 +4049,10 @@
                     "Taltherian",
                     "Zolazin"
                 ]
+            },
+            {
+                "type": "Disable NPC",
+                "npc": "Elios Sparkrunner"
             }
         ],
         "img": "sparksfly.jpg"
@@ -9079,6 +9095,222 @@
         "triggers": [
             {
                 "type": "Vote"
+            }
+        ]
+    },
+    {
+        "name": "Challenge Accepted",
+        "desc": "Complete 6 different types of Mini-Games or Mini-Challenges, from any source",
+        "medalPoints": "11",
+        "artifact": "Court of Eternity",
+        "img": "nchallenge1.jpg",
+        "triggers": [
+            {
+                "type": "Mini-Game"
+            },
+            {
+                "type": "Mini-Challenge"
+            }
+        ]
+    },
+    {
+        "name": "Thermal Detection",
+        "desc": "Complete 'Signal Discovery' 5 or more times on Hard (Heatscan Mode) difficulty.",
+        "medalPoints": "12",
+        "artifact": "Elios Stellar Assembly",
+        "img": "nelios12.jpg",
+        "triggers": [
+            {
+                "type": "Mini-Challenge",
+                "challenge": "Signal Discovery"
+            }
+        ]
+    },
+    {
+        "name": "Orbital Prestige",
+        "desc": "Build an 'Elios Orbital Promenade' above planets of 5 different sizes",
+        "medalPoints": "14",
+        "artifact": "Elios Gravitic Manifold",
+        "img": "nelios14.jpg",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Elios Orbital Promenade"
+                ],
+                "count": "5"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Ignition Systems",
+        "desc": "Use an Ignisar Systems Upgrade on your Ignisar ally once they have reached Rank 100",
+        "medalPoints": "10",
+        "flair": "Fire",
+        "img": "nelios10.jpg",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Ignisar Systems Upgrade"
+                ]
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Stellar Collection",
+        "desc": "During the Elios Migration, use the following items and upgrades",
+        "medalPoints": "17",
+        "design": "Thermion",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Cyclopean Lens X Upgrade",
+                    "Elios Collector XII Upgrade"
+                ]
+            }
+        ],
+        "requiresGP": "Yes",
+        "img": "nelios2.jpg"
+    },
+    {
+        "name": "Starcore Intrigue",
+        "desc": "Install 2 Elios Starcore Dynamos on your ship",
+        "medalPoints": "11",
+        "artifact": "Elios Gravitic Manifold",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Elios Starcore Dynamo"
+            }
+        ],
+        "requiresGP": "Yes",
+        "img": "nelios1.jpg"
+    },
+    {
+        "name": "Power Guild Entente",
+        "desc": "Build an Elios Soletta on 5 different planet types that are Large (or smaller)",
+        "medalPoints": "15",
+        "artifact": "Alloy-Bound Decree",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Elios Soletta"
+            }
+        ],
+        "requiresGP": "Yes",
+        "img": "nelios13.jpg"
+    },
+    {
+        "name": "Sparking Controversy",
+        "desc": "Transfer your Sparkrunner Static to other players' ships of 14 different races (that do not already have the effect) by successfully hacking them",
+        "medalPoints": "18",
+        "artifact": "Elios Starflare",
+        "triggers": [
+            {
+                "type": "Hack"
+            },
+            {
+                "type": "Disable NPC",
+                "npc": "Elios Sparkrunner"
+            }
+        ],
+        "img": "nelios15.jpg"
+    },
+    {
+        "name": "Heliosyne Compression",
+        "desc": "Use Heliosyne to upgrade Core Mines on 8 different planet types of size Very Small (or smaller)",
+        "medalPoints": "12",
+        "artifact": "Flare Probe Propaganda Terminal",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Elios Heliosyne"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Planet Size",
+                "max": "Very Small"
+            }
+        ],
+        "img": "nelios9.jpg"
+    },
+    {
+        "name": "Migratory Accession",
+        "desc": "Contribute at least 2200 Influence within the 'Elios Migration' Zone",
+        "medalPoints": "11",
+        "artifact": "Elios Pulse-Compressor",
+        "img": "nelios3.jpg",
+        "triggers": [
+            {
+                "type": "Influence Zone",
+                "zone": "Elios Migration"
+            }
+        ]
+    },
+    {
+        "name": "Thermic Infrastructure",
+        "desc": "During the Elios Migration, Build the 8 following Elios structures on a Crystal Planet<br>Heliacal Plant, Powervault, Power Junction, Solar Drill, Core Mine, Flare Probe, Aurelios Voltarium, Corethune Shell, Stellar Assembly, Heat Exchanger",
+        "medalPoints": "15",
+        "artifact": "Elios Starflare",
+        "img": "nelios5.jpg",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Elios Heliacal Plant",
+                    "Elios Powervault",
+                    "Elios Power Junction",
+                    "Elios Solar Drill",
+                    "Elios Core Mine",
+                    "Elios Flare Probe",
+                    "Aurelios Voltarium",
+                    "Corethune Shell",
+                    "Elios Stellar Assembly",
+                    "Elios Heat Exchanger"
+                ]
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Planet Type",
+                "types": [
+                    "Crystal"
+                ]
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Challenge Fulfilled",
+        "desc": "Complete 10 different types of Mini-Games or Mini-Challenges, from any source",
+        "medalPoints": "17",
+        "img": "nchallenge2.jpg",
+        "artifact": "Court of Eternity",
+        "rewardCount": "2",
+        "triggers": [
+            {
+                "type": "Mini-Challenge"
+            },
+            {
+                "type": "Mini-Game"
+            }
+        ]
+    },
+    {
+        "name": "Sturdy Thirty",
+        "desc": "Start a Tricennium Celebration on 11 different planet types",
+        "medalPoints": "13",
+        "img": "thaum30.jpg",
+        "design": "Thaum",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Tricennium Box"
             }
         ]
     }

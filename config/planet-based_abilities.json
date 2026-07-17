@@ -530,5 +530,18 @@
                 "duration": "40 hours"
             }
         ]
+    },
+    {
+        "name": "Thoughtweb Connection",
+        "desc": "Boosts total influence production (across all planets) by 3% for 8 hours",
+        "playerEffects": [
+            {
+                "type": "Increase Influence Production",
+                "value": "3%",
+                "duration": "8 hours"
+            }
+        ],
+        "message": "A surge of thought flows through your ship.",
+        "cooldown": "6 days 16 hours"
     }
 ]

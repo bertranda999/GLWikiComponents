@@ -1850,5 +1850,66 @@
         "date": "27 Jun 2026",
         "type": "Initiative",
         "desc": "Chancellor Election - Winner: Warlord Krassak: Expands all enemy rank ranges by 10%"
+    },
+    {
+        "date": "4 Jul 2026",
+        "type": "Event",
+        "desc": "Mark of Independence event - started"
+    },
+    {
+        "date": "5 Jul 2026",
+        "type": "Initiative",
+        "desc": "Alarri Forgeworks Improvements - Winner: Aeon Spire: Temporarily Unlocks 'Aeon Spire Upgrade' design in the Aeon Market, but reduces mining production by 8%"
+    },
+    {
+        "date": "6 Jul 2026",
+        "type": "Event",
+        "desc": "The Elios Migration event - started"
+    },
+    {
+        "date": "6 Jul 2026",
+        "type": "Tweak",
+        "desc": "When starting a mission's minigame, you will sometimes get a new game type at random (from a larger pool of options)."
+    },
+    {
+        "date": "6 Jul 2026",
+        "type": "Cosmetic",
+        "desc": "Seasonal Mini-Games (such as the Siladon Cycle) now have a quick-launch button on the Missions tab while their event is active."
+    },
+    {
+        "date": "7 Jul 2026",
+        "type": "Initiative",
+        "desc": "Galakis Trading Guilds - Winner: Foundry Guild: Increases production by 2% for Foundry Guild professions"
+    },
+    {
+        "date": "10 Jul 2026",
+        "type": "Tweak",
+        "desc": "Some trickier minigames (Lights Out, Conduit Untangle, Docking Manifest) removed from the general pool of options and will be reserved only for specific future missions that carry significant rewards."
+    },
+    {
+        "date": "10 Jul 2026",
+        "type": "Tweak",
+        "desc": "Missions with multiple minigame challenge options now include a 'change' button to swap to another random option (for energy)."
+    },
+    {
+        "date": "14 Jul 2026",
+        "type": "Initiative",
+        "desc": "Spacedock Union Revolt - Winner: Increase Worker Compensation: Increases Invasion Costs by 4%, but decreases Upkeep Costs by 8%"
+    },
+    {
+        "date": "14 Jul 2026",
+        "type": "Initiative",
+        "desc": "Darmos Galactic Host - Winner: Tross Quadrant: Increases production by 1% for races in the Tross Quadrant"
+    },
+    {
+        "date": "15 Jul 2026",
+        "type": "Gift",
+        "desc": "Please join us in wishing Thaumanovic a very Happy 30th Birthday today!! Click here to claim some 'Tricennium Boxes' to celebrate!",
+        "gift": {
+            "desc": "Celebrating Thaum's 30 revolutions around the sun. Help us extend thanks for his countless contributions to Galaxy Legion!",
+            "count": "30",
+            "name": "Happy 30th Thaumanovic!",
+            "reward": "Tricennium Box"
+        }
     }
 ]
