@@ -8272,7 +8272,7 @@
     },
     {
         "name": "Channels of Apotheosis",
-        "desc": "Complete timed (daily) missions within Galaxy Legion: Apotheosis of the following types",
+        "desc": "Complete timed (daily) missions within Galaxy Legion: Apotheosis of the following types<br>Research, Social, War, Travel, Industry, Tech, Specimen",
         "medalPoints": "28",
         "design": "Volton",
         "img": "gl2mission2.jpg",

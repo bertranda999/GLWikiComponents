@@ -15,9 +15,9 @@ planetBuilderData = {"structures": [], "artifacts": [], "sizes": [], "types": []
 def normalizeName(name):
     return name.replace(" ", "").replace("?", "").replace(":", "")
 
-def structureSourceLink(structure):
+def structureSourceLink(structure, artiPath=""):
     if structure['sources']['artifacts'].__len__() > 0:
-        return "./artifacts/" + normalizeName(structure['sources']['artifacts'][0][0]['name']) + ".html"
+        return artiPath + normalizeName(structure['sources']['artifacts'][0][0]['name']) + ".html"
     else:
         return ""
 
@@ -27,17 +27,31 @@ def structureValue(structure, field):
     else:
         return ""
 
-effectsSet = {"player":{},"yourPlanet":{},"enemyPlanet":{},"enemyShip":{},"base":{}}
+effectsSet = {"playerEffects":{},"planetEffects":{},"enemyPlanetEffects":{},"enemyShipEffects":{},"baseEffects":{},"none":{"None":{}}}
 
 def addEffectsByKey(object, type, key, group):
-    for effect in object['key']:
-        if not effect['type'] in effectsSet[group]:
-            effectsSet[group][effect['type']] = []
-        
-        effectsSet[group][effect['type']].append(object)
+    for effect in object[key]:
+        if effect['type'] not in effectsSet[group]:
+            effectsSet[group][effect['type']] = {}
+        if type not in effectsSet[group][effect['type']]:
+            effectsSet[group][effect['type']][type] = []
+
+        effectsSet[group][effect['type']][type].append(object)
 
 
 def addToEffects(object, type):
+    groups = ["playerEffects", "planetEffects", "enemyPlanetEffects", "enemyShipEffects", "baseEffects"]
+    found = False
+    for group in groups:
+        for key in [group, group + "Random", group + "Conditional", group + "Choice"]:
+            if key in object:
+                addEffectsByKey(object, type, key, group)
+                found = True
+    if not found:
+        if type not in effectsSet['none']["None"]:
+            effectsSet['none']["None"][type] = []
+            effectsSet['none']
+        effectsSet['none']["None"][type].append(object)
     pass
 
 professions = {}
@@ -45,10 +59,13 @@ with open(configPath + "professions.json", "r") as file:
     professionsJson = json.load(file)
     for profession in professionsJson:
         professions[profession['name']] = profession
+        addToEffects(profession, "Profession")
 
 planetBasedAbilities = []
 with open(configPath + "planet-based_abilities.json", "r") as file:
     planetBasedAbilities = json.load(file)
+    for planetBasedAbility in planetBasedAbilities:
+        addToEffects(planetBasedAbility, "Planet-Based Ability")
 
 designs = []
 with open(configPath + "ship_designs.json", "r") as designsFile:
@@ -59,17 +76,23 @@ with open(configPath + "modules.json", "r") as modulesFile:
     modulesJson = json.load(modulesFile)
     for module in modulesJson:
         modules[module['name']] = module
+        addToEffects(module, "Module")
 
 medals = []
 with open(configPath + "medals.json", "r") as medalsFile:
     medals = json.load(medalsFile)
+    for medal in medals:
+        if 'ability' in medal:
+            addToEffects(medal['ability'], "Ability")
 
 artifacts = {}
 with open(configPath + "artifacts.json", "r") as file:
     artifactsJson = json.load(file)
     for artifact in artifactsJson:
+        addToEffects(artifact, "Artifact")
         sources = {"medals": [], "planetBasedAbilities": [], "council": [], "artifacts": [], "legionMissions": []}
         artifacts[artifact['name']] = { **artifact, "sources": sources}
+        
 
 giveaways = []
 with open(configPath + "giveaways.json", "r") as file:
@@ -92,6 +115,8 @@ with open(configPath + "structures.json", "r") as file:
         planetBuilderData['structures'].append({k: v for k, v in structure.items() if k not in ['limited']})
         sources = {"artifacts": []}
         structures[structure['name']] = {**structure, "sources": sources}
+        if 'ability' in structure:
+            addToEffects(structure['ability'], "Structure Ability")
 
 resources = []
 with open(configPath + "resources.json", "r") as file:
@@ -102,22 +127,15 @@ with open(configPath + "seasonal_events.json", "r") as file:
     seasonalsJson = json.load(file)
     for seasonal in seasonalsJson:
         seasonals[seasonal['name']]  = seasonal
+        addToEffects(seasonal, "Seasonal Condition")
 
 commonArtis = []
 with open(configPath + "common_artifacts.json", "r") as file:
     commonArtis = json.load(file)
 
-medals = []
-with open(configPath + "medals.json", "r") as file:
-    medals = json.load(file)
-
 flairs = []
 with open(configPath + "flairs.json", "r") as file:
     flairs = json.load(file)
-
-ascendancyTree = []
-with open(configPath + "ascendancy.json", "r") as file:
-    ascendancyTree = json.load(file)
 
 sortedMedalLines = []
 with open(configPath + "medal_sorting.txt", "r") as file:
@@ -128,6 +146,7 @@ with open(configPath + "races.json", "r") as file:
     racesJson = json.load(file)
     for race in racesJson:
         races[race['name']] = {**race, 'legionMedals': []}
+        addToEffects(race, "Race")
 
 planetTypes = {}
 with open(configPath + "planet_types.json", "r") as file:
@@ -141,18 +160,21 @@ with open(configPath + "petitioners_suite_actions.json", "r") as file:
     actionsJson = json.load(file)
     for action in actionsJson:
         petitionersSuite[action['name']] = action
+        addToEffects(action, "Petitioners Suite Buff")
 
 talents = {}
 with open(configPath + "ascendancy.json", "r") as file:
     talentsJson = json.load(file)
     for talent in talentsJson:
         talents[talent['name']] = talent
+        addToEffects(talent, "Talent")
 
 allies = {}
 with open(configPath + "allies.json", "r") as file:
     alliesJson = json.load(file)
     for ally in alliesJson:
         allies[ally['name']] = ally
+        addToEffects(ally, "Ally")
 
 initiatives = {}
 with open(configPath + "voting.json", "r") as file:
@@ -302,13 +324,17 @@ for (name, artifact) in artifacts.items():
             if not 'type' in effect:
                 print(f"Missing effect type: {artifact['name']}")
             if effect['type'] == 'Construct Structure':
-                structures[effect['structure']]['sources']['artifacts'].append((artifact, "Guaranteed"))
+                structureName = artifact['name']
+                if 'structure' in effect:
+                    structureName = effect['structure']
+                structures[structureName]['sources']['artifacts'].append((artifact, "Guaranteed"))
             elif effect['type'] == 'Upgrade Structure':
                 structures[effect['new']]['sources']['artifacts'].append((artifact, "Guaranteed"))
                 for planetBuilderStructure in planetBuilderData['structures']:
                     if planetBuilderStructure['name'] == effect['new']:
                         planetBuilderStructure['base'] = effect['original']
                         break
+                structures[effect['new']]['base'] = effect['original']
     elif 'planetEffectsChoice' in artifact:
         for effect in artifact['planetEffectsChoice']:
             if not 'type' in effect:
@@ -321,6 +347,7 @@ for (name, artifact) in artifacts.items():
                     if planetBuilderStructure['name'] == effect['new']:
                         planetBuilderStructure['base'] = effect['original']
                         break
+                structures[effect['new']]['base'] = effect['original']
     elif 'planetEffectsRandom' in artifact:
         for effect in artifact['planetEffectsRandom']:
             if effect['type'] == 'Construct Structure':
@@ -331,6 +358,7 @@ for (name, artifact) in artifacts.items():
                     if planetBuilderStructure['name'] == effect['new']:
                         planetBuilderStructure['base'] = effect['original']
                         break
+                structures[effect['new']]['base'] = effect['original']
     elif 'planetEffectsConditional' in artifact:
         for effect in artifact['planetEffectsConditional']:
             if effect['type'] == 'Construct Structure':
@@ -341,6 +369,7 @@ for (name, artifact) in artifacts.items():
                     if planetBuilderStructure['name'] == effect['new']:
                         planetBuilderStructure['base'] = effect['original']
                         break
+                structures[effect['new']]['base'] = effect['original']
     elif 'playerEffects' in artifact:
         for effect in artifact['playerEffects']:
             if not 'type' in effect:
@@ -524,8 +553,8 @@ def writeStructuresTableHeader():
 
     return html
 
-def writeStructureRow(structure):
-    source = structureSourceLink(structure)
+def writeStructureRow(structure, artiPath=""):
+    source = structureSourceLink(structure, artiPath)
     html = "<tr>"
     html += f"<td style=\"border: 1px solid gray;width: 300\"><a href=\"{source}\">{structure['name']}</a></td>"
     html += f"<td style=\"border: 1px solid gray;width: 50\">{structure['extract']}</td>"
@@ -564,7 +593,7 @@ async def writeStructures():
     # html += writeStructuresTableHeader(True)
     
     for (name, structure) in structures.items():
-        html += writeStructureRow(structure)
+        html += writeStructureRow(structure, "./artifacts/")
 
     html += "</tbody></table></div>"
     async with aiofiles.open(outPath + "structures.html", "w") as file:
@@ -579,6 +608,7 @@ asyncio.run(writeStructures())
 async def writeMedals():
     mp = 0
     gpMp = 0
+    unavailableMp = 0
 
     medalsHtmlTable = generateMedalTableHeader()
 
@@ -616,6 +646,8 @@ async def writeMedals():
                     mp += medalMp
                     if any(key in medal for key in ['requiresGP', 'requiresSupporterBonus']):
                         gpMp += medalMp
+                    if 'unavailable' in medal:
+                        unavailableMp += medalMp
                     
                     if 'triggers' in medal:
                         for trigger in medal['triggers']:
@@ -656,6 +688,8 @@ async def writeMedals():
         unsortedHtml = "<head><link rel=\"stylesheet\" href=\"style.css\"><script type=\"text/javascript\" charset=\"utf8\" src=\"../sorttable.js\" defer></script></head><div>"
         
         await file.write(f"{unsortedHtml}{medalsHtmlTable}</div>")
+
+    print(f"mp: {mp}, gpmp: {gpMp}, unavailablemp: {unavailableMp}")
 
     
     for medal in sortedMedals:
@@ -702,7 +736,7 @@ async def writeAscendancy():
     '''
 
     currentLevel = 0
-    for talent in ascendancyTree:
+    for _, talent in talents.items():
         if talent['level'] > currentLevel:
             if talent['level'] != 1:
                 html += "</div>"
@@ -1045,9 +1079,9 @@ async def writeBuildOrder():
                     artifactsByCount.insert(index, (artifact, restriction['max']))
                             
     for artifact in artifactsByCount:
-        html += f"<p><a href=\"./artifacts/{normalizeName(artifact[0]['name'])}.html\">{artifact[0]['name']}</a>: {artifact[0]['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+        html += f"<p><a href=\"./artifacts/{normalizeName(artifact[0]['name'])}.html\"><b>{artifact[0]['name']}</b></a>: {artifact[0]['desc'].replace('<br>', ' ') if 'desc' in artifact[0] else '(Missing Description)' }<br></p>"
 
-    html += "<h3>Artifacts / abilities that require or are improved on a New Colony</h3>"
+    html += "<br><h3>Artifacts / abilities that require or are improved on a New Colony</h3>"
 
     needInvasion = []
     attackedNewColony = []
@@ -1067,7 +1101,7 @@ async def writeBuildOrder():
                     attackedNewColony.append(artifact)
         
             if newColony and not invaded and not attacked:
-                html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
         elif 'planetEffectsConditional' in artifact:
             newColony = False
             invaded = False
@@ -1085,19 +1119,19 @@ async def writeBuildOrder():
                             attackedNewColony.append(artifact)
         
             if newColony and not invaded and not attacked:
-                html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
 
     html += "<br><h3>Artifacts / abilities that require or are improved on a Recently Attacked New Colony</h3>"
 
     for artifact in attackedNewColony:
-        html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+        html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
 
     html += "<br><h3>Artifacts / abilities that require or are improved on a planet with that has been invaded</h3>"
     for (name, artifact) in artifacts.items():
         if name == "Luring Cynosure":
             needInvasion.append(artifact)
     for artifact in needInvasion:
-        html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+        html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
 
     html += "<br><h3>Artifacts / abilities that require or are improved on a planet with a Recently Attacked status</h3>"
 
@@ -1105,7 +1139,7 @@ async def writeBuildOrder():
         if 'restrictions' in artifact:
             for restriction in artifact['restrictions']:
                 if restriction['type'] == "Calm" and 'max' in restriction:
-                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
 
     html += "<br><h3>Artifacts / abilities that require or are improved on a planet with a other scanners</h3>"
 
@@ -1113,33 +1147,33 @@ async def writeBuildOrder():
         if 'restrictions' in artifact:
             for restriction in artifact['restrictions']:
                 if restriction['type'] == "Other Scanners" and 'min' in restriction:
-                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a> ({restriction['min']}): {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a> ({restriction['min']}): {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
         if 'planetEffectsConditional' in artifact:
                 for effect in artifact['planetEffectsConditional']:
                     if 'conditions' in effect:
                         match = False
                         for condition in effect['conditions']:
                             if condition['type'] == "Other Scanners" and 'min' in condition:
-                                html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a> ({condition['min']}): {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                                html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a> ({condition['min']}): {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
                                 
     html += "<br><h3>Starter Charters (these may have other restrictions):</h3>"
 
     for charter in startCharters:
-        html += f"<p><a href=\"/artifacts/{normalizeName(charter['name'])}.html\">{charter['name']}</a>: {charter['desc'].replace('<br>', ' ') if 'desc' in charter else '(Missing Description)'}<br></p>"
+        html += f"<p><a href=\"/artifacts/{normalizeName(charter['name'])}.html\"><b>{charter['name']}</b></a>: {charter['desc'].replace('<br>', ' ') if 'desc' in charter else '(Missing Description)'}<br></p>"
 
     html += "<br><h3>Artifacts / abilities that require or are improved on a planet with a max resource availability of Extremely Abundant or less:</h3>"
     for (name, artifact) in artifacts.items():
         if 'restrictions' in artifact:
             for restriction in artifact['restrictions']:
                 if restriction['type'] == "Resource Availability" and 'max' in restriction and restriction['max'] == "EA":
-                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
 
     html += "<br><h3>Artifacts / abilities that require or are improved on a planet with a max resource availability of Rich or less:</h3>"
     for (name, artifact) in artifacts.items():
         if 'restrictions' in artifact:
             for restriction in artifact['restrictions']:
                 if restriction['type'] == "Resource Availability" and 'max' in restriction and restriction['max'] == "R":
-                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
 
     html += "<br><h3>Artifacts / abilities that are improved by having an existing structure:</h3>"
     for (name, artifact) in artifacts.items():
@@ -1148,7 +1182,7 @@ async def writeBuildOrder():
                 if 'conditions' in effect:
                     for condition in effect['conditions']:
                         if condition['type'] == 'Existing Structures':
-                            html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ')}<br></p>"
+                            html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ')}<br></p>"
 
     html += "<br><h3>Artifacts / abilities that require or are improved on a planet of a max size</h3>"
     for (name, size) in planetSizes.items():
@@ -1161,7 +1195,7 @@ async def writeBuildOrder():
                         match = False
                         for condition in effect['conditions']:
                             if condition['type'] == "Size" and ('max' in condition and condition['max'] == size['name']) or ('size' in condition and condition['size'] == size['name']):
-                                html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                                html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
                                 match = True
                                 break
                         if match:
@@ -1169,7 +1203,7 @@ async def writeBuildOrder():
             if 'restrictions' in artifact:
                 for restriction in artifact['restrictions']:
                     if restriction['type'] == "Size" and ('max' in restriction and restriction['max'] == size['name']) or ('size' in restriction and restriction['size'] == size['name']):
-                        html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\">{artifact['name']}</a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+                        html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
                         break
 
         for (name, structure) in structures.items():
@@ -1380,7 +1414,8 @@ validTargets = [
     "Planet",
     "Player",
     "Your Planet",
-    "None"
+    "None",
+    "Unoccupied Planet"
 ]
 artifactTable = {}
 
@@ -1407,7 +1442,7 @@ for (name, artifact) in artifacts.items():
             artiHtml += str(key) + ": " + artifact['cost'][key] + "<br>"
         artiHtml += "<br>"
 
-    if 'scrap' in artifact:
+    if 'scrap' in artifact and artifact['scrap']['type'] != "None":
         typeStr = "CTP" if artifact['scrap']['type'] == "ctp" else "Credits" if artifact['scrap']['type'] == "cr" else "Relic Badges" if artifact['scrap']['type'] == "relic" else "EM"
         artiHtml += f"Scrap: {artifact['scrap']['min']} - {artifact['scrap']['max']} {icons(artifact['scrap']['type'])}<br><br>"
 
@@ -1424,16 +1459,62 @@ for (name, artifact) in artifacts.items():
         for task in artifact['sources']['legionMissions']:
             artiHtml += f"{task[0]['name']}: {task[1]['name']}<br>"
 
+    structureBases = set()
     if 'planetEffects' in artifact:
         for effect in artifact['planetEffects']:
             if effect['type'] == "Construct Structure":
-                artiHtml += "<br>"
-                artiHtml += writeStructuresTableHeader()
+                structureName = artifact['name'] if not 'structure' in effect else effect['structure']
+                base = structures[structureName]['base'] if 'base' in structures[structureName] else structureName
+                structureBases.add(base)
+            elif effect['type'] == 'Upgrade Structure':
+                print(f"{effect['new']}")
+                base = structures[effect['new']]['base']
+                structureBases.add(base)
 
-                for structure in structureTrees[effect['structure']]:
-                    artiHtml += writeStructureRow(structure)
+    if 'planetEffectsConditional' in artifact:
+        for effect in artifact['planetEffectsConditional']:
+            if effect['type'] == "Construct Structure":
+                structureName = artifact['name'] if not 'structure' in effect else effect['structure']
+                base = structures[structureName]['base'] if 'base' in structures[structureName] else structureName
+                structureBases.add(base)
+            elif effect['type'] == 'Upgrade Structure':
+                base = structures[effect['new']]['base']
+                structureBases.add(base)
 
-                artiHtml += "</tbody></table><br>"
+    if 'planetEffectsRandom' in artifact:
+        for effect in artifact['planetEffectsRandom']:
+            if effect['type'] == "Construct Structure":
+                structureName = artifact['name'] if not 'structure' in effect else effect['structure']
+                base = structures[structureName]['base'] if 'base' in structures[structureName] else structureName
+                structureBases.add(base)
+            elif effect['type'] == 'Upgrade Structure':
+                print(f"{effect['new']}")
+                base = structures[effect['new']]['base']
+                structureBases.add(base)
+
+    if 'planetEffectsChoice' in artifact:
+        for effect in artifact['planetEffectsChoice']:
+            if effect['type'] == "Construct Structure":
+                structureName = artifact['name'] if not 'structure' in effect else effect['structure']
+                base = structures[structureName]['base'] if 'base' in structures[structureName] else structureName
+                structureBases.add(base)
+            elif effect['type'] == 'Upgrade Structure':
+                print(f"{effect['new']}")
+                base = structures[effect['new']]['base']
+                structureBases.add(base)
+                
+
+    if len(structureBases) > 0:
+        artiHtml += "<br><h2>Structure Info</h2>"
+        for base in structureBases:
+            artiHtml += "<br>"
+            artiHtml += writeStructuresTableHeader()
+
+            for structure in structureTrees[base]:
+                artiHtml += writeStructureRow(structure)
+
+            artiHtml += "</tbody></table><br>"
+
 
     if 'restrictions' in artifact:
         eligibleArtifacts = []
@@ -2052,4 +2133,22 @@ async def writeRank():
 
 asyncio.run(writeRank())
 
+async def writeEffectsPage(group):
+    toc = "<body style=\"color: white; background: black\"/>"
+    effectsHtml = ""
+    types = dict(sorted(effectsSet[group].items()))
+    
+    for type in types:
+        if effectsHtml != "":
+            effectsHtml += "<br>"
+        toc += f"<a href=\"#{type}\">{type}</a><br>"
+        effectsHtml += f"<h2 id=\"{type}\">{type}</h2>"
+        for sourceType in types[type]:
+            for source in types[type][sourceType]:
+                effectsHtml += f"{sourceType}: {source['name']}<br>"
 
+    async with aiofiles.open(outPath + f"{group}.html", "w") as file:
+        await file.write(toc + "<br>" + effectsHtml)
+
+for group in effectsSet:
+    asyncio.run(writeEffectsPage(group))

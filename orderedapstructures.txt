@@ -60,9 +60,9 @@ Strazi Link Anchor (1): 100000
 Galaxy Elitists: 100000
 Throne of the Revered - Mark 4: 54.0
 Throne of the Revered - Mark 3: 31.0
-Supel Chromavault 3.0: 26.464912280701753
-Supel Chromavault 2.0: 23.736842105263158
-Supel Chromavault: 21.00877192982456
+Supel ChromaVault 3.0: 26.464912280701753
+Supel ChromaVault 2.0: 23.736842105263158
+Supel ChromaVault: 21.00877192982456
 Scruuge Hoarding Vault XV: 19.289473684210527
 Scruuge Hoarding Vault XIV: 18.412280701754383
 Scruuge Hoarding Vault XIII: 17.035087719298247
@@ -134,6 +134,7 @@ Chuhn InterMarket Caster v3: 6.0
 Astrometrics Orrery v5: 6.0
 Chuhn Star-Emporium v5: 6.0
 Thavix Geneworks v4: 6.0
+Tower of Independence: 6.0
 Cognizant Omni-Bank: 5.898245614035088
 Scruuge Hoarding Vault II: 5.885964912280701
 Miser's Gift-Bunker: 5.859649122807017
@@ -283,7 +284,7 @@ Sirocco Sandspire: 2.25
 Exo-Rift Membrane Blueprint: 2.0
 Litheor Deep-Phase Probe: 2.0
 Bainar A-Node - Advanced: 2.0
-Tranquil Monolith: 2.0
+Tranquil Monolith (5%): 2.0
 Tranquil Monolith (10%): 2.0
 Tranquil Monolith (15%): 2.0
 Tranquil Monolith (20%): 2.0
@@ -447,6 +448,7 @@ Bane Nether-Seal (4): 1.5
 Seat of the Exarch: 1.5
 Seat of the Exarch (Upgraded): 1.5
 Temple of Radiance: 1.5
+Stryll Ghost-Uplink: 1.5
 Nexus Recon Spy-Hub: 1.5
 Propaganda Plex v2: 1.5
 Paralyxis Diffuser: 1.5
@@ -465,7 +467,7 @@ SubVoid Darkdrone E: 1.5
 Spire of Edenic Dominion: 1.5
 Spire of Civicordium Dominion: 1.5
 Farselle Psi-Drone: 1.3508771929824561
-Vygos Aquaseeker: 1.3333333333333333
+Vygos AquaSeeker: 1.3333333333333333
 Morphogenic Shift-Gate: 1.3333333333333333
 Morphogenic Shift-Gate (2): 1.3333333333333333
 Propaganda Plex: 1.1666666666666667
@@ -498,7 +500,7 @@ NSX Tracking Matrix: 1.0
 Sub-Tachyonic Axis: 1.0
 Lutuma Command Module: 1.0
 Oruas Predictive Disjector: 1.0
-Tri-Ocular Inhibitor: 1.0
+Tri-Occular Inhibitor: 1.0
 Zolazin Analyzer: 1.0
 Quantum Hydro-Meliorator: 1.0
 Quantum Hydro-Meliorator (Pop Doubled): 1.0
@@ -645,6 +647,8 @@ Elios Heat-Exchanger v2: 1.0
 Elios Heat-Exchanger v3: 1.0
 Elios Heat-Exchanger v4: 1.0
 Elios Heat-Exchanger v5: 1.0
+Stryll Bio-Shroud Array: 1.0
+Well of Yonayan: 1.0
 Proto-Matter Synthesizer: 0.8421052631578947
 Bane Nether-Seal (2): 0.75
 Hyperforge Fabricator: 0.6666666666666666

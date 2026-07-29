@@ -2755,7 +2755,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Tranquil Monolith]]
+| [[Tranquil Monolith|Tranquil Monolith (5%)]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 2
@@ -5225,7 +5225,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Tri-Ocular Inhibitor]]
+| [[Tri-Occular Inhibitor]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 4
@@ -7487,7 +7487,7 @@
 | align="center" | Yes
 | align="center" | No
 |-
-| [[Vygos Aquaseeker]]
+| [[Vygos AquaSeeker]]
 | align="center" | 3
 | align="center" | 2
 | align="center" | 4
@@ -8559,10 +8559,10 @@
 | align="center" | 
 | align="center" | 
 | align="center" | 
-| align="center" | 
-| align="center" | 
-| align="center" | 
 | align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 2
 | align="center" | 
 | align="center" | 
 | align="center" | 1
@@ -8572,8 +8572,8 @@
 | align="center" | 
 | align="center" | 
 | align="center" | 
-| align="center" | 1100
-| align="center" | 11
+| align="center" | 
+| align="center" | 12
 | align="center" | 
 | align="center" | 
 | align="center" | No
@@ -13597,7 +13597,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Supel Chromavault]]
+| [[Supel ChromaVault]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 
@@ -13623,7 +13623,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Supel Chromavault|Supel Chromavault 2.0]]
+| [[Supel ChromaVault|Supel ChromaVault 2.0]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 
@@ -13649,7 +13649,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Supel Chromavault|Supel Chromavault 3.0]]
+| [[Supel ChromaVault|Supel ChromaVault 3.0]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 
@@ -16977,7 +16977,7 @@
 | align="center" | Yes
 | align="center" | No
 |-
-| [[Xiphos Heist Outpost|Xiphos Heist Outpost (1)]]<sup>9</sup>
+| [[Xiphos Heist Outpost]]<sup>9</sup>
 | align="center" | 1
 | align="center" | 1
 | align="center" | 1
@@ -23269,7 +23269,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Strevelan Cohesion Pit]]
+| [[Streveldan Cohesion Pit]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 4
@@ -25426,3 +25426,133 @@
 | align="center" | 
 | align="center" | No
 | align="center" | No
+|-
+| [[Tower of Independence]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 4
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 4
+| align="center" | 
+| align="center" | 4
+| align="center" | 4
+| align="center" | 
+| align="center" | 1
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Stryll Bio-Shroud Array]]
+| align="center" | 1
+| align="center" | 2
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 404
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Temple of Reflection]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 30
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | Yes
+| align="center" | Yes
+|-
+| [[Well of Yonayan]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[XRP Warp Inhibitor]]
+| align="center" | 2
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 800
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | Yes

@@ -644,5 +644,39 @@
                 "abilityName": "Thoughtweb Connection"
             }
         ]
+    },
+    {
+        "name": "Insurgent Uprising",
+        "effects": [
+            {
+                "type": "Increase Defense",
+                "value": "-50%"
+            }
+        ],
+        "desc": "[Planet] reports that insurgents have appeared as a result of the invasion. This will reduce the effectiveness of new defenses by 50% for 1 week."
+    },
+    {
+        "name": "Elios Coronal Flare",
+        "effects": [
+            {
+                "type": "Add Planet-Based Ability",
+                "abilityName": "Flare Beacon",
+                "duration": "6 days"
+            }
+        ],
+        "desc": "[Planet] reports that their star is emitting a strange Coronal Flare... A new ability is available on the planet for 1 week.",
+        "img": "effects/eliosc1.webp"
+    },
+    {
+        "name": "Time-Split Incursion",
+        "effects": [
+            {
+                "type": "Add Planet-Based Ability",
+                "abilityName": "Time-Split",
+                "duration": "1 week"
+            }
+        ],
+        "desc": "[Planet] reports that a Time-Split Incursion has been detected on the surface. A new ability is available on the planet for 1 week.",
+        "img": "effects/timesplit1.gif"
     }
 ]

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Genetarr",
+        "homeworld": "Genetarris",
+        "faction": "Pract Union",
+        "skills": [
+            {
+                "name": "Psionic Sighted",
+                "value": "3",
+                "other": "acolyte"
+            }
+        ]
+    }
+]

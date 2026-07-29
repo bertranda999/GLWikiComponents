@@ -1,0 +1,241 @@
+[
+    {
+        "name": "Porowyn's Briefing",
+        "icon": "https://galaxylegion2.com/_next/image?url=https%3A%2F%2Fgalaxylegion2-1faae.kxcdn.com%2Fimages%2F2D%2Fsubtypes%2Fportal1.jpg&w=640&q=75",
+        "desc": "Use your comm to speak with your Mentor Porowyn, about your arrival within the Galaxy",
+        "requirement": "Speak With Porowyn",
+        "reward": {
+            "item": "Universal PowerCube",
+            "count": "2"
+        },
+        "quote": {
+            "text": "First Contact is an art, refined by past mistakes and sharpened by the resolve to not repeat them.",
+            "speaker": "Hale, Sentiox Administrator"
+        },
+        "recorded": "Recorded: 3379 May 14, 07:39",
+        "comms": [
+            {
+                "porowyn": "Well, you've finally arrived In good shape How do you feel?",
+                "options": [
+                    {
+                        "option": "Still a bit Confused.",
+                        "response": {
+                            "porowyn": "This Galaxy is called Farselle A bit further in the timeline from my last incursion point.",
+                            "options": [
+                                {
+                                    "option": "Why... now?"
+                                },
+                                {
+                                    "option": "Why send me here?",
+                                    "porowyn": "Our superiors have tasked us with gathering information on the species here. Alliances are shifting A galactic war is coming.",
+                                    "options": [
+                                        {
+                                            "option": "A war with who?",
+                                            "response": "With all of the major civilizations.. eventually. Though, they do not realize that their current peace is at risk.",
+                                            "options": [
+                                                {
+                                                    "option": "I don't remember much...",
+                                                    "response": "The Quantum Projector is still calibrating your consciousness I see you have chosen a Litheor to inhabit. Be patient while your memories and skills re-emerge",
+                                                    "options": [
+                                                        {
+                                                            "option": "Who... are you again?",
+                                                            "porowyn": "Porowyn, your primary Mentor Odd, you should already have a memory of me.. at the very least I should feel trusted and familiar One moment Let me see if I can increase the Prismodyne Energy intake.. ",
+                                                            "options": [
+                                                                {
+                                                                    "option": "I'm fine. I just need more information.",
+                                                                    "response": "I have been assigned as your personal informant here I will be assisting others in this timeline, as well, especially younglings like yourself.",
+                                                                    "options": [
+                                                                        {
+                                                                            "option": "What is our mission here?",
+                                                                            "response": "Now that we have arrived, we are to establish logistics and infrastructure for ones such as yourself.Covertly, of course.",
+                                                                            "options": [
+                                                                                {
+                                                                                    "option": "What should I do first?",
+                                                                                    "response": "Your other Mentor, Breer, will be providing you with details regarding that...",
+                                                                                    "options": [
+                                                                                        {
+                                                                                            "option": "Where do I find Breer?",
+                                                                                            "response": "They are to rendezvous with you in the Krastis Nebula.. at a planet called Gildrift, in the Viselyn System.The Kronyn civilization have a foothold there.",
+                                                                                            "options": [
+                                                                                                {
+                                                                                                    "option": "We can't contact your colleague from here?",
+                                                                                                    "response": "I.. have had difficulty contacting them Though they are quite close to a Rift, that should not interrupt our technology Strange",
+                                                                                                    "options": [
+                                                                                                        {
+                                                                                                            "option": "Should we be concerned?",
+                                                                                                            "response": "I'm not sure You should travel to Breer's location and determine what might be wrong.",
+                                                                                                            "options": [
+                                                                                                                {
+                                                                                                                    "option": "Are you able to travel with me?",
+                                                                                                                    "response": "I am not fully phased into this Galaxy like the others I am here to provide information.And.. I don't really keep my physical form in one place for extended periods.",
+                                                                                                                    "options": [
+                                                                                                                        {
+                                                                                                                            "option": "Why not?",
+                                                                                                                            "response": "My own...protection.",
+                                                                                                                            "options": [
+                                                                                                                                {
+                                                                                                                                    "option": "Where were we supposed to meet Breer, again?",
+                                                                                                                                    "response": "In the Krastis Nebula.Viselyn System.",
+                                                                                                                                    "options": [
+                                                                                                                                        {
+                                                                                                                                            "option": "On a Rift planet, correct?",
+                                                                                                                                            "response": "Yes Gildrift It will look quite distinct from the others."
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "option": "There was something else actually..."
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "option": "How do I acquire resources in these regions?",
+                                                                                                                                    "response": "What type of resources?",
+                                                                                                                                    "options": [
+                                                                                                                                        {
+                                                                                                                                            "option": "Minerals, biological samples, and gases",
+                                                                                                                                            "response": "Each resource requires distinct equipment Gases are extracted with fuel scoops, for instance.",
+                                                                                                                                            "options": [
+                                                                                                                                                {
+                                                                                                                                                    "option": "What type of equipment do ships normally use for mining?",
+                                                                                                                                                    "response": "Beings here prefer to use mineral extractors The technology allows the ship to integrate with existing mining equipment on the surface... such as strip mines.",
+                                                                                                                                                    "options": [
+                                                                                                                                                        {
+                                                                                                                                                            "option": "And biological specimens?",
+                                                                                                                                                            "response": "Bio-Extractors on the ship connect to a network of sensor data, also typically provided by the surface Used in tandem, they can efficiently find life forms."
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "option": "There was something else actually..."
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                    "option": "There was something else actually..."
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "option": "There was something else actually..."
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "option": "What... exactly... are we? Our species?",
+                                                                                                                                    "response": "The Bahreen You may be familiar, but you also may have forgotten.",
+                                                                                                                                    "options": [
+                                                                                                                                        {
+                                                                                                                                            "option": "We're a... time traveling species.",
+                                                                                                                                            "response": "One that cross easier between the full range of spacetime, yes But physical laws and complex contradictory moves by opponents...still constrain our own intentions.",
+                                                                                                                                            "options": [
+                                                                                                                                                {
+                                                                                                                                                    "option": "I remember a previous life... in a different place.",
+                                                                                                                                                    "response": "younglings like yourself will likely have experienced only a few lifetimes Which could explain why it is taking this much time for such memories to return.",
+                                                                                                                                                    "options": [
+                                                                                                                                                        {
+                                                                                                                                                            "option": "My host doesn't appear to be Bahreen...",
+                                                                                                                                                            "response": "Your host is Litheor  Your mind, for the most part, remains Bahreen.",
+                                                                                                                                                            "options": [
+                                                                                                                                                                {
+                                                                                                                                                                    "option": "For the most part?",
+                                                                                                                                                                    "response": "In order for your clone to be useful in its age, some of the skills and abilities of the host remain in your memory They should feel natural and reflexive, although they may still require practice to integrate.",
+                                                                                                                                                                    "options": [
+                                                                                                                                                                        {
+                                                                                                                                                                            "option": "Why can't I take my natural form?",
+                                                                                                                                                                            "response": "Our species best remains out of sight in this timeline You are not ready to interact on our behalf.",
+                                                                                                                                                                            "options": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "option": "What about you?",
+                                                                                                                                                                                    "response": "I have no immediate plans to manifest any further within this loop fragment I remain at the assistance of younglings arriving here.",
+                                                                                                                                                                                    "options": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "option": "You sound... strange."
+                                                                                                                                                                                        }
+                                                                                                                                                                                    ]
+                                                                                                                                                                                },
+                                                                                                                                                                                {
+                                                                                                                                                                                    "option": "I wanted to ask about..."
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                                },
+                                                                                                                                                                {
+                                                                                                                                                                    "option": "I wanted to ask about..."
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "option": "You sound... strange.",
+                                                                                                                                                            "response": "My audio voice? The communications device synthesizes and translates my thoughts from the timestream I'm afraid the Quantum Projector cannot provide a higher resolution of...inflection.",
+                                                                                                                                                            "options": [
+                                                                                                                                                                {
+                                                                                                                                                                    "option": "Oh, I suppose I can get used to it.",
+                                                                                                                                                                    "response": "Feel free to adjust how I may sound As long as our communications remain clear and understood, it makes no difference to me.",
+                                                                                                                                                                    "options": [
+                                                                                                                                                                        {
+                                                                                                                                                                            "option": "That's all for now."
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                                },
+                                                                                                                                                                {
+                                                                                                                                                                    "option": "Let's discuss something else..."
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "option": "That's all for now."
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                    "option": "There was something else actually..."
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "option": ""
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "option": ""
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "option": "What kind of infrastructure?"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "option": "My Mentor?"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "option": "Where...are we?"
+                    }
+                ]
+            }
+        ]
+    }
+]

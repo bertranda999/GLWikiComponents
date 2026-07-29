@@ -260,6 +260,7 @@ Domain:General
 		The Lone Conqueror
 		Challenge Accepted
 		Challenge Fulfilled
+		Sturdy Thirty
 		
 	Section:Developer-Bestowed
 		Reality Stitching

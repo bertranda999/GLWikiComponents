@@ -22,7 +22,7 @@ Ardyne Hypergate
 Ardyne Hypergate (Upgraded)
 Seat of the Exarch
 Seat of the Exarch (Upgraded)
-Vygos Aquaseeker
+Vygos AquaSeeker
 Temple of Radiance
 Cognitor Forum
 Sirocco Sandspire
@@ -63,9 +63,9 @@ Hyperprism Chamber
 Court of Oracles
 Streveldan Convocation Nexus
 Supel Interphase Portal
-Supel Chromavault
-Supel Chromavault 2.0
-Supel Chromavault 3.0
+Supel ChromaVault
+Supel ChromaVault 2.0
+Supel ChromaVault 3.0
 Genoform Reservoir
 Genoform Reservoir II
 Phylogenetic Core
@@ -190,3 +190,4 @@ Uldri Glome
 Aeon Spire
 Elios Orbital Promenade
 Elios Stellar Assembly
+Tower of Independence

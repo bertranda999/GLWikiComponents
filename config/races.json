@@ -61,7 +61,7 @@
         "bonus": "10% bonus to experience gains",
         "playerEffects": [
             {
-                "type": "Increase Experience",
+                "type": "Increase XP",
                 "value": "10%"
             }
         ],
@@ -96,7 +96,7 @@
         "name": "Inergon",
         "playerEffects": [
             {
-                "effectType": "Increase Energy",
+                "type": "Increase Energy",
                 "value": "10%"
             }
         ],

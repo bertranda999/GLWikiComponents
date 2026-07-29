@@ -927,7 +927,8 @@
         "c": 100
     },
     {
-        "name": "Tranquil Monolith",
+        "name": "Tranquil Monolith (5%)",
+        "base": "Tranquil Monolith",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -2004,7 +2005,7 @@
         "c": 800
     },
     {
-        "name": "Tri-Ocular Inhibitor",
+        "name": "Tri-Occular Inhibitor",
         "size": 1,
         "limit": 1,
         "limited": true,
@@ -2480,7 +2481,7 @@
         "ability": {
             "name": "Neutron-Process",
             "desc": "Gain a random Neutronium-based artifact.<br>Requires 420 Neutronium and 42000 Energy",
-            "planetEffectsRandom": [
+            "playerEffectsRandom": [
                 {
                     "type": "Grants",
                     "artifact": "Thavix Catalyst"
@@ -2962,7 +2963,7 @@
         "ips": 111
     },
     {
-        "name": "Vygos Aquaseeker",
+        "name": "Vygos AquaSeeker",
         "size": 3,
         "limit": 2,
         "limited": true,
@@ -3400,10 +3401,10 @@
         "limit": 1,
         "limited": false,
         "extract": false,
-        "rp": 3,
+        "ap": 3,
+        "rp": 2,
         "ip": 1,
-        "c": 1100,
-        "bc": 11
+        "bc": 12
     },
     {
         "name": "Scruuge Calibration Plant",
@@ -5677,7 +5678,7 @@
         "c": 800
     },
     {
-        "name": "Supel Chromavault",
+        "name": "Supel ChromaVault",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -5691,8 +5692,8 @@
         "bip": 5
     },
     {
-        "name": "Supel Chromavault 2.0",
-        "base": "Supel Chromavault",
+        "name": "Supel ChromaVault 2.0",
+        "base": "Supel ChromaVault",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -5707,8 +5708,8 @@
         "c": 700
     },
     {
-        "name": "Supel Chromavault 3.0",
-        "base": "Supel Chromavault",
+        "name": "Supel ChromaVault 3.0",
+        "base": "Supel ChromaVault",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -7242,8 +7243,7 @@
         "ips": 101
     },
     {
-        "name": "Xiphos Heist Outpost (1)",
-        "base": "Xiphos Heist Outpost",
+        "name": "Xiphos Heist Outpost",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -9980,7 +9980,7 @@
         "bc": 14
     },
     {
-        "name": "Strevelan Cohesion Pit",
+        "name": "Streveldan Cohesion Pit",
         "size": 1,
         "limit": 1,
         "limited": false,
@@ -10011,7 +10011,30 @@
         "mp": 1,
         "ap": 1,
         "rp": 1,
-        "c": 404
+        "c": 404,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Singularium to V2<br>Adds +1 Mining / Research<br>Planets must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 1800 Neutronium",
+            "message": "",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Veon Singularium v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "Size",
+                    "statMax": "0",
+                    "min": "4"
+                }
+            ],
+            "cost": {
+                "energy": "22k",
+                "neut": "1,800"
+            }
+        }
     },
     {
         "name": "Veon Singularium v2",
@@ -11108,6 +11131,7 @@
         "rp": 3,
         "bp": 22,
         "ability": {
+            "name": "Crystalline Portal",
             "planetEffects": [
                 {
                     "type": "Reset Permanent Ability"
@@ -11331,5 +11355,57 @@
         "bmp": 10,
         "mps": 2000,
         "ap": 1
+    },
+    {
+        "name": "Tower of Independence",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "bmp": 4,
+        "bap": 4,
+        "rp": 4,
+        "brp": 4,
+        "ip": 1,
+        "bip": 4
+    },
+    {
+        "name": "Stryll Bio-Shroud Array",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "c": 404,
+        "ic": 2
+    },
+    {
+        "name": "Temple of Reflection",
+        "size": 1,
+        "limit": 1,
+        "limited": true,
+        "extract": true,
+        "rp": 3,
+        "bd": 30
+    },
+    {
+        "name": "Well of Yonayan",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1
+    },
+    {
+        "name": "XRP Warp Inhibitor",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": true,
+        "d": 800
     }
 ]

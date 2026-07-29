@@ -834,6 +834,143 @@
         ],
         "failure": "Reduces all production by 2%",
         "votesRequired": "1,500",
-        "voteCooldown": "24 hours"
+        "voteCooldown": "24 hours",
+        "winner": "Increase Empyreal Funding"
+    },
+    {
+        "name": "Chancellor Election",
+        "start": "18 Jul 2026",
+        "desc": "Allied Governments once again wish to elect a Galactic Chancellor to represent their shared interests, and advance the goals of the greater regions",
+        "effectDuration": "14 days",
+        "end": "24 Jul 2026",
+        "voteCooldown": "24 hours",
+        "votesRequired": "500",
+        "options": [
+            {
+                "name": "Ambassador Thelaru",
+                "img": "aliens/vaerlen1.png",
+                "desc": "A career diplomat from icy Roathir, the Aerlen homeworld, Thelaru has brokered more treaties than any living ambassador, although they are on their 8th clone variant. Thelaru aims to prioritize genetic advancements by redirecting research resources.",
+                "effectDesc": "Increases Evolution Gene yields by 11% and reduces Genes cooldown by 11%, but reduces research production by 18%",
+                "playerEffects": [
+                    {
+                        "type": "Increase Genes Production",
+                        "value": "11%"
+                    },
+                    {
+                        "type": "Decrease Grow Genes Cooldown",
+                        "value": "11%"
+                    },
+                    {
+                        "type": "Increase Research Production",
+                        "value": "-18%"
+                    }
+                ]
+            },
+            {
+                "name": "Director Vynn-7",
+                "img": "aliens/vvygoid1.png",
+                "desc": "Once a Supreme Governor on Vygos, Vynn-7 has since overseen the optimization of the entire Mechanon Hyper-Network... though many of these new efficiencies can only be realized through cybernetic interfaces.",
+                "effectDesc": "Increases all production by 2% for cybernetic races<br>Bonus Restricted to: Vygoid, Zolazin, Drannik",
+                "playerEffects": [
+                    {
+                        "type": "Increase Production",
+                        "value": "2%"
+                    }
+                ],
+                "restrictions": [
+                    {
+                        "type": "Race",
+                        "races": [
+                            "Vygoid",
+                            "Zolazin",
+                            "Drannik"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Senator Marcus Dale",
+                "img": "aliens/vhuman1.png",
+                "desc": "A centrist politician from the Sol Protectorate, Dale has a long decorated career, especially known for successfully ratifying treaties with other factions and governments over territory sharing and border control",
+                "effectDesc": "Decreases colonization costs by 42%, but increases invasion costs by 11%",
+                "playerEffects": [
+                    {
+                        "type": "Decrease Colonization Cost",
+                        "value": "42%"
+                    },
+                    {
+                        "type": "Decrease Invasion Cost",
+                        "value": "11%"
+                    }
+                ]
+            },
+            {
+                "name": "Luminary Oreth",
+                "img": "aliens/vlitheor1.png",
+                "desc": "An ancient Litheor sage who has witnessed the rise and fall of empires. Oreth counsels patience and renewal, drawing on millennia of accumulated wisdom.",
+                "effectDesc": "Exotic Matter is 42% more common during mineral acquisition, but mineral storage is reduced by 15%",
+                "playerEffects": [
+                    {
+                        "type": "Increase EM Gains",
+                        "value": "42%"
+                    },
+                    {
+                        "type": "Increase Mineral Storage",
+                        "value": "-15%"
+                    }
+                ]
+            }
+        ],
+        "winner": "Ambassador Thelaru"
+    },
+    {
+        "name": "The Nythic Breach",
+        "start": "27 Jul 2026",
+        "desc": "An unusual and highly-volatile energy rift has appeared near the Tenebris region, expanding towards Ardyne and the Uldrinan Expanse. Feedback from the anomaly grows, and engineers are concerned it could destabilize sensor networks if it is not closed in time. Scientists hope to allow the rift to remain open long enough to study it...",
+        "effectDuration": "12 days",
+        "end": "10 Aug 2026",
+        "voteCooldown": "24 hours",
+        "failure": "Reduces all Scanning by 13%",
+        "failurePlayerEffects": [
+            {
+                "type": "Increase Scan",
+                "value": "-13%"
+            }
+        ],
+        "votesRequired": "2,800",
+        "options": [
+            {
+                "name": "Close the Breach",
+                "effectDesc": "Increases all Influence Production by 6%, but decreases Max Energy by 5%",
+                "desc": "Instructs the fleet to coordinate a serious of High-Intensity pulses at the Rift, closing it before it can grow further.",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"5\"></circle><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"></line><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"></line><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"></line><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"></line><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"></line><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"></line><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"></line><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"></line></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Influence",
+                        "value": "6%"
+                    },
+                    {
+                        "type": "Increase Energy",
+                        "value": "-5%"
+                    }
+                ]
+            },
+            {
+                "name": "Study the Breach",
+                "effectDesc": "Increases all Research Production by 6%, but decreases Scanning by 5%",
+                "desc": "Directs Scientists to study the anomaly as it grows it size, despite the consequences to sensor networks in the region",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9 3h6\"></path><path d=\"M10 3v6L4.5 19a2 2 0 0 0 1.7 3h11.6a2 2 0 0 0 1.7-3L14 9V3\"></path><path d=\"M7 14h10\"></path></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Research",
+                        "value": "6%"
+                    },
+                    {
+                        "type": "Increase Scan",
+                        "value": "-5%"
+                    }
+                ]
+            }
+        ]
     }
 ]

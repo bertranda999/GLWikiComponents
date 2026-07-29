@@ -57,29 +57,29 @@ Spectral Conclave: 2200.0
 Twilight Prism: 2200.0
 Tranquil Monolith (10%): 2000.0
 Meta-Tuned Jammer (2): 2000.0
-Tri-Ocular Inhibitor: 2000.0
+Tri-Occular Inhibitor: 2000.0
 Ventar Field Collapser: 2000.0
 Corrupted Portal V: 2000.0
 Aeon Spire: 1783.3333333333333
 Atrium of Secrets: 1650.0
-Stryll Ghost-Uplink: 1650.0
 Void-Field Enclave (Doubled): 1616.0
 Xephius Portal: 1604.0
 Corrupted Portal IV: 1600.0
 Exalted DarkForge: 1466.6666666666667
-Supel Chromavault 3.0: 1400.0
+Supel ChromaVault 3.0: 1400.0
 Obscura Lab v3: 1260.0
 Obscura Lab v4: 1260.0
 Aeon Tower: 1250.0
 Exo-Pulse Disruptor: 1222.0
 Exo-Rift Membrane Blueprint: 1200.0
+Stryll Ghost-Uplink: 1200.0
 Corrupted Portal III: 1200.0
 Dark Supercollider (Upgraded): 1200.0
 SubVoid Darkdrone D: 1155.5
 SubVoid Darkdrone E: 1111.0
 Bane Generator XV: 1100.0
 SubVoid Darkdrone B: 1100.0
-Tranquil Monolith: 1000.0
+Tranquil Monolith (5%): 1000.0
 Tejiar Ally HQ II: 1000.0
 Ryelis Analyzer: 1000.0
 Roathir Listening Post: 1000.0
@@ -101,7 +101,7 @@ Corrupted Portal II: 800.0
 Dark Supercollider: 800.0
 T.O. Harvest Vault XV: 750.0
 Q-Pedd Science Station 15.0: 700.0
-Supel Chromavault 2.0: 700.0
+Supel ChromaVault 2.0: 700.0
 Vault of Gaia (Doubled): 700.0
 Bane Nether-Seal (6): 666.0
 Bane Doom Silo (1): 666.0
@@ -130,6 +130,7 @@ Biosphere Gyre v4: 440.0
 Supel Comm Tower: 420.0
 Obscura Lab: 420.0
 T.O. Genesis Loom: 411.0
+Stryll Bio-Shroud Array: 404.0
 Entropy Repulsor Pylon: 400.0
 Raix Refinery II: 400.0
 Raix Refinery II (Upgraded): 400.0

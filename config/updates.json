@@ -1911,5 +1911,15 @@
             "name": "Happy 30th Thaumanovic!",
             "reward": "Tricennium Box"
         }
+    },
+    {
+        "date": "20 Jul 2026",
+        "type": "Initiative",
+        "desc": "Haelon Piracy - Winner: Increase Empyreal Funding: increases damage cap against non-player enemies by 15% (for races near the core)"
+    },
+    {
+        "date": "24 Jul 2026",
+        "type": "Initiative",
+        "desc": "Chancellor Election - Winner: Ambassador Thelaru: Increases Evolution Gene yields by 11% and reduces Genes cooldown by 11%, but reduces research production by 18%"
     }
 ]

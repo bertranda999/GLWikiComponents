@@ -3,7 +3,7 @@
         "name": "Analyze",
         "planetEffectsRandom": [
             {
-                "type": "Start Event",
+                "type": "Start Planetary Event",
                 "event": "Reactive Barrier",
                 "message": "Planetary Analysis Success! The planet reports that a massive barrier emerged around the atmosphere, powered by the planet itself. The planet is now immune to all artifacts and abilities used by enemies."
             }
@@ -83,7 +83,7 @@
         "message": "The planet begins Peace Talks...",
         "playerEffects": [
             {
-                "type": "Increase Influence Production",
+                "type": "Increase Influence",
                 "value": "5 - 15%",
                 "duration": "20 hours"
             }
@@ -131,22 +131,22 @@
         "cooldown": "20 hours",
         "playerEffectsRandom": [
             {
-                "type": "Boost Research Storage",
+                "type": "Increase Research Storage",
                 "amount": "5%",
                 "duration": "20 hours"
             },
             {
-                "type": "Boost Mining Storage",
+                "type": "Increase Mining Storage",
                 "amount": "5%",
                 "duration": "20 hours"
             },
             {
-                "type": "Boost Artifact Storage",
+                "type": "Increase Artifact Storage",
                 "amount": "5%",
                 "duration": "20 hours"
             },
             {
-                "type": "Boost Influence Storage",
+                "type": "Increase Influence Storage",
                 "amount": "5%",
                 "duration": "20 hours"
             }
@@ -181,7 +181,7 @@
         "cooldown": "3 days",
         "planetEffects": [
             {
-                "type": "Increase All Production",
+                "type": "Increase Production",
                 "min": "2%",
                 "max": "6%"
             }
@@ -215,7 +215,7 @@
         "name": "Ignean Scrapping",
         "playerEffects": [
             {
-                "type": "Increase Scrap Yields",
+                "type": "Increase Scrap Yield",
                 "value": "6%",
                 "duration": "20 hours"
             }
@@ -265,7 +265,7 @@
         },
         "playerEffects": [
             {
-                "type": "Boost All Production",
+                "type": "Increase Production",
                 "value": "4%",
                 "duration": "20 hours"
             }
@@ -316,7 +316,7 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "artifact": "Streveldan Ballroom"
+                "artifact": "Q-Pedd Ballroom"
             },
             {
                 "type": "Grants",
@@ -334,7 +334,7 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "artifact": "Streveldan Ballroom"
+                "artifact": "Q-Pedd Ballroom"
             },
             {
                 "type": "Grants",
@@ -352,7 +352,7 @@
         "playerEffectsRandom": [
             {
                 "type": "Grants",
-                "artifact": "Streveldan Ballroom"
+                "artifact": "Q-Pedd Ballroom"
             },
             {
                 "type": "Grants",
@@ -452,12 +452,12 @@
         "desc": "Resets the timer for a Daily Mission at random. Costs 1000 Energy.",
         "cooldown": "2 days 8 hours",
         "cost": {
-            "energy": "1000"
+            "energy": "1,000"
         },
         "name": "Time-Split",
         "playerEffects": [
             {
-                "type": "Reset Random Daily Mission"
+                "type": "Reset Daily Mission"
             }
         ]
     },
@@ -536,12 +536,27 @@
         "desc": "Boosts total influence production (across all planets) by 3% for 8 hours",
         "playerEffects": [
             {
-                "type": "Increase Influence Production",
+                "type": "Increase Influence",
                 "value": "3%",
                 "duration": "8 hours"
             }
         ],
         "message": "A surge of thought flows through your ship.",
         "cooldown": "6 days 16 hours"
+    },
+    {
+        "name": "Flare Beacon",
+        "desc": "Summons a random Elios Elite enemy to your Battle List (550 Energy)",
+        "cooldown": "20 hours",
+        "playerEffects": [
+            {
+                "type": "Spawn NPC",
+                "npcType": "Elite",
+                "tags": [
+                    "Elios"
+                ]
+            }
+        ],
+        "message": "An Elios Enemy appears in range..."
     }
 ]

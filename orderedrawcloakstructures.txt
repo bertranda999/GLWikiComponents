@@ -15,7 +15,7 @@ Void-Field Enclave (Tripled): 2424.0
 Corrupted Portal V: 2000.0
 Void-Field Enclave (Doubled): 1616.0
 Corrupted Portal IV: 1600.0
-Supel Chromavault 3.0: 1400.0
+Supel ChromaVault 3.0: 1400.0
 Obscura Lab v3: 1260.0
 Obscura Lab v4: 1260.0
 Exo-Pulse Disruptor: 1222.0
@@ -39,7 +39,7 @@ Corrupted Portal II: 800.0
 Dark Supercollider: 800.0
 T.O. Harvest Vault XV: 750.0
 Q-Pedd Science Station 15.0: 700.0
-Supel Chromavault 2.0: 700.0
+Supel ChromaVault 2.0: 700.0
 Vault of Gaia (Doubled): 700.0
 Bane Nether-Seal (6): 666.0
 Bane Doom Silo (1): 666.0
@@ -62,7 +62,6 @@ Q-Pedd Science Station 14.0: 600.0
 Dark Void Beacon: 600.0
 SubVoid Darkdrone D: 555.5
 Atrium of Secrets: 550.0
-Stryll Ghost-Uplink: 550.0
 T.O. Harvest Vault XIV: 550.0
 Scruuge Hoarding Vault XIV: 550.0
 Miser's Gift-Bunker: 550.0
@@ -74,6 +73,7 @@ Obscura Lab: 420.0
 T.O. Genesis Loom: 411.0
 Xephius Portal: 404.0
 Streveldan CogNode: 404.0
+Stryll Bio-Shroud Array: 404.0
 Entropy Repulsor Pylon: 400.0
 Raix Refinery II: 400.0
 Raix Refinery II (Upgraded): 400.0

@@ -388,5 +388,10 @@
         "name": "Thermion",
         "img": "ships/thermion.webp",
         "shield": "ships/thermion-shield.webp"
+    },
+    {
+        "name": "Thaum",
+        "img": "ships/thaum.png",
+        "shield": "ships/thaum-shield.png"
     }
 ]

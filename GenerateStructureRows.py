@@ -243,7 +243,7 @@ structures: list[Structure] = [
     Structure("Galaxy Elitists", 0, 8, False, False, ap=1, acq=ability("Prismatic Domain"), limitNotes=[BAHREEN_DOMAIN_NOTE], nameNotes=[RANDOM_PLACEMENT_NOTE, RANDOM_VERSION_NOTE], alternatePageName=PRISMATIC_DOMAIN),
     Structure("Galaxy Technocrats", 0, 8, False, False, rp=1, acq=ability("Prismatic Domain"), limitNotes=[BAHREEN_DOMAIN_NOTE], nameNotes=[RANDOM_PLACEMENT_NOTE, RANDOM_VERSION_NOTE], alternatePageName=PRISMATIC_DOMAIN),
     Structure("Galaxy Inquisitors", 0, 8, False, False, c=100, acq=ability("Prismatic Domain"), limitNotes=[BAHREEN_DOMAIN_NOTE], nameNotes=[RANDOM_PLACEMENT_NOTE, RANDOM_VERSION_NOTE], alternatePageName=PRISMATIC_DOMAIN),
-    Structure("Tranquil Monolith", 1, 1, False, False, mp=2, ap=2, cp=5, acq=ability("Transcendent Focus")),
+    Structure("Tranquil Monolith", 1, 1, False, False, "(5%)", mp=2, ap=2, cp=5, acq=ability("Transcendent Focus")),
     Structure("Tranquil Monolith", 1, 1, False, False, "(10%)", mp=2, ap=2, cp=10, acq=ability("Transcendent Focus")),
     Structure("Tranquil Monolith", 1, 1, False, False, "(15%)", mp=2, ap=2, cp=15, acq=ability("Transcendent Focus")),
     Structure("Tranquil Monolith", 1, 1, False, False, "(20%)", mp=2, ap=2, cp=20, acq=ability("Transcendent Focus")),
@@ -338,7 +338,7 @@ structures: list[Structure] = [
     Structure("Lutuma Command Module", 1, 1, True, False, mp=1, ap=1, rp=1, d=8000, acq=mission("The Lutuma Coup")),
     Structure("Oruas Predictive Disjector", 1, 1, False, False, ap=1, atp=20, c=400, acq=mission("Vision of Oruas") + ", " + market(CORRUPTION_MARKET)),
     Structure("Oruas Corrupted Disjector", 1, 1, False, False, ap=2, atp=40, c=800, acq=mission("Vision of Oruas") + ", " + market(CORRUPTION_MARKET), alternatePageName="Oruas Predictive Disjector", formDescription="Activated ability:"),
-    Structure("Tri-Ocular Inhibitor", 1, 1, True, False, mp=4, ap=1, cp=10, acq=mission("Chamber of Lies")),
+    Structure("Tri-Occular Inhibitor", 1, 1, True, False, mp=4, ap=1, cp=10, acq=mission("Chamber of Lies")),
     Structure("Zolazin Analyzer", 1, 2, True, True, ap=1, rp=1, acq=mission("The Zolazin Pursuit")),
     Structure("Zolazin Void Tower", 1, 1, True, True, c=100, acq=mission("Spoils of War")),
     Structure("Ergosphere Filter", 1, 1, True, True, c=150, cp=20, acq=mission("The Aevax Experiment")),
@@ -425,7 +425,7 @@ structures: list[Structure] = [
     Structure("Ardyne Hypergate", 3, 1, True, False, "(Upgraded)", mp=5, mpp=3, ap=5, app=3, rpp=3, ip=2, ipp=3, acq=mission("Ardyne Expansions"), formDescription="If built on a planet with an [[Ardyne Transfer Conduit]]:"),
     Structure("Seat of the Exarch", 2, 1, True, False, ap=3, ip=2, acq=mission("Will of the Exarch")),
     Structure("Seat of the Exarch", 2, 1, True, False, "(Upgraded)", ap=3, ip=2, ips=111, acq=mission("Will of the Exarch"), formDescription="If built on a planet with a [[Court of Oracles]]:"),
-    Structure("Vygos Aquaseeker", 3, 2, True, False, mp=4, ap=4, ip=1, pp=22, acq=mission("The Vygos No-Mods")),
+    Structure("Vygos AquaSeeker", 3, 2, True, False, mp=4, ap=4, ip=1, pp=22, acq=mission("The Vygos No-Mods")),
     Structure("Temple of Radiance", 2, 1, True, False, ap=3, rp=3, ipp=7, c=777, acq=mission("The Prismoda Incursion")),
     Structure("Cognitor Forum", 3, 1, True, False, ap=3, rp=6, rpp=8, ip=2, acq=mission("The Sill Routes")),
     Structure("Sirocco Sandspire", 2, 1, True, False, mp=3, app=3, rp=3, ip=1, acq=mission("The Sill Routes")),
@@ -466,7 +466,7 @@ structures: list[Structure] = [
     Structure("Silthion T-Plasma Vesicle", 1, 1, False, False, "II", ap=2, rp=6, c=600, acq=lm("Encounter at Nabai"), formDescription="Upgrade with [[Silthion Vesicle Evolution]]:"),
     Structure("Sentiox Uplink", 1, 1, False, False, ap=2, rp=4, acq=lm("The TitanCore Rebirth")),
     Structure("Sentiox Trilink Node", 1, 3, False, False, ap=2, app=2, rp=3, acq=lm("Rise of the Sentiox")),
-    Structure("Stryll Ghost-Uplink", 2, 1, False, False, rp=3, ip=1, c=1100, cp=11, acq=lm("Operation Shadow's Sleep")),
+    Structure("Stryll Ghost-Uplink", 2, 1, False, False, ap=3, rp=2, ip=1, cp=12, acq=lm("Operation Shadow's Sleep")),
     Structure("Scruuge Calibration Plant", 1, 1, False, False, mp=2, ap=2, c=400, acq=zone("Scruuge Perimeter"), alternatePageName="Scruuge Calibration Chamber", formDescription="Upgrade with [[Scruuge Calibration Plant]]:"),
     Structure("Scruuge Calibration Plant", 1, 1, False, False, "(Upgraded)", mp=2, ap=2, c=800, acq=zone("Scruuge Perimeter"), alternatePageName="Scruuge Calibration Chamber", formDescription="Upgrade with [[Scruuge Calibration Plant]] when the Chamber already had the Thraccti bonus:"),
     Structure("Scruuge Cargo Launcher", 1, 1, False, False, mp=4, ap=2, d=2000, dp=15, acq=zone("Scruuge Perimeter"), alternatePageName="Scruuge Cargo Pad", formDescription="Upgrade with [[Scruuge Cargo Launcher]]:"),
@@ -660,9 +660,9 @@ structures: list[Structure] = [
     Structure("Auric Lepus Drone", 1, 2, False, False, "15.0", mp=6, ap=6, rp=6, d=34000, at=34000, c=400, acq=market(GP_MARKET), alternatePageName="Auric Lepus Drone (artifact)", formDescription="Available 2025:"),
     Structure("Auric Lepus Drone", 1, 2, False, False, "16.0", mp=6, ap=7, rp=6, d=36000, at=36000, c=400, acq=market(GP_MARKET)),
     Structure("Supel Interphase Portal", 3, 1, False, False, ap=6, rp=6, ip=3, ips=202, c=800, acq=market(GP_MARKET)),
-    Structure("Supel Chromavault", 1, 1, False, False, mpp=5, mps=7700, app=5, aps=7700, rpp=5, rps=7700, ipp=5, acq=market(GP_MARKET)),
-    Structure("Supel Chromavault", 1, 1, False, False, "2.0", mpp=6, mps=8400, app=6, aps=8400, rpp=6, rps=8400, ipp=6, c=700, acq=market(GP_MARKET), formDescription="Upgrade using [[Chromavault Exolock]]:"),
-    Structure("Supel Chromavault", 1, 1, False, False, "3.0", mpp=7, mps=9100, app=7, aps=9100, rpp=7, rps=9100, ipp=7, c=1400, acq=market(GP_MARKET)),
+    Structure("Supel ChromaVault", 1, 1, False, False, mpp=5, mps=7700, app=5, aps=7700, rpp=5, rps=7700, ipp=5, acq=market(GP_MARKET)),
+    Structure("Supel ChromaVault", 1, 1, False, False, "2.0", mpp=6, mps=8400, app=6, aps=8400, rpp=6, rps=8400, ipp=6, c=700, acq=market(GP_MARKET), formDescription="Upgrade using [[Chromavault Exolock]]:"),
+    Structure("Supel ChromaVault", 1, 1, False, False, "3.0", mpp=7, mps=9100, app=7, aps=9100, rpp=7, rps=9100, ipp=7, c=1400, acq=market(GP_MARKET)),
     Structure("Genoform Reservoir", 1, 1, False, False, ap=2, rps=3500, ip=1, acq=market(GP_MARKET)),
     Structure("Genoform Reservoir", 1, 1, False, False, "II", ap=3, rp=1, rps=3500, ip=2, ips=180, acq=market(GP_MARKET)),
     Structure("Phylogenetic Core", 1, 1, False, False, rpp=8, ip=1, acq=market(GP_MARKET)),
@@ -790,7 +790,7 @@ structures: list[Structure] = [
     Structure("Astrometrics Orrery", 1, 1, True, False, "v5", ap=6, rp=11, rps=2600, acq=medal(), formDescription="Upgrade using ability (costs 4444 [[Complex Tech Parts]] and requires 3500+ planets scanned in database):"),
     Structure("Miser's Gift-Bunker", 2, 1, True, False, mps=4400, ap=4, aps=4400, c=1100, cp=22),
     Structure("Elios Flare Probe", 0, 1, True, False, "II", mpp=2, ap=2, ip=1, ips=101, acq=medal()),
-    Structure("Xiphos Heist Outpost", 1, 1, False, False, "(1)", mp=1, rp=1, acq=npc("Crimson Xiphos"), nameNotes=[SHIP_SIZE_NOTE]),
+    Structure("Xiphos Heist Outpost", 1, 1, False, False, mp=1, rp=1, acq=npc("Crimson Xiphos"), nameNotes=[SHIP_SIZE_NOTE]),
     Structure("Xiphos Heist Outpost", 1, 1, False, False, "(5,785)", mp=2, ap=1, rp=2, acq=npc("Crimson Xiphos"), nameNotes=[SHIP_SIZE_NOTE]),
     Structure("Xiphos Heist Outpost", 1, 1, False, False, "(7,022)", mp=3, ap=1, rp=2, acq=npc("Crimson Xiphos"), nameNotes=[SHIP_SIZE_NOTE]),
     Structure("Xiphos Heist Outpost", 1, 1, False, False, "(9,000)", mp=3, mps=303, ap=1, rp=2, c=303, acq=npc("Crimson Xiphos"), nameNotes=[SHIP_SIZE_NOTE]),
@@ -1032,7 +1032,7 @@ structures: list[Structure] = [
     Structure("Q-Pedd Affinity Tunnel", 0, 1, False, False, "v4", ap=2, rp=4, rpp=7, ip=3),
     Structure("Q-Pedd Ballroom", 1, 1, False, False, ap=2, rp=2, ip=1, ips=202, esp=50),
     Structure("Streveldan CogNode", 1, 1, False, False, ap=2, rp=4, c=404, cp=14, dp=22),
-    Structure("Strevelan Cohesion Pit", 1, 1, False, False, mp=4, mps=1001, rps=1001, atp=33),
+    Structure("Streveldan Cohesion Pit", 1, 1, False, False, mp=4, mps=1001, rps=1001, atp=33),
     Structure("Supel Incubator", 1, 1, False, False, mp=1, ap=1, rp=5, ip=1, p=11000),
     Structure("Veon Singularium", 0, 1, False, False, mp=1, ap=1, rp=1, c=404),
     Structure("Veon Singularium", 0, 1, False, False, "v2", mp=2, ap=1, rp=2, c=404),
@@ -1115,6 +1115,11 @@ structures: list[Structure] = [
     Structure("Elios Heat-Exchanger", 1, 1, False, False, "v3", mp=4, mpp=6, mps=1400, ap=1),
     Structure("Elios Heat-Exchanger", 1, 1, False, False, "v4", mp=6, mpp=8, mps=1400, ap=1),
     Structure("Elios Heat-Exchanger", 1, 1, False, False, "v5", mp=8, mpp=10, mps=2000, ap=1),
+    Structure("Tower of Independence", 1, 1, False, False, mp=4, mpp=4, app=4, rp=4, rpp=4, ip=1, ipp=4),
+    Structure("Stryll Bio-Shroud Array", 1, 2, False, False, mp=1, ap=1, rp=1, c=404, ic=2),
+    Structure("Temple of Reflection", 1, 1, True, True, rp=3, dp=30),
+    Structure("Well of Yonayan", 1, 1, False, False, mp=3, ap=1),
+    Structure("XRP Warp Inhibitor", 2, 1, False, True, d=800),
     ]
 
 def addAbility(structureName, ability):
@@ -1153,9 +1158,9 @@ addAbility("Corrupted Portal", {"name":"Phase 2 Upgrade","desc":"Upgrades Portal
 addAbility("Corrupted Portal II", {"name":"Phase 3 Upgrade","desc":"Upgrades Portal and Ability to Phase 3.<br>Adds +1 Mining/Artifact/ +600 artifact storage and +400 cloak.<br>Costs 5 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal III"}],"cost":{"corruption":"5","energy":"5,555"},"message":"You successfully perform the upgrades."})
 addAbility("Corrupted Portal III", {"name":"Phase 4 Upgrade","desc":"Upgrades Portal and Ability to Phase 4.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 6 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal IV"}],"cost":{"corruption":"6","energy":"5,555"},"message":"You successfully perform the upgrades."})
 addAbility("Corrupted Portal IV", {"name":"Phase 5 Upgrade","desc":"Upgrades Portal and Ability to Phase 5.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 7 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal V"}],"cost":{"corruption":"7","energy":"5,555"},"message":"You successfully perform the upgrades."})
-addAbility("Neutron-Lift Processor", {"name":"Neutron-Process","desc":"Gain a random Neutronium-based artifact.<br>Requires 420 Neutronium and 42000 Energy","planetEffectsRandom":[{"type":"Grants","artifact":"Thavix Catalyst"}],"cost":{"energy":"42,000","neutronium":"420"}, "message":"The Neutron-Lift provides:[Artifact]"})
+addAbility("Neutron-Lift Processor", {"name":"Neutron-Process","desc":"Gain a random Neutronium-based artifact.<br>Requires 420 Neutronium and 42000 Energy","playerEffectsRandom":[{"type":"Grants","artifact":"Thavix Catalyst"}],"cost":{"energy":"42,000","neutronium":"420"}, "message":"The Neutron-Lift provides:[Artifact]"})
 addAbility("T.O. Genesis Loom", {"name":"Splice Genes","desc":"Generates 3 Evolution Genes for each Terra / Gaia / Aphotic or Oceanic planet<br>you control that has Influence. up to a maximum of 21 per use. Costs 4400 energy","charges":"2","playerEffectsScaled":[{"type":"Grant Genes","scaleType":"Owned Planets","stat":"Influence","statMin":"ES","max":"21"}],"cost":{"energy":"4,400"},"message":"You receive [X] Evolution Genes"})
-addAbility("Crystalline Portal", {"planetEffects":[{"type":"Reset Permanent Ability"}], "charges":"3"})
+addAbility("Crystalline Portal", {"name":"Crystalline Portal","planetEffects":[{"type":"Reset Permanent Ability"}], "charges":"3"})
 addAbility("Forgestone Prison Colony", {"name":"V2 Upgrade", "desc":"Upgrades Prison and Ability to V2.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 600+ captures.<br>Costs 22 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"600"}],"cost":{"greens":"22"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v2"}]})
 addAbility("Forgestone Prison Colony v2", {"name":"V3 Upgrade", "desc":"Upgrades Prison and Ability to V3.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 800+ captures.<br>Costs 33 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"800"}],"cost":{"greens":"33"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v3"}]})
 addAbility("Forgestone Prison Colony v3", {"name":"V4 Upgrade", "desc":"Upgrades Prison and Ability to V4.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 1000+ captures.<br>Costs 44 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"1,000"}],"cost":{"greens":"44"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v4"}]})
@@ -1221,6 +1226,14 @@ addAbility("Elios Heat-Exchanger v4", {
     "planetEffects":[{"type":"Upgrade","new":"Elios Heat-Exchanger v5"}],
     "restrictions":[{"type":"Existing Structures","tags":["Elios"],"min":"11"}],
     "cost":{"energy":"22,000","artifacts":{"Elios Heat-Exchanger":"4"}}
+})
+addAbility("Veon Singularium", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Singularium to V2<br>Adds +1 Mining / Research<br>Planets must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 1800 Neutronium",
+    "message":"",
+    "planetEffects":[{"type":"Upgrade","new":"Veon Singularium v2"}],
+    "restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"4"}],
+    "cost":{"energy":"22k","neut":"1,800"}
 })
     
 def generateNotesStr(notes: list[int] = []):
@@ -1354,6 +1367,8 @@ def setBase(structure):
         structure['base'] = "Triangulum Sparkmatter"
     elif structure['name'] in ["Glimmerhold, Spectral Castle", "Crownspire, Spectral Palace"]:
         structure['base'] = "Shardveil, Spectral Citadel"
+    elif "Tranquil Monolith" in structure['name']:
+        structure['base'] = "Tranquil Monolith"
 
 
 for structure in structures:

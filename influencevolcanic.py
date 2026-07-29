@@ -23,7 +23,12 @@ skip = [
 "Tree of Harmony",
 "Exotic Miners Guildhall",
 "Scruuge Frost Tribunal",
-
+"Spectral Conclave",
+"Tower of Independence",
+"Rhodic Prism",
+"Temple of Radiance",
+"Jeweled Labyrinth",
+"Aeon Spire",
 ]
 
 artifacts = []
@@ -95,7 +100,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-while volcInfStructs.__len__() > 0 and totalSpace < 126:
+while volcInfStructs.__len__() > 0 and totalSpace < 80:
     max = 0
     maxStruct = volcInfStructs[0]
     for struct in volcInfStructs:
@@ -107,7 +112,7 @@ while volcInfStructs.__len__() > 0 and totalSpace < 126:
             prod += currentRaw * float(struct['bip'] / 100.0)
 
         prodPerSize = prod / struct['size']
-        if prodPerSize > max:
+        if prodPerSize > max or (prodPerSize == max and struct['size'] > maxStruct['size']):
             max = prodPerSize
             maxStruct = struct
     
