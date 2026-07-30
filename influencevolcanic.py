@@ -29,6 +29,8 @@ skip = [
 "Temple of Radiance",
 "Jeweled Labyrinth",
 "Aeon Spire",
+"Aeon Relay Tower",
+"Aeon Processor Core",
 ]
 
 artifacts = []

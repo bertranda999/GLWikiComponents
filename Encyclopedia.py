@@ -1467,7 +1467,6 @@ for (name, artifact) in artifacts.items():
                 base = structures[structureName]['base'] if 'base' in structures[structureName] else structureName
                 structureBases.add(base)
             elif effect['type'] == 'Upgrade Structure':
-                print(f"{effect['new']}")
                 base = structures[effect['new']]['base']
                 structureBases.add(base)
 
@@ -1488,7 +1487,6 @@ for (name, artifact) in artifacts.items():
                 base = structures[structureName]['base'] if 'base' in structures[structureName] else structureName
                 structureBases.add(base)
             elif effect['type'] == 'Upgrade Structure':
-                print(f"{effect['new']}")
                 base = structures[effect['new']]['base']
                 structureBases.add(base)
 
@@ -1499,7 +1497,6 @@ for (name, artifact) in artifacts.items():
                 base = structures[structureName]['base'] if 'base' in structures[structureName] else structureName
                 structureBases.add(base)
             elif effect['type'] == 'Upgrade Structure':
-                print(f"{effect['new']}")
                 base = structures[effect['new']]['base']
                 structureBases.add(base)
                 

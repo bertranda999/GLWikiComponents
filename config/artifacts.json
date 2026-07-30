@@ -276,6 +276,36 @@
         ]
     },
     {
+        "name": "Adumbrate Starport",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "9"
+        },
+        "img": "astarport1.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222"
+        },
+        "desc": "[ Planet Structure - Size:2, Artifact:2, Mining:2, Research:2, Cloak:222 ]<br>Also increases planetary production by 2%.<br>Planet must already have 2+ Adumbrate structures to use.<br>Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Adumbrate Starport"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "filters": [
+                    "Adumbrate"
+                ],
+                "min": "2"
+            }
+        ]
+    },
+    {
         "name": "Adumbrate Station",
         "target": "Your Planet",
         "img": "basecargo.png",
@@ -531,7 +561,13 @@
                 "min": "1 Year"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Aethercron Hold"
+            }
+        ]
     },
     {
         "name": "Aetheric Clouder",
@@ -1043,7 +1079,7 @@
         ]
     },
     {
-        "name": "Archotage Amplifier (2026)",
+        "name": "Archotage Amplifier (2025)",
         "img": "archamp.png",
         "target": "Your Planet",
         "scrap": {
@@ -1532,6 +1568,27 @@
             "min": "3",
             "max": "6"
         }
+    },
+    {
+        "name": "Astrometrics Orrery",
+        "scrap": {
+            "type": "ctp",
+            "min": "88",
+            "max": "178"
+        },
+        "target": "Your Planet",
+        "img": "aorrery1.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "8,888"
+        },
+        "desc": "[ Planet Structure - Size:1, Research:3, Artifact:1 ]<br>Once built, the Orrery can be upgraded.<br>Requires 800 planets scanned in your database.<br>Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Astrometrics Orrery"
+            }
+        ]
     },
     {
         "name": "Atrium of Secrets",
@@ -2308,7 +2365,7 @@
         }
     },
     {
-        "name": "Bane Ritual Mask",
+        "name": "Bane Ritual Mask (2026)",
         "description": "<font color=\"yellow\">[ Limited Item - Halloween ]</font><br>Upgrades an existing Bane Psybeacon (up to Mark 6)<br>or Bane Psyshade Arsenal (up to Mark 5),<br>bypassing any requirements and costs.",
         "target": "Your Planet",
         "buttonText": "Use",
@@ -2925,6 +2982,9 @@
                 "value": "8%",
                 "duration": "2 hours"
             }
+        ],
+        "tags": [
+            "Bralkir"
         ]
     },
     {
@@ -3413,6 +3473,17 @@
         "target": "Player",
         "tags": [
             "Sha'din"
+        ],
+        "img": "shadingunch.png",
+        "buttonText": "Build",
+        "desc": "[ Weapon - Size:24, Attack:90, Defense:60 ]<br>If this weapon is already installed, this will instead upgrade its stats by 40%, up to a max of 200%. When fully upgraded, it provides a 4% attack bonus to bases.",
+        "playerEffects": [
+            {
+                "type": "Install or Improve Module",
+                "module": "Carjean Scatterlauncher",
+                "value": "40%",
+                "max": "200%"
+            }
         ]
     },
     {
@@ -3590,7 +3661,17 @@
                 "max": "None"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "planetEffects": [
+            {
+                "type": "Increase Influence Availability",
+                "value": "4"
+            },
+            {
+                "type": "Increase Influence",
+                "value": "10%"
+            }
+        ]
     },
     {
         "name": "Chromatic Cannon 10.0 Upgrade",
@@ -4414,6 +4495,26 @@
         }
     },
     {
+        "name": "Cobalt Drive",
+        "target": "Player",
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        },
+        "img": "cobaltdrive.png",
+        "buttonText": "Build",
+        "desc": "[ Defense - Size:25, Defense:140, Energy:40 ]<br>If this drive is already installed on your ship, this will instead upgrade its stats by 40%, up to a max of 200%. Unlocks an ability when fully upgraded.",
+        "playerEffects": [
+            {
+                "type": "Install or Improve Module",
+                "module": "Cobalt Drive",
+                "value": "40%",
+                "max": "200%"
+            }
+        ]
+    },
+    {
         "name": "Cognitor Forum",
         "restrictions": [
             {
@@ -4477,6 +4578,27 @@
                 "type": "Upgrade Structure",
                 "original": "Cognizant Omniforge",
                 "new": "Cognizant Omniforge Grid"
+            }
+        ]
+    },
+    {
+        "name": "Colossal Base Crate",
+        "target": "Player",
+        "img": "bsupplies.png",
+        "buttonText": "Open",
+        "desc": "<i>Deep scratches and burns adorn the outside, fresh from an earlier battle</i><br>A Colossal crate, raided from a larger base.<br>Contains a variety of random artifacts.",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Adumbrate Station"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Enumeration Crystal"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Continuum Parser"
             }
         ]
     },
@@ -5195,7 +5317,7 @@
         "desc": "Destroys one non-special defense, attack, or population structure<br>at random on an enemy planet",
         "img": "clustermissile.png",
         "buttonText": "Fire",
-        "planetEffects": [
+        "enemyPlanetEffects": [
             {
                 "message": "You have successfully used the effect on the planet.",
                 "type": "Destroy Structure"
@@ -5967,6 +6089,24 @@
         "buttonText": "Use"
     },
     {
+        "name": "Dark Smuggler Chassis",
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "18"
+        },
+        "target": "Player",
+        "img": "darkdisguise.png",
+        "buttonText": "Build",
+        "desc": "[ Special Weapon - Size:25, Invade:600, Adds Disguise ]<br>While installed, your ship will appear as a Dark Smuggler<br>to those targeting your ship. (limit 1 per ship)",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Dark Smuggler Chassis"
+            }
+        ]
+    },
+    {
         "name": "Dark Smugglers Cache",
         "scrap": {
             "type": "None"
@@ -6070,6 +6210,12 @@
         "target": "Your Planet",
         "tags": [
             "Bane"
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Dark Temple of Woe"
+            }
         ]
     },
     {
@@ -6268,7 +6414,14 @@
     {
         "name": "Data-Lab Archives",
         "target": "Player",
-        "desc": "Research data-lab locations pulled from Galactic Council archives. Boosts Research Storage by 7% for 40 hours."
+        "desc": "Research data-lab locations pulled from Galactic Council archives. Boosts Research Storage by 7% for 40 hours.",
+        "playerEffects": [
+            {
+                "type": "Increase Research Storage",
+                "value": "7%",
+                "duration": "40 hours"
+            }
+        ]
     },
     {
         "name": "Datastream Compiler",
@@ -6352,6 +6505,14 @@
         "send": "false",
         "tags": [
             "Drannik"
+        ],
+        "playerEffects": [
+            {
+                "type": "Install or Improve Module",
+                "module": "Deroh's Megacryptex",
+                "value": "10%",
+                "max": "200%"
+            }
         ]
     },
     {
@@ -6510,7 +6671,7 @@
         "desc": "[ Planet Structure - Size:1, Artifact:1, Mining:1, Research:1, Influence:+2% ]<br>Planet must be Average size or smaller.<br>Counts as a Lepus and Q-Pedd structure.<br>Includes ability to migrate to other planets<br>Limit 1",
         "buttonText": "Build",
         "cost": {
-            "Energy": "5.5k"
+            "Energy": "5,500"
         },
         "tags": [
             "Q-Pedd",
@@ -6819,7 +6980,7 @@
         "img": "edenic1.png",
         "buttonText": "Use",
         "cost": {
-            "Energy": "8.5k",
+            "Energy": "8,500",
             "Genes": "27"
         },
         "planetEffects": [
@@ -6951,7 +7112,7 @@
     },
     {
         "name": "Elios Flare Probe",
-        "desc": "[ Limited Item - Summer ][ Planet Structure - Artifact: 1 ]<br><br>Also provides a 1% mining production bonus.<br>The structure does not take up space on the planet.<br>Limit 1",
+        "desc": "[ Limited Item - Summer ]<br>[ Planet Structure - Artifact: 1 ]<br><br>Also provides a 1% mining production bonus.<br>The structure does not take up space on the planet.<br>Limit 1",
         "img": "elios-batt.png",
         "target": "Your Planet",
         "buttonText": "Build",
@@ -7034,6 +7195,32 @@
             "energy": "1,111"
         },
         "message": "An Elios Heat-Exchanger has been constructed on the planet."
+    },
+    {
+        "name": "Elios Heatsink",
+        "target": "Player",
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "16",
+            "max": "33"
+        },
+        "img": "eliosspark.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "desc": "[ Hull - Size:35, Energy:50, Hull:120 ]<br>If this device is already installed on your ship, this will instead upgrade its stats by 50%, up to 500% max. When fully upgraded, it will unlock a passive ability.",
+        "playerEffects": [
+            {
+                "type": "Install or Improve Module",
+                "module": "Elios Heatsink",
+                "value": "50%",
+                "max": "500%"
+            }
+        ]
     },
     {
         "name": "Elios Heliacal Plant",
@@ -7176,6 +7363,31 @@
         ]
     },
     {
+        "name": "Elios Phoenix Powervault Upgrade",
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "8"
+        },
+        "target": "Your Planet",
+        "img": "eliosfac2.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "desc": "Upgrades an existing Elios Powervault<br>on your planet to an Elios Phoenix Powervault, doubling all bonuses.",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Elios Powervault",
+                "new": "Elios Phoenix Powervault"
+            }
+        ]
+    },
+    {
         "name": "Elios Power Junction",
         "desc": "[ Limited Artifact - Summer ][ Planet Structure - Size: 1, Mining: 2, Artifact: 1, Mining:+5% ]<br>. Planet must already have 2+ Elios structures to build. Limit 1.",
         "img": "eliosconverter.gif",
@@ -7207,6 +7419,26 @@
             "min": "4",
             "max": "8"
         }
+    },
+    {
+        "name": "Elios Powervault",
+        "tags": [
+            "Elios"
+        ],
+        "scrap": {
+            "min": "2",
+            "max": "5",
+            "type": "ctp"
+        },
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "desc": "[ Limited Artifact - Summer ]<br>[ Planet Structure - Size:1, Mining:1, Artifact:1 ]<br>Also Increases your total planetary mineral production capacity by 1000 units.<br>Limit 1 / planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Elios Powervault"
+            }
+        ]
     },
     {
         "name": "Elios Pulse-Compressor",
@@ -7457,6 +7689,52 @@
         ],
         "tags": [
             "Elios"
+        ]
+    },
+    {
+        "name": "Elios Stormburst Ray",
+        "scrap": {
+            "type": "ctp",
+            "min": "10",
+            "max": "20"
+        },
+        "tags": [
+            "Elios"
+        ],
+        "target": "Player",
+        "img": "eliosgen.png",
+        "buttonText": "Build",
+        "desc": "[ Limited Artifact - Summer ]<br>[ Weapon - Size:20, Attack:80, Energy:100 ]<br><br>Installs an Elios Stormburst Ray on your ship.<br>Limit 2 per ship.",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Elios Stormburst Ray"
+            }
+        ]
+    },
+    {
+        "name": "Elios StormPhoenix Ray Upgrade",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        },
+        "tags": [
+            "Elios"
+        ],
+        "target": "Player",
+        "img": "eliosgen2.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1,000"
+        },
+        "desc": "[ Limited Artifact - Summer ]<br>Upgrades an Elios Stormburst Ray on your ship to an Elios StormPhoenix Ray,<br>increasing its max energy by 60 and its attack<br>by 60, without increasing its size.",
+        "playerEffects": [
+            {
+                "type": "Upgrade Module",
+                "original": "Elios Stormburst Ray",
+                "new": "Elios StormPhoenix Ray"
+            }
         ]
     },
     {
@@ -8620,6 +8898,28 @@
         "target": "Player"
     },
     {
+        "name": "Fractal Data-Folder",
+        "scrap": {
+            "type": "ctp",
+            "min": "11",
+            "max": "22"
+        },
+        "target": "Player",
+        "img": "fractalanchor1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "4,200"
+        },
+        "desc": "<i>Intricate data-cards fold in on each other,<br>revealing layers of hidden storage within</i><br><br>Temporarily boosts research storage by 10% for 20 hours.",
+        "playerEffects": [
+            {
+                "type": "Increase Research Storage",
+                "value": "10%",
+                "duration": "20 hours"
+            }
+        ]
+    },
+    {
         "name": "Fractal Mass-Folder",
         "scrap": {
             "type": "ctp",
@@ -8845,8 +9145,8 @@
         "desc": "[ Planet Structure - Size:0, Influence:1, Population:+9% ]<br><br>If placed during a 'Trading', 'Festival', or 'Diplomatic' event<br>on the planet, its bonuses double. Limit 1 per planet",
         "buttonText": "Build",
         "cost": {
-            "Energy": "2.8k",
-            "Influence": "4.2k"
+            "Energy": "2,800",
+            "Influence": "4,200"
         },
         "img": "gmonument1.png"
     },
@@ -9070,6 +9370,26 @@
         ]
     },
     {
+        "name": "Genoform Reservoir",
+        "tags": [
+            "Genoform Surge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "12"
+        },
+        "target": "Your Planet",
+        "buttonText": "Build",
+        "desc": "[ Limited Item - Late Spring ]<br>[ Planet Structure - Size:1, Artifact:2, Influence:1, Research Storage:+3500 ]<br>Ability: Boost ALL Research Storage +10% for 40 hours (3 charges).<br>Limit 1",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Genoform Reservoir"
+            }
+        ]
+    },
+    {
         "name": "Genoformatting Codex",
         "tags": [
             "Genoform Surge"
@@ -9146,6 +9466,36 @@
             }
         ],
         "target": "Planet"
+    },
+    {
+        "name": "Gift of the Elements",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "target": "Your Planet",
+        "img": "gift-3.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "10"
+        },
+        "desc": "[ Limited Item - Holidays ]<br>Permanently increases the mining output of a planet by 1,<br>up to a maximum of 5x Mega Rich.",
+        "planetEffects": [
+            {
+                "type": "Increase Mining Availability",
+                "value": "1"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Mining Availability",
+                "max": "4x"
+            }
+        ]
     },
     {
         "name": "Gift of the Emissary",
@@ -9405,6 +9755,66 @@
         ]
     },
     {
+        "name": "Gift of the Stars",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "tags": [
+            "Scruuge"
+        ],
+        "img": "gift-1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "10"
+        },
+        "desc": "[ Limited Item - Holidays ]<br>Permanently increases the research output of a planet by 1,<br>up to a maximum of 5x Mega Rich.",
+        "planetEffects": [
+            {
+                "type": "Increase Research Availability",
+                "value": "1"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Research Availability",
+                "max": "4x"
+            }
+        ]
+    },
+    {
+        "name": "Gift of the Void",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "target": "Your Planet",
+        "img": "gift-4.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "10"
+        },
+        "desc": "[ Limited Item - Holidays ]<br>Permanently increases the passive cloak of a planet by 40,<br>up to a maximum of 500.",
+        "planetEffects": [
+            {
+                "type": "Increase Passive Cloak",
+                "value": "40"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Passive Cloak",
+                "max": "500"
+            }
+        ]
+    },
+    {
         "name": "Gift to the Naughty",
         "scrap": {
             "type": "cr",
@@ -9497,7 +9907,51 @@
     {
         "name": "Glyph of Independence",
         "message": "The device releases a surge of energy into your ship systems.",
-        "target": "Player"
+        "target": "Player",
+        "tags": [
+            "Independence"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "10,000",
+            "max": "40,000"
+        },
+        "img": "insignia26.webp",
+        "buttonText": "Use",
+        "desc": "[ Limited Artifact - Independence Day ]<br>Increases ship's hull and shield by 20,<br>then fills your hull, shields, and energy to full.<br>If used on July 4-7th (Server Time),<br>the hull/shield bonuses triple",
+        "playerEffectsConditional": [
+            {
+                "type": "Increase Hull",
+                "value": "60",
+                "conditions": [
+                    {
+                        "type": "Time",
+                        "time": "July 4th - 7th"
+                    }
+                ]
+            },
+            {
+                "type": "Increase Shield",
+                "value": "60",
+                "conditions": [
+                    {
+                        "type": "Time",
+                        "time": "July 4th - 7th"
+                    }
+                ]
+            },
+            {
+                "type": "Increase Hull",
+                "value": "20"
+            },
+            {
+                "type": "Increase Shield",
+                "value": "20"
+            },
+            {
+                "type": "Restore Energy"
+            }
+        ]
     },
     {
         "name": "Grav-Whip Trap",
@@ -9859,6 +10313,29 @@
             "influence": "411"
         },
         "desc": "[ Limited Item - Thanksgiving ]<br>Can only be used on a friend or legion member.<br>Boosts their Evolution Gene yields by 11% for 40 hours."
+    },
+    {
+        "name": "Havoc Coils",
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        },
+        "target": "Player",
+        "img": "warcoil.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        },
+        "desc": "Permanently upgrades a standard weapon module<br>(built from materials) on your ship at random, increasing<br>its attack bonus by 20% and its value/upkeep by 20%,<br>up to a maximum bonus of 100% per module.",
+        "playerEffects": [
+            {
+                "type": "Improve Module",
+                "stat": "Attack",
+                "value": "20%",
+                "max": "100%"
+            }
+        ]
     },
     {
         "name": "Heist Dispatch Center",
@@ -11877,6 +12354,38 @@
         }
     },
     {
+        "name": "Litheor Stemstone",
+        "tags": [
+            "Litheor"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "40",
+            "max": "80"
+        },
+        "target": "Player",
+        "img": "lithstone1.png",
+        "buttonText": "Open",
+        "cost": {
+            "energy": "11,000"
+        },
+        "desc": "<i>A large morphing stone, able to form complex Litheor structures.</i><br>Morphs into a random Litheor artifact when used.",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Litheor Core-Tunnel"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Litheor Core-Tunnel Shrine"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Litheor Deep-Phase Sanctuary"
+            }
+        ]
+    },
+    {
         "name": "Litheor Tetractic Crystal",
         "desc": "[ Device - Size:14, Defense:40, Scan:40 ]<br>Unlocks a set bonus when 4 are installed on your ship.<br>Set Bonus: Litheor Crystal Focus (Passive ability)<br>Limit 4 per ship.",
         "playerEffects": [
@@ -12111,6 +12620,29 @@
         "requiresConfirmation": "No"
     },
     {
+        "name": "Market Interchange Beacon",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "target": "Player",
+        "img": "chuhn-sp.gif",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "50"
+        },
+        "desc": "Allows you to re-negotiate with a Chuhn Merchant<br>that you have already conducted business with.<br>This negotiation's costs and chances of favorable items<br>improves if you are also a Merchant, or worsens if not.",
+        "playerEffects": [
+            {
+                "type": "Chuhn Merchant Renegotiate"
+            }
+        ]
+    },
+    {
         "name": "Mass Storage Pod",
         "target": "Player",
         "scrap": {
@@ -12171,6 +12703,34 @@
                 "types": [
                     "Icy"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Massive Base Crate",
+        "target": "Player",
+        "scrap": {
+            "type": "None"
+        },
+        "img": "bsupplies.png",
+        "desc": "<i>Deep scratches and burns adorn the outside, fresh from an earlier battle</i><br>A Massive crate, raided from an attacked base.<br>Contains a variety of random artifacts.",
+        "buttonText": "Open",
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "Adumbrate Station"
+            },
+            {
+                "type": "Grants",
+                "artifact": "Abysmal Rift Trap"
+            },
+            {
+                "artifact": "Enumeration Crystal",
+                "type": "Grants"
+            },
+            {
+                "type": "Construct Structure",
+                "artifact": "Continuum Parser"
             }
         ]
     },
@@ -12312,7 +12872,14 @@
     {
         "name": "Mineral Archives",
         "target": "Player",
-        "desc": "Mineral storage locations pulled from Galactic Council archives. Boosts Mining Storage by 7% for 40 hours."
+        "desc": "Mineral storage locations pulled from Galactic Council archives. Boosts Mining Storage by 7% for 40 hours.",
+        "playerEffects": [
+            {
+                "type": "Increase Mining Storage",
+                "value": "7%",
+                "duration": "40 hours"
+            }
+        ]
     },
     {
         "name": "Mineral Silo-Tower Upgrade",
@@ -12591,6 +13158,26 @@
         }
     },
     {
+        "name": "Nanite Re-Assembler",
+        "target": "Player",
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        },
+        "img": "nanitera.gif",
+        "buttonText": "Build",
+        "desc": "[ Hull - Size:20, Cloak:40, Hull:200 ]<br>If this device is already installed on your ship, this will instead upgrade its stats by 40%, up to a max of 200%. Unlocks an ability when fully upgraded.",
+        "playerEffects": [
+            {
+                "type": "Install or Improve Module",
+                "module": "Nanite Re-Assembler",
+                "value": "40%",
+                "max": "200%"
+            }
+        ]
+    },
+    {
         "name": "Nanite Swarm Capsules",
         "scrap": {
             "type": "cr",
@@ -12663,20 +13250,6 @@
         "cost": {
             "energy": "1,100"
         }
-    },
-    {
-        "name": "Neutron-Lift Processor",
-        "restrictions": [
-            {
-                "type": "Size",
-                "min": "Massive"
-            }
-        ],
-        "target": "Your Planet",
-        "tags": [
-            "Neutronium"
-        ],
-        "message": "The Neutron-Lift Processor has been deployed on the planet."
     },
     {
         "name": "Neutron-Lift Processor",
@@ -14067,6 +14640,36 @@
         "message": "The Prismatrix Vault has been constructed on the planet."
     },
     {
+        "name": "Prismoda Ambassador",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "4,000",
+            "max": "16,000"
+        },
+        "tags": [
+            "Bahreen"
+        ],
+        "img": "pambassador.gif",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "2,000"
+        },
+        "desc": "Sends an Ambassador from Prismoda to assist your<br>planet, boosting all production by 6%. The planet<br>must have a Government Official stationed on it to use.",
+        "planetEffects": [
+            {
+                "type": "Increase Production",
+                "value": "6%"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "base": "Government Official"
+            }
+        ]
+    },
+    {
         "name": "Prismodyne Gene Splicer",
         "scrap": {
             "type": "cr",
@@ -15033,7 +15636,7 @@
         "target": "Enemy Ship"
     },
     {
-        "name": "Refining Lab",
+        "name": "Refining Lab Chassis",
         "scrap": {
             "max": "40,000",
             "min": "10,000",
@@ -15089,7 +15692,7 @@
         "message": "A bright illumination fills the planet's orbit"
     },
     {
-        "name": "Relay Tower",
+        "name": "Relay Tower Chassis",
         "scrap": {
             "max": "40,000",
             "min": "10,000",
@@ -15588,6 +16191,37 @@
         ]
     },
     {
+        "name": "Scruuge Calibration Chamber",
+        "target": "Your Planet",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        },
+        "img": "scruugeholtk.png",
+        "buttonText": "Build",
+        "desc": "[ Limited Item - Holidays ]<br>[ Planet Structure - Size:1, Artifact:1, Mining:1, Cloak:200 ]<br>If you have hired the 'Thraccti' Scruuge ally, the<br>chamber's cloak bonus is doubled. Limit 1",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Calibration Chamber (Upgraded)",
+                "conditions": [
+                    {
+                        "type": "Ally",
+                        "ally": "Thraccti, Scruuge Defector"
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Calibration Chamber"
+            }
+        ]
+    },
+    {
         "name": "Scruuge Calibration Plant",
         "restrictions": [
             {
@@ -15687,7 +16321,7 @@
                     {
                         "type": "Existing Structures",
                         "structures": [
-                            "Scruuge Calibration Plant"
+                            "Scruuge Calibration Chamber"
                         ]
                     }
                 ]
@@ -16189,6 +16823,10 @@
             {
                 "type": "Size",
                 "max": "Average"
+            },
+            {
+                "type": "Held Neutronium",
+                "min": "1,100"
             }
         ],
         "planetEffects": [
@@ -16196,7 +16834,18 @@
                 "type": "Construct Structure",
                 "structure": "Scruuge Thavix-Snare"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        },
+        "img": "scruugesnare1.webp",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "11,000"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:2, Defense:+33% ]<br>Planet must be Average size or smaller.<br>Requires 1100 Neutronium to build.<br>Ability: Can use Neutronium to attract Scruuge gifts. Limit 1"
     },
     {
         "name": "Scruuge Toll-Station",
@@ -16547,6 +17196,12 @@
         "target": "Player",
         "tags": [
             "Sentiox"
+        ],
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Sentiox Mindsource"
+            }
         ]
     },
     {
@@ -19320,6 +19975,30 @@
         "target": "Your Planet"
     },
     {
+        "name": "T.O. Heliofield",
+        "tags": [
+            "Harvest",
+            "T.O."
+        ],
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        },
+        "target": "Player",
+        "img": "tochcell.png",
+        "buttonText": "Build",
+        "desc": "[ Module - Size:25, Shield:300 ]<br>If this module is already installed on your ship, this will instead upgrade its stats by 40%, up to 200%. When fully upgraded, it will provide a 5% overall shield bonus.",
+        "playerEffects": [
+            {
+                "type": "Install or Improve Module",
+                "module": "T.O. Heliofield",
+                "value": "40%",
+                "max": "200%"
+            }
+        ]
+    },
+    {
         "name": "T.O. Manufacturing Core Upgrade",
         "tags": [
             "T.O."
@@ -21905,7 +22584,7 @@
             "energy": "55,000"
         },
         "desc": "Destroys up to 5 'Inhibitor' structures on a planet at random<br>that you have recently scanned (1 week), owned by a player<br>NOT active within the last year, and has been flagged black.<br>Has NO effect on planets not meeting these conditions.",
-        "planetEffects": [
+        "enemyPlanetEffects": [
             {
                 "type": "Destroy Inhibitors",
                 "message": "[Player] has used a Vethin Bomb, attempting to destroy an Inhibitor structure..."

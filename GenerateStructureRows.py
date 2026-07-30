@@ -1230,10 +1230,18 @@ addAbility("Elios Heat-Exchanger v4", {
 addAbility("Veon Singularium", {
     "name":"V2 Upgrade",
     "desc":"Upgrades Singularium to V2<br>Adds +1 Mining / Research<br>Planets must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 1800 Neutronium",
-    "message":"",
+    "message":"You successfully perform the upgrades.",
     "planetEffects":[{"type":"Upgrade","new":"Veon Singularium v2"}],
     "restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"4"}],
     "cost":{"energy":"22k","neut":"1,800"}
+})
+addAbility("Veon Singularium v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Singularium to V3<br>Adds +1 Artifact / Mining / Research<br>Planet must have at least 6 other distinct Size-0 Structures.<br>Costs 42k Energy + 2900 Neutronium",
+    "message":"",
+    "planetEffects":[{"type":"Upgrade","new":"Veon Singularium v3"}],
+    "restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"6"}],
+    "cost":{"energy":"42k","neut":"2,900"}
 })
     
 def generateNotesStr(notes: list[int] = []):
