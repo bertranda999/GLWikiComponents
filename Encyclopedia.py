@@ -13,7 +13,7 @@ artifactIcon = f"{imgPath}icons/special/artifact.png"
 planetBuilderData = {"structures": [], "artifacts": [], "sizes": [], "types": []}
 
 def normalizeName(name):
-    return name.replace(" ", "").replace("?", "").replace(":", "")
+    return name.replace(" ", "").replace("?", "").replace(":", "").replace("%", "")
 
 def structureSourceLink(structure, artiPath=""):
     if structure['sources']['artifacts'].__len__() > 0:
@@ -92,6 +92,10 @@ with open(configPath + "artifacts.json", "r") as file:
         addToEffects(artifact, "Artifact")
         sources = {"medals": [], "planetBasedAbilities": [], "council": [], "artifacts": [], "legionMissions": []}
         artifacts[artifact['name']] = { **artifact, "sources": sources}
+        #if 'scrap' in artifact and artifact['scrap']['type'] == 'ctp' and int(str(artifact['scrap']['max']).replace(",", "")) > 40:
+            #print(f"Scrap: {artifact['name']}")
+        if 'tags' in artifact and 'Chuhn' in artifact['tags'] and 'planetEffects' in artifact and 'Construct Structure' == artifact['planetEffects'][0]['type']:
+            print(f"Chuhn: {artifact['name']}")
         
 
 giveaways = []
@@ -318,6 +322,11 @@ for (name, artifact) in artifacts.items():
         for restriction in artifact['restrictions']:
             if restriction['type'] == "Influence Availability" and 'max' in restriction and restriction['max'] == "None":
                 startCharters.append(artifact)
+            if restriction['type'] == "Race":
+                for race in restriction["races"]:
+                    if 'artifacts' not in races[race]:
+                        races[race]['artifacts'] = []
+                    races[race]['artifacts'].append(artifact)
 
     if 'planetEffects' in artifact:
         for effect in artifact['planetEffects']:
@@ -1065,7 +1074,7 @@ async def writeCouncil():
 asyncio.run(writeCouncil())
 
 async def writeBuildOrder():
-    html = "<head><link rel=\"stylesheet\" href=\"style.css\"><style>body { background: none; background-color: black; }</style></head><h2>Build Order Cheat Sheet</h2><h3>Artifacts / abilities with a limit based on placed structure count</h3>"
+    html = "<head><link rel=\"stylesheet\" href=\"style.css\"><style>body { background: none; background-color: black; line-height: 2 }</style></head><h2>Build Order Cheat Sheet</h2><h3>Artifacts / abilities with a limit based on placed structure count</h3>"
     artifactsByCount = []
     for (name, artifact) in artifacts.items():
         if 'restrictions' in artifact:
@@ -1267,6 +1276,13 @@ for (name, race) in races.items():
                 legionMedalsHtml += generateMedalRow(medal)
 
             outFile.write(f"{legionMedalsHtml}</table>")
+
+        if 'artifacts' in race:
+            artifactsHtml = "<br>Restricted Artifacts:<br>"
+            for artifact in race['artifacts']:
+                artifactsHtml += artifact['name'] + "<br>"
+
+            outFile.write(artifactsHtml)
 
         outFile.write(f"<br><td style=\"border: 1px solid gray;\"><img src=\"{imgPath}aliens/{race['oldImg']}\" width=\"200\"></img></td>")
 

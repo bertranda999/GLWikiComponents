@@ -1921,5 +1921,80 @@
         "date": "24 Jul 2026",
         "type": "Initiative",
         "desc": "Chancellor Election - Winner: Ambassador Thelaru: Increases Evolution Gene yields by 11% and reduces Genes cooldown by 11%, but reduces research production by 18%"
+    },
+    {
+        "date": "5 Aug 2026",
+        "type": "Maintenance",
+        "desc": "Fixed an issue preventing certain characters (such as ') from being used in filters."
+    },
+    {
+        "date": "11 Aug 2026",
+        "type": "Cosmetic",
+        "desc": "Item Effect visuals (such as Cerulean Fighter) can now be togged off via Ship Settings"
+    },
+    {
+        "date": "12 Aug 2026",
+        "type": "Maintenance",
+        "desc": "GL2 linking and cross-game medal credit should now be working properly again."
+    },
+    {
+        "date": "12 Aug 2026",
+        "type": "Maintenance",
+        "desc": "Fixed a display issue with Legion Mission progress not updating appropriately."
+    },
+    {
+        "date": "18 Aug 2026",
+        "type": "Maintenance",
+        "desc": "Improved support when installing to home screen / app on mobile."
+    },
+    {
+        "date": "18 Aug 2026",
+        "type": "Maintenance",
+        "desc": "The 'Auto-kick inactive trainees' setting should work properly again."
+    },
+    {
+        "date": "18 Aug 2026",
+        "type": "Cosmetic",
+        "desc": "Active Scrapping bonuses are now visible in the Trade > Artifacts tab."
+    },
+    {
+        "date": "19 Aug 2026",
+        "type": "Tweak",
+        "desc": "Officers can also now set Legion Announcements."
+    },
+    {
+        "date": "20 Aug 2026",
+        "type": "Initiative",
+        "desc": "Galakis Trading Guilds - Winner: Pathfinders Guild: Increases production by 2% for Pathfinders Guild professions"
+    },
+    {
+        "date": "20 Aug 2026",
+        "type": "Maintenance",
+        "desc": "Fixed some cases where buttons would be unresponsive when errors or network issues occur."
+    },
+    {
+        "date": "24 Aug 2026",
+        "type": "Event",
+        "desc": "The Chuhn event - started"
+    },
+    {
+        "date": "25 Aug 2026",
+        "type": "Initiative",
+        "desc": "Haelon Piracy - Winner: Increase Empyreal Funding: increases damage cap against non-player enemies by 15% (for races near the core)"
+    },
+    {
+        "date": "27 Aug 2026",
+        "type": "Initiative",
+        "desc": "Darmos Galactic Host - Winner: Tross Quadrant: Increases production by 1% for races in the Tross Quadrant"
+    },
+    {
+        "date": "31 Aug 2026",
+        "type": "Initiative",
+        "desc": "Alarri Forgeworks Improvements - Winner: House of Law: Temporarily Unlocks 'House of Law Upgrade' design in the Mission Market, but reduces research production by 8%"
+    },
+    {
+        "date": "1 Sep 2026",
+        "type": "Discord",
+        "desc": "Update on Galaxy Legion on Facebook<br><br>Hello @everyone, <br><br>If you're still playing Galaxy Legion on Facebook, you may have recently had a message when loading the game that \"Galaxy Legion is going away\". This is referring to Galaxy Legion's availability on Facebook's games platform, also known as \"Canvas\", which they are turning off on September 30th.<br><br>This means that Galaxy Legion will no longer be available to play on Facebook itself, but it will still be available to play directly at https: //www.galaxylegion.com/ - we aren't going anywhere, despite what the message may imply.<br><br>If you have not linked a Discord or Google account to your game account, we highly recommend doing this. You'll still be able to use our \"Login with Facebook\" option if you have not done so, but having another method available to you will ensure your gameplay is not interrupted in the event of issues with your Facebook account, or Facebook as a whole.<br><br>Linking another Login Provider<br><br>To link another provider to your Galaxy Legion account, log into the game and navigate to \"Account\" (far top right menu) and select  \"Account\" from the dropdown. Then click on either Discord or Google and follow the directions given. <br><br>If you have any questions or concerns, please direct these to the below thread. <br><br>Thank you!<br><br>(Credit to @ODragon for the message screenshot) <br><br>"
     }
 ]

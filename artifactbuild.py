@@ -5,14 +5,12 @@ skip = [
     "Sentarch Seeker-Drones",
     "Xenotypic Mutants",
     "Tamed Undulok",
-    "Cryo-Foundry Battery (Doubled)",
     "Verdant Estate",
     "Bio-Luminous Orb",
     "Triangulum Sparkmatter",
-    "Seismic Shattermine (Quadrupled)",
     "Quadrigulum Sparkmatter",
-    "Deep-Phase Probe",
-    "Litheor Deep-Phase Sanctuary",
+    "Sentiox Trilink Node",
+    "Council Chamber"
 ]
 
 artifacts = []
@@ -89,7 +87,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-while totalSpace < 116:
+while totalSpace < 100:
     max = 0
     maxStruct = volcInfStructs[0]
     for struct in volcInfStructs:

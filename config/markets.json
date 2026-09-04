@@ -377,5 +377,16 @@
                 "mp": "4,800"
             }
         ]
+    },
+    {
+        "name": "Mission",
+        "material": "Relic Badges",
+        "artifacts": [
+            {
+                "name": "House of Law Upgrade",
+                "cost": "3",
+                "mp": "500"
+            }
+        ]
     }
 ]

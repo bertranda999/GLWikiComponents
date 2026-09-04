@@ -31,6 +31,7 @@ skip = [
 "Aeon Spire",
 "Aeon Relay Tower",
 "Aeon Processor Core",
+"Drannik Holo-Sanctum",
 ]
 
 artifacts = []
@@ -102,10 +103,14 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-while volcInfStructs.__len__() > 0 and totalSpace < 80:
+maxSpace = 93
+while volcInfStructs.__len__() > 0 and totalSpace < maxSpace:
     max = 0
     maxStruct = volcInfStructs[0]
     for struct in volcInfStructs:
+
+        if struct['size'] + totalSpace > maxSpace:
+            continue
         
         prod = 0
         if 'ip' in struct:
@@ -124,15 +129,20 @@ while volcInfStructs.__len__() > 0 and totalSpace < 80:
     rawCloak += maxStruct['c'] if 'c' in maxStruct else 0
     cloakBonus *= (1.0 + (maxStruct['bc'] / 100.0)) if 'bc' in maxStruct else 1.0
     print(f"{maxStruct['name']} {max}")
-    volcInfStructs.remove(maxStruct)
     base = maxStruct['base'] if 'base' in maxStruct else maxStruct['name']
     toRemove = []
     totalSpace += maxStruct['size']
-    for struct in volcInfStructs:
-        if 'base' in struct and struct['base'] == base:
-            toRemove.append(struct)
-        elif struct['name'] == base:
-            toRemove.append(struct)
+    existing = 0
+    for struct in orderedStructs:
+        if struct['name'] == base or ('base' in struct and struct['base'] == base):
+            existing += 1
+
+    if existing >= maxStruct['limit']:
+        for struct in volcInfStructs:
+            if 'base' in struct and struct['base'] == base:
+                toRemove.append(struct)
+            elif struct['name'] == base:
+                toRemove.append(struct)
 
     for remove in toRemove:
         volcInfStructs.remove(remove)

@@ -9313,5 +9313,174 @@
                 "artifact": "Tricennium Box"
             }
         ]
+    },
+    {
+        "name": "Breer's Legacy",
+        "desc": "Collect a daily reward after playing Galaxy Legion for over 14 years and reaching at least Rank 4000",
+        "medalPoints": "280",
+        "img": "breer1.jpg",
+        "artifact": "Prismatic Aperture",
+        "triggers": [
+            {
+                "type": "Collect Daily Reward"
+            }
+        ]
+    },
+    {
+        "name": "An Inside Job",
+        "desc": "Complete the 'Vaash Heist' 7 or more times on Hard (Heavy Patrol) difficulty.",
+        "medalPoints": "12",
+        "img": "chuhnnk15.jpg",
+        "artifact": "Exo-Galactic Curio",
+        "count": "2",
+        "triggers": [
+            {
+                "type": "Mini-Challenge"
+            }
+        ]
+    },
+    {
+        "name": "Mercantile Accession",
+        "desc": "Contribute at least 2400 Influence within the 'Chuhn Ingress' Zone",
+        "medalPoints": "10",
+        "img": "chuhnnk2.jpg",
+        "artifact": "Chuhn Star-Emporium",
+        "triggers": [
+            {
+                "type": "Influence Zone",
+                "zone": "Chuhn Ingress Zone"
+            }
+        ]
+    },
+    {
+        "name": "A Bazaar Persistence",
+        "desc": "Collect and use the following items from various Chuhn trading sources<br>Extragalactic Genes, Eye of Parsilia, Fornax Jewel, Furlinium-P Spanner, Prejor V13 Grav-Hutch, Shimmering Receptacle, Orion Menagerie, Bizian Star Atlas, Chuhn Exo-Habitability Probe, Lore of Laniakea, Triangulum, Pentragulum, Quadrigulum, Well of Yonayan, VSP Catalyst, Parsilian Cryptex, Velamen Tinker, Goridian Cellar, Velamen Reactor",
+        "medalPoints": "37",
+        "img": "chuhnnk3.jpg",
+        "artifact": "Chuhn Prime Starline",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Extragalactic Genes",
+                    "Eye of Parsilia",
+                    "Fornax Jewel",
+                    "Furlinium-P Spanner",
+                    "Prejor V13 Grav-Hutch",
+                    "Shimmering Receptacle",
+                    "Orion Menagerie",
+                    "Bizian Star Atlas",
+                    "Chuhn Exo-Habitability Probe",
+                    "Lore of Laniakea",
+                    "Triangulum Sparkmatter",
+                    "Pentragulum Sparkmatter",
+                    "Quadrigulum Sparkmatter",
+                    "Well of Yonayan",
+                    "VSP Catalyst",
+                    "Parsilian Cryptex",
+                    "Velamen Tinker",
+                    "Goridian Cellar",
+                    "Velamen Reactor"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "A Scrap of Change",
+        "desc": "Use the 'Recycle' ability from a Chuhn Scrap Complex on 5 different planet types",
+        "medalPoints": "12",
+        "img": "chuhnnk13.jpg",
+        "artifact": "Chuhn Prime Starline",
+        "triggers": [
+            {
+                "type": "Use Structure Ability",
+                "structure": "Chuhn Scrap Complex"
+            }
+        ]
+    },
+    {
+        "name": "Chuhn Prosperity",
+        "desc": "Upgrade to the following Chuhn structures on your planets.<br>Chuhn Trading MegaHub, Chuhn Scrap Complex, Chuhn Exo-Logistics Gridport",
+        "medalPoints": "16",
+        "img": "chuhnnk11.jpg",
+        "artifact": "Spire of Mercantile Dominion",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Chuhn Trading MegaHub Upgrade",
+                    "Chuhn Scrap Complex Upgrade",
+                    "Chuhn Exo-Logistics Gridport Upgrade"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Generous Reclamation",
+        "desc": "During the Chuhn Event, scrap a variety of different non-Spice artifacts that result in an average yield of 111 or more Complex Tech Parts per item",
+        "medalPoints": "15",
+        "img": "chuhnscrap7.jpg",
+        "artifact": "Chuhn Reclamation Drone",
+        "triggers": [
+            {
+                "type": "Scrap"
+            }
+        ]
+    },
+    {
+        "name": "Tetradic Potential",
+        "artifact": "Chuhn Timebox",
+        "triggers": [
+            {
+                "type": "Use Structure Ability",
+                "structure": "Velamen Reactor v3"
+            },
+            {
+                "type": "Use Structure Ability",
+                "structure": "Goridian Cellar v3"
+            }
+        ],
+        "desc": "During the 2026 Chuhn Event, upgrade 4 'Velamen Reactor' and/or 'Goridian Cellar' structures to Version 4.",
+        "medalPoints": "14",
+        "img": "chuhnnk9.jpg"
+    },
+    {
+        "name": "ExoGalactic Prestige",
+        "desc": "Build a 'Chuhn ExoGalactic Relay' on planets of 5 different sizes",
+        "medalPoints": "14",
+        "img": "chuhnnk10.jpg",
+        "artifact": "Chuhn Prime Starline",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Chuhn ExoGalactic Relay"
+            }
+        ]
+    },
+    {
+        "name": "Salvaged Connections",
+        "desc": "Use a Chuhn Salvage Arm V11 Upgrade on your ship.",
+        "medalPoints": "12",
+        "img": "chuhnnk8.jpg",
+        "flair": "Circuit",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Chuhn Salvage Arm V11 Upgrade"
+            }
+        ]
+    },
+    {
+        "name": "Luxuriant Reclamation",
+        "desc": "During the Chuhn Event, scrap a variety of different non-Spice artifacts that result in an average yield of 142 or more Complex Tech Parts per item",
+        "medalPoints": "16",
+        "img": "chuhnscrap6.jpg",
+        "artifact": "Chuhn Reclamation Drone",
+        "count": "2",
+        "triggers": [
+            {
+                "type": "Scrap"
+            }
+        ]
     }
 ]

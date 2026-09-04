@@ -176,7 +176,6 @@
         "name": "Divergent Escapes (2026)",
         "seasonalEventType": "Synesthetic,Q-Pedd,Lepus",
         "img": "",
-        "summary": "",
         "start": "Feb 20 2026",
         "end": "Feb 28 2026",
         "lore": "The chaotic and converging movements of Synthetic and Bio-Mechanical species greatly increases tensions and conflict in the area.",
@@ -1527,5 +1526,195 @@
             "Elios Mien",
             "Draymur's Mantle"
         ]
+    },
+    {
+        "name": "The Chuhn (2026)",
+        "additionalEffectDescription": "Scrapping artifacts for Complex Tech Parts will yield additional parts.<br>All tariffs and auction charges have doubled.<br>Colonizing Average or smaller planets may attract a Chuhn Orbital Freeport.",
+        "artifactMarket": [
+            {
+                "name": "Chuhn Salvage Arm V11 Upgrade",
+                "cost": "161"
+            },
+            {
+                "name": "Chuhn ExoGalactic Relay",
+                "cost": "20"
+            },
+            {
+                "name": "Chuhn Scrap Complex Upgrade",
+                "cost": "26"
+            },
+            {
+                "name": "Chuhn InterMarket Caster",
+                "cost": "21"
+            },
+            {
+                "name": "Chuhn Translink X7 Omni-Gridlink",
+                "cost": "79"
+            },
+            {
+                "name": "Chuhn Trading MegaHub Upgrade",
+                "cost": "19"
+            },
+            {
+                "name": "Chuhn Trading Forum",
+                "cost": "22"
+            },
+            {
+                "name": "Chuhn Scrap Depot Upgrade",
+                "cost": "24"
+            },
+            {
+                "name": "Chuhn Scrapyard",
+                "cost": "36"
+            },
+            {
+                "name": "Chuhn Exo-Logistics Center",
+                "cost": "36"
+            },
+            {
+                "name": "Chuhn Salvage Arm",
+                "cost": "74"
+            },
+            {
+                "name": "Chuhn Transgalactic Comm",
+                "cost": "115"
+            },
+            {
+                "name": "Chuhn Trading Post Upgrade",
+                "cost": "19"
+            },
+            {
+                "name": "Xondrite Matrixes",
+                "cost": "131"
+            },
+            {
+                "name": "Xondrite Fuse-Sync",
+                "cost": "131"
+            },
+            {
+                "name": "Chuhn Salvage Arm V8 Upgrade",
+                "cost": "139"
+            },
+            {
+                "name": "Chuhn Exo-Logistics Gridport Upgrade",
+                "cost": "29"
+            },
+            {
+                "name": "Chuhn Xondrite Adapter",
+                "cost": "152"
+            },
+            {
+                "name": "Chuhn Salvage Arm V9 Upgrade",
+                "cost": "153"
+            },
+            {
+                "name": "Chuhn Salvage Arm V10 Upgrade",
+                "cost": "151"
+            },
+            {
+                "name": "Chuhn Salvage Arm V3 Upgrade",
+                "cost": "66"
+            },
+            {
+                "name": "Chuhn Salvage Arm V4 Upgrade",
+                "cost": "71"
+            },
+            {
+                "name": "Chuhn Salvage Arm V5 Upgrade",
+                "cost": "75"
+            },
+            {
+                "name": "Chuhn Salvage Arm V6 Upgrade",
+                "cost": "99"
+            },
+            {
+                "name": "Chuhn Salvage Arm V7 Upgrade",
+                "cost": "123"
+            },
+            {
+                "name": "Chuhn Salvage Arm V2 Upgrade",
+                "cost": "61"
+            },
+            {
+                "name": "Chuhn Salvage Arm Upgrade",
+                "cost": "55"
+            },
+            {
+                "name": "Chuhn Translink X6 Omni-Merger",
+                "cost": "79"
+            },
+            {
+                "name": "Chuhn Translink X5 Merger",
+                "cost": "79"
+            },
+            {
+                "name": "Chuhn Translink X4 Connector",
+                "cost": "79"
+            },
+            {
+                "name": "Chuhn Translink X3 Connector",
+                "cost": "79"
+            },
+            {
+                "name": "Chuhn Translink X2 Connector",
+                "cost": "79"
+            },
+            {
+                "name": "Chuhn Translink Connector",
+                "cost": "79"
+            }
+        ],
+        "ctl": [
+            "Velamen Tinker",
+            "Chuhn Zenith Exchange"
+        ],
+        "dailyChallenges": [
+            "Cracked Manifests",
+            "Merchant Marauder",
+            "Extragalactic Infrastructure"
+        ],
+        "playerEffects": [
+            {
+                "type": "Increase Scrap Yield",
+                "scrapType": "CTP",
+                "value": "25%"
+            },
+            {
+                "type": "Modify Tariff",
+                "value": "100%"
+            }
+        ],
+        "end": "30 Sep 2026",
+        "lore": "A group of intergalactic merchants called the Chuhn have entered the galaxy to explore and trade. They visited once long ago, and seem to know a few details about the galaxy's ancient history.",
+        "influenceZone": "Chuhn Ingress",
+        "medals": [
+            "An Inside Job",
+            "Mercantile Accession",
+            "A Bazaar Persistence",
+            "A Scrap of Change",
+            "Chuhn Prosperity",
+            "Generous Reclamation",
+            "Tetradic Potential",
+            "ExoGalactic Prestige",
+            "Salvaged Connections"
+        ],
+        "minigames": [
+            "Vaash Heist"
+        ],
+        "npcs": [
+            "Chuhn Merchant",
+            "Chuhn Trade Liner"
+        ],
+        "planetaryEvents": [
+            "Chuhn Orbital Freeport"
+        ],
+        "scanDiscoveries": [
+            "Market Interchange Beacon",
+            "CTP"
+        ],
+        "serviceTerminal": [
+            "Chuhn Prestige"
+        ],
+        "start": "24 Aug 2026"
     }
 ]

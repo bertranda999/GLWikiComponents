@@ -1,3 +1,5 @@
+Vaash Sentry Drone: 100000
+Chuhn ExoGalactic Relay: 100000
 Elios Orbital Promenade: 100000
 Jeweled Sentinel v3: 100000
 Jeweled Sentinel v2: 100000
@@ -116,6 +118,7 @@ B'elna's Altar (Upgraded): 6.5
 Aurelios Star-Plant II: 6.5
 Perpetual HyperTurbine III: 6.5
 Prismatrix Reliquary: 6.43859649122807
+Goridian Cellar v4: 6.312280701754386
 Monolith of Miracles v4: 6.25
 Raix Stasis Hold III: 6.2105263157894735
 Vault of Gaia: 6.140350877192983
@@ -161,7 +164,9 @@ Perpetual HyperTurbine II: 5.0
 Verdant Estate v3: 5.0
 Forum of Realms: 5.0
 Bane Phage Sacrarium v4: 5.0
+Spire of Mercantile Dominion: 4.75
 Glimmerhold, Spectral Castle: 4.587719298245614
+Goridian Cellar v3: 4.533333333333333
 Corrupted Edifice: 4.508771929824562
 Custodian's Villa: 4.5
 Micro-Raix Cyclotron 3: 4.5
@@ -195,8 +200,10 @@ Seismic Shattermine (Quadrupled): 4.0
 Monolith of Miracles v3: 4.0
 Verdant Estate v2: 4.0
 Chuhn Star-Emporium v4: 4.0
+Velamen Reactor v3: 4.0
 Artifact Relic-Warehouse: 3.7719298245614037
 Oruas Eye Chamber: 3.754385964912281
+Chuhn Zenith Exchange v2: 3.75
 Artifact Warehouse: 3.508771929824561
 Polychoron RelicVault: 3.508771929824561
 Vault of Terra: 3.508771929824561
@@ -266,7 +273,10 @@ Civicordium Platform v4: 3.0
 Bane Phage Sacrarium v2: 3.0
 Bane Phage Sacrarium v3: 3.0
 Jeweled Labyrinth: 3.0
+Velamen Reactor v2: 3.0
+Velamen Reactor v3: 3.0
 Nova-Stasis Unit: 2.949122807017544
+Goridian Cellar v2: 2.7526315789473683
 Font of Vitalis: 2.6666666666666665
 Xiphos Heist Outpost (20,000): 2.531578947368421
 Exo-Wave Generator: 2.5
@@ -280,6 +290,7 @@ SubVoid Darkdrone F: 2.5
 Monolith of Miracles v2: 2.5
 Crownspire, Spectral Palace: 2.5
 Shardveil, Spectral Citadel: 2.5
+Chuhn Zenith Exchange: 2.5
 Sirocco Sandspire: 2.25
 Exo-Rift Membrane Blueprint: 2.0
 Litheor Deep-Phase Probe: 2.0
@@ -432,6 +443,9 @@ Thavix Geneworks v2: 2.0
 Civicordium Platform v3: 2.0
 Tree of Harmony III: 2.0
 Bane Phage Sacrarium: 2.0
+Scruuge Gift-Sorter: 2.0
+Velamen Reactor: 2.0
+Goridian Cellar: 1.9736842105263157
 Propaganda Plex v3: 1.8333333333333333
 Scruuge Frost Tribunal: 1.763157894736842
 Polychoron DataVault: 1.7543859649122806
@@ -649,6 +663,9 @@ Elios Heat-Exchanger v4: 1.0
 Elios Heat-Exchanger v5: 1.0
 Stryll Bio-Shroud Array: 1.0
 Well of Yonayan: 1.0
+House of Law: 1.0
+Vaash Drone Tower: 1.0
+Vaash Drone Tower (Upgraded): 1.0
 Proto-Matter Synthesizer: 0.8421052631578947
 Bane Nether-Seal (2): 0.75
 Hyperforge Fabricator: 0.6666666666666666

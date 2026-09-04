@@ -18,6 +18,7 @@ Domain:General
 		Imprint of Creation
 		The Duodecix Alignment
 		The Rites of the Luminous
+		Breer's Legacy
 		
 	Section:Apotheosis
 		The Timeline Interfold
@@ -589,12 +590,11 @@ Domain:Chuhn
 		A Bazaar Possession
 		A Bazaar Compulsion
 		A Bazaar Obsession
+		A Bazaar Persistence
 		
 	Section:Influence Zone
 		Mercantile Claim
-		
-	Section:Menagerie
-		Museums of War
+		Mercantile Accession
 		
 	Section:Re-negotiate
 		Market Forces
@@ -604,6 +604,7 @@ Domain:Chuhn
 	Section:Recycle (GP)
 		A Scrap of Hope
 		A Scrap of Profit
+		A Scrap of Change
 		
 	Section:Salvage Arm / Translink (GP)
 		Chuhn Connections
@@ -612,15 +613,15 @@ Domain:Chuhn
 		Extragalactic Tuning
 		Extragalactic Fusion
 		Extragalactic Connections
+		Salvaged Connections
 		
 	Section:Scrap
 		Scrapyard Reverie
 		High-Yield Salvage
 		High-Energy Salvage
 		Windfall Reclamation
-		
-	Section:The Chuhn
-		Fair Trade
+		Generous Reclamation
+		Luxuriant Reclamation
 		
 	Section:Other GP
 		The Chuhn Deal
@@ -630,6 +631,8 @@ Domain:Chuhn
 		A Chuhn Enlightenment
 		Merchants Guild Agreements
 		A Chuhn Immersion
+		Chuhn Prosperity
+		ExoGalactic Prestige
 		
 	Section:Other
 		Bizian Revelations
@@ -640,6 +643,10 @@ Domain:Chuhn
 		Wells of the Block
 		Temporal Resonations
 		Private Shipping
+		Fair Trade
+		Museums of War
+		An Inside Job
+		Tetradic Potential
 		
 Domain:Bane
 

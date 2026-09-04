@@ -1,3 +1,4 @@
+Vaash Sentry Drone: 100000
 Jeweled Sentinel v3: 100000
 Veon Singularium v4: 100000
 Veon Singularium v3: 100000
@@ -22,6 +23,7 @@ Exo-Pulse Disruptor: 1222.0
 Corrupted Portal III: 1200.0
 Dark Supercollider (Upgraded): 1200.0
 SubVoid Darkdrone E: 1111.0
+Vaash Drone Tower (Upgraded): 1110.0
 Bane Generator XV: 1100.0
 Bane Generator XIV: 900.0
 Dais of Deceit: 900.0
@@ -61,6 +63,7 @@ Nexus Recon Spy-Hub: 600.0
 Q-Pedd Science Station 14.0: 600.0
 Dark Void Beacon: 600.0
 SubVoid Darkdrone D: 555.5
+Vaash Drone Tower: 555.0
 Atrium of Secrets: 550.0
 T.O. Harvest Vault XIV: 550.0
 Scruuge Hoarding Vault XIV: 550.0

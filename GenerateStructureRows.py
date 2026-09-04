@@ -1120,6 +1120,23 @@ structures: list[Structure] = [
     Structure("Temple of Reflection", 1, 1, True, True, rp=3, dp=30),
     Structure("Well of Yonayan", 1, 1, False, False, mp=3, ap=1),
     Structure("XRP Warp Inhibitor", 2, 1, False, True, d=800),
+    Structure("Scruuge Gift-Sorter", 1, 1, False, False, mp=2, ap=2, rp=2, ipp=1),
+    Structure("House of Law", 3, 5, False, False, ap=3, rp=5, ip=2, ipp=2),
+    Structure("Chuhn Zenith Exchange", 2, 1, False, False, mp=3, mpp=2, ap=2, app=2, rp=2, rpp=2, ip=1, ipp=2, dp=22),
+    Structure("Chuhn Zenith Exchange", 2, 1, False, False, "v2", mp=4, mpp=3, ap=3, app=3, rp=3, ip=2, ipp=3, dp=44),
+    Structure("Chuhn ExoGalactic Relay", 0, 1, False, False, mpp=1, app=1, rp=2, rpp=1, ip=1, ipp=1, cp=22),
+    Structure("Goridian Cellar", 1, 1, False, False, mp=1, mps=555, ap=1, aps=555, rps=555, ips=55),
+    Structure("Goridian Cellar", 1, 1, False, False, "v2", mp=3, mps=999, ap=1, aps=999, rps=999, ips=99),
+    Structure("Goridian Cellar", 1, 1, False, False, "v3", mp=4, mps=1444, ap=2, aps=1444, rps=1444, ips=140),
+    Structure("Goridian Cellar", 1, 1, False, False, "v4", mp=5, mps=1888, ap=3, aps=1888, rps=1888, ips=188),
+    Structure("Velamen Reactor", 1, 1, False, False, ap=2, rp=2, cp=11),
+    Structure("Velamen Reactor", 1, 1, False, False, "v2", ap=3, rp=3, cp=18),
+    Structure("Velamen Reactor", 1, 1, False, False, "v3", ap=3, rp=5, cp=26),
+    Structure("Velamen Reactor", 1, 1, False, False, "v3", ap=4, rp=6, cp=35),
+    Structure("Vaash Sentry Drone", 0, 1, False, False, mp=1, ap=1, c=142, atp=25),
+    Structure("Vaash Drone Tower", 1, 1, False, False, ap=1, rp=3, c=555, at=5555),
+    Structure("Vaash Drone Tower", 1, 1, False, False, "(Upgraded)", ap=1, rp=3, c=1110, at=11110),
+    Structure("Spire of Mercantile Dominion", 2, 1, True, False, ap=5, app=3, ip=4, ips=444),
     ]
 
 def addAbility(structureName, ability):
@@ -1133,9 +1150,9 @@ def addAbility(structureName, ability):
 addAbility("Monolith of Miracles", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Monolith of Miracles v2"}], "restrictions":[{"type":"Size","max":"Large"}]})
 addAbility("Monolith of Miracles v2", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Monolith of Miracles v3"}], "restrictions":[{"type":"Size","max":"Average"}]})
 addAbility("Monolith of Miracles v3", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Monolith of Miracles v4"}], "restrictions":[{"type":"Size","max":"Small"}]})
-addAbility("Elios Corethune Shell", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Elios Corethune Shell v2"}], "restrictions":[{"type":"Size","max":"Average"}]})
-addAbility("Elios Corethune Shell v2", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Elios Corethune Shell v3"}], "restrictions":[{"type":"Size","max":"Average"}]})
-addAbility("Elios Corethune Shell v3", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Elios Corethune Shell v4"}], "restrictions":[{"type":"Size","max":"Average"}]})
+addAbility("Elios Corethune Shell", {"name":"V2 Upgrade", "message":"You successfully perform the upgrades.", "cost":{"energy":"6,000","aeon":"6","genes":"9"}, "desc":"Upgrades Shell and Ability to V2.<br>Adds +1 Influence +1 Artifact +300 Cloak and +10% Defense<br>Planet must be average size or smaller.<br>Costs 6000 Energy and 6 Aeon Badges and 9 Evolution Genes", "planetEffects":[{"type":"Upgrade", "new":"Elios Corethune Shell v2"}], "restrictions":[{"type":"Size","max":"Average"}]})
+addAbility("Elios Corethune Shell v2", {"name":"V3 Upgrade", "desc":"Upgrades Shell and Ability to V3.<br>Adds +1 Influence +1 Artifact +300 Cloak and +10% Defense<br>Planet must be Average size or smaller.<br>Costs 7000 Energy and 7 Aeon Badges and 11 Evolution Genes", "cost":{"energy":"7,000","aeon":"7","genes":"11"}, "message":"You successfully perform the upgrades.", "planetEffects":[{"type":"Upgrade", "new":"Elios Corethune Shell v3"}], "restrictions":[{"type":"Size","max":"Average"}]})
+addAbility("Elios Corethune Shell v3", {"name":"V4 Upgrade", "cost":{"energy":"8,000","aeon":"8","genes":"13"}, "desc":"Upgrades Shell and Ability to V4.<br>Adds +2 Influence +2 Artifact +400 Cloak and +20% Defense<br>Planet must be Average size or smaller.<br>Costs 8000 Energy and 8 Aeon Badges and 13 Evolution Genes", "message":"You successfully perform the upgrades.", "planetEffects":[{"type":"Upgrade", "new":"Elios Corethune Shell v4"}], "restrictions":[{"type":"Size","max":"Average"}]})
 addAbility("Chuhn Star-Emporium", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Chuhn Star-Emporium v2"}], "restrictions":[{"type":"Size","max":"Average"}]})
 addAbility("Chuhn Star-Emporium v2", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Chuhn Star-Emporium v3"}], "restrictions":[{"type":"Size","max":"Average"}]})
 addAbility("Chuhn Star-Emporium v3", {"name":"Upgrade", "planetEffects":[{"type":"Upgrade", "new":"Chuhn Star-Emporium v4"}], "restrictions":[{"type":"Size","max":"Average"}]})
@@ -1242,6 +1259,84 @@ addAbility("Veon Singularium v2", {
     "planetEffects":[{"type":"Upgrade","new":"Veon Singularium v3"}],
     "restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"6"}],
     "cost":{"energy":"42k","neut":"2,900"}
+})
+addAbility("Obscura Lab", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Lab and Ability to Version 2.<br>Adds +1 Artifact +2 Research and +420 Cloak to the Lab.<br>Must be a Hacker / Physicist / or Spy to use.<br>Costs 42 Blue Badges and 1 Charge.",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Obscura Lab v2"}],
+    "restrictions":[{"type":"Profession","professions":["Hacker","Physicist","Spy"]}],
+    "cost":{"blues":"42"}
+})
+addAbility("Obscura Lab v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Lab and Ability to Version 3.<br>Adds +2 Research and +420 Cloak to the Lab.<br>Must be a Hacker / Physicist / or Spy to use.<br>Costs 42 Blue Badges and 1 Charge.",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Obscura Lab v3"}],
+    "restrictions":[{"type":"Profession","professions":["Hacker","Physicist","Spy"]}],
+    "cost":{"blues":"42"}
+})
+addAbility("Obscura Lab v3", {
+    "name":"V4 Upgrade",
+    "desc":"Upgrades Lab and Ability to Version 4.<br>Adds +1 Artifact +1 Research and 420 research storage to the Lab.<br>Must be a Hacker / Physicist / or Spy to use.<br>Costs 88 Blue Badges and 1 Charge.",
+    "message":"",
+    "planetEffects":[{"type":"Upgrade","new":"Obscura Lab v4"}],
+    "restrictions":[{"type":"Profession","professions":["Hacker","Physicist","Spy"]}],
+    "cost":{"blues":"88"}
+})
+addAbility("Supel Incubator", {
+    "name":"Biomech Incubation",
+    "desc":"Generates 2 Evolution Genes for each other distinct Lepus Structure on the planet. Costs 5500 energy and 900 CTP",
+    "message":"You receive [x] Evolution Genes",
+    "playerEffects":[{"type":"Grant Genes","scaling":[{"type":"Existing Structures","tags":["Lepus"]}]}],
+    "cost":{"energy":"5,500","ctp":"900"}
+})
+addAbility("T.O. Genesis Loom", {
+    "name":"Splice Genes",
+    "desc":"Generates 3 Evolution Genes for each Terra / Gaia / Aphotic or Oceanic planet you control that has influence. up to a maximum of 21 per use. Costs 4400 energy",
+    "message":"You receive [x] Evolution Genes",
+    "playerEffects":[{"type":"Grant Genes","scaling":[{"type":"Owned Planets","types":["Terra","Gaia","Aphotic","Oceanic"]}]}],
+    "cost":{"energy":"4,400"}
+})
+addAbility("Q-Pedd Affinity Tunnel", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Tunnel to V2<br>Adds +2 Research +2% Research<br>Planet must have at least 5 other Q-Pedd Structures.<br>Costs 5000 Energy",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Q-Pedd Affinity Tunnel v2"}],
+    "cost":{"energy":"5,000"},
+    "restrictions":[{"type":"Existing Structures","tags":["Q-Pedd"],"min":"5"}]
+})
+addAbility("Q-Pedd Affinity Tunnel v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Tunnel to V3<br>Adds +1 Artifact +1 Influence +1% Research<br>Planet must have at least 7 other Q-Pedd Structures.<br>Costs 7000 Energy",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Q-Pedd Affinity Tunnel v3"}],
+    "cost":{"energy":"7,000"},
+    "restrictions":[{"type":"Existing Structures","tags":["Q-Pedd"],"min":"7"}]
+})
+addAbility("Q-Pedd Affinity Tunnel v3", {
+    "name":"V4 Upgrade",
+    "desc":"Upgrades Tunnel to V4<br>Adds +1 Influence +1% Research<br>Planet must have at least 9 other Q-Pedd Structures.<br>Costs 9000 Energy",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Q-Pedd Affinity Tunnel v4"}],
+    "cost":{"energy":"9,000"},
+    "restrictions":[{"type":"Existing Structures","tags":["Q-Pedd"],"min":"9"}]
+})
+addAbility("Civicordium Platform", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Platform to V2<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 4 distinct Structures that provide 2+ influence.<br>Costs 4400 Influence",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v2"}],
+    "cost":{"influence":"4,400"},
+    "restrictions":[{"type":"Existing Structures","stat":"ip","statMin":"2","min":"4"}]
+})
+addAbility("Civicordium Platform v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Platform to V3<br>Adds +1 Artifact +1 Influence<br>Planet must have at least 7 distinct structures that provide 2+ influence.<br>Costs 8800 Influence",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v3"}],
+    "cost":{"influence":"8,800"},
+    "restrictions":[{"type":"Existing Structures","stat":"ip","statMin":"2","min":"7"}]
 })
     
 def generateNotesStr(notes: list[int] = []):

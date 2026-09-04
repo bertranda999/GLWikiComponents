@@ -79,5 +79,21 @@
         "desc": "Influence various Zones with 1500+ Points",
         "duration": "4 days",
         "reward": "4"
+    },
+    {
+        "name": "Merchant Marauder",
+        "img": "chuhnnk4.jpg",
+        "season": "Chuhn",
+        "desc": "Raid resources from Merchants of 5 different species",
+        "duration": "2 days",
+        "reward": "4"
+    },
+    {
+        "name": "Extragalactic Infrastructure",
+        "img": "chuhnnk5.jpg",
+        "season": "Chuhn",
+        "desc": "Build 6 different Chuhn planet structures (via artifacts) on various planets",
+        "duration": "2 days",
+        "reward": "3"
     }
 ]

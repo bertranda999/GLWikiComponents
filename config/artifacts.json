@@ -4449,7 +4449,8 @@
             "type": "ctp",
             "min": "8",
             "max": "18"
-        }
+        },
+        "message": "A Civicordium Platform has been constructed above the planet."
     },
     {
         "name": "CK69 Assault Sentry",
@@ -5476,7 +5477,8 @@
                     "Sentient"
                 ]
             }
-        ]
+        ],
+        "message": "Crownspire, Spectral Palace has been constructed on the planet."
     },
     {
         "name": "Crux Amplifier",
@@ -7160,7 +7162,8 @@
                 "min": "12"
             }
         ],
-        "img": "eliosmerge1.webp"
+        "img": "eliosmerge1.webp",
+        "message": "A bright illumination fills the planet's orbit"
     },
     {
         "name": "Elios Heat-Exchanger",
@@ -8561,7 +8564,8 @@
         "cost": {
             "energy": "2,200"
         },
-        "img": "egenes1.png"
+        "img": "egenes1.png",
+        "message": "A surge of energy flows through your labs."
     },
     {
         "name": "Eye of Jeminoss",
@@ -8790,7 +8794,8 @@
             "type": "ctp",
             "min": "8",
             "max": "17"
-        }
+        },
+        "message": "The Font of Vitalis has been constructed on the planet."
     },
     {
         "name": "Forgestone Prison Colony",
@@ -10863,7 +10868,7 @@
     },
     {
         "name": "Infinity Capsule",
-        "desc": "<i>An intricate connection of tesseract points, the<br>capsule's design can store a massive amount of cargo.</i><br>Adds 50k cargo to your ship.",
+        "desc": "<i>An intricate connection of tesseract points, the. capsule's design can store a massive amount of cargo.</i> Adds 42k cargo to your ship.",
         "img": "infinitycargo1.png",
         "scrap": {
             "type": "cr",
@@ -10877,7 +10882,7 @@
         "playerEffects": [
             {
                 "type": "Increase Cargo",
-                "value": "50k",
+                "value": "42k",
                 "duration": "Permanent"
             }
         ],
@@ -10992,7 +10997,7 @@
             }
         ],
         "scrap": {
-            "type": "ctp",
+            "type": "cr",
             "min": "4,500",
             "max": "18,000"
         }
@@ -12459,6 +12464,7 @@
         "tags": [
             "Chuhn"
         ],
+        "message": "Your ship begins to process the deep lore contained within...",
         "scrap": {
             "type": "cr",
             "min": "10,000",
@@ -12766,7 +12772,8 @@
             "type": "cr",
             "min": "4,500",
             "max": "18,000"
-        }
+        },
+        "message": "A bright illumination fills the planet's orbit"
     },
     {
         "name": "Megacity Harborplex",
@@ -14015,7 +14022,8 @@
             "type": "cr",
             "min": "4,500",
             "max": "18,000"
-        }
+        },
+        "message": "A bright illumination fills the planet's orbit"
     },
     {
         "name": "Pentragulum Sparkmatter",
@@ -14043,7 +14051,8 @@
             "type": "ctp",
             "min": "5",
             "max": "10"
-        }
+        },
+        "message": "The Sparkmatter has taken form."
     },
     {
         "name": "Perimeter Station Upgrade",
@@ -15377,7 +15386,8 @@
                 "type": "Increase Size",
                 "value": "1"
             }
-        ]
+        ],
+        "message": "The planet's surface vibrates and expands with massive energy..."
     },
     {
         "name": "Raix Bunker",
@@ -22012,7 +22022,74 @@
         ],
         "tags": [
             "Uldrinan"
-        ]
+        ],
+        "buttonText": "Build"
+    },
+    {
+        "name": "Uldri Anomaly Crystal (Market)",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "desc": "[ Planet Structure - Size:1, Research:1, Artifact:1 ]<br>If built on a planet that has been scanned<br>by at least 2 other ships, the structure gains +200<br>cloak and provides a +5% research bonus.<br>Limit 1 /planet.",
+        "img": "exupgr.png",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Anomaly Crystal (Upgraded)",
+                "conditions": [
+                    {
+                        "type": "Other Scanners",
+                        "min": "2"
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Anomaly Crystal",
+                "message": "The Uldri Anomaly Crystal has been placed on the planet."
+            }
+        ],
+        "tags": [
+            "Uldrinan"
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222"
+        }
+    },
+    {
+        "name": "Uldri Crystal Field",
+        "buttonText": "Build",
+        "desc": "[ Planet Structure - Size:1, Defense:1000, Production:+5% ]<br>Can only be built on planets with an Uldri Anomaly Crystal.<br>Limit 1 per planet.",
+        "img": "uldcrystal.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Crystal Field"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structures": [
+                    "Uldri Anomaly Crystal",
+                    "Uldri Anomaly Crystal (Upgraded)"
+                ]
+            }
+        ],
+        "tags": [
+            "Uldrinan"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "message": "The Uldri Crystal Field has been constructed on the planet.",
+        "target": "Your Planet"
     },
     {
         "name": "Uldri Glome",
@@ -22045,7 +22122,51 @@
                 ],
                 "min": "4"
             }
-        ]
+        ],
+        "message": "The Uldri Glome has been constructed on the planet."
+    },
+    {
+        "name": "Uldri Power Node",
+        "buttonText": "Build",
+        "img": "uldcarr.png",
+        "desc": "[ Planet Structure - Size:1, Research:1, Artifact:+5% ]<br>Limit 1 per planet.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Power Node"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "2"
+        },
+        "message": "The Uldri Power Node has been constructed on the planet.",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Uldri Prism Haven",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining: 2, Artifact:2, Research:2 ]<br>Also increases research capacity by 2222,<br>and research production by 7%.<br>Can only be built on planets with an Uldri Crystal Field.<br>Limit 1",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structures": [
+                    "Uldri Crystal Field"
+                ]
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "img": "uldrivault1.png",
+        "message": "The Uldri Prism Haven has been constructed on the planet.",
+        "target": "Your Planet"
     },
     {
         "name": "Uldri Recovery Capsule",
@@ -22134,6 +22255,38 @@
                 "message": "The Uldri Spacial Marker has been constructed on the planet."
             }
         ]
+    },
+    {
+        "name": "Uldri Spacial Folder",
+        "buttonText": "Build",
+        "img": "uldsens.gif",
+        "desc": "[ Planet Structure - Size:1, Research:2, Artifact:1, Mining:1, Cloak:300 ]<br>Can only be built on planets with an 'Uldri Spacial Marker'.<br>Limit 1 per planet.",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structures": [
+                    "Uldri Spacial Marker",
+                    "Uldri Spacial Marker II",
+                    "Uldri Spacial Marker III"
+                ]
+            }
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "2"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Uldri Spacial Folder"
+            }
+        ],
+        "tags": [
+            "Uldri"
+        ],
+        "message": "The Uldri Spacial Folder has been constructed on the planet."
     },
     {
         "name": "Uldri Wave Ejector",
@@ -24025,5 +24178,491 @@
                 "effectImg": "effects/thaum30.webp"
             }
         ]
+    },
+    {
+        "name": "Scruuge Gift-Sorter",
+        "img": "scruugesorter1.png",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        },
+        "cost": {
+            "energy": "11,000",
+            "neut": "1,100"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Scruuge Gift-Sorter"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Size",
+                "max": "Very Large"
+            }
+        ]
+    },
+    {
+        "name": "Timebender's Cache",
+        "img": "ca-crate2.png",
+        "target": "Player",
+        "buttonText": "Open",
+        "playerEffects": [
+            {
+                "type": "Grant All Resources",
+                "value": "12 hours"
+            }
+        ],
+        "desc": "A large cache of data and goods of various types.<br>When opened, it grants 12 hours worth of planetary production,<br>not to exceed your planetary and rank capacity."
+    },
+    {
+        "name": "Human Tactical Barracks",
+        "img": "hbarracks2.png",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "11"
+        },
+        "desc": "[ Planet Structure - Size:2, Artifact:3, Population:5000 ]<br>Also increases attack and defense by 33%,<br>and research capacity by 1111.<br>Must be Human to initially build this structure.<br>Limit 2 per planet.",
+        "buttonText": "Build",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Human Tactical Barracks"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Race",
+                "races": [
+                    "Human"
+                ]
+            }
+        ],
+        "message": "The Human Tactical Barracks has been constructed on the planet."
+    },
+    {
+        "name": "Parsilian Cryptex",
+        "message": "The planet glows with a rumble of activity...",
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "minigame": "Probe Trap",
+        "restrictions": [
+            {
+                "type": "Size",
+                "max": "Average"
+            }
+        ],
+        "planetEffectsChoice": [
+            {
+                "type": "Increase Cloak",
+                "value": "17%"
+            },
+            {
+                "type": "Increase Cloak",
+                "value": "11%"
+            }
+        ],
+        "img": "chuhnva1.png",
+        "buttonText": "Use",
+        "cost": {
+            "ctp": "190"
+        },
+        "target": "Your Planet",
+        "desc": "[ Minigame Difficulty - Medium: +11% Cloak, Hard: +17% Cloak ]<br>Opens a Parsilian Shroud over a planet, boosting all cloaking for 1 year (based on chosen difficulty).<br>Planet must be Average size (or smaller)."
+    },
+    {
+        "name": "Vaash Sentry Drone",
+        "message": "The Vaash Sentry Drone has been released on the planet.",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "800",
+            "genes": "5"
+        },
+        "img": "vaashdrone1.png",
+        "desc": "[ Planet Structure - Size:0, Artifact:1, Mining:1, Cloak:142 ]<br><br>Boosts attack by 25%. Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Vaash Sentry Drone"
+            }
+        ],
+        "tags": [
+            "Vaash",
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Vaash Drone Tower",
+        "message": "A Vaash Drone Tower has been constructed on the planet.",
+        "scrap": {
+            "type": "ctp",
+            "min": "3",
+            "max": "7"
+        },
+        "img": "vaashdtower.webp",
+        "buttonText": "Build",
+        "tags": [
+            "Vaash",
+            "Chuhn"
+        ],
+        "desc": "[ Limited Artifact - Late Summer ]<br>[ Planet Structure - Size:1, Artifact:1, Research:3, Cloak:555, Attack:5555 ]<br>If the planet has 4 or more distinct Drone structures already built, the cloak and attack bonuses double.",
+        "planetEffectsConditional": [
+            {
+                "type": "Construct Structure",
+                "structure": "Vaash Drone Tower (Upgraded)",
+                "conditions": [
+                    {
+                        "type": "Existing Structures",
+                        "filters": [
+                            "Drone"
+                        ],
+                        "min": "4"
+                    }
+                ]
+            },
+            {
+                "type": "Construct Structure",
+                "structure": "Vaash Drone Tower"
+            }
+        ],
+        "target": "Your Planet"
+    },
+    {
+        "name": "Chuhn Salvage Arm V11 Upgrade",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "95,500",
+            "max": "382,000"
+        },
+        "img": "chuhnsalv11.webp",
+        "desc": "[ Limited Artifact - Late Summer ]<br>Upgrades a Chuhn Salvage Arm V11 on your ship,<br>increasing its hull by 700, boosting its scrap bonus to 97%,<br>Hull Bonus to 3%, and improves glean ability to 970%",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "5,500"
+        },
+        "playerEffects": [
+            {
+                "type": "Upgrade Module",
+                "original": "Chuhn Salvage Arm V11",
+                "new": "Chuhn Salvage Arm V12"
+            }
+        ],
+        "target": "Player",
+        "message": "Chuhn Salvage Arm V11 has been upgraded to a Chuhn Salvage Arm V12"
+    },
+    {
+        "name": "Chuhn ExoGalactic Relay",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structures": [
+                    "Chuhn InterMarket Caster v2"
+                ]
+            }
+        ],
+        "img": "chuhnpower1.webp",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "440"
+        },
+        "target": "Your Planet",
+        "desc": "[ Limited Artifact - Late Summer ]<br>[ Planet Structure - Size:0, Research:2, Influence:1, Cloak:+22% ]<br>Also boosts all planet production by 1%.<br>Planet must have an existing 'Chuhn InterMarket Caster v2' (or higher upgrade) to build<br>Limit 1 per planet",
+        "message": "An Chuhn ExoGalactic Relay has been constructed on the planet."
+    },
+    {
+        "name": "Spice of Illustris 100%",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "100",
+            "max": "200"
+        },
+        "img": "spiceill.png",
+        "target": "Player",
+        "desc": "100% Enhanced<br><i>A valuable material, highly sought-after in a neighboring<br>Galaxy for its mind-altering properties.</i>"
+    },
+    {
+        "name": "Eye of Parsilia",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "10"
+        },
+        "img": "eyeparsilia.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Eye of Parsilia"
+            }
+        ],
+        "target": "Player",
+        "buttonText": "Build",
+        "desc": "[ Limited Artifact - Late Summer ]<br>[ Device - Size:60, Scan:190, Energy:210 ]<br>While Installed, Inergon, Kronyn, and<br>Genetarr receive double the energy bonus.<br>Limit 2 per ship."
+    },
+    {
+        "name": "Furlinium-P Spanner",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "img": "fpspanner.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Furlinium-P Spanner"
+            }
+        ],
+        "buttonText": "Build",
+        "target": "Player",
+        "desc": "[ Weapon - Size:76, Attack:720, Cloak:790 ]<br>A weapon with an extragalactic power source.<br>While Installed, Zolazin, Vygoid, and Litheor<br>receive double the cloak bonus.<br>Limit 2 per ship."
+    },
+    {
+        "name": "Prejor V13 Grav-Hutch",
+        "tags": [
+            "Chuhn",
+            "Prejor"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "img": "prejgrav13.png",
+        "playerEffects": [
+            {
+                "type": "Install Module",
+                "module": "Prejor V13 Grav-Hutch"
+            }
+        ],
+        "buttonText": "Build",
+        "target": "Player",
+        "desc": "[ Limited Artifact - Late Summer ]<br>[ Defense - Size:66, Defense:860, Shield:860 ]<br>While Installed, Aerlen, Xecti, and Guard<br>receive double the defense bonus.<br>Limit 2 per ship."
+    },
+    {
+        "name": "Velamen Tinker",
+        "scrap": {
+            "type": "cr",
+            "min": "6,000",
+            "max": "24,000"
+        },
+        "tags": [
+            "Chuhn"
+        ],
+        "playerEffectsRandom": [
+            {
+                "type": "Reduce Upkeep",
+                "value": "16%",
+                "duration": "24 hours"
+            },
+            {
+                "type": "Increase Scrap Yield",
+                "value": "8%",
+                "duration": "24 hours"
+            }
+        ],
+        "target": "Player",
+        "img": "bdrone11.webp",
+        "desc": "<i>A chaotic maintenance drone that seems to have a mind of its own...</i> Applies a random bonus: reduces upkeep by 16% or boosts scrapping by 8%.<br>Lasts 24 hours.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "505"
+        }
+    },
+    {
+        "name": "Goridian Cellar",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "img": "chuhnvault1.webp",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "1,111"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Goridian Cellar"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Chuhn"
+                ],
+                "min": "3"
+            }
+        ],
+        "target": "Your Planet",
+        "desc": "[ Planet Structure - Size:1, Mining:1, Artifact:1 ]<br>Increases Mining/Artifact/Research storage by 555 units, and Influence storage by 55 units.<br>Planet must have 3+ distinct Chuhn Structures to build.<br>Can be upgraded using Goridian Ale, with 4+ other structures<br>Limit 1 per planet"
+    },
+    {
+        "name": "Spice of Parsilia",
+        "tags": [
+            "Chuhn"
+        ],
+        "target": "None",
+        "scrap": {
+            "type": "ctp",
+            "min": "65",
+            "max": "130",
+            "maxMultiplier": "1.5",
+            "minMultiplier": "0.7"
+        },
+        "img": "spiceparsilia1.png",
+        "desc": "<i>A valuable material from the Parsilia Galaxy, highly sought-after for its mind-bending properties.</i> Progressively increases and fluctuates in scrap value during the Chuhn visit, and worth far less when the Chuhn are gone."
+    },
+    {
+        "name": "Chuhn Zenith Exchange",
+        "tags": [
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "img": "chuhnshield1.png",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Chuhn"
+                ],
+                "min": "10"
+            }
+        ],
+        "desc": "[ Planet Structure - Size:2, Mining:3, Artifact:2, Research:2, Influence:1 ]<br>Boosts planetary defense by 22%, and boosts all production by 2%<br>Planet must have 8+ distinct Chuhn Structures to build.<br>Can be upgraded using other Zenith Exchanges, with 10+ other structures<br>Limit 1 per planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222",
+            "influence": "11,000"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Chuhn Zenith Exchange"
+            }
+        ],
+        "target": "Your Planet"
+    },
+    {
+        "name": "Velamen Reactor",
+        "tags": [
+            "Chuhn"
+        ],
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "img": "chuhncloak1.webp",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Chuhn"
+                ],
+                "min": "3"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Velamen Reactor"
+            }
+        ],
+        "desc": "[ Planet Structure - Size:1, Research:2, Artifact:2, Cloak:+11% ]<br>Planet must have 3+ distinct Chuhn Structures to build.<br>Can be upgraded with 4+ other structures<br>Limit 1 per planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "1,111"
+        }
+    },
+    {
+        "name": "House of Law Upgrade",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "image": "houselaw1.png",
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Hall of Law",
+                "new": "House of Law"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1,111"
+        },
+        "target": "Your Planet",
+        "desc": "Upgrades a Hall of Law on your planet to a House of Law, boosting Artifact +2, Research +3, Influence by +1, and boosting Influence +2%"
+    },
+    {
+        "name": "FR13-ND Neuralese Channel",
+        "tags": [
+            "Q-Pedd"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "44",
+            "max": "88"
+        },
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Increase Production",
+                "value": "5%",
+                "duration": "40 hours"
+            }
+        ],
+        "img": "qpeddprod1.png",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "8,800"
+        },
+        "desc": "[ Limited Item - Valentines ]<br><i>An advanced data-channel used by FR13-ND to<br>directly optimize planetary resource networks</i><br>Increases all production by 5%<br>Lasts 40 hours"
     }
 ]

@@ -2604,7 +2604,14 @@
         "bd": 20,
         "c": 620,
         "ability": {
-            "name": "Upgrade",
+            "name": "V2 Upgrade",
+            "message": "You successfully perform the upgrades.",
+            "cost": {
+                "energy": "6,000",
+                "aeon": "6",
+                "genes": "9"
+            },
+            "desc": "Upgrades Shell and Ability to V2.<br>Adds +1 Influence +1 Artifact +300 Cloak and +10% Defense<br>Planet must be average size or smaller.<br>Costs 6000 Energy and 6 Aeon Badges and 9 Evolution Genes",
             "planetEffects": [
                 {
                     "type": "Upgrade",
@@ -2632,7 +2639,14 @@
         "bd": 30,
         "c": 920,
         "ability": {
-            "name": "Upgrade",
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Shell and Ability to V3.<br>Adds +1 Influence +1 Artifact +300 Cloak and +10% Defense<br>Planet must be Average size or smaller.<br>Costs 7000 Energy and 7 Aeon Badges and 11 Evolution Genes",
+            "cost": {
+                "energy": "7,000",
+                "aeon": "7",
+                "genes": "11"
+            },
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
@@ -2660,7 +2674,14 @@
         "bd": 40,
         "c": 1220,
         "ability": {
-            "name": "Upgrade",
+            "name": "V4 Upgrade",
+            "cost": {
+                "energy": "8,000",
+                "aeon": "8",
+                "genes": "13"
+            },
+            "desc": "Upgrades Shell and Ability to V4.<br>Adds +2 Influence +2 Artifact +400 Cloak and +20% Defense<br>Planet must be Average size or smaller.<br>Costs 8000 Energy and 8 Aeon Badges and 13 Evolution Genes",
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
@@ -7451,7 +7472,31 @@
         "extract": false,
         "ap": 1,
         "rp": 2,
-        "c": 420
+        "c": 420,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Lab and Ability to Version 2.<br>Adds +1 Artifact +2 Research and +420 Cloak to the Lab.<br>Must be a Hacker / Physicist / or Spy to use.<br>Costs 42 Blue Badges and 1 Charge.",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Obscura Lab v2"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Profession",
+                    "professions": [
+                        "Hacker",
+                        "Physicist",
+                        "Spy"
+                    ]
+                }
+            ],
+            "cost": {
+                "blues": "42"
+            }
+        }
     },
     {
         "name": "Obscura Lab v2",
@@ -7462,7 +7507,31 @@
         "extract": false,
         "ap": 2,
         "rp": 4,
-        "c": 840
+        "c": 840,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Lab and Ability to Version 3.<br>Adds +2 Research and +420 Cloak to the Lab.<br>Must be a Hacker / Physicist / or Spy to use.<br>Costs 42 Blue Badges and 1 Charge.",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Obscura Lab v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Profession",
+                    "professions": [
+                        "Hacker",
+                        "Physicist",
+                        "Spy"
+                    ]
+                }
+            ],
+            "cost": {
+                "blues": "42"
+            }
+        }
     },
     {
         "name": "Obscura Lab v3",
@@ -7473,7 +7542,31 @@
         "extract": false,
         "ap": 2,
         "rp": 6,
-        "c": 1260
+        "c": 1260,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Lab and Ability to Version 4.<br>Adds +1 Artifact +1 Research and 420 research storage to the Lab.<br>Must be a Hacker / Physicist / or Spy to use.<br>Costs 88 Blue Badges and 1 Charge.",
+            "message": "",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Obscura Lab v4"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Profession",
+                    "professions": [
+                        "Hacker",
+                        "Physicist",
+                        "Spy"
+                    ]
+                }
+            ],
+            "cost": {
+                "blues": "88"
+            }
+        }
     },
     {
         "name": "Obscura Lab v4",
@@ -9383,21 +9476,27 @@
         "c": 411,
         "ability": {
             "name": "Splice Genes",
-            "desc": "Generates 3 Evolution Genes for each Terra / Gaia / Aphotic or Oceanic planet<br>you control that has Influence. up to a maximum of 21 per use. Costs 4400 energy",
-            "charges": "2",
-            "playerEffectsScaled": [
+            "desc": "Generates 3 Evolution Genes for each Terra / Gaia / Aphotic or Oceanic planet you control that has influence. up to a maximum of 21 per use. Costs 4400 energy",
+            "message": "You receive [x] Evolution Genes",
+            "playerEffects": [
                 {
                     "type": "Grant Genes",
-                    "scaleType": "Owned Planets",
-                    "stat": "Influence",
-                    "statMin": "ES",
-                    "max": "21"
+                    "scaling": [
+                        {
+                            "type": "Owned Planets",
+                            "types": [
+                                "Terra",
+                                "Gaia",
+                                "Aphotic",
+                                "Oceanic"
+                            ]
+                        }
+                    ]
                 }
             ],
             "cost": {
                 "energy": "4,400"
-            },
-            "message": "You receive [X] Evolution Genes"
+            }
         }
     },
     {
@@ -9917,7 +10016,30 @@
         "ap": 1,
         "rp": 2,
         "brp": 3,
-        "ip": 1
+        "ip": 1,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Tunnel to V2<br>Adds +2 Research +2% Research<br>Planet must have at least 5 other Q-Pedd Structures.<br>Costs 5000 Energy",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Q-Pedd Affinity Tunnel v2"
+                }
+            ],
+            "cost": {
+                "energy": "5,000"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Q-Pedd"
+                    ],
+                    "min": "5"
+                }
+            ]
+        }
     },
     {
         "name": "Q-Pedd Affinity Tunnel v2",
@@ -9929,7 +10051,30 @@
         "ap": 1,
         "rp": 4,
         "brp": 5,
-        "ip": 1
+        "ip": 1,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Tunnel to V3<br>Adds +1 Artifact +1 Influence +1% Research<br>Planet must have at least 7 other Q-Pedd Structures.<br>Costs 7000 Energy",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Q-Pedd Affinity Tunnel v3"
+                }
+            ],
+            "cost": {
+                "energy": "7,000"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Q-Pedd"
+                    ],
+                    "min": "7"
+                }
+            ]
+        }
     },
     {
         "name": "Q-Pedd Affinity Tunnel v3",
@@ -9941,7 +10086,30 @@
         "ap": 2,
         "rp": 4,
         "brp": 6,
-        "ip": 2
+        "ip": 2,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Tunnel to V4<br>Adds +1 Influence +1% Research<br>Planet must have at least 9 other Q-Pedd Structures.<br>Costs 9000 Energy",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Q-Pedd Affinity Tunnel v4"
+                }
+            ],
+            "cost": {
+                "energy": "9,000"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Q-Pedd"
+                    ],
+                    "min": "9"
+                }
+            ]
+        }
     },
     {
         "name": "Q-Pedd Affinity Tunnel v4",
@@ -10000,7 +10168,29 @@
         "ap": 1,
         "rp": 5,
         "ip": 1,
-        "p": 11000
+        "p": 11000,
+        "ability": {
+            "name": "Biomech Incubation",
+            "desc": "Generates 2 Evolution Genes for each other distinct Lepus Structure on the planet. Costs 5500 energy and 900 CTP",
+            "message": "You receive [x] Evolution Genes",
+            "playerEffects": [
+                {
+                    "type": "Grant Genes",
+                    "scaling": [
+                        {
+                            "type": "Existing Structures",
+                            "tags": [
+                                "Lepus"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "cost": {
+                "energy": "5,500",
+                "ctp": "900"
+            }
+        }
     },
     {
         "name": "Veon Singularium",
@@ -10015,7 +10205,7 @@
         "ability": {
             "name": "V2 Upgrade",
             "desc": "Upgrades Singularium to V2<br>Adds +1 Mining / Research<br>Planets must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 1800 Neutronium",
-            "message": "",
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
@@ -10046,7 +10236,30 @@
         "mp": 2,
         "ap": 1,
         "rp": 2,
-        "c": 404
+        "c": 404,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Singularium to V3<br>Adds +1 Artifact / Mining / Research<br>Planet must have at least 6 other distinct Size-0 Structures.<br>Costs 42k Energy + 2900 Neutronium",
+            "message": "",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Veon Singularium v3"
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "Size",
+                    "statMax": "0",
+                    "min": "6"
+                }
+            ],
+            "cost": {
+                "energy": "42k",
+                "neut": "2,900"
+            }
+        }
     },
     {
         "name": "Veon Singularium v3",
@@ -10400,26 +10613,26 @@
         "ip": 1,
         "bip": 2,
         "ability": {
-            "message": "You successfully perform the upgrades.",
             "name": "V2 Upgrade",
-            "desc": "Upgrades Platform to V2<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 4 disctinct Structures that provide 2+ influence.<br>Costs 4400 Influence",
+            "desc": "Upgrades Platform to V2<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 4 distinct Structures that provide 2+ influence.<br>Costs 4400 Influence",
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
                     "new": "Civicordium Platform v2"
                 }
             ],
+            "cost": {
+                "influence": "4,400"
+            },
             "restrictions": [
                 {
                     "type": "Existing Structures",
-                    "stat": "iph",
+                    "stat": "ip",
                     "statMin": "2",
                     "min": "4"
                 }
-            ],
-            "cost": {
-                "influence": "4,400"
-            }
+            ]
         }
     },
     {
@@ -10433,26 +10646,26 @@
         "ip": 1,
         "bip": 3,
         "ability": {
-            "message": "You successfully perform the upgrades.",
             "name": "V3 Upgrade",
             "desc": "Upgrades Platform to V3<br>Adds +1 Artifact +1 Influence<br>Planet must have at least 7 distinct structures that provide 2+ influence.<br>Costs 8800 Influence",
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
                     "new": "Civicordium Platform v3"
                 }
             ],
+            "cost": {
+                "influence": "8,800"
+            },
             "restrictions": [
                 {
                     "type": "Existing Structures",
-                    "stat": "iph",
+                    "stat": "ip",
                     "statMin": "2",
                     "min": "7"
                 }
-            ],
-            "cost": {
-                "influence": "8,800"
-            }
+            ]
         }
     },
     {
@@ -11407,5 +11620,216 @@
         "limited": false,
         "extract": true,
         "d": 800
+    },
+    {
+        "name": "Scruuge Gift-Sorter",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 2,
+        "bip": 1
+    },
+    {
+        "name": "House of Law",
+        "size": 3,
+        "limit": 5,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 5,
+        "ip": 2,
+        "bip": 2
+    },
+    {
+        "name": "Chuhn Zenith Exchange",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 2,
+        "ap": 2,
+        "bap": 2,
+        "rp": 2,
+        "brp": 2,
+        "ip": 1,
+        "bip": 2,
+        "bd": 22
+    },
+    {
+        "name": "Chuhn Zenith Exchange v2",
+        "base": "Chuhn Zenith Exchange",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "bmp": 3,
+        "ap": 3,
+        "bap": 3,
+        "rp": 3,
+        "ip": 2,
+        "bip": 3,
+        "bd": 44
+    },
+    {
+        "name": "Chuhn ExoGalactic Relay",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "bmp": 1,
+        "bap": 1,
+        "rp": 2,
+        "brp": 1,
+        "ip": 1,
+        "bip": 1,
+        "bc": 22
+    },
+    {
+        "name": "Goridian Cellar",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "mps": 555,
+        "ap": 1,
+        "aps": 555,
+        "rps": 555,
+        "ips": 55
+    },
+    {
+        "name": "Goridian Cellar v2",
+        "base": "Goridian Cellar",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "mps": 999,
+        "ap": 1,
+        "aps": 999,
+        "rps": 999,
+        "ips": 99
+    },
+    {
+        "name": "Goridian Cellar v3",
+        "base": "Goridian Cellar",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "mps": 1444,
+        "ap": 2,
+        "aps": 1444,
+        "rps": 1444,
+        "ips": 140
+    },
+    {
+        "name": "Goridian Cellar v4",
+        "base": "Goridian Cellar",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "mps": 1888,
+        "ap": 3,
+        "aps": 1888,
+        "rps": 1888,
+        "ips": 188
+    },
+    {
+        "name": "Velamen Reactor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 2,
+        "bc": 11
+    },
+    {
+        "name": "Velamen Reactor v2",
+        "base": "Velamen Reactor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 3,
+        "bc": 18
+    },
+    {
+        "name": "Velamen Reactor v3",
+        "base": "Velamen Reactor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 5,
+        "bc": 26
+    },
+    {
+        "name": "Velamen Reactor v3",
+        "base": "Velamen Reactor",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 4,
+        "rp": 6,
+        "bc": 35
+    },
+    {
+        "name": "Vaash Sentry Drone",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "bat": 25,
+        "c": 142
+    },
+    {
+        "name": "Vaash Drone Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "at": 5555,
+        "c": 555
+    },
+    {
+        "name": "Vaash Drone Tower (Upgraded)",
+        "base": "Vaash Drone Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 3,
+        "at": 11110,
+        "c": 1110
+    },
+    {
+        "name": "Spire of Mercantile Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "ap": 5,
+        "bap": 3,
+        "ip": 4,
+        "ips": 444
     }
 ]
