@@ -95,5 +95,27 @@
         "desc": "Build 6 different Chuhn planet structures (via artifacts) on various planets",
         "duration": "2 days",
         "reward": "3"
+    },
+    {
+        "name": "Game Night",
+        "img": "minigame4.jpg",
+        "desc": "Win 4 different minigames.",
+        "duration": "2 days",
+        "reward": "4"
+    },
+    {
+        "name": "Cracked Manifests",
+        "img": "chuhnnk6.jpg",
+        "desc": "Hack research from Merchants of 6 different species",
+        "duration": "2 days",
+        "reward": "3",
+        "season": "Chuhn"
+    },
+    {
+        "name": "Shared Spoils",
+        "img": "npcspoils1.jpg",
+        "desc": "Receive 5 different rewards from NPCs shared by other players.",
+        "duration": "2 days",
+        "reward": "4"
     }
 ]

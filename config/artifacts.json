@@ -886,7 +886,8 @@
                 "type": "Construct Structure",
                 "structure": "Ancestral Gene-Bank"
             }
-        ]
+        ],
+        "message": "An Ancestral Gene-Bank has been constructed on the planet."
     },
     {
         "name": "Ancient Crystal Foci",
@@ -1230,7 +1231,8 @@
                 "type": "Add Planet-Based Ability",
                 "ability": "Gateway Nexus Link"
             }
-        ]
+        ],
+        "message": "You successfully add the link."
     },
     {
         "name": "Ardyne Hypergate",
@@ -1942,7 +1944,8 @@
         },
         "tags": [
             "Bane"
-        ]
+        ],
+        "message": "A Bane Dark-Kiln has been constructed on the planet."
     },
     {
         "name": "Bane Dermal Infuser",
@@ -2256,7 +2259,8 @@
             "type": "ctp",
             "min": "5",
             "max": "10"
-        }
+        },
+        "message": "The Bane Nether-Seal has been placed"
     },
     {
         "name": "Bane Phage Sacrarium",
@@ -3330,7 +3334,8 @@
             "type": "cr",
             "max": "50,000",
             "min": "12,500"
-        }
+        },
+        "message": "You have successfully used the effect on the planet."
     },
     {
         "name": "Calming Amplifier",
@@ -3485,6 +3490,27 @@
                 "max": "200%"
             }
         ]
+    },
+    {
+        "name": "Cerulean Displacement Drive",
+        "desc": "[ Defense - Size:24, Defense:160 ]<br>If this drive is already installed, this will instead upgrade its stats by 40%, up to 200%. When fully upgraded, it provides<br>a 4% defense bonus against enemy players.",
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        },
+        "target": "Player",
+        "tags": [
+            "Aerlen"
+        ],
+        "img": "ceruleandrive.png",
+        "playerEffects": [
+            {
+                "type": "Install or Improve Module",
+                "module": "Cerulean Displacement Drive"
+            }
+        ],
+        "buttonText": "Build"
     },
     {
         "name": "Cerulean Flow Converter",
@@ -4072,7 +4098,8 @@
             "max": "18,000",
             "min": "4,500",
             "type": "cr"
-        }
+        },
+        "message": "A bright illumination fills the planet's orbit"
     },
     {
         "name": "Chuhn Reclamation Drone",
@@ -4212,7 +4239,8 @@
             "type": "ctp",
             "min": "28",
             "max": "58"
-        }
+        },
+        "message": "A Chuhn Shipyard has been constructed on the planet."
     },
     {
         "name": "Chuhn Star-Emporium",
@@ -4580,7 +4608,19 @@
                 "original": "Cognizant Omniforge",
                 "new": "Cognizant Omniforge Grid"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "9,000",
+            "max": "36,000"
+        },
+        "img": "pustation2.png",
+        "desc": "Upgrades an existing Cognizant Omniforge structure on your planet,<br>Increasing Research/Mining/Artifact Production by 1, and its production bonus to 7%.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1,111"
+        },
+        "message": "You successfully perform the upgrades."
     },
     {
         "name": "Colossal Base Crate",
@@ -6379,6 +6419,31 @@
         }
     },
     {
+        "name": "Darmos Arean Defenses",
+        "target": "Base",
+        "scrap": {
+            "type": "relic",
+            "min": "1",
+            "max": "3"
+        },
+        "img": "spcase5.png",
+        "desc": "Increases a base's defense by 100, and hull integrity by 200.",
+        "baseEffects": [
+            {
+                "type": "Increase Defense",
+                "value": "100"
+            },
+            {
+                "type": "Increase Hull",
+                "value": "200"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "500"
+        }
+    },
+    {
         "name": "Darmos Champion's Seal",
         "scrap": {
             "type": "ctp",
@@ -6411,7 +6476,9 @@
                 "structure": "Darmos Nerve Turret"
             }
         ],
-        "desc": "[ Planet Structure - Size:1, Mining:1, Artifact:1, Research:3, Attack:+30% ]<br>Activated Ability (2 Charges): Darmos Nerve Gas<br>(+8% boost to ship raiding for 24 hours)<br>(Limit 1 per planet)"
+        "desc": "[ Planet Structure - Size:1, Mining:1, Artifact:1, Research:3, Attack:+30% ]<br>Activated Ability (2 Charges): Darmos Nerve Gas<br>(+8% boost to ship raiding for 24 hours)<br>(Limit 1 per planet)",
+        "buttonText": "Build",
+        "message": ""
     },
     {
         "name": "Data-Lab Archives",
@@ -7760,7 +7827,8 @@
                 "value": "10%",
                 "duration": "40 hours"
             }
-        ]
+        ],
+        "message": "A surge of energy flows through your ship."
     },
     {
         "name": "Embassy District",
@@ -10358,7 +10426,27 @@
             "type": "ctp",
             "min": "3",
             "max": "6"
-        }
+        },
+        "message": "The Heist Dispatch Center has been constructed on the planet."
+    },
+    {
+        "name": "Heist Dispatch Station Upgrade",
+        "img": "heistdisp2.png",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "cr",
+            "min": "22,500",
+            "max": "90,000"
+        },
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Heist Dispatch Center",
+                "new": "Heist Dispatch Station"
+            }
+        ],
+        "buttonText": "Use",
+        "message": "A Heist Dispatch Center has been upgraded to a Heist Dispatch Station."
     },
     {
         "name": "Heliac Prism",
@@ -11754,7 +11842,8 @@
         "img": "lazulicoupling.png",
         "tags": [
             "Lazuli"
-        ]
+        ],
+        "message": "You receive [x] Complex Tech Parts."
     },
     {
         "name": "Lepus Analyzer",
@@ -12502,7 +12591,19 @@
                 "structure": "Luring Cynosure"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "2"
+        },
+        "img": "cynosure.gif",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "250"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:1, Attack:+20% ]<br>If the planet has an Insurgent Uprising<br>or Enslaved Prisoners when this is built, this structure<br>gains +2 mining and +20% attack.<br>Limit 1 per planet.",
+        "message": "A Luring Cynosure has been installed on your planet."
     },
     {
         "name": "Lutuma Command Module",
@@ -13436,7 +13537,8 @@
                 "value": "12%",
                 "duration": "22 hours"
             }
-        ]
+        ],
+        "message": "A surge of energy flows through your ship."
     },
     {
         "name": "Obscura Lab",
@@ -13895,7 +13997,8 @@
             "type": "ctp",
             "min": "4",
             "max": "9"
-        }
+        },
+        "message": "The Orion Menagerie has been deployed on the planet."
     },
     {
         "name": "Oruas Predictive Disjector",
@@ -13916,7 +14019,8 @@
             "type": "ctp",
             "min": "5",
             "max": "10"
-        }
+        },
+        "message": "An Oruas Predictive Disjector has been constructed on the planet."
     },
     {
         "name": "Overseer's Villa",
@@ -17668,7 +17772,8 @@
                 "value": "5%",
                 "duration": "20 hours"
             }
-        ]
+        ],
+        "message": "A surge of energy flows through your ship."
     },
     {
         "name": "Ship-Bot",
@@ -18322,7 +18427,7 @@
         "desc": "<i>A valuable material, highly sought-after in a neighboring<br>Galaxy for its mind-altering properties.</i><br>When used, it boosts the scrap value of itself and all your<br>same-valued Spices by 10%, up to 100%.",
         "playerEffects": [
             {
-                "type": "Grants",
+                "type": "Enhance Spice",
                 "artifact": "Spice of Illustris 10%"
             }
         ],
@@ -18330,7 +18435,33 @@
         "cost": {
             "energy": "100"
         },
-        "img": "spiceill.png"
+        "img": "spiceill.png",
+        "message": "Your spice increases in value..."
+    },
+    {
+        "name": "Spice of Illustris 10%",
+        "desc": "10% Enhanced A valuable material, highly sought-after in a neighboring. Galaxy for its mind-altering properties.",
+        "target": "Player",
+        "playerEffects": [
+            {
+                "type": "Enhance Spice",
+                "artifact": "Spice of Illustris 20%"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "55",
+            "max": "110"
+        },
+        "tags": [
+            "Chuhn"
+        ],
+        "buttonText": "Enhance",
+        "cost": {
+            "energy": "200"
+        },
+        "img": "spiceill.png",
+        "message": "Your spice increases in value..."
     },
     {
         "name": "Spice of Illustris 90%",
@@ -18379,7 +18510,8 @@
                 "type": "Construct Structure",
                 "structure": "Spire of Civicordium Dominion"
             }
-        ]
+        ],
+        "message": "The Spire of Civicordium Dominion has been constructed on the planet."
     },
     {
         "name": "Spire of Cybernetic Dominion",
@@ -22834,7 +22966,8 @@
                     "B'elna"
                 ]
             }
-        ]
+        ],
+        "message": "The Visage of the Dark One has been constructed on the planet."
     },
     {
         "name": "Void Barrier Chassis",
@@ -23552,7 +23685,25 @@
         "target": "Your Planet",
         "tags": [
             "Xecti"
-        ]
+        ],
+        "message": "A Xecti Brood-Nest has been constructed on the planet.",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "17"
+        },
+        "img": "xectinext.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Xecti Brood-Nest"
+            }
+        ],
+        "desc": "[ Planet Structure - Size:2, Mining:6, Influence:1, Attack:+30% ]<br>Ships invading suffer +2 / +4 hours cooldown to invasions.<br>Planet must be Desert, Toxic, or Irradiated: of 'Very Large' size or smaller.<br>Limit 2",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222"
+        }
     },
     {
         "name": "Xecti Ensconcing Field",
@@ -24203,7 +24354,9 @@
                 "type": "Size",
                 "max": "Very Large"
             }
-        ]
+        ],
+        "message": "The Scruuge Gift-Sorter has been deployed on the planet.",
+        "desc": "[ Planet Structure - Size:1, Artifact/Mining/Research:2 ]<br>Also boosts influence production by 1%.<br>Planet must be Very Large size or smaller.<br>Requires 1100 Neutronium to build. Limit 1"
     },
     {
         "name": "Timebender's Cache",
@@ -24427,6 +24580,7 @@
         ],
         "target": "Player",
         "buttonText": "Build",
+        "message": "The Eye of Parsilia has been installed on your ship.",
         "desc": "[ Limited Artifact - Late Summer ]<br>[ Device - Size:60, Scan:190, Energy:210 ]<br>While Installed, Inergon, Kronyn, and<br>Genetarr receive double the energy bonus.<br>Limit 2 per ship."
     },
     {
@@ -24470,6 +24624,7 @@
         ],
         "buttonText": "Build",
         "target": "Player",
+        "message": "The Prejor V13 Grav-Hutch has been installed on your ship.",
         "desc": "[ Limited Artifact - Late Summer ]<br>[ Defense - Size:66, Defense:860, Shield:860 ]<br>While Installed, Aerlen, Xecti, and Guard<br>receive double the defense bonus.<br>Limit 2 per ship."
     },
     {
@@ -24545,7 +24700,7 @@
             "type": "ctp",
             "min": "65",
             "max": "130",
-            "maxMultiplier": "1.5",
+            "maxMultiplier": "1.58",
             "minMultiplier": "0.7"
         },
         "img": "spiceparsilia1.png",
@@ -24583,7 +24738,8 @@
                 "structure": "Chuhn Zenith Exchange"
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "message": "The Chuhn Zenith Exchange has been constructed on the planet."
     },
     {
         "name": "Velamen Reactor",
@@ -24663,6 +24819,42 @@
         "cost": {
             "energy": "8,800"
         },
-        "desc": "[ Limited Item - Valentines ]<br><i>An advanced data-channel used by FR13-ND to<br>directly optimize planetary resource networks</i><br>Increases all production by 5%<br>Lasts 40 hours"
+        "desc": "[ Limited Item - Valentines ]<br><i>An advanced data-channel used by FR13-ND to<br>directly optimize planetary resource networks</i><br>Increases all production by 5%<br>Lasts 40 hours",
+        "message": "A surge of energy flows through your ship."
+    },
+    {
+        "name": "FR13-ND Q-Catalyst",
+        "tags": [
+            "Q-Pedd"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "img": "friendcap1.webp",
+        "target": "Your Planet",
+        "cost": {
+            "energy": "6,000",
+            "genes": "22"
+        },
+        "buttonText": "Use",
+        "desc": "[ Limited Item - Valentines ]<br>Permanently increases the target planet size by 2%.<br>Can only be used on planets with at least 8<br>distinct Q-Pedd structures",
+        "planetEffects": [
+            {
+                "type": "Increase Space",
+                "value": "2%"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Q-Pedd"
+                ],
+                "min": "8"
+            }
+        ],
+        "message": "A bright illumination fills the planet's orbit"
     }
 ]

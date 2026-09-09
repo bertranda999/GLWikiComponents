@@ -1715,6 +1715,33 @@
         "serviceTerminal": [
             "Chuhn Prestige"
         ],
-        "start": "24 Aug 2026"
+        "start": "24 Aug 2026",
+        "playerAbilities": [
+            {
+                "name": "Mission Purgers",
+                "hidden": "Yes",
+                "restrictions": [
+                    {
+                        "type": "Race",
+                        "races": [
+                            "Bahreen",
+                            "Litheor",
+                            "Biologist"
+                        ]
+                    }
+                ],
+                "playerEffects": [
+                    {
+                        "type": "Grants",
+                        "artifact": "Star Chart Purger"
+                    }
+                ],
+                "triggers": [
+                    {
+                        "type": "Complete Daily Mission"
+                    }
+                ]
+            }
+        ]
     }
 ]

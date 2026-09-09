@@ -32,6 +32,9 @@ skip = [
 "Aeon Relay Tower",
 "Aeon Processor Core",
 "Drannik Holo-Sanctum",
+"Cognizant Omniforge",
+"Uldri Crystal Field",
+"Scruuge Gift-Sorter",
 ]
 
 artifacts = []
@@ -103,7 +106,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-maxSpace = 93
+maxSpace = 102
 while volcInfStructs.__len__() > 0 and totalSpace < maxSpace:
     max = 0
     maxStruct = volcInfStructs[0]

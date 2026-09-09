@@ -1996,5 +1996,15 @@
         "date": "1 Sep 2026",
         "type": "Discord",
         "desc": "Update on Galaxy Legion on Facebook<br><br>Hello @everyone, <br><br>If you're still playing Galaxy Legion on Facebook, you may have recently had a message when loading the game that \"Galaxy Legion is going away\". This is referring to Galaxy Legion's availability on Facebook's games platform, also known as \"Canvas\", which they are turning off on September 30th.<br><br>This means that Galaxy Legion will no longer be available to play on Facebook itself, but it will still be available to play directly at https: //www.galaxylegion.com/ - we aren't going anywhere, despite what the message may imply.<br><br>If you have not linked a Discord or Google account to your game account, we highly recommend doing this. You'll still be able to use our \"Login with Facebook\" option if you have not done so, but having another method available to you will ensure your gameplay is not interrupted in the event of issues with your Facebook account, or Facebook as a whole.<br><br>Linking another Login Provider<br><br>To link another provider to your Galaxy Legion account, log into the game and navigate to \"Account\" (far top right menu) and select  \"Account\" from the dropdown. Then click on either Discord or Google and follow the directions given. <br><br>If you have any questions or concerns, please direct these to the below thread. <br><br>Thank you!<br><br>(Credit to @ODragon for the message screenshot) <br><br>"
+    },
+    {
+        "date": "4 Sep 2026",
+        "type": "Tweak",
+        "desc": "Galactic Voting (and Voting effects) now unlocks at Rank 42. Some vote initiatives will also start to include Rank requirements."
+    },
+    {
+        "date": "4 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Active Trade Tariff modifiers are now visible in the Trade > Minerals tab."
     }
 ]

@@ -9396,7 +9396,8 @@
                 "type": "Use Structure Ability",
                 "structure": "Chuhn Scrap Complex"
             }
-        ]
+        ],
+        "requiresGP": "Yes"
     },
     {
         "name": "Chuhn Prosperity",
@@ -9413,7 +9414,8 @@
                     "Chuhn Exo-Logistics Gridport Upgrade"
                 ]
             }
-        ]
+        ],
+        "requiresGP": "Yes"
     },
     {
         "name": "Generous Reclamation",
@@ -9455,7 +9457,8 @@
                 "type": "Use Artifact",
                 "artifact": "Chuhn ExoGalactic Relay"
             }
-        ]
+        ],
+        "requiresGP": "Yes"
     },
     {
         "name": "Salvaged Connections",
@@ -9468,7 +9471,8 @@
                 "type": "Use Artifact",
                 "artifact": "Chuhn Salvage Arm V11 Upgrade"
             }
-        ]
+        ],
+        "requiresGP": "Yes"
     },
     {
         "name": "Luxuriant Reclamation",

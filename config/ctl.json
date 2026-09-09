@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Velamen Tinker",
+        "cost": {
+            "energy": "2,200",
+            "genes": "11",
+            "studies": "42",
+            "artifacts": [
+                {
+                    "name": "Repair Nanodrones",
+                    "count": "444"
+                },
+                {
+                    "name": "Chuhn Stem Bolts",
+                    "count": "4"
+                },
+                {
+                    "name": "Flux Probe",
+                    "count": "444"
+                },
+                {
+                    "name": "Grid Console",
+                    "count": "444"
+                },
+                {
+                    "name": "Neural Interface",
+                    "count": "444"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Chuhn Zenith Exchange",
+        "cost": {
+            "energy": "5,500",
+            "neutronium": "2,100",
+            "genes": "25",
+            "studies": "222",
+            "artifacts": [
+                {
+                    "name": "Null Fuse",
+                    "count": "444"
+                },
+                {
+                    "name": "Refining Lab Chassis",
+                    "count": "444"
+                },
+                {
+                    "name": "Shield Sentries",
+                    "count": "888"
+                },
+                {
+                    "name": "Triangulum Sparkmatter",
+                    "count": "8"
+                },
+                {
+                    "name": "Void Shell",
+                    "count": "888"
+                }
+            ]
+        }
+    }
+]

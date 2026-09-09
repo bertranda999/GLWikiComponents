@@ -1338,6 +1338,91 @@ addAbility("Civicordium Platform v2", {
     "cost":{"influence":"8,800"},
     "restrictions":[{"type":"Existing Structures","stat":"ip","statMin":"2","min":"7"}]
 })
+addAbility("Civicordium Platform v3", {
+    "name":"V4 Upgrade",
+    "desc":"Upgrades Platform to V4<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 10 distinct Structures that provide 2+ Influence.<br>Costs 160000 Influence",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v4"}],
+    "cost":{"influence":"16,000"},
+    "restrictions":[{"type":"Existing Structures","stat":"ip","statMin":"2","min":"10"}]
+})
+addAbility("Scruuge Thavix-Snare", {
+    "name":"Scruuge Snare",
+    "desc":"Uses ALL of your stored Neutronium (1000+ required) to attract a unique Scruuge gift.<br>Higher amounts spent will unlock additional gift options (up to 4500)",
+    "message":"([x] spent) You attract: 1 [artifact] (Artifact)",
+    "playerEffectsRandom":[{"type":"Grants","artifact":""}],
+    "cost":{"neutronium":"1000+"}
+})
+addAbility("Bane Dark-Kiln", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Kiln to V2<br>Adds +2 Artifact +14% Cloak<br>Planet must have at least 6 other distinct Bane Structures.<br>Costs 2 Aeon Badges",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Bane Dark-Kiln v2"}],
+    "cost":{"aeon":"2"},
+    "restrictures":[{"type":"Existing Structures","tags":["Bane"],"min":"6"}]
+})
+addAbility("Bane Dark-Kiln v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Kiln to V3<br>Adds +2 Mining +14% Cloak<br>Planet must have at least 8 other distinct Bane Structures.<br>Costs 2 Aeon Badges",
+    "message":"",
+    "planetEffects":[{"type":"Upgrade","new":"Bane Dark-Kiln v3"}],
+    "cost":{"aeon":"2"},
+    "restrictures":[{"type":"Existing Structures","tags":["Bane"],"min":"8"}]
+})
+addAbility("Propaganda Plex", {
+    "name":"Plex-Upgrade",
+    "desc":"Upgrades the Plex to v2.<br>Adds +1 Influence / +2 Artifact and +10% Population.<br>Legion Must be a Suzerain withat least 1 Zone.<br>Costs 2200 Influence and 55 Yellow Badges",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Propaganda Plex v2"}],
+    "cost":{"influence":"2,200","yellow":"55"},
+    "restrictions":[{"type":"Suzerain","min":"1"}]
+})
+addAbility("Propaganda Plex v2", {
+    "name":"Plex-Upgrade",
+    "desc":"Upgrades the Plex to v3.<br>Adds +1 Influence / +2 Artifact and +10% Population.<br>Legion Must be a Suzerain with at least 2 Zones.<br>Costs 5500 Influence and 77 Yellow Badges",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Propaganda Plex v3"}],
+    "cost":{"influence":"5,500","yellow":"77"},
+    "restrictions":[{"type":"Suzerain","min":"2"}]
+})
+addAbility("Chuhn Shipyard", {
+    "name":"Shipyard Parts",
+    "desc":"Generates 5 CTP for each Chuhn Shipyard among all your planets<br>up to a maximum of 100 per use. Costs 2200 energy.",
+    "message":"You receive [x] Complex Tech Parts.",
+    "playerEffects":[{"type":"Grant CTP","scaleFactor":"Existing Structures","structure":"Chuhn Shipyard"}],
+    "cost":{"energy":"2,200"},
+    "charges":"10"
+})
+addAbility("Ancestral Gene-Bank", {
+    "name":"V2 Upgrade",
+    "desc":"Upgraes Gene-Bank and Ability to V2.<br>Adds +1 Artifact +150 Influence Storage and +1000 Research Storage<br>Costs 10 Evolution Genes and 2200 Influence",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Ancestral Gene-Bank v2"}],
+    "cost":{"genes":"10","influence":"2,200"}
+})
+addAbility("Ancestral Gene-Bank v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Gene-Bank and Ability to V3.<br>Adds +1 Artifact/Influence +1000 Research Storage<br>Costs 11 Evolution Genes and 3200 Influence",
+    "message":"",
+    "planetEffects":[{"type":"Upgrade","new":"Ancestral Gene-Bank v3"}],
+    "cost":{"genes":"11","influence":"3,200"}
+})
+addAbility("Litheor Deep-Ember Keep", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Keep and Ability to V2.<br>Adds +1 Influence +2 Mining +1% Mining<br>Must be a Litheor with 4400+ influence contributed.<br>Costs 15 Green Badges",
+    "message":"You successfully perform the upgrades.",
+    "restrictions":[{"type":"Race","races":["Litheor"]},{"type":"Stat","stat":"Influence Contributed","min":"4,400"}],
+    "planetEffects":[{"type":"Upgrade","new":"Litheor Deep-Ember Keep v2"}],
+    "cost":{"green":"15"}
+})
+addAbility("Litheor Deep-Ember Keep v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Keep and Ability to V3.<br>Adds +1 Influence +2 Mining +1% Mining<br>Must be a Litheor with 14400+ influence contributed.<br>Costs 18 Green Badges",
+    "message":"You successfully perform the upgrades.",
+    "restrictions":[{"type":"Race","races":["Litheor"]},{"type":"Stat","stat":"Influence Contributed","min":"14,400"}],
+    "planetEffects":[{"type":"Upgrade","new":"Litheor Deep-Ember Keep v3"}],
+    "cost":{"green":"18"}
+})
     
 def generateNotesStr(notes: list[int] = []):
     if len(notes) < 1:

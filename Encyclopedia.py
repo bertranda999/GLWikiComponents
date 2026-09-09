@@ -1193,6 +1193,11 @@ async def writeBuildOrder():
                         if condition['type'] == 'Existing Structures':
                             html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ')}<br></p>"
 
+        if 'restrictions' in artifact:
+            for restriction in artifact['restrictions']:
+                if restriction['type'] == 'Existing Structures':
+                    html += f"<p><a href=\"./artifacts/{normalizeName(artifact['name'])}.html\"><b>{artifact['name']}</b></a>: {artifact['desc'].replace('<br>', ' ') if 'desc' in artifact else '(Missing Description)' }<br></p>"
+
     html += "<br><h3>Artifacts / abilities that require or are improved on a planet of a max size</h3>"
     for (name, size) in planetSizes.items():
         
