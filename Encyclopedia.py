@@ -241,6 +241,7 @@ for (name, race) in races.items():
                         genesEffects.append(("Cooldown", f"Evolution - {name}", evolution['name'], effect['value'], "-"))
                     elif effect['type'] == "Reset Grow Genes Cooldown":
                         genesEffects.append(("Reset", f"Evolution - {name}", evolution['name']))
+            addToEffects(evolution, f"{race['name']} Evolution")
 
 for (name, action) in petitionersSuite.items():
     if 'playerEffects' in action:
@@ -1531,17 +1532,17 @@ for (name, artifact) in artifacts.items():
             for structure in structureTrees[base]:
                 artiHtml += writeStructureRow(structure)
 
-            artiHtml += "</tbody></table><br>"
+            artiHtml += "</tbody></table></div><br>"
 
 
     if 'restrictions' in artifact:
-        eligibleArtifacts = []
         for restriction in artifact['restrictions']:
+            eligibleArtifacts = []
             if restriction['type'] == "Existing Structures" and 'tags' in restriction:
                 for tag in restriction['tags']:
-                    for potentialArtifact in artifacts:
+                    for _, potentialArtifact in artifacts.items():
+                        eligible = False
                         if 'planetEffects' in potentialArtifact:
-                            eligible = False
                             for effect in potentialArtifact['planetEffects']:
                                 if effect['type'] == "Construct Structure" and 'tags' in potentialArtifact and tag in potentialArtifact['tags']:
                                     eligibleArtifacts.append(potentialArtifact)

@@ -9,6 +9,7 @@ Veon Singularium v4: 100000
 Veon Singularium v3: 100000
 Veon Singularium v2: 100000
 Veon Singularium: 100000
+Cauldron of Banefire: 100000
 Bane Dark-Kiln v4: 100000
 Bane Dark-Kiln v3: 100000
 Bane Dark-Kiln v2: 100000
@@ -73,11 +74,12 @@ Xephius Portal: 1604.0
 Corrupted Portal IV: 1600.0
 Exalted DarkForge: 1466.6666666666667
 Supel ChromaVault 3.0: 1400.0
+Bane Generator XVI: 1350.0
 Obscura Lab v3: 1260.0
 Obscura Lab v4: 1260.0
 Aeon Tower: 1250.0
 Exo-Pulse Disruptor: 1222.0
-Exo-Rift Membrane Blueprint: 1200.0
+Exo-Rift Membrane: 1200.0
 Stryll Ghost-Uplink: 1200.0
 Corrupted Portal III: 1200.0
 Dark Supercollider (Upgraded): 1200.0
@@ -99,6 +101,7 @@ T.O. Harvest Vault XV - Upgraded: 850.0
 Covert Legation: 850.0
 Covert Legation II: 850.0
 Obscura Lab v2: 840.0
+Spire of Dark Dominion: 833.0
 Elios Corethune Shell v4: 810.0
 Void-Field Enclave: 808.0
 Oruas Corrupted Disjector: 800.0
@@ -111,6 +114,8 @@ Q-Pedd Science Station 15.0: 700.0
 Supel ChromaVault 2.0: 700.0
 Vault of Gaia (Doubled): 700.0
 Bane Nether-Seal (6): 666.0
+Bane Hex-Loom v3: 666.0
+Bane Hex-Loom v4: 666.0
 Bane Doom Silo (1): 666.0
 Bane Doom Silo (2): 666.0
 Bane Doom Silo (3): 666.0
@@ -162,6 +167,8 @@ Streveldan Autoform Habitat A: 350.0
 Streveldan Autoform Habitat B: 350.0
 Vault of Gaia: 350.0
 Bane Nether-Seal (5): 333.0
+Bane Hex-Loom: 333.0
+Bane Hex-Loom v2: 333.0
 Elios Corethune Shell: 310.0
 Xiphos Heist Outpost (9,000): 303.0
 Xiphos Heist Outpost (10,000): 303.0
@@ -186,6 +193,7 @@ Streveldan Convocation Nexus: 266.6666666666667
 Supel Interphase Portal: 266.6666666666667
 B'elna's Altar: 250.0
 Resonance Inhibitor: 250.0
+Cursed Bazaar: 222.0
 Hyperprism Chamber: 202.0
 Alarri Comm Tower - P2: 200.0
 Sub-Tachyonic Axis: 200.0

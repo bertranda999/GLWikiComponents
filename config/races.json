@@ -24,6 +24,30 @@
         "oldImg": "aerlen.png",
         "evolutions": [
             {
+                "name": "Cellular Regeneration",
+                "playerEffects": [
+                    {
+                        "type": "Increase Defense",
+                        "value": "11%"
+                    }
+                ]
+            },
+            {
+                "name": "Cryobloom Cycling",
+                "activeAbility": {
+                    "name": "Cryobloom Protocol",
+                    "desc": "Starts a Cryobloom event on an icy planet, boosting all production by 11% for 5 days. Costs 900 energy*",
+                    "cooldown": "20 hours",
+                    "target": "Your Planet",
+                    "planetEffects": [
+                        {
+                            "type": "Increase Production",
+                            "value": "11%"
+                        }
+                    ]
+                }
+            },
+            {
                 "name": "Cross-Genomic Instinct",
                 "playerEffects": [
                     {
@@ -31,6 +55,58 @@
                         "value": "8%"
                     }
                 ]
+            },
+            {
+                "name": "Grav-Field Senses",
+                "playerEffects": [
+                    {
+                        "type": "Increase Shield",
+                        "value": "9%"
+                    }
+                ]
+            },
+            {
+                "name": "Cryobloom Mastery",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Cryobloom Protocol"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Ancestral Gene-Bank",
+                                "Fractal Data-Folder",
+                                "Nullmass Inverter"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Stem-Gene Recursion",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Grow Genes"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "DataCore Archive Upgrade",
+                                "Fractal Mass-Folder",
+                                "Nullmass Inverter",
+                                "Omni Micro-Cache",
+                                "Polychoron Adapter"
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "name": "Proteomic Sculpting",
@@ -69,6 +145,24 @@
         "lore": "Humans adapt quickly to their surroundings, and fit a wide variety of roles.",
         "evolutions": [
             {
+                "name": "Adaptive Mnemonics",
+                "playerEffects": [
+                    {
+                        "type": "Increase Experience",
+                        "value": "3%"
+                    }
+                ]
+            },
+            {
+                "name": "Sub-Ocular Pathfinding",
+                "playerEffects": [
+                    {
+                        "type": "Increase Scan",
+                        "value": "3%"
+                    }
+                ]
+            },
+            {
                 "name": "Epigenetic Learning",
                 "playerEffects": [
                     {
@@ -78,17 +172,61 @@
                 ]
             },
             {
-                "name": "Epigenetic Surge Response",
+                "name": "Farseeker Instincts",
                 "playerEffects": [
                     {
-                        "type": "Reset Grow Genes Cooldown"
-                    }
-                ],
-                "triggers": [
-                    {
-                        "type": "Complete LM Task"
+                        "type": "Expand Rank Range",
+                        "value": "9%"
                     }
                 ]
+            },
+            {
+                "name": "Tracer's Instinct",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Elite Trace"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "DataCore Archive Upgrade",
+                                "Energy Cube",
+                                "Nullmass Inverter",
+                                "Fractal Data-Folder"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Epigenetic Surge Response",
+                "passiveAbility": {
+                    "playerEffects": [
+                        {
+                            "type": "Reset Grow Genes Cooldown"
+                        }
+                    ],
+                    "triggers": [
+                        {
+                            "type": "Complete LM Task"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Fractal Planning",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Clandestine Plot"
+                        }
+                    ]
+                }
             }
         ]
     },
@@ -109,7 +247,73 @@
         ],
         "bonus": "10% extra max energy",
         "lore": "Inergon are beings capable of absorbing energy from everything around them.",
-        "oldImg": "inergon.png"
+        "oldImg": "inergon.png",
+        "evolutions": [
+            {
+                "name": "Spectral-Resonant Tissue",
+                "playerEffects": [
+                    {
+                        "type": "Increase Energy",
+                        "value": "3%"
+                    }
+                ]
+            },
+            {
+                "name": "Bio-Radiant Gland",
+                "activeAbility": {
+                    "name": "Bio-Radiant Gland",
+                    "playerEffects": [
+                        {
+                            "type": "Refill Energy"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Wave-Signal Efficiency",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Zone Energy Cost",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Thermo-Vascular Absorption",
+                "playerEffects": [
+                    {
+                        "type": "Increase Cost to Attack",
+                        "value": "30%"
+                    }
+                ]
+            },
+            {
+                "name": "Glandular Crystallization",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Bio-Radiant Gland"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifact": "Energy Cube"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Wave-Signal Mastery",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Zone Energy Cost",
+                        "value": "7%"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Konqul",
@@ -129,7 +333,75 @@
         ],
         "bonus": "20% extra ship attack",
         "lore": "The Konqul are a race of rigidly organized and aggressive soldiers.",
-        "oldImg": "konqul.png"
+        "oldImg": "konqul.png",
+        "evolutions": [
+            {
+                "name": "Hyper-Predatory Instincts",
+                "playerEffects": [
+                    {
+                        "type": "Increase Planetary Damage Cap",
+                        "value": "19%"
+                    }
+                ]
+            },
+            {
+                "name": "Tac-Pattern Reflexes",
+                "playerEffects": [
+                    {
+                        "type": "Increase Enemy Damage Cap",
+                        "value": "6%"
+                    }
+                ]
+            },
+            {
+                "name": "Com-Strike Reflexes",
+                "playerEffects": [
+                    {
+                        "type": "Increase NPC Damage Cap",
+                        "value": "6%"
+                    }
+                ]
+            },
+            {
+                "name": "Mass-Siege Adrenals",
+                "playerEffects": [
+                    {
+                        "type": "Increase Base Damage Cap",
+                        "value": "7%"
+                    }
+                ]
+            },
+            {
+                "name": "Territorial Hyperscent",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Invade Planet"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Plunderlust Rage",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Raid Base"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Culling Crystal",
+                                "Energy Cube",
+                                "Nullmass Inverter"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "name": "Sillixx",
@@ -152,7 +424,70 @@
         ],
         "bonus": "10% extra ship size",
         "lore": "Sillixx are well known as proficient traders. Their ships are larger than all other races.",
-        "oldImg": "sillixx.png"
+        "oldImg": "sillixx.png",
+        "evolutions": [
+            {
+                "name": "Node-Organizing Instinct",
+                "playerEffects": [
+                    {
+                        "type": "Increase Cargo",
+                        "value": "9%"
+                    }
+                ]
+            },
+            {
+                "name": "Omni-Tool Reflexes",
+                "playerEffects": [
+                    {
+                        "type": "Decrease Upkeep",
+                        "value": "12%"
+                    }
+                ]
+            },
+            {
+                "name": "Retractable Smart-Claws",
+                "playerEffects": [
+                    {
+                        "type": "Increase Scrap Yield",
+                        "value": "6%"
+                    }
+                ]
+            },
+            {
+                "name": "Node-Organizing Patterning",
+                "playerEffects": [
+                    {
+                        "type": "Increase Cargo",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Omni-Tool Mastery",
+                "playerEffects": [
+                    {
+                        "type": "Decrease Upkeep",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Smart-Claw Microserration",
+                "playerEffects": [
+                    {
+                        "type": "Increase Scrap Yield",
+                        "value": "5%"
+                    }
+                ]
+            },
+            {
+                "name": "Dunescour Burrowing",
+                "activeAbility": {
+                    "name": "Dunescour Burrowing",
+                    "desc": "Unlocks an active ability that allows the Sillixx to temporarily boost planet production on Desert worlds*"
+                }
+            }
+        ]
     },
     {
         "name": "Vygoid",
@@ -170,7 +505,96 @@
         ],
         "bonus": "20% bonus to research",
         "lore": "The Vygoid replaced most of their original physiology with technology. They have an affinity for all scientific pursuits.",
-        "oldImg": "vygoid.png"
+        "oldImg": "vygoid.png",
+        "evolutions": [
+            {
+                "name": "Neural Overclock",
+                "playerEffects": [
+                    {
+                        "type": "Increase Research",
+                        "value": "6%"
+                    }
+                ]
+            },
+            {
+                "name": "Bi-Synaptic Memory",
+                "playerEffects": [
+                    {
+                        "type": "Increase Research",
+                        "value": "6%"
+                    }
+                ]
+            },
+            {
+                "name": "Theory Compression Protocols",
+                "playerEffects": [
+                    {
+                        "type": "Reduce CTL Cost",
+                        "value": "10%"
+                    }
+                ]
+            },
+            {
+                "name": "Tri-Synaptic Memory",
+                "playerEffects": [
+                    {
+                        "type": "Increase Research",
+                        "value": "5%"
+                    }
+                ]
+            },
+            {
+                "name": "Theory Logic Caching",
+                "playerEffects": [
+                    {
+                        "type": "Reduce CTL Cost",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Intra-Circuit Encryption",
+                "playerEffects": [
+                    {
+                        "type": "Increase Hacking",
+                        "value": "10%"
+                    }
+                ]
+            },
+            {
+                "name": "Breakthrough Coalescence",
+                "playerEffects": [
+                    {
+                        "type": "Increase CTL Limit",
+                        "value": "1"
+                    }
+                ]
+            },
+            {
+                "name": "Cross-Intrusion Algorithms",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Hack"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grant Blue Badges"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Breakthrough Pre-Cognition",
+                "playerEffects": [
+                    {
+                        "type": "Increase CTL Limit",
+                        "value": "1"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Drannik",
@@ -189,7 +613,135 @@
         ],
         "lore": "The Drannik are clever machinists that know how to exploit the weaknesses of their enemies.",
         "oldImg": "drannik.png",
-        "bonus": "40% extra ship attack against non-player enemies"
+        "bonus": "40% extra ship attack against non-player enemies",
+        "evolutions": [
+            {
+                "name": "Cross-Species Recall",
+                "playerEffects": [
+                    {
+                        "type": "Increase NPC Damage Cap",
+                        "value": "11%"
+                    }
+                ]
+            },
+            {
+                "name": "Ancestral Vendetta",
+                "playerEffects": [
+                    {
+                        "type": "Increase NPC Damage Cap",
+                        "value": "9%"
+                    }
+                ]
+            },
+            {
+                "name": "Hornulox Gene-Splicing",
+                "playerEffects": [
+                    {
+                        "type": "Increase Hacking",
+                        "value": "9%"
+                    }
+                ]
+            },
+            {
+                "name": "Drone-Culling Instinct",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Disable NPC"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Culling Crystal",
+                                "Energy Cube",
+                                "Nullmass Inverter"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Intraviral Firmware",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "NFX-2 Virus"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Hornulox Symbiosis",
+                "activeAbility": {
+                    "name": "Hornulox Symbiont",
+                    "desc": "Places a random Hornulox Symbiont on a planet. Symbionts are vastly inferior if placed on planets larger than Average. Costs 2 Aeon Badges.",
+                    "cost": {
+                        "aeon": "2"
+                    },
+                    "cooldown": "40 hours",
+                    "planetEffectsConditional": [
+                        {
+                            "type": "Construct Structure",
+                            "structure": "Hornulox Symbiont (Average 1)",
+                            "conditions": [
+                                {
+                                    "type": "Size",
+                                    "max": "Average"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Construct Structure",
+                            "structure": "Hornulox Symbiont (Average 2)",
+                            "conditions": [
+                                {
+                                    "type": "Size",
+                                    "max": "Average"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Construct Structure",
+                            "structure": "Hornulox Symbiont (Average 3)",
+                            "conditions": [
+                                {
+                                    "type": "Size",
+                                    "max": "Average"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Construct Structure",
+                            "structure": "Hornulox Symbiont (Average 4)",
+                            "conditions": [
+                                {
+                                    "type": "Size",
+                                    "max": "Average"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Construct Structure",
+                            "structure": "Hornulox Symbiont (Large 1)"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Hornulox Macro-Encoding",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Hornulox Symbiont"
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "name": "Zolazin",
@@ -207,7 +759,113 @@
         ],
         "bonus": "40% bonus to cloaking",
         "lore": "The Zolazin are advanced cyborgs that use their superior stealth to pursue their agenda.",
-        "oldImg": "zolazin.png"
+        "oldImg": "zolazin.png",
+        "evolutions": [
+            {
+                "name": "Nulltrace Protocols",
+                "playerEffects": [
+                    {
+                        "type": "Increase Cloak",
+                        "value": "15%"
+                    }
+                ]
+            },
+            {
+                "name": "Neurolock Recompiler",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Complete Daily Mission"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grant Blue Badges"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Saboteur's Kernel",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Sabotage"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Energy Cube",
+                                "Nullmass Inverter",
+                                "Culling Crystal"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Core Access Overrides",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Core Access"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Fractal Data-Folder"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Neurolock Recursion",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Complete Daily Challenge"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grant Aeon Badges"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Entropy Synchronization",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Claim Daily Reward"
+                        },
+                        {
+                            "type": "Claim Supporter Bonus"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Ancestral Gene-Bank",
+                                "DataCore Archive Upgrade",
+                                "Energy Cube",
+                                "Fractal Data-Folder",
+                                "Nullmass Inverter"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "name": "Lazuli",
@@ -224,7 +882,81 @@
         ],
         "bonus": "50% bonus to hull strength",
         "lore": "The Lazuli are master ship builders, taking their skills from their former Syndicate rulers.",
-        "oldImg": "lazuli.png"
+        "oldImg": "lazuli.png",
+        "evolutions": [
+            {
+                "name": "Xeno-Structural Instinct",
+                "playerEffects": [
+                    {
+                        "type": "Increase Hull",
+                        "value": "16%"
+                    }
+                ]
+            },
+            {
+                "name": "Route-Memory Symmetry",
+                "playerEffects": [
+                    {
+                        "type": "Increase Cargo",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Grav-Adaptive Tendons",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Heavy Material Size",
+                        "value": "11%"
+                    }
+                ]
+            },
+            {
+                "name": "Route Bypass Insights",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Tariffs",
+                        "value": "9%"
+                    }
+                ]
+            },
+            {
+                "name": "Grav-Adaptive Spine",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Heavy Material Size",
+                        "value": "9%"
+                    }
+                ]
+            },
+            {
+                "name": "Thavix-Reactive Glands",
+                "activeAbility": {
+                    "name": "Thavix Reactor",
+                    "desc": "Builds a Thavix Reactor on planets with 3 other distinct structures that provide % bonuses to any production. Requires 800 Neutronium. Limit 1 per planet",
+                    "cost": {
+                        "neutronium": "800"
+                    },
+                    "planetEffects": [
+                        {
+                            "type": "Construct Structure",
+                            "structure": "Thavix Reactor"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Rootnode Indexing",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Dark Aperture-Key"
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "name": "Genetarr",
@@ -244,7 +976,118 @@
         },
         "bonus": "Mind Influence (lowers non-player enemy attack)",
         "lore": "The Genetarr have strong psionic abilities.",
-        "oldImg": "genetarr.png"
+        "oldImg": "genetarr.png",
+        "evolutions": [
+            {
+                "name": "Psionic Attunement",
+                "playerEffects": [
+                    {
+                        "type": "Increase Influence",
+                        "value": "5%"
+                    }
+                ]
+            },
+            {
+                "name": "Collective Psi-Consensus",
+                "playerEffects": [
+                    {
+                        "type": "Increase Influence Storage",
+                        "value": "5%"
+                    }
+                ]
+            },
+            {
+                "name": "Mind Coercion",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Mind Influence"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Aeon Chronoprism",
+                                "Energy Cube",
+                                "Terraforming Device"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Fecund Hypersenses",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Scan Planet"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Aeon Chronoprism",
+                                "Energy Cube",
+                                "Terraforming Device"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Unified Psi-Awareness",
+                "playerEffects": [
+                    {
+                        "type": "Increase Influence Storage",
+                        "value": "4%"
+                    }
+                ]
+            },
+            {
+                "name": "Empowered Psi-Might",
+                "playerEffects": [
+                    {
+                        "type": "Upgrade Ability",
+                        "original": "Improved Mind Influence",
+                        "new": "Empowered Psi-Might"
+                    }
+                ]
+            },
+            {
+                "name": "Psi-Might Mastery",
+                "playerEffects": [
+                    {
+                        "type": "Upgrade Ability",
+                        "original": "Empowered Psi-Might",
+                        "new": "Mastered Psi-Might"
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Darksight",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "The Oruas Eye"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Fractal Relic-Folder",
+                                "Polychoron Adapter",
+                                "Relic-Warehouse Upgrade"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "name": "Taltherian",
@@ -261,7 +1104,81 @@
         },
         "bonus": "Urbanize (increases planetary artifact production)",
         "lore": "The Taltherians have a complex history building amazing cities.",
-        "oldImg": "taltherian.png"
+        "oldImg": "taltherian.png",
+        "evolutions": [
+            {
+                "name": "Neo-Structural Instinct",
+                "playerEffects": [
+                    {
+                        "type": "Increase Artifact",
+                        "value": "3%"
+                    }
+                ]
+            },
+            {
+                "name": "Ancestral Engrams",
+                "playerEffects": [
+                    {
+                        "type": "Increase Artifact Storage",
+                        "value": "4%"
+                    }
+                ]
+            },
+            {
+                "name": "Neuro-Urban Receptors",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Urbanize"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Fractal Relic-Folder",
+                                "Omni Micro-Cache"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Ancestral Imprints",
+                "playerEffects": [
+                    {
+                        "type": "Increase Artifact Storage",
+                        "value": "4%"
+                    }
+                ]
+            },
+            {
+                "name": "Ocular E:Type Encoding",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Scan Planet"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Reliquary Memory",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Complete LM Task"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grant Relic Badges"
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "name": "Mylarai",
@@ -281,7 +1198,106 @@
         },
         "bonus": "Enrich (increases planetary mining production)",
         "lore": "The Mylarai are the wealthiest and most reckless miners in the galaxy.",
-        "oldImg": "mylarai.png"
+        "oldImg": "mylarai.png",
+        "evolutions": [
+            {
+                "name": "Caustic Ossification",
+                "playerEffects": [
+                    {
+                        "type": "Increase Mining",
+                        "value": "6%"
+                    }
+                ]
+            },
+            {
+                "name": "Enrichment Instinct",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Enrich"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Ancestral Gene-Bank",
+                                "Fractal Mass-Folder",
+                                "Mineral Silo-Tower Upgrade",
+                                "Nullmass Inverter",
+                                "Omni Micro-Cache",
+                                "Polychoron Adapter"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Radiolytic Tolerance",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Scan Planet"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Aeon Chronoprism",
+                                "Energy Cube",
+                                "Terraforming Device"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Ore-Pattern Memory",
+                "playerEffects": [
+                    {
+                        "type": "Increase Mining Storage",
+                        "value": "6%"
+                    }
+                ]
+            },
+            {
+                "name": "Self-Corrupted Engrams",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Items",
+                        "market": "Corruption",
+                        "items": [
+                            "Dais of Deceit"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hollowing Drive",
+                "activeAbility": {
+                    "name": "Hollowing Drive",
+                    "cooldown": "36 hours",
+                    "restrictions": [
+                        {
+                            "type": "Type",
+                            "types": [
+                                "Toxic",
+                                "Shattered",
+                                "Irradiated"
+                            ]
+                        }
+                    ],
+                    "planetEffects": [
+                        {
+                            "type": "Construct Structure",
+                            "structure": "Caustic Pit-Spire"
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "name": "Kronyn",
@@ -300,6 +1316,79 @@
         "lore": "The Kronyn are a technocracy of brilliant scientists and engineers.",
         "oldImg": "kronyn.png",
         "evolutions": [
+            {
+                "name": "Pod-Cluster Synapses",
+                "playerEffects": [
+                    {
+                        "type": "Increase Research Storage",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Pod-Cluster Lobe",
+                "activeAbility": {
+                    "target": "Friend",
+                    "playerEffects": [
+                        {
+                            "type": "Increase Research Storage"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Erudite Instincts",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Erudition"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Increase Research Production",
+                            "value": "8%"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Pod-Cluster Synergy",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Pod-Cluster Matrix"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Increase Research Storage"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Erudite Cross-Logic",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Erudition"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Ancestral Gene-Bank",
+                                "Nullmass Inverter"
+                            ]
+                        }
+                    ]
+                }
+            },
             {
                 "name": "Intracellular Awareness",
                 "playerEffects": [
@@ -367,10 +1456,79 @@
         "oldImg": "litheor.png",
         "evolutions": [
             {
+                "name": "Intraplated Lattice",
+                "playerEffects": [
+                    {
+                        "type": "Increase Hull",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Gneissal Deep-Substrate",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Deep-Phase Probe"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Ancestral Gene-Bank",
+                                "Fractal Mass-Folder",
+                                "Mineral Silo-Tower Upgrade",
+                                "Nullmass Inverter",
+                                "Omni Micro-Cache",
+                                "Polychoron Adapter"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Slagcore Metabolism",
+                "playerEffects": [
+                    {
+                        "type": "Increase Mining Storage",
+                        "value": "5%"
+                    }
+                ]
+            },
+            {
+                "name": "Molten Insight",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Scan Planet"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Gneissal Deep-Recall",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Deep-Phase Probe"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Reset Ability",
+                            "ability": "Deep-Phase Probe"
+                        }
+                    ]
+                }
+            },
+            {
                 "name": "Micro-Raix Metabolism",
                 "playerEffects": [
                     {
-                        "type": "Unlock Market Item",
+                        "type": "Unlock Market Items",
                         "market": "Raix",
                         "item": "Micro-Raix Cyclotron",
                         "cost": "17",
@@ -403,7 +1561,94 @@
         },
         "bonus": "Uldrinan Quota (provides special currency for items)",
         "lore": "The Uldrinan hold unique territory ideal for trade and technology.",
-        "oldImg": "uldrinan.png"
+        "oldImg": "uldrinan.png",
+        "evolutions": [
+            {
+                "name": "Slip-Field Immersion",
+                "playerEffects": [
+                    {
+                        "type": "Increase Cloak",
+                        "value": "8%"
+                    }
+                ]
+            },
+            {
+                "name": "Slip-Trade Cognition",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Uldrinan Quota"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants Uldri Credits"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Intra-Expanse Memory",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Complete LM Task"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants Uldri Credits"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Sub-Spacial Grasp",
+                "activeAbility": {
+                    "target": "Your Planet",
+                    "planetEffectsRandom": [
+                        {
+                            "type": "Upgrade Structure",
+                            "original": "Uldri Crystal Field",
+                            "new": "Uldri Mega-Crystal Field"
+                        },
+                        {
+                            "type": "Upgrade Structure",
+                            "original": "Uldri Power Node",
+                            "new": "Uldri Power Mega-Node"
+                        },
+                        {
+                            "type": "Upgrade Structure",
+                            "original": "Uldri Spacial Folder",
+                            "new": "Uldri Spacial Mega-Folder"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Sub-Spacial Transference",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Sub-Spacial Grasp"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Polychoron Adapter",
+                                "Ancestral Gene-Bank",
+                                "Aeon Chronoprism",
+                                "Omni Micro-Cache"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         "name": "Bahreen",
@@ -417,6 +1662,99 @@
         },
         "lore": "The Bahreen have a special connection to Prismodne energy.",
         "oldImg": "bahreen.png",
-        "bonus": "Luminate (transforms common planets)"
+        "bonus": "Luminate (transforms common planets)",
+        "evolutions": [
+            {
+                "name": "Pris-Temporal Will",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Complete Daily Challenge"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grant Prismodyne Energy"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Transgenic Fusion",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Artifact",
+                            "artifacts": [
+                                "Prismodyne Gene Splicer"
+                            ]
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grant Prismodyne Energy"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Luminogenesis Imprint",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Luminate"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grants",
+                            "artifacts": [
+                                "Aeon Chronoprism"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Hyper-Tutelage Insight",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Ability",
+                            "ability": "Mentor's Instruction"
+                        }
+                    ],
+                    "playerEffects": [
+                        {
+                            "type": "Grant Prismodyne Energy"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Philtery Mastery",
+                "passiveAbility": {
+                    "triggers": [
+                        {
+                            "type": "Use Planet-Based Ability",
+                            "ability": "Philtery"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Luminogensis Synchrony",
+                "playerEffects": [
+                    {
+                        "type": "Unlock Market Items",
+                        "market": "Prismodyne",
+                        "items": [
+                            "Bio-Luminous Orb"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]

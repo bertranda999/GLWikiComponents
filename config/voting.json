@@ -1030,5 +1030,97 @@
                 "effectDesc": "Increases production by 4% for races in the Drahj Quadrant<br>Bonus Restricted to: Mylarai, Zolazin, Bahreen, Xecti"
             }
         ]
+    },
+    {
+        "name": "Theory Network Maintenance",
+        "desc": "The Collective Theory Lab's data routing network, used to share insights between other stations throughout the Galaxy, is due for maintenance. Lab engineers are debating which changes to fit during the window.",
+        "effectDuration": "7 days",
+        "options": [
+            {
+                "name": "Scale Neuralese Nodes",
+                "desc": "Reduces Research production by 11%. Increases Collective Theory Lab designs available to discover by 1 (for all Legions)",
+                "icon": "<span style=\"width:60px;height:60px;display:inline-flex;flex-shrink:0;color:#DDEEFF;\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z\"></path><path d=\"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z\"></path></svg></span>",
+                "legionEffects": [
+                    {
+                        "type": "Increase Discovery Limit",
+                        "value": "1"
+                    }
+                ],
+                "playerEffects": [
+                    {
+                        "type": "Increase Research Production",
+                        "value": "-11%"
+                    }
+                ]
+            },
+            {
+                "name": "Redirect Routing Throughput"
+            },
+            {
+                "name": "Merge Data Buffers"
+            }
+        ]
+    },
+    {
+        "name": "Sentinel Grid Expansion",
+        "desc": "The Galactic Patrol Authority is working to enhance the Sentinel Grid, used in collaboration with its members for monitoring enemy activity in border regions. Significant resources are needed to perform upgrades on the Grid, and the council seeks guidance on how to proceed.",
+        "options": [
+            {
+                "name": "Grid Sensor Upgrades",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M13 7 9 3 5 7l4 4\"></path><path d=\"m17 11 4 4-4 4-4-4\"></path><path d=\"m8 12 4 4 6-6-4-4Z\"></path><path d=\"m16 8 3-3\"></path><path d=\"M9 21a6 6 0 0 0-6-6\"></path></svg>",
+                "effectDesc": "Increases Non-Player Enemy battle slots +1, but increases ship upkeep by 4%",
+                "desc": "Upgrade the existing Sensor nodes in the network to increase their detection range.",
+                "playerEffects": [
+                    {
+                        "type": "Increase NPC Slots",
+                        "value": "1"
+                    },
+                    {
+                        "type": "Reduce Upkeep",
+                        "value": "-4%"
+                    }
+                ]
+            },
+            {
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M8 3v18M16 3v18M3 8h18M3 16h18\"></path><circle cx=\"8\" cy=\"8\" r=\"2\"></circle><circle cx=\"16\" cy=\"8\" r=\"2\"></circle><circle cx=\"8\" cy=\"16\" r=\"2\"></circle><circle cx=\"16\" cy=\"16\" r=\"2\"></circle></svg>",
+                "name": "Increase Grid Nodes",
+                "desc": "Increase the number of Sensor nodes within the network, greatly enhancing its detection abilities... but carries significant maintenance costs.",
+                "effectDesc": "Increases Non-Player Enemy battle slots +2, but increases ship upkeep by 10%",
+                "playerEffects": [
+                    {
+                        "type": "Increase NPC Slots",
+                        "value": "2"
+                    },
+                    {
+                        "type": "Reduce Upkeep",
+                        "value": "-10%"
+                    }
+                ]
+            },
+            {
+                "name": "Neural-Lock Integration",
+                "effectDesc": "Increases experience gained +5%",
+                "desc": "Adapt the Sentinel Grid to support direct neural linking, allowing pilots to gain tactical insights instantly",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z\"></path><path d=\"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z\"></path></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Experience",
+                        "value": "5%"
+                    }
+                ]
+            },
+            {
+                "name": "Sentinel Policy Calibrations",
+                "effectDesc": "Increases Enemy Player rank range by 5%",
+                "desc": "Adjust the Grid rules to increase the sensitivity for hostile targets found in range",
+                "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"22\" y1=\"12\" x2=\"18\" y2=\"12\"></line><line x1=\"6\" y1=\"12\" x2=\"2\" y2=\"12\"></line><line x1=\"12\" y1=\"6\" x2=\"12\" y2=\"2\"></line><line x1=\"12\" y1=\"22\" x2=\"12\" y2=\"18\"></line></svg>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Rank Range",
+                        "value": "5%"
+                    }
+                ]
+            }
+        ]
     }
 ]

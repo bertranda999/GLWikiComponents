@@ -333,15 +333,49 @@
         "level": 3,
         "img": "cybernetic1.jpg",
         "bonusDesc": "Increases overall Research Production by 11k per hour, and +3%",
-        "desc": "Align cybernetic systems to operate in coordinated and predictable harmony across Legion forces."
+        "desc": "Align cybernetic systems to operate in coordinated and predictable harmony across Legion forces.",
+        "cooldown": "8 hours",
+        "cost": {
+            "influence": "5,600",
+            "genes": "16",
+            "studies": "1,200",
+            "ctp": "1,100"
+        },
+        "phases": "410",
+        "playerEffects": [
+            {
+                "type": "Increase Research",
+                "value": "11k"
+            },
+            {
+                "type": "Increase Research",
+                "value": "3%"
+            }
+        ]
     },
     {
-        "name": "Unknown",
+        "name": "Interspecies Relations Office",
         "prereqs": [
             "Universal Contracts",
             "Augmentation Initiative"
         ],
-        "level": 3
+        "level": 3,
+        "bonusDesc": "Increases Influence Production +4%",
+        "cooldown": "8 hours",
+        "cost": {
+            "influence": "6,800",
+            "studies": "840",
+            "aeon": "4"
+        },
+        "desc": "Manage diplomatic frameworks and dispute resolution between member species.",
+        "img": "species1.jpg",
+        "phases": "410",
+        "playerEffects": [
+            {
+                "type": "Increase Influence",
+                "value": "4%"
+            }
+        ]
     },
     {
         "name": "Reclamation Sector",

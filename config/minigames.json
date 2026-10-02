@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Vaash Heist",
+        "rewards": {
+            "Medium": [
+                "Spice of Parsilia",
+                "Parsilian Cryptex",
+                "Velamen Reactor"
+            ],
+            "Hard": [
+                {
+                    "name": "Parsilian Cryptex",
+                    "count": "2"
+                },
+                "Vaash Drone Tower",
+                "Vaash Sentry Drone",
+                "Goridian Cellar",
+                "Velamen Reactor"
+            ]
+        },
+        "dialogue": [
+            {
+                "message": "Another deal gone horribly wrong with the Vaash. This time, the loss was devastating.",
+                "response": "Why are you still doing business with them? They've betrayed you before."
+            },
+            {
+                "message": "After our arrangement to acquire the Cron-Stabilizers, we believed some trust had been re-established. We took a risk.",
+                "response": "What happened?"
+            },
+            {
+                "message": "They traded a number of highly sought-after relics for our \"kevrex\", a dense substance used for intergalactic travel. The Vaash have been trying to develop that technology themselves for eras.",
+                "response": "You mentioned you do not trade such technology."
+            },
+            {
+                "message": "Normally, we do not. But we had been searching for these relics for a very long time, and the Vaash provided seemed irrefutable proof of provenance. The relics turned out to be fakes... though very convincing ones.",
+                "response": "And now they possess the kevrex..."
+            },
+            {
+                "message": "For now. It is a \"fuel\" of sorts — useless to them without the rest of the technology. We have a plan to take it back, but we cannot do it ourselves.",
+                "response": "Explain."
+            },
+            {
+                "message": "Kevrex has one unique characteristic: stored improperly, it leaks a strong \"trail\" of energy — one that can be traveled to.",
+                "response": "But the Vaash are in an entirely different galaxy."
+            },
+            {
+                "message": "We have the means of opening a tiny waypoint to the kevrex from here. A being your size — maybe two — could fit through it.",
+                "response": "A heist? But... why us?"
+            },
+            {
+                "message": "Our laws are complex. Certain provisions prohibit us from stealing from the platforms they operate.",
+                "response": "Even if some of the equipment was yours?"
+            },
+            {
+                "message": "Yes... even so. Technically, a deal was a deal. But nothing prevents us from helping you take it yourself.",
+                "response": "It sounds dangerous. I assume these Vaash platforms are well defended."
+            },
+            {
+                "message": "Standard patrol drones... but lethal if you are caught. Go through the waypoint, take the kevrex and whatever else you can find, and return before the waypoint closes.",
+                "response": "What is our take?"
+            },
+            {
+                "message": "We keep the kevrex. Whatever else you find is yours — and the Vaash keep quite a number of things in their hold.",
+                "response": "Alright. We're in."
+            },
+            {
+                "message": "I suspected you might be.",
+                "response": "Anything else we should know?"
+            },
+            {
+                "message": "The Vaash are methodical — Their drones would operate in a predictable pattern. Use that to your advantage."
+            }
+        ],
+        "rules": "Reach the relic crate without being seen, within the move budget. You move one step (or wait), then every drone moves one step along its posted route. Step into a scan cone, share a tile with a drone, or run out of moves — the run ends.<br><br>Decoy: freezes the nearest drone for 2 turns and turns its cone toward the decoy. Throwing one uses your turn.<br><br>Four drones, one decoy, and a single spare move on the clock.<br><br>Service hatches teleport you to their twin. The exit side is only safe when the nearby patrol faces away.<br><br>Faint cones show where each drone will scan next turn. Crates block movement and sight."
+    },
+    {
+        "name": "Cursed Crew",
+        "dialogue": [
+            {
+                "message": "Your bridge has become... quieter. Have you noticed?",
+                "response": "What have you done to my crew?"
+            },
+            {
+                "message": "Nothing that you haven't already subjected them to. I simply offered them different choices. In a way, I am freeing them of your continued enslavement.",
+                "response": "You are no savior."
+            },
+            {
+                "message": "On the contrary. Every one of them has served your ambition for years, doomed billions on your orders, and been given nothing but rank and rations. I offer them purpose.",
+                "response": "Purpose? You offer them nothing but fear."
+            },
+            {
+                "message": "And you do not? You spread fear freely across thousands of worlds. I am collecting what is owed.",
+                "response": "Owed to whom? This... ritual of yours?"
+            },
+            {
+                "message": "Yes. I see far, far ahead of their lifetimes... and their involvement is key. My suggestions are only temporary.",
+                "response": "I don't believe you..."
+            },
+            {
+                "message": "Your concern for them is misplaced. You will have their minds back... but for now, they are mine.",
+                "response": "What is your aim with this... ritual of yours? Why do you keep involving us?"
+            },
+            {
+                "message": "As I've said plainly before, the souls of this timeline are integral in a great casting. But... more minds are needed. More blood must be spilled.",
+                "response": "We want no part of it."
+            },
+            {
+                "message": "Oh, its far too late to abstain. You have already joined the spell.",
+                "response": "Leave our ship. Now."
+            },
+            {
+                "message": "Such persistence... such impatience. I am going nowhere until we are finished.",
+                "response": "We'll see about that."
+            }
+        ],
+        "rewards": {
+            "Medium": [
+                "Requisition of Terror",
+                "Cursed Soulglass"
+            ],
+            "Hard": [
+                "Requisition of Terror",
+                "Bane Hex-Loom",
+                "Cursed Soulglass"
+            ],
+            "Nightmare": [
+                "Bane Hex-Loom",
+                "Cursed Soulglass"
+            ]
+        },
+        "rules": "3 of your 10 crew are cursed. You win when all cursed crew are quarantined.<br><br>Each turn, Ask a crew member or Quarantine one. An asked crew member states their role and one fact about the current situation. They can be asked again, possibly for new information, after 2 turns have passed.<br><br>Trusted roles:<br>Interrogator — names one crew member and whether they are trusted or cursed.<br>Medic — names two crew, at least one of whom is cursed.<br>Sentry — names several crew and exactly how many of them are cursed.<br>Cursed roles:<br>Whisperer — claims a trusted role and gives false information.<br>Corruptor — claims a trusted role and gives false information. One trusted crew member also gives false information until the Corruptor is quarantined.<br>Mimic — claims a trusted role and gives false information. The Mimic does not register as cursed to the Sentry.<br>A wrong quarantine wastes the turn. That crew member stops answering questions and can no longer be cursed. You lose after 3 wrong quarantines.<br><br>Every 4 turns, the curse converts one trusted crew member.<br><br>A correctly quarantined crew member reveals their true role and confesses that one other crew member is trusted.<br><br>Hover a crew member or a statement to see it drawn on the board as arrows from the speaker to the crew they name: red arrows mean the speaker calls them cursed, blue arrows mean trusted, dotted means one or some of the many.<br><br>You lose if the cursed count reaches 7, if 14 turns pass, or if the timer expires."
+    }
+]

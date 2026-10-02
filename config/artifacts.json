@@ -3985,7 +3985,8 @@
             "type": "cr",
             "min": "14,000",
             "max": "56,000"
-        }
+        },
+        "message": "You have successfully used the effect on the planet."
     },
     {
         "name": "Chuhn Exo-Logistics Center",
@@ -4018,6 +4019,7 @@
         "cost": {
             "Energy": "500"
         },
+        "message": "A Chuhn Exo-Logistics Center has been upgraded to a Chuhn Exo-Logistics Gridport.",
         "img": "chuhnarena2.png",
         "target": "Your Planet",
         "planetEffects": [
@@ -4350,7 +4352,8 @@
             "type": "ctp",
             "min": "15",
             "max": "30"
-        }
+        },
+        "message": "An existing Chuhn Trading Hub has been upgraded."
     },
     {
         "name": "Chuhn Trading Post",
@@ -4414,7 +4417,8 @@
             "type": "ctp",
             "min": "15",
             "max": "30"
-        }
+        },
+        "message": "An existing Chuhn Trading Post has been upgraded."
     },
     {
         "name": "Civicordium Charter",
@@ -9012,7 +9016,8 @@
             "energy": "4,200"
         },
         "desc": "<i>Intricate compartments fold in on each other,<br>revealing layers of hidden storage within</i><br><br>Temporarily boosts mining storage by 10% for 20 hours.",
-        "target": "Player"
+        "target": "Player",
+        "message": "A surge of energy flows through your ship."
     },
     {
         "name": "Frame of Bane",
@@ -9481,7 +9486,7 @@
         "planetEffectsRandom": [
             {
                 "type": "Upgrade Structure",
-                "original": "Genoform Reservior",
+                "original": "Genoform Reservoir",
                 "new": "Genoform Reservoir II",
                 "message": "An existing Genoform structure has been upgraded."
             },
@@ -9492,7 +9497,8 @@
                 "message": "An existing Genoform structure has been upgraded."
             }
         ],
-        "target": "Your Planet"
+        "target": "Your Planet",
+        "message": "An existing Genoform structure has been upgraded."
     },
     {
         "name": "GeoLifter",
@@ -11361,6 +11367,7 @@
     },
     {
         "name": "Kinitar Disassembler",
+        "message": "A surge of energy flows through your ship.",
         "img": "kscrap1.png",
         "scrap": {
             "type": "ctp",
@@ -12056,7 +12063,8 @@
         ],
         "tags": [
             "Lepus"
-        ]
+        ],
+        "message": "A Lepus Hatchery has been constructed on the planet."
     },
     {
         "name": "Lepus Replication Node v2021",
@@ -16503,7 +16511,8 @@
         "buttonText": "Use",
         "cost": {
             "energy": "3,300"
-        }
+        },
+        "message": "A surge of energy flows through your ship."
     },
     {
         "name": "Scruuge Growth Replivats",
@@ -18564,6 +18573,7 @@
         "tags": [
             "Harvest"
         ],
+        "message": "The Spire of Edenic Dominion has been constructed on the planet.",
         "target": "Your Planet",
         "scrap": {
             "type": "ctp",
@@ -19958,7 +19968,8 @@
             {
                 "type": "Construct Structure"
             }
-        ]
+        ],
+        "message": "A T.O. Colony Ark has been constructed above the planet."
     },
     {
         "name": "T.O. Fortisphere",
@@ -23559,7 +23570,8 @@
                 ],
                 "min": "6"
             }
-        ]
+        ],
+        "message": "An ominous, evil glow fills the planet's orbit"
     },
     {
         "name": "X-Pulse Tower",
@@ -24655,7 +24667,8 @@
         "buttonText": "Use",
         "cost": {
             "energy": "505"
-        }
+        },
+        "message": "The Drone begins tinkering..."
     },
     {
         "name": "Goridian Cellar",
@@ -24700,7 +24713,7 @@
             "type": "ctp",
             "min": "65",
             "max": "130",
-            "maxMultiplier": "1.58",
+            "maxMultiplier": "2.43",
             "minMultiplier": "0.7"
         },
         "img": "spiceparsilia1.png",
@@ -24794,7 +24807,30 @@
             "energy": "1,111"
         },
         "target": "Your Planet",
-        "desc": "Upgrades a Hall of Law on your planet to a House of Law, boosting Artifact +2, Research +3, Influence by +1, and boosting Influence +2%"
+        "desc": "Upgrades a Hall of Law on your planet to a House of Law, boosting Artifact +2, Research +3, Influence by +1, and boosting Influence +2%",
+        "message": "An existing Hall of Law has been upgraded."
+    },
+    {
+        "name": "Hall of Law",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "1"
+        },
+        "img": "halllaw1.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Hall of Law"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "550"
+        },
+        "desc": "[ Planet Structure - Size:3, Artifact:1, Research:2, Influence:1 ]<br>Constructs a Hall of Law on your planet.<br>Planet must have influence available to build.<br>Limit 5 per planet",
+        "message": "A Hall of Law has been constructed on the planet.",
+        "target": "Your Planet"
     },
     {
         "name": "FR13-ND Neuralese Channel",
@@ -24856,5 +24892,501 @@
             }
         ],
         "message": "A bright illumination fills the planet's orbit"
+    },
+    {
+        "name": "Gift of Zebeeren",
+        "tags": [
+            "Scruuge"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "22",
+            "max": "44"
+        },
+        "img": "scruugegun3.png",
+        "desc": "Upgrades a Zebeeren's Cannon on your ship at random,<br>doubling its attack, adding a +1% boost to attack,<br>and increasing its upkeep 10x. Requires 2000 Neutronium to use.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "8,888"
+        },
+        "target": "Player"
+    },
+    {
+        "name": "Sillixx Starport Hub",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "11"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Sillixx Starport Hub"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Race",
+                "races": [
+                    "Sillixx"
+                ]
+            }
+        ],
+        "img": "sstarport2.png",
+        "buttonText": "Build",
+        "desc": "[ Planet Structure - Size:2, Artifact:3, Mining:3, Population:3333 ]<br>Also increases planetary population by 33%<br>Must be Sillixx race to initially build this structure.<br>Limit 2 per planet.",
+        "message": "The Sillixx Starport Hub has been constructed on the planet.",
+        "target": "Player"
+    },
+    {
+        "name": "Gift of the Beyond",
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "img": "giftbeyond1.png",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Scruuge"
+                ],
+                "min": "8"
+            }
+        ],
+        "tags": [
+            "Scruuge"
+        ],
+        "desc": "[ Limited Item - Holidays ]<br>Permanently increases the target planet size by 2%.<br>Can only be used on planets with at least 8<br>distinct Scruuge structures",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "8,000",
+            "genes": "29"
+        },
+        "planetEffects": [
+            {
+                "type": "Increase Space",
+                "value": "2%"
+            }
+        ],
+        "message": "A bright illumination fills the planet's orbit",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Vehruhn, Cursed Seeker",
+        "img": "vehruhn.webp",
+        "scrap": {
+            "type": "ctp",
+            "min": "0",
+            "max": "0"
+        },
+        "tags": [
+            "Bane",
+            "Chuhn"
+        ],
+        "buttonText": "Recruit",
+        "cost": {
+            "energy": "2,200"
+        },
+        "desc": "[ Ship Ally ]<br>Initial Stats: Scan: 110, Cloak: 120, Shields: 411<br>Gains a new rank when completing a Daily Challenge.<br>Rank 100 Unlocks 'Planetary Tour' ability (Tours any planet and grants an artifact based on it)<br>Requires Rank 200+",
+        "playerEffects": [
+            {
+                "type": "Install Ally",
+                "ally": "Vehruhn, Cursed Seeker"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Rank",
+                "min": "200"
+            }
+        ],
+        "message": "Vehruhn, Cursed Envoy, has joined your ship.",
+        "target": "Player"
+    },
+    {
+        "name": "Dark Arbalest XII Upgrade",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "29,500",
+            "max": "118,000"
+        },
+        "img": "hbturret15.webp",
+        "playerEffects": [
+            {
+                "type": "Upgrade Module",
+                "original": "Dark Arbalest XII",
+                "new": "Dark Arbalest XIII"
+            }
+        ],
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades a Dark Arbalest XII on your ship to a Dark Arbalest XIII,<br>increasing its attack by 800, its cloak by 430. Also increases its Bane Darkness ability bonus to 74%, and lowering its cooldown by 4 hours.",
+        "buttonText": "Use",
+        "message": "Dark Arbalest XII has been upgraded to Dark Arbalest XIII",
+        "target": "Player"
+    },
+    {
+        "name": "Bane HyperShroud X Upgrade",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "39,500",
+            "max": "158,000"
+        },
+        "img": "bhypershroud10.webp",
+        "playerEffects": [
+            {
+                "type": "Upgrade Module",
+                "original": "Bane HyperShroud IX",
+                "new": "Bane HyperShroud X"
+            }
+        ],
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades a Bane HyperShroud IX to a Bane HyperShroud X,<br>increasing its cloak by 1000, reducing 'Infusion' cooldown<br>by 4 hours, and boosting its effect +22/+1000 max",
+        "buttonText": "Use",
+        "message": "Bane HyperShroud IX has been upgraded to Bane HyperShroud X",
+        "target": "Player"
+    },
+    {
+        "name": "Bane Dark Ritual Mask",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "14,500",
+            "max": "58,000"
+        },
+        "img": "banemask1.gif",
+        "planetEffectsRandom": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Bane Psybeacon",
+                "new": "Bane Psybeacon - Mark II"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Bane Psybeacon - Mark II",
+                "new": "Bane Psybeacon - Mark III"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Bane Psybeacon - Mark III",
+                "new": "Bane Psybeacon - Mark IV"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Bane Psybeacon - Mark IV",
+                "new": "Bane Psybeacon - Mark V"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Bane Psybeacon - Mark V",
+                "new": "Bane Psybeacon - Mark VI"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Bane Psybeacon - Mark VI",
+                "new": "Bane Psybeacon - Mark VII"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Psyshade Arsenal",
+                "new": "Psyshade Arsenal II"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Psyshade Arsenal II",
+                "new": "Psyshade Arsenal III"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Psyshade Arsenal III",
+                "new": "Psyshade Arsenal IV"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Psyshade Arsenal IV",
+                "new": "Psyshade Arsenal V"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Psyshade Arsenal V",
+                "new": "Psyshade Arsenal VI"
+            }
+        ],
+        "buttonText": "Use",
+        "cost": {
+            "energy": "666"
+        },
+        "desc": "[ Limited Item - Halloween ]<br>Upgrades an existing Bane Psybeacon (up to Mark 7)<br>or Bane Psyshade Arsenal (up to Mark 6),<br>bypassing any requirements and costs.",
+        "message": "An existing Bane structure has been enhanced.",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Cursed Bazaar",
+        "tags": [
+            "Bane",
+            "Chuhn"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "4",
+            "max": "8"
+        },
+        "img": "cursedbazaar1.png",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Bane"
+                ],
+                "min": "3"
+            },
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Chuhn"
+                ],
+                "min": "3"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Cursed Bazaar"
+            }
+        ],
+        "desc": "[ Planet Structure - Size:1, Artifact:2, Research:2, Influence:1, Cloak:222 ]<br>Adds 1666 mineral and artifact storage, and +1% artifact production.<br>Invaders also suffer a +1hr cooldown to invasion timers.<br>Counts as both a Bane and a Chuhn structure.<br>Planet must have 3+ distinct Bane and 3+ distinct Chuhn structures to build.<br>Limit 1 per planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222",
+            "influence": "6,666"
+        },
+        "message": "A Cursed Bazaar has been constructed on the planet.",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Cauldron of Banefire",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "img": "banefire1.webp",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structures": [
+                    "Bane Dark-Kiln v2",
+                    "Bane Dark-Kiln v3",
+                    "Bane Dark-Kiln v4"
+                ]
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "666"
+        },
+        "desc": "[ Limited Item - Halloween ]<br>[ Planet Structure - Size:0, Mining:2, Artifact:1, Influence:1, Cloak:666 ]<br>Boosts artifact production by 2%.<br>Planet must have a Bane Dark-Kiln v2 or higher.<br>Limit 1 per planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Cauldron of Banefire"
+            }
+        ],
+        "message": "A Cauldron of Banefire has been constructed on the planet.",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Bane Generator XVI",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "18"
+        },
+        "img": "banegenx3.gif",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Bane Generator XVI"
+            }
+        ],
+        "buttonText": "Build",
+        "desc": "[ Limited Item - Halloween ]<br>[ Planet Structure - Size:2, Mining:21, Artifact:8, Attack:145k, Cloak:2700 ]<br>Installs a Bane Generator XVI on your planet.<br>Limit 1 per planet.",
+        "message": "The Bane Generator XV has been constructed on the planet.",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Profane Puzzlebox",
+        "message": "The Puzzlebox opens...",
+        "target": "Player",
+        "tags": [
+            "Bane"
+        ],
+        "desc": "Solve a random minigame within to open the box.<br>Eligible invasions award +1 Green Badge for the next 20 hours",
+        "buttonText": "Use",
+        "minigame": "Random",
+        "img": "cpuzzlebox1.webp",
+        "passiveAbility": {
+            "triggers": [
+                {
+                    "type": "Invade"
+                }
+            ],
+            "playerEffects": [
+                {
+                    "type": "Grant Green Badges",
+                    "value": "1"
+                }
+            ]
+        },
+        "scrap": {
+            "type": "green",
+            "min": "2",
+            "max": "4"
+        }
+    },
+    {
+        "name": "Accursed Expanse",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "4,500",
+            "max": "18,000"
+        },
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Bane"
+                ],
+                "min": "10"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Increase Space",
+                "value": "2%"
+            }
+        ],
+        "img": "accursed1.png",
+        "desc": "[ Limited Item - Halloween ]<br>Permanently increases the target planet size by 2%.<br>The planet must have 10+ distinct Bane structures.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "6,666"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Bane Hex-Loom",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "18"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Bane Hex-Loom"
+            }
+        ],
+        "img": "hexloom1.png",
+        "desc": "[ Limited Item - Halloween ]<br>[ Planet Structure - Size:1, Mining:2, Artifact:1, Research:1, Cloak:333 ]<br>Boosts research production by 2%.<br>Can be upgraded using Hallows Bane Tricks, with 5+ other Bane structures.<br>Limit 1 per planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "666"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Cursed Soulglass",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "aeon",
+            "min": "2",
+            "max": "5"
+        },
+        "passiveAbility": {
+            "triggers": [
+                {
+                    "type": "Complete Daily Challenge"
+                }
+            ],
+            "playerEffects": [
+                {
+                    "type": "Grant Aeon Badges",
+                    "value": "2"
+                }
+            ]
+        },
+        "img": "soulglass1.webp",
+        "desc": "[ Limited Item - Halloween ]<br><i>A vessel made of blackened glass, cold to the touch, that seems to hold something looking back...</i><br>Use: gain 2 extra Aeon Badges from each Daily Challenge you complete for the next 42 hours.",
+        "buttonText": "Use",
+        "target": "Player"
+    },
+    {
+        "name": "Requisition of Terror",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "6,000",
+            "max": "24,000"
+        },
+        "playerEffects": [
+            {
+                "type": "Reduce Invasion Cost",
+                "value": "30%"
+            }
+        ],
+        "img": "reqterror1.png",
+        "desc": "[ Limited Item - Halloween ]<br>A writ of conquest, detailing horrific but efficient tactics.<br>Reduces the credit cost of your invasions by 30% for 3 days.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "666"
+        },
+        "target": "Player"
+    },
+    {
+        "name": "Skeleton Bane-Key",
+        "tags": [
+            "Bane"
+        ],
+        "scrap": {
+            "type": "cr",
+            "min": "5,500",
+            "max": "22,000"
+        },
+        "playerEffects": [
+            {
+                "type": "Reset Seasonal Minigames"
+            }
+        ],
+        "img": "banekey1.png",
+        "cost": {
+            "energy": "666",
+            "influence": "666"
+        },
+        "desc": "[ Limited Item - Halloween ]<br>Resets cooldowns for all Seasonal mini-games (ie - Cursed Crew),<br>and resets any failed/locked Seasonal mini-game states.",
+        "target": "Player"
     }
 ]

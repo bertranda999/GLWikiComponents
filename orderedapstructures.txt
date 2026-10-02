@@ -11,9 +11,9 @@ Elios Soletta: 100000
 Dark Phage Entity: 100000
 Chuhn Reclamation Drone: 100000
 Tamed Undulok: 100000
-Synesthetic Fuse v4: 100000
-Synesthetic Fuse v3: 100000
-Synesthetic Fuse v2: 100000
+Synesthetic Fuse IV: 100000
+Synesthetic Fuse III: 100000
+Synesthetic Fuse II: 100000
 Synesthetic Fuse: 100000
 Veon Singularium v4: 100000
 Veon Singularium v3: 100000
@@ -49,6 +49,7 @@ Scruuge Toll-Station v4: 100000
 Scruuge Toll-Station v3: 100000
 Scruuge Toll-Station v2: 100000
 Scruuge Toll-Station: 100000
+Cauldron of Banefire: 100000
 Bane Dark-Kiln v4: 100000
 Bane Dark-Kiln v3: 100000
 Bane Dark-Kiln v2: 100000
@@ -118,13 +119,16 @@ B'elna's Altar (Upgraded): 6.5
 Aurelios Star-Plant II: 6.5
 Perpetual HyperTurbine III: 6.5
 Prismatrix Reliquary: 6.43859649122807
+Cursed Bazaar: 6.42280701754386
 Goridian Cellar v4: 6.312280701754386
 Monolith of Miracles v4: 6.25
 Raix Stasis Hold III: 6.2105263157894735
 Vault of Gaia: 6.140350877192983
 Bahreen Duodecix (1): 6.0
 Litheor Transmutative Locator (3): 6.0
+Bane Psybeacon - Mark VII: 6.0
 Bane Nether-Seal (6): 6.0
+Psyshade Arsenal VI: 6.0
 Scruuge Keystone VII: 6.0
 Dark Supercollider: 6.0
 Hyperprism Chamber: 6.0
@@ -134,6 +138,7 @@ Auric Lepus Drone 14.0: 6.0
 Auric Lepus Drone 15.0: 6.0
 Chuhn Exo-Logistics Gridport: 6.0
 Chuhn InterMarket Caster v3: 6.0
+Dais of Deceit: 6.0
 Astrometrics Orrery v5: 6.0
 Chuhn Star-Emporium v5: 6.0
 Thavix Geneworks v4: 6.0
@@ -192,6 +197,7 @@ Auric Lepus Drone 9.0: 4.0
 Chuhn Exo-Logistics Center: 4.0
 Chuhn Trading MegaHub (Upgraded): 4.0
 Bane Generator XV: 4.0
+Bane Generator XVI: 4.0
 Astrometrics Orrery v4: 4.0
 Aurelios Star-Plant: 4.0
 Pentragulum Sparkmatter (2): 4.0
@@ -254,8 +260,8 @@ Chuhn Trading Hub (Upgraded): 3.0
 Chuhn Trading MegaHub: 3.0
 Bane Generator XI: 3.0
 Bane Generator XII: 3.0
+Bane Hex-Loom v4: 3.0
 Scruuge Plunderhaven: 3.0
-Dais of Deceit: 3.0
 Micro-Raix Cyclotron: 3.0
 Micro-Raix Cyclotron 2: 3.0
 Astrometrics Orrery v3: 3.0
@@ -292,7 +298,7 @@ Crownspire, Spectral Palace: 2.5
 Shardveil, Spectral Citadel: 2.5
 Chuhn Zenith Exchange: 2.5
 Sirocco Sandspire: 2.25
-Exo-Rift Membrane Blueprint: 2.0
+Exo-Rift Membrane: 2.0
 Litheor Deep-Phase Probe: 2.0
 Bainar A-Node - Advanced: 2.0
 Tranquil Monolith (5%): 2.0
@@ -405,6 +411,7 @@ Chuhn Trading Hub: 2.0
 Bane Generator VI: 2.0
 Bane Generator VII: 2.0
 Bane Generator VIII: 2.0
+Bane Hex-Loom v3: 2.0
 Exalted DarkForge: 2.0
 Q-Pedd Docking Station: 2.0
 Astrometrics Orrery v2: 2.0
@@ -445,6 +452,7 @@ Tree of Harmony III: 2.0
 Bane Phage Sacrarium: 2.0
 Scruuge Gift-Sorter: 2.0
 Velamen Reactor: 2.0
+Hornulox Symbiont (Average 3): 2.0
 Goridian Cellar: 1.9736842105263157
 Propaganda Plex v3: 1.8333333333333333
 Scruuge Frost Tribunal: 1.763157894736842
@@ -473,6 +481,7 @@ Bane Generator II: 1.5
 Bane Generator III: 1.5
 Bane Generator IV: 1.5
 Bane Generator V: 1.5
+Spire of Dark Dominion: 1.5
 Omnistream Gateway: 1.5
 Elios Micro-Star Cradle: 1.5
 T.O. Fortisphere: 1.5
@@ -585,6 +594,8 @@ Phylogenetic Core II: 1.0
 Elios Heliacal Plant: 1.0
 Elios Ignis Tower: 1.0
 Bane Generator: 1.0
+Bane Hex-Loom: 1.0
+Bane Hex-Loom v2: 1.0
 Astrometrics Orrery: 1.0
 Xiphos Heist Outpost (5,785): 1.0
 Xiphos Heist Outpost (7,022): 1.0
@@ -666,6 +677,7 @@ Well of Yonayan: 1.0
 House of Law: 1.0
 Vaash Drone Tower: 1.0
 Vaash Drone Tower (Upgraded): 1.0
+Hornulox Symbiont (Average 1): 1.0
 Proto-Matter Synthesizer: 0.8421052631578947
 Bane Nether-Seal (2): 0.75
 Hyperforge Fabricator: 0.6666666666666666

@@ -71,6 +71,9 @@ Genoform Reservoir II
 Phylogenetic Core
 Phylogenetic Core II
 Chuhn Trading MegaHub
+Cauldron of Banefire
+Cursed Bazaar
+Spire of Dark Dominion
 HyperNexus Power Shunt
 Scruuge Plunderhaven
 Scruuge Toll-Station
@@ -153,9 +156,9 @@ Q-Pedd Affinity Tunnel v4
 Q-Pedd Ballroom
 Supel Incubator
 Synesthetic Fuse
-Synesthetic Fuse v2
-Synesthetic Fuse v3
-Synesthetic Fuse v4
+Synesthetic Fuse II
+Synesthetic Fuse III
+Synesthetic Fuse IV
 Font of Vitalis
 Covert Legation II
 Antigrav Citadel
@@ -197,3 +200,7 @@ Chuhn Zenith Exchange
 Chuhn Zenith Exchange v2
 Chuhn ExoGalactic Relay
 Spire of Mercantile Dominion
+Hornulox Symbiont (Average 1)
+Hornulox Symbiont (Average 2)
+Hornulox Symbiont (Average 3)
+Hornulox Symbiont (Average 4)

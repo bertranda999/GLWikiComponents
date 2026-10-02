@@ -4734,18 +4734,6 @@
         "img": "lparasite.jpg"
     },
     {
-        "name": "A Golden Emergence",
-        "desc": "Disable an 'Auric Lepus Drone 11.0' released from a Chromatic Lepus Egg.",
-        "medalPoints": "10",
-        "triggers": [
-            {
-                "type": "Disable NPC",
-                "npc": "Auric Lepus Drone 11.0"
-            }
-        ],
-        "img": "lepusd2.jpg"
-    },
-    {
         "name": "Auric Trust",
         "desc": "Open 4 or more Chromatic Lepus Egg 11.0",
         "medalPoints": "10",
@@ -9480,10 +9468,191 @@
         "medalPoints": "16",
         "img": "chuhnscrap6.jpg",
         "artifact": "Chuhn Reclamation Drone",
-        "count": "2",
+        "rewardCount": "2",
         "triggers": [
             {
                 "type": "Scrap"
+            }
+        ]
+    },
+    {
+        "name": "Spoils of Fear",
+        "desc": "Receive 6 different artifacts as rewards from shared Bane enemies",
+        "medalPoints": "13",
+        "img": "nnbane5.jpg",
+        "artifact": "Skeleton Bane-Key",
+        "rewardCount": "2",
+        "triggers": [
+            {
+                "type": "Disable NPC"
+            }
+        ]
+    },
+    {
+        "name": "Agonizing Nightmares",
+        "desc": "Complete the 'Cursed Crew' mini-game 6 or more times on 'Nightmare' difficulty.",
+        "medalPoints": "13",
+        "img": "nnbane7.jpg",
+        "flair": "Blood",
+        "triggers": [
+            {
+                "type": "Mini-Game",
+                "minigame": "Cursed Crew"
+            }
+        ]
+    },
+    {
+        "name": "Fusion of Risks",
+        "desc": "Complete 6 additional Daily Challenges, while 2 or more large Seasonal Events are affecting the Galaxy at the same time",
+        "medalPoints": "12",
+        "img": "nfusion4.jpg",
+        "artifact": "Synesthetic Fuse",
+        "triggers": [
+            {
+                "type": "Complete Daily Challenge"
+            }
+        ]
+    },
+    {
+        "name": "The Synesthetic Assimilation",
+        "desc": "Complete the following actions while 2 or more large Seasonal Events are affecting the Galaxy at the same time<br>Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC, Daily Challenge, Vote, Council, Ascendancy Contribution, Hard Minigame",
+        "medalPoints": "12",
+        "img": "nfusion2.jpg",
+        "artifact": "Xenoform Drone",
+        "triggers": [
+            {
+                "type": "Raid Base"
+            },
+            {
+                "type": "Complete Daily Mission"
+            },
+            {
+                "type": "Scan Planet",
+                "rarity": "Rare"
+            },
+            {
+                "type": "Complete Legion Mission Task"
+            },
+            {
+                "type": "Invade Planet"
+            },
+            {
+                "type": "Colonize Planet"
+            },
+            {
+                "type": "Disable NPC",
+                "rarity": "Extremely Rare"
+            },
+            {
+                "type": "Complete Daily Challenge"
+            },
+            {
+                "type": "Vote"
+            },
+            {
+                "type": "Convene Council"
+            },
+            {
+                "type": "Contribute to Ascendancy"
+            },
+            {
+                "type": "Minigame"
+            }
+        ]
+    },
+    {
+        "name": "Infernal Accession",
+        "desc": "Contribute at least 3100 Influence within the 'Dark Psionic Anomaly' Zone",
+        "medalPoints": "11",
+        "img": "nnbane4.jpg",
+        "artifact": "Dark Temple of Woe",
+        "rewardCount": "2",
+        "triggers": [
+            {
+                "type": "Influence Zone",
+                "zone": "Dark Psionic Anomaly"
+            }
+        ]
+    },
+    {
+        "name": "Darkest Takeover",
+        "desc": "During the Hallows Bane event, invade 5 different types of planets that have at least 2800 passive cloak, and have been scanned by no greater than 1 other ship.",
+        "medalPoints": "16",
+        "img": "nnbane1.jpg",
+        "artifact": "Skeleton Bane-Key",
+        "rewardCount": "3",
+        "triggers": [
+            {
+                "type": "Invade Planet"
+            }
+        ]
+    },
+    {
+        "name": "Challenging Horizons",
+        "desc": "Complete 18 different types of Mini-Games or Mini-Challenges, from any source",
+        "medalPoints": "20",
+        "img": "nchallenge3.jpg",
+        "artifact": "Court of Eternity",
+        "rewardCount": "3",
+        "triggers": [
+            {
+                "type": "Mini-Challenge"
+            },
+            {
+                "type": "Mini-Game"
+            }
+        ]
+    },
+    {
+        "name": "Cursed Dealings",
+        "desc": "Build a Cursed Bazaar on 3 different planet types",
+        "medalPoints": "13",
+        "img": "nnbane8.jpg",
+        "artifact": "Synesthetic Fuse",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Cursed Bazaar"
+                ],
+                "count": "3"
+            }
+        ]
+    },
+    {
+        "name": "Forged in Darkness",
+        "desc": "Upgrade the following Bane structures, each to Version 4, on your planets.<br>Bane Dark-Kiln, Dark Temple of Woe, Bane Phage Sacrarium",
+        "medalPoints": "13",
+        "img": "nnbane8.jpg",
+        "artifact": "Spire of Dark Dominion",
+        "triggers": [
+            {
+                "type": "Use Structure Ability",
+                "structure": "Bane Dark-Kiln v3"
+            },
+            {
+                "type": "Use Structure Ability",
+                "structure": "Dark Temple of Woe v3"
+            },
+            {
+                "type": "Use Structure Ability",
+                "structure": "Bane Phage Sacrarium v3"
+            }
+        ]
+    },
+    {
+        "name": "Harvested Souls",
+        "desc": "Complete 4 Daily Challenges while under the effects of a 'Cursed Soulglass'",
+        "medalPoints": "12",
+        "img": "nnbane9.jpg",
+        "artifact": "Bane Hex-Loom",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Cursed Soulglass"
+            },
+            {
+                "type": "Complete Daily Challenge"
             }
         ]
     }

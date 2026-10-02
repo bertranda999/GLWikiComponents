@@ -1,52 +1,32 @@
 import json
 
 skip = [
-    "T.O. Colony Ark",
-    "Sentarch Seeker-Drones",
-    "Xenotypic Mutants",
-    "Verdant Estate",
-    "Bio-Luminous Orb",
-    "Quadrigulum Sparkmatter",
-    "Sentiox Trilink Node",
-    "Strazi Link Anchor",
-    "Galaxy Elitists",
-    "Bane Krow Probe",
-    "Strazi Link Anchor",
-    "Throne of the Revered",
-    "Spectral Conclave",
-    "Council Chamber",
-    "SubVoid Darkdrone",
-    "Cognizant Omniforge",
-    "Uldri Crystal Field",
-    "Uldri Power Node",
-    "Seismic Shattermine (Quadrupled)",
-    "Litheor Deep-Phase Sanctuary",
-    "Lepus Drone",
-    "Cryo-Foundry Battery (Doubled)",
-    "Raix Refinery",
-    "NSX Tracking Matrix",
-    "Bainar A-Node - Prime",
-    "Chuhn Zenith Exchange v2",
-    "Lepus C-34 Fluxgate",
-    "ArcRift Tower",
-    "Stryll Bioresearch Bay",
-    "Jeweled Labyrinth",
-    "Custodian's Villa",
-    "Bainar A-Node - Advanced",
-    "Thavix Reactor",
-    "Exo-Rift Membrane Blueprint",
-    "Lepus Clone-Program Tank",
-    "Alarri Comm Tower",
-    "Terran-Stryll Interrogation Cell",
-    "Raix Bunker",
-    "Tejiar Ally HQ",
-    "Sub-Tachyonic Axis",
-    "Oruas Eye Chamber",
+    "Galakis Monument",
+    "Visage of the Dark One",
+    "Dark Phage Entity",
+    "Crystalline Portal",
+    "Affection Disseminator Ultracore",
+    "Affection Disseminator",
+    "Chuhn Trading Hub (Upgraded)",
     "Chuhn Trading Hub",
-    "Chuhn Trading Forum",
-    "Hyperluminal Sat-Grid",
-    "Thavix Geneworks",
-    "Litheor Core-Tunnel Shrine",
+    "Chuhn Trading Post (Doubled)",
+    "Orion Menagerie",
+    "Crownspire, Spectral Palace",
+    "Lepus C-34 Fluxgate",
+    "Lepus C-34 Gateway",
+    "Lepus C-34 Hypergate",
+    "Lepus Bio-Mech Hypergate",
+    "Lepus Bio-Mech Gateway",
+    "Lepus Chromatic Gateway",
+    "Stryll Bioresearch Bay",
+    "Scruuge Growth Vats",
+    "Argent Consulate",
+    "Argent Sector-Embassy",
+    "Lepus Gateway",
+    "Supel Microhaven (VT)",
+    "Supel Microhaven (T)",
+    "Supel Microhaven (VS)",
+    "Human Tactical Barracks",
 ]
 
 artifacts = []
@@ -64,7 +44,7 @@ with open("config/structures.json", "r") as file:
         if 'base' in structure and structure['base'] in skip:
             continue
 
-        if 'ap' in structure or 'bap' in structure:
+        if 'p' in structure or 'bp' in structure:
             #print(f"{structure['name']} {structure['size']}")
             volcInfStructs.append(structure)
 
@@ -88,21 +68,19 @@ while size0.__len__() > 0:
     for struct in size0:
         
         prod = 0
-        if 'ap' in struct:
-            prod += struct['ap']
-        if 'bap' in struct:
-            prod += currentRaw * float(struct['bap'] / 100.0)
+        if 'p' in struct:
+            prod += struct['p']
+        if 'bp' in struct:
+            prod += currentRaw * float(struct['bp'] / 100.0)
 
         if prod > max:
             max = prod
             maxStruct = struct
     
     orderedStructs.append(maxStruct)
-    currentRaw += maxStruct['ap'] if 'ap' in maxStruct else 0
-    currentBonus *= (1.0 + (maxStruct['bap'] / 100.0)) if 'bap' in maxStruct else 1.0
+    currentRaw += maxStruct['p'] if 'p' in maxStruct else 0
+    currentBonus *= (1.0 + (maxStruct['bp'] / 100.0)) if 'bp' in maxStruct else 1.0
     
-    infRaw += maxStruct['ip'] if 'ip' in maxStruct else 0
-    infBonus *= (1 + (maxStruct['bip'] / 100.0)) if 'bip' in maxStruct else 1.0
     print(f"{maxStruct['name']} {max}")
     
     base = maxStruct['base'] if 'base' in maxStruct else maxStruct['name']
@@ -123,7 +101,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-space = 117
+space = 57
 while totalSpace < space:
     max = 0
     maxStruct = volcInfStructs[0]
@@ -131,10 +109,10 @@ while totalSpace < space:
         if struct['size'] + totalSpace > space:
             continue
         prod = 0
-        if 'ap' in struct:
-            prod += struct['ap']
-        if 'bap' in struct:
-            prod += currentRaw * float(struct['bap'] / 100.0)
+        if 'p' in struct:
+            prod += struct['p']
+        if 'bp' in struct:
+            prod += currentRaw * float(struct['bp'] / 100.0)
 
         prodPerSize = prod / struct['size']
         if prodPerSize > max:
@@ -142,10 +120,9 @@ while totalSpace < space:
             maxStruct = struct
     
     orderedStructs.append(maxStruct)
-    currentRaw += maxStruct['ap'] if 'ap' in maxStruct else 0
-    currentBonus *= (1.0 + (maxStruct['bap'] / 100.0)) if 'bap' in maxStruct else 1.0
-    infRaw += maxStruct['ip'] if 'ip' in maxStruct else 0
-    infBonus *= (1.0 + (maxStruct['bip'] / 100.0)) if 'bip' in maxStruct else 1.0
+    currentRaw += maxStruct['p'] if 'p' in maxStruct else 0
+    currentBonus *= (1.0 + (maxStruct['bp'] / 100.0)) if 'bp' in maxStruct else 1.0
+    
     print(f"{maxStruct['name']} {max}")
     
     base = maxStruct['base'] if 'base' in maxStruct else maxStruct['name']
@@ -175,7 +152,7 @@ print(infRaw)
 print(infBonus)
 print(infRaw * infBonus)
 # development, availability, rings, aca, patronage, trade outpost, arbilon, t5, starflare, trading fortum, writ, 
-totalUbuffed = currentRaw * currentBonus * 2 * 14 * 1.26 * 1.26 * 1.06 * 1.04 * 1.07 * 1.01 * 1.02 * 1.05 * 1.03
+totalUbuffed = currentRaw * currentBonus * 2 * 13.75 * 1.3 * 1.3 * 1.06 * 1.04 * 1.07 * 1.01 * 1.02 * 1.05 * 1.03
 print(totalUbuffed)
 print(infRaw * infBonus * 2 * 1.5 * 1.26 * 1.06 * 1.04 * 1.07 * 1.01 * 1.02 * 1.05 * 1.03 * 1.1)
 
@@ -183,8 +160,8 @@ print(infRaw * infBonus * 2 * 1.5 * 1.26 * 1.06 * 1.04 * 1.07 * 1.01 * 1.02 * 1.
 wBasicBuffs = totalUbuffed * 1.3 * 1.2 * 1.05 * 1.04 * 1.08 * 1.06 * 1.2 * 1.2 * 1.25 * 1.02 * 1.01 * 1.04 * 1.3
 print(f"Basic temp buffs: {wBasicBuffs}")
 
-#                           suite, lepus, farselle, moons, scruuge, scrapyard, q-pedd docking, excavator, neuralese, shimmering, sentiox, chuhn prestige, tricennium, talth, well, alarri
-specialBuffs = wBasicBuffs * 1.06 * 1.4 * 1.1 *     1.18 * 1.2 *     1.02 *       1.05 *         1.1 *     1.05 *      1.05 *     1.11 *      1.04 *        1.09 *    1.03 * 1.01 * 1.1
+# suite, lepus, farselle, moons, scruuge, scrapyard, q-pedd docking, excavator, neuralese, shimmering, sentiox, chuhn prestige, tricennium, talth, well
+specialBuffs = wBasicBuffs * 1.06 * 1.4 * 1.1 * 1.18 * 1.2 * 1.02 * 1.05 * 1.1 * 1.05 * 1.05 * 1.11 * 1.04 * 1.09 * 1.03 * 1.01
 print(f"Special buffs: {specialBuffs}")
 #for struct in orderedStructs:
  #   print(f"{struct['name']}")

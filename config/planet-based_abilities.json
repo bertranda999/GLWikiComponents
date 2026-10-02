@@ -222,7 +222,8 @@
         ],
         "cost": {
             "Energy": "4200"
-        }
+        },
+        "message": "A surge of heat flows through your ship."
     },
     {
         "desc": "Seek an audience with the traveler and gain a new one-time mission. Costs 2000 Influence",

@@ -296,6 +296,15 @@
         "d": 1200
     },
     {
+        "name": "Obviation Barrier 100%",
+        "base": "Obviation Barrier",
+        "size": 2,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "d": 2400
+    },
+    {
         "name": "Orbital Minefield",
         "size": 2,
         "limit": 0,
@@ -553,7 +562,7 @@
         "bip": 2
     },
     {
-        "name": "Exo-Rift Membrane Blueprint",
+        "name": "Exo-Rift Membrane",
         "size": 2,
         "limit": 2,
         "limited": false,
@@ -1207,7 +1216,22 @@
         "ap": 1,
         "rp": 2,
         "rps": 2200,
-        "ip": 1
+        "ip": 1,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgraes Gene-Bank and Ability to V2.<br>Adds +1 Artifact +150 Influence Storage and +1000 Research Storage<br>Costs 10 Evolution Genes and 2200 Influence",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Ancestral Gene-Bank v2"
+                }
+            ],
+            "cost": {
+                "genes": "10",
+                "influence": "2,200"
+            }
+        }
     },
     {
         "name": "Ancestral Gene-Bank v2",
@@ -1220,7 +1244,22 @@
         "rp": 2,
         "rps": 3200,
         "ip": 1,
-        "ips": 150
+        "ips": 150,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Gene-Bank and Ability to V3.<br>Adds +1 Artifact/Influence +1000 Research Storage<br>Costs 11 Evolution Genes and 3200 Influence",
+            "message": "",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Ancestral Gene-Bank v3"
+                }
+            ],
+            "cost": {
+                "genes": "11",
+                "influence": "3,200"
+            }
+        }
     },
     {
         "name": "Ancestral Gene-Bank v3",
@@ -2814,6 +2853,18 @@
         "id": 6666
     },
     {
+        "name": "Bane Psybeacon - Mark VII",
+        "base": "Bane Psybeacon",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 6,
+        "rp": 5,
+        "id": 8888
+    },
+    {
         "name": "Bane Nether-Seal",
         "size": 10,
         "limit": 1,
@@ -3045,7 +3096,34 @@
         "extract": false,
         "mp": 4,
         "bmp": 5,
-        "ip": 1
+        "ip": 1,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Keep and Ability to V2.<br>Adds +1 Influence +2 Mining +1% Mining<br>Must be a Litheor with 4400+ influence contributed.<br>Costs 15 Green Badges",
+            "message": "You successfully perform the upgrades.",
+            "restrictions": [
+                {
+                    "type": "Race",
+                    "races": [
+                        "Litheor"
+                    ]
+                },
+                {
+                    "type": "Stat",
+                    "stat": "Influence Contributed",
+                    "min": "4,400"
+                }
+            ],
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Litheor Deep-Ember Keep v2"
+                }
+            ],
+            "cost": {
+                "green": "15"
+            }
+        }
     },
     {
         "name": "Litheor Deep-Ember Keep v2",
@@ -3056,7 +3134,34 @@
         "extract": false,
         "mp": 6,
         "bmp": 6,
-        "ip": 2
+        "ip": 2,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Keep and Ability to V3.<br>Adds +1 Influence +2 Mining +1% Mining<br>Must be a Litheor with 14400+ influence contributed.<br>Costs 18 Green Badges",
+            "message": "You successfully perform the upgrades.",
+            "restrictions": [
+                {
+                    "type": "Race",
+                    "races": [
+                        "Litheor"
+                    ]
+                },
+                {
+                    "type": "Stat",
+                    "stat": "Influence Contributed",
+                    "min": "14,400"
+                }
+            ],
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Litheor Deep-Ember Keep v3"
+                }
+            ],
+            "cost": {
+                "green": "18"
+            }
+        }
     },
     {
         "name": "Litheor Deep-Ember Keep v3",
@@ -3902,6 +4007,17 @@
         "at": 42000
     },
     {
+        "name": "Psyshade Arsenal VI",
+        "base": "Psyshade Arsenal",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 7,
+        "ap": 6,
+        "at": 66000
+    },
+    {
         "name": "Scruuge Keystone",
         "size": 1,
         "limit": 1,
@@ -4512,7 +4628,28 @@
         "extract": false,
         "ap": 7,
         "ip": 3,
-        "bp": 20
+        "bp": 20,
+        "ability": {
+            "name": "Plex-Upgrade",
+            "desc": "Upgrades the Plex to v2.<br>Adds +1 Influence / +2 Artifact and +10% Population.<br>Legion Must be a Suzerain withat least 1 Zone.<br>Costs 2200 Influence and 55 Yellow Badges",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Propaganda Plex v2"
+                }
+            ],
+            "cost": {
+                "influence": "2,200",
+                "yellow": "55"
+            },
+            "restrictions": [
+                {
+                    "type": "Suzerain",
+                    "min": "1"
+                }
+            ]
+        }
     },
     {
         "name": "Propaganda Plex v2",
@@ -4523,7 +4660,28 @@
         "extract": false,
         "ap": 9,
         "ip": 4,
-        "bp": 30
+        "bp": 30,
+        "ability": {
+            "name": "Plex-Upgrade",
+            "desc": "Upgrades the Plex to v3.<br>Adds +1 Influence / +2 Artifact and +10% Population.<br>Legion Must be a Suzerain with at least 2 Zones.<br>Costs 5500 Influence and 77 Yellow Badges",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Propaganda Plex v3"
+                }
+            ],
+            "cost": {
+                "influence": "5,500",
+                "yellow": "77"
+            },
+            "restrictions": [
+                {
+                    "type": "Suzerain",
+                    "min": "2"
+                }
+            ]
+        }
     },
     {
         "name": "Propaganda Plex v3",
@@ -6121,6 +6279,18 @@
         "c": 2200
     },
     {
+        "name": "Bane Generator XVI",
+        "base": "Bane Generator",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 21,
+        "ap": 8,
+        "at": 145000,
+        "c": 2700
+    },
+    {
         "name": "Bane Dark-Kiln",
         "size": 0,
         "limit": 1,
@@ -6130,7 +6300,9 @@
         "ap": 1,
         "c": 666,
         "ability": {
-            "name": "Upgrade",
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Kiln to V2<br>Adds +2 Artifact +14% Cloak<br>Planet must have at least 6 other distinct Bane Structures.<br>Costs 2 Aeon Badges",
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
@@ -6140,7 +6312,7 @@
             "cost": {
                 "aeon": "2"
             },
-            "restrictions": [
+            "restrictures": [
                 {
                     "type": "Existing Structures",
                     "tags": [
@@ -6163,7 +6335,9 @@
         "c": 666,
         "bc": 14,
         "ability": {
-            "name": "Upgrade",
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Kiln to V3<br>Adds +2 Mining +14% Cloak<br>Planet must have at least 8 other distinct Bane Structures.<br>Costs 2 Aeon Badges",
+            "message": "",
             "planetEffects": [
                 {
                     "type": "Upgrade",
@@ -6173,7 +6347,7 @@
             "cost": {
                 "aeon": "2"
             },
-            "restrictions": [
+            "restrictures": [
                 {
                     "type": "Existing Structures",
                     "tags": [
@@ -6228,6 +6402,98 @@
         "ap": 3,
         "c": 666,
         "bc": 42
+    },
+    {
+        "name": "Cauldron of Banefire",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "bap": 2,
+        "ip": 1,
+        "c": 666
+    },
+    {
+        "name": "Cursed Bazaar",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mps": 1666,
+        "ap": 2,
+        "bap": 1,
+        "aps": 1666,
+        "rp": 2,
+        "ip": 1,
+        "c": 222,
+        "ic": 1
+    },
+    {
+        "name": "Bane Hex-Loom",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "rp": 1,
+        "brp": 2,
+        "c": 333
+    },
+    {
+        "name": "Bane Hex-Loom v2",
+        "base": "Bane Hex-Loom",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "ap": 1,
+        "rp": 2,
+        "brp": 4,
+        "c": 333
+    },
+    {
+        "name": "Bane Hex-Loom v3",
+        "base": "Bane Hex-Loom",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ap": 2,
+        "rp": 3,
+        "brp": 6,
+        "c": 666
+    },
+    {
+        "name": "Bane Hex-Loom v4",
+        "base": "Bane Hex-Loom",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 5,
+        "ap": 3,
+        "rp": 4,
+        "brp": 8,
+        "c": 666,
+        "ic": 1
+    },
+    {
+        "name": "Spire of Dark Dominion",
+        "base": "Spire of Dominion",
+        "size": 2,
+        "limit": 1,
+        "limited": true,
+        "extract": false,
+        "mp": 4,
+        "ap": 3,
+        "ip": 4,
+        "ips": 666,
+        "c": 1666
     },
     {
         "name": "HyperNexus Power Shunt",
@@ -6918,6 +7184,7 @@
         "limited": false,
         "extract": false,
         "bmp": 2,
+        "ap": 3,
         "bap": 2,
         "brp": 2,
         "ip": 1,
@@ -9422,7 +9689,23 @@
         "extract": false,
         "mp": 2,
         "ap": 2,
-        "bat": 33
+        "bat": 33,
+        "ability": {
+            "name": "Shipyard Parts",
+            "desc": "Generates 5 CTP for each Chuhn Shipyard among all your planets<br>up to a maximum of 100 per use. Costs 2200 energy.",
+            "message": "You receive [x] Complex Tech Parts.",
+            "playerEffects": [
+                {
+                    "type": "Grant CTP",
+                    "scaleFactor": "Existing Structures",
+                    "structure": "Chuhn Shipyard"
+                }
+            ],
+            "cost": {
+                "energy": "2,200"
+            },
+            "charges": "10"
+        }
     },
     {
         "name": "Galakis Monument",
@@ -9508,7 +9791,28 @@
         "ap": 1,
         "bap": 2,
         "ip": 1,
-        "p": 4400
+        "p": 4400,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Ark to V2<br>Adds +1 Mining +1 Artifact<br>Planet must have at least 2 structures with % bonuses to population.<br>Costs 6 Evolution Genes",
+            "message": "",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "T.O. Colony Ark v2"
+                }
+            ],
+            "cost": {
+                "genes": "6"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "bp",
+                    "min": "2"
+                }
+            ]
+        }
     },
     {
         "name": "T.O. Colony Ark v2",
@@ -9871,7 +10175,21 @@
         "limited": false,
         "extract": false,
         "ap": 2,
-        "bd": 33
+        "bd": 33,
+        "ability": {
+            "name": "Scruuge Snare",
+            "desc": "Uses ALL of your stored Neutronium (1000+ required) to attract a unique Scruuge gift.<br>Higher amounts spent will unlock additional gift options (up to 4500)",
+            "message": "([x] spent) You attract: 1 [artifact] (Artifact)",
+            "playerEffectsRandom": [
+                {
+                    "type": "Grants",
+                    "artifact": ""
+                }
+            ],
+            "cost": {
+                "neutronium": "1000+"
+            }
+        }
     },
     {
         "name": "Sentarch Seeker-Drones",
@@ -10298,10 +10616,11 @@
         "ability": {
             "name": "V2 Upgrade",
             "desc": "Upgrades Fuse to V2<br>Adds +1% Production<br>Planet must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 4400 CTP",
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
-                    "new": "Synesthetic Fuse v2"
+                    "new": "Synesthetic Fuse II"
                 }
             ],
             "cost": {
@@ -10319,7 +10638,7 @@
         }
     },
     {
-        "name": "Synesthetic Fuse v2",
+        "name": "Synesthetic Fuse II",
         "base": "Synesthetic Fuse",
         "size": 0,
         "limit": 1,
@@ -10328,10 +10647,33 @@
         "bmp": 3,
         "bap": 3,
         "brp": 3,
-        "bip": 3
+        "bip": 3,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Fuse to V3<br>Adds +1% Production<br>Planet must have at least 6 other distinct Size-1 Structures.<br>Costs 44k Energy + 8800 CTP",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Synesthetic Fuse III"
+                }
+            ],
+            "cost": {
+                "energy": "44,000",
+                "ctp": "8,800"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "Size",
+                    "statMax": "0",
+                    "min": "6"
+                }
+            ]
+        }
     },
     {
-        "name": "Synesthetic Fuse v3",
+        "name": "Synesthetic Fuse III",
         "base": "Synesthetic Fuse",
         "size": 0,
         "limit": 1,
@@ -10340,10 +10682,33 @@
         "bmp": 4,
         "bap": 4,
         "brp": 4,
-        "bip": 4
+        "bip": 4,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Fuse to V4<br>Adds +1% Production<br>Planet must have at least 8 other distinct Size-0 Structures.<br>Costs 88k Energy + 16000 CTP",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Synesthetic Fuse IV"
+                }
+            ],
+            "cost": {
+                "energy": "88,000",
+                "ctp": "16,000"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "Size",
+                    "statMax": "0",
+                    "min": "8"
+                }
+            ]
+        }
     },
     {
-        "name": "Synesthetic Fuse v4",
+        "name": "Synesthetic Fuse IV",
         "base": "Synesthetic Fuse",
         "size": 0,
         "limit": 1,
@@ -10679,26 +11044,26 @@
         "ip": 2,
         "bip": 3,
         "ability": {
-            "message": "You successfully perform the upgrades.",
             "name": "V4 Upgrade",
-            "desc": "Upgrades Platform to V4<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 10 distinct Structures that provide 2+ Influence.<br>Costs 16000 Influence",
+            "desc": "Upgrades Platform to V4<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 10 distinct Structures that provide 2+ Influence.<br>Costs 160000 Influence",
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
                     "new": "Civicordium Platform v4"
                 }
             ],
+            "cost": {
+                "influence": "16,000"
+            },
             "restrictions": [
                 {
                     "type": "Existing Structures",
-                    "stat": "iph",
+                    "stat": "ip",
                     "statMin": "2",
                     "min": "10"
                 }
-            ],
-            "cost": {
-                "influence": "16,000"
-            }
+            ]
         }
     },
     {
@@ -11700,7 +12065,36 @@
         "ap": 1,
         "aps": 555,
         "rps": 555,
-        "ips": 55
+        "ips": 55,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Cellar to v2<br>Adds +2 Mining +444 Mining/Artifact/Research storage +44 Influence storage<br>Planet must have at least 4 other distinct Chuhn structures.<br>Costs 2 Goridian Ale and 600 CTP",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Goridian Cellar v2"
+                }
+            ],
+            "cost": {
+                "ctp": "600",
+                "artifacts": [
+                    {
+                        "name": "Goridian Ale",
+                        "count": "2"
+                    }
+                ]
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Chuhn"
+                    ],
+                    "min": "4"
+                }
+            ]
+        }
     },
     {
         "name": "Goridian Cellar v2",
@@ -11714,7 +12108,36 @@
         "ap": 1,
         "aps": 999,
         "rps": 999,
-        "ips": 99
+        "ips": 99,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Cellar to V3<br>Adds +1 Mining +1 Artifact + 445 Mining/Artifact/Research storage +45 Influence storage<br>Planet must have at least 6 other distinct Chuhn structures.<br>Costs 4 Goridian Ale and 1100 CTP",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Goridian Cellar v3"
+                }
+            ],
+            "cost": {
+                "ctp": "1,100",
+                "artifacts": [
+                    {
+                        "name": "Goridian Ale",
+                        "count": "4"
+                    }
+                ]
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Chuhn"
+                    ],
+                    "min": "6"
+                }
+            ]
+        }
     },
     {
         "name": "Goridian Cellar v3",
@@ -11728,7 +12151,36 @@
         "ap": 2,
         "aps": 1444,
         "rps": 1444,
-        "ips": 140
+        "ips": 140,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Cellar to v4<br>Adds +1 Mining +1 Artifact +444 Mining/Artifact/Research storage +44 Influence Storage<br>Planet must have at least 8 other distinct Chuhn structures.<br>Costs 6 Goridian Ale and 2200 CTP",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Goridian Cellar v4"
+                }
+            ],
+            "cost": {
+                "ctp": "2,200",
+                "artifacts": [
+                    {
+                        "name": "Goridian Ale",
+                        "count": "6"
+                    }
+                ]
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Chuhn"
+                    ],
+                    "min": "8"
+                }
+            ]
+        }
     },
     {
         "name": "Goridian Cellar v4",
@@ -11752,7 +12204,31 @@
         "extract": false,
         "ap": 2,
         "rp": 2,
-        "bc": 11
+        "bc": 11,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Reactor to v2<br>Adds +1 Research +1 Artifact +7% Cloak<br>Planet must have at least 4 other distinct Chuhn structures.<br>Costs 900 CTP and 11 Evolution Genes",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Velamen Reactor v2"
+                }
+            ],
+            "cost": {
+                "ctp": "900",
+                "genes": "11"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Chuhn"
+                    ],
+                    "min": "4"
+                }
+            ]
+        }
     },
     {
         "name": "Velamen Reactor v2",
@@ -11763,7 +12239,31 @@
         "extract": false,
         "ap": 3,
         "rp": 3,
-        "bc": 18
+        "bc": 18,
+        "ability": {
+            "name": "V3 Upgrade",
+            "desc": "Upgrades Reactor to v3<br>Adds +2 Research +8% Cloak Planet must have at least 6 other distinct Chuhn structures.<br>Costs 1800 CTP and 16 Evolution Genes",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Velamen Reactor v2"
+                }
+            ],
+            "cost": {
+                "ctp": "1,800",
+                "genes": "16"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Chuhn"
+                    ],
+                    "min": "6"
+                }
+            ]
+        }
     },
     {
         "name": "Velamen Reactor v3",
@@ -11774,7 +12274,31 @@
         "extract": false,
         "ap": 3,
         "rp": 5,
-        "bc": 26
+        "bc": 26,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Reactor to v4<br>Adds +1 Research +1 Artifact +9% Cloak<br>Planet must have at least 8 other distinct Chuhn structures.<br>Costs 3500 CTP and 22 Evolution Genes",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Velamen Reactor v3"
+                }
+            ],
+            "cost": {
+                "ctp": "3,500",
+                "genes": "22"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Chuhn"
+                    ],
+                    "min": "8"
+                }
+            ]
+        }
     },
     {
         "name": "Velamen Reactor v3",
@@ -11785,7 +12309,31 @@
         "extract": false,
         "ap": 4,
         "rp": 6,
-        "bc": 35
+        "bc": 35,
+        "ability": {
+            "name": "V4 Upgrade",
+            "desc": "Upgrades Reactor to v4<br>Adds +1 Research +1 Artifact +9% Cloak<br>Planet must have at least 8 other distinct Chuhn structures.<br>Costs 3500 CTP and 22 Evolution Genes",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "Velamen Reactor v3"
+                }
+            ],
+            "cost": {
+                "ctp": "3,500",
+                "genes": "22"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "tags": [
+                        "Chuhn"
+                    ],
+                    "min": "8"
+                }
+            ]
+        }
     },
     {
         "name": "Vaash Sentry Drone",
@@ -11823,6 +12371,7 @@
     },
     {
         "name": "Spire of Mercantile Dominion",
+        "base": "Spire of Dominion",
         "size": 2,
         "limit": 1,
         "limited": true,
@@ -11831,5 +12380,57 @@
         "bap": 3,
         "ip": 4,
         "ips": 444
+    },
+    {
+        "name": "Hornulox Symbiont (Average 1)",
+        "base": "Hornulox Symbiont",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 1,
+        "rp": 1,
+        "ip": 1
+    },
+    {
+        "name": "Hornulox Symbiont (Average 2)",
+        "base": "Hornulox Symbiont",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "ip": 1
+    },
+    {
+        "name": "Hornulox Symbiont (Average 3)",
+        "base": "Hornulox Symbiont",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "ip": 1
+    },
+    {
+        "name": "Hornulox Symbiont (Average 4)",
+        "base": "Hornulox Symbiont",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 4,
+        "ip": 1
+    },
+    {
+        "name": "Hornulox Symbiont (Large 1)",
+        "base": "Hornulox Symbiont",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "rp": 1
     }
 ]

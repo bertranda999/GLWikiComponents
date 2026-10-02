@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Mission Purgers (Chuhn 2026)",
+        "hidden": "Yes",
+        "restrictions": [
+            {
+                "type": "Race",
+                "races": [
+                    "Bahreen",
+                    "Litheor",
+                    "Biologist"
+                ]
+            }
+        ],
+        "playerEffects": [
+            {
+                "type": "Grants",
+                "artifact": "Star Chart Purger"
+            }
+        ],
+        "triggers": [
+            {
+                "type": "Complete Daily Mission"
+            }
+        ]
+    },
+    {
+        "name": "Soulglass",
+        "triggers": [
+            {
+                "type": "Complete Daily Challenge"
+            }
+        ],
+        "playerEffects": [
+            {
+                "type": "Grant Aeon Badges",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "name": "Profane Puzzlebox",
+        "triggers": [
+            {
+                "type": "Invade Planet"
+            }
+        ],
+        "playerEffects": [
+            {
+                "type": "Grant Green Badges",
+                "value": "1"
+            }
+        ]
+    }
+]

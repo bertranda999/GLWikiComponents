@@ -125,6 +125,11 @@ Domain:General
 		Shared Adventures
 		A Worthy Participant
 		The MVP
+
+	Section:Mini-Challenge / Mini-Game
+		Challenge Accepted
+		Challenge Fulfilled
+		Challenging Horizons
 		
 	Section:New Planet Types
 		Shattered Horizons
@@ -259,8 +264,6 @@ Domain:General
 		King of the Hill 2.0
 		Ascendant Awakening
 		The Lone Conqueror
-		Challenge Accepted
-		Challenge Fulfilled
 		Sturdy Thirty
 		
 	Section:Developer-Bestowed
@@ -648,10 +651,16 @@ Domain:Chuhn
 		An Inside Job
 		Tetradic Potential
 		
+Domain:Cursed Bargains
+
+	Section:Other
+		Cursed Dealings
+
 Domain:Bane
 
-	Section:Disable Standard Bane
+	Section:Disable Bane
 		Trick or Treat
+		Spoils of Fear
 		
 	Section:Hypershroud / Turret
 		Higher Terror
@@ -663,6 +672,7 @@ Domain:Bane
 		
 	Section:Influence Zone
 		Infernal Claim
+		Infernal Accession
 		
 	Section:Invade
 		Dark Takeover
@@ -682,6 +692,7 @@ Domain:Bane
 		Nocturne Depths
 		Infinite Nightmares
 		Terrors of Oblivion
+		Darkest Takeover
 		
 	Section:Scrap
 		Pyres of Evil
@@ -705,6 +716,9 @@ Domain:Bane
 		Unfathomable Destruction
 		Infernal Containment
 		The Final Seal
+		Agonizing Nightmares
+		Forged in Darkness
+		Harvested Souls
 
 Domain:Harvest
 
@@ -867,10 +881,12 @@ Domain:Synesthetic
 		The Synesthetic Melding
 		The Synesthetic Convergence
 		The Synesthetic Fusion
+		The Synesthetic Assimilation
 
 	Section:Other
 		Fusion of Identities
 		Fusion of Origins
+		Fusion of Risks
 
 Domain:Divergent Escapes
 

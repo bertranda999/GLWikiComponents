@@ -239,7 +239,7 @@
             {
                 "name": "Cask Merchant",
                 "desc": "A Konqul merchant trading in Goridian ferments, offering access to well-stocked private cellars.",
-                "img": "vkonqul1.png",
+                "img": "aliens/vkonqul1.png",
                 "race": "Konqul",
                 "reward": "Goridian Cellar",
                 "rarity": "Uncommon",
@@ -250,7 +250,7 @@
             {
                 "name": "Reactor Broker",
                 "desc": "An Inergon broker specializing in extragalactic power sources.",
-                "img": "inergon3.png",
+                "img": "aliens/inergon3.png",
                 "race": "Inergon",
                 "reward": "Velamen Reactor",
                 "rarity": "Uncommon",

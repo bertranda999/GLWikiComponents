@@ -174,6 +174,7 @@ structures: list[Structure] = [
     Structure("Mass Shield", 2, 0, False, False, d=450, acq=RESEARCHED),
     Structure("Structural Shield", 2, 0, False, False, d=750, acq=RESEARCHED),
     Structure("Obviation Barrier", 2, 0, False, False, d=1200, acq=RESEARCHED),
+    Structure("Obviation Barrier", 2, 0, False, False, "100%", d=2400, acq=RESEARCHED),
     Structure("Orbital Minefield", 2, 0, False, False, at=25, acq=DEFAULT),
     Structure("Ion Minefield", 2, 0, False, False, at=50, acq=RESEARCHED),
     Structure("Plasma Minefield", 2, 0, False, False, at=75, acq=RESEARCHED),
@@ -205,7 +206,7 @@ structures: list[Structure] = [
     Structure("Anti-Resistance Base", 3, 0, False, False, d=200, c=100, acq=mission("Attack on the Resistance"), alternatePageName="Anti-Resistance Base Blueprints"),
     Structure("Exo-Pulse Disruptor", 1, 2, False, False, mp=2, atp=22, c=1222, acq=mission("Exotic Disruptions"), alternatePageName="Exo-Pulse Disruptor Blueprint"),
     Structure("Exo-Wave Generator", 2, 2, False, False, mpp=2, ap=2, app=2, rp=4, rpp=2, ipp=2, acq=mission("Exotic Realities"), alternatePageName="Exo-Wave Generator Blueprint"),
-    Structure("Exo-Rift Membrane Blueprint", 2, 2, False, False, ap=4, dp=33, cp=12, acq=mission("Exotic Isolations"), alternatePageName="Exo-Rift Membrane Blueprint"),
+    Structure("Exo-Rift Membrane", 2, 2, False, False, ap=4, dp=33, cp=12, acq=mission("Exotic Isolations"), alternatePageName="Exo-Rift Membrane Blueprint"),
     Structure("Entropy Repulsor Pylon", 2, -1, False, False, mpp=4, ap=3, c=800, esp=250, acq=mission("Neutronic Principles"), alternatePageName="Entropy Repulsor Pylon Blueprint"),
     Structure("Council Base", 2, 1, False, False, p=100, id=500, acq="Mission Tiers"),
     Structure("Soldier Outpost", 2, 0, False, False, id=300, acq="Mission Tiers"),
@@ -410,6 +411,7 @@ structures: list[Structure] = [
     Structure("Bane Psybeacon", 1, 1, False, False, "- Mark IV", mp=3, ap=3, rp=3, id=3000, acq=mission("The Hallows Bane (Daily Mission)"), formDescription="Upgrade after 1 month of calm to mark IV (Costs 10 green badges and 1 charge or a [[Bane Ritual Mask]]):"),
     Structure("Bane Psybeacon", 1, 1, False, False, "- Mark V", mp=3, ap=4, rp=3, id=5000, acq=mission("The Hallows Bane (Daily Mission)"), formDescription="Upgrade with a [[Bane Ritual Mask]]):"),
     Structure("Bane Psybeacon", 1, 1, False, False, "- Mark VI", mp=4, ap=5, rp=4, id=6666),
+    Structure("Bane Psybeacon", 1, 1, False, False, "- Mark VII", mp=5, ap=6, rp=5, id=8888),
     Structure("Bane Nether-Seal", 10, 1, False, False, mp=6, ap=6, rp=6, c=666, acq=mission("The Bane Bargain")),
     Structure("Bane Nether-Seal", 8, 1, False, False, "(2)", mp=6, ap=6, rp=6, c=666, acq=mission("The Bane Bargain"), formDescription="Upgrade after 6 days of calm (costs ??? energy and 1 charge):"),
     Structure("Bane Nether-Seal", 6, 1, False, False, "(3)", mp=6, ap=6, rp=6, c=666, acq=mission("The Bane Bargain"), formDescription="Upgrade after 12 days of calm (costs ??? energy and 1 charge):"),
@@ -510,6 +512,7 @@ structures: list[Structure] = [
     Structure("Psyshade Arsenal", 1, 1, False, False, "III", mp=4, ap=3, at=12000, acq=scanning("Bane (seasonal event)"), formDescription="Upgrade using ability (costs 15 [[Green Badges]] and 1000 energy, or a [[Bane Ritual Mask]]):"),
     Structure("Psyshade Arsenal", 1, 1, False, False, "IV", mp=5, ap=4, at=24000, acq=scanning("Bane (seasonal event)"), formDescription="Upgrade with a [[Bane Ritual Mask]]:"),
     Structure("Psyshade Arsenal", 1, 1, False, False, "V", mp=6, ap=5, at=42000, acq=scanning("Bane (seasonal event)"), formDescription="Upgrade with a [[Bane Ritual Mask]]:"),
+    Structure("Psyshade Arsenal", 1, 1, False, False, "VI", mp=7, ap=6, at=66000),
     Structure("Scruuge Keystone", 1, 1, False, False, ap=1, rp=3, atp=10, acq=scanning("Scruuge (seasonal event)")),
     Structure("Scruuge Keystone", 1, 1, False, False, "II", ap=2, rp=4, atp=20, acq=scanning("Scruuge (seasonal event)"), formDescription="Upgrade with [[Scruuge Keystone II Upgrade]]:"),
     Structure("Scruuge Keystone", 1, 1, False, False, "III", mp=2, ap=2, rp=6, atp=30, acq=scanning("Scruuge (seasonal event)"), formDescription="Upgrade with [[Scruuge Keystone III Upgrade]]:"),
@@ -697,10 +700,18 @@ structures: list[Structure] = [
     Structure("Bane Generator", 2, 1, False, False, "XIII", mp=16, ap=7, at=88000, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE]),
     Structure("Bane Generator", 2, 1, False, False, "XIV", mp=18, ap=7, at=100000, c=1800, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE]),
     Structure("Bane Generator", 2, 1, False, False, "XV", mp=19, ap=8, at=120000, c=2200, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE]),
+    Structure("Bane Generator", 2, 1, False, False, "XVI", mp=21, ap=8, at=145000, c=2700),
     Structure("Bane Dark-Kiln", 0, 1, False, False, mp=3, ap=1, c=666),
     Structure("Bane Dark-Kiln", 0, 1, False, False, "v2", mp=3, ap=2, c=666, cp=14),
     Structure("Bane Dark-Kiln", 0, 1, False, False, "v3", mp=5, ap=2, c=666, cp=28),
     Structure("Bane Dark-Kiln", 0, 1, False, False, "v4", mp=6, ap=3, c=666, cp=42),
+    Structure("Cauldron of Banefire", 0, 1, False, False, mp=2, ap=1, app=2, ip=1, c=666),
+    Structure("Cursed Bazaar", 1, 1, False, False, mps=1666, ap=2, app=1, aps=1666, rp=2, ip=1, c=222, ic=1),
+    Structure("Bane Hex-Loom", 1, 1, False, False, mp=2, ap=1, rp=1, rpp=2, c=333),
+    Structure("Bane Hex-Loom", 1, 1, False, False, "v2", mp=3, ap=1, rp=2, rpp=4, c=333),
+    Structure("Bane Hex-Loom", 1, 1, False, False, "v3", mp=4, ap=2, rp=3, rpp=6, c=666),
+    Structure("Bane Hex-Loom", 1, 1, False, False, "v4", mp=5, ap=3, rp=4, rpp=8, c=666, ic=1),
+    Structure("Spire of Dark Dominion", 2, 1, True, False, mp=4, ap=3, ip=4, ips=666, c=1666),
     Structure("HyperNexus Power Shunt", 1, 1, False, False, mpp=6, app=6, rpp=6, ipp=6, dp=20, acq=market(GP_MARKET)),
     Structure("T.O. Harvest Vault", 2, 2, False, False, mp=3, mps=2000, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE]),
     Structure("T.O. Harvest Vault", 2, 2, False, False, "- Upgraded", mp=4, mps=2500, acq=market(GP_MARKET), nameNotes=[UNOBTAINABLE_NOTE], formDescription="Upgrade with [[Archotage Amplifier]]:"),
@@ -760,7 +771,7 @@ structures: list[Structure] = [
     Structure("Polychoron RelicVault", 1, 1, False, False, mps=1000, aps=2000, rps=1000, acq=evo(), alternatePageName="Polychoron Vault", formDescription="If artifact storage boosted with [[Polychoron Adapter]]:"),
     Structure("Polychoron DataVault", 1, 1, False, False, mps=1000, aps=1000, rps=2000, acq=evo(), alternatePageName="Polychoron Vault", formDescription="If research storage boosted with [[Polychoron Adapter]]:"),
     Structure("Polychoron OreVault", 1, 1, False, False, mps=2000, aps=1000, rps=1000, acq=evo(), alternatePageName="Polychoron Vault", formDescription="If research storage boosted with [[Polychoron Adapter]]:"),
-    Structure("Dais of Deceit", 1, 1, False, False, mpp=2, app=2, rpp=2, ip=1, ipp=2, c=900, acq=evo()),
+    Structure("Dais of Deceit", 1, 1, False, False, mpp=2, ap=3, app=2, rpp=2, ip=1, ipp=2, c=900, acq=evo()),
     Structure("Micro-Raix Cyclotron", 1, 1, False, False, mpp=2, app=2, rpp=2, rps=2000, ipp=2, ips=200, acq=evo()),
     Structure("Micro-Raix Cyclotron", 1, 1, False, False, "2", mpp=2, app=2, rpp=2, rps=2600, ipp=2, ips=260, acq=evo()),
     Structure("Micro-Raix Cyclotron", 1, 1, False, False, "3", mpp=3, app=3, rpp=3, rps=3200, ipp=3, ips=320, acq=evo()),
@@ -1039,9 +1050,9 @@ structures: list[Structure] = [
     Structure("Veon Singularium", 0, 1, False, False, "v3", mp=3, ap=2, rp=3, c=404),
     Structure("Veon Singularium", 0, 1, False, False, "v4", mp=4, ap=3, rp=4, c=808),
     Structure("Synesthetic Fuse", 0, 1, True, False, mpp=2, app=2, rpp=2, ipp=2),
-    Structure("Synesthetic Fuse", 0, 1, True, False, "v2", mpp=3, app=3, rpp=3, ipp=3),
-    Structure("Synesthetic Fuse", 0, 1, True, False, "v3", mpp=4, app=4, rpp=4, ipp=4),
-    Structure("Synesthetic Fuse", 0, 1, True, False, "v4", mpp=5, app=5, rpp=5, ipp=5),
+    Structure("Synesthetic Fuse", 0, 1, True, False, "II", mpp=3, app=3, rpp=3, ipp=3),
+    Structure("Synesthetic Fuse", 0, 1, True, False, "III", mpp=4, app=4, rpp=4, ipp=4),
+    Structure("Synesthetic Fuse", 0, 1, True, False, "IV", mpp=5, app=5, rpp=5, ipp=5),
     Structure("Font of Vitalis", 3, 1, True, False, ap=8, ip=4, ipp=6),
     Structure("Thavix Geneworks", 1, 1, True, False, ap=2, rp=7, rps=5200),
     Structure("Thavix Geneworks", 1, 1, True, False, "v2", ap=2, rp=7, rpp=2, rps=5200),
@@ -1137,6 +1148,12 @@ structures: list[Structure] = [
     Structure("Vaash Drone Tower", 1, 1, False, False, ap=1, rp=3, c=555, at=5555),
     Structure("Vaash Drone Tower", 1, 1, False, False, "(Upgraded)", ap=1, rp=3, c=1110, at=11110),
     Structure("Spire of Mercantile Dominion", 2, 1, True, False, ap=5, app=3, ip=4, ips=444),
+    Structure("Hornulox Symbiont", 1, 1, False, False, "(Average 1)", mp=1, ap=1, rp=1, ip=1),
+    Structure("Hornulox Symbiont", 1, 1, False, False, "(Average 2)", mp=4, ip=1),
+    Structure("Hornulox Symbiont", 1, 1, False, False, "(Average 3)", ap=2, ip=1),
+    Structure("Hornulox Symbiont", 1, 1, False, False, "(Average 4)", rp=4, ip=1),
+    Structure("Hornulox Symbiont", 1, 1, False, False, "(Large 1)", mp=1, rp=1),
+
     ]
 
 def addAbility(structureName, ability):
@@ -1176,12 +1193,10 @@ addAbility("Corrupted Portal II", {"name":"Phase 3 Upgrade","desc":"Upgrades Por
 addAbility("Corrupted Portal III", {"name":"Phase 4 Upgrade","desc":"Upgrades Portal and Ability to Phase 4.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 6 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal IV"}],"cost":{"corruption":"6","energy":"5,555"},"message":"You successfully perform the upgrades."})
 addAbility("Corrupted Portal IV", {"name":"Phase 5 Upgrade","desc":"Upgrades Portal and Ability to Phase 5.<br>Adds +1 Mining/Artifact / +600 artifact storage and +400 cloak.<br>Costs 7 Corruption / 5555 Energy / and 1 Charge.", "planetEffects":[{"type":"Upgrade","new":"Corrupted Portal V"}],"cost":{"corruption":"7","energy":"5,555"},"message":"You successfully perform the upgrades."})
 addAbility("Neutron-Lift Processor", {"name":"Neutron-Process","desc":"Gain a random Neutronium-based artifact.<br>Requires 420 Neutronium and 42000 Energy","playerEffectsRandom":[{"type":"Grants","artifact":"Thavix Catalyst"}],"cost":{"energy":"42,000","neutronium":"420"}, "message":"The Neutron-Lift provides:[Artifact]"})
-addAbility("T.O. Genesis Loom", {"name":"Splice Genes","desc":"Generates 3 Evolution Genes for each Terra / Gaia / Aphotic or Oceanic planet<br>you control that has Influence. up to a maximum of 21 per use. Costs 4400 energy","charges":"2","playerEffectsScaled":[{"type":"Grant Genes","scaleType":"Owned Planets","stat":"Influence","statMin":"ES","max":"21"}],"cost":{"energy":"4,400"},"message":"You receive [X] Evolution Genes"})
 addAbility("Crystalline Portal", {"name":"Crystalline Portal","planetEffects":[{"type":"Reset Permanent Ability"}], "charges":"3"})
 addAbility("Forgestone Prison Colony", {"name":"V2 Upgrade", "desc":"Upgrades Prison and Ability to V2.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 600+ captures.<br>Costs 22 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"600"}],"cost":{"greens":"22"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v2"}]})
 addAbility("Forgestone Prison Colony v2", {"name":"V3 Upgrade", "desc":"Upgrades Prison and Ability to V3.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 800+ captures.<br>Costs 33 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"800"}],"cost":{"greens":"33"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v3"}]})
 addAbility("Forgestone Prison Colony v3", {"name":"V4 Upgrade", "desc":"Upgrades Prison and Ability to V4.<br>Adds +1 Artifact +2 Mining +202 Mineral Storage and +2% Mining Bonus.<br>Must be a Miner / Governor / or Guard with 1000+ captures.<br>Costs 44 Green Badges", "restrictions":[{"type":"Profession","professions":["Miner","Governor","Guard"]},{"type":"Player Stat","stat":"Invasions","min":"1,000"}],"cost":{"greens":"44"},"message":"You successfully perform the upgrades.","planetEffects":[{"type":"Upgrade","new":"Forgestone Prison Colony v4"}]})
-addAbility("Synesthetic Fuse", {"name":"V2 Upgrade", "desc":"Upgrades Fuse to V2<br>Adds +1% Production<br>Planet must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 4400 CTP", "planetEffects":[{"type":"Upgrade","new":"Synesthetic Fuse v2"}],"cost":{"energy":"22,000","ctp":"4,400"},"restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"4"}]})
 addAbility("Civicordium Platform", {"message":"You successfully perform the upgrades.", "name":"V2 Upgrade", "desc":"Upgrades Platform to V2<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 4 disctinct Structures that provide 2+ influence.<br>Costs 4400 Influence","planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v2"}],"restrictions":[{"type":"Existing Structures","stat":"iph","statMin":"2","min":"4"}],"cost":{"influence":"4,400"}})
 addAbility("Civicordium Platform v2", {"message":"You successfully perform the upgrades.", "name":"V3 Upgrade", "desc":"Upgrades Platform to V3<br>Adds +1 Artifact +1 Influence<br>Planet must have at least 7 distinct structures that provide 2+ influence.<br>Costs 8800 Influence","planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v3"}],"restrictions":[{"type":"Existing Structures","stat":"iph","statMin":"2","min":"7"}],"cost":{"influence":"8,800"}})
 addAbility("Civicordium Platform v3", {"message":"You successfully perform the upgrades.", "name":"V4 Upgrade", "desc":"Upgrades Platform to V4<br>Adds +1 Artifact +1% Influence<br>Planet must have at least 10 distinct Structures that provide 2+ Influence.<br>Costs 16000 Influence","planetEffects":[{"type":"Upgrade","new":"Civicordium Platform v4"}],"restrictions":[{"type":"Existing Structures","stat":"iph","statMin":"2","min":"10"}],"cost":{"influence":"16,000"}})
@@ -1423,6 +1438,87 @@ addAbility("Litheor Deep-Ember Keep v2", {
     "planetEffects":[{"type":"Upgrade","new":"Litheor Deep-Ember Keep v3"}],
     "cost":{"green":"18"}
 })
+addAbility("Synesthetic Fuse", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Fuse to V2<br>Adds +1% Production<br>Planet must have at least 4 other distinct Size-0 Structures.<br>Costs 22k Energy + 4400 CTP",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Synesthetic Fuse II"}],
+    "cost":{"energy":"22,000","ctp":"4,400"},
+    "restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"4"}]
+})
+addAbility("Synesthetic Fuse II", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Fuse to V3<br>Adds +1% Production<br>Planet must have at least 6 other distinct Size-1 Structures.<br>Costs 44k Energy + 8800 CTP",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Synesthetic Fuse III"}],
+    "cost":{"energy":"44,000","ctp":"8,800"},
+    "restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"6"}]
+})
+addAbility("Synesthetic Fuse III", {
+    "name":"V4 Upgrade",
+    "desc":"Upgrades Fuse to V4<br>Adds +1% Production<br>Planet must have at least 8 other distinct Size-0 Structures.<br>Costs 88k Energy + 16000 CTP",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Synesthetic Fuse IV"}],
+    "cost":{"energy":"88,000","ctp":"16,000"},
+    "restrictions":[{"type":"Existing Structures","stat":"Size","statMax":"0","min":"8"}]
+})
+addAbility("Goridian Cellar", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Cellar to v2<br>Adds +2 Mining +444 Mining/Artifact/Research storage +44 Influence storage<br>Planet must have at least 4 other distinct Chuhn structures.<br>Costs 2 Goridian Ale and 600 CTP",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Goridian Cellar v2"}],
+    "cost":{"ctp":"600","artifacts":[{"name":"Goridian Ale","count":"2"}]},
+    "restrictions":[{"type":"Existing Structures","tags":["Chuhn"],"min":"4"}]
+})
+addAbility("Goridian Cellar v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Cellar to V3<br>Adds +1 Mining +1 Artifact + 445 Mining/Artifact/Research storage +45 Influence storage<br>Planet must have at least 6 other distinct Chuhn structures.<br>Costs 4 Goridian Ale and 1100 CTP",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Goridian Cellar v3"}],
+    "cost":{"ctp":"1,100","artifacts":[{"name":"Goridian Ale","count":"4"}]},
+    "restrictions":[{"type":"Existing Structures","tags":["Chuhn"],"min":"6"}]
+})
+addAbility("Goridian Cellar v3", {
+    "name":"V4 Upgrade",
+    "desc":"Upgrades Cellar to v4<br>Adds +1 Mining +1 Artifact +444 Mining/Artifact/Research storage +44 Influence Storage<br>Planet must have at least 8 other distinct Chuhn structures.<br>Costs 6 Goridian Ale and 2200 CTP",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Goridian Cellar v4"}],
+    "cost":{"ctp":"2,200","artifacts":[{"name":"Goridian Ale","count":"6"}]},
+    "restrictions":[{"type":"Existing Structures","tags":["Chuhn"],"min":"8"}]
+})
+addAbility("Velamen Reactor", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Reactor to v2<br>Adds +1 Research +1 Artifact +7% Cloak<br>Planet must have at least 4 other distinct Chuhn structures.<br>Costs 900 CTP and 11 Evolution Genes",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Velamen Reactor v2"}],
+    "cost":{"ctp":"900","genes":"11"},
+    "restrictions":[{"type":"Existing Structures","tags":["Chuhn"],"min":"4"}]
+})
+addAbility("Velamen Reactor v2", {
+    "name":"V3 Upgrade",
+    "desc":"Upgrades Reactor to v3<br>Adds +2 Research +8% Cloak Planet must have at least 6 other distinct Chuhn structures.<br>Costs 1800 CTP and 16 Evolution Genes",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Velamen Reactor v2"}],
+    "cost":{"ctp":"1,800","genes":"16"},
+    "restrictions":[{"type":"Existing Structures","tags":["Chuhn"],"min":"6"}]
+})
+addAbility("Velamen Reactor v3", {
+    "name":"V4 Upgrade",
+    "desc":"Upgrades Reactor to v4<br>Adds +1 Research +1 Artifact +9% Cloak<br>Planet must have at least 8 other distinct Chuhn structures.<br>Costs 3500 CTP and 22 Evolution Genes",
+    "message":"You successfully perform the upgrades.",
+    "planetEffects":[{"type":"Upgrade","new":"Velamen Reactor v3"}],
+    "cost":{"ctp":"3,500","genes":"22"},
+    "restrictions":[{"type":"Existing Structures","tags":["Chuhn"],"min":"8"}]
+})
+addAbility("T.O. Colony Ark", {
+    "name":"V2 Upgrade",
+    "desc":"Upgrades Ark to V2<br>Adds +1 Mining +1 Artifact<br>Planet must have at least 2 structures with % bonuses to population.<br>Costs 6 Evolution Genes",
+    "message":"",
+    "planetEffects":[{"type":"Upgrade","new":"T.O. Colony Ark v2"}],
+    "cost":{"genes":"6"},
+    "restrictions":[{"type":"Existing Structures","stat":"bp","min":"2"}]
+
+})
     
 def generateNotesStr(notes: list[int] = []):
     if len(notes) < 1:
@@ -1547,7 +1643,7 @@ variantStructures = [
 #                 nameNotes: list[int] = [], cloakNotes: list[int] = [], limitNotes: list[int] = [], defenseNotes: list[int] = [], alternatePageName: str = "", formDescription: str = ""):
 
 def setBase(structure):
-    if structure['name'] in ["Spire of Civicordium Dominion", "Spire of Edenic Dominion", "Spire of High Dominion", "Spire of Scruuge Dominion", "Spire of Cybernetic Dominion", "Spire of Supel Dominion"]:
+    if structure['name'] in ["Spire of Civicordium Dominion", "Spire of Edenic Dominion", "Spire of High Dominion", "Spire of Scruuge Dominion", "Spire of Cybernetic Dominion", "Spire of Supel Dominion", "Spire of Dark Dominion", "Spire of Mercantile Dominion"]:
         structure['base'] = "Spire of Dominion"
     elif structure['name'] in ["Galaxy Inquisitors", "Galaxy Technocrats", "Galaxy Overseers", "Galaxy Interrogators", "Galaxy Pedants", "Galaxy Administrators", "Galaxy Aristocrats", "Galaxy Surrogates", "Galaxy Celestials"]:
         structure['base'] = "Galaxy Elitists"

@@ -1743,5 +1743,53 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Cursed Bargains (2026)",
+        "additionalEffectDescription": "Invasion cooldowns are 3 hours longer (or 6 hours after a failed invasion).<br>Green Badges Awarded for invasions increased by 1.",
+        "ctl": [
+            "Cursed Bazaar"
+        ],
+        "end": "30 Sep 2026",
+        "lore": "As the Bane's psionic shroud spreads across trade routes, Chuhn ledgers begin recording transactions no one remembers making.",
+        "newMedals": [
+            "Cursed Dealings",
+            "Fusion of Risks",
+            "The Synesthetic Assimilation"
+        ],
+        "start": "24 Sep 2026"
+    },
+    {
+        "name": "The Hallows Bane",
+        "additionalEffectDescription": "Invasions will cost 42% less in credits.<br>Successful invasions can trigger Bane Coercion or Will of the Dark Psion events.",
+        "scanDiscoveries": [
+            "Psyshade Inducer"
+        ],
+        "planetaryEvents": [
+            "Bane Coercion",
+            "Will of the Dark Psion"
+        ],
+        "supporterBonus": {
+            "add": [
+                "Profane Puzzlebox"
+            ]
+        },
+        "influenceZone": "Dark Psionic Anomaly",
+        "minigames": [
+            "Cursed Crew"
+        ],
+        "artifactMarket": [],
+        "petitionerSuite": [
+            "Covenant of Dominion"
+        ],
+        "serviceTerminal": [
+            "Bane Horror"
+        ],
+        "playerEffects": [
+            {
+                "type": "Decrease Invasion Cost",
+                "value": "42%"
+            }
+        ]
     }
 ]

@@ -2006,5 +2006,115 @@
         "date": "4 Sep 2026",
         "type": "Cosmetic",
         "desc": "Active Trade Tariff modifiers are now visible in the Trade > Minerals tab."
+    },
+    {
+        "date": "9 Sep 2026",
+        "type": "Tweak",
+        "desc": "Tutorial steps have been reorganized to emphasize early XP gain / ranking, and legion engagement."
+    },
+    {
+        "date": "9 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Mission rewards and requirements (artifacts) now use their own icons, and can now be clicked for their full details."
+    },
+    {
+        "date": "9 Sep 2026",
+        "type": "Tweak",
+        "desc": "Missions now support hold-to-click for progress, up to a single completion."
+    },
+    {
+        "date": "10 Sep 2026",
+        "type": "Tweak",
+        "desc": "Added Steam as an account-link option."
+    },
+    {
+        "date": "13 Sep 2026",
+        "type": "Initiative",
+        "desc": "Chancellor Election - Winner: Luminary Oreth: Exotic Matter is 42% more common during mineral acquisition, but mineral storage is reduced by 15%"
+    },
+    {
+        "date": "13 Sep 2026",
+        "type": "Initiative",
+        "desc": "Theory Network Maintenance - Winner: Scale Neuralese Nodes: Reduces Research production by 11%. Increases Collective Theory Lab designs available to discover by 1 (for all Legions)"
+    },
+    {
+        "date": "19 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Running out of (or missing) certain resources (such as credits or energy) now shows helpful links for ways to get more, with quick info popups and shortcuts to the relevant pages."
+    },
+    {
+        "date": "21 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Medals list: rewards are now clickable for full details. Search box has been improved, and a Recently Updated filter added that sorts by your latest progress."
+    },
+    {
+        "date": "22 Sep 2026",
+        "type": "Event",
+        "desc": "The Hallows Bane event - started"
+    },
+    {
+        "date": "25 Sep 2026",
+        "type": "Initiative",
+        "desc": "Haelon Piracy - Winner: Increase Empyreal Funding: increases damage cap against non-player enemies by 15% (for races near the core)"
+    },
+    {
+        "date": "25 Sep 2026",
+        "type": "Initiative",
+        "desc": "Galakis Trading Guilds - Winner: Pathfinders Guild: Increases production by 2% for Pathfinders Guild professions"
+    },
+    {
+        "date": "28 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Medals seasonal filter now also allows choosing specific events. Seasonal filter dropdowns now highlight any active seasonals."
+    },
+    {
+        "date": "28 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Medals: 'Recently Updated' changed to instead show your medals updated since the last time you opened your Medals page."
+    },
+    {
+        "date": "29 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "New background starfield options in Settings: Window (drifting stars and nebulae) and Warp (stars streaming past) - which should also perform better on all devices."
+    },
+    {
+        "date": "29 Sep 2026",
+        "type": "Tweak",
+        "desc": "New players now begin with several new temporary bonuses (energy charge boost, etc) until rank 42."
+    },
+    {
+        "date": "29 Sep 2026",
+        "type": "Feature",
+        "desc": "Planet search filter now includes smart 'expression' comparison support for more advanced matching. Click on the helper icon next to the filter for more details."
+    },
+    {
+        "date": "29 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Some artifact actions in the Trade tab list (scrap and send) are now found in their artifact info details, rather than cluttering up the list with thousands of buttons. Scrapping buttons can be re-included via settings when needed."
+    },
+    {
+        "date": "29 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Various filterable lists can now switch between the classic paged view and a continuous scrolling list. Use the  menu beside each list's filter box to choose; the choice is remembered per list on each device."
+    },
+    {
+        "date": "29 Sep 2026",
+        "type": "Cosmetic",
+        "desc": "Multi-sorting columns (shift+click) works as before, and now shows visual numbers to indicate their sort order"
+    },
+    {
+        "date": "30 Sep 2026",
+        "type": "Maintenance",
+        "desc": "Fixed a 'flashing' that occurred when performing actions on ships displaying certain border flairs."
+    },
+    {
+        "date": "30 Sep 2026",
+        "type": "Maintenance",
+        "desc": "Fixed an issue where ship comm reply input would appear far outside the window."
+    },
+    {
+        "date": "1 Oct 2026",
+        "type": "Cosmetic",
+        "desc": "Abilities window redesigned: player and module abilities are now one searchable list with filter buttons (including a filter for abilities you can use right now)."
     }
 ]

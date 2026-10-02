@@ -961,6 +961,32 @@
 | align="center" | No
 | align="center" | No
 |-
+| [[Obviation Barrier|Obviation Barrier 100%]]
+| align="center" | 2
+| align="center" | None
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 2400
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
 | [[Orbital Minefield]]
 | align="center" | 2
 | align="center" | None
@@ -1767,7 +1793,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Exo-Rift Membrane Blueprint|Exo-Rift Membrane Blueprint]]
+| [[Exo-Rift Membrane Blueprint|Exo-Rift Membrane]]
 | align="center" | 2
 | align="center" | 2
 | align="center" | 
@@ -7097,6 +7123,32 @@
 | align="center" | No
 | align="center" | No
 |-
+| [[Bane Psybeacon|Bane Psybeacon - Mark VII]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 5
+| align="center" | 
+| align="center" | 
+| align="center" | 6
+| align="center" | 
+| align="center" | 
+| align="center" | 5
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
 | [[Bane Nether-Seal]]
 | align="center" | 10
 | align="center" | 1
@@ -9689,6 +9741,32 @@
 | align="center" | 
 | align="center" | 
 | align="center" | 42000
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Psyshade Arsenal|Psyshade Arsenal VI]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 7
+| align="center" | 
+| align="center" | 
+| align="center" | 6
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 66000
 | align="center" | 
 | align="center" | 
 | align="center" | 
@@ -14559,6 +14637,32 @@
 | align="center" | No
 | align="center" | No
 |-
+| [[Bane Generator|Bane Generator XVI]]
+| align="center" | 2
+| align="center" | 1
+| align="center" | 21
+| align="center" | 
+| align="center" | 
+| align="center" | 8
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 145000
+| align="center" | 
+| align="center" | 2700
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
 | [[Bane Dark-Kiln]]
 | align="center" | 0
 | align="center" | 1
@@ -14661,6 +14765,188 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
+| align="center" | No
+|-
+| [[Cauldron of Banefire]]
+| align="center" | 0
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 666
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Cursed Bazaar]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 1666
+| align="center" | 2
+| align="center" | 1
+| align="center" | 1666
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 222
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Bane Hex-Loom]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 333
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Bane Hex-Loom|Bane Hex-Loom v2]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 333
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Bane Hex-Loom|Bane Hex-Loom v3]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 6
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 666
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Bane Hex-Loom|Bane Hex-Loom v4]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 5
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 4
+| align="center" | 8
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 666
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Spire of Dark Dominion]]
+| align="center" | 2
+| align="center" | 1
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 4
+| align="center" | 
+| align="center" | 666
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1666
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | Yes
 | align="center" | No
 |-
 | [[HyperNexus Power Shunt]]
@@ -16203,7 +16489,7 @@
 | align="center" | 
 | align="center" | 2
 | align="center" | 
-| align="center" | 
+| align="center" | 3
 | align="center" | 2
 | align="center" | 
 | align="center" | 
@@ -23451,7 +23737,7 @@
 | align="center" | Yes
 | align="center" | No
 |-
-| [[Synesthetic Fuse|Synesthetic Fuse v2]]
+| [[Synesthetic Fuse|Synesthetic Fuse II]]
 | align="center" | 0
 | align="center" | 1
 | align="center" | 
@@ -23477,7 +23763,7 @@
 | align="center" | Yes
 | align="center" | No
 |-
-| [[Synesthetic Fuse|Synesthetic Fuse v3]]
+| [[Synesthetic Fuse|Synesthetic Fuse III]]
 | align="center" | 0
 | align="center" | 1
 | align="center" | 
@@ -23503,7 +23789,7 @@
 | align="center" | Yes
 | align="center" | No
 |-
-| [[Synesthetic Fuse|Synesthetic Fuse v4]]
+| [[Synesthetic Fuse|Synesthetic Fuse IV]]
 | align="center" | 0
 | align="center" | 1
 | align="center" | 
@@ -25997,4 +26283,134 @@
 | align="center" | 
 | align="center" | 
 | align="center" | Yes
+| align="center" | No
+|-
+| [[Hornulox Symbiont|Hornulox Symbiont (Average 1)]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Hornulox Symbiont|Hornulox Symbiont (Average 2)]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Hornulox Symbiont|Hornulox Symbiont (Average 3)]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Hornulox Symbiont|Hornulox Symbiont (Average 4)]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Hornulox Symbiont|Hornulox Symbiont (Large 1)]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
 | align="center" | No

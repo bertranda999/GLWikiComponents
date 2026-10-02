@@ -59,5 +59,28 @@
                 }
             ]
         }
+    },
+    {
+        "name": "Cursed Bazaar",
+        "cost": {
+            "energy": "6,660",
+            "ctp": "2,666",
+            "genes": "22",
+            "studies": "111",
+            "artifacts": [
+                {
+                    "name": "Hallows Bane Trick",
+                    "count": "22"
+                },
+                {
+                    "name": "Chuhn Stem Bolts",
+                    "count": "5"
+                },
+                {
+                    "name": "Rescued Prisoners",
+                    "count": "13"
+                }
+            ]
+        }
     }
 ]

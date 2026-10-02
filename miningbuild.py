@@ -11,7 +11,38 @@ skip = [
     "Scruuge Cargo Launcher",
     "Sentarch Seeker-Drones",
     "Xenotypic Mutants",
-    "T.O. Colony Ark"
+    "T.O. Colony Ark",
+    "Galaxy Elitists",
+    "Bane Krow Probe",
+    "Strazi Link Anchor",
+    "Chuhn Zenith Exchange",
+    "Chuhn Scrap Depot",
+    "Shardveil, Spectral Citadel",
+    "Lepus Drone",
+    "Lepus Clone-Program Tank",
+    "Elios Heliacal Plant",
+    "Portal of Legacies",
+    "Spectral Conclave",
+    "Jeweled Labyrinth",
+    "Tamed Undulok",
+    "Litheor Deep-Phase Sanctuary",
+    "Sub-Tachyonic Axis",
+    "Biosphere Gyre",
+    "Chuhn Star-Emporium",
+    "Chuhn Scrapyard",
+    "Xephius Portal",
+    "Void-Field Enclave",
+    "Lepus C-34 Fluxgate",
+    "Lepus C-34 Hypergate",
+    "Lepus C-34 Gateway",
+    "Raix Refinery",
+    "Elios Corethune Shell",
+    "Xecti Brood-Nest",
+    "Supel Microhaven",
+    "Spire of Supel Dominion",
+    "Tej-Brask Refueling Depot",
+    "Thavix Reactor",
+    "Litheor Deep-Ember Keep",
 ]
 
 artifacts = []
@@ -83,7 +114,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-while totalSpace < 69:
+while totalSpace < 98:
     max = 0
     maxStruct = volcInfStructs[0]
     for struct in volcInfStructs:

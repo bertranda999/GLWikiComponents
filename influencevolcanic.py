@@ -1,7 +1,7 @@
 import json
 
 skip = [
-"Spire of Dominion",
+"Spire of High Dominion",
 "Sentarch Mind-Drones",
 "T.O. Colony Ark",
 "Throne of the Revered",
@@ -35,6 +35,8 @@ skip = [
 "Cognizant Omniforge",
 "Uldri Crystal Field",
 "Scruuge Gift-Sorter",
+"Galakis Monument",
+"Spire of Mercantile Dominion",
 ]
 
 artifacts = []
@@ -106,7 +108,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-maxSpace = 102
+maxSpace = 94
 while volcInfStructs.__len__() > 0 and totalSpace < maxSpace:
     max = 0
     maxStruct = volcInfStructs[0]
