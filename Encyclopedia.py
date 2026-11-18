@@ -192,6 +192,13 @@ with open(configPath + "legion_missions.json", "r") as file:
     for mission in legionMissionsJson:
         legionMissions[mission['name']] = mission
 
+ust = {}
+with open(configPath + "ust.json", "r") as file:
+    ustJson = json.load(file)
+    for ustAbility in ustJson:
+        ust[ustAbility['name']] = ustAbility
+        addToEffects(ustAbility, "UST")
+
 councilToolData = {"levels":[], "costMods":[]}
 
 genesEffects = []

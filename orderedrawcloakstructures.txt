@@ -1,4 +1,5 @@
 Vaash Sentry Drone: 100000
+Jeweled Sentinel v4: 100000
 Jeweled Sentinel v3: 100000
 Veon Singularium v4: 100000
 Veon Singularium v3: 100000
@@ -27,6 +28,8 @@ Dark Supercollider (Upgraded): 1200.0
 SubVoid Darkdrone E: 1111.0
 Vaash Drone Tower (Upgraded): 1110.0
 Bane Generator XV: 1100.0
+T.O. Harvest Vault XVI - Upgraded: 1050.0
+T.O. Harvest Vault XVI: 950.0
 Bane Generator XIV: 900.0
 Dais of Deceit: 900.0
 Covert BlackWatch: 888.0
@@ -80,8 +83,10 @@ Supel Comm Tower: 420.0
 Obscura Lab: 420.0
 T.O. Genesis Loom: 411.0
 Xephius Portal: 404.0
+Chuhn Scrap Complex: 404.0
 Streveldan CogNode: 404.0
 Stryll Bio-Shroud Array: 404.0
+T.O. Frontier Redoubt: 404.0
 Entropy Repulsor Pylon: 400.0
 Raix Refinery II: 400.0
 Raix Refinery II (Upgraded): 400.0

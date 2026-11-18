@@ -2116,5 +2116,110 @@
         "date": "1 Oct 2026",
         "type": "Cosmetic",
         "desc": "Abilities window redesigned: player and module abilities are now one searchable list with filter buttons (including a filter for abilities you can use right now)."
+    },
+    {
+        "date": "2 Oct 2026",
+        "type": "Maintenance",
+        "desc": "An issue causing base shields to recharge incorrectly during battle should finally be resolved."
+    },
+    {
+        "date": "2 Oct 2026",
+        "type": "Maintenance",
+        "desc": "Fixed some additional cases where buttons may become unresponsive and require a refresh to work again. The client should now try to auto-recover from different failures."
+    },
+    {
+        "date": "2 Oct 2026",
+        "type": "Tweak",
+        "desc": "Loading bar will now only show for slower reponses (250ms or longer) rather than 'flickering' every request."
+    },
+    {
+        "date": "2 Oct 2026",
+        "type": "Cosmetic",
+        "desc": "The upper status bar now has a small subtle blinking indicator when any requests are happening."
+    },
+    {
+        "date": "4 Oct 2026",
+        "type": "Cosmetic",
+        "desc": "Battle Market and the special material markets updated to support newer filters and search."
+    },
+    {
+        "date": "5 Oct 2026",
+        "type": "Initiative",
+        "desc": "Chancellor Election - Winner: Warlord Krassak: Expands all enemy rank ranges by 10%"
+    },
+    {
+        "date": "16 Oct 2026",
+        "type": "Tweak",
+        "desc": "New Player bonuses now include higher energy regen, and boosts to research/mining/artifact resource production. Bonus rank cap raised to 142."
+    },
+    {
+        "date": "16 Oct 2026",
+        "type": "Tweak",
+        "desc": "Cursed Crew minigame now shows names of races below each portrait"
+    },
+    {
+        "date": "16 Oct 2026",
+        "type": "Cosmetic",
+        "desc": "Updated existing alt race / character image variants to support new versions and ambient motion. You can also now change your variant at any time in settings. Profession selection screen has been updated to include character previews."
+    },
+    {
+        "date": "16 Oct 2026",
+        "type": "Feature",
+        "desc": "Support for newer image variants and effects: thematic mission images, plus refreshed ship and base images with rendered shields and damage impact animations. These can be enabled in settings."
+    },
+    {
+        "date": "18 Oct 2026",
+        "type": "Tweak",
+        "desc": "Many starting missions now reward common artifacts (related to their theme) in addition to their normal credit / xp."
+    },
+    {
+        "date": "19 Oct 2026",
+        "type": "Feature",
+        "desc": "Some Galactic Voting measures may now include Voter Rewards: prizes for the voters who cast the most total votes on a measure, plus a random draw among other voters, granted when the measure passes."
+    },
+    {
+        "date": "20 Oct 2026",
+        "type": "Initiative",
+        "desc": "Alarri Forgeworks Improvements - Winner: Aeon Spire: Temporarily Unlocks 'Aeon Spire Upgrade' design in the Aeon Market, but reduces mining production by 8%"
+    },
+    {
+        "date": "22 Oct 2026",
+        "type": "Cosmetic",
+        "desc": "Filters added to Trade > Special materials. Materials can also now be clicked to see additional info"
+    },
+    {
+        "date": "22 Oct 2026",
+        "type": "Tweak",
+        "desc": "Voting rewards expanded to include wider ranges, and ties will now share rewards of the same tier."
+    },
+    {
+        "date": "25 Oct 2026",
+        "type": "Initiative",
+        "desc": "Theory Network Maintenance - Winner: Scale Neuralese Nodes: Reduces Research production by 11%. Increases Collective Theory Lab designs available to discover by 1 (for all Legions)"
+    },
+    {
+        "date": "27 Oct 2026",
+        "type": "Feature",
+        "desc": "Legion Announcements now support rich text and colors, and include additional options to alert members with popups. /a and /announce will now instead open the new Announcement editor."
+    },
+    {
+        "date": "28 Oct 2026",
+        "type": "Initiative",
+        "desc": "Chancellor Election - Winner: Ambassador Thelaru: Increases Evolution Gene yields by 11% and reduces Genes cooldown by 11%, but reduces research production by 25%"
+    },
+    {
+        "date": "29 Oct 2026",
+        "type": "Maintenance",
+        "desc": "Announcements in Legion Comm will show as much of the message as possible. Fixed an issue where members could update the announcement, as well as an issue where the 'View Announcement' link appeared for unrelated messages."
+    },
+    {
+        "date": "1 Nov 2026",
+        "type": "Event",
+        "desc": "Era of Harvest event - started"
+    },
+    {
+        "date": "4 Nov 2026",
+        "type": "Maintenance",
+        "desc": "Fixed an issue with 'Habitat Claims' incorrectly drawing boundaries for the Terran Outsiders."
     }
 ]

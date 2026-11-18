@@ -75,5 +75,27 @@
         "desc": " Though the Elios migrate from stars across many Galactic sectors, the Corethune faction has established a foothold in this particular region, seeking to establish their influence through coordinated growth rather than brute force.",
         "influenceCost": "120",
         "type": "Migration Zone"
+    },
+    {
+        "name": "Dark Psionic Anomaly",
+        "ability": {
+            "name": "Illicit Temptations",
+            "playerEffects": [
+                {
+                    "type": "Grants",
+                    "artifact": "Dark Temple of Woe"
+                }
+            ],
+            "triggers": [
+                {
+                    "type": "Complete Daily Challenge"
+                }
+            ]
+        },
+        "bonusDesc": "When completing a Daily Challenge, you will earn a Dark Temple of Woe",
+        "bonusName": "Illicit Temptations",
+        "desc": "Within the high-energy anomaly, a large entity called the 'Dark Psion' resides, seemingly originating from a distant point in the future. Arriving with promises of knowledge and glory, it is not clear if they can be trusted...",
+        "influenceCost": "666",
+        "type": "Temporal Aperture"
     }
 ]

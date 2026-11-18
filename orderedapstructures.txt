@@ -1,6 +1,7 @@
 Vaash Sentry Drone: 100000
 Chuhn ExoGalactic Relay: 100000
 Elios Orbital Promenade: 100000
+Jeweled Sentinel v4: 100000
 Jeweled Sentinel v3: 100000
 Jeweled Sentinel v2: 100000
 Jeweled Sentinel: 100000
@@ -54,6 +55,10 @@ Bane Dark-Kiln v4: 100000
 Bane Dark-Kiln v3: 100000
 Bane Dark-Kiln v2: 100000
 Bane Dark-Kiln: 100000
+Chuhn InterMarket Caster v4: 100000
+Chuhn InterMarket Caster v3: 100000
+Chuhn InterMarket Caster v2: 100000
+Chuhn InterMarket Caster: 100000
 Galaxy Celestials: 100000
 Galaxy Surrogates: 100000
 Galaxy Aristocrats: 100000
@@ -85,6 +90,7 @@ Uldri Spacial Mega-Crystal Field: 10.5
 Uldri Power Mega-Node: 10.5
 Throne of the Revered: 10.0
 Aethercron Hold: 10.0
+Vearon Treasury: 10.0
 Scruuge Hoarding Vault VI: 9.894736842105264
 Biosphere Gyre v3: 9.719298245614034
 Biosphere Gyre v4: 9.719298245614034
@@ -99,7 +105,6 @@ ArcRift Tower: 9.0
 Spectral Conclave: 9.0
 Scruuge Hoarding Vault V: 8.517543859649123
 Cognizant Omniforge: 8.5
-Chuhn InterMarket Caster v4: 8.5
 T.O. TerraFounder - Upgraded: 8.5
 Perpetual HyperTurbine IV: 8.0
 Scruuge Hoarding Vault IV: 7.640350877192983
@@ -137,7 +142,7 @@ Auric Lepus Drone 13.0: 6.0
 Auric Lepus Drone 14.0: 6.0
 Auric Lepus Drone 15.0: 6.0
 Chuhn Exo-Logistics Gridport: 6.0
-Chuhn InterMarket Caster v3: 6.0
+Chuhn Scrap Complex: 6.0
 Dais of Deceit: 6.0
 Astrometrics Orrery v5: 6.0
 Chuhn Star-Emporium v5: 6.0
@@ -165,16 +170,19 @@ Lepus Drone 15.0: 5.0
 Auric Lepus Drone 10.0: 5.0
 Auric Lepus Drone 11.0: 5.0
 Auric Lepus Drone 12.0: 5.0
+Sarkonis Blightpod: 5.0
 Perpetual HyperTurbine II: 5.0
 Verdant Estate v3: 5.0
 Forum of Realms: 5.0
 Bane Phage Sacrarium v4: 5.0
+T.O. Drop Pod v4: 5.0
+Sarkonis Blightpod: 5.0
 Spire of Mercantile Dominion: 4.75
 Glimmerhold, Spectral Castle: 4.587719298245614
 Goridian Cellar v3: 4.533333333333333
 Corrupted Edifice: 4.508771929824562
 Custodian's Villa: 4.5
-Micro-Raix Cyclotron 3: 4.5
+Micro-Raix Cyclotron (3): 4.5
 Bio-Luminous Orb: 4.5
 Lepus Clone-Program Tank: 4.5
 Litheor Deep-Phase Sanctuary: 4.0
@@ -206,14 +214,15 @@ Seismic Shattermine (Quadrupled): 4.0
 Monolith of Miracles v3: 4.0
 Verdant Estate v2: 4.0
 Chuhn Star-Emporium v4: 4.0
-Velamen Reactor v3: 4.0
+Velamen Reactor v4: 4.0
+T.O. Pioneer Homestead: 4.0
+Vearon Underforge: 4.0
 Artifact Relic-Warehouse: 3.7719298245614037
 Oruas Eye Chamber: 3.754385964912281
 Chuhn Zenith Exchange v2: 3.75
 Artifact Warehouse: 3.508771929824561
 Polychoron RelicVault: 3.508771929824561
 Vault of Terra: 3.508771929824561
-Chuhn InterMarket Caster v2: 3.5
 Bane Generator XIII: 3.5
 Bane Generator XIV: 3.5
 Perpetual HyperTurbine: 3.5
@@ -223,6 +232,9 @@ Spire of Scruuge Dominion: 3.3157894736842106
 Bane Doom Silo (1): 3.168421052631579
 Ardyne Hypergate (Upgraded): 3.1666666666666665
 Corrupted Portal: 3.052631578947368
+Processing Mega-Core II: 3.0
+Relay Mega-Tower II: 3.0
+Space Mega-Elevator II: 3.0
 Bainar A-Node - Prime: 3.0
 Bahreen Duodecix (4): 3.0
 Ancestral Gene-Bank v3: 3.0
@@ -263,7 +275,7 @@ Bane Generator XII: 3.0
 Bane Hex-Loom v4: 3.0
 Scruuge Plunderhaven: 3.0
 Micro-Raix Cyclotron: 3.0
-Micro-Raix Cyclotron 2: 3.0
+Micro-Raix Cyclotron (2): 3.0
 Astrometrics Orrery v3: 3.0
 Obscura Lab v4: 3.0
 Quadrigulum Sparkmatter (2): 3.0
@@ -287,10 +299,8 @@ Font of Vitalis: 2.6666666666666665
 Xiphos Heist Outpost (20,000): 2.531578947368421
 Exo-Wave Generator: 2.5
 Caretaker's Villa: 2.5
-Chuhn InterMarket Caster: 2.5
 Bane Generator IX: 2.5
 Bane Generator X: 2.5
-Bane Dark-Infernum (Upgraded): 2.5
 Adumbrate Starport: 2.5
 SubVoid Darkdrone F: 2.5
 Monolith of Miracles v2: 2.5
@@ -299,6 +309,9 @@ Shardveil, Spectral Citadel: 2.5
 Chuhn Zenith Exchange: 2.5
 Sirocco Sandspire: 2.25
 Exo-Rift Membrane: 2.0
+Processing Mega-Core: 2.0
+Relay Mega-Tower: 2.0
+Space Mega-Elevator: 2.0
 Litheor Deep-Phase Probe: 2.0
 Bainar A-Node - Advanced: 2.0
 Tranquil Monolith (5%): 2.0
@@ -424,6 +437,7 @@ Aurelios Voltarium II: 2.0
 Orion Menagerie: 2.0
 Triangulum Sparkmatter (3): 2.0
 Hall of Unfathomable Torment: 2.0
+Bane Dark-Infernum (Upgraded): 2.0
 Lepus C-34 Hypergate: 2.0
 A.I. Emotion Bi-Core: 2.0
 Cygnusis AI-Core (Doubled): 2.0
@@ -453,6 +467,8 @@ Bane Phage Sacrarium: 2.0
 Scruuge Gift-Sorter: 2.0
 Velamen Reactor: 2.0
 Hornulox Symbiont (Average 3): 2.0
+T.O. Drop Pod v2: 2.0
+T.O. Drop Pod v3: 2.0
 Goridian Cellar: 1.9736842105263157
 Propaganda Plex v3: 1.8333333333333333
 Scruuge Frost Tribunal: 1.763157894736842
@@ -631,6 +647,8 @@ Archotage Transmitter - Upgraded: 1.0
 Sarkonis Omnipod: 1.0
 Sarkonis Omnipod - Upgraded: 1.0
 Cygnusis AI-Core: 1.0
+Captured T.O. Harvester XVII: 1.0
+Captured T.O. Harvester XVII - Upgraded: 1.0
 Valcaron-Cygnusis AI-Core: 1.0
 Gauss Chain II: 1.0
 Scruuge Cargo Pad: 1.0
@@ -678,6 +696,9 @@ House of Law: 1.0
 Vaash Drone Tower: 1.0
 Vaash Drone Tower (Upgraded): 1.0
 Hornulox Symbiont (Average 1): 1.0
+T.O. Drop Pod: 1.0
+Blight Siphon: 1.0
+T.O. Frontier Redoubt: 1.0
 Proto-Matter Synthesizer: 0.8421052631578947
 Bane Nether-Seal (2): 0.75
 Hyperforge Fabricator: 0.6666666666666666
@@ -713,6 +734,7 @@ Captured T.O. Harvester XVI - Upgraded: 0.5
 Gauss Chain: 0.5
 Isolation Bureau: 0.5
 SubVoid Darkdrone C: 0.5
+Grand Electorum: 0.5
 Quantum Analyzer Engine: 0.4
 Captured Crimson Base: 0.4
 Drannik Databank: 0.4

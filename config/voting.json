@@ -1038,7 +1038,8 @@
         "options": [
             {
                 "name": "Scale Neuralese Nodes",
-                "desc": "Reduces Research production by 11%. Increases Collective Theory Lab designs available to discover by 1 (for all Legions)",
+                "desc": "Engineers are able to increase data flows through key AI-nodes in the network to assist in novel discoveries, but much of the internal AI communication (neuralese) is inefficient for general research purposes.",
+                "effectDesc": "Reduces Research production by 11%. Increases Collective Theory Lab designs available to discover by 1 (for all Legions)",
                 "icon": "<span style=\"width:60px;height:60px;display:inline-flex;flex-shrink:0;color:#DDEEFF;\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z\"></path><path d=\"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z\"></path></svg></span>",
                 "legionEffects": [
                     {
@@ -1048,16 +1049,42 @@
                 ],
                 "playerEffects": [
                     {
-                        "type": "Increase Research Production",
+                        "type": "Increase Research",
                         "value": "-11%"
                     }
                 ]
             },
             {
-                "name": "Redirect Routing Throughput"
+                "name": "Redirect Routing Throughput",
+                "desc": "Engineers are able to repurpose some of the CTL Network traffic to prioritize general laboratory research.",
+                "effectDesc": "Increases Research production by 8%. Increases Research costs for CTL Discovery attempts by 20%.",
+                "icon": "<span style=\"width:150px;height:150px;display:inline-flex;flex-shrink:0;color:#DDEEFF;margin-bottom:8px;\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z\"></path><path d=\"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z\"></path></svg></span>",
+                "playerEffects": [
+                    {
+                        "type": "Increase Research",
+                        "value": "8%"
+                    },
+                    {
+                        "type": "Reduce CTL Discovery Cost",
+                        "value": "20%"
+                    }
+                ]
             },
             {
-                "name": "Merge Data Buffers"
+                "name": "Merge Data Buffers",
+                "icon": "<span style=\"width:150px;height:150px;display:inline-flex;flex-shrink:0;color:#DDEEFF;margin-bottom:8px;\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\"></ellipse><path d=\"M3 5V19A9 3 0 0 0 21 19V5\"></path><path d=\"M3 12A9 3 0 0 0 21 12\"></path></svg></span>",
+                "effectDesc": "Reduces Research storage by 8%. Reduces Research costs for CTL Discovery attempts by 15%.",
+                "desc": "Engineers can merge data notes used by other research labs with the Networks own, increasing their efficiency using shared insights.",
+                "playerEffects": [
+                    {
+                        "type": "Increase Research Storage",
+                        "value": "8%"
+                    },
+                    {
+                        "type": "Reduce CTL Discovery Cost",
+                        "value": "15%"
+                    }
+                ]
             }
         ]
     },
@@ -1118,6 +1145,48 @@
                     {
                         "type": "Increase Rank Range",
                         "value": "5%"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Temporal Stream",
+        "desc": "A stable temporal fissure has opened near the Galactic Core. Though vast, the anomaly poses no apparent threat to surrounding systems. Council scientists, joined by a team of Tenebrisian specialists, are studying the phenomenon and how its unique chronoshifting properties might be put to use...",
+        "options": [
+            {
+                "name": "Re-Anchor the Warp Gates",
+                "desc": "By channeling some of the major warp routes through the anomaly, travel to popular and highly trafficked areas could be quickened.",
+                "effectDesc": "Decreases all daily mission cooldowns by 10%",
+                "icon": "<span style=\"width:150px;height:150px;display:inline-flex;flex-shrink:0;color:#DDEEFF;margin-bottom:8px;\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"12\" cy=\"12\" r=\"8.3\"></circle><circle cx=\"12\" cy=\"12\" r=\"5.8\" stroke-width=\"1.25\"></circle><path d=\"M13.9 0.4L12.0 3.0L10.1 0.4L12.0 1.6ZM22.3 6.3L19.0 6.4L19.9 3.3L20.1 5.5ZM22.9 16.4L20.8 14.0L23.7 12.7L22.1 14.3ZM15.3 23.3L15.9 20.1L18.7 21.6L16.5 21.4ZM5.3 21.6L8.1 20.1L8.7 23.3L7.5 21.4ZM0.3 12.7L3.2 14.0L1.1 16.4L1.9 14.3ZM4.1 3.3L5.0 6.4L1.7 6.3L3.9 5.5Z\" fill=\"currentColor\" stroke-width=\"1\"></path><path d=\"M12.5 12.0 12.7 12.1 12.9 12.4 13.0 12.7 13.0 13.0 13.0 13.4 12.8 13.8 12.4 14.2 12.0 14.4 11.5 14.6 10.9 14.7 10.2 14.6 9.6 14.4 8.9 14.0 8.4 13.5 7.9 12.8 7.6 12.0M11.8 12.4 11.5 12.6 11.2 12.6 10.9 12.5 10.6 12.4 10.3 12.1 10.1 11.7 9.9 11.3 9.9 10.8 10.0 10.2 10.2 9.7 10.6 9.1 11.1 8.7 11.8 8.3 12.5 8.1 13.3 8.1 14.2 8.2M11.8 11.6 11.8 11.3 11.9 11.0 12.1 10.8 12.4 10.6 12.8 10.5 13.2 10.4 13.7 10.5 14.1 10.8 14.6 11.1 14.9 11.6 15.2 12.2 15.3 12.9 15.3 13.6 15.1 14.4 14.7 15.1 14.2 15.8\" stroke-width=\"1.4\"></path></svg></span>",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Daily Mission Cooldown",
+                        "value": "10%"
+                    }
+                ]
+            },
+            {
+                "name": "Seat the Council near the anomaly",
+                "icon": "<span style=\"width:150px;height:150px;display:inline-flex;flex-shrink:0;color:#DDEEFF;margin-bottom:8px;\"><svg viewBox=\"1 9 22 14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M3 20 A9 9 0 0 1 21 20\"></path><path d=\"M5.5 20 A6.5 6.5 0 0 1 18.5 20\"></path><path d=\"M8 20 A4 4 0 0 1 16 20\"></path><circle cx=\"12\" cy=\"20\" r=\"1.5\" fill=\"currentColor\" stroke=\"none\"></circle></svg></span>",
+                "desc": "The Galactic Council could conduct its sessions close to the anomaly, greatly benefiting from the localized pocket of time",
+                "effectDesc": "Decreases Galactic Council cooldown by 25%",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Council Cooldown",
+                        "value": "25%"
+                    }
+                ]
+            },
+            {
+                "name": "Scatter the Timestream",
+                "icon": "<span style=\"width:150px;height:150px;display:inline-flex;flex-shrink:0;color:#DDEEFF;margin-bottom:8px;\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"2\" y=\"9\" width=\"6\" height=\"6\" rx=\"1.5\"></rect><path d=\"M8 12h4\"></path><path d=\"M14.5 9.5 20 4M15.5 11 22 9M15.5 13 22 15M14.5 14.5 20 20\"></path></svg></span>",
+                "desc": "By redirecting the energies of the anomaly in all directions, it should alter the requency of seasonal phenomena in the surrounding regions",
+                "effectDesc": "Decreases cooldowns for all Seasonal Minigames by 20%",
+                "playerEffects": [
+                    {
+                        "type": "Reduce Seasonal Minigame Cooldown",
+                        "value": "20%"
                     }
                 ]
             }

@@ -70,6 +70,7 @@ Genoform Reservoir
 Genoform Reservoir II
 Phylogenetic Core
 Phylogenetic Core II
+Chuhn Scrap Complex
 Chuhn Trading MegaHub
 Cauldron of Banefire
 Cursed Bazaar
@@ -82,8 +83,8 @@ Scruuge Toll-Station v3
 Scruuge Toll-Station v4
 Dais of Deceit
 Micro-Raix Cyclotron
-Micro-Raix Cyclotron 2
-Micro-Raix Cyclotron 3
+Micro-Raix Cyclotron (2)
+Micro-Raix Cyclotron (3)
 Bio-Luminous Orb
 Spire of Dominion
 Spire of High Dominion
@@ -204,3 +205,12 @@ Hornulox Symbiont (Average 1)
 Hornulox Symbiont (Average 2)
 Hornulox Symbiont (Average 3)
 Hornulox Symbiont (Average 4)
+Grand Electorum
+T.O. Drop Pod v3
+T.O. Drop Pod v4
+T.O. Pioneer Homestead
+T.O. Frontier Redoubt
+Vearon Promenade
+Vearon Treasury
+T.O. Landfall Beacon
+Bexx Resort

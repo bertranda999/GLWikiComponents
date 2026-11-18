@@ -93,6 +93,10 @@ Domain:General
 		The Lutuma
 		The Uninvited
 		Fateful Games
+
+	Section:Galaxy Wheel
+		Vearon's Wealth
+		Vearon's Fortune
 		
 	Section:Hack
 		Neophyte
@@ -223,6 +227,8 @@ Domain:General
 		Civic Authority
 		Civic Consensus
 		Civic Dominion
+		Civic Sovereignty
+		Civic Hegemony
 		Voting Bloc
 
 	Section:Other GP
@@ -265,6 +271,7 @@ Domain:General
 		Ascendant Awakening
 		The Lone Conqueror
 		Sturdy Thirty
+		Everywhere at Once
 		
 	Section:Developer-Bestowed
 		Reality Stitching
@@ -656,6 +663,9 @@ Domain:Cursed Bargains
 	Section:Other
 		Cursed Dealings
 
+	Section:Other GP
+		Tours of the Seeker
+
 Domain:Bane
 
 	Section:Disable Bane
@@ -669,6 +679,8 @@ Domain:Bane
 		Evil Entities
 		Haunting Revelations
 		Ominous Epiphanies
+		Shrouds of Evil
+		Wretched Echoes
 		
 	Section:Influence Zone
 		Infernal Claim
@@ -696,6 +708,7 @@ Domain:Bane
 		
 	Section:Scrap
 		Pyres of Evil
+		Pyres of Pure Evil
 		
 	Section:Traps Tripped
 		A Bag of Heads
@@ -707,6 +720,8 @@ Domain:Bane
 		Apparitious' Aspect
 		Vile Agreements
 		Darkening Echoes
+		Profane Whispers
+		The Cultist Grid
 		
 	Section:Other
 		Phage Development
@@ -719,6 +734,12 @@ Domain:Bane
 		Agonizing Nightmares
 		Forged in Darkness
 		Harvested Souls
+		Challenging Despair
+
+Domain:Harrowing Blight
+	
+	Section:Other
+		Blighted Harvest
 
 Domain:Harvest
 
@@ -734,6 +755,7 @@ Domain:Harvest
 		Planetary Solitude
 		Protected Harvest
 		Enigmatic Harvest
+		Compacted Harvest
 		
 	Section:Era of Harvest
 		The Era of Harvest
@@ -743,6 +765,7 @@ Domain:Harvest
 		The Harvest Compulsion
 		The Harvest Principle
 		The Harvest Patterning
+		The Harvest Imperative
 		
 	Section:Harvest Aegis / Shield
 		Bountiful Harvest
@@ -753,14 +776,21 @@ Domain:Harvest
 		Expanding the Grid
 		Shields of the Verdant
 		Shields of the Protector
+		Shields of the Frontier
+
+	Section:Harvest Vault
+		Mining Guild Agreements
+		Harvesting Guild Agreements
+		Frontier Guild Agreements
 		
 	Section:HyperNexus Power Shunt
 		Nature's Protection
 		Nature's Wrath
 		
 	Section:Influence Zone
-		Outsider's Accession
 		Outsider's Claim
+		Outsider's Accession
+		Outsider's Eminence
 		
 	Section:Ravyn
 		Sileena's Fate
@@ -778,16 +808,16 @@ Domain:Harvest
 		
 	Section:Scrap
 		Habitat Reclamation
+		Colonial Reclamation
 		
 	Section:Universal Omni-Harvester
 		Urban Paradise
 		Sarkonis Paradise
 		
 	Section:Other GP
-		Mining Guild Agreements
 		Territorial Clustering
-		Harvesting Guild Agreements
 		Nature's Diversity
+		Making Landfall
 		
 	Section:Other
 		Terran Nature
@@ -795,6 +825,9 @@ Domain:Harvest
 		Universal Colonization
 		Quests of the Harvest
 		Biodome Synchrony
+		Conflicting Territory
+		Frontier Synchrony
+		Challenging Colonies
 		
 Domain:Scruuge
 	
@@ -882,6 +915,7 @@ Domain:Synesthetic
 		The Synesthetic Convergence
 		The Synesthetic Fusion
 		The Synesthetic Assimilation
+		The Synesthetic Communion
 
 	Section:Other
 		Fusion of Identities

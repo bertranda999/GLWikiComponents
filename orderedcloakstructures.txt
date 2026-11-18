@@ -1,5 +1,6 @@
 Vaash Sentry Drone: 100000
 Chuhn ExoGalactic Relay: 100000
+Jeweled Sentinel v4: 100000
 Jeweled Sentinel v3: 100000
 Antigrav Citadel v4: 100000
 Antigrav Citadel v3: 100000
@@ -22,7 +23,7 @@ Tranquil Monolith (50%): 10000.0
 Tranquil Monolith (45%): 9000.0
 Tranquil Monolith (40%): 8000.0
 Tranquil Monolith (35%): 7000.0
-Velamen Reactor v3: 7000.0
+Velamen Reactor v4: 7000.0
 Tranquil Monolith (30%): 6000.0
 Cross-Signal Restrainer: 6000.0
 Velamen Reactor v3: 5200.0
@@ -33,6 +34,7 @@ Elios Ignis Tower: 4400.0
 Bio-Luminous Orb: 4400.0
 Raix Stasis Hold III: 4200.0
 Ergosphere Filter: 4150.0
+T.O. Frontier Redoubt: 4004.0
 Tranquil Monolith (20%): 4000.0
 Corrupted Edifice: 4000.0
 Adumbrate Junction: 3600.0
@@ -88,10 +90,12 @@ SubVoid Darkdrone E: 1111.0
 Vaash Drone Tower (Upgraded): 1110.0
 Bane Generator XV: 1100.0
 SubVoid Darkdrone B: 1100.0
+T.O. Harvest Vault XVI - Upgraded: 1050.0
 Tranquil Monolith (5%): 1000.0
 Tejiar Ally HQ II: 1000.0
 Ryelis Analyzer: 1000.0
 Roathir Listening Post: 1000.0
+T.O. Harvest Vault XVI: 950.0
 Bane Generator XIV: 900.0
 Dais of Deceit: 900.0
 T.O. Fortisphere: 900.0
@@ -143,6 +147,7 @@ Biosphere Gyre v4: 440.0
 Supel Comm Tower: 420.0
 Obscura Lab: 420.0
 T.O. Genesis Loom: 411.0
+Chuhn Scrap Complex: 404.0
 Stryll Bio-Shroud Array: 404.0
 Entropy Repulsor Pylon: 400.0
 Raix Refinery II: 400.0

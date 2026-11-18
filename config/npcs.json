@@ -229,5 +229,47 @@
                 "xp": "333"
             }
         ]
+    },
+    {
+        "name": "Sarkonis, Blighted Reaper",
+        "rewards": [
+            {
+                "artifact": "Sarkonis Blightpod",
+                "xp": "48"
+            },
+            {
+                "artifact": "Irradiated Blightseed",
+                "xp": "42"
+            }
+        ],
+        "desc": "Sarkonis has returned changed, warped and twisted by dark forces...",
+        "abilities": [
+            {
+                "type": "IMI Immune"
+            },
+            {
+                "type": "% Damage"
+            },
+            {
+                "type": "Repair"
+            },
+            {
+                "type": "Increase Stats"
+            }
+        ],
+        "img": "alt/blight8.png"
+    },
+    {
+        "name": "T.O. Harvester (2026)",
+        "rewards": [
+            {
+                "artifact": "Captured T.O. Harvester XVII",
+                "xp": "10"
+            }
+        ]
+    },
+    {
+        "name": "T.O. Blighted Thresher",
+        "desc": "A strange, corrupted Harvester that appears to be following a different course than the others..."
     }
 ]

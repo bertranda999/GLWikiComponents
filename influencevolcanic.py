@@ -108,7 +108,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-maxSpace = 94
+maxSpace = 122
 while volcInfStructs.__len__() > 0 and totalSpace < maxSpace:
     max = 0
     maxStruct = volcInfStructs[0]

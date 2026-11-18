@@ -1585,6 +1585,32 @@
 | align="center" | No
 | align="center" | No
 |-
+| [[Topopolis|Topopolis (100%)]]
+| align="center" | 6
+| align="center" | None
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 2000
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
 | [[Sulcation Portal Blueprints|Sulcation Portal]]
 | align="center" | 2
 | align="center" | 1
@@ -1949,6 +1975,58 @@
 | align="center" | No
 | align="center" | Yes
 |-
+| [[Processing Mega-Core]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Processing Mega-Core|Processing Mega-Core II]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
 | [[Refining Lab Chassis|Refining Lab]]
 | align="center" | 1
 | align="center" | 1
@@ -2001,6 +2079,58 @@
 | align="center" | No
 | align="center" | Yes
 |-
+| [[Relay Mega-Tower]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Relay Mega-Tower|Relay Mega-Tower II]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
 | [[Space Elevator Chassis|Space Elevator]]
 | align="center" | 1
 | align="center" | 2
@@ -2026,6 +2156,58 @@
 | align="center" | 
 | align="center" | No
 | align="center" | Yes
+|-
+| [[Space Mega-Elevator]]
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 50
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Space Mega-Elevator II]]
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 50
+| align="center" | 
+| align="center" | No
+| align="center" | No
 |-
 | [[Spy Uplink Chassis|Spy Uplink]]
 | align="center" | 1
@@ -6549,7 +6731,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Hyperluminal Satellite|Hyperluminal Sat-Grid]]
 | align="center" | 1
@@ -8031,7 +8213,7 @@
 | align="center" | 
 | align="center" | 50
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Vorean Biostasis Lab|Vorean Biostasis Lab (Upgraded)]]
 | align="center" | 1
@@ -8057,7 +8239,7 @@
 | align="center" | 
 | align="center" | 50
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Ryelis Analyzer]]
 | align="center" | 1
@@ -8135,7 +8317,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Ardyne Transfer Conduit]]
 | align="center" | 1
@@ -11723,7 +11905,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | No
+| align="center" | Yes
 |-
 | [[Quantum Accelerator|Quantum Accelerator (M) 100%]]
 | align="center" | 2
@@ -11749,7 +11931,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | No
+| align="center" | Yes
 |-
 | [[Quantum Accelerator|Quantum Accelerator (A)]]
 | align="center" | 2
@@ -11801,7 +11983,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | No
+| align="center" | Yes
 |-
 | [[Quantum Accelerator|Quantum Accelerator (A) 100%]]
 | align="center" | 2
@@ -11827,7 +12009,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | No
+| align="center" | Yes
 |-
 | [[Quantum Accelerator|Quantum Accelerator (R)]]
 | align="center" | 2
@@ -11879,7 +12061,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | No
+| align="center" | Yes
 |-
 | [[Quantum Accelerator|Quantum Accelerator (R) 100%]]
 | align="center" | 2
@@ -11905,7 +12087,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | No
+| align="center" | Yes
 |-
 | [[Dark Supercollider]]
 | align="center" | 1
@@ -12425,7 +12607,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Q-Pedd Science Station|Q-Pedd Science Station 2.0]]<sup>12</sup>
 | align="center" | 2
@@ -12451,7 +12633,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Q-Pedd Science Station|Q-Pedd Science Station 3.0]]<sup>12</sup>
 | align="center" | 2
@@ -12477,7 +12659,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Q-Pedd Science Station|Q-Pedd Science Station 4.0]]<sup>12</sup>
 | align="center" | 2
@@ -12841,7 +13023,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lepus Drone (artifact)|Lepus Drone 2.0]]<sup>12</sup>
 | align="center" | 1
@@ -12867,7 +13049,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lepus Drone (artifact)|Lepus Drone 3.0]]<sup>12</sup>
 | align="center" | 1
@@ -12893,7 +13075,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lepus Drone (artifact)|Lepus Drone 4.0]]<sup>12</sup>
 | align="center" | 1
@@ -13257,7 +13439,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Auric Lepus Drone (artifact)|Auric Lepus Drone 2.0]]<sup>12</sup>
 | align="center" | 1
@@ -13283,7 +13465,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Auric Lepus Drone (artifact)|Auric Lepus Drone 3.0]]<sup>12</sup>
 | align="center" | 1
@@ -13309,7 +13491,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Auric Lepus Drone (artifact)|Auric Lepus Drone 4.0]]<sup>12</sup>
 | align="center" | 1
@@ -14039,6 +14221,32 @@
 | align="center" | No
 | align="center" | No
 |-
+| [[Chuhn Scrap Complex]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 9
+| align="center" | 
+| align="center" | 
+| align="center" | 6
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 404
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
 | [[Chuhn Trading Post|Chuhn Trading Hub]]
 | align="center" | 1
 | align="center" | 1
@@ -14144,7 +14352,7 @@
 | align="center" | No
 |-
 | [[Chuhn InterMarket Caster]]
-| align="center" | 1
+| align="center" | 0
 | align="center" | 1
 | align="center" | 
 | align="center" | 
@@ -14170,7 +14378,7 @@
 | align="center" | No
 |-
 | [[Chuhn InterMarket Caster|Chuhn InterMarket Caster v2]]
-| align="center" | 1
+| align="center" | 0
 | align="center" | 1
 | align="center" | 
 | align="center" | 
@@ -14196,7 +14404,7 @@
 | align="center" | No
 |-
 | [[Chuhn InterMarket Caster|Chuhn InterMarket Caster v3]]
-| align="center" | 1
+| align="center" | 0
 | align="center" | 1
 | align="center" | 
 | align="center" | 
@@ -14222,7 +14430,7 @@
 | align="center" | No
 |-
 | [[Chuhn InterMarket Caster|Chuhn InterMarket Caster v4]]
-| align="center" | 1
+| align="center" | 0
 | align="center" | 1
 | align="center" | 
 | align="center" | 
@@ -14271,7 +14479,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Bane Generator|Bane Generator II]]<sup>12</sup>
 | align="center" | 2
@@ -14297,7 +14505,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Bane Generator|Bane Generator III]]<sup>12</sup>
 | align="center" | 2
@@ -14323,7 +14531,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Bane Generator|Bane Generator IV]]<sup>12</sup>
 | align="center" | 2
@@ -14349,7 +14557,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Bane Generator|Bane Generator V]]<sup>12</sup>
 | align="center" | 2
@@ -14375,7 +14583,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Bane Generator|Bane Generator VI]]<sup>12</sup>
 | align="center" | 2
@@ -15781,6 +15989,58 @@
 | align="center" | No
 | align="center" | No
 |-
+| [[T.O. Harvest Vault|T.O. Harvest Vault XVI]]
+| align="center" | 2
+| align="center" | 2
+| align="center" | 28
+| align="center" | 
+| align="center" | 17000
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1900
+| align="center" | 
+| align="center" | 
+| align="center" | 24
+| align="center" | No
+| align="center" | No
+|-
+| [[T.O. Harvest Vault|T.O. Harvest Vault XVI - Upgraded]]
+| align="center" | 2
+| align="center" | 2
+| align="center" | 29
+| align="center" | 
+| align="center" | 17500
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 2100
+| align="center" | 
+| align="center" | 
+| align="center" | 28
+| align="center" | No
+| align="center" | No
+|-
 | [[Scruuge Hoarding Vault]]<sup>12</sup>
 | align="center" | 2
 | align="center" | 2
@@ -15805,7 +16065,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Scruuge Hoarding Vault|Scruuge Hoarding Vault II]]<sup>12</sup>
 | align="center" | 2
@@ -15831,7 +16091,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Scruuge Hoarding Vault|Scruuge Hoarding Vault III]]<sup>12</sup>
 | align="center" | 2
@@ -15857,7 +16117,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Scruuge Hoarding Vault|Scruuge Hoarding Vault IV]]<sup>12</sup>
 | align="center" | 2
@@ -15883,7 +16143,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Scruuge Hoarding Vault|Scruuge Hoarding Vault IV]]<sup>12</sup>
 | align="center" | 2
@@ -15909,7 +16169,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Scruuge Hoarding Vault|Scruuge Hoarding Vault V]]<sup>12</sup>
 | align="center" | 2
@@ -15935,7 +16195,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Scruuge Hoarding Vault|Scruuge Hoarding Vault VI]]<sup>12</sup>
 | align="center" | 2
@@ -16535,7 +16795,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Micro-Raix Cyclotron|Micro-Raix Cyclotron 2]]
+| [[Micro-Raix Cyclotron|Micro-Raix Cyclotron (2)]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 
@@ -16561,7 +16821,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Micro-Raix Cyclotron|Micro-Raix Cyclotron 3]]
+| [[Micro-Raix Cyclotron|Micro-Raix Cyclotron (3)]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 
@@ -17677,7 +17937,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lazuli Darkmine Cluster]]
 | align="center" | 1
@@ -17729,7 +17989,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lazuli Shipyard]]
 | align="center" | 1
@@ -19011,7 +19271,7 @@
 | align="center" | 5
 | align="center" | 
 | align="center" | 
-| align="center" | 5
+| align="center" | 4
 | align="center" | 
 | align="center" | 
 | align="center" | 
@@ -19133,7 +19393,7 @@
 | align="center" | 
 | align="center" | 20
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lepus Chromatic Gateway]]
 | align="center" | 1
@@ -19159,7 +19419,7 @@
 | align="center" | 
 | align="center" | 30
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lepus Bio-Mech Gateway]]
 | align="center" | 1
@@ -19185,7 +19445,7 @@
 | align="center" | 
 | align="center" | 40
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lepus Bio-Mech Hypergate]]
 | align="center" | 1
@@ -19341,7 +19601,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Lepus Clone-Program Tank]]
 | align="center" | 1
@@ -19419,7 +19679,7 @@
 | align="center" | 200
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 2.0]]<sup>12</sup>
 | align="center" | 1
@@ -19445,7 +19705,7 @@
 | align="center" | 250
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 3.0]]<sup>12</sup>
 | align="center" | 1
@@ -19471,7 +19731,7 @@
 | align="center" | 500
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 4.0]]<sup>12</sup>
 | align="center" | 1
@@ -19497,7 +19757,7 @@
 | align="center" | 800
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 5.0]]<sup>12</sup>
 | align="center" | 1
@@ -19523,7 +19783,7 @@
 | align="center" | 1200
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 6.0]]<sup>12</sup>
 | align="center" | 1
@@ -19549,7 +19809,7 @@
 | align="center" | 1600
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 7.0]]<sup>12</sup>
 | align="center" | 1
@@ -19575,7 +19835,7 @@
 | align="center" | 2500
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 8.0]]<sup>12</sup>
 | align="center" | 1
@@ -19601,7 +19861,7 @@
 | align="center" | 3700
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 9.0]]<sup>12</sup>
 | align="center" | 1
@@ -19627,7 +19887,7 @@
 | align="center" | 5000
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 10.0]]<sup>12</sup>
 | align="center" | 1
@@ -19653,7 +19913,7 @@
 | align="center" | 6500
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 11.0]]<sup>12</sup>
 | align="center" | 1
@@ -19679,7 +19939,7 @@
 | align="center" | 8500
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator 12.0]]
 | align="center" | 1
@@ -19705,7 +19965,7 @@
 | align="center" | 10000
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Affection Disseminator|Affection Disseminator Ultracore]]
 | align="center" | 1
@@ -20121,7 +20381,7 @@
 | align="center" | 500
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Sarkonis Headquarters|Sarkonis Headquarters - Upgraded]]
 | align="center" | 1
@@ -20173,7 +20433,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Sarkonis Omnipod|Sarkonis Omnipod - Upgraded]]
 | align="center" | 1
@@ -20198,6 +20458,32 @@
 | align="center" | 
 | align="center" | 
 | align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Sarkonis Blightpod]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 2
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 30
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | -80
 | align="center" | No
 | align="center" | No
 |-
@@ -20277,7 +20563,7 @@
 | align="center" | 160
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Captured T.O. Harvester|Captured T.O. Harvester II]]<sup>12</sup>
 | align="center" | 2
@@ -20303,7 +20589,7 @@
 | align="center" | 300
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Captured T.O. Harvester|Captured T.O. Harvester III]]<sup>12</sup>
 | align="center" | 2
@@ -20329,7 +20615,7 @@
 | align="center" | 600
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Captured T.O. Harvester|Captured T.O. Harvester IV]]<sup>12</sup>
 | align="center" | 2
@@ -20355,7 +20641,7 @@
 | align="center" | 1000
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Captured T.O. Harvester|Captured T.O. Harvester V]]<sup>12</sup>
 | align="center" | 2
@@ -20381,7 +20667,7 @@
 | align="center" | 2000
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Captured T.O. Harvester|Captured T.O. Harvester VI]]<sup>12</sup>
 | align="center" | 2
@@ -20407,7 +20693,7 @@
 | align="center" | 3500
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Captured T.O. Harvester|Captured T.O. Harvester VII]]<sup>12</sup>
 | align="center" | 2
@@ -20433,7 +20719,7 @@
 | align="center" | 5000
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Captured T.O. Harvester|Captured T.O. Harvester VIII]]<sup>12</sup>
 | align="center" | 2
@@ -20459,7 +20745,7 @@
 | align="center" | 8000
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Captured T.O. Harvester|Captured T.O. Harvester IX]]<sup>12</sup>
 | align="center" | 2
@@ -20691,6 +20977,58 @@
 | align="center" | 
 | align="center" | 
 | align="center" | 80000
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Captured T.O. Harvester|Captured T.O. Harvester XVII]]
+| align="center" | 2
+| align="center" | 1
+| align="center" | 12
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 44000
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Captured T.O. Harvester|Captured T.O. Harvester XVII - Upgraded]]
+| align="center" | 2
+| align="center" | 1
+| align="center" | 13
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 88000
 | align="center" | 
 | align="center" | No
 | align="center" | No
@@ -21395,7 +21733,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Polaron Emitter|Polaron Emitter (Upgraded)]]
 | align="center" | 1
@@ -21421,7 +21759,7 @@
 | align="center" | 
 | align="center" | 
 | align="center" | No
-| align="center" | Yes
+| align="center" | No
 |-
 | [[Perpetual HyperTurbine]]
 | align="center" | 1
@@ -25427,6 +25765,32 @@
 | align="center" | No
 | align="center" | No
 |-
+| [[Jeweled Sentinel|Jeweled Sentinel v4]]
+| align="center" | 0
+| align="center" | 1
+| align="center" | 1
+| align="center" | 6
+| align="center" | 
+| align="center" | 3
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 404
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
 | [[Crystalline Portal]]
 | align="center" | 1
 | align="center" | 1
@@ -26155,7 +26519,7 @@
 | align="center" | No
 | align="center" | No
 |-
-| [[Velamen Reactor|Velamen Reactor v3]]
+| [[Velamen Reactor|Velamen Reactor v4]]
 | align="center" | 1
 | align="center" | 1
 | align="center" | 
@@ -26412,5 +26776,421 @@
 | align="center" | 
 | align="center" | 
 | align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Grand Electorum]]
+| align="center" | 2
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 
+| align="center" | 300
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[T.O. Drop Pod]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 15
+| align="center" | No
+| align="center" | No
+|-
+| [[T.O. Drop Pod|T.O. Drop Pod v2]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 20
+| align="center" | No
+| align="center" | No
+|-
+| [[T.O. Drop Pod|T.O. Drop Pod v3]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 28
+| align="center" | No
+| align="center" | No
+|-
+| [[T.O. Drop Pod|T.O. Drop Pod v4]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 2
+| align="center" | 2
+| align="center" | 
+| align="center" | 2
+| align="center" | 2
+| align="center" | 
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 36
+| align="center" | No
+| align="center" | No
+|-
+| [[Blight Siphon]]
+| align="center" | 2
+| align="center" | 1
+| align="center" | 8
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 22
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | -80
+| align="center" | No
+| align="center" | No
+|-
+| [[T.O. Pioneer Homestead]]
+| align="center" | 2
+| align="center" | 1
+| align="center" | 3
+| align="center" | 4
+| align="center" | 
+| align="center" | 2
+| align="center" | 4
+| align="center" | 
+| align="center" | 2
+| align="center" | 4
+| align="center" | 
+| align="center" | 1
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[T.O. Frontier Redoubt]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 404
+| align="center" | 18
+| align="center" | 
+| align="center" | 20
+| align="center" | No
+| align="center" | No
+|-
+| [[Vearon Dataworks]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Vearon Promenade]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Vearon Treasury]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 4
+| align="center" | 4
+| align="center" | 
+| align="center" | 4
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 4
+| align="center" | 
+| align="center" | 1
+| align="center" | 4
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Vearon Darkpits]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Vearon Underforge]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 2
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | No
+| align="center" | No
+|-
+| [[Sarkonis Blightpod]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 2
+| align="center" | 2
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 30
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | -80
+| align="center" | No
+| align="center" | No
+|-
+| [[T.O. Landfall Beacon]]
+| align="center" | 0
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 3
+| align="center" | 3
+| align="center" | 1100
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 24
+| align="center" | No
+| align="center" | No
+|-
+| [[Bexx Resort]]
+| align="center" | 1
+| align="center" | 1
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 1
+| align="center" | 
+| align="center" | 320
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 
+| align="center" | 35
 | align="center" | No
 | align="center" | No

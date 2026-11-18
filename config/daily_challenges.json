@@ -117,5 +117,78 @@
         "desc": "Receive 5 different rewards from NPCs shared by other players.",
         "duration": "2 days",
         "reward": "4"
+    },
+    {
+        "name": "Distributed Salvage",
+        "img": "npcspoils1.jpg",
+        "desc": "Receive artifact rewards from 4 different NPCs shared by other players.",
+        "duration": "2 days",
+        "reward": "4"
+    },
+    {
+        "name": "Trials of Fury",
+        "img": "minigame3.jpg",
+        "desc": "Win 2 different minigames on Hard difficulty.",
+        "duration": "2 days",
+        "reward": "3"
+    },
+    {
+        "name": "Vile Infrastructure",
+        "img": "nnbane15.jpg",
+        "desc": "Build 6 different kinds of Bane structures (via artifacts) on your planets",
+        "duration": "2 days",
+        "reward": "3",
+        "season": "Bane"
+    },
+    {
+        "name": "Brutal Ambush",
+        "img": "nnbane14.jpg",
+        "desc": "Invade 2 planets with a colony age of 1 year or greater",
+        "duration": "3 days",
+        "reward": "3",
+        "season": "Bane"
+    },
+    {
+        "name": "Silent Conquest",
+        "img": "invadesilent1.jpg",
+        "desc": "Invade 2 planets that only you and the prior owner have scanned.",
+        "duration": "3 days",
+        "reward": "3"
+    },
+    {
+        "name": "Frontier Infrastructure",
+        "img": "eoh3.jpg",
+        "desc": "Build 6 different kinds of 'Era of Harvest' structures (via artifacts) on Terra planets",
+        "duration": "2 days",
+        "reward": "4",
+        "season": "Harvest",
+        "requires": [
+            {
+                "type": "Owned Planet Type",
+                "types": [
+                    "Terra"
+                ]
+            }
+        ],
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "effectType": "Construct Structure",
+                "tags": "Harvest"
+            }
+        ]
+    },
+    {
+        "name": "Border Habitats",
+        "img": "eoh5.jpg",
+        "desc": "Colonize 3 Terra planets that are Large size or smaller",
+        "duration": "2 days",
+        "reward": "4",
+        "season": "Harvest",
+        "triggers": [
+            {
+                "type": "Colonize"
+            }
+        ]
     }
 ]

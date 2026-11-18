@@ -113,5 +113,108 @@
 				"artifact": "Spectral Conglomerate"
 			}
 		]
+	},
+	{
+		"name": "Covernant of Dominion",
+		"playerEffects": [
+			{
+				"type": "Increase Planetary Damage Cap",
+				"value": "20%"
+			},
+			{
+				"type": "Reset Invade Timer"
+			}
+		]
+	},
+	{
+		"name": "Harvesting Initiative",
+		"playerEffects": [
+			{
+				"type": "Increase Artifact Storage",
+				"value": "2%"
+			},
+			{
+				"type": "Add Daily Challenge"
+			}
+		]
+	},
+	{
+		"name": "Mandate of Seizure",
+		"playerEffects": [
+			{
+				"type": "Reset Base Raid"
+			},
+			{
+				"type": "Increase Artifact",
+				"value": "5%"
+			}
+		]
+	},
+	{
+		"name": "Power Distribution Allotment",
+		"playerEffects": [
+			{
+				"type": "Refill Energy"
+			},
+			{
+				"type": "Increase Energy",
+				"value": "5%"
+			}
+		]
+	},
+	{
+		"name": "Supply Dispersion Initiative",
+		"playerEffects": [
+			{
+				"type": "Reset Daily Reward / Supporter Bonus"
+			},
+			{
+				"type": "Increase Mining",
+				"value": "5%"
+			}
+		]
+	},
+	{
+		"name": "Research Collaboration Initiative",
+		"playerEffects": [
+			{
+				"type": "Increase Research Storage",
+				"value": "6%"
+			}
+		]
+	},
+	{
+		"name": "Planetary Uplift Corps",
+		"activeAbility": {
+			"name": "Planetary Uplift Corps",
+			"planetaryEffectsConditional": [
+				{
+					"type": "Increase Production",
+					"value": "12%",
+					"conditions": [
+						{
+							"type": "Size",
+							"max": "Small"
+						}
+					]
+				},
+				{
+					"type": "Increase Production",
+					"value": "6%"
+				}
+			]
+		}
+	},
+	{
+		"name": "Data Unification Act",
+		"playerEffects": [
+			{
+				"type": "Increase Research",
+				"value": "6%"
+			},
+			{
+				"type": "Reset Invade Timer"
+			}
+		]
 	}
 ]

@@ -405,10 +405,27 @@
         "desc": "Employ Legion-wide systems to accelerate planetary uplift and environmental transformation."
     },
     {
-        "name": "Unknown",
+        "name": "Neurosync Coalescence",
         "prereqs": [
             "Cybernetic Synchrony"
         ],
-        "level": 4
+        "level": 3,
+        "cost": {
+            "influence": "8,800",
+            "genes": "16",
+            "studes": "1,200",
+            "ctp": "1,900"
+        },
+        "cooldown": "8 hours",
+        "phases": "450",
+        "bonusDesc": "Increases Collective Theory Lab designs available to discover by 1",
+        "desc": "Integrate neural interfaces to enable shared cognition and rapid collective response.",
+        "img": "minds1.jpg",
+        "legionEffects": [
+            {
+                "type": "Increase CTL Slots",
+                "value": "1"
+            }
+        ]
     }
 ]

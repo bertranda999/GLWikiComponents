@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Novis Lux-Wheel, Vearon, Harvest",
+        "prizes": [
+            "Bexx Resort",
+            "Prime-World Commission",
+            "Vearon Tumbler",
+            "Vearon Darkpits",
+            "Vearon Underforge",
+            "Vearon Dataworks",
+            "Vearon Promenade"
+        ],
+        "powerPrizes": [
+            "Bexx Resort",
+            "Prime-World Commission",
+            "Vearon Tumbler",
+            "Vearon Darkpits",
+            "Vearon Underforge",
+            "Vearon Dataworks",
+            "Vearon Promenade",
+            "Vearon Credit Chip",
+            "T.O. Drop Pod",
+            "Megastructure Chassis Crane"
+        ],
+        "dialogue": [
+            {
+                "char": "Welcome, [Player Name]. I am Hawj, your Novis Lux-Wheel Host. How can I be of assistance?",
+                "player": "How do you play Novis?"
+            },
+            {
+                "char": "Simple. Novis is a standard Galaxy Wheel variant. You spin, and a random prize is awarded. A free 'Power Spin' activates after 10 regular spins.",
+                "player": "...Power Spin?"
+            },
+            {
+                "char": "Oh yes. In Novis, the Power Spin is a free spin that rewards only rarer items. You will notice the wheel 'charging up' as you get closer to reaching it.",
+                "player": "Interesting..."
+            },
+            {
+                "char": "Probabilities are listed on the 'Rewards' docket. I would offer you a refreshment, but you'll need to come visit us in person.",
+                "player": "Where did you get these Terran Outsider Drop Pods?"
+            },
+            {
+                "char": "Excess supply that was gambled during a recent visit. We're happy to offer them. Excellent condition.",
+                "player": "You are from Vearon?"
+            },
+            {
+                "char": "Yes... the second largest planet by population in the Empyreal Core.",
+                "player": "Galakis is within your system?"
+            },
+            {
+                "char": "Oh, no. Vearon is within the Vearon Ring... an entire system built for luxury. Galakis is another entirely...",
+                "player": "We had a run-in with Lady Mawks in Vearon."
+            },
+            {
+                "char": "Yes... quite a mess that was. Mawks hasn't been seen here for quite some time... not that she makes her presence known on purpose.",
+                "player": "There's been no sign of her at all?"
+            },
+            {
+                "char": "Vearon takes security extremely seriously, and rest assured that you won't be interrupted by criminals while enjoying your time here... Vetheral or otherwise.",
+                "player": "Good to Know."
+            },
+            {
+                "char": "We are the destination of destinations within the galaxy. You should visit."
+            }
+        ]
+    }
+]

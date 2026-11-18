@@ -10,6 +10,7 @@ skip = [
     "Chuhn Trading Hub (Upgraded)",
     "Chuhn Trading Hub",
     "Chuhn Trading Post (Doubled)",
+    "Chuhn Trading Post",
     "Orion Menagerie",
     "Crownspire, Spectral Palace",
     "Lepus C-34 Fluxgate",
@@ -27,6 +28,13 @@ skip = [
     "Supel Microhaven (T)",
     "Supel Microhaven (VS)",
     "Human Tactical Barracks",
+    "Human Training Barracks",
+    "Lepus Bio-Nest",
+    "Lepus Clone-Program Tank",
+    "Symbiont Test Lab",
+    "Supel Incubator",
+    "Litheor Deep-Phase Sanctuary",
+    "Quantum Hydro-Meliorator (Pop Tripled)",
 ]
 
 artifacts = []
@@ -101,7 +109,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-space = 57
+space = 69
 while totalSpace < space:
     max = 0
     maxStruct = volcInfStructs[0]

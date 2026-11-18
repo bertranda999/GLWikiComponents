@@ -489,6 +489,15 @@
         "p": 1000
     },
     {
+        "name": "Topopolis (100%)",
+        "base": "Topopolis",
+        "size": 6,
+        "limit": 0,
+        "limited": false,
+        "extract": false,
+        "p": 2000
+    },
+    {
         "name": "Sulcation Portal",
         "size": 2,
         "limit": 1,
@@ -618,6 +627,25 @@
         "ap": 1
     },
     {
+        "name": "Processing Mega-Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 2
+    },
+    {
+        "name": "Processing Mega-Core II",
+        "base": "Processing Mega-Core",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "ap": 3
+    },
+    {
         "name": "Refining Lab",
         "size": 1,
         "limit": 1,
@@ -636,12 +664,49 @@
         "rp": 1
     },
     {
+        "name": "Relay Mega-Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "rp": 1
+    },
+    {
+        "name": "Relay Mega-Tower II",
+        "base": "Relay Mega-Tower",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
+        "rp": 1
+    },
+    {
         "name": "Space Elevator",
         "size": 1,
         "limit": 2,
         "limited": false,
         "extract": true,
         "ap": 1,
+        "p": 50
+    },
+    {
+        "name": "Space Mega-Elevator",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "p": 50
+    },
+    {
+        "name": "Space Mega-Elevator II",
+        "size": 1,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "ap": 3,
         "p": 50
     },
     {
@@ -2538,7 +2603,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 1,
         "rp": 3,
         "c": 200
@@ -3288,7 +3353,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 1,
         "rp": 1,
         "bp": 50
@@ -3299,7 +3364,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 2,
         "rp": 2,
         "bp": 50
@@ -3330,7 +3395,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 2,
         "ap": 2,
         "id": 2000
@@ -5006,7 +5071,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": false,
+        "extract": true,
         "mp": 3,
         "c": 225
     },
@@ -5016,7 +5081,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": false,
+        "extract": true,
         "mp": 4,
         "c": 300
     },
@@ -5036,7 +5101,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": false,
+        "extract": true,
         "ap": 3,
         "c": 225
     },
@@ -5046,7 +5111,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": false,
+        "extract": true,
         "ap": 4,
         "c": 300
     },
@@ -5066,7 +5131,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": false,
+        "extract": true,
         "rp": 3,
         "c": 225
     },
@@ -5076,7 +5141,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": false,
+        "extract": true,
         "rp": 4,
         "c": 300
     },
@@ -5279,7 +5344,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 3,
         "rps": 2000
     },
@@ -5289,7 +5354,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 3,
         "rps": 3000
     },
@@ -5299,7 +5364,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 3,
         "rps": 4000
     },
@@ -5442,7 +5507,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 1,
         "at": 100,
         "d": 100
@@ -5453,7 +5518,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 2,
         "at": 200,
         "d": 200
@@ -5464,7 +5529,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 2,
         "at": 500,
         "d": 500
@@ -5645,7 +5710,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 2,
         "at": 250,
         "d": 250
@@ -5656,7 +5721,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 3,
         "at": 400,
         "d": 400
@@ -5667,7 +5732,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 3,
         "rp": 1,
         "at": 1500,
@@ -6023,6 +6088,17 @@
         "ap": 3
     },
     {
+        "name": "Chuhn Scrap Complex",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 9,
+        "ap": 6,
+        "ip": 1,
+        "c": 404
+    },
+    {
         "name": "Chuhn Trading Hub",
         "size": 1,
         "limit": 1,
@@ -6071,7 +6147,7 @@
     },
     {
         "name": "Chuhn InterMarket Caster",
-        "size": 1,
+        "size": 0,
         "limit": 1,
         "limited": false,
         "extract": false,
@@ -6082,7 +6158,7 @@
     {
         "name": "Chuhn InterMarket Caster v2",
         "base": "Chuhn InterMarket Caster",
-        "size": 1,
+        "size": 0,
         "limit": 1,
         "limited": false,
         "extract": false,
@@ -6093,7 +6169,7 @@
     {
         "name": "Chuhn InterMarket Caster v3",
         "base": "Chuhn InterMarket Caster",
-        "size": 1,
+        "size": 0,
         "limit": 1,
         "limited": false,
         "extract": false,
@@ -6104,7 +6180,7 @@
     {
         "name": "Chuhn InterMarket Caster v4",
         "base": "Chuhn InterMarket Caster",
-        "size": 1,
+        "size": 0,
         "limit": 1,
         "limited": false,
         "extract": false,
@@ -6117,7 +6193,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 3,
         "ap": 2,
         "at": 500
@@ -6128,7 +6204,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 3,
         "ap": 3,
         "at": 800
@@ -6139,7 +6215,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 4,
         "ap": 3,
         "at": 1200
@@ -6150,7 +6226,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 5,
         "ap": 3,
         "at": 1600
@@ -6161,7 +6237,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 6,
         "ap": 3,
         "at": 3000
@@ -6822,11 +6898,35 @@
         "c": 1700
     },
     {
+        "name": "T.O. Harvest Vault XVI",
+        "base": "T.O. Harvest Vault",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 28,
+        "mps": 17000,
+        "bp": 24,
+        "c": 1900
+    },
+    {
+        "name": "T.O. Harvest Vault XVI - Upgraded",
+        "base": "T.O. Harvest Vault",
+        "size": 2,
+        "limit": 2,
+        "limited": false,
+        "extract": false,
+        "mp": 29,
+        "mps": 17500,
+        "bp": 28,
+        "c": 2100
+    },
+    {
         "name": "Scruuge Hoarding Vault",
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 3,
         "aps": 4000
     },
@@ -6836,7 +6936,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 3,
         "aps": 5000
     },
@@ -6846,7 +6946,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 3,
         "aps": 6000
     },
@@ -6856,7 +6956,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 3,
         "aps": 7000
     },
@@ -6866,7 +6966,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 3,
         "aps": 7000
     },
@@ -6876,7 +6976,7 @@
         "size": 2,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 3,
         "aps": 8000
     },
@@ -7205,7 +7305,7 @@
         "ips": 200
     },
     {
-        "name": "Micro-Raix Cyclotron 2",
+        "name": "Micro-Raix Cyclotron (2)",
         "base": "Micro-Raix Cyclotron",
         "size": 1,
         "limit": 1,
@@ -7219,7 +7319,7 @@
         "ips": 260
     },
     {
-        "name": "Micro-Raix Cyclotron 3",
+        "name": "Micro-Raix Cyclotron (3)",
         "base": "Micro-Raix Cyclotron",
         "size": 1,
         "limit": 1,
@@ -7696,7 +7796,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "at": 600,
         "bat": 25,
         "bc": 15
@@ -7716,7 +7816,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "at": 1200,
         "bat": 30,
         "bc": 15
@@ -8302,7 +8402,7 @@
         "limited": false,
         "extract": false,
         "mp": 5,
-        "ap": 5,
+        "ap": 4,
         "bd": 42
     },
     {
@@ -8347,7 +8447,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 1,
         "rp": 1,
         "bp": 20
@@ -8357,7 +8457,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 1,
         "ap": 1,
         "rp": 1,
@@ -8368,7 +8468,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 2,
         "ap": 1,
         "rp": 2,
@@ -8434,7 +8534,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 1,
         "mps": 200,
         "ap": 1,
@@ -8471,7 +8571,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "d": 200,
         "p": 200
     },
@@ -8481,7 +8581,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 250,
         "p": 250
@@ -8492,7 +8592,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 500,
         "p": 500
@@ -8503,7 +8603,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 800,
         "p": 800
@@ -8514,7 +8614,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 1200,
         "p": 1200
@@ -8525,7 +8625,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 1600,
         "p": 1600
@@ -8536,7 +8636,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 2500,
         "p": 2500
@@ -8547,7 +8647,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 3700,
         "p": 3700
@@ -8558,7 +8658,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 5000,
         "p": 5000
@@ -8569,7 +8669,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 6500,
         "p": 6500
@@ -8580,7 +8680,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 8500,
         "p": 8500
@@ -8591,7 +8691,7 @@
         "size": 1,
         "limit": 2,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "d": 10000,
         "p": 10000
@@ -8763,7 +8863,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "bd": 10,
         "p": 500
@@ -8784,7 +8884,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "ap": 1,
         "bat": 10
     },
@@ -8798,6 +8898,18 @@
         "ap": 1,
         "rp": 1,
         "bat": 20
+    },
+    {
+        "name": "Sarkonis Blightpod",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 2,
+        "rp": 1,
+        "bat": 30,
+        "bp": -80
     },
     {
         "name": "Cygnusis AI-Core",
@@ -8827,7 +8939,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 2,
         "ap": 1,
         "p": 160
@@ -8838,7 +8950,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 2,
         "ap": 1,
         "p": 300
@@ -8849,7 +8961,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 2,
         "ap": 1,
         "p": 600
@@ -8860,7 +8972,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 2,
         "ap": 1,
         "p": 1000
@@ -8871,7 +8983,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 2,
         "ap": 1,
         "p": 2000
@@ -8882,7 +8994,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 2,
         "ap": 1,
         "p": 3500
@@ -8893,7 +9005,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 3,
         "ap": 1,
         "p": 5000
@@ -8904,7 +9016,7 @@
         "size": 2,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 3,
         "ap": 1,
         "p": 8000
@@ -9007,6 +9119,28 @@
         "mp": 11,
         "ap": 1,
         "p": 80000
+    },
+    {
+        "name": "Captured T.O. Harvester XVII",
+        "base": "Captured T.O. Harvester",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 12,
+        "ap": 2,
+        "p": 44000
+    },
+    {
+        "name": "Captured T.O. Harvester XVII - Upgraded",
+        "base": "Captured T.O. Harvester",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 13,
+        "ap": 2,
+        "p": 88000
     },
     {
         "name": "T.O. Manufacturing Core",
@@ -9277,7 +9411,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "rp": 1,
         "c": 100,
         "bc": 15
@@ -9288,7 +9422,7 @@
         "size": 1,
         "limit": 1,
         "limited": false,
-        "extract": true,
+        "extract": false,
         "mp": 1,
         "ap": 1,
         "rp": 1,
@@ -9795,7 +9929,7 @@
         "ability": {
             "name": "V2 Upgrade",
             "desc": "Upgrades Ark to V2<br>Adds +1 Mining +1 Artifact<br>Planet must have at least 2 structures with % bonuses to population.<br>Costs 6 Evolution Genes",
-            "message": "",
+            "message": "You successfully perform the upgrades.",
             "planetEffects": [
                 {
                     "type": "Upgrade",
@@ -9825,7 +9959,28 @@
         "ap": 2,
         "bap": 2,
         "ip": 1,
-        "p": 4400
+        "p": 4400,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Ark to V3<br>Adds +1 Artifact +1 Influence +4400 Population<br>Planet must have at least 4 structures with % bonuses to population.<br>Costs 8 Evolution Genes",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "T.O. Colony Ark v3"
+                }
+            ],
+            "cost": {
+                "genes": "8"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "bp",
+                    "min": "4"
+                }
+            ]
+        }
     },
     {
         "name": "T.O. Colony Ark v3",
@@ -9838,7 +9993,28 @@
         "ap": 3,
         "bap": 2,
         "ip": 2,
-        "p": 8800
+        "p": 8800,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Ark to V4<br>Adds +1 Artifact +2% Influence<br>Planet must have at least 6 structures with % bonuses to population.<br>Costs 8 Evolution Genes",
+            "message": "You successfully perform the upgrades.",
+            "planetEffects": [
+                {
+                    "type": "Upgrade",
+                    "new": "T.O. Colony Ark v4"
+                }
+            ],
+            "cost": {
+                "genes": "8"
+            },
+            "restrictions": [
+                {
+                    "type": "Existing Structures",
+                    "stat": "bp",
+                    "min": "6"
+                }
+            ]
+        }
     },
     {
         "name": "T.O. Colony Ark v4",
@@ -11699,6 +11875,19 @@
         }
     },
     {
+        "name": "Jeweled Sentinel v4",
+        "base": "Jeweled Sentinel",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 6,
+        "ap": 3,
+        "bap": 2,
+        "c": 404
+    },
+    {
         "name": "Crystalline Portal",
         "size": 1,
         "limit": 1,
@@ -12301,7 +12490,7 @@
         }
     },
     {
-        "name": "Velamen Reactor v3",
+        "name": "Velamen Reactor v4",
         "base": "Velamen Reactor",
         "size": 1,
         "limit": 1,
@@ -12309,31 +12498,7 @@
         "extract": false,
         "ap": 4,
         "rp": 6,
-        "bc": 35,
-        "ability": {
-            "name": "V4 Upgrade",
-            "desc": "Upgrades Reactor to v4<br>Adds +1 Research +1 Artifact +9% Cloak<br>Planet must have at least 8 other distinct Chuhn structures.<br>Costs 3500 CTP and 22 Evolution Genes",
-            "message": "You successfully perform the upgrades.",
-            "planetEffects": [
-                {
-                    "type": "Upgrade",
-                    "new": "Velamen Reactor v3"
-                }
-            ],
-            "cost": {
-                "ctp": "3,500",
-                "genes": "22"
-            },
-            "restrictions": [
-                {
-                    "type": "Existing Structures",
-                    "tags": [
-                        "Chuhn"
-                    ],
-                    "min": "8"
-                }
-            ]
-        }
+        "bc": 35
     },
     {
         "name": "Vaash Sentry Drone",
@@ -12432,5 +12597,201 @@
         "extract": false,
         "mp": 1,
         "rp": 1
+    },
+    {
+        "name": "Grand Electorum",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "rp": 2,
+        "ip": 3,
+        "ips": 300
+    },
+    {
+        "name": "T.O. Drop Pod",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "bp": 15,
+        "ability": {
+            "name": "V2 Upgrade",
+            "desc": "Upgrades Drop Pod to V2<br>Adds +1 Artifact",
+            "planetEffects": [
+                {
+                    "type": "Upgrade"
+                }
+            ],
+            "message": "You successfully perform the upgrades."
+        }
+    },
+    {
+        "name": "T.O. Drop Pod v2",
+        "base": "T.O. Drop Pod",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "bp": 20
+    },
+    {
+        "name": "T.O. Drop Pod v3",
+        "base": "T.O. Drop Pod",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 2,
+        "rp": 1,
+        "ip": 1,
+        "bp": 28
+    },
+    {
+        "name": "T.O. Drop Pod v4",
+        "base": "T.O. Drop Pod",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "bmp": 2,
+        "ap": 2,
+        "bap": 2,
+        "rp": 1,
+        "brp": 2,
+        "ip": 1,
+        "bip": 2,
+        "bp": 36
+    },
+    {
+        "name": "Blight Siphon",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 8,
+        "ap": 2,
+        "bat": 22,
+        "bp": -80,
+        "ic": 2
+    },
+    {
+        "name": "T.O. Pioneer Homestead",
+        "size": 2,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 3,
+        "bmp": 4,
+        "ap": 2,
+        "bap": 4,
+        "rp": 2,
+        "brp": 4,
+        "ip": 1,
+        "bip": 4
+    },
+    {
+        "name": "T.O. Frontier Redoubt",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 2,
+        "ap": 1,
+        "ip": 1,
+        "bp": 20,
+        "c": 404,
+        "bc": 18
+    },
+    {
+        "name": "Vearon Dataworks",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 1,
+        "brp": 2
+    },
+    {
+        "name": "Vearon Promenade",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ip": 1,
+        "bip": 2
+    },
+    {
+        "name": "Vearon Treasury",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 4,
+        "bmp": 4,
+        "ap": 4,
+        "bap": 4,
+        "brp": 4,
+        "ip": 1,
+        "bip": 4
+    },
+    {
+        "name": "Vearon Darkpits",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "mp": 1,
+        "bmp": 2
+    },
+    {
+        "name": "Vearon Underforge",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 1,
+        "bap": 2
+    },
+    {
+        "name": "Sarkonis Blightpod",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ap": 2,
+        "bap": 2,
+        "rp": 1,
+        "bat": 30,
+        "bp": -80
+    },
+    {
+        "name": "T.O. Landfall Beacon",
+        "size": 0,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "rp": 3,
+        "brp": 3,
+        "rps": 1100,
+        "ip": 1,
+        "bp": 24
+    },
+    {
+        "name": "Bexx Resort",
+        "size": 1,
+        "limit": 1,
+        "limited": false,
+        "extract": false,
+        "ip": 1,
+        "ips": 320,
+        "bp": 35
     }
 ]

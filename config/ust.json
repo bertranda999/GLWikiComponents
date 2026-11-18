@@ -1,0 +1,227 @@
+[
+    {
+        "name": "Bombardment Realignment",
+        "playerEffects": [
+            {
+                "type": "Increase Planetary Damage Cap",
+                "value": "38%"
+            }
+        ]
+    },
+    {
+        "name": "Breach-Target Alignment",
+        "playerEffects": [
+            {
+                "type": "Increase Base Damage Cap",
+                "value": "7%"
+            }
+        ]
+    },
+    {
+        "name": "Dialect Harmonizer",
+        "playerEffects": [
+            {
+                "type": "Increase Influence",
+                "value": "5%"
+            }
+        ]
+    },
+    {
+        "name": "Emitter Overcharge",
+        "playerEffects": [
+            {
+                "type": "Increase Attack",
+                "value": "8%"
+            }
+        ]
+    },
+    {
+        "name": "Harmonic Calibration",
+        "playerEffects": [
+            {
+                "type": "Increase Shield",
+                "value": "20%"
+            }
+        ]
+    },
+    {
+        "name": "Inner Stabilization",
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "30%"
+            }
+        ]
+    },
+    {
+        "name": "Pursuit-Vector Calibration",
+        "playerEffects": [
+            {
+                "type": "Increase Enemy Damage Cap",
+                "value": "7%"
+            }
+        ]
+    },
+    {
+        "name": "Sensory Calibration",
+        "playerEffects": [
+            {
+                "type": "Increase Scan",
+                "value": "6%"
+            }
+        ]
+    },
+    {
+        "name": "Star Chart Modulation",
+        "passiveAbility": {
+            "triggers": [
+                {
+                    "type": "Complete Daily Mission"
+                }
+            ],
+            "playerEffects": [
+                {
+                    "type": "Grants",
+                    "artifact": "Star Chart Purgers"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Stealth Phase Balance",
+        "playerEffects": [
+            {
+                "type": "Increase Cloak",
+                "value": "15%"
+            }
+        ]
+    },
+    {
+        "name": "Targeting Alignment",
+        "playerEffects": [
+            {
+                "type": "Increase NPC Attack",
+                "value": "10%"
+            }
+        ]
+    },
+    {
+        "name": "Thavix Intramesh",
+        "playerEffects": [
+            {
+                "type": "Increase Cost to Attack",
+                "value": "42%"
+            }
+        ]
+    },
+    {
+        "name": "Thruster Alignment",
+        "playerEffects": [
+            {
+                "type": "Increase Defense",
+                "value": "10%"
+            }
+        ]
+    },
+    {
+        "name": "TimeStat Calibration",
+        "passiveAbility": {
+            "triggers": [
+                {
+                    "type": "Complete Daily Challenge"
+                }
+            ],
+            "playerEffects": [
+                {
+                    "type": "Grants",
+                    "artifacts": [
+                        "Energy Cube",
+                        "Aeon Chronoprism",
+                        "Terraforming Device"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "Aura of Affection",
+        "playerEffects": [
+            {
+                "type": "Increase NPC Defense",
+                "value": "10%"
+            }
+        ]
+    },
+    {
+        "name": "Chromatic Coeating",
+        "playerEffects": [
+            {
+                "type": "Increase Hull",
+                "value": "15%"
+            }
+        ]
+    },
+    {
+        "name": "Life Support Defragmentation",
+        "playerEffects": [
+            {
+                "type": "Increase Research Storage",
+                "value": "5%"
+            }
+        ]
+    },
+    {
+        "name": "Elios Mien",
+        "playerEffects": [
+            {
+                "type": "Increase Energy",
+                "value": "3%"
+            }
+        ]
+    },
+    {
+        "name": "Draymur's Mantle",
+        "playerEffects": [
+            {
+                "type": "Reduce Zone Energy Cost",
+                "value": "11%"
+            }
+        ]
+    },
+    {
+        "name": "Chuhn Prestige",
+        "playerEffects": [
+            {
+                "type": "Increase Artifact",
+                "value": "5%"
+            }
+        ]
+    },
+    {
+        "name": "Bane Horror",
+        "playerEffects": [
+            {
+                "type": "Increase Invasion Attack",
+                "value": "8%"
+            }
+        ]
+    },
+    {
+        "name": "Systematic Harvest",
+        "playerEffects": [
+            {
+                "type": "Increase Mining",
+                "value": "10%"
+            }
+        ]
+    },
+    {
+        "name": "Systematic Avarice",
+        "playerEffects": [
+            {
+                "type": "Increase Raid",
+                "value": "20%"
+            }
+        ]
+    }
+]

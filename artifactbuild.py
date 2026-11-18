@@ -6,7 +6,6 @@ skip = [
     "Xenotypic Mutants",
     "Verdant Estate",
     "Bio-Luminous Orb",
-    "Quadrigulum Sparkmatter",
     "Sentiox Trilink Node",
     "Strazi Link Anchor",
     "Galaxy Elitists",
@@ -24,8 +23,6 @@ skip = [
     "Lepus Drone",
     "Cryo-Foundry Battery (Doubled)",
     "Raix Refinery",
-    "NSX Tracking Matrix",
-    "Bainar A-Node - Prime",
     "Chuhn Zenith Exchange v2",
     "Lepus C-34 Fluxgate",
     "ArcRift Tower",
@@ -34,7 +31,7 @@ skip = [
     "Custodian's Villa",
     "Bainar A-Node - Advanced",
     "Thavix Reactor",
-    "Exo-Rift Membrane Blueprint",
+    "Exo-Rift Membrane",
     "Lepus Clone-Program Tank",
     "Alarri Comm Tower",
     "Terran-Stryll Interrogation Cell",
@@ -45,8 +42,22 @@ skip = [
     "Chuhn Trading Hub",
     "Chuhn Trading Forum",
     "Hyperluminal Sat-Grid",
-    "Thavix Geneworks",
     "Litheor Core-Tunnel Shrine",
+    "Bane Doom Silo",
+    "Elios Solar Drill (Inverter + Heliacal)",
+    "Elios Solar Drill (Heliacal)",
+    "NSX Tracking Matrix",
+    "Uldri Recovery Capsule",
+    "Pentragulum Sparkmatter (2)",
+    "Chuhn Exo-Logistics Center",
+    "Chuhn Scrap Depot",
+    "T.O. Frontier Redoubt",
+    "Vearon Dataworks",
+    "Vearon Promenade",
+    "Vearon Treasury",
+    "Vearon Darkpits",
+    "Vearon Underforge",
+    "T.O. Landfall Beacon",
 ]
 
 artifacts = []
@@ -123,7 +134,9 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-space = 117
+#      Base Spirit Chancery Ignisar Emissary Aeon   Embassy  Gravitic  Uldri  Mechanum Passion Q Catalyst Starline  Beyond  Expanse   Land Grant
+space = 81 * 1.05 * 1.02 * 1.03 * 1.03 *      1.04 * 1.02 * 1.02 *      1.04 * 1.02 * 1.02 *   1.02 *      1.03    * 1.02 * 1.02     * 1.02
+space = round(space)
 while totalSpace < space:
     max = 0
     maxStruct = volcInfStructs[0]
@@ -166,6 +179,7 @@ while totalSpace < space:
     for remove in toRemove:
         volcInfStructs.remove(remove)
 
+print(f"Space: {space}")
 print(currentRaw)
 print(currentBonus)
 print(currentRaw * currentBonus)
@@ -174,7 +188,7 @@ print(currentRaw * currentBonus)
 print(infRaw)
 print(infBonus)
 print(infRaw * infBonus)
-# development, availability, rings, aca, patronage, trade outpost, arbilon, t5, starflare, trading fortum, writ, 
+#                                 development, availability, rings, aca, patronage, trade outpost, arbilon, t5, starflare, trading fortum, writ, 
 totalUbuffed = currentRaw * currentBonus * 2 * 14 * 1.26 * 1.26 * 1.06 * 1.04 * 1.07 * 1.01 * 1.02 * 1.05 * 1.03
 print(totalUbuffed)
 print(infRaw * infBonus * 2 * 1.5 * 1.26 * 1.06 * 1.04 * 1.07 * 1.01 * 1.02 * 1.05 * 1.03 * 1.1)
@@ -189,3 +203,5 @@ print(f"Special buffs: {specialBuffs}")
 #for struct in orderedStructs:
  #   print(f"{struct['name']}")
     
+totalUbuffedKwir = currentRaw * currentBonus * 2 * 14.25 * 1.3 * 1.06 * 1.04 * 1.07 * 1.01 * 1.02 * 1.05 * 1.03
+print(totalUbuffedKwir)

@@ -43,6 +43,14 @@ skip = [
     "Tej-Brask Refueling Depot",
     "Thavix Reactor",
     "Litheor Deep-Ember Keep",
+    "Bane Doom Silo",
+    "Hornulox Symbiont",
+    "Xenoform Drone",
+    "Lepus Bio-Mech Hypergate",
+    "Cognizant Omniforge",
+    "Monolith of Miracles",
+    "Lepus Drone",
+    "Chuhn Trading Hub",
 ]
 
 artifacts = []
@@ -114,7 +122,7 @@ while size0.__len__() > 0:
         size0.remove(remove)
 
 totalSpace = 0
-while totalSpace < 98:
+while totalSpace < 94:
     max = 0
     maxStruct = volcInfStructs[0]
     for struct in volcInfStructs:

@@ -9638,7 +9638,8 @@
                 "type": "Use Structure Ability",
                 "structure": "Bane Phage Sacrarium v3"
             }
-        ]
+        ],
+        "requiresGP": "Yes"
     },
     {
         "name": "Harvested Souls",
@@ -9653,6 +9654,364 @@
             },
             {
                 "type": "Complete Daily Challenge"
+            }
+        ]
+    },
+    {
+        "name": "Civic Sovereignty",
+        "desc": "Cast 900 or more votes for elections or initiatives",
+        "medalPoints": "35",
+        "img": "civicplaza1.jpg",
+        "artifact": "Grand Electorum",
+        "triggers": [
+            {
+                "type": "Vote"
+            }
+        ]
+    },
+    {
+        "name": "Everywhere at Once",
+        "desc": "Open Galaxy Legion as an installed app on desktop, mobile and tablet.",
+        "medalPoints": "10",
+        "img": "cmystery2.jpg"
+    },
+    {
+        "name": "Shrouds of Evil",
+        "desc": "Use a 'Hypershroud Infusion' ability on the following planet types",
+        "medalPoints": "13",
+        "img": "shroudevil.jpg",
+        "artifact": "Writ of Forbidden Revelations",
+        "triggers": [
+            {
+                "type": "Use Module Ability",
+                "ability": "Hypershroud Infusion"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Conflicting Territory",
+        "desc": "Complete the 'Habitat Claims' mini-game 10 or more times on 'Hard' difficulty.",
+        "medalPoints": "12",
+        "img": "harvestchallenge.jpg",
+        "flair": "Colonycircuit",
+        "triggers": [
+            {
+                "type": "Mini-Game"
+            }
+        ]
+    },
+    {
+        "name": "Blighted Harvest",
+        "desc": "Disable 6 'Blighted' Terran Outsider ships during the Harrowing Blight",
+        "medalPoints": "12",
+        "img": "eoh47.jpg",
+        "artifact": "Irradiated Blightseed",
+        "rewardCount": "2",
+        "triggers": [
+            {
+                "type": "Disable NPC"
+            }
+        ]
+    },
+    {
+        "name": "The Synesthetic Communion",
+        "desc": "Complete the following actions while 2 or more large Seasonal Events are affecting the Galaxy at the same time<br>Raid a Base, Daily Mission, Scan a Rare Planet, Legion Task, Invade a Planet, Colonize a Planet, Disable an Extremely Rare NPC, Daily Challenge, Vote, Council, Ascendancy Contribution, Hard Minigame, Build Size-0 Structure",
+        "medalPoints": "12",
+        "img": "nfusion3.jpg",
+        "artifact": "Xenoform Drone",
+        "triggers": [
+            {
+                "type": "Raid Base"
+            },
+            {
+                "type": "Complete Daily Mission"
+            },
+            {
+                "type": "Scan Planet"
+            },
+            {
+                "type": "Complete Legion Mission Task"
+            },
+            {
+                "type": "Disable NPC"
+            },
+            {
+                "type": "Complete Daily Challenge"
+            },
+            {
+                "type": "Vote"
+            },
+            {
+                "type": "Convene Council"
+            },
+            {
+                "type": "Contribute to Ascendancy"
+            },
+            {
+                "type": "Minigame"
+            },
+            {
+                "type": "Use Artifact",
+                "effectType": "Construct Structure",
+                "stat": "Size",
+                "statMax": "0"
+            }
+        ]
+    },
+    {
+        "name": "Vearon's Fortune",
+        "desc": "Spin the Galaxy Wheel 12 additional times while the Wheel uses the 'Vearon' Region variant (Novis Lux-Wheel)",
+        "medalPoints": "12",
+        "img": "vearonfortune.jpg",
+        "artifact": "Vearon Treasury",
+        "rewardCount": "2",
+        "triggers": [
+            {
+                "type": "Galaxy Wheel"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Vearon's Wealth",
+        "desc": "Spin the Galaxy Wheel 7 times while the Wheel uses the 'Vearon' Region variant (Novis Lux-Wheel)",
+        "medalPoints": "11",
+        "img": "vearonwealth.jpg",
+        "artifact": "Vearon Treasury",
+        "triggers": [
+            {
+                "type": "Galaxy Wheel"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Challenging Despair",
+        "desc": "Complete 5 or more 'Bane' Daily Challenges",
+        "medalPoints": "13",
+        "img": "nnbane12.jpg",
+        "artifact": "Bane Hex-Loom",
+        "triggers": [
+            {
+                "type": "Complete Daily Challenge"
+            }
+        ]
+    },
+    {
+        "name": "Profane Whispers",
+        "desc": "Build a 'Cauldron of Banefire' on planets of 5 different sizes",
+        "medalPoints": "13",
+        "img": "nnbane3.jpg",
+        "artifact": "Accursed Expanse",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifcat": "Cauldron of Banefire"
+            }
+        ]
+    },
+    {
+        "name": "The Cultist Grid",
+        "desc": "Use a Bane Generator XVI (or greater) on 4 different planet types",
+        "medalPoints": "13",
+        "img": "nnbane10.jpg",
+        "flair": "Baneblood",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Bane Generator XVI"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pyres of Pure Evil",
+        "desc": "During the Hallows Bane Event, scrap a variety of different artifacts for Complex Tech Parts, that have 'Bane' or 'Dark' in their names",
+        "medalPoints": "12",
+        "img": "nnbane9.jpg",
+        "artifact": "Writ of Forbidden Revelations",
+        "triggers": [
+            {
+                "type": "Scrap",
+                "scrapType": "CTP",
+                "filters": [
+                    "Bane",
+                    "Dark"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wretched Echoes",
+        "desc": "Use a Hallows Bane Turret XV Upgrade on a base OR a Bane HyperShroud X Upgrade on your ship.",
+        "medalPoints": "11",
+        "img": "nnbane2.jpg",
+        "flair": "Bloodthorn",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Hallows Bane Turret XV Upgrade",
+                    "Bane HyperShroud X Upgrade"
+                ]
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Tours of the Seeker",
+        "desc": "Recruit Vehruhn, Cursed Seeker to your ship",
+        "medalPoints": "11",
+        "img": "nnbane13.jpg",
+        "title": "the Cursed",
+        "titleHtml": "<style>.title-cursed-char {display: inline-block;color: #a893c8;animation: title-cursed 5.2s ease-in-out infinite, title-cursed-glitch 7.3s steps(1, end) infinite;} .title-cursed {color: #a893c8;}</style><span class=\"title-cursed\" style=\"font-style:italic; font-weight:bold;\"><span class=\"title-cursed-char\" style=\"animation-delay:0s\">t</span><span class=\"title-cursed-char\" style=\"animation-delay:0.08s\">h</span><span class=\"title-cursed-char\" style=\"animation-delay:0.16s\">e</span> <span class=\"title-cursed-char\" style=\"animation-delay:0.32s\">C</span><span class=\"title-cursed-char\" style=\"animation-delay:0.4s\">u</span><span class=\"title-cursed-char\" style=\"animation-delay:0.48s\">r</span><span class=\"title-cursed-char\" style=\"animation-delay:0.56s\">s</span><span class=\"title-cursed-char\" style=\"animation-delay:0.64s\">e</span><span class=\"title-cursed-char\" style=\"animation-delay:0.72s\">d</span></span>",
+        "titleCharAnimation": "@keyframes title-cursed {0%, 100% { color: #a893c8; text-shadow: 0 0 6px rgba(110,30,190,0.7), 0 0 14px rgba(50,0,110,0.5); } 38% { color: #d0bfe8; text-shadow: 0 0 8px rgba(150,60,255,0.9), 0 0 18px rgba(90,0,160,0.6); } 44% { color: #7a0a12; text-shadow: 0 0 4px rgba(120,0,0,0.9), 0 0 12px rgba(80,0,0,0.7); } 48% { color: #ff2a2a; text-shadow: 0 0 12px rgba(255,30,30,1), 0 0 26px rgba(255,0,0,0.7), 0 0 40px rgba(180,0,0,0.4); } 53% { color: #9c0f1a; text-shadow: 0 0 6px rgba(160,0,0,0.9), 0 0 16px rgba(90,0,0,0.6); } 58% { color: #ff4040; text-shadow: 0 0 10px rgba(255,40,40,0.95), 0 0 22px rgba(255,0,0,0.6); } 66% { color: #c9b6e6; text-shadow: 0 0 8px rgba(150,60,255,0.9), 0 0 18px rgba(90,0,160,0.6); }} @keyframes title-cursed-glitch { 0%, 61%, 65%, 78%, 81%, 100% { transform: none; opacity: 1; } 62% { transform: translate(-1px, 1px); opacity: 0.8; } 63% { transform: translate(1px, -1px); opacity: 0.55; } 64% { transform: translate(-1px, 0); opacity: 0.9; } 79% { transform: translate(1px, 1px); opacity: 0.5; } 80% { transform: translate(-1px, -1px); opacity: 0.85; } }",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "Vehruhn, Cursed Seeker"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "The Harvest Imperative",
+        "desc": "Complete the 'Era of Harvest' daily mission at least 18 times.",
+        "medalPoints": "15",
+        "img": "eoh18.jpg",
+        "artifact": "Vault of Terra",
+        "triggers": [
+            {
+                "type": "Complete Mission",
+                "mission": "Era of Harvest"
+            }
+        ]
+    },
+    {
+        "name": "Frontier Guild Agreements",
+        "desc": "Place a T.O. Harvest Vault XVI on 5 different planet types:",
+        "medalPoints": "12",
+        "img": "eoh8.jpg",
+        "artifact": "Terran Verdant Accord",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "T.O. Harvest Vault XVI"
+            }
+        ],
+        "requiresGP": "Yes"
+    },
+    {
+        "name": "Outsider's Eminence",
+        "desc": "Contribute at least 1800 Influence within the 'Terran Outsiders Perimeter' Zone during the Era of Harvest",
+        "medalPoints": "11",
+        "img": "eoh44.jpg",
+        "artifact": "T.O. Capitol Dome",
+        "triggers": [
+            {
+                "type": "Influence Zone",
+                "zone": "Terran Outsiders Perimeter"
+            }
+        ]
+    },
+    {
+        "name": "Challenging Colonies",
+        "desc": "Complete 5 or more 'Harvest' Daily Challenges",
+        "medalPoints": "12",
+        "img": "eoh27.jpg",
+        "artifact": "Edenic Strata-Field",
+        "triggers": [
+            {
+                "type": "Complete Daily Challenge"
+            }
+        ]
+    },
+    {
+        "name": "Making Landfall",
+        "desc": "Build a 'T.O. Landfall Beacon' on planets of 5 different sizes",
+        "medalPoints": "13",
+        "img": "eoh45.jpg",
+        "artifact": "T.O. Land Grant",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifact": "T.O. Landfall Beacon"
+            }
+        ]
+    },
+    {
+        "name": "Civic Hegemony",
+        "desc": "Cast 2000 or more votes for elections or initiatives",
+        "medalPoints": "45",
+        "img": "civicrally1.jpg",
+        "artifact": "Grand Electorum",
+        "rewardCount": "5",
+        "triggers": [
+            {
+                "type": "Vote"
+            }
+        ]
+    },
+    {
+        "name": "Compacted Harvest",
+        "desc": "Colonize the following types of planets that are 'Small' or smaller, during 'The Era of Harvest' event.",
+        "medalPoints": "16",
+        "img": "eoh31.jpg",
+        "artifact": "Vault of Terra",
+        "triggers": [
+            {
+                "type": "Colonize Planet"
+            }
+        ]
+    },
+    {
+        "name": "Shields of the Frontier",
+        "desc": "Use a Harvest Aegis XIII Upgrade on a base OR a Harvest Shield XIV Upgrade on your ship.",
+        "medalPoints": "11",
+        "img": "eoh46.jpg",
+        "artifact": "T.O. Land Grant",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "artifacts": [
+                    "Harvest Aegis XIII Upgrade",
+                    "Harvest Shield XIV Upgrade"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Frontier Synchrony",
+        "desc": "Place any 'Frontier' or 'Pioneer' structure on 5 different types of planets that are Small size or smaller",
+        "medalPoints": "15",
+        "img": "eoh29.jpg",
+        "artifact": "Spire of Edenic Dominion",
+        "triggers": [
+            {
+                "type": "Use Artifact",
+                "effectType": "Construct Structure",
+                "filters": [
+                    "Frontier",
+                    "Pioneer"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Colonial Reclamation",
+        "desc": "During the Era of Harvest, scrap a variety of different distinct artifacts from the Harvest event for Complex Tech Parts",
+        "medalPoints": "12",
+        "img": "harvestscrap.jpg",
+        "artifact": "Vault of Gaia",
+        "triggers": [
+            {
+                "type": "Scrap",
+                "scrapType": "CTP",
+                "tags": [
+                    "Harvest"
+                ]
             }
         ]
     }

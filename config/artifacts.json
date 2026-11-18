@@ -1145,6 +1145,71 @@
         ]
     },
     {
+        "name": "Archotage Amplifier (2026)",
+        "img": "archamp.png",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "desc": "Upgrades one of the following structures at random:<br>Perimeter Station, Captured T.O. Harvester XVII, T.O. Harvest Vault XVI,<br>Sarkonis Headquarters, Sarkonis Omnipod / Hardshell, Archotage Transmitter,<br>T.O. TerraFounder, T.O. Capitol Dome",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1250"
+        },
+        "planetEffectsRandom": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Perimeter Station",
+                "new": "Perimeter Station - Upgraded"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Captured T.O. Harvester XVII",
+                "new": "Captured T.O. Harvester XVII - Upgraded"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "T.O. Harvest Vault XVI",
+                "new": "T.O. Harvest Vault XVI - Upgraded"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Sarkonis Headquarters",
+                "new": "Sarkonis Headquarters - Upgraded"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Sarkonis Omnipod",
+                "new": "Sarkonis Omnipod - Upgraded"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Sarkonis Hardshell",
+                "new": "Sarkonis Hardshell - Upgraded"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Archotage Transmitter",
+                "new": "Archotage Transmitter - Upgraded"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "T.O. TerraFounder",
+                "new": "T.O. TerraFounder - Upgraded"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "T.O. Capitol Dome",
+                "new": "T.O. Capitol Dome - Upgraded"
+            }
+        ],
+        "tags": [
+            "Harvest"
+        ]
+    },
+    {
         "name": "Archotage Transmitter",
         "target": "Your Planet",
         "img": "archtrans.png",
@@ -1187,6 +1252,63 @@
                 "message": "An Orbisbarrier HyperNexus has been upgraded to an Arcobarrier PulseNexus"
             }
         ]
+    },
+    {
+        "name": "ArcRift Capacitor",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "16"
+        },
+        "target": "Your Planet",
+        "img": "riftcharge.png",
+        "playerEffectsConditional": [
+            {
+                "type": "Install Module",
+                "module": "ArcRift Capacitor - Mark IV",
+                "conditions": [
+                    {
+                        "type": "Owned Planets",
+                        "types": [
+                            "Rift"
+                        ],
+                        "count": "3"
+                    }
+                ]
+            },
+            {
+                "type": "Install Module",
+                "module": "ArcRift Capacitor - Mark III",
+                "conditions": [
+                    {
+                        "type": "Owned Planets",
+                        "types": [
+                            "Rift"
+                        ],
+                        "count": "2"
+                    }
+                ]
+            },
+            {
+                "type": "Install Module",
+                "module": "ArcRift Capacitor - Mark II",
+                "conditions": [
+                    {
+                        "type": "Owned Planets",
+                        "types": [
+                            "Rift"
+                        ],
+                        "count": "1"
+                    }
+                ]
+            },
+            {
+                "type": "Install Module",
+                "module": "ArcRift Capacitor"
+            }
+        ],
+        "buttonText": "Build",
+        "desc": "[ Special Module - Size:16, Energy:20, Shield:20 ]<br>When first installed, the module will gain a bonus<br>+20 shield and energy for each Rift Planet you control.<br>Limit 4 per ship"
     },
     {
         "name": "ArcRift Tower",
@@ -3427,6 +3549,30 @@
         }
     },
     {
+        "name": "Captured T.O. Harvester XVII",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Captured T.O. Harvester XVII"
+            }
+        ],
+        "tags": [
+            "Harvest"
+        ],
+        "cost": {
+            "energy": "1,250",
+            "genes": "2"
+        },
+        "img": "toharvester.png",
+        "target": "Your Planet",
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:2, Mining:12, Artifact:2, Population:44000 ]<br>Constructs a Captured T.O. Harvester XVII on your planet. Limit 1 per planet"
+    },
+    {
         "name": "Carapace of Bane",
         "img": "banehull2.png",
         "tags": [
@@ -4583,6 +4729,32 @@
         }
     },
     {
+        "name": "Cognizant Omni-Plant",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "4"
+        },
+        "planetEffects": [
+            {
+                "structure": "Cognizant Omni-Plant",
+                "type": "Construct Structure"
+            }
+        ],
+        "img": "omniplant1.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "3,333"
+        },
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structure": "Cognizant Omni-Bank"
+            }
+        ],
+        "target": "Your Planet"
+    },
+    {
         "name": "Cognizant Omniforge",
         "desc": "[ Planet Structure - Size:1, Artifact:1, Research:1, Mining:1 ]<br>Also boosts the planet's production of all resources by 5%.<br>(Limit 1 per planet)",
         "img": "pustation.png",
@@ -4853,7 +5025,12 @@
             "influence": "4.4k"
         },
         "buttonText": "Use",
-        "img": "sigilciv1.png"
+        "img": "sigilciv1.png",
+        "playerEffects": [
+            {
+                "type": "Reset Daily Reward / Supporter Bonus"
+            }
+        ]
     },
     {
         "name": "Contact Coordinates",
@@ -6262,7 +6439,19 @@
                 "type": "Construct Structure",
                 "structure": "Dark Temple of Woe"
             }
-        ]
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "18"
+        },
+        "img": "banechurch1.png",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "666",
+            "influence": "6,666"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:2, Research:2, Influence:1 ]<br>Invaders suffer +2/4hr cooldown to invasion timers.<br>Must be a recently attacked 'New Colony' to build<br>Can be upgraded after periods of calm. Limit 1"
     },
     {
         "name": "Dark Void Beacon Upgrade",
@@ -10028,7 +10217,7 @@
                 "value": "20"
             },
             {
-                "type": "Restore Energy"
+                "type": "Refill Energy"
             }
         ]
     },
@@ -14086,7 +14275,7 @@
                 "type": "Reset Invade Timer"
             },
             {
-                "type": "Reset Daily Reward Timer"
+                "type": "Reset Daily Reward"
             },
             {
                 "type": "Reset Abandon Timer"
@@ -19736,7 +19925,8 @@
                 "type": "Construct Structure",
                 "structure": "Supel Interphase Portal"
             }
-        ]
+        ],
+        "desc": "[ Planet Structure - Size:3, Research:6, Artifact:6,<br>Influence:3, Cloak:800 ]<br>Also increases Influence storage by 202.<br>Planet must be 'Average' size or smaller.<br>Limit 1"
     },
     {
         "name": "Supel Microhaven",
@@ -20128,6 +20318,27 @@
         "target": "Your Planet"
     },
     {
+        "name": "T.O. Harvest Vault XVI",
+        "tags": [
+            "Harvest"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "img": "toharvestvault4.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "T.O. Harvest Vault XVI"
+            }
+        ],
+        "buttonText": "Build",
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:2, Mining:28, Cloak:1900, Population:+24% ]<br>Also Increases your planetary mineral production capacity by 17000 units.<br>Limit 2",
+        "target": "Your Planet"
+    },
+    {
         "name": "T.O. Heliofield",
         "tags": [
             "Harvest",
@@ -20282,7 +20493,8 @@
                 "type": "Construct Structure",
                 "structure": "T.O. Seed-Lab"
             }
-        ]
+        ],
+        "message": "A T.O. Seed-Lab has been constructed on the planet."
     },
     {
         "name": "T.O. Sentry Bot",
@@ -21536,7 +21748,7 @@
         "buttonText": "Use",
         "playerEffects": [
             {
-                "type": "Restore Energy"
+                "type": "Refill Energy"
             },
             {
                 "type": "Restore Hull"
@@ -22770,7 +22982,19 @@
         "target": "Your Planet",
         "tags": [
             "Harvest"
-        ]
+        ],
+        "img": "vaultgaia1.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "4"
+        },
+        "desc": "[ Planet Structure - Size:2, Cloak:700 ]<br>Increases Artifact/Research/Mining production storage by 7000 units,<br>and Influence storage by 700 units.<br>This bonus doubles on Gaia planets.",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "700",
+            "genes": "11"
+        }
     },
     {
         "name": "Vault of Terra",
@@ -24909,7 +25133,8 @@
         "cost": {
             "energy": "8,888"
         },
-        "target": "Player"
+        "target": "Player",
+        "message": "The Zebeeren's Cannon has been upgraded..."
     },
     {
         "name": "Sillixx Starport Hub",
@@ -25387,6 +25612,818 @@
             "influence": "666"
         },
         "desc": "[ Limited Item - Halloween ]<br>Resets cooldowns for all Seasonal mini-games (ie - Cursed Crew),<br>and resets any failed/locked Seasonal mini-game states.",
+        "target": "Player",
+        "message": "The key begins to glow intensely..."
+    },
+    {
+        "name": "Stasis Anchor",
+        "scrap": {
+            "type": "aeon",
+            "min": "2",
+            "max": "4"
+        },
+        "playerEffects": [
+            {
+                "type": "Reduce Upkeep",
+                "value": "20%"
+            }
+        ],
+        "target": "Player",
+        "img": "chronoloom1.webp",
+        "desc": "<i>A strange device that holds the flow of time around your ship's systems...</i><br> Use: lowers ship upkeep by 20% for 48 hours."
+    },
+    {
+        "name": "Grand Electorum",
+        "target": "Your Planet",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Grand Electorum"
+            }
+        ],
+        "img": "ballothall1.png",
+        "scrap": {
+            "type": "ctp",
+            "min": "8",
+            "max": "16"
+        },
+        "cost": {
+            "energy": "6,000",
+            "influence": "11,000"
+        },
+        "desc": "[ Planet Structure - Size:2, Influence:3, Research:2, Artifact:1 ]<br>Also increases Influence storage by 300.<br>Planet must have at least 4 other distinct structures that provide Influence.<br>Limit 1 per planet",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "stat": "ip",
+                "min": "1"
+            }
+        ]
+    },
+    {
+        "name": "Fold-Space Locker",
+        "scrap": {
+            "type": "relic",
+            "min": "2",
+            "max": "5"
+        },
+        "target": "Player",
+        "playerEffectsRandom": [
+            {
+                "type": "Increase Artifact Storage",
+                "value": "15%"
+            },
+            {
+                "type": "Increase Mining Storage",
+                "value": "15%"
+            }
+        ],
+        "buttonText": "Open",
+        "desc": "<i>An ornate locker that is far larger on the inside...</i><br>Open: boosts either your mining storage or your artifact storage, at random, by 15% for 24 hours.",
+        "img": "ornatecrate1.png"
+    },
+    {
+        "name": "Bexx Resort",
+        "message": "The Bexx Resort has opened its doors on the planet.",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "10"
+        },
+        "img": "bexxresort1.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Bexx Resort"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Calm",
+                "min": "6 months"
+            },
+            {
+                "type": "Type",
+                "types": [
+                    "Terra",
+                    "Gaia",
+                    "Oceanic",
+                    "Ecumenopolis"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "T.O. Landfall Beacon",
+        "message": "A T.O. Landfall Beacon has been raised beside the Colony Ark.",
+        "target": "Your Planet",
+        "img": "landfall1.png",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "structures": [
+                    "T.O. Colony Ark v2",
+                    "T.O. Colony Ark v3",
+                    "T.O. Colony Ark v4"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "T.O. Landfall Beacon"
+            }
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:0, Research:3, Influence:1, Research:+3%, Population:+24% ]<br>Also increases Research storage by 1100.<br>Planet must have an existing 'T.O. Colony Ark v2' (or higher upgrade) to build<br>Limit 1 per planet",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "440"
+        }
+    },
+    {
+        "name": "T.O. Drop Pod",
+        "message": "A T.O. Drop Pod lands on the planet.",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "25",
+            "max": "50"
+        },
+        "cost": {
+            "genes": "8",
+            "energy": "440"
+        },
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Harvest"
+                ],
+                "min": "3"
+            }
+        ],
+        "tags": [
+            "Harvest"
+        ],
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:1, Mining:2, Artifact:1, Population:+15% ]<br><i>Take only the colonies you can protect, and remember that your most important colonies... do not exist. -Sarett, T.O. Security Control</i><br>Planet must have at least 3 distinct Harvest structures. Can be upgraded as more Harvest structures are built.<br>Limit 1 per planet.",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "T.O. Drop Pod"
+            }
+        ]
+    },
+    {
+        "name": "T.O. Distress Beacon",
+        "message": "The beacon pulses once and goes silent. Something answers....<br>Battle Now Available:",
+        "target": "Player",
+        "scrap": {
+            "type": "ctp",
+            "min": "35",
+            "max": "71"
+        },
+        "tags": [
+            "Harvest"
+        ],
+        "cost": {
+            "energy": "555",
+            "genes": "11"
+        },
+        "img": "elitebeacon1.png",
+        "desc": "[ Limited Item - Thanksgiving ]<br>Lures a random rank-eligible Terran Outsiders elite to your Battle list.",
+        "playerEffects": [
+            {
+                "type": "Spawn NPC"
+            }
+        ]
+    },
+    {
+        "name": "Amalthean Spiral",
+        "scrap": {
+            "type": "ctp",
+            "min": "15",
+            "max": "30"
+        },
+        "playerEffectsRandom": [
+            {
+                "type": "Grants",
+                "artifact": "T.O. Frontier Habidome"
+            },
+            {
+                "type": "Grants",
+                "artifact": "T.O. Seed-Lab"
+            },
+            {
+                "type": "Grants",
+                "artifact": "T.O. TerraFounder"
+            }
+        ],
+        "tags": [
+            "Harvest"
+        ],
+        "desc": "[ Limited Item - Thanksgiving ]<br>During the Battle of Nayve, the Terran Outsiders hid caches among their new colonies, sealed in spiral vaults that opened only for a settler's hand.<br>Opens to reveal a random T.O. Structure",
+        "img": "cornucopia1.png",
+        "cost": {
+            "genes": "11"
+        },
+        "message": "The spiral unfurls and yields: [x]",
         "target": "Player"
+    },
+    {
+        "name": "Blight Siphon",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "img": "blightsiphon1.png",
+        "tags": [
+            "Harrowing Blight",
+            "Harvest",
+            "Bane"
+        ],
+        "desc": "[ Limited Item - Harrowing Blight ]<br>[ Planet Structure - Size:2, Mining:8, Artifact:2, Attack:+22%, Population:-80% ]<br>I already have enough loyal cultists. The rest of these beings are fine for the reaping. -The Dark PsionShips invading suffer +2 / +4 hours cooldown to invasions.<br>Counts as a Bane and a Harvest structure.<br>Requires 3+ distinct Harvest structures and 3+ distinct Bane structures on the planet.<br>(Limit 1 per planet)",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Blight Siphon"
+            }
+        ],
+        "cost": {
+            "energy": "1,111"
+        },
+        "buttonText": "Build",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Harvest"
+                ],
+                "min": "3"
+            },
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Bane"
+                ],
+                "min": "3"
+            }
+        ]
+    },
+    {
+        "name": "Dark Mega-Strider",
+        "target": "Your Planet",
+        "scrap": {
+            "type": "em",
+            "min": "120",
+            "max": "240"
+        },
+        "img": "dstrider1.png",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Dark Mega-Strider"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "8,888"
+        },
+        "desc": "[ Planet Structure - Size:1, Artifact:2, Mining:2, Attack:+22% ]<br>Once built, the Strider can be upgraded with<br>Dark Badges by builders, guards, or raiders.<br>Requires 11k ship size (unbuffed)<br>Limit 1",
+        "restrictions": [
+            {
+                "type": "Ship Size",
+                "min": "11,000"
+            }
+        ]
+    },
+    {
+        "name": "Dark Psionic Essence",
+        "target": "Mission",
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "18"
+        },
+        "tags": [
+            "Bane"
+        ],
+        "img": "darkpsioness1.png",
+        "desc": "A cold, vile, eerie sensation comes over you while holding it...<br>Possessing this unlocks 'The Dark Culling' (if eligible) but disappears upon its completion. Mission Requirements: Rank 420+, 100+ Invasions, and 1100 Medal Points",
+        "playerEffects": [
+            {
+                "type": "Unlock Mission"
+            }
+        ]
+    },
+    {
+        "name": "Irradiated Blightseed",
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "tags": [
+            "Harrowing Blight",
+            "Bane",
+            "Harvest"
+        ],
+        "planetEffects": [
+            {
+                "type": "Increase Production",
+                "value": "1%"
+            },
+            {
+                "type": "Increase Population",
+                "value": "-80%"
+            }
+        ],
+        "img": "irrblightseed1.png",
+        "desc": "[ Limited Item - Harrowing Blight ]<br>Permanently increases planet production by +1%,<br>but lowers its population by -80%.<br>Can only be used on Terra, Gaia, or Irradiated planets.",
+        "cost": {
+            "energy": "1,111"
+        },
+        "buttonText": "Use",
+        "target": "Your Planet"
+    },
+    {
+        "name": "Megastructure Chassis Crane",
+        "scrap": {
+            "type": "ctp",
+            "min": "5",
+            "max": "11"
+        },
+        "img": "chassiscrane1.png",
+        "desc": "Upgrades a Space Elevator, Processing Core, or Relay Tower on your planet (at random), boosting artifact +1. Each structure can be upgraded twice.",
+        "buttonText": "Use",
+        "planetEffectsRandom": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Space Elevator",
+                "new": "Space Mega-Elevator"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Space Mega-Elevator",
+                "new": "Space Mega-Elevator II"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Relay Tower",
+                "new": "Relay Mega-Tower"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Relay Mega-Tower",
+                "new": "Relay Mega-Tower II"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Processing Mega-Core",
+                "new": "Processing Mega-Core II"
+            },
+            {
+                "type": "Upgrade Structure",
+                "original": "Processing Core",
+                "new": "Processing Mega-Core"
+            }
+        ],
+        "target": "Your Planet"
+    },
+    {
+        "name": "Prime-World Commission",
+        "scrap": {
+            "type": "ctp",
+            "min": "66",
+            "max": "132"
+        },
+        "img": "primeworld1.png",
+        "planetEffects": [
+            {
+                "type": "Change Type",
+                "newType": "Ecumenopolis"
+            },
+            {
+                "type": "Increase Research Availability",
+                "value": "2"
+            },
+            {
+                "type": "Increase Passive Cloak",
+                "value": "1111"
+            }
+        ],
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Terra"
+                ]
+            },
+            {
+                "type": "Calm",
+                "min": "2 months"
+            }
+        ],
+        "desc": "Transforms a Terra planet into an Ecumenopolis city world,<br>boosting its research by 2 and cloaking by 1111.<br>Planet must be calm (not attacked) for at least 2 months.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "2,222"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Sarkonis Blightpod",
+        "img": "sarkblightpod1.webp",
+        "scrap": {
+            "type": "cr",
+            "min": "12,500",
+            "max": "50,000"
+        },
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Bane"
+                ],
+                "min": "3"
+            },
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Harvest"
+                ],
+                "min": "4"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Upgrade Structure",
+                "original": "Sarkonis Omnipod",
+                "new": "Sarkonis Blightpod"
+            }
+        ],
+        "target": "Your Planet",
+        "desc": "[ Limited Item - Harrowing Blight ]<br>[ Planet Structure - Size:1, Artifact:2, Research:1, Artifact:+2%, Attack:+30%, Population:-80% ]<br>Upgrades an existing Sarkonis Omnipod on your planet to a Sarkonis Blightpod.<br>Counts as a Bane and a Harvest structure.<br>Requires 4+ distinct Harvest structures and 3+ distinct Bane structures on the planet.",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "1,111"
+        }
+    },
+    {
+        "name": "Recruit Reflex Hypertrainer",
+        "buttonText": "Activate",
+        "cost": {
+            "energy": "1,000"
+        },
+        "img": "prisonerxform-t.png",
+        "scrap": {
+            "type": "cr",
+            "min": "6,250",
+            "max": "25,000"
+        },
+        "playerEffects": [
+            {
+                "type": "Add Crew",
+                "crewType": "Tactical",
+                "value": "6,000"
+            }
+        ],
+        "desc": "<i>An efficient training device, the<br>module's design can fully<br>prepare large numbers of recruits very quickly.</i><br>Adds 6000 well-trained Tactical Officers to your ship.",
+        "message": "The new officers begin work immediately.",
+        "target": "Player"
+    },
+    {
+        "name": "T.O. Frontier Redoubt",
+        "tags": [
+            "Harvest"
+        ],
+        "scrap": {
+            "type": "ctp",
+            "min": "2",
+            "max": "5"
+        },
+        "img": "frontierredoubt1.png",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "filters": [
+                    "T.O. Frontier",
+                    "T.O. Pioneer"
+                ]
+            },
+            {
+                "type": "Type",
+                "types": [
+                    "Terra",
+                    "Gaia"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "T.O. Frontier Redoubt"
+            }
+        ],
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:1, Mining:2, Artifact:1, Influence:1, Cloak:404, Cloak:+18%, Population:+20% ]<br>Planet must be Terra or Gaia, with a T.O. Frontier or Pioneer structure built.<br>Limit 1 per planet.",
+        "cost": {
+            "genes": "11"
+        },
+        "buttonText": "Build",
+        "message": "T.O. Frontier Redoubt has been constructed.",
+        "target": "Your Planet"
+    },
+    {
+        "name": "T.O. Pioneer Homestead",
+        "message": "A T.O. Pioneer Homestead has been constructed on the planet.",
+        "scrap": {
+            "type": "ctp",
+            "min": "9",
+            "max": "20"
+        },
+        "img": "pioneerhome1.png",
+        "tags": [
+            "Harvest"
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "T.O. Pioneer Homestead"
+            }
+        ],
+        "desc": "[ Limited Item - Thanksgiving ]<br>[ Planet Structure - Size:2, Mining:3, Artifact:2, Research:2, Influence:1, Production:+4%, Population:+30% ]<br>Can only be built on a new colony, with 3 or fewer structures on it.<br>Limit 1 per planet.",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "2,222"
+        },
+        "restrictions": [
+            {
+                "type": "Development Status",
+                "status": "New Colony"
+            },
+            {
+                "type": "Structure Count",
+                "max": "3"
+            }
+        ],
+        "target": "Your Planet"
+    },
+    {
+        "name": "Thavix Geneworks",
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "29"
+        },
+        "img": "thavixlab1.webp",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "tags": [
+                    "Neutronium"
+                ],
+                "min": "1"
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Thavix Geneworks"
+            }
+        ],
+        "desc": "[ Planet Structure - Size:1, Artifact:2, Research:7, Research Storage:+5200 ]<br>Planet must have at least 1 structure that uses or is built with Neutronium.<br>Can be upgraded with Neutronium and Genes. Limit 1",
+        "cost": {
+            "energy": "22,000",
+            "genes": "11"
+        },
+        "target": "Your Planet"
+    },
+    {
+        "name": "Vearon Credit Chip",
+        "scrap": {
+            "type": "ctp",
+            "min": "50",
+            "max": "100"
+        },
+        "img": "vearonchip1.png",
+        "playerEffects": [
+            {
+                "type": "Increase Mineral Value",
+                "value": "8%"
+            }
+        ],
+        "desc": "<i>A Vearon house chip, accepted across the Galaxy...</i><br>Increases the credits you receive when selling minerals by 8%<br>Lasts 2 hours",
+        "buttonText": "Use",
+        "cost": {
+            "energy": "200"
+        },
+        "target": "Player"
+    },
+    {
+        "name": "Vearon Tumbler",
+        "minigame": "Random",
+        "playerEffects": [
+            {
+                "type": "Increase Production",
+                "value": "6%"
+            }
+        ],
+        "buttonText": "Open",
+        "cost": {
+            "energy": "222"
+        },
+        "desc": "<i>A Vearon strongbox ringed with spinning dials, similar to mechanisms seen in their advanced Casinos.</i><br>Increases all production by 6%<br>Lasts 11 hours",
+        "img": "vearontumbler1.webp",
+        "scrap": {
+            "type": "ctp",
+            "min": "35",
+            "max": "70"
+        },
+        "target": "Player"
+    },
+    {
+        "name": "Vearon Darkpits",
+        "scrap": {
+            "type": "ctp",
+            "min": "34",
+            "max": "68"
+        },
+        "target": "Your Planet",
+        "img": "vearon-m.png",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Metallic",
+                    "Volcanic",
+                    "Barren",
+                    "Demon",
+                    "Machine",
+                    "Ecumenopolis"
+                ]
+            }
+        ],
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Vearon Darkpits"
+            }
+        ],
+        "buttonText": "Build",
+        "cost": {
+            "energy": "420"
+        },
+        "desc": "[ Planet Structure - Size:1, Mining:1 ]<br>Also boosts the planet's mining production by 2%.<br>Can only be built on Metallic, Volcanic, Barren, Demon, Machine and Ecumenopolis planets.<br>(Limit 1 per planet)"
+    },
+    {
+        "name": "Vearon Dataworks",
+        "scrap": {
+            "type": "ctp",
+            "min": "44",
+            "max": "88"
+        },
+        "target": "Your Planet",
+        "img": "vearon-r.png",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Sentient",
+                    "Psionic",
+                    "Oceanic",
+                    "Gas",
+                    "Machine",
+                    "Ecumenopolis"
+                ]
+            }
+        ],
+        "desc": "[ Planet Structure - Size:1, Research:1 ]<br>Also boosts the planet's research production by 2%.<br>Can only be built on Sentient, Psionic, Oceanic, Gas, Machine and Ecumenopolis planets.<br>(Limit 1 per planet)",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "420"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Vearon Promenade"
+            }
+        ]
+    },
+    {
+        "name": "Vearon Promenade",
+        "scrap": {
+            "type": "ctp",
+            "min": "14",
+            "max": "28"
+        },
+        "target": "Your Planet",
+        "img": "vearon-i.png",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Terra",
+                    "Gaia",
+                    "Desert",
+                    "Psionic",
+                    "Machine",
+                    "Ecumenopolis"
+                ]
+            }
+        ],
+        "desc": "[ Planet Structure - Size:1, Influence:1 ]<br>Also boosts the planet's influence production by 2%.<br>Can only be built on Terra, Gaia, Desert, Psionic, Machine and Ecumenopolis planets.<br>(Limit 1 per planet)",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "420"
+        },
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Vearon Promenade"
+            }
+        ]
+    },
+    {
+        "name": "Vearon Treasury",
+        "scrap": {
+            "type": "ctp",
+            "min": "1",
+            "max": "3"
+        },
+        "target": "Your Planet",
+        "img": "vearontreasury.png",
+        "restrictions": [
+            {
+                "type": "Existing Structures",
+                "filters": [
+                    "Vearon"
+                ],
+                "min": "3"
+            }
+        ],
+        "desc": "[ Planet Structure - Size:1, Mining:4, Artifact:4, Influence:1 ]<br>Also boosts all of the planet's production by 4%.<br>Planet must have at least 3 distinct Vearon structures.<br>(Limit 1 per planet)",
+        "buttonText": "Use",
+        "planetEffects": [
+            {
+                "type": "Construct Structure",
+                "structure": "Vearon Treasury"
+            }
+        ]
+    },
+    {
+        "name": "Vearon Underforge",
+        "scrap": {
+            "type": "ctp",
+            "min": "24",
+            "max": "48"
+        },
+        "target": "Your Planet",
+        "img": "vearon-a.png",
+        "restrictions": [
+            {
+                "type": "Type",
+                "types": [
+                    "Crystal",
+                    "Aphotic",
+                    "Sentient",
+                    "Icy",
+                    "Machine",
+                    "Ecumenopolis"
+                ]
+            }
+        ],
+        "desc": "[ Planet Structure - Size:1, Artifact:1 ]<br>Also boosts the planet's artifact production by 2%.<br>Can only be built on Crystal, Aphotic, Sentient, Icy, Machine and Ecumenopolis planets.<br>(Limit 1 per planet)",
+        "buttonText": "Build",
+        "cost": {
+            "energy": "420"
+        }
+    },
+    {
+        "name": "Assassination Contract",
+        "message": "[Player] has placed an Assassination Contract on your ship.",
+        "cost": {
+            "energy": "2,222"
+        },
+        "desc": "[ Temporary Item - Legion Mission ]<br>Fulfills an Assassination Contract on an enemy ship.<br>Can only use if you have disabled this target in the last 60 minutes,<br>but no more than 4 times in the last 24 hours.",
+        "buttonText": "Assassinate",
+        "enemyShipEffects": [
+            {
+                "type": "Assassinated"
+            }
+        ],
+        "target": "Enemy Ship",
+        "scrap": {
+            "type": "cr",
+            "min": "3,000",
+            "max": "12,000"
+        },
+        "img": "asscontract1.png"
     }
 ]

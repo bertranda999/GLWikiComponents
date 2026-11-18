@@ -1791,5 +1791,32 @@
                 "value": "42%"
             }
         ]
+    },
+    {
+        "name": "Harrowing Blight",
+        "seasonalEventTypes": [
+            "Bane",
+            "Harvest"
+        ],
+        "lore": "The Terran Outsiders have turned to using profane and brutal tactics in their expansion, almost as if possessed...",
+        "medals": [
+            "Blighted Harvest",
+            "The Synesthetic Communion"
+        ],
+        "npcs": [
+            "T.O. Blighted Thresher",
+            "Sarkonis, Blighted Reaper"
+        ],
+        "additionalEffectDescription": "Putrid Blight: Colonizations will cost 22% more in credits<br>Strange Mutations: When growing Evolution Genes, you will earn 22% more than usual.",
+        "playerEffects": [
+            {
+                "type": "Reduce Colonization Cost",
+                "value": "22%"
+            },
+            {
+                "type": "Increase Genes Production",
+                "value": "22%"
+            }
+        ]
     }
 ]
